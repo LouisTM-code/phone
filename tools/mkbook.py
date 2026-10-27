@@ -132,9 +132,14 @@ def main():
         title, text = convert(src)
         name = re.sub(r"[^A-Za-z0-9_-]+", "_", os.path.splitext(os.path.basename(src))[0])[:40]
         name = name.strip("_") or "book"
+        title = tidy(title or os.path.splitext(os.path.basename(src))[0].replace("_", " "), 56)
+        level = re.match(r"(A1|A2|B1|B2|C1|C2)_", os.path.basename(src))
+        if level and not title.startswith(level.group(1)):
+            title = f"{level.group(1)}: {title}"
+        title = title.replace("\t", " ")
         # two books with the same name must not overwrite each other
         base, k = name, 2
-        while f"books/{name}.txt" in index and index[f"books/{name}.txt"] != (title or ""):
+        while f"books/{name}.txt" in index and index[f"books/{name}.txt"] != title:
             if not os.path.exists(os.path.join(data_dir, f"books/{name}.txt")):
                 break
             name = f"{base}_{k}"
@@ -145,11 +150,7 @@ def main():
             print(f"{src}: too long for the phone, cut to {len(data) // 1024} KB")
         fn = f"books/{name}.txt"
         open(os.path.join(data_dir, fn), "wb").write(data)
-        title = tidy(title or os.path.splitext(os.path.basename(src))[0].replace("_", " "), 56)
-        level = re.match(r"(A1|A2|B1|B2|C1|C2)_", os.path.basename(src))
-        if level and not title.startswith(level.group(1)):
-            title = f"{level.group(1)}: {title}"
-        index[fn] = title.replace("\t", " ")
+        index[fn] = title
         print(f"{src} -> {fn} ({len(data) // 1024} KB) \"{index[fn]}\"")
     with open(index_path, "w", encoding="utf-8") as f:
         for fn, t in sorted(index.items(), key=lambda x: x[1].lower()):

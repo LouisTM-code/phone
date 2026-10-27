@@ -5,9 +5,7 @@
 extern int app_today;
 
 /* each app returns 0 to go back to the menu, -1 when the system asks to quit */
-int snake_main(void);
 int dict_main(void);
-int chess_main(void);
 int cards_main(void);
 int reader_main(void);
 

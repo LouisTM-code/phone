@@ -8,8 +8,10 @@ FP = fpdoom
 SPD = spreadtrum_flash
 DATA = phone-data
 PY = python3
+# volume label set by sudo/02_format_sd_fat32.sh
+CARD_LABEL ?= BQ3590
 
-.PHONY: all tools apps apps-sd sdboot sdcard sdtest data run clean
+.PHONY: all tools apps apps-sd sdboot sdcard update sdtest data run clean
 
 all: tools apps apps-sd sdboot
 
@@ -40,6 +42,22 @@ sdcard: apps-sd data
 	cp -r $(DATA)/. sdcard/
 	cp $(FP)/apps/apps_sd.bin sdcard/fpbin/fpmain.bin
 	printf -- '--bright 60 apps\n' > sdcard/fpbin/config.txt
+
+# Copy the card image to the phone connected as USB storage. books/ and decks/ are
+# generated, so files missing from the image are deleted there; cards.txt and
+# progress.txt in the card root are written by the phone and stay untouched.
+update: sdcard
+	@dev=/dev/disk/by-label/$(CARD_LABEL); \
+	if [ ! -e $$dev ]; then \
+		echo "Подключите телефон кабелем и выберите режим накопителя (Ctrl-C — отмена)..."; \
+		while [ ! -e $$dev ]; do sleep 1; done; \
+	fi; \
+	mnt=$$(findmnt -n -o TARGET $$dev) || { udisksctl mount -b $$dev >/dev/null && mnt=$$(findmnt -n -o TARGET $$dev); } && \
+	rsync -r --checksum --itemize-changes sdcard/ $$mnt/ && \
+	rsync -r --checksum --itemize-changes --delete sdcard/books/ $$mnt/books/ && \
+	rsync -r --checksum --itemize-changes --delete sdcard/decks/ $$mnt/decks/ && \
+	sync && udisksctl unmount -b $$dev >/dev/null && \
+	echo "Готово: телефон можно отключать."
 
 # Run sdboot from RAM over USB: tests the card without writing the flash.
 sdtest: sdboot

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-App menu (books with word translation, flashcards, dictionary, chess, snake) for the
+App menu (books with word translation, flashcards, dictionary) for the
 **BQ-3590 Step XXL+** feature phone (Unisoc **SC6531E**), bare-metal C on the
 [fpdoom](https://github.com/ilyakurdyukov/fpdoom) runtime. Based on a friend's macOS project
 (`v1_os`), rebuilt on Linux. While an app runs the phone OS is not active.
@@ -12,8 +12,10 @@ App menu (books with word translation, flashcards, dictionary, chess, snake) for
 ## Commands
 
 See `README.md`. Key targets: `make tools`, `make apps` (USB, `LIBC_SDIO=0`), `make apps-sd`
-(SD card, `LIBC_SDIO=3`), `make data`, `make sdcard`, `make run`, `make sdtest`.
+(SD card, `LIBC_SDIO=3`), `make data`, `make sdcard`, `make update` (copy to the phone's card
+over USB storage), `make run`, `make sdtest`.
 `phone-data/` and `sdcard/` are generated; never edit them by hand.
+`archive/chess_snake/` holds the removed chess and snake apps; it is not built.
 
 ## Phone access
 
