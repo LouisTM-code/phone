@@ -38,3 +38,10 @@ over USB storage), `make run`, `make sdtest`.
 - No readdir, RTC, battery level or power-off in the fpdoom API. In SD mode there is no `--day`
   argument, so flashcard scheduling (`app_today`) has no date yet (open issue).
 - The phone's libc has no fgets/strstr; see helpers in `fpdoom/apps/ui.h`.
+
+## Debug log (temporary)
+
+`fpdoom/apps/log.c` writes memory, stack and timings to `log.txt` on the card (stdout over USB);
+`make update` copies it to `logs/log.txt`. Calls go through `log.h` macros only. Remove: build with
+`LOG=0` (after `make clean`), or delete `log.c`/`log.h`, the `LOG` block in `fpdoom/apps/Makefile` and
+the `log_*`/`LOG_*` lines in `main.c`, `reader.c`, `cards.c`, `dictfile.c`.

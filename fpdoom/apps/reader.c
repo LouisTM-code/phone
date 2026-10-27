@@ -4,6 +4,7 @@
 #include "ui.h"
 #include "apps.h"
 #include "dictfile.h"
+#include "log.h"
 
 #define INDEX_FILE "books/index.txt"
 #define PROGRESS_FILE "progress.txt"
@@ -216,6 +217,7 @@ static int read_book(int b) {
 	FILE *fp = fopen(book_files[b], "rb");
 	long size;
 	int page = 0, sel = -1, off, ret = 0;
+	LOG_T0(t0);
 
 	if (!fp) return ui_message("Книги", "Не удалось открыть файл книги.");
 	fseek(fp, 0, SEEK_END);
@@ -234,6 +236,7 @@ static int read_book(int b) {
 	text[text_len_b] = 0;
 	fclose(fp);
 	paginate();
+	LOG_OP(t0, "book_open %s %ldK %dp", book_files[b], size >> 10, npages);
 	if (!npages) { free(text); free(pages); return ui_message("Книги", "Книга пустая."); }
 
 	off = progress_get(book_files[b]);

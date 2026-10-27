@@ -46,6 +46,7 @@ sdcard: apps-sd data
 # Copy the card image to the phone connected as USB storage. books/ and decks/ are
 # generated, so files missing from the image are deleted there; cards.txt and
 # progress.txt in the card root are written by the phone and stay untouched.
+# The debug log (LOG=1) is copied from the card to logs/log.txt.
 update: sdcard
 	@dev=/dev/disk/by-label/$(CARD_LABEL); \
 	if [ ! -e $$dev ]; then \
@@ -53,6 +54,7 @@ update: sdcard
 		while [ ! -e $$dev ]; do sleep 1; done; \
 	fi; \
 	mnt=$$(findmnt -n -o TARGET $$dev) || { udisksctl mount -b $$dev >/dev/null && mnt=$$(findmnt -n -o TARGET $$dev); } && \
+	if [ -f $$mnt/log.txt ]; then mkdir -p logs && cp $$mnt/log.txt logs/log.txt; fi && \
 	rsync -r --checksum --itemize-changes sdcard/ $$mnt/ && \
 	rsync -r --checksum --itemize-changes --delete sdcard/books/ $$mnt/books/ && \
 	rsync -r --checksum --itemize-changes --delete sdcard/decks/ $$mnt/decks/ && \

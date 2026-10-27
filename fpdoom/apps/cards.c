@@ -4,6 +4,7 @@
 #include "ui.h"
 #include "apps.h"
 #include "cards.h"
+#include "log.h"
 
 #define CARDS_FILE "cards.txt"
 #define MAX_CARDS 4000
@@ -39,6 +40,7 @@ static int split_tabs(char *s, char **f, int max) {
 
 int cards_load(void) {
 	char *buf, *pos, *line;
+	LOG_T0(t0);
 	if (loaded) return 0;
 	cards = malloc(MAX_CARDS * sizeof(*cards));
 	if (!cards) return -1;
@@ -68,6 +70,7 @@ int cards_load(void) {
 		ncards++;
 	}
 	free(buf);
+	LOG_OP(t0, "cards_load %d", ncards);
 	return 0;
 }
 
@@ -76,6 +79,7 @@ int cards_save(void) {
 	char *buf, *p;
 	int i;
 	size_t size = 64;
+	LOG_T0(t0);
 	if (!dirty) return 0;
 	/* one big write: every fprintf would be a separate USB request */
 	for (i = 0; i < ncards; i++)
@@ -91,6 +95,7 @@ int cards_save(void) {
 	if (!fp) { free(buf); return -1; }
 	fwrite(buf, 1, p - buf, fp);
 	fclose(fp);
+	LOG_OP(t0, "cards_save %d %uK", ncards, (unsigned)(p - buf) >> 10);
 	free(buf);
 	dirty = 0;
 	return 0;

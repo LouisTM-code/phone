@@ -4,6 +4,7 @@
 #include "gfx.h"
 #include "apps.h"
 #include "cards.h"
+#include "log.h"
 
 #define COL_BG      RGB(18, 18, 28)
 #define COL_HEAD    RGB(60, 60, 100)
@@ -46,12 +47,13 @@ static void draw_menu(int sel) {
 }
 
 int main(int argc, char **argv) {
-	int sel = 0, i;
+	int sel = 0, i, ret;
 
 	for (i = 1; i + 1 < argc; i++)
 		if (!strcmp(argv[i], "--day")) app_today = atoi(argv[i + 1]);
 
 	gfx_init();
+	log_start();
 	printf("apps: screen %ux%u, day %d\n", scr_w, scr_h, app_today);
 
 	for (;;) {
@@ -69,9 +71,13 @@ int main(int argc, char **argv) {
 		if (run < 0) continue;
 		if (!menu[run].run) break;
 		printf("apps: start %s\n", menu[run].name);
-		if (menu[run].run() < 0) break;
+		log_app(menu[run].name);
+		ret = menu[run].run();
+		log_app(NULL);
+		if (ret < 0) break;
 	}
 	cards_save();
+	log_end();
 	gfx_free();
 	return 0;
 }

@@ -54,8 +54,8 @@ python3 tools/anki.py import phone-data КОЛОДА.apkg
 ## Устройство
 
 - `fpdoom/apps/` — программы (C): меню, книги, карточки, словарь
-- `tools/` — конвертеры на Python (словари, книги, колоды Anki); `mkfont.swift` генерирует шрифт
-  и работает только на macOS
+- `tools/` — конвертеры на Python (словари, книги, колоды Anki, кириллица шрифта из
+  `/usr/share/consolefonts/`: `mkfont.py`)
 - `sources/lexicon/` — исходный текст словаря (формат: `sources/LEXICON_FORMAT.md`), `sources/books/` — книги A2-B2
 - `archive/chess_snake/` — убранные из меню шахматы и змейка (не собираются)
 - `docs/hardware.md` — измеренные характеристики телефона, дамп flash, sdboot

@@ -4,6 +4,7 @@
 #include <string.h>
 #include "dictfile.h"
 #include "ui.h"
+#include "log.h"
 
 static FILE *dict_fp;
 static int nwords;
@@ -27,6 +28,7 @@ int dict_open(const char *path) {
 	uint8_t hdr[16];
 	uint32_t head_size, i;
 	char *p;
+	LOG_T0(t0);
 
 	if (dict_fp) return 0;
 	dict_fp = fopen(path, "rb");
@@ -51,6 +53,7 @@ int dict_open(const char *path) {
 		p += strlen(p) + 1;
 	}
 	defs_base = 16 + head_size + (nwords + 1) * 4;
+	LOG_OP(t0, "dict_load %d words", nwords);
 	return 0;
 err:
 	dict_close();
