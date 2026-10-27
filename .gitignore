@@ -2,11 +2,16 @@
 /phone-data/
 /sdcard/
 /logs/
+/games/
 
 # build output
 obj*/
 fpdoom/apps/apps.bin
 fpdoom/apps/apps_sd.bin
+fpdoom/launcher/launcher.bin
+fpdoom/fpdoom/doom.bin
+# third-party Doom sources, see README.md
+fpdoom/doom_src/
 fpdoom/sdboot/sdboot*.bin
 fpdoom/pack_reloc/pack_reloc
 fpdoom/libc_server/libc_server

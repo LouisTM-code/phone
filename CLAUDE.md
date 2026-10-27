@@ -17,6 +17,11 @@ over USB storage), `make run`, `make sdtest`.
 `phone-data/` and `sdcard/` are generated; never edit them by hand.
 `archive/chess_snake/` holds the removed chess and snake apps; it is not built.
 
+Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which runs
+`fpbin/apps.bin` (LSOFT, 1) or `fpbin/doom.bin` (4) by the key held at power on, per
+`fpdoom/launcher/config.txt` (fpmenu syntax, captions are key names). Doom is optional:
+`fpdoom/doom_src/` and `games/` are not in git (README.md).
+
 ## Phone access
 
 - sdboot is installed in the flash (2026-10-27): power on holding LSOFT/1/4 runs

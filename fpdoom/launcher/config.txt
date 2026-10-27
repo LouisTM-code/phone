@@ -1,0 +1,12 @@
+# fpbin/config.txt for the boot launcher (fpbin/fpmain.bin), written by make sdcard.
+# The first line holds the launcher's own arguments, passed on to every item as $@.
+# Only --bright and the like here: --rotate remaps the keys, --dir breaks the paths.
+--bright 60
+
+# Items are named after the keys held at power on: "4", or "4+2" in any order.
+# The first key must be an sdboot key: LSOFT, 1 or 4. With no matching item each
+# held key is tried alone, then "default".
+|LSOFT| fpbin/apps.bin $@ apps
+|1| fpbin/apps.bin $@ apps
+|4| fpbin/doom.bin $@ --rotate 3 --dir games/doom1 doom
+|default| fpbin/apps.bin $@ apps

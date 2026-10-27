@@ -53,6 +53,24 @@ SD card: fpdoom's microfat needs an MBR partition table with FAT32 in partition 
 (a card formatted as a whole-disk FAT32 without partitions is not found). Formatting through the
 phone's USB storage mode: `sudo/02_format_sd_fat32.sh`.
 
+## Boot keys and the launcher (2026-10-27)
+
+Measured with a probe program run by sdboot from the card:
+
+- A program started by sdboot sees the keys still held from power on in `KEYPAD_BASE->key_status`:
+  one byte per key, up to 4 (`0x80` = pressed, low bits = row<<4|col; `0x77` = empty slot).
+  Extra keys show as pressed ~30 ms after start, so the launcher waits 100 ms.
+- The first key must be an sdboot key: LSOFT (`0x10`), 1 (`0x01`) or 4 (`0x11`). Any other key may
+  be held with it (seen: 4+2, 1+8, 4+*, LSOFT+2, 4+8+9). LSOFT combinations sometimes boot the stock
+  firmware instead (sdboot side).
+- Keys pressed while the power key is held come as events with bit 15 set.
+
+`fpdoom/launcher/` (`fpbin/fpmain.bin`) picks the item of `fpbin/config.txt` named after the held
+keys and chain-loads it with fpmenu's loader; the program then gets all of the RAM. Failures:
+missing config, item or binary, or a binary under 256 bytes: exit and reboot to the stock firmware.
+Known limitation (fpmenu's `readbin.c`): an SD read error while loading the chosen binary hangs
+with the screen dark; pull the battery. A truncated binary is not detected either.
+
 ## Display
 
 | Item | Value |

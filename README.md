@@ -9,6 +9,7 @@
 | Книги | чтение английских книг, перевод слова по нажатию, закладки |
 | Карточки | интервальное повторение слов как в Anki, наборы по уровням A1-C1, обмен с Anki |
 | Словарь | англо-русский учебный словарь на ~4100 слов: часть речи, уровень, значения, примеры |
+| Doom | shareware Doom 1 (по желанию, без звука), порт fpdoom |
 
 ## Сборка
 
@@ -32,11 +33,36 @@ sdboot уже установлен во flash (подробности и ком�
 1. Карта: FAT32 в первом разделе MBR. Через телефон в режиме накопителя:
    `sudo sh sudo/02_format_sd_fat32.sh` (стирает карту).
 2. `make sdcard`, затем скопировать содержимое `sdcard/` в корень карты.
-3. Включить телефон, зажав левую софт-клавишу (или `1`, `4`). Без клавиши грузится обычная прошивка.
+3. Включить телефон, зажав клавишу. Без клавиши грузится обычная прошивка.
+
+| Клавиша при включении | Что запускается |
+|---|---|
+| левая софт-клавиша (LSOFT) или `1` | меню |
+| `4` | Doom |
+
+Выбор делает загрузчик `fpbin/fpmain.bin` по таблице `fpdoom/launcher/config.txt` (копируется
+на карту как `fpbin/config.txt`). Первой должна быть зажата LSOFT, `1` или `4` — только их видит
+sdboot; можно добавить вторую клавишу, например пункт `|4+2|`.
 
 Обновление: `make update`, затем подключить телефон кабелем в режиме накопителя. Книги и наборы
 слов на карте заменяются содержимым `sources/` (лишние удаляются), прогресс в `progress.txt`
 и `cards.txt` не трогается.
+
+## Doom (по желанию)
+
+Исходники и данные игры не входят в репозиторий:
+
+```
+git clone --depth 1 https://github.com/id-Software/DOOM.git /tmp/DOOM
+cp -r /tmp/DOOM/linuxdoom-1.10 fpdoom/doom_src
+patch -d fpdoom/doom_src -p1 -i ../doom.patch
+# doom1.wad (shareware 1.9, md5 f0cefca49926d00903cf57551d901abe) — из пакета Debian
+# doom-wad-shareware: dpkg-deb -x doom-wad-shareware_*.deb x
+mkdir -p games/doom1 && cp x/usr/share/games/doom/doom1.wad games/doom1/
+make doom update
+```
+
+Без Doom клавиша `4` перезагружает телефон в обычную прошивку.
 
 ## Запуск по кабелю
 
@@ -54,6 +80,7 @@ python3 tools/anki.py import phone-data КОЛОДА.apkg
 ## Устройство
 
 - `fpdoom/apps/` — программы (C): меню, книги, карточки, словарь
+- `fpdoom/launcher/` — загрузчик: выбор программы по клавише при включении (код запуска из `fpdoom/fpmenu/`)
 - `tools/` — конвертеры на Python (словари, книги, колоды Anki, кириллица шрифта из
   `/usr/share/consolefonts/`: `mkfont.py`)
 - `sources/lexicon/` — исходный текст словаря (формат: `sources/LEXICON_FORMAT.md`), `sources/books/` — книги A2-B2
@@ -63,7 +90,7 @@ python3 tools/anki.py import phone-data КОЛОДА.apkg
 - `fpdoom/`, `spreadtrum_flash/` — библиотеки Ильи Курдюкова (public domain):
   [fpdoom](https://github.com/ilyakurdyukov/fpdoom) @ 296795c,
   [spreadtrum_flash](https://github.com/ilyakurdyukov/spreadtrum_flash) @ 3d05825.
-  Изменения: исправлена сортировка в `pack_reloc.c`, добавлены `fpdoom/apps/` и `spd_dump_fast.c`
+  Изменения: исправлена сортировка в `pack_reloc.c`, добавлены `fpdoom/apps/`, `fpdoom/launcher/` и `spd_dump_fast.c`
   (частый опрос USB и повтор рукопожатия с загрузчиком).
 
 Словарь и книги написаны с помощью ИИ. Дамп прошивки лежит вне репозитория (`../backup_flash/`).
