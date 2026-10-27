@@ -1,0 +1,608 @@
+@needle
+n. B1
+1. игла, иголка - a thin sharp piece of metal for sewing
+   a needle and thread
+
+@negative
+adj. B1
+1. отрицательный, негативный - bad or harmful; saying no
+   a negative answer
+   Don't be so negative!
+
+@neglect
+v. B2
+1. пренебрегать, запускать - to not look after properly
+   The garden had been neglected.
+
+@neighbour
+n. A2
+1. сосед, соседка - a person who lives near you
+   Our neighbours are very friendly. - Наши соседи очень дружелюбные.
+
+@neighbourhood
+n. B1
+1. район, окрестности - the area around you
+   a quiet neighbourhood
+
+@neither
+det., pron. B1
+1. ни тот ни другой, ни один (из двух) - not one and not the other
+   Neither answer is right. - Ни один ответ не верен.
+adv. B1
+2. тоже не - also not
+   "I can't swim." "Neither can I." - "Я не умею плавать." "Я тоже."
+conj. B1
+3. ни... ни - neither... nor
+   Neither John nor Mary came.
+
+@nephew
+n. B1
+1. племянник - the son of your brother or sister
+   My nephew is ten.
+
+@nerve
+n. B2
+1. нерв - a thin line in the body that carries feelings
+2. смелость, наглость - courage; rude boldness
+   He didn't have the nerve to tell her.
+   What a nerve!
+3. нервы (мн.) - feeling nervous
+   I need something to calm my nerves.
+phr. get on someone's nerves - действовать на нервы
+
+@nervous
+adj. A2
+1. нервный, взволнованный - worried and a little afraid
+   I always get nervous before exams. - Я всегда нервничаю перед экзаменами.
+
+@nest
+n. B1
+1. гнездо - a home that a bird builds
+   a bird's nest
+
+@net
+n. B1
+1. сеть, сетка - material with holes, used to catch fish, etc.
+   a fishing net
+2. Интернет - the Internet
+   I found it on the net.
+
+@network
+n. B1
+1. сеть - a system of connected lines or people
+   a road network; a network of friends
+
+@never
+adv. A1
+1. никогда - not at any time
+   I never eat meat. - Я никогда не ем мясо.
+2. вовсе не, так и не - not (strong)
+   He never said a word.
+phr. never mind - ничего, не важно
+
+@nevertheless
+adv. B2
+1. тем не менее, всё же - in spite of this
+   It was raining. Nevertheless, we went out.
+
+@new
+adj. A1
+1. новый - recently made or bought
+   a new car - новая машина
+2. новый, незнакомый - not known before
+   new words; I'm new here.
+
+@news
+n. A1
+1. новости, известие - information about recent events
+   Have you heard the news? - Ты слышал новость?
+   That's good news!
+
+@newspaper
+n. A1
+1. газета - printed sheets with news
+   He was reading a newspaper. - Он читал газету.
+
+@next
+adj., adv. A1
+1. следующий - coming just after
+   next week - на следующей неделе
+2. потом, затем - after this
+   What happened next? - Что случилось потом?
+phr. next to - рядом с
+   Sit next to me. - Садись рядом со мной.
+
+@nice
+adj. A1
+1. приятный, хороший, милый - pleasant, good
+   Have a nice day! - Хорошего дня!
+   She's a nice girl.
+
+@niece
+n. B1
+1. племянница - the daughter of your brother or sister
+
+@night
+n. A1
+1. ночь; вечер - the time when it is dark
+   at night - ночью
+   Good night! - Спокойной ночи!
+
+@nightmare
+n. B1
+1. кошмар, страшный сон - a very bad dream
+   I had a nightmare last night.
+2. кошмар (о ситуации) - a very bad experience
+   The journey was a nightmare.
+
+@no
+excl. A1
+1. нет - used to answer negatively
+   "Are you tired?" "No." - "Ты устал?" "Нет."
+det. A1
+2. никакой, нет - not any
+   I have no money. - У меня нет денег.
+   No smoking. - Не курить.
+adv. A2
+3. не (более) - not
+   no longer - больше не
+
+@noble
+adj. B2
+1. благородный - good, honest and brave
+   a noble act
+2. знатный, дворянский - from a high social class
+   a noble family
+
+@nobody
+pron. A2
+1. никто - no person
+   Nobody knows. - Никто не знает.
+
+@nod
+v. B1
+1. кивать - to move your head up and down
+   She nodded and smiled. - Она кивнула и улыбнулась.
+n. B1
+2. кивок - this movement
+
+@noise
+n. A2
+1. шум - a sound, often loud and unpleasant
+   Don't make a noise! - Не шуми!
+
+@noisy
+adj. A2
+1. шумный - making a lot of noise
+   noisy children
+
+@none
+pron. B1
+1. ни один, никто, ничего - not one; not any
+   None of them came. - Никто из них не пришёл.
+phr. none of your business - не твоё дело
+
+@nonsense
+n. B1
+1. ерунда, чепуха - stupid words or ideas
+   Nonsense! - Ерунда!
+   Don't talk nonsense.
+
+@noon
+n. B1
+1. полдень - twelve o'clock in the day
+   at noon - в полдень
+
+@nor
+conj. B1
+1. ни; и не, тоже не - and not
+   neither hot nor cold - ни жарко, ни холодно
+   "I don't like it." "Nor do I." - "Мне не нравится." "Мне тоже."
+
+@normal
+adj. A2
+1. обычный, нормальный - ordinary, as expected
+   It's normal to feel tired. - Чувствовать усталость - нормально.
+
+@normally
+adv. A2
+1. обычно - usually
+   I normally get up at seven.
+
+@north
+n., adj., adv. A1
+1. север; северный; на север - the direction to your left when you face the rising sun
+   They went north. - Они пошли на север.
+
+@northern
+adj. B1
+1. северный - in or from the north
+   northern Europe
+
+@nose
+n. A1
+1. нос - the part of the face you smell with
+   He broke his nose. - Он сломал нос.
+
+@not
+adv. A1
+1. не - used to make a sentence negative
+   I'm not hungry. - Я не голоден.
+phr. not at all - совсем не; не за что
+phr. not only... but also - не только... но и
+
+@note
+n. A1
+1. записка, заметка - a short letter or written message
+   She left me a note. - Она оставила мне записку.
+2. записи, конспект - things written down to help you remember
+   He took notes during the lesson.
+3. банкнота - paper money
+   a ten-pound note
+4. нота - a musical sound
+v. B1
+5. замечать, отмечать - to notice; to pay attention to
+   Note that the shop is closed on Sundays.
+phr. note down - записать
+
+@notebook
+n. A2
+1. тетрадь, блокнот - a small book for writing notes
+
+@nothing
+pron. A1
+1. ничего, ничто - not anything
+   There's nothing in the box. - В коробке ничего нет.
+phr. nothing but - только, ничего кроме
+phr. for nothing - даром; зря
+phr. have nothing to do with - не иметь отношения к
+
+@notice
+v. A2
+1. замечать - to see or become aware of
+   Did you notice anything strange? - Ты заметил что-нибудь странное?
+n. B1
+2. объявление - a written sign giving information
+   a notice on the door
+3. внимание - attention
+   Take no notice of him. - Не обращай на него внимания.
+4. предупреждение - warning that something will happen
+   at short notice - в последний момент
+
+@notion
+n. B2
+1. понятие, представление - an idea
+   He had no notion of time.
+
+@novel
+n. A2
+1. роман - a long story in a book
+   She's writing her first novel. - Она пишет свой первый роман.
+
+@now
+adv. A1
+1. сейчас, теперь - at this time
+   Where are you now? - Где ты сейчас?
+2. ну, итак - used to get attention
+   Now, listen to me.
+phr. right now - прямо сейчас
+phr. now and then - время от времени
+phr. from now on - отныне, с этого момента
+
+@nowadays
+adv. B1
+1. в наше время, сейчас - at the present time
+   Nowadays people use phones for everything.
+
+@nowhere
+adv. B1
+1. нигде, никуда - not anywhere
+   There was nowhere to sit. - Сесть было некуда.
+phr. in the middle of nowhere - у чёрта на куличках
+
+@nuisance
+n. B2
+1. неприятность, досада; зануда - an annoying thing or person
+   What a nuisance!
+
+@numb
+adj. B2
+1. онемевший, оцепеневший - unable to feel
+   My fingers were numb with cold.
+
+@number
+n. A1
+1. номер, число, цифра - a word or symbol like 1, 2, 3
+   What's your phone number? - Какой у тебя номер телефона?
+2. количество - an amount
+   a large number of people
+
+@numerous
+adj. B2
+1. многочисленный - many
+   on numerous occasions
+
+@nurse
+n. A1
+1. медсестра, медбрат - a person who cares for sick people
+   She works as a nurse. - Она работает медсестрой.
+v. B2
+2. ухаживать (за больным) - to care for a sick person
+
+@nursery
+n. B1
+1. детский сад, ясли - a place where small children are cared for
+2. детская (комната) - a child's room
+
+@nut
+n. A2
+1. орех - a hard fruit with a shell
+   I'm allergic to nuts.
+2. гайка - a small metal ring used with a bolt
+
+@oak
+n. B2
+1. дуб - a large tree with hard wood
+   an old oak tree
+
+@oath
+n. C1
+1. клятва, присяга - a serious promise
+   He took an oath to tell the truth.
+
+@obedient
+adj. B2
+1. послушный - doing what you are told
+   an obedient dog
+
+@obey
+v. B1
+1. слушаться, подчиняться - to do what you are told
+   The dog obeyed his master.
+
+@object
+n. B1
+1. предмет, вещь - a thing you can see or touch
+   a strange object in the sky
+2. цель - aim
+   The object of the game is to score goals.
+v. B2
+3. возражать, протестовать - to say you do not agree
+   She objected to the plan.
+
+@obliged
+adj. B2
+1. обязанный, вынужденный - having to do something
+   I felt obliged to help.
+2. благодарный - grateful
+   I'm much obliged to you.
+
+@observation
+n. B2
+1. наблюдение - watching carefully
+   He was kept under observation.
+2. замечание - a remark
+
+@observe
+v. B2
+1. наблюдать - to watch carefully
+   He observed the people around him.
+2. замечать, заметить (сказать) - to notice; to say
+   "It's late," she observed.
+
+@obstacle
+n. B2
+1. препятствие - something in your way
+   an obstacle to success
+
+@obtain
+v. B2
+1. получать, добывать - to get
+   He obtained a passport.
+
+@obvious
+adj. B1
+1. очевидный, явный - easy to see or understand
+   It was obvious that she was lying.
+
+@obviously
+adv. B1
+1. очевидно, явно, конечно - clearly
+   Obviously, he was angry.
+
+@occasion
+n. B1
+1. случай, раз - a time when something happens
+   I met him on several occasions.
+2. событие, торжество - a special event
+   a special occasion
+
+@occasional
+adj. B2
+1. случайный, редкий - happening sometimes
+   an occasional visitor
+
+@occasionally
+adv. B1
+1. иногда, изредка - sometimes, not often
+   We occasionally go to the theatre.
+
+@occupation
+n. B2
+1. профессия, занятие - a job
+   What's your occupation?
+2. оккупация - taking control of a country
+
+@occupy
+v. B2
+1. занимать - to fill a space or time
+   Is this seat occupied? - Это место занято?
+2. оккупировать, захватить - to take control of a country
+   The town was occupied by soldiers.
+
+@occur
+v. B1
+1. происходить, случаться - to happen
+   The accident occurred at night.
+2. приходить в голову - to come into your mind
+   It never occurred to me. - Мне это и в голову не приходило.
+
+@ocean
+n. A2
+1. океан - a very large area of sea
+   the Pacific Ocean
+
+@odd
+adj. B1
+1. странный, необычный - strange
+   That's odd. - Странно.
+2. нечётный - not divisible by two
+   odd numbers
+3. непарный - not part of a pair
+   odd socks
+
+@of
+prep. A1
+1. (родительный падеж) - belonging to, part of
+   the end of the film - конец фильма
+   a cup of tea - чашка чаю
+2. из - made from; one of
+   a ring of gold; one of my friends
+3. о - about
+   I think of you. - Я думаю о тебе.
+
+@off
+adv., prep. A1
+1. с, от (прочь от) - away from a place or surface
+   He fell off the horse. - Он упал с лошади.
+   Get off the bus.
+2. выключено - not working, not on
+   Turn the light off. - Выключи свет.
+3. отменён; выходной - not happening; not at work
+   The meeting is off. I have a day off.
+4. прочь, уйти - leaving
+   I'm off. - Я пошёл.
+
+@offence
+n. B2
+1. преступление, правонарушение - a crime
+   a serious offence
+2. обида - feeling upset
+   No offence, but... - Не обижайся, но...
+phr. take offence - обидеться
+
+@offend
+v. B2
+1. обижать, оскорблять - to make someone upset
+   I'm sorry if I offended you.
+
+@offer
+v. A2
+1. предлагать - to say you will give or do something
+   He offered to help. - Он предложил помочь.
+   She offered me a cup of tea.
+n. B1
+2. предложение - something offered
+   a job offer
+
+@office
+n. A1
+1. офис, кабинет, контора - a room or building where people work
+   She works in an office. - Она работает в офисе.
+2. должность, власть - an important position
+   He was in office for ten years.
+
+@officer
+n. A2
+1. офицер - a person with high rank in the army
+2. полицейский - a police officer
+   Thank you, officer.
+3. чиновник, служащий - a person with a position in an organization
+
+@official
+adj. B1
+1. официальный - from the government or someone in authority
+   an official report
+n. B2
+2. должностное лицо, чиновник - a person in authority
+
+@often
+adv. A1
+1. часто - many times
+   I often go there. - Я часто туда хожу.
+   How often? - Как часто?
+
+@oh
+excl. A1
+1. о!, ой!, ах! - used to show surprise, fear, etc.
+   Oh no! - О нет!
+
+@oil
+n. A2
+1. нефть - a thick liquid from under the ground
+2. масло (растительное, машинное) - liquid fat used in cooking or machines
+   olive oil - оливковое масло
+
+@okay
+excl., adj. A1
+1. ладно, хорошо, нормально - all right (also: OK)
+   "Is that okay?" "Okay." - "Ничего?" "Хорошо."
+
+@old
+adj. A1
+1. старый - having lived for a long time
+   an old man - старик
+2. (сколько) лет - used to say someone's age
+   How old are you? - Сколько тебе лет?
+3. прежний, бывший - from the past
+   my old school
+
+@old-fashioned
+adj. A2
+1. старомодный - not modern
+   old-fashioned clothes
+
+@olive
+n. B1
+1. оливка, маслина - a small green or black fruit
+   olive oil - оливковое масло
+
+@on
+prep. A1
+1. на - touching the top of something
+   The book is on the table. - Книга на столе.
+2. в (о днях, датах) - used with days and dates
+   on Monday - в понедельник
+3. о, про - about
+   a book on history
+adv. A1
+4. включено - working
+   The TV is on. - Телевизор включён.
+5. дальше, вперёд - continuing
+   Go on. - Продолжай. Walk on.
+6. надето - wearing
+   Put your coat on. - Надень пальто.
+
+@once
+adv. A2
+1. однажды, когда-то - at some time in the past
+   Once upon a time... - Жили-были...
+2. один раз - one time
+   once a week - раз в неделю
+conj. B1
+3. как только - as soon as
+   Once you know the rules, it's easy.
+phr. at once - сразу, немедленно; одновременно
+phr. once again / once more - ещё раз
+
+@one
+num. A1
+1. один - the number 1
+   one apple - одно яблоко
+pron. A1
+2. тот, та, то (заменяет сущ.) - used instead of a noun
+   I like the red one. - Мне нравится красный.
+3. кто-то, человек (обобщённо) - people in general
+   One never knows. - Никогда не знаешь.
+phr. one another - друг друга
+phr. one by one - один за другим, по одному

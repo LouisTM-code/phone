@@ -1,0 +1,673 @@
+# Словарь: одна строка = "english|перевод". Строки с # пропускаются.
+# После правки пересоберите программу (make), список отсортируется сам.
+a lot|много
+able|способный
+about|о, об; около
+above|над, выше
+accept|принимать
+across|через, поперёк
+act|действовать; поступок
+add|добавлять
+address|адрес
+afraid|испуганный
+after|после
+afternoon|день, после полудня
+again|снова, опять
+against|против
+age|возраст
+ago|тому назад
+agree|соглашаться
+air|воздух
+airport|аэропорт
+all|все, весь
+allow|позволять
+almost|почти
+alone|один, одинокий
+already|уже
+also|также, тоже
+always|всегда
+among|среди
+and|и
+angry|сердитый
+animal|животное
+answer|ответ; отвечать
+any|любой, какой-нибудь
+anyone|кто-нибудь
+anything|что-нибудь
+apple|яблоко
+area|область, район
+arm|рука (от кисти до плеча)
+around|вокруг
+arrive|прибывать
+art|искусство
+ask|спрашивать, просить
+autumn|осень
+away|прочь, далеко
+baby|младенец
+back|спина; назад
+bad|плохой
+bag|сумка
+ball|мяч
+bank|банк; берег
+bath|ванна
+be|быть
+beach|пляж
+bear|медведь; терпеть
+beautiful|красивый
+because|потому что
+become|становиться
+bed|кровать
+before|до, перед
+begin|начинать
+behind|позади
+believe|верить
+below|ниже, под
+best|лучший
+better|лучше
+between|между
+big|большой
+bike|велосипед
+bird|птица
+birthday|день рождения
+black|чёрный
+blood|кровь
+blue|синий, голубой
+boat|лодка
+body|тело
+book|книга
+born|рождённый
+borrow|брать взаймы
+both|оба
+bottle|бутылка
+bottom|дно, низ
+box|коробка
+boy|мальчик
+brain|мозг
+bread|хлеб
+break|ломать; перерыв
+breakfast|завтрак
+bridge|мост
+bright|яркий
+bring|приносить
+brother|брат
+brown|коричневый
+build|строить
+building|здание
+burn|гореть, жечь
+bus|автобус
+business|бизнес, дело
+busy|занятой
+but|но
+butter|масло (сливочное)
+buy|покупать
+by|у, около; посредством
+cake|торт, пирожное
+call|звонить; звать
+camera|фотоаппарат
+can|мочь; банка
+car|машина, автомобиль
+card|карта, открытка
+care|забота; заботиться
+careful|осторожный
+carry|нести
+cat|кошка
+catch|ловить
+cause|причина
+century|век, столетие
+chair|стул
+change|менять; сдача
+cheap|дешёвый
+check|проверять
+cheese|сыр
+chicken|курица
+child|ребёнок
+children|дети
+choose|выбирать
+city|город
+class|класс, урок
+clean|чистый; чистить
+clear|ясный
+clever|умный
+climb|подниматься, лезть
+clock|часы (настенные)
+close|закрывать; близкий
+clothes|одежда
+cloud|облако
+coat|пальто
+coffee|кофе
+cold|холодный; простуда
+colour|цвет
+come|приходить
+company|компания
+computer|компьютер
+continue|продолжать
+cook|готовить; повар
+cool|прохладный; классный
+corner|угол
+cost|стоить; стоимость
+could|мог бы
+count|считать
+country|страна; деревня
+course|курс
+cow|корова
+cry|плакать; кричать
+cup|чашка
+cut|резать
+dance|танцевать
+danger|опасность
+dark|тёмный
+daughter|дочь
+day|день
+dead|мёртвый
+dear|дорогой, милый
+decide|решать
+deep|глубокий
+die|умирать
+different|разный, другой
+difficult|трудный
+dinner|ужин, обед
+dirty|грязный
+do|делать
+doctor|врач
+dog|собака
+door|дверь
+down|вниз
+draw|рисовать
+dream|мечта, сон
+dress|платье; одеваться
+drink|пить; напиток
+drive|водить машину
+dry|сухой
+during|во время
+each|каждый
+ear|ухо
+early|рано, ранний
+earth|земля
+east|восток
+easy|лёгкий, простой
+eat|есть, кушать
+egg|яйцо
+empty|пустой
+end|конец
+enemy|враг
+enjoy|наслаждаться
+enough|достаточно
+evening|вечер
+ever|когда-либо
+every|каждый
+everyone|все, каждый
+everything|всё
+example|пример
+expensive|дорогой
+explain|объяснять
+eye|глаз
+face|лицо
+fact|факт
+fall|падать; осень
+family|семья
+famous|знаменитый
+far|далеко
+farm|ферма
+fast|быстрый, быстро
+fat|толстый; жир
+father|отец
+favourite|любимый
+fear|страх
+feel|чувствовать
+few|мало, несколько
+field|поле
+fight|драться; борьба
+fill|наполнять
+film|фильм
+find|находить
+fine|хороший; штраф
+finger|палец
+finish|заканчивать
+fire|огонь, пожар
+first|первый
+fish|рыба
+floor|пол; этаж
+flower|цветок
+fly|летать; муха
+follow|следовать
+food|еда
+foot|ступня, нога
+for|для, за
+forest|лес
+forget|забывать
+fork|вилка
+free|свободный; бесплатный
+fresh|свежий
+friend|друг
+from|из, от
+front|перед
+fruit|фрукт
+full|полный
+fun|веселье
+funny|смешной
+future|будущее
+game|игра
+garden|сад
+get|получать
+girl|девочка
+give|давать
+glass|стекло; стакан
+go|идти, ехать
+gold|золото
+good|хороший
+grandfather|дедушка
+grandmother|бабушка
+grass|трава
+great|великий, отличный
+green|зелёный
+grey|серый
+ground|земля, почва
+group|группа
+grow|расти
+guess|угадывать
+hair|волосы
+half|половина
+hand|рука (кисть)
+happen|случаться
+happy|счастливый
+hard|твёрдый; трудный
+hat|шляпа
+hate|ненавидеть
+have|иметь
+he|он
+head|голова
+health|здоровье
+hear|слышать
+heart|сердце
+heavy|тяжёлый
+hello|привет, здравствуйте
+help|помогать; помощь
+her|её
+here|здесь, сюда
+high|высокий
+hill|холм
+him|его, ему
+his|его
+history|история
+hit|ударять
+hold|держать
+holiday|праздник; отпуск
+home|дом
+hope|надеяться
+horse|лошадь
+hospital|больница
+hot|горячий, жаркий
+hotel|гостиница
+hour|час
+house|дом
+how|как
+hungry|голодный
+hurry|спешить
+hurt|причинять боль
+husband|муж
+i|я
+ice|лёд
+idea|идея
+if|если
+ill|больной
+important|важный
+in|в
+inside|внутри
+interesting|интересный
+into|в (внутрь)
+invite|приглашать
+island|остров
+it|оно, это
+job|работа
+join|присоединяться
+journey|путешествие
+juice|сок
+jump|прыгать
+just|только что; просто
+keep|хранить, держать
+key|ключ
+kill|убивать
+kind|добрый; вид
+king|король
+kitchen|кухня
+knife|нож
+know|знать
+lake|озеро
+language|язык
+large|большой
+last|последний
+late|поздно, поздний
+laugh|смеяться
+learn|учить, узнавать
+leave|уходить, оставлять
+left|левый; налево
+leg|нога
+lesson|урок
+let|позволять
+letter|письмо; буква
+library|библиотека
+lie|лежать; лгать
+life|жизнь
+light|свет; лёгкий
+like|нравиться; как
+listen|слушать
+little|маленький; мало
+live|жить
+long|длинный, долгий
+look|смотреть
+lose|терять, проигрывать
+loud|громкий
+love|любить; любовь
+low|низкий
+luck|удача
+lunch|обед
+machine|машина, механизм
+make|делать
+man|мужчина, человек
+many|много
+map|карта
+market|рынок
+marry|жениться, выходить замуж
+matter|дело, вопрос
+may|мочь (разрешение)
+me|меня, мне
+meal|еда, приём пищи
+mean|значить
+meat|мясо
+meet|встречать
+middle|середина
+milk|молоко
+mind|ум, разум
+minute|минута
+miss|скучать; пропускать
+mistake|ошибка
+money|деньги
+month|месяц
+moon|луна
+more|больше
+morning|утро
+most|самый, больше всего
+mother|мать
+mountain|гора
+mouth|рот
+move|двигать
+much|много
+music|музыка
+must|должен
+my|мой
+name|имя
+near|рядом, около
+need|нуждаться
+never|никогда
+new|новый
+news|новости
+next|следующий
+nice|приятный, милый
+night|ночь
+no|нет
+noise|шум
+north|север
+nose|нос
+not|не
+nothing|ничего
+now|сейчас
+number|номер, число
+of|из (родительный падеж)
+off|выключено; прочь
+office|офис
+often|часто
+old|старый
+on|на
+once|однажды
+only|только
+open|открывать; открытый
+or|или
+orange|апельсин; оранжевый
+order|порядок; заказ
+other|другой
+our|наш
+out|вне, наружу
+outside|снаружи
+over|над; через
+own|собственный
+page|страница
+paint|краска; рисовать
+paper|бумага
+parents|родители
+park|парк
+part|часть
+party|вечеринка
+pass|проходить; сдавать
+past|прошлое
+pay|платить
+pen|ручка
+pencil|карандаш
+people|люди
+perhaps|возможно
+person|человек
+phone|телефон
+picture|картина, фото
+piece|кусок
+place|место
+plan|план
+plane|самолёт
+plant|растение
+play|играть
+please|пожалуйста
+pocket|карман
+point|точка; указывать
+poor|бедный
+possible|возможный
+potato|картофель
+practice|практика
+prefer|предпочитать
+prepare|готовить
+present|подарок; настоящее
+pretty|симпатичный
+price|цена
+problem|проблема
+pull|тянуть
+push|толкать
+put|класть
+question|вопрос
+quick|быстрый
+quiet|тихий
+rain|дождь
+read|читать
+ready|готовый
+real|настоящий
+remember|помнить
+repeat|повторять
+rest|отдых
+rich|богатый
+ride|ехать верхом
+right|правый; правильный
+ring|кольцо; звонить
+river|река
+road|дорога
+room|комната
+round|круглый
+run|бегать
+sad|грустный
+safe|безопасный
+salt|соль
+same|одинаковый, тот же
+say|говорить, сказать
+school|школа
+sea|море
+season|время года
+second|второй; секунда
+see|видеть
+sell|продавать
+send|отправлять
+sentence|предложение
+serious|серьёзный
+shop|магазин
+short|короткий
+should|следует
+show|показывать
+shut|закрывать
+sick|больной
+side|сторона
+simple|простой
+since|с (времени)
+sing|петь
+sister|сестра
+sit|сидеть
+skin|кожа
+sky|небо
+sleep|спать
+slow|медленный
+small|маленький
+smell|запах; пахнуть
+smile|улыбка; улыбаться
+snow|снег
+so|так
+soft|мягкий
+some|некоторый, немного
+someone|кто-то
+something|что-то
+sometimes|иногда
+son|сын
+song|песня
+soon|скоро
+sorry|извините
+sound|звук
+soup|суп
+south|юг
+speak|говорить
+spend|тратить; проводить
+spoon|ложка
+sport|спорт
+spring|весна
+stand|стоять
+star|звезда
+start|начинать
+station|станция, вокзал
+stay|оставаться
+still|всё ещё
+stone|камень
+stop|останавливать
+story|рассказ, история
+street|улица
+strong|сильный
+student|студент
+study|учиться
+sugar|сахар
+summer|лето
+sun|солнце
+sure|уверенный
+surprise|сюрприз
+sweet|сладкий
+swim|плавать
+table|стол
+take|брать
+talk|разговаривать
+tall|высокий
+taste|вкус
+tea|чай
+teach|учить, преподавать
+teacher|учитель
+tell|рассказывать
+test|тест, проверка
+than|чем
+thank|благодарить
+thank you|спасибо
+that|тот, что
+the|определённый артикль
+their|их
+them|их, им
+then|тогда, потом
+there|там, туда
+they|они
+thing|вещь
+think|думать
+thirsty|испытывающий жажду
+this|этот
+through|через, сквозь
+throw|бросать
+ticket|билет
+time|время; раз
+tired|уставший
+to|к, в; чтобы
+today|сегодня
+together|вместе
+tomorrow|завтра
+tonight|сегодня вечером
+too|тоже; слишком
+tooth|зуб
+top|верх
+town|город, городок
+toy|игрушка
+train|поезд
+travel|путешествовать
+tree|дерево
+true|правдивый, верный
+try|пытаться
+turn|поворачивать
+ugly|уродливый
+umbrella|зонт
+under|под
+understand|понимать
+until|до тех пор пока
+up|вверх
+us|нас, нам
+use|использовать
+useful|полезный
+usually|обычно
+very|очень
+village|деревня
+visit|посещать
+voice|голос
+wait|ждать
+wake|просыпаться
+walk|гулять, ходить
+wall|стена
+want|хотеть
+warm|тёплый
+wash|мыть
+watch|смотреть; часы
+water|вода
+way|путь, способ
+we|мы
+weak|слабый
+wear|носить (одежду)
+weather|погода
+week|неделя
+weekend|выходные
+well|хорошо; колодец
+west|запад
+wet|мокрый
+what|что
+when|когда
+where|где, куда
+which|который
+white|белый
+who|кто
+why|почему
+wide|широкий
+wife|жена
+win|выигрывать
+wind|ветер
+window|окно
+winter|зима
+wish|желать; желание
+with|с
+without|без
+woman|женщина
+wonderful|чудесный
+word|слово
+work|работа; работать
+world|мир
+worry|беспокоиться
+write|писать
+wrong|неправильный
+year|год
+yellow|жёлтый
+yes|да
+yesterday|вчера
+yet|ещё; уже
+you|ты, вы
+young|молодой
+your|твой, ваш
+zero|ноль

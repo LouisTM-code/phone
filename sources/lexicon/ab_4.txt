@@ -1,0 +1,547 @@
+@avoid
+v. A2
+1. избегать - keep away from
+   He avoided my eyes. - Он избегал моего взгляда.
+2. избегать, не делать - try not to do
+   Avoid eating late.
+
+@await
+v. C1
+1. ждать, ожидать - wait for
+   A surprise awaited them.
+
+@awake
+adj. B1
+1. бодрствующий, не спящий - not sleeping
+   Are you still awake? - Ты ещё не спишь?
+v. (awoke, awoken) C1
+2. просыпаться, будить - wake up
+
+@award
+n. A2
+1. награда, премия - a prize
+   She won an award.
+v. B1
+2. награждать, присуждать - give a prize
+
+@aware
+adj. B1
+1. знающий, осознающий (be aware of) - knowing about
+   I wasn't aware of the problem. - Я не знал о проблеме.
+
+@awareness
+n. B2
+1. осознание, осведомлённость - knowing about something
+
+@away
+adv. A1
+1. прочь, в сторону - to another place
+   Go away! - Уходи!
+2. на расстоянии - at a distance
+   The sea is two miles away. - Море в двух милях отсюда.
+3. в отъезде - not at home
+   She is away this week.
+4. постоянно, без остановки - continuously
+   He was working away.
+
+@awe
+n. C1
+1. благоговение, трепет - respect mixed with fear or wonder
+   They looked at the mountain in awe.
+
+@awful
+adj. A2
+1. ужасный, отвратительный - very bad
+   The food was awful. - Еда была ужасная.
+2. очень, ужасно (an awful lot) - very much
+   I feel awful. - Мне очень плохо.
+
+@awkward
+adj. B2
+1. неловкий, неуклюжий - not graceful
+   an awkward movement
+2. неловкий, неудобный (ситуация) - embarrassing
+   an awkward silence
+
+@axe
+n. B2
+1. топор - a tool for cutting wood
+
+@baby
+n. A1
+1. младенец, малыш - a very young child
+   She's going to have a baby. - У неё будет ребёнок.
+2. детёныш - a young animal
+3. детка, милая (обращение) - darling
+
+@back
+n. A1
+1. спина - the back part of the body
+   I have a pain in my back. - У меня болит спина.
+2. задняя часть, конец - the part furthest from the front
+   at the back of the room
+adv. A1
+3. назад, обратно - to where you were before
+   Come back soon! - Возвращайся скорее!
+adj. A2
+4. задний - at the back
+   the back door
+phr. back up - поддерживать; делать копию
+
+@background
+n. B1
+1. фон, задний план - the part behind the main things
+   a noise in the background
+2. происхождение, образование - family, education, experience
+
+@backpack
+n. A2
+1. рюкзак - a bag you carry on your back
+
+@backwards
+adv. B1
+1. назад, задом - towards the back
+   He took a step backwards.
+2. в обратном порядке - in the opposite order
+
+@bacon
+n. A2
+1. бекон - salty meat from a pig
+   bacon and eggs
+
+@bad
+adj. (worse, worst) A1
+1. плохой - not good
+   bad news - плохие новости
+2. сильный, серьёзный - serious
+   a bad cold - сильная простуда
+3. вредный (bad for) - harmful
+   Smoking is bad for you.
+4. испорченный - not fresh
+   The milk has gone bad.
+
+@badge
+n. B2
+1. значок, бейдж - a small sign worn on clothes
+
+@badly
+adv. A2
+1. плохо - not well
+   He sings badly. - Он плохо поёт.
+2. сильно, очень - very much, seriously
+   badly hurt
+
+@bag
+n. A1
+1. сумка, пакет - a container for carrying things
+   a plastic bag - пластиковый пакет
+2. мешки (под глазами) - dark skin under eyes
+
+@baggage
+n. B1
+1. багаж - bags for travelling
+
+@bake
+v. A2
+1. печь, выпекать - cook in an oven
+   She baked a cake. - Она испекла торт.
+
+@bakery
+n. A2
+1. пекарня, булочная - a shop that bakes and sells bread
+
+@balance
+n. B1
+1. равновесие - a steady position
+   I lost my balance and fell.
+2. баланс, остаток (на счёте) - money left in an account
+v. B2
+3. удерживать равновесие - keep steady
+
+@balcony
+n. A2
+1. балкон - a platform outside an upper window
+
+@bald
+adj. B2
+1. лысый - having no hair on the head
+
+@ball
+n. A1
+1. мяч, шар - a round object for games
+   Throw the ball! - Брось мяч!
+2. бал - a big formal dance
+
+@ballet
+n. B1
+1. балет - a kind of dance that tells a story
+
+@balloon
+n. B1
+1. воздушный шар(ик) - a rubber bag filled with air
+
+@ban
+v. B1
+1. запрещать - say officially that something is not allowed
+   Smoking is banned here.
+n. B1
+2. запрет
+
+@banana
+n. A1
+1. банан - a long yellow fruit
+
+@band
+n. A1
+1. группа (музыкальная) - a group of musicians
+   a rock band
+2. полоса, лента - a thin strip
+   a rubber band - резинка
+3. банда, отряд - a group of people
+
+@bandage
+n. B2
+1. бинт, повязка - cloth tied around a wound
+
+@bang
+n. B2
+1. удар, грохот - a sudden loud noise
+   The door shut with a bang.
+v. B2
+2. стучать, хлопать - hit or close noisily
+   He banged on the door.
+
+@bank
+n. A1
+1. банк - a place that keeps money
+   I need to go to the bank. - Мне нужно в банк.
+2. берег (реки) - the ground by a river
+   on the river bank
+
+@bar
+n. A2
+1. бар - a place to buy and drink alcohol
+2. плитка, брусок - a long piece of something
+   a bar of chocolate - плитка шоколада
+3. прут, решётка - a metal rod
+   iron bars on the windows
+
+@barbecue
+n. A2
+1. барбекю, гриль; пикник с жаркой - cooking food outside over fire
+
+@barber
+n. B1
+1. парикмахер (мужской) - a man who cuts men's hair
+
+@bare
+adj. B2
+1. голый, босой - not covered
+   bare feet - босые ноги
+2. пустой - empty
+   bare walls
+
+@barefoot
+adj. B2
+1. босиком, босой - without shoes
+   The children ran barefoot.
+
+@barely
+adv. B2
+1. едва, еле-еле - only just
+   I could barely hear him.
+
+@bargain
+n. B1
+1. выгодная покупка - something bought cheap
+   It's a bargain!
+2. сделка - an agreement
+v. B2
+3. торговаться - argue about a price
+
+@bark
+v. B2
+1. лаять - make the sound a dog makes
+n. B2
+2. лай - the sound of a dog
+3. кора - the outside of a tree
+
+@barn
+n. B2
+1. амбар, сарай - a farm building for animals or hay
+
+@barrel
+n. B2
+1. бочка - a big round wooden container
+2. ствол (ружья) - the tube of a gun
+
+@barrier
+n. B2
+1. барьер, преграда - a fence or wall that stops people
+2. препятствие - something that stops progress
+   a language barrier
+
+@base
+n. B1
+1. основание, низ - the bottom part
+   at the base of the tree
+2. база - a main place (army etc.)
+   an army base
+v. B1
+3. основывать (be based on) - use as the starting point
+   The film is based on a book.
+
+@baseball
+n. A1
+1. бейсбол - a game with a bat and ball
+
+@basement
+n. B1
+1. подвал, цокольный этаж - a room below the ground
+
+@basic
+adj. B1
+1. основной, базовый - simple, most important
+   basic skills
+2. простой, без излишеств - simple, without extras
+
+@basically
+adv. B1
+1. в основном, по сути - in the most important ways
+   Basically, he's a nice guy.
+
+@basin
+n. C1
+1. раковина, таз - a bowl for washing
+2. бассейн (реки) - land around a river
+
+@basis
+n. B2
+1. основа - the main reason or facts
+2. ежедневно (on a daily basis) - every day
+
+@basket
+n. A2
+1. корзина - a container made of thin sticks
+   a basket of apples
+
+@bat
+n. B1
+1. бита, ракетка - a stick to hit a ball
+2. летучая мышь - a small flying animal active at night
+
+@bath
+n. A1
+1. ванна - a large container to wash your body in
+   I'm having a bath. - Я принимаю ванну.
+2. купание (в ванне) - washing in a bath
+
+@bathe
+v. C1
+1. купать(ся); промывать - wash; swim
+   She bathed the baby.
+
+@bathroom
+n. A1
+1. ванная (комната) - a room with a bath or shower
+2. туалет (амер.) - a toilet
+
+@battery
+n. A2
+1. батарейка, аккумулятор - a thing that gives electricity
+   My phone battery is dead.
+
+@battle
+n. A2
+1. битва, сражение - a fight between armies
+   He died in battle.
+2. борьба - a struggle
+v. B2
+3. бороться - fight hard
+   She battled with cancer.
+
+@bay
+n. B2
+1. залив, бухта - part of the sea partly closed by land
+
+@be
+v. (was/were, been) A1
+1. быть, являться - (describes someone or something)
+   I am a teacher. - Я учитель.
+   She is tired. - Она устала.
+2. находиться, быть (где-то) - be in a place
+   Where are you? - Где ты?
+3. (вспомогательный глагол) - used to make tenses
+   He is reading. - Он читает.
+4. есть, имеется (there is/are)
+   There is a cat in the garden. - В саду кошка.
+
+@beach
+n. A1
+1. пляж - land with sand near the sea
+   We went to the beach. - Мы пошли на пляж.
+
+@beak
+n. C1
+1. клюв - the hard mouth of a bird
+
+@beam
+n. B2
+1. луч - a line of light
+   a beam of sunlight
+2. балка - a long piece of wood in a roof
+v. C1
+3. сиять (улыбкой) - smile happily
+
+@bean
+n. A1
+1. боб, фасоль - a seed you can eat
+   green beans
+2. зерно (кофе) - a coffee bean
+
+@bear
+v. (bore, borne) B1
+1. терпеть, выносить (can't bear) - accept something bad
+   I can't bear this noise. - Я не выношу этот шум.
+2. нести, выдерживать (вес) - carry, support
+3. рожать - give birth to
+n. A1
+4. медведь - a big wild animal with thick fur
+phr. bear in mind - иметь в виду, помнить
+
+@beard
+n. B1
+1. борода - hair on a man's chin
+   a long grey beard
+
+@beast
+n. B2
+1. зверь, животное - a big or wild animal
+2. скотина, чудовище - a cruel person
+
+@beat
+v. (beat, beaten) A2
+1. побеждать, обыгрывать - win against
+   We beat them 3-0. - Мы обыграли их 3:0.
+2. бить, колотить - hit many times
+   He was beaten by robbers.
+3. биться (о сердце) - make a regular movement
+   My heart was beating fast.
+n. B1
+4. ритм, удар - a regular sound; rhythm
+   the beat of the drums
+
+@beautiful
+adj. A1
+1. красивый, прекрасный - very nice to look at or hear
+   a beautiful girl - красивая девушка
+
+@beauty
+n. B1
+1. красота - being beautiful
+2. красавица - a beautiful woman
+
+@because
+conj. A1
+1. потому что - for the reason that
+   I stayed home because I was ill. - Я остался дома, потому что заболел.
+2. из-за (because of) - as a result of
+   We were late because of the rain.
+
+@become
+v. (became, become) A1
+1. становиться, стать - start to be
+   He became a doctor. - Он стал врачом.
+   It's becoming cold. - Становится холодно.
+2. стать (become of) - happen to
+   What became of him? - Что с ним стало?
+
+@bed
+n. A1
+1. кровать, постель - a thing to sleep on
+   go to bed - ложиться спать
+   He's still in bed. - Он ещё в постели.
+2. дно (моря, реки) - the bottom of the sea or a river
+3. клумба, грядка - a piece of garden for plants
+
+@bedroom
+n. A1
+1. спальня - a room for sleeping
+   a house with three bedrooms
+
+@bee
+n. A2
+1. пчела - a flying insect that makes honey
+
+@beef
+n. A2
+1. говядина - meat from a cow
+
+@beer
+n. A1
+1. пиво - an alcoholic drink
+   a glass of beer - стакан пива
+
+@beetle
+n. B2
+1. жук - an insect with a hard shiny back
+
+@before
+prep. A1
+1. до, перед - earlier than
+   before lunch - перед обедом
+2. прежде чем - earlier than the time when
+   Wash your hands before you eat.
+adv. A1
+3. раньше, прежде - at an earlier time
+   I've seen him before. - Я видел его раньше.
+4. перед (местом) - in front of
+   He stood before the king.
+
+@beforehand
+adv. B2
+1. заранее - before something happens
+   Tell me beforehand.
+
+@beg
+v. B1
+1. умолять, просить - ask very strongly
+   She begged him to stay. - Она умоляла его остаться.
+2. просить милостыню - ask for money or food
+
+@beggar
+n. B2
+1. нищий - a person who asks for money in the street
+
+@begin
+v. (began, begun) A1
+1. начинать(ся) - start
+   The film begins at eight. - Фильм начинается в восемь.
+   It began to rain. - Пошёл дождь.
+
+@beginner
+n. A2
+1. начинающий, новичок - a person who is just starting
+   an English class for beginners
+
+@beginning
+n. A1
+1. начало - the first part
+   at the beginning of the book - в начале книги
+
+@behalf
+n. B2
+1. от имени (on behalf of) - for someone, instead of them
+   I'm writing on behalf of my father.
+
+@behave
+v. A2
+1. вести себя - act in a certain way
+   He behaved badly. - Он плохо себя вёл.
+2. вести себя хорошо - be polite and good
+   Behave yourself!
+
+@behaviour
+n. A2
+1. поведение - the way someone acts
+   I'm sorry for my behaviour. (US: behavior)

@@ -1,0 +1,93 @@
+!!! entry
+malloc heap: 4139816 bytes
+keymap = 0x1009f684
+bootkey = 0x01 (DIAL)
+pinmap = 0x1009ba34
+scan_firmware: 432ms
+chip_id: num = 0x65620001, num_ex = 3
+chip_id: ver = 0xa0002
+chip_id: smc = 0xd01
+chip_id: adi = 0x1161a000
+LCD: pins = 0x2014, 0x2014, 0x2014, 0x2014
+LCD: clk_rate = 104000000
+LCD: id = 0x009340
+argc = 1
+[0] = fptest
+ARM: id = 0x41069265, cache = 0x1d112112
+57 frames in 1010 ms
+1 frame in 17.719 ms
+56.435 frames per second
+sys_wait_us(100000): 100ms
+sfc: cs1 start = 0x00
+sfc: id = 0xc86016
+flash vendor: GigaDevice
+flash name: GD25LQ32B
+sfc: sr1 = 0x38
+sfc: sr2 = 0x02
+sfc: SFDP data
+53 46 44 50 05 01 00 ff 00 05 01 10 80 00 00 ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+e5 20 f1 ff ff ff ff 01 44 eb 08 6b 08 3b 42 bb
+fe ff ff ff ff ff 00 ff ff ff 44 eb 0c 20 0f 52
+10 d8 00 ff 52 92 f1 fe 81 6a 15 44 ec 62 16 33
+7a 75 7a 75 04 b3 d5 5c 19 06 11 00 08 10 00 00
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff
+sfc_compare: ret = 0
+sfc_read check: 131071 / 131071
+usbio raw read: 1048576 bytes in 1387 ms
+usbio raw write: 1048576 bytes in 1608 ms
+sdio: high speed enabled
+sdio raw read: 1048576 bytes in 277 ms
+0x01 ("DIAL") release
+0x08 ("LSOFT") release
+0x31 ("1") press
+0x31 ("1") release
+0x32 ("2") press
+0x32 ("2") release
+0x33 ("3") press
+0x33 ("3") release
+0x34 ("4") press
+0x34 ("4") release
+0x35 ("5") press
+0x35 ("5") release
+0x36 ("6") press
+0x36 ("6") release
+0x37 ("7") press
+0x37 ("7") release
+0x38 ("8") press
+0x38 ("8") release
+0x39 ("9") press
+0x39 ("9") release
+0x2a ("STAR") press
+0x2a ("STAR") release
+0x30 ("0") press
+0x30 ("0") release
+0x23 ("HASH") press
+0x39 ("9") press
+0x39 ("9") release
+0x23 ("HASH") release
+0x0d ("CENTER") press
+0x0d ("CENTER") release
+0x04 ("UP") press
+0x04 ("UP") release
+0x06 ("LEFT") press
+0x06 ("LEFT") release
+0x05 ("DOWN") press
+0x05 ("DOWN") release
+0x07 ("RIGHT") press
+0x07 ("RIGHT") release
+0x09 ("RSOFT") press
+0x09 ("RSOFT") release
+0x08 ("LSOFT") press
+0x08 ("LSOFT") release
+0x01 ("DIAL") press
+0x01 ("DIAL") release

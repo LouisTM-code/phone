@@ -1,0 +1,717 @@
+@conflict
+n. B1
+1. конфликт, столкновение - a serious disagreement or fight
+   the conflict between the two countries
+v. B2
+2. противоречить - be different and not agree
+   His story conflicts with hers.
+
+@confront
+v. B2
+1. противостоять, сталкиваться (с проблемой) - face a problem or person
+   She confronted her fears.
+   He was confronted by a man with a gun.
+2. предъявлять (обвинение), бросать в лицо - face someone with an accusation
+   I confronted him with the evidence.
+
+@confuse
+v. B1
+1. сбивать с толку, запутывать - make someone unable to understand
+   The question confused me.
+2. путать - think one thing is another
+   People often confuse me with my brother.
+
+@confused
+adj. A2
+1. сбитый с толку, растерянный - not able to understand
+   I'm confused - what do you mean? - Я запутался - что ты имеешь в виду?
+
+@confusing
+adj. A2
+1. запутанный, непонятный - hard to understand
+   The instructions are confusing.
+
+@confusion
+n. B1
+1. замешательство, путаница - a state of not understanding
+   There was some confusion about the date.
+2. беспорядок, суматоха - chaos
+   In the confusion, he escaped.
+
+@congratulate
+v. B1
+1. поздравлять - tell someone you are happy about their success
+   I congratulated her on her new job.
+
+@congratulations
+n. A2
+1. поздравляю!, поздравления - words to someone who has done well
+   Congratulations on your wedding! - Поздравляю со свадьбой!
+
+@connect
+v. A2
+1. соединять, подключать - join together
+   Connect the printer to the computer.
+2. связывать - see a link between things
+   Police connected him with the crime.
+
+@connection
+n. B1
+1. связь - a link between things
+   There is no connection between the two events.
+2. соединение, подключение - joining to a network
+   an internet connection
+3. пересадка, стыковочный рейс - a train or plane you change to
+   I missed my connection.
+
+@conquer
+v. B2
+1. завоёвывать, покорять - take control of by force
+   The Romans conquered Britain.
+2. побороть, преодолеть - beat a problem
+   She conquered her fear of flying.
+
+@conscience
+n. B2
+1. совесть - the feeling of what is right and wrong
+   He has a guilty conscience. - У него нечиста совесть.
+
+@conscious
+adj. B2
+1. в сознании - awake and able to understand
+   Is the patient conscious?
+2. сознающий, понимающий - aware
+   She was conscious of his eyes on her.
+3. сознательный, намеренный - done on purpose
+   a conscious decision
+
+@consciousness
+n. B2
+1. сознание - the state of being awake
+   He lost consciousness. - Он потерял сознание.
+
+@consent
+n. B2
+1. согласие, разрешение - permission
+   They married without her father's consent.
+v. B2
+2. соглашаться - agree
+   He consented to the plan.
+
+@consequence
+n. B1
+1. последствие - a result of an action
+   You must accept the consequences.
+2. значение, важность - importance
+   It's of no consequence.
+
+@consequently
+adv. B2
+1. следовательно, поэтому - as a result
+   He was ill and consequently missed the exam.
+
+@conservation
+n. B2
+1. охрана (природы), сохранение - protecting nature or old buildings
+   wildlife conservation
+
+@conservative
+adj. B1
+1. консервативный - not liking change
+   My parents are very conservative.
+2. осторожный, заниженный (об оценке) - lower than the real amount
+   a conservative estimate
+
+@consider
+v. B1
+1. обдумывать, рассматривать - think about carefully
+   I'm considering moving to Paris.
+2. считать (кого-то кем-то) - think of as
+   I consider him my friend.
+3. учитывать, принимать во внимание - think about something when deciding
+   You must consider her feelings.
+
+@considerable
+adj. B2
+1. значительный, немалый - large, great
+   a considerable amount of money
+
+@considerably
+adv. B2
+1. значительно, намного - much, a lot
+   It's considerably colder today.
+
+@consideration
+n. B2
+1. рассмотрение, обдумывание - careful thought
+   After careful consideration, we said yes.
+2. внимание, уважение (к другим) - care for others' feelings
+   He shows no consideration for others.
+phr. take into consideration - принимать во внимание
+   Take his age into consideration.
+
+@consist
+v. B1
+1. состоять (из) - be made of
+   The team consists of five players.
+   Breakfast consisted of bread and tea.
+
+@consistent
+adj. B2
+1. последовательный, постоянный - always the same
+   He's been consistent in his work.
+2. согласующийся - in agreement with
+   Her story is consistent with the facts.
+
+@conspiracy
+n. B2
+1. заговор - a secret plan by a group to do something wrong
+   a conspiracy to kill the king
+
+@constable
+n. B2
+1. констебль, полицейский (брит.) - a police officer of the lowest rank
+   Constable Jones arrived at the scene.
+
+@constant
+adj. B1
+1. постоянный, непрерывный - happening all the time
+   constant noise
+2. неизменный - staying the same
+   a constant temperature
+
+@constantly
+adv. B1
+1. постоянно - all the time
+   She is constantly complaining.
+
+@constitution
+n. B2
+1. конституция - the basic laws of a country
+   the American Constitution
+2. здоровье, телосложение - the health of your body
+   He has a strong constitution.
+
+@construct
+v. B1
+1. строить, сооружать - build
+   They constructed a new bridge.
+2. составлять (фразу, теорию) - make from parts
+   construct a sentence
+
+@construction
+n. B1
+1. строительство - the process of building
+   The road is under construction.
+2. сооружение, конструкция - a building or structure
+   a wooden construction
+
+@consult
+v. B2
+1. консультироваться, советоваться - ask for advice
+   You should consult a doctor.
+2. справляться (в книге, карте) - look for information in
+   He consulted the map.
+
+@consultant
+n. B2
+1. консультант - an expert who gives advice
+   a financial consultant
+2. врач-консультант (брит.) - a senior hospital doctor
+   She is a heart consultant.
+
+@consume
+v. B2
+1. потреблять, расходовать - use
+   The car consumes a lot of fuel.
+2. съедать, поглощать - eat or drink
+   He consumed a whole pizza.
+3. охватывать (о чувстве, огне) - fill completely
+   He was consumed by jealousy.
+
+@consumer
+n. B1
+1. потребитель - a person who buys things
+   consumer rights - права потребителей
+
+@contact
+n. B1
+1. контакт, связь - communication with someone
+   We lost contact after school. - Мы потеряли связь после школы.
+2. прикосновение, соприкосновение - touching
+   Avoid contact with the skin.
+3. знакомый (полезный), контакт - a person you know who can help
+   He has contacts in the government.
+v. B1
+4. связываться - call or write to someone
+   Contact me by email.
+
+@contain
+v. A2
+1. содержать, вмещать - have inside
+   The box contained old letters. - В коробке были старые письма.
+2. сдерживать - control a feeling
+   She couldn't contain her anger.
+
+@container
+n. B1
+1. контейнер, ёмкость - a box, bottle, etc. for holding things
+   a plastic container
+
+@contemplate
+v. B2
+1. обдумывать, размышлять - think about deeply
+   He contemplated leaving his job.
+2. созерцать, разглядывать - look at for a long time
+   She stood contemplating the sea.
+
+@contemporary
+adj. B2
+1. современный - modern
+   contemporary art
+2. того же времени, современник - living at the same time
+   Shakespeare's contemporaries
+
+@contempt
+n. B2
+1. презрение - a feeling that someone is worthless
+   She looked at him with contempt.
+
+@content
+n. B1
+1. содержимое (обычно мн. ч.) - the things inside something
+   He emptied the contents of his pockets.
+2. содержание - the subject or ideas in a book, film, etc.
+   the content of the article
+   a table of contents - оглавление
+adj. B2
+3. довольный - happy and satisfied
+   She was content with her life.
+
+@contest
+n. B1
+1. конкурс, соревнование - a competition
+   a beauty contest
+2. борьба - a fight for power
+   the contest for the presidency
+v. B2
+3. оспаривать - argue against
+   He contested the decision.
+
+@context
+n. B1
+1. контекст - the words around a word that help explain it
+   Guess the meaning from the context.
+2. обстановка, обстоятельства - the situation in which something happens
+   in the context of the war
+
+@continent
+n. A2
+1. континент, материк - one of the large land masses of the world
+   Africa is a huge continent.
+
+@continue
+v. A2
+1. продолжать(ся) - keep doing; not stop
+   Please continue. - Пожалуйста, продолжайте.
+   The rain continued all night.
+2. продолжать (путь) - go further
+   We continued along the road.
+
+@continuous
+adj. B1
+1. непрерывный, постоянный - without stopping
+   continuous rain
+
+@contract
+n. B1
+1. контракт, договор - a legal written agreement
+   He signed a two-year contract.
+v. B2
+2. сокращаться, сжиматься - become smaller
+   Metal contracts as it cools.
+3. заразиться (болезнью) - get an illness
+   She contracted malaria.
+
+@contrary
+adj. B2
+1. противоположный - opposite
+   contrary opinions
+phr. on the contrary - наоборот
+   "Are you tired?" - "On the contrary, I feel great."
+
+@contrast
+n. B1
+1. контраст, различие - a clear difference
+   the contrast between rich and poor
+v. B2
+2. сравнивать, противопоставлять - compare to show differences
+   Contrast the two poems.
+phr. in contrast - напротив, в отличие от
+   In contrast, his sister is very quiet.
+
+@contribute
+v. B2
+1. вносить вклад, жертвовать - give money or help
+   Everyone contributed ten dollars.
+2. способствовать - help to cause
+   Stress contributed to his illness.
+
+@contribution
+n. B2
+1. вклад, пожертвование - something you give or do to help
+   a contribution to science
+
+@control
+n. A2
+1. контроль, управление, власть - the power to make decisions or direct something
+   He lost control of the car. - Он потерял управление машиной.
+2. самообладание - control of your feelings
+   She lost control and screamed.
+phr. under control - под контролем
+   Everything is under control.
+v. B1
+3. управлять, контролировать - have power over
+   She controls the business.
+4. сдерживать - limit or hold back
+   Try to control your temper.
+
+@controversial
+adj. B2
+1. спорный, вызывающий споры - causing much disagreement
+   a controversial decision
+
+@controversy
+n. B2
+1. спор, разногласия - public disagreement
+   The decision caused controversy.
+
+@convenient
+adj. B1
+1. удобный - easy, useful, causing no problems
+   Is 5 o'clock convenient for you? - Вам удобно в 5 часов?
+2. расположенный рядом - near and easy to reach
+   The hotel is convenient for the station.
+
+@convention
+n. B2
+1. условность, обычай - a usual way of behaving
+   social conventions
+2. съезд, конференция - a large meeting
+   a sales convention
+
+@conventional
+adj. B2
+1. обычный, традиционный - following usual ideas
+   a conventional family
+
+@conversation
+n. A1
+1. разговор, беседа - a talk between people
+   We had a long conversation. - У нас был долгий разговор.
+
+@convert
+v. B2
+1. превращать, переделывать - change into another form
+   They converted the barn into a house.
+2. обращать (в веру) - change religion
+   He converted to Islam.
+
+@convey
+v. B2
+1. передавать, выражать (мысль, чувство) - communicate
+   Words cannot convey my feelings.
+2. перевозить - carry
+   Pipes convey water to the town.
+
+@convict
+v. B2
+1. осуждать, признавать виновным - decide in court that someone is guilty
+   He was convicted of theft.
+n. B2
+2. осуждённый, заключённый - a person in prison
+   an escaped convict
+
+@conviction
+n. B2
+1. убеждение, уверенность - a strong belief
+   She spoke with conviction.
+2. судимость, осуждение - a court decision that someone is guilty
+   He has two convictions for theft.
+
+@convince
+v. B1
+1. убеждать - make someone believe something
+   She convinced me that she was right.
+2. уговаривать - persuade
+   He convinced me to go.
+
+@cook
+v. A1
+1. готовить (еду) - make food
+   My father cooks dinner. - Мой папа готовит ужин.
+2. вариться, готовиться - be cooked
+   The rice is cooking.
+n. A2
+3. повар - a person who cooks
+   She's a good cook. - Она хорошо готовит.
+
+@cooker
+n. A2
+1. плита (кухонная, брит.) - a stove for cooking
+   a gas cooker
+
+@cookie
+n. A1
+1. печенье (амер.) - a sweet biscuit
+   chocolate chip cookies
+
+@cooking
+n. A1
+1. готовка, кулинария - making food
+   I love cooking. - Я люблю готовить.
+2. кухня, стряпня - food that is cooked
+   my mother's cooking
+
+@cool
+adj. A1
+1. прохладный - a bit cold
+   a cool breeze - прохладный ветерок
+2. классный, крутой (разг.) - fashionable, very good
+   That's a cool jacket! - Классная куртка!
+3. спокойный, невозмутимый - calm
+   Keep cool.
+4. холодный, сдержанный - unfriendly
+   a cool welcome
+v. B1
+5. охлаждать(ся), остывать - make or become colder
+   Let the cake cool.
+phr. cool down - остыть; успокоиться
+   Wait until he cools down.
+
+@cooperate
+v. B2
+1. сотрудничать - work together
+   The two countries cooperated.
+2. содействовать, помогать - do what someone asks
+   He refused to cooperate with the police.
+
+@cooperation
+n. B2
+1. сотрудничество - working together
+   Thank you for your cooperation.
+
+@cop
+n. B1
+1. полицейский, коп (разг.) - a police officer
+   Call the cops!
+
+@cope
+v. B2
+1. справляться - deal with a problem successfully
+   How do you cope with stress?
+   She couldn't cope any more.
+
+@copper
+n. B2
+1. медь - a reddish-brown metal
+   copper wire
+
+@copy
+n. A2
+1. копия - a thing made to look like another
+   Make a copy of this letter.
+2. экземпляр - one book, newspaper, etc.
+   I bought a copy of the book.
+v. A2
+3. копировать, переписывать - make a copy
+   Copy the words into your notebook.
+4. подражать - do the same as someone
+   He copies everything his brother does.
+
+@cord
+n. B2
+1. верёвка, шнур - thin rope or string
+   The parcel was tied with cord.
+2. провод - an electric wire
+   a phone cord
+
+@core
+n. B2
+1. сердцевина (яблока) - the hard middle part of fruit
+   an apple core
+2. суть, ядро - the central or most important part
+   the core of the problem
+phr. to the core - до мозга костей
+   He's loyal to the core.
+
+@corn
+n. B1
+1. кукуруза (амер.) - a tall plant with yellow seeds
+   corn on the cob
+2. зерно (брит.) - grain such as wheat
+   fields of corn
+
+@corner
+n. A1
+1. угол - a place where two lines, walls or streets meet
+   in the corner of the room - в углу комнаты
+   at the corner of the street - на углу улицы
+2. уголок - a quiet or far part of a place
+   every corner of the world
+phr. around the corner - за углом; совсем скоро
+   Christmas is just around the corner.
+v. B2
+3. загнать в угол - trap
+   The police cornered him.
+
+@corporation
+n. B2
+1. корпорация - a large company
+   a multinational corporation
+
+@corpse
+n. B2
+1. труп - a dead body
+   They found a corpse in the river.
+
+@correct
+adj. A1
+1. правильный, верный - right, without mistakes
+   the correct answer - правильный ответ
+v. A2
+2. исправлять - make right
+   Correct my mistakes, please. - Исправь, пожалуйста, мои ошибки.
+
+@correctly
+adv. A2
+1. правильно - in the right way
+   You answered correctly.
+
+@correspond
+v. B2
+1. соответствовать - match or be similar
+   The figures don't correspond.
+2. переписываться - write letters to each other
+   They corresponded for years.
+
+@corridor
+n. B1
+1. коридор - a long narrow passage in a building
+   He walked down the corridor. - Он прошёл по коридору.
+
+@corrupt
+adj. B2
+1. продажный, коррумпированный - dishonest, taking bribes
+   corrupt officials
+v. B2
+2. развращать, портить - make someone bad
+   Power corrupts.
+
+@cost
+n. A2
+1. стоимость, цена - the amount of money needed
+   the cost of living
+2. цена (потери) - what you lose to get something
+   He saved her at the cost of his own life.
+v. (cost, cost) A1
+3. стоить - have a price
+   How much does it cost? - Сколько это стоит?
+phr. at all costs - любой ценой
+   We must win at all costs.
+
+@costly
+adj. B2
+1. дорогой, дорогостоящий - costing a lot
+   a costly mistake
+
+@costume
+n. B1
+1. костюм (маскарадный, сценический) - clothes worn to look like someone else
+   a Halloween costume
+2. одежда, костюм (эпохи, страны) - clothes typical of a time or place
+   national costume
+
+@cosy
+adj. B2
+1. уютный - warm and comfortable
+   a cosy little room
+
+@cottage
+n. B1
+1. коттедж, домик (сельский) - a small house in the country
+   They rent a cottage by the sea.
+
+@cotton
+n. B1
+1. хлопок, хлопчатобумажная ткань - cloth made from a plant
+   a cotton shirt
+2. вата - soft white material
+   cotton wool
+
+@couch
+n. B1
+1. диван - a long soft seat for several people
+   He fell asleep on the couch.
+
+@cough
+v. B1
+1. кашлять - push air out of your throat with a noise
+   He coughed all night. - Он кашлял всю ночь.
+n. B1
+2. кашель - an act or illness of coughing
+   a bad cough
+
+@could
+modal v. A1
+1. мог, умел (прош. вр. от can) - was able to
+   I could swim when I was five. - Я умел плавать в пять лет.
+2. мог бы - would be able to
+   I could help you tomorrow.
+3. можно ли... ? (вежливая просьба) - polite request
+   Could you open the window? - Не могли бы вы открыть окно?
+4. может быть, возможно - possibly
+   It could rain later.
+
+@council
+n. B1
+1. совет (орган власти) - a group elected to govern a town
+   the city council - городской совет
+
+@count
+v. A1
+1. считать, пересчитывать - say numbers in order; find the total
+   Count to ten. - Посчитай до десяти.
+2. считаться, иметь значение - be important
+   Every minute counts.
+n. B2
+3. граф (титул) - a nobleman
+   Count Dracula
+4. подсчёт - an act of counting
+   lose count - сбиться со счёта
+phr. count on - рассчитывать на
+   You can count on me.
+
+@counter
+n. B1
+1. прилавок, стойка - a long flat surface in a shop or bank
+   The woman behind the counter smiled.
+2. фишка - a small piece used in board games
+   Move your counter three squares.
+
+@countless
+adj. B2
+1. бесчисленный - very many
+   I've told you countless times.
+
+@country
+n. A1
+1. страна - a nation with its own government
+   Russia is a big country. - Россия - большая страна.
+2. сельская местность - land outside towns
+   They live in the country. - Они живут за городом.
+
+@countryside
+n. A2
+1. сельская местность, природа - land away from towns
+   the beautiful English countryside

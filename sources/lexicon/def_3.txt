@@ -1,0 +1,593 @@
+@duck
+n. A2
+1. утка - a water bird
+   The children fed the ducks. - Дети кормили уток.
+v. B2
+2. пригнуться, увернуться - move your head down quickly
+   He ducked to avoid the ball.
+
+@due
+adj. B1
+1. ожидаемый (по плану) - expected to happen or arrive
+   The train is due at five.
+2. подлежащий оплате - must be paid
+   The rent is due today.
+phr. due to - из-за, вследствие
+   The game was cancelled due to rain.
+
+@dull
+adj. B2
+1. скучный - not interesting
+   The film was dull.
+2. тусклый, пасмурный - not bright
+   a dull grey day
+3. тупой, ноющий (о боли) - not sharp
+   a dull pain
+
+@dumb
+adj. B2
+1. глупый (разг.) - stupid
+   That was a dumb idea.
+2. немой - not able to speak
+   He was struck dumb with surprise.
+
+@dump
+v. B2
+1. сваливать, бросать - put down carelessly; throw away
+   He dumped his bag on the floor.
+2. бросить (парня, девушку) - end a relationship (informal)
+n. B2
+3. свалка - a place for rubbish
+4. дыра, помойка (о месте) - a dirty ugly place
+
+@during
+prep. A1
+1. во время, в течение - while something happens
+   He fell asleep during the film. - Он уснул во время фильма.
+
+@dusk
+n. C1
+1. сумерки - the time when it gets dark
+   The lights came on at dusk.
+
+@dust
+n. B1
+1. пыль - dry dirt in small pieces
+   The books were covered in dust.
+v. B2
+2. вытирать пыль - clean dust from
+   She dusted the shelves.
+
+@duty
+n. B1
+1. долг, обязанность - something you must do
+   It's my duty to help.
+2. пошлина - tax on goods
+phr. on duty / off duty - на дежурстве / не на службе
+
+@each
+det. A1
+1. каждый - every one of two or more
+   Each child got a present. - Каждый ребёнок получил подарок.
+pron. A1
+2. каждый - every one
+   The apples cost 50p each.
+phr. each other - друг друга
+   They love each other. - Они любят друг друга.
+
+@eager
+adj. B2
+1. жаждущий, полный желания - wanting very much
+   She was eager to help.
+
+@ear
+n. A1
+1. ухо - part of the head you hear with
+   He whispered in her ear. - Он прошептал ей на ухо.
+2. слух (музыкальный) - ability to hear music
+   She has a good ear for music.
+
+@early
+adj. A1
+1. ранний - near the start of a time
+   in the early morning - ранним утром
+adv. A1
+2. рано - before the usual time
+   I got up early. - Я встал рано.
+
+@earn
+v. A2
+1. зарабатывать - get money for work
+   He earns a lot of money. - Он много зарабатывает.
+2. заслуживать - get because you deserve it
+   She earned their respect.
+
+@earth
+n. A2
+1. Земля (планета) - the planet we live on
+   The Earth goes round the sun. - Земля вращается вокруг Солнца.
+2. земля, почва - soil
+phr. what / where on earth...? - что / где же, чёрт возьми...?
+
+@earthquake
+n. B1
+1. землетрясение - a sudden shaking of the ground
+   The city was destroyed by an earthquake.
+
+@ease
+n. B2
+1. лёгкость - no difficulty
+   He passed the test with ease.
+phr. at ease - непринуждённо, спокойно
+v. B2
+2. облегчать, ослаблять - make less painful or less strong
+   The pills eased the pain.
+
+@easily
+adv. A2
+1. легко - without difficulty
+   I can do it easily. - Я легко могу это сделать.
+
+@east
+n. A1
+1. восток - the direction where the sun comes up
+   The wind is from the east. - Ветер с востока.
+adj. A2
+2. восточный - in or from the east
+adv. A2
+3. на восток - towards the east
+   We drove east.
+
+@eastern
+adj. B1
+1. восточный - in or from the east
+   Eastern Europe
+
+@easy
+adj. A1
+1. лёгкий, простой - not difficult
+   The exam was easy. - Экзамен был лёгкий.
+phr. take it easy - не волнуйся; отдыхай
+phr. Easy! - Осторожно! Полегче!
+
+@eat
+v. (ate, eaten) A1
+1. есть, кушать - put food in your mouth and swallow
+   What did you eat for lunch? - Что ты ел на обед?
+phr. eat out - есть вне дома (в ресторане)
+
+@echo
+n. B2
+1. эхо - a sound that comes back
+v. B2
+2. отдаваться эхом - come back as an echo
+   His steps echoed in the hall.
+3. повторять - repeat
+   "Never?" she echoed.
+
+@economic
+adj. B1
+1. экономический - about money, trade, industry
+   economic problems
+
+@economy
+n. B1
+1. экономика - the money and business of a country
+   The economy is growing.
+2. экономия - using little money
+   economy class
+
+@edge
+n. B1
+1. край - the outside end of something
+   She sat on the edge of the bed.
+2. лезвие, острый край - the sharp side of a knife
+phr. on edge - на взводе, нервный
+
+@edit
+v. B1
+1. редактировать - correct and change text or film
+   She edited the book.
+
+@editor
+n. B1
+1. редактор - a person who edits
+   the editor of a newspaper
+
+@education
+n. A2
+1. образование, обучение - teaching and learning
+   He had a good education. - Он получил хорошее образование.
+
+@effect
+n. A2
+1. влияние, действие, эффект - a change caused by something
+   The medicine had no effect.
+phr. in effect - фактически
+phr. take effect - вступать в силу; начинать действовать
+
+@effective
+adj. B1
+1. эффективный, действенный - working well
+   an effective way to learn
+
+@efficient
+adj. B2
+1. эффективный, толковый - working well without waste
+   She is very efficient.
+
+@effort
+n. B1
+1. усилие, старание - hard work, trying hard
+   It took a lot of effort.
+phr. make an effort - постараться
+
+@egg
+n. A1
+1. яйцо - a bird lays it; we eat it
+   I had two eggs for breakfast. - На завтрак я съел два яйца.
+
+@eight
+num. A1
+1. восемь - 8
+   She gets up at eight. - Она встаёт в восемь.
+
+@eighteen
+num. A1
+1. восемнадцать - 18
+   He is eighteen. - Ему восемнадцать.
+
+@eighty
+num. A1
+1. восемьдесят - 80
+   My grandmother is eighty. - Моей бабушке восемьдесят.
+
+@either
+det. A2
+1. любой (из двух); оба - one or the other of two
+   You can take either road. - Можно пойти по любой дороге.
+adv. A2
+2. тоже (в отрицании) - also (after negative)
+   I don't like it either. - Мне тоже не нравится.
+conj. A2
+3. либо... либо, или... или - either ... or
+   Either you go or I go.
+
+@elbow
+n. B2
+1. локоть - the middle joint of your arm
+   He leaned on his elbow.
+v. B2
+2. расталкивать локтями - push with elbows
+   She elbowed her way through the crowd.
+
+@elderly
+adj. B1
+1. пожилой - old (polite word)
+   an elderly woman
+
+@elect
+v. B1
+1. избирать - choose by voting
+   She was elected president.
+
+@election
+n. B1
+1. выборы - choosing people by voting
+   He won the election.
+
+@electric
+adj. A2
+1. электрический - using electricity
+   an electric guitar
+
+@electricity
+n. B1
+1. электричество - energy for lights and machines
+   There was no electricity in the village.
+
+@elegant
+adj. B2
+1. элегантный, изящный - stylish and beautiful
+   She looked elegant in her black dress.
+
+@element
+n. B1
+1. элемент, часть - a part of something
+   Trust is an important element of friendship.
+2. стихия - the weather (wind, rain)
+   They were out in the elements.
+
+@elevator
+n. B1
+1. лифт (амер.) - a lift
+   Let's take the elevator.
+
+@eleven
+num. A1
+1. одиннадцать - 11
+   It's eleven o'clock. - Сейчас одиннадцать часов.
+
+@else
+adv. A2
+1. ещё, другой - other, more
+   What else do you need? - Что ещё тебе нужно?
+   Someone else did it. - Это сделал кто-то другой.
+phr. or else - иначе, а то
+   Hurry, or else we'll be late.
+
+@elsewhere
+adv. B1
+1. в другом месте, куда-то ещё - in another place
+   Let's go elsewhere.
+
+@email
+n. A1
+1. электронное письмо, имейл - a message sent by computer
+   I sent you an email. - Я отправил тебе письмо.
+v. A1
+2. писать по электронной почте - send an email
+
+@embarrass
+v. B2
+1. смущать, ставить в неловкое положение - make someone feel shy or ashamed
+   Don't embarrass me in front of my friends.
+
+@embarrassed
+adj. B1
+1. смущённый, сконфуженный - feeling shy or ashamed
+   He was too embarrassed to say anything.
+
+@embrace
+v. C1
+1. обнимать(ся) - hold in your arms
+   They embraced warmly.
+2. принимать (идею) - accept with enthusiasm
+n. C1
+3. объятие - a hug
+
+@emerge
+v. B2
+1. появляться, выходить - come out
+   A man emerged from the darkness.
+2. выясняться - become known
+   It emerged that he was lying.
+
+@emergency
+n. B1
+1. чрезвычайная ситуация, срочный случай - a sudden dangerous situation
+   Call me in an emergency.
+phr. emergency exit - запасной выход
+
+@emotion
+n. B1
+1. чувство, эмоция - a strong feeling
+   Her voice was full of emotion.
+
+@emotional
+adj. B1
+1. эмоциональный - about feelings; showing strong feelings
+   It was an emotional moment.
+
+@emphasize
+v. B2
+1. подчёркивать - give special importance to
+   He emphasized the need for care.
+
+@empire
+n. B2
+1. империя - a group of countries under one ruler
+   the Roman Empire
+
+@employ
+v. B1
+1. нанимать, давать работу - pay someone to work for you
+   The company employs 200 people.
+
+@employee
+n. B1
+1. сотрудник, работник - a person who is paid to work for someone
+   She is a bank employee.
+
+@employer
+n. B1
+1. работодатель - a person or company that employs people
+
+@empty
+adj. A2
+1. пустой - with nothing or nobody inside
+   The room was empty. - Комната была пустой.
+v. B1
+2. опустошать, освобождать - take everything out
+   He emptied his pockets.
+
+@enable
+v. B2
+1. давать возможность - make it possible for
+   The money enabled her to study.
+
+@encounter
+v. B2
+1. сталкиваться, встречать - meet (often by chance or a problem)
+   We encountered many problems.
+n. B2
+2. встреча, столкновение - a meeting
+   a strange encounter
+
+@encourage
+v. B1
+1. поощрять, поддерживать - give hope and support
+   My parents encouraged me to write.
+
+@end
+n. A1
+1. конец - the last part
+   at the end of the street - в конце улицы
+v. A1
+2. заканчиваться, кончать - finish
+   The film ends at ten. - Фильм заканчивается в десять.
+phr. in the end - в конце концов
+phr. end up - оказаться (в итоге)
+   We ended up in a small hotel.
+
+@endless
+adj. B2
+1. бесконечный - with no end
+   endless questions
+
+@endure
+v. C1
+1. терпеть, выносить - suffer something long and painful
+   She endured years of pain.
+
+@enemy
+n. B1
+1. враг - a person who hates you or fights you
+   He has many enemies.
+
+@energy
+n. A2
+1. энергия, силы - power to be active
+   I have no energy today. - У меня сегодня нет сил.
+2. энергия (электричество и т.п.) - power for machines
+   solar energy
+
+@engage
+v. B2
+1. занимать, привлекать (внимание) - attract and keep
+   The story engaged our attention.
+2. участвовать - take part
+   They engaged in a conversation.
+
+@engaged
+adj. B1
+1. помолвлен - having agreed to marry
+   They got engaged last year.
+2. занято (о телефоне, туалете) - busy, in use
+   The line is engaged.
+
+@engine
+n. A2
+1. двигатель, мотор - the part of a car that makes it move
+   He started the engine. - Он завёл мотор.
+2. локомотив - the front part of a train
+
+@engineer
+n. A2
+1. инженер - a person who designs machines, roads, etc.
+   My father is an engineer. - Мой отец инженер.
+
+@enjoy
+v. A1
+1. наслаждаться, получать удовольствие - like doing something
+   I enjoy reading. - Мне нравится читать.
+phr. enjoy yourself - хорошо провести время
+   Enjoy yourselves!
+
+@enormous
+adj. B1
+1. огромный - very big
+   They live in an enormous house.
+
+@enough
+det. A1
+1. достаточно - as much as you need
+   We have enough food. - У нас достаточно еды.
+adv. A1
+2. достаточно (после прил.) - to the right degree
+   He isn't old enough. - Он недостаточно взрослый.
+pron. A2
+3. хватит - as much as needed
+   That's enough! - Хватит!
+
+@ensure
+v. B2
+1. обеспечивать, гарантировать - make sure
+   Please ensure that the door is locked.
+
+@enter
+v. A2
+1. входить - go into
+   She entered the room. - Она вошла в комнату.
+2. вводить (данные) - type information
+   Enter your name.
+3. участвовать (в конкурсе) - take part
+   He entered the race.
+
+@entertain
+v. B1
+1. развлекать - amuse
+   He entertained us with stories.
+2. принимать гостей - have guests
+
+@enthusiasm
+n. B2
+1. энтузиазм, воодушевление - strong interest and excitement
+   She showed great enthusiasm.
+
+@enthusiastic
+adj. B1
+1. полный энтузиазма, восторженный - very interested and excited
+   He wasn't very enthusiastic about the idea.
+
+@entire
+adj. B1
+1. весь, целый - whole
+   He ate the entire cake.
+
+@entirely
+adv. B1
+1. полностью, совершенно - completely
+   I entirely agree.
+
+@entrance
+n. B1
+1. вход - a door or gate where you go in
+   I'll meet you at the main entrance.
+2. появление, выход - coming into a room
+   She made a grand entrance.
+
+@entry
+n. B1
+1. вход, въезд - the right to go in; going in
+   No entry.
+2. запись (в дневнике, словаре) - a piece of text in a list
+   a diary entry
+
+@envelope
+n. A2
+1. конверт - a paper cover for a letter
+   He opened the envelope. - Он открыл конверт.
+
+@environment
+n. A2
+1. окружающая среда, природа - the natural world
+   We must protect the environment.
+2. обстановка, среда - the conditions around you
+   a friendly working environment
+
+@envy
+n. C1
+1. зависть - wanting what someone else has
+   She was green with envy.
+v. C1
+2. завидовать - feel envy
+   I envy you.
+
+@episode
+n. B1
+1. серия (сериала) - one part of a TV show
+   the last episode
+2. эпизод, случай - an event
+   an unpleasant episode
+
+@equal
+adj. A2
+1. равный, одинаковый - the same in size, value
+   two equal parts - две равные части
+v. B2
+2. равняться - be the same as
+   Two plus two equals four.
+n. B2
+3. ровня, равный - a person as good as you
+   She treats us as equals.

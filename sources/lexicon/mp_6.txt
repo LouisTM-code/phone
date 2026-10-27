@@ -1,0 +1,597 @@
+@pistol
+n. B2
+1. пистолет - a small gun
+   He pulled out a pistol.
+
+@pit
+n. B2
+1. яма - a deep hole in the ground
+2. шахта - a coal mine
+
+@pitch
+n. B2
+1. поле (футбольное) - a sports field
+   a football pitch
+2. высота (звука) - how high or low a sound is
+v. B2
+3. ставить (палатку) - to put up a tent
+
+@pity
+n. B1
+1. жалость - sadness for someone's trouble
+   I felt pity for her.
+2. жаль - a sad thing
+   What a pity! - Как жаль!
+   It's a pity you can't come.
+v. B2
+3. жалеть - to feel sorry for
+
+@place
+n. A1
+1. место - a particular area or position
+   This is a nice place. - Это хорошее место.
+2. дом, квартира - home
+   Come to my place. - Приходи ко мне.
+3. место (в соревновании) - position in a race
+   He came in first place.
+v. B1
+4. класть, помещать - to put carefully
+   She placed the vase on the table.
+phr. take place - происходить, состояться
+phr. in place of - вместо
+phr. out of place - не к месту, неуместный
+
+@plain
+adj. B1
+1. простой, без украшений - simple, without pattern
+   a plain white shirt
+2. ясный, очевидный - clear, easy to understand
+   It's plain that he's lying.
+3. некрасивый - not pretty
+   a plain girl
+n. B2
+4. равнина - a large flat area of land
+
+@plan
+n. A1
+1. план - something you have decided to do
+   What are your plans for the weekend? - Какие у тебя планы на выходные?
+v. A1
+2. планировать - to decide what to do
+   We're planning a trip.
+
+@plane
+n. A1
+1. самолёт - a vehicle that flies
+   by plane - самолётом
+
+@planet
+n. A2
+1. планета - a large round object in space like the Earth
+
+@plant
+n. A1
+1. растение - a living thing that grows in earth
+   Water the plants. - Полей растения.
+2. завод - a factory
+   a power plant
+v. A2
+3. сажать - to put seeds or plants in the ground
+   We planted some trees.
+
+@plastic
+n., adj. A2
+1. пластмасса, пластиковый - a light material made from oil
+   a plastic bag - пластиковый пакет
+
+@plate
+n. A1
+1. тарелка - a flat dish for food
+   a plate of soup
+
+@platform
+n. A2
+1. платформа, перрон - the place where you get on a train
+   The train leaves from platform 3.
+2. сцена, трибуна - a raised place for speakers
+
+@play
+v. A1
+1. играть - to have fun; to take part in a game
+   The children are playing in the garden. - Дети играют в саду.
+   He plays football.
+2. играть (на инструменте) - to make music
+   She plays the piano.
+3. играть (роль) - to act
+   He played Hamlet.
+n. A1
+4. пьеса - a story acted in a theatre
+   a play by Shakespeare
+phr. play a part/role (in) - играть роль (в)
+
+@player
+n. A1
+1. игрок - a person who plays a game
+   a football player
+2. плеер, проигрыватель - a machine that plays music or video
+
+@playground
+n. A2
+1. детская площадка - an area where children play
+
+@plead
+v. B2
+1. умолять - to ask in a very emotional way
+   She pleaded with him to stay.
+2. заявлять (в суде) - to say in court
+   He pleaded guilty. - Он признал себя виновным.
+
+@pleasant
+adj. A2
+1. приятный - nice, enjoyable
+   a pleasant evening
+
+@please
+excl. A1
+1. пожалуйста - used to ask politely
+   Please sit down. - Садитесь, пожалуйста.
+v. B1
+2. радовать, угождать - to make someone happy
+   He's hard to please.
+phr. as you please - как хотите
+
+@pleased
+adj. A2
+1. довольный, рад - happy
+   I'm pleased to meet you. - Рад с вами познакомиться.
+
+@pleasure
+n. B1
+1. удовольствие - a feeling of being happy
+   It's a pleasure. / My pleasure. - Пожалуйста. / С удовольствием.
+   He reads for pleasure.
+
+@plenty
+pron. B1
+1. много, полно, достаточно - a lot; enough
+   We have plenty of time. - У нас полно времени.
+
+@plot
+n. B1
+1. сюжет - the story of a book or film
+   The plot is very simple.
+2. заговор - a secret plan
+   a plot to kill the king
+v. B2
+3. замышлять - to plan secretly
+
+@pluck
+v. B2
+1. выдёргивать, срывать - to pull out quickly
+   She plucked a flower.
+phr. pluck up courage - набраться смелости
+
+@plug
+n. B1
+1. вилка (электрическая) - the thing that connects a machine to electricity
+2. пробка, затычка - a thing that closes a hole
+v. B2
+3. затыкать - to fill a hole
+phr. plug in - включить в розетку
+
+@plum
+n. B1
+1. слива - a soft round purple or red fruit
+
+@plunge
+v. B2
+1. нырять, погружать(ся), падать - to fall or jump suddenly into something
+   He plunged into the river.
+   The room was plunged into darkness.
+
+@plus
+prep. A2
+1. плюс - and; added to
+   Two plus two is four.
+
+@pocket
+n. A2
+1. карман - a small bag in your clothes
+   He put his hands in his pockets. - Он сунул руки в карманы.
+
+@poem
+n. A2
+1. стихотворение - a piece of writing in lines, often with rhymes
+   She wrote a poem about love.
+
+@poet
+n. B1
+1. поэт - a person who writes poems
+
+@poetry
+n. B1
+1. поэзия, стихи - poems
+   a book of poetry
+
+@point
+n. A2
+1. смысл, суть - the main idea; the purpose
+   What's the point? - Какой смысл?
+   That's not the point. - Не в этом дело.
+2. момент, точка - a moment in time; a place
+   At that point he left.
+3. остриё, кончик - the sharp end
+   the point of a knife
+4. очко, балл - a mark in a game
+   We won by two points.
+v. A2
+5. указывать, показывать (пальцем) - to show with your finger
+   He pointed at the door. - Он указал на дверь.
+phr. point out - указать (на), обратить внимание
+phr. on the point of - вот-вот, собираясь
+
+@poison
+n. B1
+1. яд - something that kills if you eat or drink it
+v. B2
+2. отравлять - to kill or harm with poison
+   She poisoned her husband.
+
+@poke
+v. B2
+1. тыкать, совать - to push with a finger or stick
+   She poked him in the ribs.
+2. высовывать - to push out
+   A head poked out of the window.
+
+@pole
+n. B2
+1. столб, шест - a long thin piece of wood or metal
+   a telegraph pole
+2. полюс - the north or south end of the earth
+   the North Pole
+
+@police
+n. A1
+1. полиция - the people whose job is to stop crime
+   Call the police! - Вызовите полицию!
+
+@policeman
+n. (pl. policemen) A1
+1. полицейский - a man in the police
+
+@policy
+n. B1
+1. политика, курс - a plan of action of a government or company
+   the government's policy on education
+
+@polish
+v. B1
+1. полировать, чистить до блеска - to rub to make it shine
+   He polished his shoes.
+n. B2
+2. полироль, крем для обуви - a cream for polishing
+   nail polish - лак для ногтей
+
+@polite
+adj. A2
+1. вежливый - having good manners
+   a polite child
+
+@political
+adj. B1
+1. политический - connected with politics
+   a political party
+
+@politics
+n. B1
+1. политика - the activity of government
+   He's not interested in politics.
+
+@pollution
+n. B1
+1. загрязнение - dirty air, water or land
+   air pollution
+
+@pond
+n. B1
+1. пруд - a small area of water
+   ducks on the pond
+
+@pony
+n. B1
+1. пони - a small horse
+
+@pool
+n. A1
+1. бассейн - a swimming pool
+   Let's go to the pool.
+2. лужа - a small amount of liquid
+   a pool of blood
+
+@poor
+adj. A1
+1. бедный - having little money
+   a poor family - бедная семья
+2. бедняга, бедный (жалость) - deserving pity
+   Poor thing! - Бедняжка!
+3. плохой, слабый - not good
+   poor health
+
+@pop
+v. B2
+1. лопаться, хлопать - to burst with a short sound
+   The balloon popped.
+2. заскочить, сбегать - to go somewhere quickly
+   I'll pop out to the shop.
+adj. A1
+3. поп (музыка) - modern popular music
+   pop music
+
+@popular
+adj. A1
+1. популярный - liked by many people
+   a popular singer
+
+@population
+n. B1
+1. население - the people who live in a place
+   the population of London
+
+@porch
+n. B2
+1. крыльцо, веранда - a covered area at the entrance of a house
+   They sat on the porch.
+
+@port
+n. B1
+1. порт - a town with a harbour
+   The ship came into port.
+
+@portion
+n. B2
+1. часть, доля - a part of something
+2. порция - an amount of food for one person
+   a large portion of chips
+
+@portrait
+n. B1
+1. портрет - a painting or photo of a person
+   a portrait of the queen
+
+@pose
+v. B2
+1. позировать - to sit or stand for a picture
+2. представлять (угрозу), ставить (вопрос) - to cause
+   to pose a threat; to pose a question
+phr. pose as - выдавать себя за
+
+@position
+n. B1
+1. положение, позиция - the place where something is
+   the position of the sun
+2. поза - the way you sit or stand
+   a comfortable position
+3. должность - a job
+   He applied for the position.
+4. положение, ситуация - situation
+   I'm in a difficult position.
+
+@positive
+adj. B1
+1. положительный, позитивный - good, hopeful
+   Stay positive.
+2. уверенный - completely sure
+   Are you positive? - Ты уверен?
+
+@possess
+v. B2
+1. обладать, владеть - to have or own
+   He possessed great courage.
+2. овладеть (о чувстве) - to make someone act strangely
+   What possessed you to do that? - Что на тебя нашло?
+
+@possession
+n. B2
+1. владение - having something
+   in possession of drugs
+2. имущество, вещи (мн.) - things you own
+   He lost all his possessions in the fire.
+
+@possibility
+n. B1
+1. возможность, вероятность - something that may happen
+   There's a possibility of rain.
+
+@possible
+adj. A1
+1. возможный - that can happen or be done
+   Is it possible? - Это возможно?
+phr. as soon as possible - как можно скорее
+
+@possibly
+adv. B1
+1. возможно, может быть - perhaps
+   "Will you come?" "Possibly."
+2. никак (с can't) - used for emphasis
+   I can't possibly eat all that.
+
+@post
+n. A2
+1. почта - letters and parcels
+   Has the post come?
+2. столб - a pole fixed in the ground
+3. должность, пост - a job
+   He left his post.
+4. пост, публикация (в сети) - a message on a website
+v. A2
+5. отправлять (по почте) - to send by post
+   I posted the letter.
+6. публиковать (в сети) - to put on the Internet
+
+@postcard
+n. A1
+1. открытка - a card you send without an envelope
+
+@poster
+n. A2
+1. плакат, афиша - a large picture or notice on a wall
+
+@postman
+n. (pl. postmen) A2
+1. почтальон - a man who delivers letters
+
+@postpone
+v. B2
+1. откладывать, переносить - to move to a later time
+   The match was postponed.
+
+@pot
+n. B1
+1. горшок, кастрюля - a deep round container
+   a pot of soup; a flower pot
+2. чайник, кофейник - a container for tea or coffee
+   a pot of tea
+
+@potato
+n. (pl. potatoes) A1
+1. картофель, картошка - a round white vegetable that grows underground
+   mashed potatoes - картофельное пюре
+
+@potential
+adj. B2
+1. возможный, потенциальный - possible in the future
+   a potential danger
+n. B2
+2. потенциал - qualities that can develop
+   She has great potential.
+
+@pound
+n. A1
+1. фунт (деньги) - British money
+   It costs ten pounds.
+2. фунт (вес, 454 г) - a unit of weight
+v. B2
+3. колотить, стучать - to hit hard many times
+   He pounded on the door.
+4. колотиться (о сердце) - to beat strongly
+   My heart was pounding.
+
+@pour
+v. B1
+1. наливать, лить - to make liquid flow from a container
+   She poured me a cup of tea. - Она налила мне чашку чаю.
+2. литься; лить (о дожде) - to flow fast; to rain heavily
+   It's pouring. - Льёт как из ведра.
+3. валить (толпой) - to come in large numbers
+   People poured into the street.
+
+@poverty
+n. B2
+1. бедность, нищета - being poor
+   They lived in poverty.
+
+@powder
+n. B2
+1. порошок, пудра - very small dry grains
+   washing powder
+
+@power
+n. A2
+1. власть - control over people
+   The party came to power in 1990.
+2. сила, мощь - strength
+   the power of love
+3. энергия, электричество - energy
+   a power cut - отключение электричества
+4. способность - an ability
+   the power of speech
+
+@powerful
+adj. B1
+1. сильный, мощный, влиятельный - having great power
+   a powerful man; a powerful engine
+
+@practical
+adj. B1
+1. практичный - sensible and realistic
+   a practical solution
+2. практический - connected with doing, not ideas
+   practical experience
+
+@practically
+adv. B2
+1. практически, почти - almost
+   The room was practically empty.
+
+@practice
+n. A2
+1. практика, тренировка - doing something often to get better
+   Practice makes perfect.
+2. на деле - reality
+   in practice - на практике
+
+@practise
+v. A2
+1. тренироваться, практиковаться - to do something often to get better
+   I practise the piano every day.
+
+@praise
+v. B1
+1. хвалить - to say someone did well
+   The teacher praised her work.
+n. B1
+2. похвала - words that praise
+
+@pray
+v. B1
+1. молиться - to speak to God
+   She prayed for her son.
+2. очень надеяться - to hope very much
+   I prayed she wouldn't notice.
+
+@prayer
+n. B1
+1. молитва - words said to God
+   She said a prayer.
+
+@precious
+adj. B2
+1. драгоценный, ценный - of great value
+   precious stones; precious time
+
+@precise
+adj. B2
+1. точный - exact
+   at that precise moment
+
+@precisely
+adv. B2
+1. точно, именно - exactly
+   at precisely ten o'clock
+   "So you think he's lying?" "Precisely."
+
+@predict
+v. B1
+1. предсказывать - to say what will happen
+   Nobody can predict the future.
+
+@prefer
+v. A2
+1. предпочитать - to like one thing more than another
+   I prefer tea to coffee. - Я предпочитаю чай кофе.
+
+@pregnant
+adj. B1
+1. беременная - expecting a baby
+   She's six months pregnant.
+
+@prejudice
+n. B2
+1. предрассудок, предубеждение - an unfair opinion about a group
+   racial prejudice
+
+@preparation
+n. B1
+1. подготовка, приготовление - getting ready
+   preparations for the wedding

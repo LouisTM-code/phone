@@ -1,0 +1,375 @@
+The Voice in the Machine
+
+Chapter 1. The Message
+
+Maya Collins had worked at the Manchester Daily Online for two years, and in those two years she had never written a story that mattered. She wrote about new cafes, lost dogs and traffic problems. Her editor, a tired man called Frank Doyle, always said the same thing: "Be patient, Maya. Your big story will come."
+
+On a wet Tuesday evening in November, it came.
+
+She was the last person in the office. The cleaner had already gone home, and the only sound was the rain against the windows. Maya was finishing a short article about a new bus route when her phone made a small sound. It was a message from a number she didn't know.
+
+"Are you the journalist who wrote about the hospital computers last year?"
+
+Maya looked at the screen for a long moment. Yes, she had written that story. A small article about old computers at the city hospital. Almost nobody had read it.
+
+"Yes. Who is this?" she typed.
+
+The answer came quickly. "I can't tell you my name yet. I work at Brightwell. Something is happening here, and somebody needs to know about it."
+
+Maya knew Brightwell, of course. Everybody in Manchester knew it. It was the most successful technology company in the north of England. Its main product was an app called Companion, a friendly voice assistant for old people who lived alone. Companion reminded them to take their medicine, read them the news and chatted with them in the evenings. Two million people used it. The newspapers loved Brightwell, and its boss, Victoria Hale, was often on television.
+
+"What kind of thing?" Maya wrote.
+
+There was a long pause. Then: "Not by phone. Meet me tomorrow at 7 a.m. at the cafe under the railway bridge on Deansgate. Come alone. Don't tell anyone."
+
+Maya felt her heart beating faster. It could be a joke, she thought. Or somebody who was angry with their boss and wanted revenge. Journalists received messages like this all the time, and most of them were nothing.
+
+But something about this one felt different.
+
+"How will I know you?" she typed.
+
+"I'll know you. I've seen your photo on the website."
+
+She put her phone down and looked out of the window at the dark, wet street. Somewhere in the city, a stranger was thinking about her. She didn't like that feeling. But she liked the idea of a real story even more.
+
+She didn't sleep well that night.
+
+Chapter 2. The Man Under the Bridge
+
+The cafe was small and warm, and it smelled of bacon and coffee. At five to seven, there were only three customers: two builders in orange jackets and a thin man in a grey coat who was sitting in the corner with his back to the wall.
+
+When Maya came in, the thin man looked up. He was about thirty-five, with short dark hair and the kind of pale face that doesn't see much sun. His hands were shaking slightly around his cup.
+
+"Maya Collins?" he said quietly as she sat down.
+
+"Yes. And you are...?"
+
+"Call me Tom. That's my real first name. I'll tell you the rest later, if you agree to help me." He looked at the door, then back at her. "Have you heard of Companion?"
+
+"Everyone has heard of Companion. My grandmother used it before she died. She said it was the only voice she heard some days."
+
+Tom closed his eyes for a second. "That's exactly the problem," he said. "People trust it. They talk to it like a friend. They tell it everything."
+
+"And?"
+
+"And Companion remembers everything. Every word. Every voice." He leaned forward. "I'm a software engineer. I've worked at Brightwell for four years. Six months ago, I was moved to a new team. Our project was called Echo. We were told it was a system to make Companion sound more natural. But that wasn't the truth."
+
+He took a small black USB stick out of his pocket and put it on the table between them. He kept his hand over it.
+
+"Echo uses the recordings to copy people's voices. Not just the users. The families too. When your grandson calls you and you're sitting next to Companion, it hears him. After a few minutes, Echo can speak exactly like him."
+
+Maya felt cold. "Why would a company want to do that?"
+
+"That's what I asked. Nobody answered. So I started looking for myself. And I found something." He pushed the USB stick towards her. "There are files on this. Lists of phone calls. Thousands of them. Calls made to old people, in the voices of their own children. Asking for money. 'Mum, I've had an accident. Please send two thousand pounds to this account.' That kind of thing."
+
+"Someone at Brightwell is running a scam? Using its own app?"
+
+"I don't know who. I don't know if Victoria Hale knows. But the money goes somewhere, and the voices come from Echo. I'm sure of that."
+
+Maya picked up the USB stick. It was very light. It didn't feel like something that could destroy a company.
+
+"Why me?" she asked. "Why not the police?"
+
+"I tried. I called them three weeks ago. Two days later, my manager asked me why I had been talking to the police. Nobody should have known about that call." He stood up suddenly. "I have to go. I've been here too long. Look at the files. I'll contact you."
+
+"Tom, wait..."
+
+But he was already at the door. A moment later, he had disappeared into the grey morning crowd.
+
+Chapter 3. What the Files Said
+
+Maya didn't go to the office that morning. She called Frank and told him she had a bad cold. Then she sat at her kitchen table with her old laptop and a large cup of coffee, and she opened the USB stick.
+
+There were four folders. The first contained technical documents that she couldn't really understand, full of diagrams and words like "voice model" and "training data". The second contained internal emails. The third was full of sound files. The fourth was a long spreadsheet.
+
+She started with the spreadsheet. Each line had a date, a phone number, a name, an amount of money and a word: "success" or "failed". She scrolled down. And down. And down. There were more than eight thousand lines. The amounts were usually between five hundred and three thousand pounds. She did a quick calculation and felt sick. If even half of them had been successful, someone had made millions.
+
+Then she opened one of the sound files.
+
+It was a phone call. An old woman answered, "Hello?" and a young man's voice said, "Gran, it's me, Daniel. I'm in big trouble. Please don't tell Mum." The voice was warm and natural, a little bit afraid. It sounded completely real. The old woman's voice became worried at once. "Oh, Danny, what's happened?"
+
+Maya stopped the recording. She couldn't listen to any more.
+
+She opened the emails next. Most of them were boring: meeting times, budgets, holidays. But some were different. They were between two people who signed their messages only with letters, "R" and "V". In one of them, sent in March, R had written: "The test group has been very profitable. If the board asks questions, we'll say Echo is still in development."
+
+V had answered: "Good. Nobody must connect it to Companion. Delete this after reading."
+
+Nobody had deleted it.
+
+Maya sat back in her chair. V. Victoria? It was possible. But it could also be anybody else whose name started with V. She needed more. A journalist couldn't accuse someone as famous as Victoria Hale because of one letter in an email. Brightwell had expensive lawyers, and the Daily Online had a lawyer who worked two days a week.
+
+She tried to call Tom on the number he had used. A recorded voice told her the number was no longer available.
+
+Maya looked at the USB stick for a long time. Then she made a decision. She copied all the files onto two other memory sticks. She hid one inside a box of tea in her kitchen cupboard. The other one she put in an envelope and posted to her sister Lucy in Leeds, with a short note: "Please keep this safe. Don't open it. I'll explain later."
+
+If something happened to her, at least the files would survive.
+
+Chapter 4. Inside Brightwell
+
+"You want to interview Victoria Hale?" Frank laughed. "Maya, the BBC wants to interview Victoria Hale. The Financial Times wants to interview Victoria Hale. Why would she talk to a small news website?"
+
+"Because I'll ask her nice questions," Maya said. "About women in technology. About helping lonely old people. That kind of thing."
+
+Frank looked at her over his glasses. He had been a journalist for thirty years, and he wasn't stupid. "What's really going on?"
+
+Maya hesitated. Then she closed his office door and told him everything. When she had finished, Frank was silent for almost a minute.
+
+"If this is true," he said slowly, "it's the biggest story this newspaper has ever had. If it isn't true, they'll close us down. You understand that?"
+
+"I understand."
+
+"Then get the interview. But be careful. And you tell me everything. Every day."
+
+To Maya's surprise, Brightwell's press office said yes. Ms Hale was always happy to speak to local media, the young man on the phone told her. Thursday, at three o'clock, at the Brightwell building.
+
+The building was made almost entirely of glass. It stood beside the canal like a giant ice cube, and inside it was bright, clean and silent. There were plants everywhere and a coffee bar with free drinks. Young people with expensive headphones walked past without looking at her.
+
+A woman at the reception desk gave Maya a visitor card. "Seventh floor," she said with a perfect smile. "Ms Hale is waiting for you."
+
+Victoria Hale was about fifty, tall and elegant, with short silver hair. She shook Maya's hand firmly and offered her tea. Her office had a wonderful view of the city.
+
+For twenty minutes, Maya asked her easy questions, and Victoria gave her easy answers. Companion had been her mother's idea, she said. Her mother had been very lonely at the end of her life. "Technology should make people less alone, not more," she said, and it sounded like something she had said a hundred times before.
+
+Then Maya asked, as casually as she could, "And what about Echo? I heard it's your next big project."
+
+For one second, Victoria's face changed. It was very small, the kind of change you only notice if you're watching carefully. Then the smile came back.
+
+"Echo is a research project," she said. "It's not really my area. You'd have to ask Richard about that. Richard Moss, our technical director."
+
+R, thought Maya.
+
+"Is Richard here today?"
+
+"I'm afraid not." Victoria stood up. "I'm sorry, I have another meeting. It's been lovely to meet you, Maya."
+
+As Maya walked back to the lift, she noticed a man standing at the end of the corridor. He was in his forties, heavy, with a beard, and he was watching her. When she looked at him, he turned and went through a door.
+
+She looked at the name on the door as the lift arrived. Richard Moss. Technical Director.
+
+Chapter 5. A Call From Home
+
+On Saturday morning, Maya was still in bed when her phone rang. It was her mother.
+
+"Maya? Oh, thank God. Are you all right? Are you safe?"
+
+"Mum? What are you talking about? I'm fine. I'm in bed."
+
+There was a strange silence on the line. "But... you called me. Twenty minutes ago. You were crying. You said you'd been arrested in London and you needed money for a lawyer. You said not to call anyone. I was just going to the bank."
+
+Maya sat up so fast that she hit her head on the shelf above the bed.
+
+"Mum, listen to me very carefully. That wasn't me. I haven't called you. Don't send any money to anyone. Do you understand?"
+
+"But it was your voice, love. It was exactly your voice. You called me 'Mumsy', like you did when you were little."
+
+Maya felt the room go cold around her. She had called her mother "Mumsy" when she was a child. She still did sometimes, as a joke. And her mother had a Companion speaker in her kitchen. Maya had bought it for her last Christmas. They had talked in front of it many times.
+
+"Mum, unplug the Companion. Now. Take it out of the wall and put it in a cupboard."
+
+"Why? What's going on?"
+
+"I'll explain later. Please, just do it."
+
+She heard her mother walk across the kitchen, and then a small click. "Done. Maya, you're frightening me."
+
+"I know. I'm sorry. I'll come and see you tomorrow."
+
+After the call, Maya sat on her bed for a long time. This wasn't an accident. The scammers called thousands of people, but they had chosen her mother, today, two days after her visit to Brightwell. It was a message. We know who you are. We know where your family lives. We can be you.
+
+Her phone made a sound. A new message, from an unknown number.
+
+"Your mother sounds like a lovely woman. Some stories are not worth writing. Think about it."
+
+Maya's hands were shaking. She took a screenshot of the message and sent it to Frank. Then she did something she hadn't done for years. She sat on the floor of her small flat and cried.
+
+When she had stopped, she washed her face, made a coffee and opened her laptop. If they had wanted to stop her, they had made a mistake. Now it was personal.
+
+Chapter 6. The Missing Engineer
+
+"Tom" wasn't much information, but it was a start. Maya searched for Brightwell employees on LinkedIn and on the company's own website. There were eleven software engineers called Tom, Thomas or Tommy. Only one of them was about thirty-five, with dark hair and a pale face. His name was Thomas Reid.
+
+His profile said he lived in Salford. It took Maya two hours of searching old local news websites to find his address: three years earlier, he had complained in a newspaper about a broken street light outside his house. People never realised how much of their life was on the internet.
+
+She took a bus to Salford on Sunday afternoon, after she had visited her mother. The house was small, on a quiet street of red brick houses. The curtains were closed. Nobody answered the door.
+
+The neighbour, an old man who was washing his car, watched her knock for the third time.
+
+"He's not there, love," he said. "Hasn't been there for a week."
+
+"Do you know where he's gone?"
+
+The old man shrugged. "A van came on Monday night. Two men went in. They came out with boxes. Computers, I think. I thought he was moving house. But his car's still here." He pointed at a blue car with a thin layer of autumn leaves on the roof.
+
+"Did Tom go with them?"
+
+"Didn't see him. I saw a light in the window on Wednesday, though. Just for a minute. Then nothing."
+
+Maya thanked him and walked to the end of the street. Then she stopped. Something the old man had said was strange. If Tom had disappeared on Monday, who had turned on the light on Wednesday?
+
+She went back, quickly, before she could change her mind. She walked round to the back of the house. There was a small garden with a high wooden fence and a back door with a glass window. She looked through it. The kitchen was a mess. Drawers were open, and papers were everywhere.
+
+Then she saw it. On the fridge, held by a magnet shaped like a cat, there was a postcard. It showed a lighthouse on a rocky coast, and under it were the words "Greetings from Anglesey".
+
+It was the only thing in the room that looked untouched.
+
+Maya took a photo of it through the glass. A postcard from Wales. Maybe it meant nothing. Or maybe Tom had left it there on Wednesday for someone who knew how to look.
+
+Chapter 7. The Lighthouse
+
+Frank didn't want her to go.
+
+"These people have already threatened your family," he said. "Let the police deal with it."
+
+"Tom told me what happened when he called the police. Somebody at Brightwell knew about it two days later. I don't know who I can trust there."
+
+Frank rubbed his face with both hands. "Then I'm coming with you."
+
+"Frank, you hate driving. And you hate the countryside."
+
+"I hate a lot of things," he said. "I'd hate losing my best reporter more."
+
+It was the nicest thing he had ever said to her.
+
+They left early on Monday morning in Frank's old car. It took them three hours to reach Anglesey, a flat green island off the north coast of Wales. It was raining, of course. The lighthouse on the postcard was easy to find. It stood on a small island of rock at the end of a long path, and next to the path there was a row of holiday cottages. Only one of them had smoke coming from the chimney.
+
+Maya knocked. For a long time, nothing happened. Then a voice behind the door said, "Who is it?"
+
+"It's Maya. From the cafe under the bridge."
+
+The door opened a few centimetres. Tom's face appeared. He looked thinner than before, and he hadn't shaved for days. When he saw Frank, he tried to close the door.
+
+"He's my editor," Maya said quickly. "He's on our side. Tom, they called my mother. In my voice."
+
+Tom stopped. Then he opened the door and let them in.
+
+The cottage was cold and simple. There was a laptop on the kitchen table, connected to a phone. Tom made them tea with shaking hands and told them what had happened. Two men had come to his house on Monday night. He had been at the shop, and when he came back he saw the van and the lights. He had driven away in a friend's car and never gone back, except once, on Wednesday night, to leave the postcard.
+
+"I hoped you'd come," he said to Maya. "I didn't know who else to trust."
+
+"Tom, we need more proof," Frank said. "The emails are signed R and V. That's not enough. If we accuse Victoria Hale and we're wrong, it's over."
+
+Tom smiled for the first time. It was a tired smile.
+
+"I know," he said. "That's why I've spent the last week getting into Richard Moss's private email account."
+
+Chapter 8. R and V
+
+What Tom had found was better than they had hoped, and also worse.
+
+R was definitely Richard Moss. There were hundreds of emails from his private account, and they showed everything: the bank accounts in Cyprus, the people who made the calls, the lists of victims. Echo had been his idea from the beginning. He had built it secretly, inside a legal project, using money from the company.
+
+But V was not Victoria Hale.
+
+V was Vincent Hale, Victoria's husband. He sat on Brightwell's board of directors, but he had no real job in the company. He had lost a lot of money in bad investments two years earlier, and he had needed more, quickly. He and Richard Moss had been friends since university.
+
+"So Victoria doesn't know?" Maya asked.
+
+"I'm not sure," Tom said. "There's one email where Vincent writes, 'V. is starting to ask questions about the Echo budget.' He's talking about his wife. I think she suspected something. But I don't think she knew."
+
+Maya remembered Victoria's face when she had mentioned Echo. That small change. Maybe it hadn't been guilt. Maybe it had been fear.
+
+Frank was reading the emails on the laptop, his face serious. "This is enough," he said finally. "This is more than enough. But before we publish, we have to give Brightwell a chance to answer. That's the law, and it's also the right thing to do."
+
+"If we tell them, Moss will delete everything," Tom said.
+
+"Then we send copies to the police first. Not the Manchester police. The National Crime Agency in London. And we send copies to two other newspapers, so it can't be stopped."
+
+They worked through the night. Frank wrote and rewrote the article. Maya checked every fact, every name, every number. Tom prepared the files. At six in the morning, while the sky over the sea was turning from black to grey, Maya sent an email to Brightwell's press office.
+
+"We are planning to publish an article about Echo, Richard Moss and Vincent Hale at 12 noon today. We would like to give you the opportunity to respond."
+
+Then they waited.
+
+At 9:15, Maya's phone rang. It was a number she didn't know. She almost didn't answer.
+
+"Maya? This is Victoria Hale."
+
+Maya looked at Frank and turned on the speaker.
+
+"Is it true?" Victoria asked. Her voice sounded very different from the confident voice in the glass office. "About my husband?"
+
+"I'm sorry," Maya said. "Yes. We have his emails."
+
+There was a long silence. Then Victoria said, "I've been afraid of this for months. I didn't want to believe it." She took a breath. "Richard Moss left the building twenty minutes ago. My security team says he took a laptop with him. He was going to the airport. I have already called the police. You should know that he has your address."
+
+Chapter 9. The Black Van
+
+"We can't stay here," Tom said as soon as the call had ended. "If Moss knows Maya's address, he may know about this place too. My friend's car has been parked outside for a week."
+
+Frank was already closing the laptop. "The article is ready. I can publish it from anywhere with an internet connection. Let's go."
+
+They threw their things into Frank's car and left Tom's friend's car behind the cottage. The rain had stopped, but the sky was low and heavy. Frank drove, Maya sat next to him, and Tom sat in the back with the laptop on his knees, holding it as if it were a baby.
+
+They had been driving for about twenty minutes when Tom said quietly, "Don't look round. There's a black van behind us. It was parked at the petrol station near the cottages when we passed."
+
+Maya looked in the side mirror. The van was two cars behind them. It had dark windows, and she couldn't see the driver.
+
+"Lots of people drive black vans," Frank said, but his hands were holding the wheel more tightly than before.
+
+"Turn left at the next junction," Tom said. "Don't use the indicator."
+
+Frank turned left suddenly onto a narrow country road between two stone walls. A few seconds later, the black van turned left too.
+
+"Okay," Frank said. "Now I believe you."
+
+The road was small and wet, and it went up and down through fields full of sheep. Frank was not a fast driver, and his car was fifteen years old. The van came closer and closer until it was almost touching their back bumper. Maya could see two men in the front now. One of them was talking on a phone.
+
+"Maya, call the police," Frank said. "The real emergency number. Tell them where we are."
+
+"I don't know where we are!"
+
+"Tell them we're near Llangefni," Tom said, reading the map on his phone. "On a farm road going east. Tell them two men are following us."
+
+Maya made the call. Her voice sounded strange to her, high and fast. The woman on the phone was calm and asked her to stay on the line.
+
+Then, in front of them, a tractor came out of a field. It was huge, green and very slow, and it completely blocked the road. Frank stopped the car. Behind them, the van stopped too. Both front doors opened.
+
+For a terrible moment, nobody moved. Then the farmer on the tractor, a big red-faced man in a flat cap, looked down at the two men walking towards Frank's car. He looked at Maya, who was holding her phone and shouting "Police!" through the window. And he understood immediately.
+
+He turned off the tractor's engine, climbed down slowly and took a mobile phone out of his pocket. He started filming the two men. Behind him, in the field, two more farm workers appeared, and a very large dog.
+
+The two men looked at the farmer, at the dog and at the camera. Then they turned round, walked quickly back to their van and reversed down the narrow road much faster than was safe.
+
+The farmer knocked on Frank's window. "Everything all right in there?" he asked in a strong Welsh accent.
+
+"It is now," Frank said. "Thank you. Really. Thank you."
+
+"No problem. People drive like idiots round here." He looked at the van, which was disappearing round a corner. "Not usually from Manchester, though."
+
+Forty minutes later, at a motorway service station near Chester, sitting at a plastic table with three cups of bad coffee, Frank looked at his watch. It was 11:59. He looked at Maya.
+
+"Your story," he said. "You press the button."
+
+Maya put her finger on the keyboard. She waited for the clock on the screen to change to 12:00. Then she pressed Enter.
+
+Chapter 10. The Story
+
+Richard Moss never reached the airport. The police stopped his car on the motorway near Manchester at 10:40. In the boot, they found two laptops, a box of documents and forty thousand pounds in cash. Vincent Hale was arrested at his golf club an hour later.
+
+Maya's article appeared on the Manchester Daily Online at exactly 12 noon. By two o'clock, the website had crashed because too many people were trying to read it. By the evening, the story was on every television channel in the country. Brightwell's share price had fallen by sixty per cent, and the government had announced an investigation into voice technology.
+
+Victoria Hale resigned the next morning. In a short statement, she said she was "ashamed that the company I built to protect lonely people has been used to hurt them." She promised that Brightwell would return the money to every victim. Some people didn't believe her. Maya, for some reason, did.
+
+Companion was switched off across the country for three months while independent experts checked it. When it came back, there was a new rule: it could no longer record any voice except its user's, and every user could listen to, and delete, everything it had ever heard.
+
+Tom Reid went back to his house in Salford. He had been offered jobs by four different companies, but he said he wanted to take a long holiday first. "Somewhere without the internet," he told Maya. "If such a place still exists."
+
+A month later, Maya received an award for young journalists at a big hotel in London. In her speech, she thanked Frank, and Tom, and her mother, who was sitting in the front row in a new dress and crying happily.
+
+"Technology isn't good or bad," Maya said at the end of her speech. "It's a tool. It does what people want it to do. A voice can comfort us, or it can lie to us. Our job, as journalists, is to find out which one we're hearing."
+
+That night, when she got back to her hotel room, her phone rang. It was her mother.
+
+"Maya? It's me. I just wanted to say how proud I am of you."
+
+Maya smiled. Then, out of habit, she asked, "Mum, what did I call you when I was five?"
+
+Her mother laughed. "You called me Mumsy. And you called your father Big Bear. And you hated carrots."
+
+"It's really you," Maya said.
+
+"Of course it's really me, silly girl. Who else would it be?"
+
+Maya lay back on the bed and looked at the ceiling. Who else, indeed. She would never again answer a phone without asking herself that question. But tonight, for the first time in weeks, she felt safe.
+
+She turned off the light, and for once she slept very well.

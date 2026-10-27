@@ -1,0 +1,40 @@
+!!! entry
+malloc heap: 4139816 bytes
+keymap = 0x1009f684
+bootkey = 0x01 (DIAL)
+pinmap = 0x1009ba34
+scan_firmware: 430ms
+chip_id: num = 0x65620001, num_ex = 3
+chip_id: ver = 0xa0002
+chip_id: smc = 0xd01
+chip_id: adi = 0x1161a000
+LCD: pins = 0x2014, 0x2014, 0x2014, 0x2014
+LCD: clk_rate = 104000000
+LCD: id = 0x009340
+argc = 2
+[0] = fptest
+[1] = keypad
+0x08 ("LSOFT") release
+0x01 ("DIAL") release
+0x31 ("1") press
+0x31 ("1") release
+0x32 ("2") press
+0x32 ("2") release
+0x33 ("3") press
+0x33 ("3") release
+0x34 ("4") press
+0x34 ("4") release
+0x35 ("5") press
+0x35 ("5") release
+0x36 ("6") press
+0x36 ("6") release
+0x04 ("UP") press
+0x04 ("UP") release
+POWER + 0x35 ("5") press
+POWER + 0x35 ("5") release
+0x04 ("UP") press
+0x04 ("UP") release
+0x09 ("RSOFT") press
+0x09 ("RSOFT") release
+0x08 ("LSOFT") press
+0x08 ("LSOFT") release

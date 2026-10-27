@@ -1,0 +1,600 @@
+@equally
+adv. B1
+1. одинаково, в равной степени - to the same degree
+   They are equally good.
+2. поровну - in equal parts
+   We shared the money equally.
+
+@equipment
+n. A2
+1. оборудование, снаряжение - things you need for an activity
+   camping equipment
+
+@error
+n. A2
+1. ошибка - a mistake
+   It was a terrible error. - Это была ужасная ошибка.
+
+@escape
+v. B1
+1. убегать, сбегать - get away from a place
+   He escaped from prison.
+2. избегать, ускользать - avoid
+   She narrowly escaped death.
+n. B1
+3. побег, спасение - getting away
+   a narrow escape (чудом спасся)
+
+@especially
+adv. A2
+1. особенно - more than usual
+   I love fruit, especially apples. - Я люблю фрукты, особенно яблоки.
+
+@essay
+n. A2
+1. сочинение, эссе - a short piece of writing on a topic
+   I have to write an essay. - Мне нужно написать сочинение.
+
+@essential
+adj. B1
+1. необходимый, важнейший - very important, necessary
+   Water is essential for life.
+
+@establish
+v. B2
+1. основывать, создавать - start a company, system
+   The school was established in 1900.
+2. устанавливать (факт) - find out the facts
+   We need to establish what happened.
+
+@estate
+n. B2
+1. поместье, имение - a large area of land with a house
+   He lived on a country estate.
+2. имущество (умершего) - all that a person owns
+phr. real estate - недвижимость
+
+@estimate
+v. B1
+1. оценивать, прикидывать - guess the size, cost, etc.
+   They estimated the cost at $500.
+n. B1
+2. оценка, примерный расчёт - a guess of the amount
+
+@eternal
+adj. C1
+1. вечный - lasting forever
+   eternal love
+
+@even
+adv. A1
+1. даже - used for surprise
+   Even a child can do it. - Даже ребёнок может это сделать.
+2. ещё (при сравнении) - used to make a comparison stronger
+   It's even colder today. - Сегодня ещё холоднее.
+adj. B1
+3. ровный, гладкий - flat, smooth
+4. чётный (о числе) - 2, 4, 6...
+phr. even if / even though - даже если / хотя
+phr. even so - и всё же
+
+@evening
+n. A1
+1. вечер - the end of the day before night
+   See you this evening. - Увидимся вечером.
+
+@event
+n. A2
+1. событие - something important that happens
+   The wedding was a big event. - Свадьба была большим событием.
+2. мероприятие; вид соревнований - an organized activity
+phr. in any event - в любом случае
+
+@eventually
+adv. B1
+1. в конце концов, в итоге - after a long time
+   He eventually found the key.
+
+@ever
+adv. A1
+1. когда-либо, когда-нибудь - at any time
+   Have you ever been to Paris? - Ты когда-нибудь был в Париже?
+2. всегда - always
+   ever since - с тех пор
+phr. for ever - навсегда
+phr. hardly ever - почти никогда
+
+@every
+det. A1
+1. каждый - each one
+   I go there every day. - Я хожу туда каждый день.
+2. каждые (о промежутке) - once in each period
+   every two hours - каждые два часа
+phr. every other - каждый второй
+
+@everybody
+pron. A1
+1. все, каждый - every person
+   Everybody was happy. - Все были довольны.
+
+@everyday
+adj. A2
+1. повседневный, обычный - normal, ordinary
+   everyday life - повседневная жизнь
+
+@everyone
+pron. A1
+1. все, каждый - every person
+   Everyone knows him. - Его все знают.
+
+@everything
+pron. A1
+1. всё - all things
+   Everything is ready. - Всё готово.
+
+@everywhere
+adv. A1
+1. везде, повсюду - in all places
+   I looked everywhere for you. - Я тебя везде искал.
+
+@evidence
+n. B1
+1. доказательства, улики - facts that show something is true
+   There is no evidence against him.
+
+@evident
+adj. B2
+1. очевидный - clear, easy to see
+   It was evident that she was tired.
+
+@evil
+adj. B1
+1. злой, дурной - very bad, cruel
+   an evil man
+n. B2
+2. зло - the force that makes people do bad things
+   good and evil
+
+@exact
+adj. A2
+1. точный - completely correct
+   the exact time - точное время
+
+@exactly
+adv. A2
+1. точно, ровно - completely correct
+   It's exactly six o'clock. - Сейчас ровно шесть.
+2. именно, вот именно - used to agree
+   "So you think he lied?" "Exactly."
+phr. not exactly - не совсем
+
+@exaggerate
+v. B2
+1. преувеличивать - make something seem bigger than it is
+   Don't exaggerate!
+
+@exam
+n. A1
+1. экзамен - a test at school
+   She passed the exam. - Она сдала экзамен.
+
+@examine
+v. B1
+1. осматривать, изучать - look at carefully
+   The doctor examined her.
+
+@example
+n. A1
+1. пример - something that shows what others are like
+   Give me an example. - Приведи мне пример.
+phr. for example - например
+
+@excellent
+adj. A1
+1. отличный, превосходный - very good
+   That's an excellent idea! - Отличная идея!
+
+@except
+prep. A2
+1. кроме, за исключением - but not
+   Everyone came except Tom. - Пришли все, кроме Тома.
+phr. except for - за исключением
+
+@exception
+n. B1
+1. исключение - something that does not follow the rule
+   with the exception of - за исключением
+
+@exchange
+n. B1
+1. обмен - giving one thing for another
+   an exchange of ideas
+v. B1
+2. обменивать(ся) - give and get back
+   They exchanged glances.
+phr. exchange rate - курс валют
+
+@excited
+adj. A1
+1. взволнованный, радостный - happy and full of energy
+   The children were excited. - Дети были в восторге.
+
+@excitement
+n. B1
+1. волнение, возбуждение - the feeling of being excited
+   She could hardly breathe with excitement.
+
+@exciting
+adj. A1
+1. захватывающий, волнующий - making you excited
+   an exciting story - захватывающая история
+
+@exclaim
+v. C1
+1. воскликнуть - say suddenly and loudly
+   "How beautiful!" she exclaimed.
+
+@excuse
+n. B1
+1. оправдание, отговорка - a reason you give
+   That's no excuse!
+v. A2
+2. извинять, прощать - forgive
+   Excuse me, where is the station? - Извините, где вокзал?
+
+@exercise
+n. A1
+1. упражнение - a task for practice
+   Do exercise 3. - Сделайте упражнение 3.
+2. физическая нагрузка, зарядка - physical activity
+   You need more exercise.
+v. B1
+3. заниматься спортом - do physical activity
+
+@exhausted
+adj. B2
+1. измученный, очень уставший - very tired
+   I was exhausted after the trip.
+
+@exhibition
+n. A2
+1. выставка - a show of art or objects
+   an art exhibition - художественная выставка
+
+@exist
+v. B1
+1. существовать - be real
+   Do ghosts exist?
+
+@existence
+n. B2
+1. существование - being real; life
+   the existence of God
+
+@exit
+n. B1
+1. выход - a way out
+   Where is the exit?
+v. B2
+2. выходить - leave
+
+@expand
+v. B2
+1. расширять(ся) - become bigger
+   The town expanded quickly.
+
+@expect
+v. A2
+1. ожидать, рассчитывать - think something will happen
+   I didn't expect to see you here. - Я не ожидал тебя здесь увидеть.
+2. ждать (кого-то) - wait for
+   We're expecting guests.
+3. полагать - suppose
+   I expect you're tired.
+
+@expensive
+adj. A1
+1. дорогой - costing a lot of money
+   This car is very expensive. - Эта машина очень дорогая.
+
+@experience
+n. A2
+1. опыт - knowledge from doing things
+   Do you have any experience? - У вас есть опыт?
+2. случай, впечатление - something that happened to you
+   It was a terrible experience.
+v. B1
+3. испытывать, переживать - feel; have happen to you
+
+@experiment
+n. B1
+1. эксперимент, опыт - a scientific test
+   They did an experiment.
+v. B1
+2. экспериментировать - try new things
+
+@expert
+n. B1
+1. специалист, эксперт - a person who knows a lot
+   an expert on birds
+
+@explain
+v. A1
+1. объяснять - make something clear
+   Can you explain this word? - Можешь объяснить это слово?
+
+@explanation
+n. A2
+1. объяснение - words that explain
+   There is no explanation.
+
+@explode
+v. B1
+1. взрываться - burst with a loud noise
+   The bomb exploded.
+2. взорваться (от гнева) - suddenly become very angry
+
+@explore
+v. B1
+1. исследовать, осматривать - travel around a new place to learn about it
+   We explored the old town.
+
+@explosion
+n. B1
+1. взрыв - a sudden loud bursting
+   We heard an explosion.
+
+@expose
+v. B2
+1. подвергать (опасности) - leave unprotected
+   Don't expose your skin to the sun.
+2. разоблачать - show the truth about
+   He was exposed as a liar.
+
+@express
+v. B1
+1. выражать - show a feeling or idea
+   She couldn't express her feelings.
+adj. B1
+2. срочный, скорый - fast
+   an express train
+
+@expression
+n. B1
+1. выражение (лица) - the look on your face
+   a sad expression
+2. выражение, оборот - a phrase
+
+@extend
+v. B2
+1. продлевать, расширять - make longer or bigger
+   They extended the house.
+2. простираться, тянуться - reach, cover an area
+   The forest extends for miles.
+
+@extent
+n. B2
+1. степень, размер - how large or great
+   to some extent - в какой-то степени
+
+@extra
+adj. A2
+1. дополнительный, лишний - more than usual
+   I need an extra blanket. - Мне нужно ещё одно одеяло.
+adv. B1
+2. дополнительно, особенно - more
+   You have to pay extra.
+
+@extraordinary
+adj. B1
+1. необычайный, удивительный - very unusual
+   an extraordinary story
+
+@extreme
+adj. B1
+1. крайний, чрезвычайный - very great
+   extreme cold
+2. экстремальный, радикальный - not normal
+   extreme views
+
+@extremely
+adv. B1
+1. чрезвычайно, крайне - very
+   She was extremely angry.
+
+@eye
+n. A1
+1. глаз - you see with it
+   She has blue eyes. - У неё голубые глаза.
+phr. keep an eye on - присматривать за
+phr. catch someone's eye - привлечь внимание
+
+@eyebrow
+n. B2
+1. бровь - the line of hair above your eye
+   He raised his eyebrows.
+
+@eyelid
+n. C1
+1. веко - the skin that covers your eye
+   Her eyelids were heavy.
+
+@fabric
+n. B2
+1. ткань - cloth
+   cotton fabric
+
+@face
+n. A1
+1. лицо - the front of your head
+   Wash your face. - Умойся.
+2. выражение лица - a look
+   Why the long face?
+v. B1
+3. быть обращённым к, стоять лицом к - look towards
+   The house faces the sea.
+4. сталкиваться, смотреть в лицо - deal with a problem
+   You must face the truth.
+phr. face to face - лицом к лицу
+
+@fact
+n. A1
+1. факт - something that is true
+   It's a fact. - Это факт.
+phr. in fact - на самом деле, фактически
+
+@factor
+n. B1
+1. фактор - one of the things that cause a result
+   an important factor
+
+@factory
+n. A2
+1. фабрика, завод - a building where things are made
+   He works in a factory. - Он работает на заводе.
+
+@fade
+v. B2
+1. угасать, тускнеть - become weak or pale
+   The light was fading.
+2. исчезать, стихать - slowly disappear
+   Her smile faded.
+
+@fail
+v. A2
+1. провалить (экзамен) - not pass
+   He failed his driving test. - Он не сдал экзамен по вождению.
+2. не суметь, не удаваться - not succeed
+   The plan failed.
+3. отказывать (о технике, органах) - stop working
+   The brakes failed.
+
+@failure
+n. B1
+1. неудача, провал - lack of success
+   The plan was a failure.
+2. неудачник - a person who fails
+   He felt like a failure.
+
+@faint
+adj. B2
+1. слабый, едва заметный - not strong, hard to see or hear
+   a faint sound
+2. близкий к обмороку - weak and dizzy
+v. B2
+3. терять сознание, падать в обморок - become unconscious
+   She fainted from the heat.
+
+@fair
+adj. A2
+1. справедливый, честный - treating people equally
+   It's not fair! - Это нечестно!
+2. светлый (о волосах, коже) - light in colour
+   She has fair hair.
+3. неплохой, приличный - not bad
+n. B1
+4. ярмарка - an event with rides and games
+
+@fairly
+adv. B1
+1. довольно, достаточно - quite
+   It's fairly easy.
+2. справедливо - in a fair way
+
+@fairy
+n. B1
+1. фея - a small magic creature
+phr. fairy tale - сказка
+
+@faith
+n. B2
+1. вера, доверие - strong trust
+   I have faith in you.
+2. вера, религия - belief in God
+
+@faithful
+adj. B2
+1. верный - loyal
+   a faithful friend
+
+@fake
+adj. B2
+1. поддельный, фальшивый - not real
+   fake money
+v. B2
+2. подделывать, притворяться - pretend
+   She faked a smile.
+
+@fall
+v. (fell, fallen) A1
+1. падать - drop down
+   He fell off his bike. - Он упал с велосипеда.
+2. снижаться - become less
+   Prices fell.
+3. становиться (в каком-то состоянии) - become
+   fall asleep - заснуть; fall ill - заболеть
+n. A2
+4. осень (амер.) - autumn
+phr. fall in love - влюбиться
+phr. fall apart - разваливаться
+
+@false
+adj. A1
+1. ложный, неверный - not true
+   true or false? - верно или неверно?
+2. искусственный, фальшивый - not real
+   false teeth
+
+@fame
+n. B2
+1. слава, известность - being famous
+
+@familiar
+adj. B1
+1. знакомый - well known to you
+   His face looked familiar.
+phr. be familiar with - хорошо знать что-то
+
+@family
+n. A1
+1. семья - parents and children
+   I have a big family. - У меня большая семья.
+
+@famous
+adj. A1
+1. знаменитый, известный - known by many people
+   a famous actor - известный актёр
+
+@fan
+n. A2
+1. болельщик, фанат - a person who loves a team, star
+   a football fan
+2. вентилятор, веер - a machine or object that moves air
+
+@fancy
+v. B2
+1. хотеть (брит. разг.) - want
+   Do you fancy a drink?
+2. нравиться (о человеке) - be attracted to
+adj. B2
+3. причудливый, шикарный - expensive, decorated
+   a fancy hotel
+
+@fantastic
+adj. A1
+1. фантастический, потрясающий - very good
+   You look fantastic! - Ты потрясающе выглядишь!
+
+@fantasy
+n. B2
+1. фантазия, мечта - a pleasant imagined situation
+2. фэнтези - stories with magic
+
+@far
+adv. A1
+1. далеко - a long way
+   Is it far from here? - Это далеко отсюда?
+2. гораздо, намного - much
+   far better - гораздо лучше
+phr. so far - пока, до сих пор
+phr. as far as I know - насколько я знаю

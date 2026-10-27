@@ -1,0 +1,413 @@
+The Quiet Signal
+
+Chapter 1. The Last Season
+
+There were six of them left at Halvorsen Ridge Station when the signal began, and every one of them was already thinking about going home.
+
+The station had been built in 2021 on a high, flat plateau of ice nine hundred kilometres from the coast of Antarctica. For eighteen years it had been a small miracle of international science: a cluster of insulated modules on steel legs, a power plant, a garage full of snow vehicles, and, half a kilometre away, the reason it existed at all - a borehole three point two kilometres deep, drilled through the ice sheet all the way down to the rock beneath.
+
+At the bottom of the borehole, in total darkness and under unimaginable pressure, sat an array of sensors that the crew called the Deep Ear. It listened to the ice. It recorded the slow groan of glaciers moving, the trickle of water in the hidden lake beneath, the faint tremors of distant earthquakes. It had been listening, without a break, for fifteen years.
+
+And now it was going to be switched off. The funding had run out in a quiet budget meeting in Brussels, and the station would close for good at the end of the season. On the fourteenth of March, a ski-equipped Twin Otter aircraft would land on the runway, collect the last six people, and fly them to the coast. After that, Halvorsen Ridge would be left to the wind.
+
+Anna Lind had spent five seasons here. She was a glaciologist from Uppsala, forty-one years old, and she had come to love the place in the way you sometimes love difficult people: not because it was kind to you, but because it was honest. The cold did not pretend. The wind did not negotiate. Out here, you either did things properly or you didn't survive to do them again.
+
+On the morning of the third of March she was in the data room, drinking bad coffee and packing hard drives into crates, when Sam Okafor put his head round the door.
+
+"Anna," he said. "Have you got a minute? There's something weird on the Deep Ear."
+
+Sam was twenty-six, the youngest of the crew, a data technician from Manchester who wore headphones the way other people wore glasses. He was clever and restless and inclined to get excited about things, so Anna didn't hurry. She finished labelling a crate first.
+
+"Weird how?"
+
+"I don't know yet." He frowned, which was unusual for him. "That's what's weird about it."
+
+Chapter 2. Noise
+
+The data room was the warmest place on the station, because the servers never stopped running. Sam sat down in front of three monitors and pulled up a long, jagged line that Anna recognised immediately: the acoustic channel from the bottom of the borehole.
+
+"This is last night," he said. "Normal ice noise, yeah? Cracking, settling, the usual. Now look at this bit. From about two in the morning."
+
+He zoomed in. Among the random shapes of the ice was a section that wasn't random at all. Short pulses, evenly spaced, then a pause, then more pulses. It went on for eleven minutes and then stopped.
+
+"Equipment fault," Anna said. "The array's fifteen years old. Something's starting to fail. Honestly, Sam, it's a miracle it lasted this long."
+
+"That's what I thought. So I ran diagnostics. Everything's fine. Power's fine, temperatures are fine, all the channels are reporting normally." He tapped the screen. "And faults don't look like this. Faults are messy. This is clean. Somebody - something - is making this."
+
+"Nobody is three kilometres under the ice, Sam."
+
+"I know." He gave her a slightly embarrassed grin. "I'm just saying it looks deliberate."
+
+Anna studied the pattern for a while. She had been looking at Deep Ear data for five years, and she had to admit she had never seen anything like it. Ice made sounds that were huge and slow and chaotic. This was small, precise, almost polite, like someone knocking on a door.
+
+"Keep an eye on it," she said. "If it happens again, tell me. And don't mention it at dinner. You know what Pieter's like."
+
+Pieter Vos, the station commander, was a Dutch engineer of fifty-eight who had run polar stations for twenty years. He was calm, fair and utterly unimpressed by anything that wasn't written down in a procedure. With eleven days to go before closing, he was not going to welcome a mystery.
+
+The signal came back the following night at exactly the same time. And the night after that. On the third night Sam didn't come to breakfast. Anna found him in the data room with his eyes red and four empty coffee cups lined up beside the keyboard.
+
+"I've cracked it," he said, in a strange flat voice. "At least, I think I have. And I really, really wish I hadn't."
+
+Chapter 3. Pattern
+
+"It's binary," Sam said. "Long pulses and short pulses. Ones and zeros. Once I realised that, I tried to decode it as text, and got nothing. Then I tried it as data, and it was still nonsense. And then, about three o'clock this morning, I tried it as one of our own data packets."
+
+"Our own?"
+
+"Our telemetry format. The way the station sends its readings to the satellite every hour. Temperature, wind speed, pressure, power levels, all packed into a standard block. I rewrote the format myself last October - version four. Nobody else in the world uses version four. It's only been running here."
+
+He turned the screen towards her. On it was a neat table of numbers, exactly like the ones the station sent out every hour of every day. Air temperature: minus forty-one point three. Wind speed: sixty-two kilometres an hour. Pressure: six hundred and twelve hectopascals. Generator two: offline.
+
+"So it's an echo," Anna said slowly. "Our own signal is getting into the array somehow and bouncing back. Electrical interference along the cable."
+
+"That's what I thought, too. Look at the timestamp."
+
+She looked. Then she looked again, because the first time her brain refused to accept it.
+
+The packet was dated the eleventh of March, 2039. 14:00 hours.
+
+Today was the sixth.
+
+"It's a bug," she said immediately. "The clock in the packet is wrong. You've made a mistake in the decoding."
+
+"Maybe. I've checked it about twenty times." Sam rubbed his face. "There's more. It isn't just one packet. Every night there are several, all from different dates. The ninth. The eleventh. The twelfth. The thirteenth. The latest one is from the fourteenth of March. Fourteen minutes past eleven in the morning." He hesitated. "And that one's got something extra attached. A text field. We use it for log notes - you know, when someone types a message for the operations centre."
+
+"What does it say?"
+
+Sam didn't answer. He just pointed at the bottom of the screen.
+
+The text field contained eight words, in capital letters: "TWIN OTTER CONTACT LOST 1108. WHITEOUT. NO SURVIVORS EXPECTED."
+
+The data room was silent apart from the hum of the servers. Anna noticed that her hands had gone cold, even in the warmest room on the station.
+
+"Who else knows about this?" she said.
+
+"Only you."
+
+"Then we need to tell Pieter," she said. "Now."
+
+Chapter 4. Three Kilometres Down
+
+Pieter Vos listened to the whole thing without interrupting, sitting at the head of the long table in the mess module with his reading glasses pushed up onto his forehead. The rest of the crew had gathered around him: Malik Hassan, the station engineer, broad-shouldered and serious; Dr Elena Ruiz, the station doctor, who had spent more winters in Antarctica than anyone; and Gregor Novak, who was officially the mechanic and unofficially the cook, and who had stopped peeling potatoes halfway through the story.
+
+When Sam had finished, Pieter took off his glasses and folded them carefully.
+
+"Thank you, Sam," he said. "That's very interesting. Now, I want to ask you a serious question, and I want you to think about it before you answer. Is there any possibility - any possibility at all - that someone has been playing a joke?"
+
+Sam went red. "You mean me."
+
+"I mean anyone. We're all tired. We're all a little crazy by the end of a season. It wouldn't be the first time. In 2029, at Concordia, someone convinced half the crew there was a penguin living in the ventilation system."
+
+"It's not a joke," Sam said. "I swear on my mother's life, Pieter. I didn't do this."
+
+"Then it's a fault," said Malik. "The cable that runs down the borehole is three kilometres long. It's old. It's been sitting in the ice for fifteen years. Our telemetry signal could be leaking into it and coming back corrupted. The dates are just garbage."
+
+"Then why are the dates always in the future?" Sam said. "Why never in the past? And why is the garbage perfectly formatted?"
+
+Nobody answered.
+
+Elena Ruiz spoke for the first time. She was in her sixties, small and grey-haired, and she had a way of saying things that made people stop and listen. "There is a simple way to check," she said. "The first packet was from the ninth. That's three days from now. If the readings in that packet match the real weather on the ninth, then we have a problem. If they don't, then it's a fault, and we can all go back to packing."
+
+Pieter nodded slowly. "Agreed. Sam, save everything. Make copies. Nobody talks about this on the satellite link until we know more. We have a closing schedule to keep, and I don't want the operations centre thinking we've lost our minds in the last week of the season."
+
+That night, after the others had gone to bed, Anna walked out to the borehole building. It was minus forty-five and perfectly still. Above her the sky was a deep, bruised purple, and the first stars of the coming winter were beginning to appear.
+
+She stood on the steel floor beside the winch and looked down at the narrow cap that sealed the hole. Three point two kilometres beneath her feet, in a darkness that had not been disturbed for a million years, something was talking. And if Sam was right, it was talking in their own voices.
+
+Chapter 5. The Ninth of March
+
+On the morning of the ninth, all six of them were in the data room by seven o'clock. Nobody had suggested it. Everybody had simply turned up, holding coffee, pretending to be casual.
+
+The first predicted packet was timestamped 09:00. Sam had printed it out and taped it to the wall. Air temperature minus thirty-eight point seven. Wind speed twenty-four kilometres an hour, from the south-east. Pressure six hundred and nineteen. Generator one: normal. Generator two: normal.
+
+At nine o'clock exactly, the station's own sensors sent their hourly reading to the screen.
+
+Air temperature minus thirty-eight point seven. Wind speed twenty-four, south-east. Pressure six hundred and nineteen.
+
+Gregor said something in Slovenian that was probably a prayer, or possibly not. Malik leaned forward and checked the numbers twice, line by line, with his finger on the paper. Elena simply sat down.
+
+"Coincidence," said Pieter, but his voice had lost its certainty. "The weather's been stable for days. Anyone could guess those numbers."
+
+"To one decimal place?" said Anna. "All three?"
+
+They waited for the next hour, and the next. At eleven o'clock the packet predicted a wind speed of thirty-one. The station recorded thirty-one. At one in the afternoon, the predicted packet said that generator two had shut down with a fuel pressure warning. Malik sprinted out of the room, and twelve minutes later he called on the radio, breathless.
+
+"Generator two just tripped. Fuel pressure. Exactly like the packet." A pause, full of static. "I hadn't even touched it, Pieter. I swear to God, I hadn't even been near it."
+
+By evening, there was no longer any argument. Every reading matched. Twenty-four hours of weather, power and machinery, each number exactly as the voice from under the ice had said it would be.
+
+They sat around the mess table that night, the six of them, and nobody ate much. Gregor had made goulash, his best dish, and it went cold in the pot.
+
+"So," said Elena at last. "We are receiving information from the future. I think we should say it out loud, at least once, so that we stop pretending."
+
+"We don't know that," said Pieter. "We know that something is predicting the station's readings with great accuracy. That's all we know."
+
+"And it predicts the plane will crash," said Sam quietly. "With us in it."
+
+Chapter 6. Fragments
+
+Over the next two nights the signal grew longer, and stranger.
+
+The packets now came from further and further into the future: the fifteenth of March, the eighteenth, the twenty-second, the end of the month. Sam decoded each one with the grim concentration of a man defusing a bomb. Most of them contained nothing but numbers. Temperature falling. Wind rising. Generator one running. Generator two offline, permanently. Fuel level dropping slowly, day by day.
+
+And one occupant. In version four of the telemetry format there was a field that recorded how many people were logged in to the station's safety system. Until the fourteenth it said six. After the fourteenth it said one.
+
+"One person stays behind," Sam said. "Everyone else gets on the plane."
+
+Anna felt the hair rise on the back of her neck. Because she knew who that person was. Everyone in the room knew. The flight plan had been agreed weeks ago: on the fourteenth, the Twin Otter would take five people and their luggage to the coast. The next day, a second, larger aircraft would come for the last passenger and the most valuable cargo on the station - eighteen hundred metres of ancient ice cores, packed in freezers, which could not be left alone for even a few hours. Somebody had to stay with them. Anna had volunteered. They were her cores, after all. She had spent five years drilling them.
+
+"The second plane never comes," Elena said quietly, reading over Sam's shoulder. "Because of the storm. And because the first plane is missing, and everyone is searching for it."
+
+On the night of the eleventh, the text fields began to appear more often. They were short, written in capital letters, as the format demanded. But Anna recognised the voice in them, the way you recognise your own handwriting in an old notebook.
+
+"17 MAR. RADIO DOWN. ANTENNA ICED. TRYING TO FIX."
+
+"20 MAR. NO SEARCH FLIGHTS. WEATHER TOO BAD. FUEL OK FOR 30 DAYS."
+
+"23 MAR. FOUND CALIBRATION TRANSMITTER IN BOREHOLE HUT. CAN SEND PULSES INTO ICE. NO IDEA WHY I AM DOING THIS."
+
+"25 MAR. IF ANYONE EVER HEARS THIS - DO NOT FLY ON THE 14TH. PLEASE. A.L."
+
+Anna read the last one three times. Then she got up and walked out of the data room without a word, put on her outer layers, and went out into the cold.
+
+She walked along the flagged path to the edge of the runway and stood there with the wind cutting through her face mask, looking at the empty white plain under the low sun. She thought: that is me. In two weeks, that will be me, alone in this place, with five friends dead somewhere out there on the ice, typing messages into a machine because there is nobody left to talk to.
+
+She thought about the calibration transmitter. It was a simple device, almost forgotten, used years ago to test the Deep Ear by sending acoustic pulses down the borehole. She herself had shown it to Sam during his first week. It was entirely possible that someone alone and desperate might try to use it.
+
+But a message sent into the ice on the twenty-fifth of March could not possibly arrive on the third. Sound did not travel backwards. Nothing did.
+
+Behind her she heard boots crunching on the snow. It was Malik. He stood beside her for a while without speaking, his breath freezing in white clouds.
+
+"I've been thinking about the lake," he said finally.
+
+Chapter 7. Malik
+
+Malik Hassan had been born in Alexandria and raised in Leicester, and he had spent most of his career designing power systems for places where nothing should be able to live. He was not a man who believed in ghosts. He believed in cables, voltages and tolerances. That was why, when he began to talk, Anna listened.
+
+"Under the ice there's a lake," he said. "You know this better than I do. It's been sealed off from the world for maybe fifteen million years. The water is under enormous pressure. It's warmed by the rock from below and cooled by the ice from above. Nobody has ever really understood what goes on down there."
+
+"Malik, I'm a glaciologist. I'm not going to tell you the lake is sending messages from the future."
+
+"I'm not saying that. I'm saying we don't know." He gestured at the white emptiness all around them. "Physicists have been arguing for a hundred years about whether information can travel backwards in time. Most of them say no. Some of them say yes, under certain conditions. Extreme pressure, extreme cold, strange quantum effects in the structure of the ice. I don't understand it. You don't understand it. Nobody understands it. But what's happening is happening, Anna. You can't argue with the numbers."
+
+"So what do you suggest?"
+
+He turned to look at her, and for the first time she saw that he was frightened. Not for himself. For something else.
+
+"I think the station shouldn't close," he said. "I think this is the most important thing that has ever happened in the history of science, and in eight days we're going to switch it off and fly away. I want to stay. Through the winter. Alone if I have to."
+
+"Malik, that's insane. One person can't winter here. The rules..."
+
+"The rules were written by people who'd never heard a voice from under the ice." He shook his head. "I'm not asking permission. I'm just telling you what I think. And I think if we leave, we'll spend the rest of our lives wondering what we walked away from."
+
+That evening, Pieter called the operations centre in Christchurch on the satellite link. Anna sat beside him while he explained, in the most careful and neutral language he could find, that the crew had received unusual data from the borehole sensor which appeared to predict weather conditions accurately, and that this data indicated a severe risk to the flight on the fourteenth.
+
+The duty officer in Christchurch was a polite young man named Daniel. He listened. He took notes. Then he put Pieter on hold for twenty minutes, and when he came back, his voice had changed.
+
+"Commander Vos, I've spoken to the operations director. She asks me to tell you that the latest meteorological forecast for the fourteenth is excellent. Clear skies, light winds, a high-pressure system sitting right over you. The aircraft is booked, the crew is booked, and there is no flexibility in the schedule. The next available slot would be in eleven days, and by then the season will be over and the aircraft will have left the continent." He hesitated. "She also asks me to say that she has a great deal of respect for you personally, and that she hopes you and your team are getting enough rest."
+
+Pieter thanked him and ended the call. He sat in silence for a long time, looking at the dark screen.
+
+"She thinks we've gone mad," he said.
+
+"Have we?" said Anna.
+
+Pieter didn't answer. He took his glasses off, rubbed his eyes, and said something Anna had never heard him say in five seasons.
+
+"I don't know what to do."
+
+Chapter 8. The Commander's Decision
+
+On the morning of the thirteenth, Pieter called everyone to the mess. He was freshly shaved and wearing a clean shirt, and he looked like a man who had not slept but had made up his mind.
+
+"I've been commanding stations for twenty years," he said. "In that time I have followed every procedure, every rule, every instruction from every operations centre I've ever worked for. I have always believed that procedures exist for good reasons. Usually they're written after someone has died."
+
+He looked around the table at each of them in turn.
+
+"Here is my problem. If I follow the procedure, I put five people on an aeroplane tomorrow morning, including myself, in perfect weather, with an experienced pilot. If anything goes wrong, nobody can blame me. And if this signal is right, five of us will be dead by lunchtime, and Anna will be alone here for weeks, and she will spend that time trying to warn us."
+
+"And if the signal is wrong?" said Gregor.
+
+"Then I refuse a flight in clear weather, I disobey a direct instruction from operations, I cost the programme a great deal of money, and my career ends in disgrace." Pieter gave a small, tired smile. "I'm fifty-eight. I was going to retire next year anyway. I think I can live with that."
+
+There was a silence.
+
+"So we don't fly," said Sam.
+
+"We don't fly. Not tomorrow. I'll inform Christchurch this afternoon. They can send the aircraft on the fifteenth, or the sixteenth, or whenever the weather allows. Gregor, I'm afraid we'll need to unpack some food."
+
+Gregor shrugged. "I never liked the food on the coast anyway."
+
+But it was not so simple. When Pieter called Christchurch, the operations director herself came on the line - a sharp, efficient woman named Judith Carey - and the conversation lasted almost an hour. Anna heard only Pieter's side of it, through the thin wall of the radio room. His voice never rose, but it grew steadily colder and more formal.
+
+When he came out, his face was grey.
+
+"The plane is coming anyway," he said. "They've already sent it from the coast to the fuel depot at Mid Point. It'll arrive here at nine tomorrow morning. Carey says the pilot will make the final decision about whether to take passengers, as the pilot is the legal authority for the flight. If the pilot decides to fly and we refuse to get on board, she'll have me removed from command."
+
+"So we just have to persuade the pilot," said Elena.
+
+"The pilot," said Pieter, "is Ewa Kowalska. Polish, twenty-five years of polar flying. I've flown with her a dozen times. She is the best pilot on the continent, and she has never in her life believed anything she couldn't see out of her own window."
+
+That night, Anna couldn't sleep. At three in the morning she went to the data room and found Sam there, as always, his face lit blue by the screens.
+
+"There's a new packet," he said. "Last night. It's from the fourteenth again, 11:14, like the first time. But there's something extra in it I hadn't noticed before. An identifier field. For aircraft movements, we log the tail number of every plane that lands on the runway."
+
+"And?"
+
+"It says C-GKWX," said Sam. "Anna, nobody told us which aircraft they were sending. Nobody here knows that number."
+
+Chapter 9. The Fourteenth
+
+The Twin Otter appeared out of a sky so blue it hurt to look at, a small red-and-white shape growing steadily larger above the horizon. It touched down on the snow runway at two minutes past nine, bounced once, and slid to a halt in a glittering cloud of ice crystals.
+
+Ewa Kowalska climbed down from the cockpit, pulled off her sunglasses and looked around at the six people waiting for her in a silent row. She was a tall woman in her fifties with a weathered face and a reputation for saying exactly what she thought.
+
+"Well," she said. "This looks like a funeral. Where's the luggage?"
+
+They took her to the mess and gave her coffee, and Pieter explained. To his credit, he did not dress it up. He told her everything: the pulses, the packets, the readings that matched to one decimal place, the generator that failed exactly when it was supposed to. Ewa listened with her arms folded, her face giving nothing away.
+
+When he had finished, she put down her cup.
+
+"Pieter, I like you," she said. "So I'm going to be polite. I have flown on this continent for twenty-five years. I've seen people go strange at the end of a season. I've seen a man in Rothera who was convinced his radio was talking to him. Look out of the window. There isn't a cloud in the sky between here and the coast. I've checked every forecast there is. I'm leaving at half past ten, and I would very much like to take you with me."
+
+That was when Anna slid a sheet of paper across the table. On it, in Sam's printout, was the packet from 11:14 on the fourteenth of March. She had circled one line in red.
+
+"Aircraft identifier," she said. "C-GKWX. Is that your plane?"
+
+Ewa looked at the paper for a long time. The colour slowly left her face.
+
+"Who told you that?"
+
+"Nobody," said Anna. "We received it three days ago. From three kilometres under the ice. Christchurch didn't even confirm which plane they were sending until yesterday afternoon. You can check our messages if you like."
+
+Ewa picked up the paper. Her hand, Anna noticed, was not quite steady. She read the line about contact lost at 11:08, and then the line beneath it, and then she put the paper down and stared out of the window at the perfect blue sky.
+
+"There is no weather," she said. "There is nothing out there."
+
+"Then we wait an hour," said Pieter quietly. "If nothing happens by eleven-thirty, I'll get on that plane myself, and I'll apologise to you all the way to the coast."
+
+Ewa was silent for a long moment. Then she let out a breath that was almost a laugh.
+
+"My grandmother," she said, "would never take a train on a Friday the thirteenth. Everyone said she was a superstitious old woman. She lived to ninety-seven." She sat back in her chair. "Fine. One hour. Somebody give me more coffee."
+
+At ten-forty, the light changed.
+
+Anna saw it first, because she had been staring out of the window for an hour. The sky over the southern horizon did not darken so much as fade, as though someone were slowly turning down the colour. The sharp line where the snow met the sky softened, and blurred, and then disappeared altogether.
+
+At ten fifty-five the wind arrived, without warning, like a wall. The whole station shook. Snow that had lain still for weeks rose from the ground in a single moving sheet, and within two minutes the window showed nothing at all - not the runway, not the garage forty metres away, not even the railing outside the door. Only white. A perfect, total, roaring white.
+
+Nobody spoke. Ewa Kowalska stood at the window with her hand flat against the glass, staring into nothing, and very slowly made the sign of the cross.
+
+The clock on the wall said eleven-oh-eight.
+
+Chapter 10. Whiteout
+
+The storm lasted three days.
+
+For three days, seven people lived inside a box of steel and insulation on legs, while outside the wind screamed at a hundred and forty kilometres an hour and the temperature fell to minus fifty-eight. Nobody went outside except on a safety line, and then only Malik and Gregor, roped together, crawling the forty metres to the power plant to check the generators. On the second night generator two failed for good, exactly as the packets had said it would. Malik had already prepared the spare parts. He fixed it in four hours, with his fingers so cold he could barely hold the tools, and came back in laughing like a madman.
+
+"It told me," he kept saying, as Elena wrapped his hands in warm towels. "It told me what would break, and when. I've never had such a well-behaved disaster."
+
+Ewa Kowalska spent most of the storm in the radio room. Christchurch had gone very quiet after the first message from the station, and then, on the second day, very apologetic. A search had been launched for a supply flight that had been crossing the plateau a hundred kilometres to the north when the whiteout struck. It had been found, damaged but intact, with both crew alive. Nobody said out loud what everyone was thinking: that if the Twin Otter had taken off at half past ten, it would have flown straight into the heart of the storm, with nowhere to land.
+
+Judith Carey herself called on the third morning. She spoke to Pieter for less than a minute. Afterwards he came into the mess, poured himself a coffee, and sat down at the table without a word.
+
+"Well?" said Gregor.
+
+"She asked me," Pieter said slowly, "whether I would consider staying on for another two years. If they can find the money to keep the station open." He shook his head in disbelief. "Apparently there are some people in Brussels who are suddenly very interested in the Deep Ear."
+
+Malik let out a shout and hugged Sam so hard that the boy's headphones fell off.
+
+But Anna noticed something else that morning, something she didn't share with the others until later. The signal from the borehole had changed.
+
+The packets still came every night at two o'clock. But they were different now. The occupant field showed seven, then eight on the day the rescued supply crew was flown in, then six again. The text fields no longer contained desperate messages in capital letters. There was nothing about radios freezing or fuel running low. On the twenty-fifth of March, the date of the message that had begun "IF ANYONE EVER HEARS THIS", there was only an ordinary weather report and a log note in Malik's style about changing an air filter.
+
+The future had been rewritten. The version of Anna who sat alone in an empty station, sending pulses into the ice, no longer existed. She had never existed. And yet her words were still saved on Sam's hard drive, in a folder he had named, after a long hesitation, "ANNA - ORIGINAL".
+
+On the night the storm ended, the signal stopped completely. Sam sat up until dawn, waiting. There was nothing on the acoustic channel but the slow, ancient groaning of the ice.
+
+"It's gone," he said, when Anna came in with breakfast. He looked as if someone had died. "Just like that. No goodbye."
+
+"Maybe it doesn't need to talk to us any more," said Anna. "Maybe it said what it needed to say."
+
+"Or maybe," said Sam, "it's waiting for somebody to say it first."
+
+Chapter 11. Closing the Loop
+
+Anna thought about that sentence for the next two days.
+
+It kept her awake at night. It followed her around the station as she unpacked the crates she had packed a week earlier and put her ice cores back into the long-term freezers. It sat beside her at meals. Maybe it's waiting for somebody to say it first.
+
+Because there was a problem with what had happened, a problem that none of them liked to talk about. The warning had come from a woman who, in the end, was never left alone at the station. That woman had sent pulses into the ice from a world where the plane had crashed. But that world no longer existed. So who, exactly, had sent the message?
+
+Malik had a dozen theories, each more complicated than the last. Elena said that some questions were like the stars over the plateau: you could look at them, and admire them, but you were never going to get there. Pieter said that he was a practical man, and that the practical thing was to be grateful and get on with the work.
+
+But Anna kept coming back to one simple idea. A message had been received. Therefore, somewhere, somehow, a message had to be sent. If nobody sent it, then perhaps - she did not fully understand why she believed this, but she did - perhaps everything they had been given would be taken back.
+
+On the evening of the eighteenth, she asked Sam to come with her to the borehole hut.
+
+It was minus forty-four and the sky was clear again, scattered with more stars than she had ever seen in Uppsala. Inside the hut, next to the great steel winch, was the calibration transmitter: a grey box the size of a suitcase, with a coil of cable running down into the dark mouth of the borehole. A thin layer of frost covered the control panel. Nobody had used it for six years.
+
+"I want to send it," Anna said. "The whole thing. Every packet we received, in the same order, with the same timestamps. And the messages. My messages." She hesitated. "Her messages."
+
+Sam looked at her for a long moment. He did not ask why. Anna was grateful for that, because she was not sure she could have explained.
+
+"It'll take most of the night," he said. "The transmitter's slow."
+
+"I've got nowhere else to be."
+
+They connected his laptop to the transmitter with a cable that Malik had found in a box of spares. Sam wrote a short program to convert the saved packets into long and short acoustic pulses. Then, a little after midnight, he pressed a key, and the grey box began to tick softly, like an old clock, sending sound down three point two kilometres of ice into the darkness.
+
+They sat on two upturned crates and listened. Neither of them spoke much. Once Gregor came out on the safety line with a flask of hot chocolate and a plate of biscuits, looked at the ticking box, shook his head, and went back to bed without asking any questions.
+
+At about four in the morning the transmitter reached the last of the messages. Anna watched the words appear on Sam's screen as the pulses went down into the ice. "25 MAR. IF ANYONE EVER HEARS THIS - DO NOT FLY ON THE 14TH. PLEASE. A.L."
+
+Then, on an impulse she would never fully understand, she leaned over and typed one more line of her own, in capital letters, as the format required.
+
+"18 MAR. MESSAGE RECEIVED. ALL SAFE. THANK YOU."
+
+Sam looked at her. Then he smiled and added it to the end of the queue.
+
+The transmitter ticked for another minute and fell silent. Outside, the sun was coming up, a thin band of gold on the edge of the world, and the snow was turning from blue to pink.
+
+"Do you think it worked?" Sam asked.
+
+"I think," said Anna, "we will never know. And I think that's all right."
+
+Chapter 12. Departure
+
+The Twin Otter came back on the twentieth of March, on a calm, bitterly cold morning, and this time the whole station was waiting for it on the runway.
+
+Not everyone was leaving. After three long phone calls with Brussels and Christchurch, it had been agreed that Halvorsen Ridge would stay open through the winter, with a reduced crew of three: Pieter, who had decided that retirement could wait another year; Malik, who had nearly wept when he heard the news; and Sam, who had been offered a contract that paid twice his old salary and had accepted it before Pieter had finished the sentence. A larger team of physicists would arrive in the spring. The Deep Ear would keep listening.
+
+Anna was going home. Her ice cores were packed in their freezers, ready to be loaded, and in Uppsala a laboratory was waiting for them, and a flat she had barely lived in for five years, and a sister who had sent her an email that said only "Come home. Please." She had found, to her own surprise, that she wanted to.
+
+Ewa Kowalska climbed down from the cockpit and stood looking at the sky for a long time before she said anything.
+
+"Clear," she said finally. "Nothing between here and the coast. Every forecast agrees." She glanced at Sam. "Any objections from downstairs?"
+
+Sam glanced at Malik before he answered. "Nothing to worry about," he said.
+
+"Good," said Ewa. "Because I'll be honest with you. If you'd told me there was a problem, I'd have believed you this time."
+
+They loaded the freezers and the luggage. Then there was the awkward, painful business of saying goodbye. Gregor, who was also going home, cried openly and was not ashamed of it. Elena hugged everybody twice. Pieter shook Anna's hand very formally, then changed his mind and hugged her, too.
+
+"Thank you," he said quietly. "For the paper with the red circle. I'm not sure I'd have been brave enough without it."
+
+"You were brave enough," said Anna. "You made the decision before you saw it. I was there."
+
+Malik gave her a small package wrapped in brown tape. "Don't open it until you're in the air," he said.
+
+The plane took off at ten-fifteen. Anna sat by the window and watched the station grow smaller beneath her: the cluster of modules on their steel legs, the power plant, the garage, and, half a kilometre away, the little hut over the borehole, with three tiny figures standing beside it, waving.
+
+When the station had disappeared into the endless white, she opened Malik's package. Inside was a USB drive and a note in his large, untidy handwriting.
+
+"Sam found this on the acoustic channel last night, at 02:00. One packet. No data, just a text field. He says it's in the old format, version four, and the timestamp is the twenty-fifth of March. We decided you should have it. M."
+
+Anna plugged the drive into her laptop with hands that were not quite steady. There was a single file. She opened it.
+
+It contained six words, in capital letters, as the format demanded.
+
+"MESSAGE SENT. I KNEW YOU WOULD."
+
+She read it many times, while the plane flew north over the silent plateau towards the sea. Then she closed the laptop, leaned her head against the cold window, and for the first time in many days, she slept.

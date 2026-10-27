@@ -1,0 +1,580 @@
+@a
+det. A1
+1. (артикль, часто не переводится) - one, any
+   I have a dog. - У меня есть собака.
+2. в, за (каждый) - in each, per
+   twice a day - два раза в день
+
+@abandon
+v. B2
+1. бросить, покинуть - leave someone or something forever
+   They abandoned the car and ran.
+2. отказаться (от плана) - stop doing or planning something
+   We had to abandon the idea.
+
+@ability
+n. A2
+1. способность, умение - the power or skill to do something
+   She has the ability to learn fast. - Она умеет быстро учиться.
+
+@able
+adj. A2
+1. мочь, быть в состоянии (be able to) - can do something
+   I wasn't able to sleep. - Я не мог уснуть.
+2. способный, умелый - clever, good at things
+   He is a very able student.
+
+@about
+prep. A1
+1. о, про - on the subject of
+   a book about dogs - книга о собаках
+adv. A1
+2. около, примерно - a little more or less than
+   It costs about ten pounds. - Это стоит около десяти фунтов.
+3. собираться (сейчас) (be about to) - be going to do very soon
+   I was about to leave. - Я как раз собирался уходить.
+
+@above
+prep. A1
+1. над, выше - higher than
+   The lamp hangs above the table. - Лампа висит над столом.
+2. более, свыше - more than
+   above 30 degrees
+3. прежде всего (above all) - most importantly
+   Above all, be careful.
+
+@abroad
+adv. A2
+1. за границей, за границу - in or to another country
+   She lives abroad. - Она живёт за границей.
+
+@abrupt
+adj. C1
+1. внезапный, резкий - sudden and unexpected
+   The car came to an abrupt stop.
+2. резкий, грубоватый - rude because too short in words
+
+@absence
+n. B2
+1. отсутствие - being away; not being there
+   Nobody noticed his absence.
+
+@absent
+adj. B1
+1. отсутствующий - not there, not present
+   Two pupils are absent today.
+2. рассеянный (взгляд) - not paying attention
+   an absent look
+
+@absolute
+adj. B2
+1. полный, абсолютный - total, complete
+   It was an absolute disaster.
+
+@absolutely
+adv. B1
+1. совершенно, абсолютно - completely
+   You're absolutely right. - Вы совершенно правы.
+2. конечно, безусловно - yes, of course
+   "Can I come?" "Absolutely!"
+
+@absorb
+v. B2
+1. впитывать, поглощать - take in a liquid, heat etc.
+   The towel absorbs water.
+2. быть поглощённым (be absorbed in) - give all your attention to
+   She was absorbed in her book.
+
+@absurd
+adj. C1
+1. нелепый, абсурдный - very silly, not reasonable
+   What an absurd idea!
+
+@abuse
+n. B2
+1. жестокое обращение - cruel treatment of a person
+   child abuse
+2. злоупотребление - wrong use of something
+   drug abuse
+3. ругань, оскорбления - rude and angry words
+v. B2
+4. жестоко обращаться; злоупотреблять - treat badly; use wrongly
+   He abused her trust.
+
+@academic
+adj. B1
+1. учебный, академический - of schools, colleges, studying
+   the academic year
+n. B2
+2. учёный, преподаватель (вуза) - a teacher at a university
+
+@academy
+n. B2
+1. академия, училище - a school for special training
+   a military academy
+
+@accent
+n. B1
+1. акцент, произношение - a way of speaking typical of a place
+   He speaks with a French accent.
+2. ударение - stress on a part of a word
+
+@accept
+v. A2
+1. принимать (подарок, предложение) - take something offered
+   She accepted the invitation. - Она приняла приглашение.
+2. признавать, соглашаться - agree that something is true
+   He accepted that he was wrong.
+
+@acceptable
+adj. B1
+1. приемлемый, допустимый - good enough; allowed
+   This behaviour is not acceptable.
+
+@access
+n. B1
+1. доступ - the right or chance to use or see something
+   Do you have access to the internet?
+2. проход, подъезд - a way into a place
+v. B2
+3. получать доступ - get into, open (a file, a place)
+
+@accident
+n. A2
+1. авария, несчастный случай - a bad event that hurts or damages
+   He was hurt in a car accident. - Он пострадал в автомобильной аварии.
+2. случайно (by accident) - without planning it
+   I met her by accident. - Я встретил её случайно.
+
+@accidentally
+adv. B1
+1. случайно, нечаянно - not on purpose
+   I accidentally broke a cup.
+
+@accommodation
+n. B1
+1. жильё, размещение - a place to live or stay
+   The price includes accommodation.
+
+@accompany
+v. B2
+1. сопровождать - go somewhere with someone
+   He accompanied her to the door.
+2. аккомпанировать - play music for a singer
+
+@accomplish
+v. B2
+1. выполнить, достичь - finish something successfully
+   We accomplished a lot today.
+
+@according
+prep. B1
+1. согласно, по словам (according to) - as said by
+   According to Tom, she is ill. - По словам Тома, она больна.
+2. в соответствии с (according to) - following (a plan, rules)
+   Everything went according to plan.
+
+@account
+n. B1
+1. счёт (в банке) - money kept in a bank
+   a bank account
+2. аккаунт, учётная запись - a user profile on a site
+3. рассказ, отчёт - a description of events
+   He gave a full account of the trip.
+4. из-за (on account of) - because of
+phr. account for - объяснять; составлять (часть)
+   How do you account for this?
+
+@accountant
+n. A2
+1. бухгалтер - a person who keeps money records
+
+@accurate
+adj. B2
+1. точный, верный - correct, exact
+   an accurate description
+
+@accuse
+v. B2
+1. обвинять - say someone did something wrong
+   They accused him of stealing. - Его обвинили в краже.
+
+@accustomed
+adj. C1
+1. привыкнуть к (be accustomed to) - be used to
+   Her eyes grew accustomed to the dark.
+
+@ache
+n. B2
+1. боль (ноющая) - a pain that continues
+   I have a headache.
+v. B2
+2. болеть, ныть - hurt continuously
+   My legs ache.
+
+@achieve
+v. B1
+1. достигать, добиваться - succeed in doing something
+   She achieved her dream. - Она осуществила свою мечту.
+
+@achievement
+n. B1
+1. достижение - something done successfully, with effort
+   a great achievement
+
+@acid
+n. B2
+1. кислота - a chemical liquid that can burn
+adj. B2
+2. кислый; язвительный - sour; unkind (words)
+   an acid remark
+
+@acknowledge
+v. C1
+1. признавать - accept that something is true
+   He acknowledged his mistake.
+2. замечать, приветствовать - show you have seen someone
+   She acknowledged me with a nod.
+
+@acquaintance
+n. C1
+1. знакомый - a person you know a little
+   He is just an acquaintance.
+2. знакомство - knowing someone a little
+
+@acquire
+v. B2
+1. приобретать, получать - get, buy or learn something
+   He acquired a taste for coffee.
+
+@across
+prep. A1
+1. через, поперёк - from one side to the other
+   We walked across the street. - Мы перешли улицу.
+2. на другой стороне - on the other side
+   He lives across the road.
+phr. come across - натолкнуться, случайно найти
+   I came across an old photo.
+
+@act
+v. A2
+1. действовать, поступать - do something; behave
+   We must act quickly. - Мы должны действовать быстро.
+2. играть (роль) - play a part in a film or play
+n. B1
+3. поступок - a thing that someone does
+   an act of kindness
+4. акт, действие (пьесы) - a part of a play
+phr. act as - выступать в роли, служить
+
+@acting
+n. B1
+1. актёрская игра - the work of an actor
+adj. B2
+2. исполняющий обязанности - doing a job for a short time
+   the acting manager
+
+@action
+n. A2
+1. действие, поступок - doing something; a thing done
+   It's time for action.
+2. боевые действия - fighting in a war
+   killed in action
+3. принимать меры (take action)
+
+@active
+adj. A2
+1. активный, деятельный - always busy, doing things
+   My grandmother is very active.
+
+@activity
+n. A1
+1. занятие, деятельность - a thing you do for fun or work
+   outdoor activities - занятия на свежем воздухе
+2. оживление, активность - a lot of movement and action
+
+@actor
+n. A1
+1. актёр - a person who acts in films or plays
+   a famous actor - знаменитый актёр
+
+@actress
+n. A1
+1. актриса - a woman who acts in films or plays
+
+@actual
+adj. B1
+1. настоящий, фактический - real, true (not "current")
+   The actual cost was higher.
+
+@actually
+adv. A2
+1. на самом деле, вообще-то - in fact, really
+   Actually, I don't like tea. - Вообще-то, я не люблю чай.
+
+@ad
+n. A2
+1. реклама, объявление - short for advertisement
+   I saw an ad on TV.
+
+@adapt
+v. B2
+1. приспосабливаться - change to fit a new situation
+   Children adapt quickly.
+2. адаптировать, переделывать - change something for a new use
+   The book was adapted for film.
+
+@add
+v. A1
+1. добавлять - put something with something else
+   Add some salt. - Добавь немного соли.
+2. складывать - put numbers together
+3. добавить (сказать) - say more
+   "And don't be late," she added.
+phr. add up - сходиться, иметь смысл
+   His story doesn't add up.
+
+@addition
+n. B1
+1. кроме того, вдобавок (in addition (to)) - also
+   In addition, he speaks French.
+2. сложение - adding numbers
+3. добавление - something added
+
+@additional
+adj. B1
+1. дополнительный - extra, more
+   additional costs
+
+@address
+n. A1
+1. адрес - where someone lives
+   What's your address? - Какой у тебя адрес?
+2. речь, обращение - a formal speech
+v. B2
+3. обращаться (к кому-то) - speak to someone
+   He addressed the crowd.
+4. решать (проблему) - deal with a problem
+
+@adequate
+adj. B2
+1. достаточный, подходящий - enough; good enough
+   The food was adequate.
+
+@adjust
+v. B2
+1. регулировать, поправлять - change a little to make better
+   He adjusted his tie.
+2. приспосабливаться - get used to something new
+
+@admiration
+n. B2
+1. восхищение - a feeling of respect and liking
+   She looked at him with admiration.
+
+@admire
+v. B1
+1. восхищаться - respect and like very much
+   I admire his courage. - Я восхищаюсь его смелостью.
+2. любоваться - look at with pleasure
+   We admired the view.
+
+@admission
+n. B2
+1. вход, приём (в вуз и т.п.) - being allowed in; the price to go in
+   Admission is free.
+2. признание (вины) - saying you did something wrong
+
+@admit
+v. B1
+1. признавать, признаваться - agree that something bad is true
+   He admitted that he was afraid. - Он признался, что боялся.
+2. впускать, принимать - let someone in
+   He was admitted to hospital.
+
+@adopt
+v. B2
+1. усыновить, удочерить - take another's child as your own
+2. принимать (метод, план) - start to use
+   They adopted a new plan.
+
+@adore
+v. B2
+1. обожать - love very much
+   She adores her grandson.
+
+@adult
+n. A1
+1. взрослый - a grown-up person
+   Tickets: adults 10, children 5.
+adj. A2
+2. взрослый - grown-up; for adults
+
+@advance
+n. B2
+1. продвижение, прогресс - forward movement; progress
+2. заранее (in advance) - before the time
+   Pay in advance. - Платите заранее.
+v. B2
+3. продвигаться, наступать - move forward
+   The army advanced on the city.
+
+@advanced
+adj. B1
+1. продвинутый, передовой - at a high level; modern
+   an advanced course
+
+@advantage
+n. A2
+1. преимущество - something that helps you
+   It's an advantage to speak English.
+2. воспользоваться (в т.ч. нечестно) (take advantage of)
+   Don't let him take advantage of you.
+
+@adventure
+n. A2
+1. приключение - an exciting and unusual experience
+   a story of adventure - история о приключениях
+
+@advertise
+v. A2
+1. рекламировать - tell people about a product
+2. давать объявление - announce a job, a sale etc.
+
+@advertisement
+n. A2
+1. реклама, объявление - a notice or film that sells something
+   an advertisement for shoes
+
+@advice
+n. A1
+1. совет (только ед. ч.) - an opinion about what to do
+   Can you give me some advice? - Можешь дать мне совет?
+
+@advise
+v. B1
+1. советовать - tell someone what you think they should do
+   The doctor advised me to rest.
+
+@aeroplane
+n. A2
+1. самолёт (брит.) - a plane
+
+@affair
+n. B2
+1. дело, вопрос - an event or matter
+   That's my affair, not yours.
+2. роман, связь - a secret love relationship
+   He had an affair.
+3. дела (affairs) - business, public matters
+   foreign affairs
+
+@affect
+v. B1
+1. влиять, затрагивать - change or influence
+   The weather affects my mood.
+2. трогать, волновать - make someone feel strong emotion
+   She was deeply affected by the news.
+
+@affection
+n. C1
+1. привязанность, нежность - a feeling of love and liking
+   He looked at her with affection.
+
+@afford
+v. B1
+1. позволить себе (по деньгам, времени) (can afford) - have enough money or time for
+   I can't afford a new car. - Я не могу позволить себе новую машину.
+
+@afraid
+adj. A1
+1. испуганный; be afraid - бояться - feeling fear
+   She is afraid of dogs. - Она боится собак.
+2. боюсь, что...; к сожалению (I'm afraid) - polite way to say bad news
+   I'm afraid I can't come. - Боюсь, я не смогу прийти.
+
+@after
+prep. A1
+1. после - later than
+   after dinner - после ужина
+2. за, вслед за - behind, following
+   The dog ran after the cat.
+3. в конце концов, всё-таки (after all)
+   He came after all.
+phr. look after - заботиться, присматривать
+
+@afternoon
+n. A1
+1. день, вторая половина дня - time from 12 to about 6 pm
+   in the afternoon - днём
+   Good afternoon! - Добрый день!
+
+@afterwards
+adv. B1
+1. потом, после этого - later
+   We had lunch and afterwards went for a walk.
+
+@again
+adv. A1
+1. снова, опять - one more time
+   Say it again, please. - Скажи ещё раз, пожалуйста.
+2. снова и снова (again and again) - many times
+
+@against
+prep. A2
+1. против - in opposition to
+   I'm against the plan. - Я против этого плана.
+2. к, о (опираясь) - touching, leaning on
+   He leaned against the wall. - Он прислонился к стене.
+
+@age
+n. A1
+1. возраст - how old someone is
+   at the age of ten - в возрасте десяти лет
+2. эпоха, век - a period of history
+   the Stone Age
+3. целая вечность (ages) - a very long time
+   I haven't seen you for ages!
+v. B2
+4. стареть - become old
+
+@aged
+adj. B1
+1. в возрасте (столько-то лет) - having a certain age
+   a man aged 40
+2. пожилой - very old
+
+@agency
+n. B2
+1. агентство - a business that provides a service
+   a travel agency
+
+@agent
+n. B1
+1. агент, представитель - a person who acts for others
+   an estate agent
+2. агент (шпион) - a secret agent, spy
+
+@aggressive
+adj. B2
+1. агрессивный - angry, wanting to fight
+   an aggressive dog
+
+@ago
+adv. A1
+1. назад, тому назад - before now
+   two years ago - два года назад
+
+@agony
+n. C1
+1. мука, сильная боль - great pain
+   He was in agony.
+
+@agree
+v. A1
+1. соглашаться - have the same opinion
+   I agree with you. - Я с тобой согласен.
+2. договориться - decide together
+   We agreed to meet at six.
+3. согласиться (сделать) - say yes to doing
+   She agreed to help.
