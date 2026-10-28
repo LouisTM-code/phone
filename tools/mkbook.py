@@ -355,7 +355,8 @@ class Layout:
         if any(p[0] == "\0img" for p in word.pieces):
             return None
         cw = word.width() // max(1, len(text))
-        m = re.match(r"^(\W*)([^\W\d_][^\W\d_'’-]*[^\W\d_])(\W*)$", text)
+        # the word after the last non-breaking space can be hyphenated
+        m = re.match(r"^(.*\xa0\W*|\W*)([^\W\d_][^\W\d_'’-]*[^\W\d_])(\W*)$", text)
         if not m or len(m.group(2)) < 4:
             # words with a hyphen already break after it
             k = text.rfind("-", 0, max(0, room // cw))
