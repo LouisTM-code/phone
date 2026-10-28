@@ -28,7 +28,8 @@ too: the ARM link catches libc functions the phone lacks.
 Books: `tools/mkbook.py` lays a book out for the reader's page area (232x292, must match
 `reader.c`) into `books/<name>.bk` (format in `tools/bookfile.py`), `books/index.txt` and
 `books/covers.bin`; a folder of `sources/books/` is a shelf category. The phone reads a page at a
-time (`book.c`). Reader state lives in `state/` (made by `make sdcard`): `books.txt`, `<id>.txt`
+time (`book.c`). PDF is reflowed into page-size pictures by `dl/k2pdfopt` (the author's static
+Linux build; Ubuntu's package crashes), or panned when `CONF["k2pdfopt"]` is empty. Reader state lives in `state/` (made by `make sdcard`): `books.txt`, `<id>.txt`
 (bookmarks, quotes), `reader.txt` (theme, brightness).
 
 Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which runs a program

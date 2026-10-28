@@ -86,7 +86,8 @@ def check(path, src):
             errors.append(f"contents: {title!r} on page {page}")
     if max(sizes) > MAX_PAGE_BYTES and not b.flags & bf.FLAG_PAN:
         errors.append(f"page {sizes.index(max(sizes))} has {max(sizes)} bytes")
-    if src and not b.flags & bf.FLAG_PAN:
+    # PDF pages are pictures: their text is only for the search
+    if src and not src.lower().endswith(".pdf"):
         got, want = letters("".join(text)), letters(source_text(src))
         if got != want:
             k = next((i for i in range(min(len(got), len(want))) if got[i] != want[i]), min(len(got), len(want)))

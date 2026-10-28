@@ -1,19 +1,8 @@
-# PDF: the view moves over the page like reading: right, next row, next page
+# PDF reflowed by k2pdfopt: pages are screen-size pictures, turned like text pages
 1 DOWN 5 shot p1
-# a screen of a page picture is about 100 KB
-#! read 150000
-RIGHT shot p1_right
-RIGHT shot p1_row2
-DOWN shot p1_down
-LEFT shot p1_back
-#! read 1000000
-RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT shot p2_part
-#! read 150000
-RIGHT shot p2
-LEFT shot p1_end
-5 shot view
-# the whole page at 1/2 is read once
-#! read 400000
-5 5 shot view_half
-RSOFT 3 shot p11
+# a page picture is about 50 KB
+#! read 120000
+DOWN shot p2
+DOWN shot p3
+UP shot p2_back
 RSOFT shot list

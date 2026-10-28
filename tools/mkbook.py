@@ -9,7 +9,9 @@ the 8.3 file name of the book's state on the card (the phone can't create
 long names).
 
 The text is laid out here for the phone's page area and font, so the phone
-only draws prepared lines. PDF pages become pictures the phone pans over.
+only draws prepared lines. PDF pages are reflowed by k2pdfopt into
+screen-size pictures (CONF "k2pdfopt"), or else become pictures the phone
+pans over.
 """
 import hashlib
 import io
@@ -18,6 +20,7 @@ import re
 import struct
 import subprocess
 import sys
+import tempfile
 import unicodedata
 import zlib
 
@@ -44,7 +47,11 @@ CONF = {
     "list_indent": 16, "quote_indent": 12,
     "full_image_max": 960,   # pictures opened full screen are at most this size
     "thumb": (36, 48),       # cover on the shelf
-    "pdf_width": 464,        # PDF pages are panned, two screens wide
+    # PDF: reflowed by k2pdfopt into page-size pictures; "" pans over whole
+    # pages pdf_width wide instead (two screens)
+    "k2pdfopt": os.path.join(os.path.dirname(TOOLS), "dl/k2pdfopt"),
+    "k2pdfopt_args": ["-dpi", "100", "-j", "0", "-c", "-bpc", "8"],
+    "pdf_width": 464,
     "font": os.path.join(TOOLS, "fonts/Uni3-Terminus16.psf.gz"),
     "font_bold": os.path.join(TOOLS, "fonts/Uni3-TerminusBold16.psf.gz"),
 }
@@ -844,14 +851,69 @@ def generated_cover(title, w, h):
 
 # --------------------------------------------------------------------- PDF
 
-def build_pdf(path, images, report):
-    pw = CONF["pdf_width"]
+def pdf_info(path):
+    """(meta, number of pages, text of each page)."""
     info = subprocess.run(["pdfinfo", path], capture_output=True, text=True).stdout
     title = re.search(r"^Title:[ \t]*(.*)$", info, re.M)
     author = re.search(r"^Author:[ \t]*(.*)$", info, re.M)
     npages = int(re.search(r"^Pages:\s*(\d+)", info, re.M).group(1))
     text = subprocess.run(["pdftotext", "-enc", "UTF-8", path, "-"], capture_output=True).stdout
     texts = text.decode("utf-8", "replace").split("\f")
+    texts += [""] * (npages - len(texts))
+    meta = {"title": title.group(1).strip() if title else "", "author": author.group(1).strip() if author else ""}
+    return meta, npages, texts
+
+
+def pdf_thumb(img, images):
+    tw, th = CONF["thumb"]
+    thumb = img.copy()
+    thumb.thumbnail((tw, th), Image.LANCZOS)
+    bg = Image.new("RGB", (tw, th), (40, 40, 50))
+    bg.paste(thumb, ((tw - thumb.width) // 2, (th - thumb.height) // 2))
+    return images.add(bg, bf.IMG_RGB)
+
+
+def build_pdf_reflow(path, images, report):
+    """k2pdfopt cuts the text lines, formulas and figures out of the pages and
+    lays them out again into pages of the reader's size: no panning. A page's
+    text for the search goes with the first new page made from it."""
+    pw, ph = CONF["page_w"], CONF["page_h"]
+    if not os.access(CONF["k2pdfopt"], os.X_OK):
+        sys.exit(f"{path}: no k2pdfopt at {CONF['k2pdfopt']} (README.md, books)")
+    meta, npages, texts = pdf_info(path)
+    lay = Layout(images, report)
+    with tempfile.TemporaryDirectory() as tmp:
+        out = os.path.join(tmp, "out.pdf")
+        r = subprocess.run([CONF["k2pdfopt"], "-ui-", "-a-", "-x", "-y", "-bp", "-w", str(pw), "-h", str(ph)]
+                           + CONF["k2pdfopt_args"] + ["-o", out, path], capture_output=True, text=True)
+        # "SOURCE PAGE 3 of 15 (...) ... 5 pages saved": new pages per page
+        counts = [int(n) for n in re.findall(r"^SOURCE PAGE.*?(\d+) pages? saved", r.stdout, re.M)]
+        if r.returncode or not os.path.exists(out) or len(counts) != npages:
+            sys.exit(f"{path}: k2pdfopt failed\n{r.stdout[-500:]}{r.stderr[-500:]}")
+        subprocess.run(["pdftoppm", "-r", CONF["k2pdfopt_args"][1], "-png", out, os.path.join(tmp, "p")],
+                       check=True, capture_output=True)
+        files = sorted(f for f in os.listdir(tmp) if f.endswith(".png"))
+        pages = []
+        for i, f in enumerate(files):
+            img = Image.open(os.path.join(tmp, f)).convert("RGB")
+            img = img.resize(fit(img.width, img.height, pw, ph), Image.LANCZOS)
+            data = bf.image_item((pw - img.width) // 2, 0, images.add(img, bf.IMG_RGB), bf.NONE, bf.C_TEXT)
+            pages.append([i, 0, data])
+        first = []
+        for i, n in enumerate(counts):
+            p = min(sum(counts[:i]), len(pages) - 1)
+            first.append(p)
+            pages[p][2] += bf.search_item(lay.clean(" ".join(texts[i].split())))
+        cover = subprocess.run(["pdftoppm", "-f", "1", "-l", "1", "-scale-to-x", str(pw), "-scale-to-y", "-1",
+                                "-png", path], capture_output=True).stdout
+    toc = [(first[p], lvl, t) for p, lvl, t in pdf_outline(path) if p < npages]
+    thumb = pdf_thumb(Image.open(io.BytesIO(cover)).convert("RGB"), images)
+    return meta, [tuple(p) for p in pages], toc, thumb
+
+
+def build_pdf(path, images, report):
+    pw = CONF["pdf_width"]
+    meta, npages, texts = pdf_info(path)
     lay = Layout(images, report)
     pages = []
     cover = None
@@ -868,16 +930,9 @@ def build_pdf(path, images, report):
         if i == 0:
             cover = img
         iid = images.add(img, bf.IMG_RGB)
-        data = bf.pan_item(iid) + bf.search_item(lay.clean(" ".join((texts[i] if i < len(texts) else "").split())))
+        data = bf.pan_item(iid) + bf.search_item(lay.clean(" ".join(texts[i].split())))
         pages.append((i, 0, data))
-    toc = pdf_outline(path)
-    tw, th = CONF["thumb"]
-    thumb = cover.copy()
-    thumb.thumbnail((tw, th), Image.LANCZOS)
-    bg = Image.new("RGB", (tw, th), (40, 40, 50))
-    bg.paste(thumb, ((tw - thumb.width) // 2, (th - thumb.height) // 2))
-    meta = {"title": title.group(1).strip() if title else "", "author": author.group(1).strip() if author else ""}
-    return meta, pages, toc, images.add(bg, bf.IMG_RGB)
+    return meta, pages, pdf_outline(path), pdf_thumb(cover, images)
 
 
 def pdf_outline(path):
@@ -910,8 +965,12 @@ def build(src, dst):
     images = Images()
     report = {"missing": {}, "bad_tex": [], "bad_images": 0, "wide_tables": 0, "def_lists": 0}
     if src.lower().endswith(".pdf"):
-        meta, pages, toc, thumb = build_pdf(src, images, report)
-        flags = bf.FLAG_PAN
+        if CONF["k2pdfopt"]:
+            meta, pages, toc, thumb = build_pdf_reflow(src, images, report)
+            flags = 0
+        else:
+            meta, pages, toc, thumb = build_pdf(src, images, report)
+            flags = bf.FLAG_PAN
     else:
         meta, blocks = bookparse.read(src)
         lay = Layout(images, report)
@@ -966,6 +1025,8 @@ def main():
             if len(f) == 5:
                 index[f[0]] = f[1:]
     for src in args:
+        if os.path.isdir(src):  # pictures of .md and .html books
+            continue
         base = os.path.basename(src)
         for ext in (".fb2.zip", ".epub", ".fb2", ".md", ".markdown", ".html", ".htm", ".txt", ".pdf"):
             if base.lower().endswith(ext):
