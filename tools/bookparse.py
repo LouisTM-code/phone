@@ -356,9 +356,39 @@ def find(el, tag):
     return None
 
 
+MATH_BLOCK = re.compile(r"^\$\$(.+?)\$\$[ \t]*$", re.S | re.M)
+MATH_INLINE = re.compile(r"(?<![\\$])\$(?!\s)([^$\n]+?)(?<!\s)\$(?!\d)")
+
+
+# TeX written in the text as on MathJax pages: $$..$$ and \[..\] are display
+# formulas, $..$ (the rule of MATH_INLINE, not money) and \(..\) inline ones
+TEX_IN_TEXT = re.compile(r"\$\$(.+?)\$\$|\\\[(.+?)\\\]|\\\((.+?)\\\)|" + MATH_INLINE.pattern, re.S)
+
+
+def text_math(el):
+    """Turns TeX in the text of el into math elements."""
+    if el.tag in ("pre", "code", "math", "script", "style"):
+        return
+    out = []
+    for c in el.children:
+        if isinstance(c, El):
+            text_math(c)
+            out.append(c)
+            continue
+        pos = 0
+        for m in TEX_IN_TEXT.finditer(c):
+            out.append(c[pos:m.start()])
+            tex = next(g for g in m.groups() if g is not None).strip()
+            out.append(El("math", {"alttext": tex, "display": "block" if m.group(1) or m.group(2) else ""}))
+            pos = m.end()
+        out.append(c[pos:])
+    el.children = [c for c in out if c != ""]
+
+
 def read_html(path):
     src = open(path, "rb").read().decode("utf-8", "replace")
     dom = parse_html(src)
+    text_math(dom)
     title = find(dom, "title")
     d = os.path.dirname(path)
 
@@ -516,10 +546,6 @@ def read_txt(path):
         else:
             blocks.append({"t": "p", "inl": [(p, 0)], "verse": h})
     return {"title": title, "author": "", "cover": None}, blocks
-
-
-MATH_BLOCK = re.compile(r"^\$\$(.+?)\$\$[ \t]*$", re.S | re.M)
-MATH_INLINE = re.compile(r"(?<![\\$])\$(?!\s)([^$\n]+?)(?<!\s)\$(?!\d)")
 
 
 def read_md(path):
