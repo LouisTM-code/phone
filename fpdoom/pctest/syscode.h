@@ -9,6 +9,7 @@ extern struct sys_data {
 	uint8_t scaler, rotate;
 	uint8_t *framebuf;
 	uint8_t user[4];
+	uint8_t brightness;
 } sys_data;
 
 enum {
@@ -24,6 +25,7 @@ unsigned sys_timer_ms(void);
 void sys_wait_ms(uint32_t delay);
 void sys_wait_us(uint32_t delay);
 int sys_getkeymap(uint8_t *dest);
+void sys_brightness(unsigned val);
 
 // appinit
 

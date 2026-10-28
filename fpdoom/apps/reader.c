@@ -13,6 +13,8 @@
 #define SAVE_IDLE_MS 3000
 
 int dict_show(int i, const char *title);
+static int view_menu(void);
+static int theme, bright;  /* the look, state/reader.txt */
 
 static int page_x, page_y, page_w, page_h;
 
@@ -565,7 +567,7 @@ static int show_marks(reading_t *r) {
 }
 
 static int reader_menu(reading_t *r) {
-	const char *items[7];
+	const char *items[8];
 	char nm[64];
 	int n = 0, a;
 	items[n++] = "Оглавление";
@@ -574,6 +576,7 @@ static int reader_menu(reading_t *r) {
 	items[n++] = page_mark(r) >= 0 ? "Убрать закладку" : "Закладка здесь";
 	snprintf(nm, sizeof(nm), "Закладки и цитаты (%d)", marks.n);
 	items[n++] = nm;
+	items[n++] = "Вид";
 	items[n++] = "Клавиши";
 	a = ui_pick(r->b.title, items, n, 0);
 	if (a == -2) return -1;
@@ -598,6 +601,8 @@ static int reader_menu(reading_t *r) {
 	} else if (a == 4) {
 		return show_marks(r);
 	} else if (a == 5) {
+		return view_menu();
+	} else if (a == 6) {
 		return ui_message("Клавиши",
 				"<> или 4/6 - страницы, 1/3 - на 10 страниц.\n"
 				"5 - выбрать слово, стрелки - по словам, 5 - перевод, "
@@ -629,6 +634,7 @@ int read_book(shelf_book_t *k) {
 	if (k->status == ST_NEW) k->status = ST_READING;
 	shelf_save();
 	marks_load(&marks, k->id);
+	sys_brightness(bright);
 	LOG_OP(t0, "book_open %s %up", k->file, b->npages);
 
 	for (;;) {
@@ -734,20 +740,91 @@ int read_book(shelf_book_t *k) {
 	shelf_save();
 	marks_free(&marks);
 	book_close(b);
+	sys_brightness(sys_data.brightness);
 	return ret;
 }
 
-static void set_theme(void) {
-	book_bg = RGB(24, 26, 34);
-	book_pal[BC_TEXT] = RGB(230, 230, 220);
-	book_pal[BC_DIM] = RGB(150, 160, 180);
-	book_pal[BC_HEAD] = RGB(130, 190, 255);
-	book_pal[BC_TITLE] = RGB(255, 210, 90);
-	book_pal[BC_CODE] = RGB(150, 230, 150);
-	book_pal[BC_CODE_BG] = RGB(40, 44, 56);
-	book_pal[BC_QUOTE] = RGB(120, 130, 170);
-	book_pal[BC_RULE] = RGB(90, 100, 130);
-	book_pal[BC_TH_BG] = RGB(44, 52, 76);
+/* ---- the look: state/reader.txt "theme N" and "bright N" lines */
+
+#define SETTINGS_FILE "state/reader.txt"
+static const struct {
+	const char *name;
+	uint8_t c[BC_COUNT + 1][3];  /* background, then BC_* */
+} themes[] = {
+	{ "Тёмная", { {24, 26, 34}, {230, 230, 220}, {150, 160, 180}, {130, 190, 255}, {255, 210, 90},
+		{150, 230, 150}, {40, 44, 56}, {120, 130, 170}, {90, 100, 130}, {44, 52, 76} } },
+	{ "Ночь", { {0, 0, 0}, {150, 150, 140}, {100, 100, 100}, {80, 120, 160}, {170, 140, 70},
+		{100, 150, 100}, {22, 22, 22}, {70, 70, 90}, {60, 60, 70}, {26, 26, 36} } },
+	{ "Бумага", { {238, 230, 208}, {40, 36, 30}, {110, 100, 90}, {30, 70, 140}, {150, 60, 20},
+		{20, 110, 40}, {222, 212, 186}, {160, 145, 120}, {170, 155, 130}, {222, 210, 180} } },
+	{ "Белая", { {255, 255, 255}, {0, 0, 0}, {100, 100, 100}, {20, 60, 160}, {170, 40, 20},
+		{0, 110, 0}, {236, 236, 236}, {170, 170, 170}, {170, 170, 170}, {225, 230, 240} } },
+};
+#define NTHEMES (int)(sizeof(themes) / sizeof(*themes))
+
+static void set_theme(int t) {
+	int i;
+	theme = t >= 0 && t < NTHEMES ? t : 0;
+	book_bg = RGB(themes[theme].c[0][0], themes[theme].c[0][1], themes[theme].c[0][2]);
+	for (i = 0; i < BC_COUNT; i++)
+		book_pal[i] = RGB(themes[theme].c[i + 1][0], themes[theme].c[i + 1][1], themes[theme].c[i + 1][2]);
+}
+
+static void load_settings(void) {
+	char *buf = file_load(SETTINGS_FILE, NULL), *pos, *line;
+	int t = 0;
+	bright = sys_data.brightness;
+	if (buf) {
+		for (pos = buf; (line = next_line(&pos)); ) {
+			if (!strncmp(line, "theme ", 6)) t = atoi(line + 6);
+			else if (!strncmp(line, "bright ", 7)) bright = atoi(line + 7);
+		}
+		free(buf);
+	}
+	if (bright < 5 || bright > 100) bright = sys_data.brightness;
+	set_theme(t);
+}
+
+static void save_settings(void) {
+	FILE *fp = fopen(SETTINGS_FILE, "wb");
+	if (!fp) return;
+	fprintf(fp, "theme %d\nbright %d\n", theme, bright);
+	fclose(fp);
+}
+
+static int view_menu(void) {
+	for (;;) {
+		const char *items[3];
+		char t[48], br[32];
+		int a;
+		snprintf(t, sizeof(t), "Подложка: %s", themes[theme].name);
+		snprintf(br, sizeof(br), "Яркость: %d%%", bright);
+		items[0] = t;
+		items[1] = br;
+		items[2] = "Назад";
+		a = ui_pick("Вид", items, 3, 0);
+		if (a == -2) return -1;
+		if (a == 0) {
+			const char *names[NTHEMES];
+			int i;
+			for (i = 0; i < NTHEMES; i++) names[i] = themes[i].name;
+			i = ui_pick("Подложка", names, NTHEMES, theme);
+			if (i == -2) return -1;
+			if (i >= 0) set_theme(i);
+		} else if (a == 1) {
+			static const char *const levels[] = { "10%", "20%", "30%", "40%", "50%", "60%", "70%",
+				"80%", "90%", "100%" };
+			int i = ui_pick("Яркость", levels, 10, bright >= 10 ? bright / 10 - 1 : 0);
+			if (i == -2) return -1;
+			if (i >= 0) {
+				bright = (i + 1) * 10;
+				sys_brightness(bright);
+			}
+		} else {
+			save_settings();
+			return 0;
+		}
+	}
 }
 
 void reader_init(void) {
@@ -755,6 +832,6 @@ void reader_init(void) {
 	page_y = UI_BAR_H + 3;
 	page_w = scr_w - 8;
 	page_h = scr_h - page_y - 3;
-	set_theme();
+	load_settings();
 	dict_open(DICT_FILE);
 }

@@ -273,6 +273,8 @@ mapkey:
 #endif
 
 unsigned sys_timer_ms(void) { return SDL_GetTicks(); }
+/* the PC has no backlight */
+void sys_brightness(unsigned val) { (void)val; }
 void sys_wait_ms(uint32_t delay) {
 #if !NO_SYSEVENT
 	script_idle = 1;
@@ -301,6 +303,7 @@ int __wrap_main(int argc, char **argv) {
 	};
 
 	sys_data.rotate = 3;
+	sys_data.brightness = 50;
 	sys_data.mac = 0xd0;
 	sys_data.scaler = 0;
 
