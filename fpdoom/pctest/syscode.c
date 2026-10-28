@@ -179,9 +179,11 @@ static const int pc_keys[] = {
 
 /* Test script, FP_KEYS=file: key names (UP, 5, RSOFT...) separated by spaces,
    "shot NAME" saves the screen to $FP_SHOTS/NAME.ppm, "#" starts a comment.
-   Each key is pressed and released; the end of the script quits. */
+   Each key is pressed and released; the end of the script quits.
+   The next key or screenshot waits until the program is idle, waiting for a
+   key with sys_wait_ms(), so a key check during long work doesn't take it. */
 static FILE *script_fp;
-static int script_up;
+static int script_up, script_idle;
 /* the program may print its statistics at each screenshot */
 void pc_shot_hook(const char *name) __attribute__((weak));
 
@@ -220,6 +222,8 @@ static int script_event(int *rkey) {
 		script_up = 0;
 		return EVENT_KEYUP;
 	}
+	if (!script_idle) return EVENT_END;
+	script_idle = 0;
 	while (fscanf(script_fp, "%255s", tok) == 1) {
 		if (tok[0] == '#') {
 			int c;
@@ -269,7 +273,13 @@ mapkey:
 #endif
 
 unsigned sys_timer_ms(void) { return SDL_GetTicks(); }
-void sys_wait_ms(uint32_t delay) { SDL_Delay(delay); }
+void sys_wait_ms(uint32_t delay) {
+#if !NO_SYSEVENT
+	script_idle = 1;
+	if (script_fp) return;
+#endif
+	SDL_Delay(delay);
+}
 void sys_wait_us(uint32_t delay) { usleep(delay); }
 extern int screenheight;
 

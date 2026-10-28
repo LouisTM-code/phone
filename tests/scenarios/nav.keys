@@ -1,0 +1,29 @@
+# navigation: menu, contents, page number, search, bookmarks, quotes
+1 DOWN DOWN DOWN DOWN 5 shot open
+LSOFT shot menu
+5 shot toc
+DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN 5 shot toc_jump
+RSOFT LSOFT DOWN 5 shot goto
+1 0 0 0 shot goto_typed
+CENTER shot page1000
+LSOFT 5 shot toc_current
+RSOFT LSOFT DOWN DOWN 5 shot search
+# "pierre" by multi-tap in the English layout; > ends a letter
+STAR 7 RIGHT 4 4 4 RIGHT 3 3 RIGHT 7 7 7 RIGHT 7 7 7 RIGHT 3 3 shot search_typed
+CENTER shot found
+HASH shot found2
+RSOFT shot found_normal
+HASH shot found3
+# a bookmark on the page, a quote from word to word
+RSOFT STAR shot bookmark
+5 RIGHT STAR RIGHT RIGHT RIGHT DOWN shot quote_sel
+5 shot quote_saved
+RSOFT LSOFT DOWN DOWN DOWN DOWN 5 shot marks
+DOWN 5 shot quote_actions
+DOWN DOWN 5 shot quote_text
+RSOFT RSOFT shot back_to_page
+LSOFT UP 5 shot keys
+# the bookmarks are in state/, read again when the book is opened
+RSOFT RSOFT 5 LSOFT DOWN DOWN DOWN DOWN 5 shot marks_reopen
+5 5 shot mark_jump
+RSOFT shot shelf

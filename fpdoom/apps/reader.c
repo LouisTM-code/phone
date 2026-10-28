@@ -4,6 +4,7 @@
 #include "ui.h"
 #include "apps.h"
 #include "reader.h"
+#include "marks.h"
 #include "dictfile.h"
 #include "log.h"
 
@@ -107,20 +108,6 @@ static void collect_words(book_t *b) {
 	}
 }
 
-static void draw_status(book_t *b, int page) {
-	char num[24];
-	int w, max, n = 0;
-	const char *p = b->title;
-	fill_rect(0, 0, scr_w, UI_BAR_H, UI_BAR);
-	snprintf(num, sizeof(num), "%d/%u", page + 1, b->npages);
-	w = text_len(num);
-	max = (scr_w - 8) / FONT_W - w - 1;
-	while (*p && n < max) { utf8_next(&p); n++; }
-	draw_text_n(4, 3, 1, b->title, p - b->title, UI_TEXT);
-	draw_text(scr_w - 4 - w * FONT_W, 3, 1, num, UI_DIM);
-	fill_rect(0, UI_BAR_H - 2, scr_w * (page + 1) / b->npages, 2, UI_ACCENT);
-}
-
 /* PDF: the page is a picture larger than the screen, the view moves over it */
 static uint32_t pan_image(book_t *b) {
 	const uint8_t *p = b->page, *end = p + b->page_size, *it;
@@ -134,29 +121,6 @@ static void frame(int x, int y, int w, int h, uint16_t c) {
 	fill_rect(x, y + h - 2, w, 2, c);
 	fill_rect(x, y, 2, h, c);
 	fill_rect(x + w - 2, y, 2, h, c);
-}
-
-static void draw_page(book_t *b, int page, int sel, int pan_x, int pan_y) {
-	fill_rect(0, UI_BAR_H, scr_w, scr_h - UI_BAR_H, book_bg);
-	if (b->flags & BK_FLAG_PAN) {
-		uint32_t id = pan_image(b);
-		if (id != BK_NONE)
-			book_image(b, id, 0, UI_BAR_H, pan_x, pan_y, scr_w, scr_h - UI_BAR_H, 0, 1);
-	} else {
-		book_draw(b, page_x, page_y);
-	}
-	if (sel >= 0 && sel < nwords) {
-		word_t *w = &words[sel];
-		if (w->img != BK_NONE) {
-			frame(page_x + w->x - 2, page_y + w->y - 2, w->w + 4, w->h + 4, UI_SEL);
-		} else {
-			fill_rect(page_x + w->x - 1, page_y + w->y - 1, w->w + 2, w->h + 2, UI_SEL);
-			draw_text_style(page_x + w->x, page_y + w->y, w->style & 7,
-					(const char*)b->page + w->off, w->len, UI_TEXT);
-		}
-	}
-	draw_status(b, page);
-	gfx_present();
 }
 
 /* a picture full screen: arrows move it, 5 changes the scale x1, x2, 1/2,
@@ -290,38 +254,400 @@ static int pan_key(book_t *b, int key, int page, int *x, int *y) {
 	return page;
 }
 
+/* ---- searchable text of the loaded page */
+
+#define TEXT_MAX 6144
+#define NO_OFF 0xffff
+static char ptext[TEXT_MAX];
+static uint16_t poff[TEXT_MAX];  /* where each byte is in the page, NO_OFF if not drawn */
+static int plen;
+
+static void text_add(const char *s, int n, int off) {
+	int i;
+	for (i = 0; i < n && plen < TEXT_MAX - 1; i++) {
+		ptext[plen] = s[i];
+		poff[plen++] = off < 0 ? NO_OFF : off + i;
+	}
+	ptext[plen] = 0;
+}
+
+/* lines are joined by spaces, a hyphen of a broken word is dropped */
+static void page_text(book_t *b) {
+	const uint8_t *p = b->page, *end = p + b->page_size, *it;
+	int t;
+	plen = 0;
+	ptext[0] = 0;
+	while (it = p, (t = book_item(&p, end)) != BK_END) {
+		if (t == BK_TEXT && !(it[3] & BK_LINE_REPEAT)) {
+			int n = it[4], flags = it[3];
+			it += 5;
+			while (n--) {
+				text_add((const char*)it + 4, it[3], it + 4 - b->page);
+				it += 4 + it[3];
+			}
+			if (flags & BK_LINE_HYPHEN && plen && ptext[plen - 1] == '-') {
+				ptext[--plen] = 0;
+				continue;
+			}
+		} else if (t == BK_SEARCH) {
+			text_add((const char*)it + 3, bk_u16(it + 1), -1);
+		} else {
+			continue;
+		}
+		text_add(" ", 1, -1);
+	}
+}
+
+/* lower case in place: ASCII, Cyrillic, Latin-1; byte lengths stay the same */
+static void lower(char *s, int n) {
+	uint8_t *u = (uint8_t*)s;
+	int i;
+	for (i = 0; i < n; i++) {
+		if (u[i] >= 'A' && u[i] <= 'Z') u[i] += 32;
+		else if (u[i] == 0xd0 && i + 1 < n) {
+			uint8_t c = u[i + 1];
+			if (c >= 0x90 && c <= 0x9f) u[i + 1] = c + 0x20;
+			else if (c >= 0xa0 && c <= 0xaf) u[i] = 0xd1, u[i + 1] = c - 0x20;
+			else if (c == 0x81) u[i] = 0xd1, u[i + 1] = 0x91;
+			i++;
+		} else if (u[i] == 0xc3 && i + 1 < n) {
+			if (u[i + 1] >= 0x80 && u[i + 1] <= 0x9e && u[i + 1] != 0x97) u[i + 1] += 0x20;
+			i++;
+		}
+	}
+}
+
+/* ---- reading */
+
+typedef struct {
+	book_t b;
+	shelf_book_t *k;
+	int page, sel, qsel, pan_x, pan_y;
+	char query[64];
+	int found_page, found_end;  /* the last match: page and its end in the page text */
+} reading_t;
+
+static marks_t marks;
+
+static int page_mark(reading_t *r) {
+	book_anchor_t a = book_anchor(&r->b, r->page), e;
+	int i;
+	e = r->page + 1 < (int)r->b.npages ? book_anchor(&r->b, r->page + 1) : (book_anchor_t){ ~0u, ~0u };
+	for (i = 0; i < marks.n; i++) {
+		book_anchor_t m = marks.list[i].pos;
+		if (marks.list[i].kind != 'b') continue;
+		if ((m.blk > a.blk || (m.blk == a.blk && m.ch >= a.ch)) &&
+				(m.blk < e.blk || (m.blk == e.blk && m.ch < e.ch))) return i;
+	}
+	return -1;
+}
+
+static void draw_status(reading_t *r) {
+	book_t *b = &r->b;
+	char num[24];
+	const char *title = b->title, *p;
+	int w, max, n = 0;
+	if (r->qsel >= 0) title = "Цитата: 5 сохранить, П-отмена";
+	else if (r->sel >= 0) title = "5 перевод  * цитата  # найти";
+	fill_rect(0, 0, scr_w, UI_BAR_H, UI_BAR);
+	snprintf(num, sizeof(num), "%d/%u", r->page + 1, b->npages);
+	w = text_len(num);
+	max = (scr_w - 8) / FONT_W - w - 1;
+	for (p = title; *p && n < max; n++) utf8_next(&p);
+	draw_text_n(4, 3, 1, title, p - title, r->sel >= 0 ? UI_ACCENT : UI_TEXT);
+	draw_text(scr_w - 4 - w * FONT_W, 3, 1, num, UI_DIM);
+	fill_rect(0, UI_BAR_H - 2, scr_w * (r->page + 1) / b->npages, 2, UI_ACCENT);
+	/* a bookmark on this page: a ribbon in the corner */
+	if (page_mark(r) >= 0) fill_rect(scr_w - 10, UI_BAR_H, 6, 10, UI_ACCENT);
+}
+
+static void draw_word(book_t *b, word_t *w, uint16_t bg) {
+	fill_rect(page_x + w->x - 1, page_y + w->y - 1, w->w + 2, w->h + 2, bg);
+	draw_text_style(page_x + w->x, page_y + w->y, w->style & 7,
+			(const char*)b->page + w->off, w->len, UI_TEXT);
+}
+
+static void draw_page(reading_t *r) {
+	book_t *b = &r->b;
+	int sel = r->sel;
+	fill_rect(0, UI_BAR_H, scr_w, scr_h - UI_BAR_H, book_bg);
+	if (b->flags & BK_FLAG_PAN) {
+		uint32_t id = pan_image(b);
+		if (id != BK_NONE)
+			book_image(b, id, 0, UI_BAR_H, r->pan_x, r->pan_y, scr_w, scr_h - UI_BAR_H, 0, 1);
+	} else {
+		book_draw(b, page_x, page_y);
+	}
+	if (r->qsel >= 0) {
+		int i, a = r->qsel < sel ? r->qsel : sel, e = r->qsel < sel ? sel : r->qsel;
+		for (i = a; i <= e; i++)
+			if (words[i].img == BK_NONE) draw_word(b, &words[i], RGB(50, 80, 140));
+	}
+	if (sel >= 0 && sel < nwords) {
+		word_t *w = &words[sel];
+		if (w->img != BK_NONE) frame(page_x + w->x - 2, page_y + w->y - 2, w->w + 4, w->h + 4, UI_SEL);
+		else draw_word(b, w, UI_SEL);
+	}
+	draw_status(r);
+	gfx_present();
+}
+
+/* the page text from the start of word a to the end of word e */
+static void quote_text(reading_t *r, int a, int e, char *out, int size) {
+	int i, from = -1, to = -1, n;
+	page_text(&r->b);
+	for (i = 0; i < plen; i++) {
+		if (poff[i] == words[a].off && from < 0) from = i;
+		if (poff[i] == words[e].off + words[e].len - 1) to = i + 1;
+	}
+	if (from < 0 || to <= from) { out[0] = 0; return; }
+	n = to - from < size - 1 ? to - from : size - 1;
+	while (n && ((unsigned char)ptext[from + n] & 0xc0) == 0x80) n--;
+	memcpy(out, ptext + from, n);
+	out[n] = 0;
+}
+
+/* a short text for a bookmark: the start of the page */
+static void page_snippet(reading_t *r, char *out, int size) {
+	const char *p;
+	int n = 0;
+	page_text(&r->b);
+	for (p = ptext; *p == ' '; p++);
+	while (p[n] && n < size - 1 && n < 60) n++;
+	while (n && ((unsigned char)p[n] & 0xc0) == 0x80) n--;
+	memcpy(out, p, n);
+	out[n] = 0;
+}
+
+static void toggle_bookmark(reading_t *r) {
+	int i = page_mark(r);
+	char text[80];
+	if (i >= 0) {
+		marks_remove(&marks, i);
+		ui_note("Закладка убрана");
+	} else {
+		page_snippet(r, text, sizeof(text));
+		marks_add(&marks, 'b', book_anchor(&r->b, r->page), text);
+		ui_note("Закладка добавлена");
+	}
+	if (marks_save(&marks, r->k->id) < 0) ui_note("Не удалось записать закладки");
+}
+
+/* finds r->query from the byte pos of the page text of page from; moves
+   there and selects the word. 1 found, 0 not found, -1 cancelled, -2 quit */
+static int search(reading_t *r, int from, int pos) {
+	book_t *b = &r->b;
+	char q[64];
+	int qn = strlen(r->query), p, i;
+	memcpy(q, r->query, qn + 1);
+	lower(q, qn);
+	for (p = from; p < (int)b->npages; p++) {
+		if (p > from && (p - from) % 50 == 0) {
+			char msg[48];
+			int key = poll_key();
+			if (key < 0) return -2;
+			if (key == KEYPAD_RSOFT) return -1;
+			snprintf(msg, sizeof(msg), "Поиск... %d%%", p * 100 / b->npages);
+			fill_rect(0, scr_h / 2 - FONT_H, scr_w, FONT_H * 2, UI_BAR);
+			draw_text_center(scr_h / 2 - FONT_H / 2, 1, msg, UI_TEXT);
+			gfx_present();
+		}
+		if (book_load(b, p) < 0) return 0;
+		page_text(b);
+		lower(ptext, plen);
+		for (i = p == from ? pos : 0; i + qn <= plen; i++) {
+			if (memcmp(ptext + i, q, qn)) continue;
+			r->page = p;
+			r->found_page = p;
+			r->found_end = i + qn;
+			r->sel = -1;
+			r->pan_x = r->pan_y = 0;
+			if (poff[i] != NO_OFF) {
+				int w;
+				collect_words(b);
+				for (w = 0; w < nwords; w++)
+					if (words[w].img == BK_NONE && poff[i] < words[w].off + words[w].len) break;
+				if (w < nwords) r->sel = w;
+			}
+			return 1;
+		}
+	}
+	return 0;
+}
+
+static int search_next(reading_t *r, int from, int pos) {
+	int ret = search(r, from, pos);
+	if (ret == 0) ui_note("Больше не найдено");
+	else if (ret == -1) ui_note("Поиск отменён");
+	return ret == -2 ? -1 : 0;
+}
+
+/* position in the page text after the selected word */
+static int text_after(reading_t *r) {
+	int i;
+	page_text(&r->b);
+	for (i = 0; i < plen; i++)
+		if (poff[i] == words[r->sel].off + words[r->sel].len - 1) return i + 1;
+	return 0;
+}
+
+static int show_toc(reading_t *r) {
+	unsigned n, i;
+	uint8_t *toc = book_toc(&r->b, &n), *p;
+	const char **items;
+	char *names;
+	int cur = 0, sel;
+	if (!toc || !n) {
+		free(toc);
+		return ui_message("Оглавление", "В книге нет оглавления.");
+	}
+	items = malloc(n * sizeof(*items));
+	names = malloc(n * 264);
+	if (!items || !names) {
+		free(toc); free(items); free(names);
+		return 0;
+	}
+	for (i = 0, p = toc; i < n; i++) {
+		int level = p[4], len = p[5];
+		char *s = names + i * 264;
+		memset(s, ' ', (level - 1) * 2);
+		memcpy(s + (level - 1) * 2, p + 6, len);
+		s[(level - 1) * 2 + len] = 0;
+		items[i] = s;
+		if ((int)bk_u32(p) <= r->page) cur = i;
+		p += 6 + len;
+	}
+	sel = ui_pick("Оглавление", items, n, cur);
+	if (sel >= 0) {
+		for (i = 0, p = toc; (int)i < sel; i++) p += 6 + p[5];
+		r->page = bk_u32(p);
+		r->sel = -1;
+		r->pan_x = r->pan_y = 0;
+	}
+	free(toc); free(items); free(names);
+	return sel == -2 ? -1 : 0;
+}
+
+static int show_marks(reading_t *r) {
+	static char lines[MAX_MARKS][64];
+	const char *items[MAX_MARKS];
+	int i, sel = 0;
+	for (;;) {
+		if (!marks.n) return ui_message("Закладки и цитаты",
+				"Пока пусто.\n\n* на странице - закладка.\n5, затем * на слове - начало цитаты, "
+				"5 на последнем слове - сохранить.");
+		for (i = 0; i < marks.n; i++) {
+			snprintf(lines[i], sizeof(lines[i]), "%s %d: %s", marks.list[i].kind == 'b' ? "Закл." : "Цит.",
+					book_find(&r->b, marks.list[i].pos) + 1, marks.list[i].text);
+			items[i] = lines[i];
+		}
+		sel = ui_pick("Закладки и цитаты", items, marks.n, sel < marks.n ? sel : 0);
+		if (sel == -2) return -1;
+		if (sel < 0) return 0;
+		{
+			const char *acts[3] = { "Перейти", "Удалить", "Показать текст" };
+			int a = ui_pick(marks.list[sel].kind == 'b' ? "Закладка" : "Цитата", acts,
+					marks.list[sel].kind == 'q' ? 3 : 2, 0);
+			if (a == -2) return -1;
+			if (a == 0) {
+				r->page = book_find(&r->b, marks.list[sel].pos);
+				r->sel = -1;
+				r->pan_x = r->pan_y = 0;
+				return 0;
+			}
+			if (a == 1) {
+				marks_remove(&marks, sel);
+				if (marks_save(&marks, r->k->id) < 0) ui_note("Не удалось записать закладки");
+			}
+			if (a == 2 && ui_message("Цитата", marks.list[sel].text) < 0) return -1;
+		}
+	}
+}
+
+static int reader_menu(reading_t *r) {
+	const char *items[7];
+	char nm[64];
+	int n = 0, a;
+	items[n++] = "Оглавление";
+	items[n++] = "Перейти к странице";
+	items[n++] = "Поиск";
+	items[n++] = page_mark(r) >= 0 ? "Убрать закладку" : "Закладка здесь";
+	snprintf(nm, sizeof(nm), "Закладки и цитаты (%d)", marks.n);
+	items[n++] = nm;
+	items[n++] = "Клавиши";
+	a = ui_pick(r->b.title, items, n, 0);
+	if (a == -2) return -1;
+	if (a == 0) return show_toc(r);
+	if (a == 1) {
+		char hint[40];
+		int p;
+		snprintf(hint, sizeof(hint), "Страница от 1 до %u:", r->b.npages);
+		p = ui_number("Перейти", hint, r->b.npages);
+		if (p == -2) return -1;
+		if (p > 0) {
+			r->page = p - 1;
+			r->sel = -1;
+			r->pan_x = r->pan_y = 0;
+		}
+	} else if (a == 2) {
+		int len = ui_input("Поиск", r->query, sizeof(r->query));
+		if (len == -2) return -1;
+		if (len > 0) return search_next(r, r->page, 0);
+	} else if (a == 3) {
+		toggle_bookmark(r);
+	} else if (a == 4) {
+		return show_marks(r);
+	} else if (a == 5) {
+		return ui_message("Клавиши",
+				"<> или 4/6 - страницы, 1/3 - на 10 страниц.\n"
+				"5 - выбрать слово, стрелки - по словам, 5 - перевод, "
+				"* - начать цитату, # - найти это слово дальше.\n"
+				"5 на картинке - во весь экран.\n"
+				"* - закладка на странице, # - найти дальше.\n"
+				"Л.софт - меню: оглавление, страница, поиск, закладки.\n"
+				"П.софт - назад.");
+	}
+	return 0;
+}
+
 int read_book(shelf_book_t *k) {
-	book_t bk, *b = &bk;
-	int page, sel = -1, ret = 0, dirty = 0, pan_x = 0, pan_y = 0;
+	reading_t rd, *r = &rd;
+	book_t *b = &rd.b;
+	int ret = 0, dirty = 0;
 	LOG_T0(t0);
 
+	memset(r, 0, sizeof(*r));
+	r->k = k;
+	r->sel = r->qsel = r->found_page = -1;
 	if (book_open(b, k->file) < 0) return ui_message("Книги", "Не удалось открыть книгу.");
 	if ((int)b->page_w != page_w || (int)b->page_h != page_h) {
 		book_close(b);
 		return ui_message("Книги", "Книга собрана для другого экрана: пересоберите её (make data).");
 	}
-	page = k->stamp ? book_find(b, k->pos) : 0;
+	r->page = k->stamp ? book_find(b, k->pos) : 0;
 	k->stamp = shelf_stamp();
 	if (k->status == ST_NEW) k->status = ST_READING;
 	shelf_save();
+	marks_load(&marks, k->id);
 	LOG_OP(t0, "book_open %s %up", k->file, b->npages);
 
 	for (;;) {
-		int key, old = page;
-		if (book_load(b, page) < 0) {
+		int key, old = r->page;
+		if (book_load(b, r->page) < 0) {
 			ret = ui_message("Книги", "Ошибка чтения книги.");
 			break;
 		}
 		collect_words(b);
-		if (sel >= MAX_PAGE_WORDS) sel = nwords - 1;
-		if (sel >= nwords) sel = nwords ? 0 : -1;
-		if (pan_x < 0) {  /* came back from the next page: show its end */
+		if (r->sel >= MAX_PAGE_WORDS) r->sel = nwords - 1;
+		if (r->sel >= nwords) r->sel = nwords ? 0 : -1;
+		if (r->qsel >= nwords) r->qsel = -1;
+		if (r->pan_x < 0) {  /* came back from the next page: show its end */
 			int w = 0, h = 0;
 			if (pan_image(b) != BK_NONE) book_image_size(b, pan_image(b), &w, &h);
-			pan_x = w > (int)scr_w ? w - (int)scr_w : 0;
-			pan_y = h > (int)scr_h - UI_BAR_H ? h - ((int)scr_h - UI_BAR_H) : 0;
+			r->pan_x = w > (int)scr_w ? w - (int)scr_w : 0;
+			r->pan_y = h > (int)scr_h - UI_BAR_H ? h - ((int)scr_h - UI_BAR_H) : 0;
 		}
-		draw_page(b, page, sel, pan_x, pan_y);
+		draw_page(r);
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
 		if (key < 0) { ret = -1; break; }
 		if (!key) {
@@ -329,52 +655,84 @@ int read_book(shelf_book_t *k) {
 			dirty = 0;
 			continue;
 		}
-		if (b->flags & BK_FLAG_PAN) {
+		if (key == KEYPAD_LSOFT && r->qsel < 0) {
+			if (reader_menu(r) < 0) { ret = -1; break; }
+		} else if (key == KEYPAD_HASH && r->query[0] && r->sel < 0) {
+			/* the next match after the last one on this page */
+			if (search_next(r, r->page, r->found_page == r->page ? r->found_end : 0) < 0) {
+				ret = -1;
+				break;
+			}
+		} else if (b->flags & BK_FLAG_PAN) {
 			if (key == KEYPAD_RSOFT) break;
-			if (key == KEYPAD_CENTER || key == KEYPAD_5) {
+			if (key == KEYPAD_STAR) toggle_bookmark(r);
+			else if (key == KEYPAD_CENTER || key == KEYPAD_5) {
 				if (pan_image(b) != BK_NONE && view_image(b, pan_image(b)) < 0) { ret = -1; break; }
 			} else {
-				page = pan_key(b, key, page, &pan_x, &pan_y);
+				r->page = pan_key(b, key, r->page, &r->pan_x, &r->pan_y);
 			}
-		} else if (sel < 0) {
+		} else if (r->sel < 0) {
 			if (key == KEYPAD_RIGHT || key == KEYPAD_6 || key == KEYPAD_DOWN || key == KEYPAD_8) {
-				if (page + 1 < (int)b->npages) page++;
+				if (r->page + 1 < (int)b->npages) r->page++;
 			} else if (key == KEYPAD_LEFT || key == KEYPAD_4 || key == KEYPAD_UP || key == KEYPAD_2) {
-				if (page) page--;
+				if (r->page) r->page--;
 			} else if (key == KEYPAD_3) {
-				page = page + 10 < (int)b->npages ? page + 10 : (int)b->npages - 1;
+				r->page = r->page + 10 < (int)b->npages ? r->page + 10 : (int)b->npages - 1;
 			} else if (key == KEYPAD_1) {
-				page = page > 10 ? page - 10 : 0;
+				r->page = r->page > 10 ? r->page - 10 : 0;
 			} else if (key == KEYPAD_CENTER || key == KEYPAD_5) {
-				if (nwords) sel = 0;
+				if (nwords) r->sel = 0;
+			} else if (key == KEYPAD_STAR) {
+				toggle_bookmark(r);
 			} else if (key == KEYPAD_RSOFT) {
 				break;
 			}
 		} else {
-			int t;
+			int t, sel = r->sel;
 			if (key == KEYPAD_RIGHT || key == KEYPAD_6) {
-				if (sel + 1 < nwords) sel++;
-				else if (page + 1 < (int)b->npages) { page++; sel = 0; }
+				if (sel + 1 < nwords) r->sel++;
+				else if (r->qsel < 0 && r->page + 1 < (int)b->npages) { r->page++; r->sel = 0; }
 			} else if (key == KEYPAD_LEFT || key == KEYPAD_4) {
-				if (sel > 0) sel--;
-				else if (page) { page--; sel = MAX_PAGE_WORDS; }
+				if (sel > 0) r->sel--;
+				else if (r->qsel < 0 && r->page) { r->page--; r->sel = MAX_PAGE_WORDS; }
 			} else if (key == KEYPAD_DOWN || key == KEYPAD_8) {
-				if ((t = word_vertical(sel, 1)) >= 0) sel = t;
+				if ((t = word_vertical(sel, 1)) >= 0) r->sel = t;
 			} else if (key == KEYPAD_UP || key == KEYPAD_2) {
-				if ((t = word_vertical(sel, -1)) >= 0) sel = t;
+				if ((t = word_vertical(sel, -1)) >= 0) r->sel = t;
+			} else if (r->qsel >= 0) {
+				if (key == KEYPAD_CENTER || key == KEYPAD_5) {
+					char text[512];
+					int a = r->qsel < sel ? r->qsel : sel, e = r->qsel < sel ? sel : r->qsel;
+					quote_text(r, a, e, text, sizeof(text));
+					if (text[0]) {
+						marks_add(&marks, 'q', book_anchor(b, r->page), text);
+						ui_note(marks_save(&marks, k->id) < 0 ? "Не удалось записать цитату" : "Цитата сохранена");
+					}
+					r->qsel = -1;
+				} else if (key == KEYPAD_RSOFT || key == KEYPAD_STAR) {
+					r->qsel = -1;
+				}
 			} else if (key == KEYPAD_CENTER || key == KEYPAD_5) {
 				if (lookup_word(b, sel) < 0) { ret = -1; break; }
+			} else if (key == KEYPAD_STAR && words[sel].img == BK_NONE) {
+				r->qsel = sel;
+			} else if (key == KEYPAD_HASH && words[sel].img == BK_NONE) {
+				int len = words[sel].len < 63 ? words[sel].len : 63;
+				memcpy(r->query, b->page + words[sel].off, len);
+				r->query[len] = 0;
+				if (search_next(r, r->page, text_after(r)) < 0) { ret = -1; break; }
 			} else if (key == KEYPAD_RSOFT) {
-				sel = -1;
+				r->sel = -1;
 			}
 		}
-		if (page != old) {
-			book_progress(k, b, page);
+		if (r->page != old) {
+			book_progress(k, b, r->page);
 			dirty = 1;
 		}
 	}
-	book_progress(k, b, page);
+	book_progress(k, b, r->page);
 	shelf_save();
+	marks_free(&marks);
 	book_close(b);
 	return ret;
 }

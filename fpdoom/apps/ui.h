@@ -26,6 +26,13 @@ int text_view(const char *title, const char *text, const char *footer,
 /* list picker, returns the index, -1 when cancelled, -2 on quit */
 int ui_pick(const char *title, const char *const *items, int n, int sel);
 
+/* a number from 1 to max typed on the keypad: the number, -1 when cancelled,
+   -2 on quit */
+int ui_number(const char *title, const char *hint, int max);
+/* text typed by multi-tap (* switches Russian/English, > ends a letter) into
+   buf, which may hold a starting text: its length, -1 when cancelled, -2 on quit */
+int ui_input(const char *title, char *buf, int size);
+
 /* shows a message until a key is pressed, returns -1 on quit */
 int ui_message(const char *title, const char *text);
 

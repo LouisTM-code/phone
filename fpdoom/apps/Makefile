@@ -1,7 +1,7 @@
 NAME = apps
 TWO_STAGE = 0
 
-APP_SRCS = main gfx ui dict dictfile cards reader book shelf
+APP_SRCS = main gfx ui dict dictfile cards reader book shelf marks
 
 # temporary debug log (log.h); after changing LOG run make clean
 LOG ?= 1

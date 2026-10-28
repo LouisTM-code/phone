@@ -472,6 +472,9 @@ HEADING_RE = re.compile(r"^(chapter|part|book|глава|часть|книга|�
                         r"пролог|эпилог)\b[\w .,:-]{0,60}$|^[IVXLC]{1,7}\.?$", re.I)
 
 
+PART_RE = re.compile(r"^(part|book|часть|книга|том)\b", re.I)
+
+
 def read_txt(path):
     raw = open(path, "rb").read()
     for enc in ("utf-8-sig", "cp1251", "latin-1"):
@@ -491,12 +494,27 @@ def read_txt(path):
     if paras and len(paras[0]) <= 80 and not paras[0].endswith("."):
         title = paras[0]
         paras = paras[1:]
+    heads = [len(p) <= 70 and bool(HEADING_RE.match(p)) for p in paras]
+    # three or more heading lines in a row are a list of contents; only the
+    # last of them (and a part heading just before it) starts the text
+    real = list(heads)
+    i = 0
+    while i < len(paras):
+        j = i
+        while j < len(paras) and heads[j]:
+            j += 1
+        if j - i >= 3:
+            for k in range(i, j - 1):
+                real[k] = False
+            if PART_RE.match(paras[j - 2]):
+                real[j - 2] = True
+        i = j + 1 if j > i else i + 1
     blocks = []
-    for p in paras:
-        if len(p) <= 70 and HEADING_RE.match(p):
-            blocks.append({"t": "h", "level": 2, "inl": [(p, 0)]})
+    for p, h, r in zip(paras, heads, real):
+        if r:
+            blocks.append({"t": "h", "level": 1 if PART_RE.match(p) else 2, "inl": [(p, 0)]})
         else:
-            blocks.append({"t": "p", "inl": [(p, 0)], "verse": False})
+            blocks.append({"t": "p", "inl": [(p, 0)], "verse": h})
     return {"title": title, "author": "", "cover": None}, blocks
 
 

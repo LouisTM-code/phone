@@ -102,6 +102,98 @@ int ui_pick(const char *title, const char *const *items, int n, int sel) {
 	}
 }
 
+/* a field with the text and a cursor, under the header */
+static void draw_field(const char *title, const char *text, const char *hint, const char *footer) {
+	int y = UI_BAR_H + 8;
+	ui_header(title);
+	draw_text(6, y, 1, hint, UI_DIM);
+	y += FONT_H + 6;
+	fill_rect(4, y - 3, scr_w - 8, FONT_H + 6, RGB(40, 46, 70));
+	draw_text(draw_text(8, y, 1, text, UI_TEXT), y, 1, "_", UI_ACCENT);
+	ui_footer(footer);
+	gfx_present();
+}
+
+int ui_number(const char *title, const char *hint, int max) {
+	char buf[12] = "";
+	int n = 0;
+	for (;;) {
+		int key;
+		draw_field(title, buf, hint, "OK - ввод  # стереть  П-назад");
+		key = wait_key();
+		if (key < 0) return -2;
+		if (key == KEYPAD_RSOFT) return -1;
+		if (key >= KEYPAD_0 && key <= KEYPAD_9 && n < 9) {
+			buf[n++] = '0' + key - KEYPAD_0;
+			buf[n] = 0;
+			if (atoi(buf) > max) buf[--n] = 0;
+		} else if (key == KEYPAD_HASH && n) {
+			buf[--n] = 0;
+		} else if ((key == KEYPAD_CENTER || key == KEYPAD_LSOFT) && n) {
+			return atoi(buf);
+		}
+	}
+}
+
+/* multi-tap letters: the same key again within MULTITAP_MS changes the letter */
+#define MULTITAP_MS 1000
+static const char *const tap_en[10] = {
+	" ", ".,-'?!", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+static const char *const tap_ru[10] = {
+	" ", ".,-'?!", "абвг", "деёжз", "ийкл", "мноп", "рсту", "фхцч", "шщъы", "ьэюя" };
+
+/* the n-th UTF-8 character of s, its length in *len */
+static const char *utf8_nth(const char *s, int n, int *len) {
+	const char *p = s;
+	while (n-- && *p) utf8_next(&p);
+	s = p;
+	utf8_next(&p);
+	*len = p - s;
+	return s;
+}
+
+int ui_input(const char *title, char *buf, int size) {
+	int len = strlen(buf), last = -1, idx = 0, ru = 1, prev_len = 0;
+	unsigned t = 0;
+	for (;;) {
+		int key;
+		draw_field(title, buf, ru ? "Раскладка: русская (* - англ.)" : "Layout: English (* - рус.)",
+				"OK ввод  # стереть  > буква");
+		key = wait_key();
+		if (key < 0) return -2;
+		if (key == KEYPAD_RSOFT) return -1;
+		if ((key == KEYPAD_CENTER || key == KEYPAD_LSOFT) && len) return len;
+		if (key == KEYPAD_STAR) { ru = !ru; last = -1; continue; }
+		if (key == KEYPAD_HASH) {
+			while (len && ((unsigned char)buf[len - 1] & 0xc0) == 0x80) len--;
+			if (len) len--;
+			buf[len] = 0;
+			last = -1;
+		} else if (key == KEYPAD_RIGHT) {
+			last = -1;
+		} else if (key >= KEYPAD_0 && key <= KEYPAD_9) {
+			int d = key - KEYPAD_0, n, l;
+			const char *set = (ru ? tap_ru : tap_en)[d], *c;
+			n = text_len(set);
+			if (d == last && sys_timer_ms() - t < MULTITAP_MS) {
+				len = prev_len;  /* replace the letter just typed */
+				idx = (idx + 1) % n;
+			} else {
+				prev_len = len;
+				idx = 0;
+			}
+			c = utf8_nth(set, idx, &l);
+			if (prev_len + l < size) {
+				memcpy(buf + prev_len, c, l);
+				len = prev_len + l;
+				buf[len] = 0;
+			}
+			last = d;
+			t = sys_timer_ms();
+		}
+	}
+}
+
 int ui_message(const char *title, const char *text) {
 	return text_view(title, text, "5 или П.софт - назад", NULL, NULL);
 }
