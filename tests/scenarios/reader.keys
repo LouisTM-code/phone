@@ -1,6 +1,6 @@
 # the reader: book list, paging, word selection, translation, card from a word, resume
-1 shot list
-DOWN DOWN DOWN 5 shot page1
+1 RIGHT RIGHT shot list
+5 shot page1
 #! read 4096
 RIGHT RIGHT shot page3
 3 shot page13

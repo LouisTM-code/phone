@@ -15,6 +15,7 @@ import hashlib
 import io
 import os
 import re
+import struct
 import subprocess
 import sys
 import unicodedata
@@ -989,9 +990,27 @@ def main():
         print(f"{src} -> {fn} ({npages} pages, {size // 1024} KB) \"{title}\"")
         for n in notes:
             print(f"  {n}")
+    order = sorted((fn for fn in index if os.path.exists(os.path.join(data_dir, fn))),
+                   key=lambda fn: (index[fn][2].lower(), index[fn][0].lower()))
     with open(index_path, "w", encoding="utf-8") as f:
-        for fn, v in sorted(index.items(), key=lambda x: (x[1][2].lower(), x[1][0].lower())):
-            f.write("\t".join([fn] + v) + "\n")
+        for fn in order:
+            f.write("\t".join([fn] + index[fn]) + "\n")
+    write_covers(data_dir, order)
+
+
+def write_covers(data_dir, order):
+    """books/covers.bin: the shelf covers in the order of index.txt, raw
+    RGB565 of CONF["thumb"] size each, so the shelf reads one file."""
+    tw, th = CONF["thumb"]
+    with open(os.path.join(data_dir, "books/covers.bin"), "wb") as f:
+        for fn in order:
+            book = bf.Book(os.path.join(data_dir, fn))
+            px = [0] * (tw * th)
+            if book.cover != bf.NONE:
+                w, h, kind, rows = book.image(book.cover)
+                for y in range(min(h, th)):
+                    px[y * tw:y * tw + min(w, tw)] = rows[y][:tw]
+            f.write(struct.pack(f"<{tw * th}H", *px))
 
 
 if __name__ == "__main__":

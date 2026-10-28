@@ -1,0 +1,18 @@
+# the shelf: filters, covers, progress, the book menu, opening where reading stopped
+1 shot all
+DOWN DOWN DOWN DOWN DOWN DOWN shot all_scrolled
+LEFT shot reading_empty
+RIGHT RIGHT shot done_empty
+RIGHT shot cat_a2
+RIGHT RIGHT shot cat_b2
+# read two books a little
+LEFT LEFT 5 RIGHT RIGHT RIGHT RSOFT shot a2_after
+DOWN 5 3 3 RSOFT shot a2_after2
+RIGHT RIGHT RIGHT shot reading
+# the book menu: mark as read
+LSOFT shot menu
+5 shot marked
+RIGHT RIGHT shot done
+# back to the main menu and in again: the shelf opens on the books being read
+RSOFT RSOFT 1 shot reopen
+5 shot continued

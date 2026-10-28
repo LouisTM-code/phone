@@ -125,12 +125,17 @@ update: sdcard
 sdtest: sdboot
 	$(SPD)/spd_dump_fast --wait 600 fdl $(FP)/sdboot/sdboot1.bin 0x40004000
 
-# Dictionary, level decks and the bundled books from sources/.
+# Dictionary, level decks and the books from sources/: books in a folder of
+# sources/books/ get the folder name as their shelf category.
 data:
 	mkdir -p $(DATA)
 	$(PY) tools/mkdict.py $(DATA)/dict.bin sources/lexicon $(FP)/apps/words.txt
 	$(PY) tools/mkdecks.py sources/lexicon $(DATA)
-	$(PY) tools/mkbook.py $(DATA) samples/*.txt sources/books/*.txt
+	rm -rf $(DATA)/books
+	$(PY) tools/mkbook.py $(DATA) samples/*.txt $(wildcard sources/books/*.*)
+	for d in sources/books/*/; do \
+		$(PY) tools/mkbook.py $(DATA) --cat "$$(basename "$$d")" "$$d"* || exit 1; \
+	done
 
 # Load the menu into RAM over USB (hold DIAL while plugging in).
 run: apps data

@@ -3,31 +3,15 @@
 #include <string.h>
 #include "ui.h"
 #include "apps.h"
-#include "book.h"
+#include "reader.h"
 #include "dictfile.h"
 #include "log.h"
 
-#define INDEX_FILE "books/index.txt"
-/* state/ is made by make sdcard: the phone can't create folders */
-#define SHELF_FILE "state/books.txt"
 #define DICT_FILE "dict.bin"
-#define MAX_BOOKS 200
 #define MAX_PAGE_WORDS 400
 #define SAVE_IDLE_MS 3000
 
 int dict_show(int i, const char *title);
-
-/* books/index.txt: file, title, author, category, state id */
-typedef struct {
-	char file[72], title[96], author[64], cat[32], id[12];
-	/* from state/books.txt */
-	book_anchor_t pos;
-	int percent, status, stamp;
-} shelf_book_t;
-enum { ST_NEW, ST_READING, ST_DONE };
-
-static shelf_book_t *books;
-static int nbooks, last_stamp;
 
 static int page_x, page_y, page_w, page_h;
 
@@ -40,74 +24,6 @@ typedef struct {
 } word_t;
 static word_t words[MAX_PAGE_WORDS];
 static int nwords;
-
-static char *field(char **p) {
-	char *s = *p, *t;
-	if (!s) return "";
-	if ((t = strchr(s, '\t'))) *t = 0, *p = t + 1;
-	else *p = NULL;
-	return s;
-}
-
-static int load_index(void) {
-	char *buf = file_load(INDEX_FILE, NULL), *pos, *line;
-	nbooks = 0;
-	if (!buf) return -1;
-	if (!books && !(books = malloc(MAX_BOOKS * sizeof(*books)))) {
-		free(buf);
-		return -1;
-	}
-	for (pos = buf; nbooks < MAX_BOOKS && (line = next_line(&pos)); ) {
-		shelf_book_t *k = &books[nbooks];
-		memset(k, 0, sizeof(*k));
-		snprintf(k->file, sizeof(k->file), "%s", field(&line));
-		snprintf(k->title, sizeof(k->title), "%s", field(&line));
-		snprintf(k->author, sizeof(k->author), "%s", field(&line));
-		snprintf(k->cat, sizeof(k->cat), "%s", field(&line));
-		snprintf(k->id, sizeof(k->id), "%s", field(&line));
-		if (k->file[0] && k->id[0]) nbooks++;
-	}
-	free(buf);
-	return 0;
-}
-
-/* state/books.txt: "id<TAB>block<TAB>char<TAB>percent<TAB>status<TAB>stamp" */
-static void load_shelf(void) {
-	char *buf = file_load(SHELF_FILE, NULL), *pos, *line;
-	last_stamp = 0;
-	if (!buf) return;
-	for (pos = buf; (line = next_line(&pos)); ) {
-		char *id = field(&line);
-		int i;
-		for (i = 0; i < nbooks; i++) {
-			shelf_book_t *k = &books[i];
-			if (strcmp(k->id, id)) continue;
-			k->pos.blk = strtoul(field(&line), NULL, 10);
-			k->pos.ch = strtoul(field(&line), NULL, 10);
-			k->percent = atoi(field(&line));
-			k->status = atoi(field(&line));
-			k->stamp = atoi(field(&line));
-			if (k->stamp > last_stamp) last_stamp = k->stamp;
-			break;
-		}
-	}
-	free(buf);
-}
-
-static void save_shelf(void) {
-	FILE *fp = fopen(SHELF_FILE, "wb");
-	int i;
-	LOG_T0(t0);
-	if (!fp) return;
-	for (i = 0; i < nbooks; i++) {
-		shelf_book_t *k = &books[i];
-		if (k->status == ST_NEW && !k->stamp) continue;
-		fprintf(fp, "%s\t%u\t%u\t%d\t%d\t%d\n", k->id, (unsigned)k->pos.blk, (unsigned)k->pos.ch,
-				k->percent, k->status, k->stamp);
-	}
-	fclose(fp);
-	LOG_OP(t0, "shelf_save %d", nbooks);
-}
 
 /* ---- the page */
 
@@ -374,7 +290,7 @@ static int pan_key(book_t *b, int key, int page, int *x, int *y) {
 	return page;
 }
 
-static int read_book(shelf_book_t *k) {
+int read_book(shelf_book_t *k) {
 	book_t bk, *b = &bk;
 	int page, sel = -1, ret = 0, dirty = 0, pan_x = 0, pan_y = 0;
 	LOG_T0(t0);
@@ -385,9 +301,9 @@ static int read_book(shelf_book_t *k) {
 		return ui_message("Книги", "Книга собрана для другого экрана: пересоберите её (make data).");
 	}
 	page = k->stamp ? book_find(b, k->pos) : 0;
-	k->stamp = ++last_stamp;
+	k->stamp = shelf_stamp();
 	if (k->status == ST_NEW) k->status = ST_READING;
-	save_shelf();
+	shelf_save();
 	LOG_OP(t0, "book_open %s %up", k->file, b->npages);
 
 	for (;;) {
@@ -409,7 +325,7 @@ static int read_book(shelf_book_t *k) {
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
 		if (key < 0) { ret = -1; break; }
 		if (!key) {
-			save_shelf();
+			shelf_save();
 			dirty = 0;
 			continue;
 		}
@@ -458,7 +374,7 @@ static int read_book(shelf_book_t *k) {
 		}
 	}
 	book_progress(k, b, page);
-	save_shelf();
+	shelf_save();
 	book_close(b);
 	return ret;
 }
@@ -476,32 +392,11 @@ static void set_theme(void) {
 	book_pal[BC_TH_BG] = RGB(44, 52, 76);
 }
 
-int reader_main(void) {
-	const char **items;
-	int i, sel = 0;
-
+void reader_init(void) {
 	page_x = 4;
 	page_y = UI_BAR_H + 3;
 	page_w = scr_w - 8;
 	page_h = scr_h - page_y - 3;
 	set_theme();
 	dict_open(DICT_FILE);
-
-	if (load_index() < 0 || !nbooks)
-		return ui_message("Книги", "Книг пока нет.\n\n"
-				"Положите книгу (.epub, .fb2, .md, .txt, .pdf) в sources/books/ "
-				"и выполните make update.");
-	load_shelf();
-	if (!(items = malloc(nbooks * sizeof(*items)))) return 0;
-	for (;;) {
-		int r;
-		for (i = 0; i < nbooks; i++) items[i] = books[i].title;
-		r = ui_pick("Книги", items, nbooks, sel);
-		if (r == -2) { free(items); return -1; }
-		if (r < 0) break;
-		sel = r;
-		if (read_book(&books[r]) < 0) { free(items); return -1; }
-	}
-	free(items);
-	return 0;
 }
