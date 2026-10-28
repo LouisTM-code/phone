@@ -61,6 +61,7 @@ TESTBOOKS = tests/books/*.md tests/out/gen/*.epub tests/out/gen/*.fb2 tests/out/
 	$(wildcard dl/books/*)
 testbooks: data
 	rm -rf tests/out/card tests/out/gen
+	mkdir -p tests/out
 	cp -r $(DATA) tests/out/card
 	mkdir -p tests/out/card/state
 	$(PY) tests/make_books.py tests/out/gen

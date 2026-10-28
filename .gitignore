@@ -33,3 +33,5 @@ spreadtrum_flash/custom_fdl/nor_fdl1.bin
 __pycache__/
 /tests/out/
 /.venv/
+# test books for the phone, copied from tests/books and dl/books
+/sources/books/Тест/

@@ -3,6 +3,7 @@
 #include <string.h>
 #include "ui.h"
 #include "marks.h"
+#include "log.h"
 
 /* state/<id>.txt: "b" bookmark or "q" quote lines:
    "kind<TAB>block<TAB>char<TAB>text", rewritten whole on every change */
@@ -48,12 +49,14 @@ int marks_save(marks_t *m, const char *id) {
 	char name[32];
 	FILE *fp;
 	int i;
+	LOG_T0(t0);
 	path(name, sizeof(name), id);
 	if (!(fp = fopen(name, "wb"))) return -1;
 	for (i = 0; i < m->n; i++)
 		fprintf(fp, "%c\t%u\t%u\t%s\n", m->list[i].kind, (unsigned)m->list[i].pos.blk,
 				(unsigned)m->list[i].pos.ch, m->list[i].text);
 	fclose(fp);
+	LOG_OP(t0, "marks_save %d", m->n);
 	return 0;
 }
 

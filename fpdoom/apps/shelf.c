@@ -16,6 +16,8 @@
 #define MAX_BOOKS 200
 #define MAX_CATS 16
 #define ROW_H (THUMB_H + 6)
+/* the debug log notes shelf screens drawn slower than this */
+#define LOG_SLOW_MS 200
 
 static shelf_book_t *books;
 static int nbooks, last_stamp;
@@ -169,6 +171,7 @@ static void draw_row(FILE *covers, int i, int y, int selected) {
 static void draw_shelf(FILE *covers, int f, int top, int sel) {
 	char title[64];
 	int rows = (scr_h - UI_BAR_H * 2 - 4) / ROW_H, r;
+	LOG_T0(t0);
 	snprintf(title, sizeof(title), "< %s >", filter_name(f));
 	ui_header("");
 	draw_text_center(3, 1, title, UI_TEXT);
@@ -178,6 +181,7 @@ static void draw_shelf(FILE *covers, int f, int top, int sel) {
 		draw_text_center(scr_h / 2 - FONT_H, 1, "Здесь пока пусто", UI_DIM);
 	ui_footer("5 читать  <> полки  Л-меню");
 	gfx_present();
+	LOG_SLOW(t0, LOG_SLOW_MS, "shelf %d books", nview);
 }
 
 /* LSOFT on a book */

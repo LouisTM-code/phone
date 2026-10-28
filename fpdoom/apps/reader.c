@@ -11,6 +11,8 @@
 #define DICT_FILE "dict.bin"
 #define MAX_PAGE_WORDS 400
 #define SAVE_IDLE_MS 3000
+/* the debug log notes pages and pictures drawn slower than this */
+#define LOG_SLOW_MS 200
 
 int dict_show(int i, const char *title);
 static int view_menu(void);
@@ -141,6 +143,7 @@ static int view_image(book_t *b, uint32_t id) {
 		if (y > zh - vh) y = zh - vh;
 		if (x < 0) x = 0;
 		if (y < 0) y = 0;
+		LOG_T0(t0);
 		snprintf(title, sizeof(title), "Картинка %dx%d%s", w, h, names[z]);
 		ui_header(title);
 		fill_rect(0, UI_BAR_H, scr_w, vh, book_bg);
@@ -148,6 +151,7 @@ static int view_image(book_t *b, uint32_t id) {
 				book_pal[BC_TEXT], zoom);
 		ui_footer("5 масштаб  <> двигать  П-назад");
 		gfx_present();
+		LOG_SLOW(t0, LOG_SLOW_MS, "image %dx%d zoom %d", w, h, zoom);
 		key = wait_key();
 		if (key < 0) return -1;
 		if (key == KEYPAD_RSOFT) return 0;
@@ -478,7 +482,9 @@ static int search(reading_t *r, int from, int pos) {
 }
 
 static int search_next(reading_t *r, int from, int pos) {
+	LOG_T0(t0);
 	int ret = search(r, from, pos);
+	LOG_OP(t0, "search p%d -> p%d ret %d", from, ret == 1 ? r->page : (int)r->b.npages, ret);
 	if (ret == 0) ui_note("Больше не найдено");
 	else if (ret == -1) ui_note("Поиск отменён");
 	return ret == -2 ? -1 : 0;
@@ -639,6 +645,7 @@ int read_book(shelf_book_t *k) {
 
 	for (;;) {
 		int key, old = r->page;
+		LOG_T0(tp);
 		if (book_load(b, r->page) < 0) {
 			ret = ui_message("Книги", "Ошибка чтения книги.");
 			break;
@@ -654,6 +661,7 @@ int read_book(shelf_book_t *k) {
 			r->pan_y = h > (int)scr_h - UI_BAR_H ? h - ((int)scr_h - UI_BAR_H) : 0;
 		}
 		draw_page(r);
+		LOG_SLOW(tp, LOG_SLOW_MS, "page %d", r->page);
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
 		if (key < 0) { ret = -1; break; }
 		if (!key) {
@@ -787,9 +795,11 @@ static void load_settings(void) {
 
 static void save_settings(void) {
 	FILE *fp = fopen(SETTINGS_FILE, "wb");
+	LOG_T0(t0);
 	if (!fp) return;
 	fprintf(fp, "theme %d\nbright %d\n", theme, bright);
 	fclose(fp);
+	LOG_OP(t0, "settings_save %d", theme);
 }
 
 static int view_menu(void) {

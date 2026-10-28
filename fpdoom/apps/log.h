@@ -13,12 +13,15 @@ void log_app(const char *name);
 void log_msg(const char *fmt, ...);
 #define LOG_T0(t) uint32_t t = sys_timer_ms()
 #define LOG_OP(t, fmt, ...) log_msg(fmt " %ums", __VA_ARGS__, (unsigned)(sys_timer_ms() - (t)))
+/* only when it took at least ms: for things done on every key */
+#define LOG_SLOW(t, ms, fmt, ...) do { if (sys_timer_ms() - (t) >= (ms)) LOG_OP(t, fmt, __VA_ARGS__); } while (0)
 #else
 #define log_start() ((void)0)
 #define log_end() ((void)0)
 #define log_app(name) ((void)0)
 #define LOG_T0(t) ((void)0)
 #define LOG_OP(t, ...) ((void)0)
+#define LOG_SLOW(t, ...) ((void)0)
 #endif
 
 #endif
