@@ -10,6 +10,7 @@ the books by name.
 """
 import os
 import re
+import subprocess
 import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools"))
@@ -126,6 +127,20 @@ def check_parsers(tmp):
     errs, _, _ = check(path[:-3] + ".bk", path)
     if errs or rep["tall_tables"] != 1:
         errors.append(f"tall table: {errs[:2]}, tall_tables={rep['tall_tables']}")
+    # two books with one file name stop the build; other scripts get stable names
+    for d in ("A", "B"):
+        os.makedirs(os.path.join(tmp, "src", d), exist_ok=True)
+        open(os.path.join(tmp, "src", d, "Book.md"), "w").write("# x\n")
+    r = subprocess.run([sys.executable, mkbook.__file__, os.path.join(tmp, "dup"), os.path.join(tmp, "src")],
+                       capture_output=True, text=True)
+    if r.returncode == 0 or "both become books/Book.bk" not in r.stderr:
+        errors.append(f"same names: exit {r.returncode} {r.stderr.strip()!r}")
+    if not re.fullmatch(r"book_[0-9a-f]{8}", mkbook.file_name("東京")) or \
+            mkbook.file_name("東京") == mkbook.file_name("大阪"):
+        errors.append(f"names in other scripts: {mkbook.file_name('東京')}, {mkbook.file_name('大阪')}")
+    cut = mkbook.utf8_cut("абв" * 60, mkbook.CONF["title_max"] - 1)
+    if len(cut.encode()) > mkbook.CONF["title_max"] - 1 or cut != "абв" * 15 + "аб":
+        errors.append(f"title cut: {cut!r}")
     for tex, want in TEX_CASES:
         if mkbook.tex_as_text(tex) != want:
             errors.append(f"tex_as_text({tex!r}) = {mkbook.tex_as_text(tex)!r}, want {want!r}")

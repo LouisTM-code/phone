@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Builds books for the phone reader (.bk, see bookfile.py).
 
-Usage: mkbook.py DATA_DIR [--cat CATEGORY] BOOK [BOOK...]
-BOOK: .md, .epub, .fb2, .fb2.zip, .html, .txt or .pdf. Writes
-DATA_DIR/books/<name>.bk and updates DATA_DIR/books/index.txt:
+Usage: mkbook.py DATA_DIR BOOK|FOLDER...
+BOOK: .md, .epub, .fb2, .fb2.zip, .html, .txt or .pdf. A FOLDER gives its
+books, and the books of its subfolders with the subfolder name as their
+shelf category. Writes DATA_DIR/books/<name>.bk and updates
+DATA_DIR/books/index.txt:
 "file<TAB>title<TAB>author<TAB>category<TAB>state id" lines. The state id is
 the 8.3 file name of the book's state on the card (the phone can't create
 long names).
@@ -46,6 +48,8 @@ CONF = {
     "list_indent": 16, "quote_indent": 12,
     "full_image_max": 960,   # pictures opened full screen are at most this size
     "thumb": (36, 48),       # cover on the shelf
+    # sizes of the phone's buffers in bytes (shelf_book_t in reader.h), with the 0
+    "title_max": 96, "author_max": 64, "cat_max": 32,
     # PDF: k2pdfopt reflows the pages into page-size pictures
     "k2pdfopt": os.path.join(os.path.dirname(TOOLS), "dl/k2pdfopt"),
     "k2pdfopt_args": ["-dpi", "100", "-j", "0", "-c", "-bpc", "8"],
@@ -971,10 +975,16 @@ def build(src, dst):
     if not pages:
         pages = [(0, 0, b"")]
     title = meta.get("title") or os.path.splitext(os.path.basename(src))[0].replace("_", " ")
-    title = Layout(images, report).clean(" ".join(title.split()))[:120]
-    author = Layout(images, report).clean(" ".join((meta.get("author") or "").split()))[:120]
+    title = utf8_cut(Layout(images, report).clean(" ".join(title.split())), CONF["title_max"] - 1)
+    author = utf8_cut(Layout(images, report).clean(" ".join((meta.get("author") or "").split())),
+                      CONF["author_max"] - 1)
     bf.write(dst, CONF["page_w"], CONF["page_h"], pages, toc, images.blobs, thumb, title, author)
     return title, author, len(pages), report
+
+
+def utf8_cut(s, n):
+    """s cut to n UTF-8 bytes at a letter boundary."""
+    return s.encode("utf-8")[:n].decode("utf-8", "ignore")
 
 
 TRANSLIT = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
@@ -986,21 +996,43 @@ def file_name(base):
     """An ASCII name: the phone's FAT code matches long names in ASCII only."""
     s = "".join(TRANSLIT[c.lower()].capitalize() if c.lower() in TRANSLIT and c.isupper()
                 else TRANSLIT.get(c, c) for c in base)
-    return re.sub(r"[^A-Za-z0-9_-]+", "_", s)[:60].strip("_") or "book"
+    name = re.sub(r"[^A-Za-z0-9_-]+", "_", s)[:60].strip("_")
+    # a title in other scripts: a stable name from it
+    return name if re.search(r"[A-Za-z0-9]", name) else f"book_{zlib.crc32(base.encode()):08x}"
 
 
 def state_id(fn):
     return f"{zlib.crc32(fn.encode()):08X}"
 
 
+BOOK_EXTS = (".fb2.zip", ".epub", ".fb2", ".md", ".markdown", ".html", ".htm", ".txt", ".pdf")
+
+
+def is_book(path):
+    return os.path.isfile(path) and path.lower().endswith(BOOK_EXTS)
+
+
+def sources(args):
+    """(path, category) of the books given as files or folders."""
+    out = []
+    for a in args:
+        if not os.path.isdir(a):
+            out.append((a, ""))
+            continue
+        for e in sorted(os.listdir(a)):
+            p = os.path.join(a, e)
+            if is_book(p):
+                out.append((p, ""))
+            elif os.path.isdir(p):
+                out += [(os.path.join(p, f), e) for f in sorted(os.listdir(p)) if is_book(os.path.join(p, f))]
+    return out
+
+
 def main():
     args = sys.argv[1:]
     if len(args) < 2:
         sys.exit(__doc__)
-    data_dir, args = args[0], args[1:]
-    cat = ""
-    if args[0] == "--cat":
-        cat, args = args[1], args[2:]
+    data_dir, books = args[0], sources(args[1:])
     books_dir = os.path.join(data_dir, "books")
     os.makedirs(books_dir, exist_ok=True)
     index_path = os.path.join(books_dir, "index.txt")
@@ -1010,15 +1042,19 @@ def main():
             f = line.rstrip("\n").split("\t")
             if len(f) == 5:
                 index[f[0]] = f[1:]
-    for src in args:
-        if os.path.isdir(src):  # pictures of .md and .html books
-            continue
-        base = os.path.basename(src)
-        for ext in (".fb2.zip", ".epub", ".fb2", ".md", ".markdown", ".html", ".htm", ".txt", ".pdf"):
-            if base.lower().endswith(ext):
-                base = base[:-len(ext)]
-                break
-        name = file_name(base)
+    # the phone keeps a book's place by its file name: two books can't share one
+    names = {}
+    for src, cat in books:
+        if len(cat.encode("utf-8")) >= CONF["cat_max"]:
+            sys.exit(f"{src}: category {cat!r} longer than {CONF['cat_max'] - 1} bytes, rename the folder")
+        ext = next((e for e in BOOK_EXTS if src.lower().endswith(e)), None)
+        if not ext:
+            sys.exit(f"{src}: not a book ({', '.join(BOOK_EXTS)})")
+        name = file_name(os.path.basename(src)[:-len(ext)])
+        if name in names:
+            sys.exit(f"{src} and {names[name][0]} both become books/{name}.bk, rename one")
+        names[name] = (src, cat)
+    for name, (src, cat) in names.items():
         fn = f"books/{name}.bk"
         title, author, npages, rep = build(src, os.path.join(data_dir, fn))
         index[fn] = [title.replace("\t", " "), author.replace("\t", " "), cat, state_id(fn)]
