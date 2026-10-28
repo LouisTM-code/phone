@@ -610,13 +610,7 @@ class Layout:
         avail = (width - frame) // cw
         if n == 2 and len(rows) - head >= 2 and sum(natural) > avail and natural[0] <= 24:
             self.report["def_lists"] += 1
-            for r in rows[:head]:
-                self.add(self.lines(r[0] + [(" — ", 0)] + r[1], x0, width, colour=bf.C_DIM))
-            for r in rows[head:]:
-                self.block_({"t": "p", "inl": [(t, s | bf.STYLE_BOLD) for t, s in r[0]] or [("—", 0)],
-                             "verse": True}, x0, width, True)
-                self.add(self.layout([{"t": "p", "inl": r[1], "verse": True}], x0 + CONF["list_indent"],
-                                     width - CONF["list_indent"], in_list=True))
+            self.table_list(rows, head, x0, width)
             return
         if sum(minw) > avail:
             self.wide_table(rows, head, texts, natural, x0, width)
@@ -666,11 +660,34 @@ class Layout:
             # the row number in the anchor: pages of a long table differ
             bx = Box(h, items, (self.block, r), keep_next=is_head)
             (head_boxes if is_head else row_boxes).append(bx)
+        # a row that can't fit on a page with the header: the table becomes a
+        # list, its text flows over the pages
+        hh = sum(bx.h for bx in head_boxes)
+        if any(hh + bx.h > CONF["page_h"] for bx in row_boxes):
+            self.report["tall_tables"] += 1
+            self.table_list(rows, head, x0, width)
+            return
         for bx in row_boxes:
             bx.repeat = head_boxes
         self.gap(self.lh // 4)
         self.add(head_boxes + row_boxes)
         self.gap(self.lh // 2)
+
+    def table_list(self, rows, head, x0, width):
+        """A table as a list: the header in one dim line, then each row as its
+        first cell in bold and the other cells indented under it in column
+        order."""
+        li = CONF["list_indent"]
+        for r in rows[:head]:
+            line = []
+            for c in r:
+                line += (line and [(" — ", 0)]) + c
+            self.add(self.lines(line, x0, width, colour=bf.C_DIM))
+        for r in rows[head:]:
+            self.block_({"t": "p", "inl": [(t, s | bf.STYLE_BOLD) for t, s in r[0]] or [("—", 0)],
+                         "verse": True}, x0, width, True)
+            for c in r[1:]:
+                self.add(self.layout([{"t": "p", "inl": c, "verse": True}], x0 + li, width - li, in_list=True))
 
     def wide_table(self, rows, head, texts, natural, x0, width):
         """A table wider than the page becomes a picture: fitted on the page,
@@ -937,7 +954,8 @@ def build(src, dst):
     if FONT is None:
         FONT = Font()
     images = Images()
-    report = {"missing": {}, "bad_tex": [], "bad_images": 0, "wide_tables": 0, "def_lists": 0}
+    report = {"missing": {}, "bad_tex": [], "bad_images": 0, "wide_tables": 0, "def_lists": 0,
+              "tall_tables": 0}
     if src.lower().endswith(".pdf"):
         meta, pages, toc, thumb = build_pdf(src, images, report)
     else:
@@ -1016,6 +1034,8 @@ def main():
             notes.append(f"{rep['wide_tables']} wide tables as pictures")
         if rep["def_lists"]:
             notes.append(f"{rep['def_lists']} two-column tables as lists")
+        if rep["tall_tables"]:
+            notes.append(f"{rep['tall_tables']} tables with rows taller than a page as lists")
         print(f"{src} -> {fn} ({npages} pages, {size // 1024} KB) \"{title}\"")
         for n in notes:
             print(f"  {n}")

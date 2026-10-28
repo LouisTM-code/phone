@@ -119,6 +119,13 @@ def check_parsers(tmp):
                        for b in blocks)
         if got != want:
             errors.append(f"parse {src!r}: {got!r}, want {want!r}")
+    # a table row taller than a page: the table becomes a list, nothing is cut
+    path = os.path.join(tmp, "tall.md")
+    open(path, "w", encoding="utf-8").write("| a | b | c |\n|---|---|---|\n| x | " + "слово " * 150 + "| y |\n")
+    _, _, _, rep = mkbook.build(path, path[:-3] + ".bk")
+    errs, _, _ = check(path[:-3] + ".bk", path)
+    if errs or rep["tall_tables"] != 1:
+        errors.append(f"tall table: {errs[:2]}, tall_tables={rep['tall_tables']}")
     for tex, want in TEX_CASES:
         if mkbook.tex_as_text(tex) != want:
             errors.append(f"tex_as_text({tex!r}) = {mkbook.tex_as_text(tex)!r}, want {want!r}")
