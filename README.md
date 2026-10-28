@@ -10,6 +10,8 @@
 | Карточки | интервальное повторение слов как в Anki, наборы по уровням A1-C1, обмен с Anki |
 | Словарь | англо-русский учебный словарь на ~4100 слов: часть речи, уровень, значения, примеры |
 | Doom | shareware Doom 1 (по желанию, без звука), порт fpdoom |
+| Эмуляторы | Game Boy (gnuboy), NES (InfoNES), SNES (Snes9x) — порты fpdoom |
+| Головоломки | 40 головоломок Саймона Тэтхэма |
 
 ## Сборка
 
@@ -21,6 +23,7 @@
 | `make tools` | утилиты USB: `spd_dump`, `spd_dump_fast`, `libc_server`, `fphelper`, `nor_fdl1.bin` |
 | `make apps` / `make apps-sd` | программа для работы по кабелю / с SD-карты |
 | `make data` | словарь, наборы слов и книги из `sources/` в `phone-data/` |
+| `make ports` | игры и программы из таблицы выше (нужны исходники, см. «Игры и программы») |
 | `make sdcard` | содержимое SD-карты в `sdcard/` |
 | `make update` | собрать и записать на карту телефона, подключённого как накопитель |
 | `make run` | загрузить меню в память телефона по кабелю |
@@ -39,18 +42,36 @@ sdboot уже установлен во flash (подробности и ком�
 |---|---|
 | левая софт-клавиша (LSOFT) или `1` | меню |
 | `4` | Doom |
+| `1`+`2` | Game Boy: Tobu Tobu Girl Deluxe |
+| `1`+`5` | Game Boy: Deadeus |
+| `1`+`9` | головоломки |
 
 Выбор делает загрузчик `fpbin/fpmain.bin` по таблице `fpdoom/launcher/config.txt` (копируется
 на карту как `fpbin/config.txt`). Первой должна быть зажата LSOFT, `1` или `4` — только их видит
-sdboot; можно добавить вторую клавишу, например пункт `|4+2|`.
+sdboot; вторую клавишу можно нажать сразу после первой. Если программы нет на карте, телефон
+перезагружается в обычную прошивку.
 
 Обновление: `make update`, затем подключить телефон кабелем в режиме накопителя. Книги и наборы
 слов на карте заменяются содержимым `sources/` (лишние удаляются), прогресс в `progress.txt`
 и `cards.txt` не трогается.
 
-## Doom (по желанию)
+## Игры и программы
 
-Исходники и данные игры не входят в репозиторий:
+Исходники и данные игр не входят в репозиторий; файлы игр лежат в `games/` и копируются на
+карту в `games/`. Один раз скачать исходники:
+
+```
+cd fpdoom
+make -C gnuboy -f helper.make all patch
+make -C infones -f helper.make all patch
+make -C snes9x -f helper.make all patch
+make -C puzzles -f helper.make
+make -C softfp -f helper.make     # плавающая точка для ARM926 (compiler-rt)
+cd ..
+make ports update
+```
+
+Doom:
 
 ```
 git clone --depth 1 https://github.com/id-Software/DOOM.git /tmp/DOOM
@@ -59,10 +80,18 @@ patch -d fpdoom/doom_src -p1 -i ../doom.patch
 # doom1.wad (shareware 1.9, md5 f0cefca49926d00903cf57551d901abe) — из пакета Debian
 # doom-wad-shareware: dpkg-deb -x doom-wad-shareware_*.deb x
 mkdir -p games/doom1 && cp x/usr/share/games/doom/doom1.wad games/doom1/
-make doom update
 ```
 
-Без Doom клавиша `4` перезагружает телефон в обычную прошивку.
+Файлы игр (все бесплатные):
+
+| Куда | Что | Откуда |
+|---|---|---|
+| `games/gb/tobudx.gb` | Tobu Tobu Girl Deluxe (бесплатно) | tangramgames.itch.io/tobu-tobu-girl-deluxe, файл `tobudx.gb` |
+| `games/gb/deadeus.gb` | Deadeus 1.4 (бесплатно) | izma.itch.io/deadeus, `Deadeus.gb` из архива Regular Edition |
+
+Свои ROM кладутся туда же; имя файла меняется в `fpdoom/launcher/config.txt`.
+
+Управление в головоломках: стрелки — курсор, центр и `*` — действие, цифры — числа, RSOFT — отменить ход, LSOFT — меню.
 
 ## Запуск по кабелю
 
@@ -81,6 +110,9 @@ python3 tools/anki.py import phone-data КОЛОДА.apkg
 
 - `fpdoom/apps/` — программы (C): меню, книги, карточки, словарь
 - `fpdoom/launcher/` — загрузчик: выбор программы по клавише при включении (код запуска из `fpdoom/fpmenu/`)
+- `fpdoom/term/` — текстовый экран для меню портов, недостающие функции libc
+- `fpdoom/softfp/` — плавающая точка и `math.h` (у ARM926 нет FPU, библиотека NDK — для ARMv7)
+- `fpdoom/puzzles/` — порт головоломок: свой интерфейс к экрану и клавишам
 - `tools/` — конвертеры на Python (словари, книги, колоды Anki, кириллица шрифта из
   `/usr/share/consolefonts/`: `mkfont.py`)
 - `sources/lexicon/` — исходный текст словаря (формат: `sources/LEXICON_FORMAT.md`), `sources/books/` — книги A2-B2
@@ -90,7 +122,7 @@ python3 tools/anki.py import phone-data КОЛОДА.apkg
 - `fpdoom/`, `spreadtrum_flash/` — библиотеки Ильи Курдюкова (public domain):
   [fpdoom](https://github.com/ilyakurdyukov/fpdoom) @ 296795c,
   [spreadtrum_flash](https://github.com/ilyakurdyukov/spreadtrum_flash) @ 3d05825.
-  Изменения: исправлена сортировка в `pack_reloc.c`, добавлены `fpdoom/apps/`, `fpdoom/launcher/` и `spd_dump_fast.c`
+  Изменения: исправлена сортировка в `pack_reloc.c`, добавлены `fpdoom/apps/`, `fpdoom/launcher/`, порты выше и `spd_dump_fast.c`
   (частый опрос USB и повтор рукопожатия с загрузчиком).
 
 Словарь и книги написаны с помощью ИИ. Дамп прошивки лежит вне репозитория (`../backup_flash/`).

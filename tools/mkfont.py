@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
-"""Extracts Cyrillic 8x16 glyphs from a Linux console font (PSF) into font_cyr.h.
+"""Extracts Cyrillic glyphs from a Linux console font (PSF) into font_cyr.h.
 
-usage: mkfont.py OUT.h [FONT.psf.gz]
+usage: mkfont.py OUT.h [FONT.psf.gz] [--ascii]
 Default font: CyrSlav-VGA16, the same VGA style as font_ascii.h (glyphs keep the
 right column empty, which gives the gap between letters).
+--ascii puts U+0020..U+007F before the Cyrillic glyphs (one header for the whole
+font, used by fpdoom/term with CyrSlav-VGA8). Glyphs are 8 pixels wide, one byte
+per row, any height.
 """
 import gzip
 import struct
@@ -40,23 +43,26 @@ def load_psf(path):
         for i in range(count):
             for ch in table[i].split(b"\xfe")[0].decode("utf-8", "ignore"):
                 uni.setdefault(ord(ch), glyphs[i])
-    if height != 16:
-        sys.exit(f"{path}: glyph height {height}, need 16")
-    return uni
+    return uni, height
 
 
 def main():
-    if len(sys.argv) not in (2, 3):
+    args = [a for a in sys.argv[1:] if a != "--ascii"]
+    ascii_too = len(args) < len(sys.argv) - 1
+    if len(args) not in (1, 2):
         sys.exit(__doc__)
-    font = sys.argv[2] if len(sys.argv) == 3 else DEFAULT_FONT
-    uni = load_psf(font)
-    missing = [hex(c) for c in CHARS if c not in uni]
+    font = args[1] if len(args) == 2 else DEFAULT_FONT
+    uni, height = load_psf(font)
+    chars = (list(range(0x20, 0x80)) if ascii_too else []) + CHARS
+    uni.setdefault(0x7f, bytes(height))
+    missing = [hex(c) for c in chars if c not in uni]
     if missing:
         sys.exit(f"{font}: missing {', '.join(missing)}")
     name = font.rsplit("/", 1)[-1]
-    with open(sys.argv[1], "w") as f:
-        f.write(f"/* Cyrillic 8x16 glyphs: U+0410..U+044F, U+0401, U+0451 ({name}) */\n")
-        for c in CHARS:
+    with open(args[0], "w") as f:
+        first = "U+0020..U+007F, " if ascii_too else ""
+        f.write(f"/* 8x{height} glyphs: {first}U+0410..U+044F, U+0401, U+0451 ({name}) */\n")
+        for c in chars:
             f.write(",".join(f"0x{b:02x}" for b in uni[c]) + f", /* U+{c:x} */\n")
 
 

@@ -9,4 +9,12 @@
 |LSOFT| fpbin/apps.bin $@ apps
 |1| fpbin/apps.bin $@ apps
 |4| fpbin/doom.bin $@ --rotate 3 --dir games/doom1 doom
+# emulators, the scaler options are taken from fpdoom/fpmenu/config.txt
+|1+2| fpbin/gnuboy.bin $@ --rotate 3 --dir games/gb gnuboy tobudx.gb
+|1+5| fpbin/gnuboy.bin $@ --rotate 3 --dir games/gb gnuboy deadeus.gb
+# NES and SNES, for a ROM put into games/nes or games/snes:
+# |1+3| fpbin/infones.bin $@ --rotate 3 --scaler 49 --dir games/nes infones ROM.nes
+# |1+6| fpbin/snes9x.bin $@ --rotate 3 --scaler 149 --dir games/snes snes9x --crc 0 --nocheck ROM.sfc
+# puzzles (fpdoom/puzzles)
+|1+9| fpbin/puzzles.bin $@ puzzles
 |default| fpbin/apps.bin $@ apps

@@ -11,7 +11,7 @@ PY = python3
 # volume label set by sudo/02_format_sd_fat32.sh
 CARD_LABEL ?= BQ3590
 
-.PHONY: all tools apps apps-sd launcher doom sdboot sdcard update sdtest data run clean
+.PHONY: all tools apps apps-sd launcher ports sdboot sdcard update sdtest data run clean
 
 all: tools apps apps-sd launcher sdboot
 
@@ -37,24 +37,31 @@ apps-sd:
 launcher:
 	$(MAKE) -C $(FP)/launcher $(ARM) OBJDIR=obj
 
-# Optional: Doom for the SD card. Needs the sources in fpdoom/doom_src and
-# games/doom1/doom1.wad, see README.md.
-doom:
-	$(MAKE) -C $(FP)/fpdoom $(ARM) OBJDIR=obj_sd NAME=doom LIBC_SDIO=3
+# Optional programs for the SD card, as dir/name under fpdoom/: built as
+# fpdoom/dir/name.bin, copied to fpbin/name.bin. Each needs its sources
+# downloaded first, see README.md; games/ holds their data files.
+PORTS = fpdoom/doom gnuboy/gnuboy infones/infones snes9x/snes9x puzzles/puzzles
+
+ports:
+	for p in $(PORTS); do \
+		$(MAKE) -C $(FP)/$${p%/*} $(ARM) OBJDIR=obj_sd NAME=$${p#*/} LIBC_SDIO=3 || exit 1; \
+	done
 
 # SD boot loader for SC6531E (CHIP=1), installed into the firmware by sdboot/README.
 sdboot:
 	$(MAKE) -C $(FP)/sdboot CHIP=1 $(ARM)
 
 # Card image in sdcard/: copy its contents to the root of a FAT32 card.
-# Doom is added when built (make doom) and games/ exists.
+# Ports are added when built (make ports), games/ when it exists.
 sdcard: apps-sd launcher data
 	rm -rf sdcard && mkdir -p sdcard/fpbin
 	cp -r $(DATA)/. sdcard/
 	cp $(FP)/launcher/launcher.bin sdcard/fpbin/fpmain.bin
 	cp $(FP)/launcher/config.txt sdcard/fpbin/config.txt
 	cp $(FP)/apps/apps_sd.bin sdcard/fpbin/apps.bin
-	if [ -f $(FP)/fpdoom/doom.bin ]; then cp $(FP)/fpdoom/doom.bin sdcard/fpbin/doom.bin; fi
+	for p in $(PORTS); do \
+		if [ -f $(FP)/$$p.bin ]; then cp $(FP)/$$p.bin sdcard/fpbin/; fi; \
+	done
 	if [ -d games ]; then cp -r games sdcard/; fi
 
 # Copy the card image to the phone connected as USB storage. books/ and decks/ are

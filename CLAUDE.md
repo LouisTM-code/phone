@@ -12,15 +12,17 @@ App menu (books with word translation, flashcards, dictionary) for the
 ## Commands
 
 See `README.md`. Key targets: `make tools`, `make apps` (USB, `LIBC_SDIO=0`), `make apps-sd`
-(SD card, `LIBC_SDIO=3`), `make data`, `make sdcard`, `make update` (copy to the phone's card
+(SD card, `LIBC_SDIO=3`), `make ports`, `make data`, `make sdcard`, `make update` (copy to the phone's card
 over USB storage), `make run`, `make sdtest`.
 `phone-data/` and `sdcard/` are generated; never edit them by hand.
 `archive/chess_snake/` holds the removed chess and snake apps; it is not built.
 
-Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which runs
-`fpbin/apps.bin` (LSOFT, 1) or `fpbin/doom.bin` (4) by the key held at power on, per
-`fpdoom/launcher/config.txt` (fpmenu syntax, captions are key names). Doom is optional:
-`fpdoom/doom_src/` and `games/` are not in git (README.md).
+Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which runs a program
+from `fpbin/` by the keys held at power on, per `fpdoom/launcher/config.txt` (fpmenu syntax,
+captions are key names: `1+8`). Ports (`make ports`, list in `PORTS` of the Makefile) are
+optional; their sources and `games/` are not in git (README.md). The puzzles port draws
+its menus through `fpdoom/term/`; floats and math.h come from `fpdoom/softfp/`.
+`fpdoom/*/helper.make` downloads a port's pinned sources.
 
 ## Phone access
 
@@ -36,13 +38,15 @@ Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which
 
 ## Platform constraints
 
-- ARM926EJ-S 208 MHz: no FPU, no hardware divide; integer arithmetic only.
+- ARM926EJ-S 208 MHz: no FPU, no hardware divide; the apps use integer arithmetic only.
 - Heap ~3.95 MB (measured). Screen 240x320 (ILI9340), but read it from `sys_data.display`.
 - Keys: red (power) key alone sends no event, only as a modifier (bit 15). No volume keys.
   Codes: `docs/hardware.md`.
 - No readdir, RTC, battery level or power-off in the fpdoom API. In SD mode there is no `--day`
   argument, so flashcard scheduling (`app_today`) has no date yet (open issue).
-- The phone's libc has no fgets/strstr; see helpers in `fpdoom/apps/ui.h`.
+- The phone's libc lacks fgets/strstr/sscanf/rename/remove/...: the apps use the helpers in
+  `fpdoom/apps/ui.h`, ports link `fpdoom/term/port_libc.c`. No float hardware: ports that use
+  floats include `../softfp/softfp.make`.
 
 ## Debug log (temporary)
 
