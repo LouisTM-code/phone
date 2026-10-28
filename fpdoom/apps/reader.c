@@ -32,10 +32,12 @@ static int nwords;
 
 /* ---- the page */
 
-static unsigned utf8_at(const uint8_t *s, int *len) {
+/* the character at s, of the n bytes left in the run */
+static unsigned utf8_at(const uint8_t *s, int n, int *len) {
 	const char *p = (const char*)s;
 	unsigned c = utf8_next(&p);
 	*len = p - (const char*)s;
+	if (*len > n) *len = n, c = '?';
 	return c;
 }
 
@@ -65,7 +67,8 @@ static void collect_words(book_t *b) {
 			nwords++;
 			continue;
 		}
-		if (t != BK_TEXT) continue;
+		/* a table header repeated on a new page: not selectable, not in the page text */
+		if (t != BK_TEXT || it[3] & BK_LINE_REPEAT) continue;
 		y = bk_s16(it + 1);
 		flags = it[3];
 		n = it[4];
@@ -76,7 +79,7 @@ static void collect_words(book_t *b) {
 			const uint8_t *s = it + 4;
 			while (k < len) {
 				int l, l2;
-				unsigned c = utf8_at(s + k, &l);
+				unsigned c = utf8_at(s + k, len - k, &l);
 				if (is_letter(c) && nwords < MAX_PAGE_WORDS) {
 					word_t *w = &words[nwords++];
 					w->x = x + col * cw;
@@ -87,11 +90,11 @@ static void collect_words(book_t *b) {
 					w->hyphen = 0;
 					w->img = BK_NONE;
 					while (k < len) {
-						c = utf8_at(s + k, &l);
+						c = utf8_at(s + k, len - k, &l);
 						if (!is_letter(c)) {
 							/* an apostrophe or a hyphen inside a word */
 							if ((c != '\'' && c != '-' && c != 0x2019) || k + l >= len ||
-									!is_letter(utf8_at(s + k + l, &l2))) break;
+									!is_letter(utf8_at(s + k + l, len - k - l, &l2))) break;
 						}
 						k += l;
 						col++;
@@ -500,6 +503,7 @@ static int show_marks(reading_t *r) {
 		for (i = 0; i < marks.n; i++) {
 			snprintf(lines[i], sizeof(lines[i]), "%s %d: %s", marks.list[i].kind == 'b' ? "Закл." : "Цит.",
 					book_find(&r->b, marks.list[i].pos) + 1, marks.list[i].text);
+			utf8_trim(lines[i]);
 			items[i] = lines[i];
 		}
 		sel = ui_pick("Закладки и цитаты", items, marks.n, sel < marks.n ? sel : 0);
@@ -589,8 +593,9 @@ int read_book(shelf_book_t *k) {
 	r->page = k->stamp ? book_find(b, k->pos) : 0;
 	k->stamp = shelf_stamp();
 	if (k->status == ST_NEW) k->status = ST_READING;
-	shelf_save();
+	shelf_save(k);
 	marks_load(&marks, k->id);
+	if (marks.broken) ui_note("Закладки книги не прочитаны: новые не сохранятся");
 	sys_brightness(bright);
 	LOG_OP(t0, "book_open %s %up", k->file, b->npages);
 
@@ -610,7 +615,7 @@ int read_book(shelf_book_t *k) {
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
 		if (key < 0) { ret = -1; break; }
 		if (!key) {
-			shelf_save();
+			shelf_save(k);
 			dirty = 0;
 			continue;
 		}
@@ -682,7 +687,7 @@ int read_book(shelf_book_t *k) {
 		}
 	}
 	book_progress(k, b, r->page);
-	shelf_save();
+	shelf_save(k);
 	marks_free(&marks);
 	book_close(b);
 	sys_brightness(sys_data.brightness);

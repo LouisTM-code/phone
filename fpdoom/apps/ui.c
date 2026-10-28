@@ -226,6 +226,23 @@ char *next_line(char **pos) {
 	return s;
 }
 
+char *next_field(char **p) {
+	char *s = *p, *t;
+	if (!s) return "";
+	if ((t = strchr(s, '\t'))) *t = 0, *p = t + 1;
+	else *p = NULL;
+	return s;
+}
+
+void utf8_trim(char *s) {
+	int n = strlen(s), i = n, need;
+	while (i > 0 && ((unsigned char)s[i - 1] & 0xc0) == 0x80) i--;
+	if (!i) return;
+	need = (unsigned char)s[i - 1] >= 0xf0 ? 4 : (unsigned char)s[i - 1] >= 0xe0 ? 3 :
+			(unsigned char)s[i - 1] >= 0xc0 ? 2 : 1;
+	if (n - (i - 1) < need) s[i - 1] = 0;
+}
+
 const char *str_find(const char *s, const char *sub) {
 	int n = strlen(sub);
 	for (; *s; s++) if (!strncmp(s, sub, n)) return s;

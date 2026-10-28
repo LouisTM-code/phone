@@ -41,6 +41,10 @@ int ui_message(const char *title, const char *text);
 char *file_load(const char *path, long *size);
 /* cuts the next line out of the buffer at *pos, NULL at the end */
 char *next_line(char **pos);
+/* cuts the next tab-separated field out of the line at *p, "" after the last */
+char *next_field(char **p);
+/* drops a letter cut in half at the end of s (snprintf cuts by bytes) */
+void utf8_trim(char *s);
 const char *str_find(const char *s, const char *sub);
 
 #endif

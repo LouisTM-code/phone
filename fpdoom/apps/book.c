@@ -54,6 +54,7 @@ int book_load(book_t *b, unsigned page) {
 	unsigned size;
 	if (page >= b->npages || read_at(b, b->pages_off + page * 12, e, 24)) return -1;
 	size = bk_u32(e + 12) - bk_u32(e);
+	if (bk_u32(e + 12) < bk_u32(e) || size > (1 << 20)) return -1;
 	if (size > b->page_cap) {
 		uint8_t *p = realloc(b->page, size);
 		if (!p) return -1;
@@ -89,6 +90,8 @@ unsigned book_find(book_t *b, book_anchor_t a) {
 	return lo;
 }
 
+/* an item that doesn't fit in the page (a damaged file) ends the page, so
+   the callers may read the whole item */
 int book_item(const uint8_t **pp, const uint8_t *end) {
 	const uint8_t *p = *pp;
 	int t, n;
@@ -96,16 +99,24 @@ int book_item(const uint8_t **pp, const uint8_t *end) {
 	t = *p++;
 	switch (t) {
 	case BK_TEXT:
+		if (end - p < 4) return BK_END;
 		n = p[3];
 		p += 4;
-		while (n--) p += 4 + p[3];
+		while (n--) {
+			if (end - p < 4 || end - p < 4 + p[3]) return BK_END;
+			p += 4 + p[3];
+		}
 		break;
 	case BK_RECT: p += 9; break;
 	case BK_IMAGE: p += 13; break;
-	case BK_SEARCH: p += 2 + bk_u16(p); break;
-	default: t = BK_END;
+	case BK_SEARCH:
+		if (end - p < 2) return BK_END;
+		p += 2 + bk_u16(p);
+		break;
+	default: return BK_END;
 	}
-	*pp = p > end ? end : p;
+	if (p > end) return BK_END;
+	*pp = p;
 	return t;
 }
 
@@ -196,6 +207,7 @@ void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int
 	if (!rows || read_at(b, off + 8 + sy * 4, rows, (h + 1) * 4)) goto end;
 	for (j = 0; j < h; j++) {
 		int n = bk_u32(rows + j * 4 + 4) - bk_u32(rows + j * 4);
+		if (n < 0) goto end;
 		if (n > maxrow) maxrow = n;
 	}
 	if (!(buf = malloc(maxrow)) || fseek(b->f, off + bk_u32(rows), SEEK_SET)) goto end;
@@ -208,6 +220,7 @@ void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int
 		while (p < e && px < sx + w) {
 			int cnt = *p++, rep = cnt >= 128, i;
 			cnt = rep ? cnt - 126 : cnt + 1;
+			if (e - p < (rep ? 1 : cnt) * size) break;
 			for (i = 0; i < cnt && px < sx + w; i++, px++) {
 				unsigned v = size == 2 ? bk_u16(p) : *p;
 				if (!rep) p += size;
@@ -224,15 +237,20 @@ end:
 }
 
 uint8_t *book_toc(book_t *b, unsigned *count) {
-	uint8_t e[4], *buf;
-	uint32_t size = b->images_off - b->toc_off;
+	uint8_t e[4], *buf, *p;
+	uint32_t size = b->images_off - b->toc_off, n, i;
 	*count = 0;
-	if (size < 4 || read_at(b, b->toc_off, e, 4)) return NULL;
+	if (size < 4 || size > (1 << 20) || read_at(b, b->toc_off, e, 4)) return NULL;
 	if (!(buf = malloc(size))) return NULL;
 	if (fread(buf, 1, size - 4, b->f) != size - 4) {
 		free(buf);
 		return NULL;
 	}
-	*count = bk_u32(e);
+	/* only the entries that fit, with a level of 1-4 and a page of the book */
+	n = bk_u32(e);
+	for (i = 0, p = buf; i < n && p + 6 <= buf + size - 4 && p + 6 + p[5] <= buf + size - 4 &&
+			p[4] >= 1 && p[4] <= 4 && bk_u32(p) < b->npages; i++)
+		p += 6 + p[5];
+	*count = i;
 	return buf;
 }

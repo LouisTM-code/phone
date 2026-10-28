@@ -3,7 +3,7 @@
 
 #include "book.h"
 
-/* a book on the shelf: books/index.txt and its state in state/books.txt */
+/* a book on the shelf: books/index.txt and its place in state/<id>.pos */
 typedef struct {
 	char file[72], title[96], author[64], cat[32], id[12];
 	book_anchor_t pos;
@@ -12,7 +12,8 @@ typedef struct {
 enum { ST_NEW, ST_READING, ST_DONE };
 
 /* shelf.c */
-void shelf_save(void);
+/* writes the place of one book: a small file each, a failed write hurts one book */
+void shelf_save(shelf_book_t *k);
 int shelf_stamp(void);
 
 /* reader.c: sets the page area, theme and dictionary */

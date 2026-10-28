@@ -12,7 +12,7 @@
 #define THUMB_W 36
 #define THUMB_H 48
 /* state/ is made by make sdcard: the phone can't create folders */
-#define SHELF_FILE "state/books.txt"
+#define POS_FILE "state/%s.pos"
 #define MAX_BOOKS 200
 #define MAX_CATS 16
 #define ROW_H (THUMB_H + 6)
@@ -28,14 +28,6 @@ static int ncats;
 static int view[MAX_BOOKS], nview;
 enum { F_READING, F_ALL, F_DONE, F_CAT };
 
-static char *field(char **p) {
-	char *s = *p, *t;
-	if (!s) return "";
-	if ((t = strchr(s, '\t'))) *t = 0, *p = t + 1;
-	else *p = NULL;
-	return s;
-}
-
 /* books/index.txt: file, title, author, category, state id */
 static int load_index(void) {
 	char *buf = file_load(INDEX_FILE, NULL), *pos, *line;
@@ -49,11 +41,11 @@ static int load_index(void) {
 		shelf_book_t *k = &books[nbooks];
 		int i;
 		memset(k, 0, sizeof(*k));
-		snprintf(k->file, sizeof(k->file), "%s", field(&line));
-		snprintf(k->title, sizeof(k->title), "%s", field(&line));
-		snprintf(k->author, sizeof(k->author), "%s", field(&line));
-		snprintf(k->cat, sizeof(k->cat), "%s", field(&line));
-		snprintf(k->id, sizeof(k->id), "%s", field(&line));
+		snprintf(k->file, sizeof(k->file), "%s", next_field(&line));
+		snprintf(k->title, sizeof(k->title), "%s", next_field(&line));
+		snprintf(k->author, sizeof(k->author), "%s", next_field(&line));
+		snprintf(k->cat, sizeof(k->cat), "%s", next_field(&line));
+		snprintf(k->id, sizeof(k->id), "%s", next_field(&line));
 		if (!k->file[0] || !k->id[0]) continue;
 		nbooks++;
 		if (!k->cat[0]) continue;
@@ -64,42 +56,39 @@ static int load_index(void) {
 	return 0;
 }
 
-/* state/books.txt: "id<TAB>block<TAB>char<TAB>percent<TAB>status<TAB>stamp" */
+/* state/<id>.pos: "block<TAB>char<TAB>percent<TAB>status<TAB>stamp", one
+   line under a sector long: a cut write leaves the old or the new one */
 static void load_state(void) {
-	char *buf = file_load(SHELF_FILE, NULL), *pos, *line;
-	last_stamp = 0;
-	if (!buf) return;
-	for (pos = buf; (line = next_line(&pos)); ) {
-		char *id = field(&line);
-		int i;
-		for (i = 0; i < nbooks; i++) {
-			shelf_book_t *k = &books[i];
-			if (strcmp(k->id, id)) continue;
-			k->pos.blk = strtoul(field(&line), NULL, 10);
-			k->pos.ch = strtoul(field(&line), NULL, 10);
-			k->percent = atoi(field(&line));
-			k->status = atoi(field(&line));
-			k->stamp = atoi(field(&line));
-			if (k->stamp > last_stamp) last_stamp = k->stamp;
-			break;
-		}
-	}
-	free(buf);
-}
-
-void shelf_save(void) {
-	FILE *fp = fopen(SHELF_FILE, "wb");
 	int i;
 	LOG_T0(t0);
-	if (!fp) return;
+	last_stamp = 0;
 	for (i = 0; i < nbooks; i++) {
 		shelf_book_t *k = &books[i];
-		if (k->status == ST_NEW && !k->stamp) continue;
-		fprintf(fp, "%s\t%u\t%u\t%d\t%d\t%d\n", k->id, (unsigned)k->pos.blk, (unsigned)k->pos.ch,
-				k->percent, k->status, k->stamp);
+		char name[32], *buf, *line;
+		snprintf(name, sizeof(name), POS_FILE, k->id);
+		if (!(buf = file_load(name, NULL))) continue;
+		line = buf;
+		k->pos.blk = strtoul(next_field(&line), NULL, 10);
+		k->pos.ch = strtoul(next_field(&line), NULL, 10);
+		k->percent = atoi(next_field(&line));
+		k->status = atoi(next_field(&line));
+		k->stamp = atoi(next_field(&line));
+		if (k->stamp > last_stamp) last_stamp = k->stamp;
+		free(buf);
 	}
+	LOG_OP(t0, "shelf_load %d", nbooks);
+}
+
+void shelf_save(shelf_book_t *k) {
+	char name[32];
+	FILE *fp;
+	LOG_T0(t0);
+	snprintf(name, sizeof(name), POS_FILE, k->id);
+	if (!(fp = fopen(name, "wb"))) return;
+	fprintf(fp, "%u\t%u\t%d\t%d\t%d\n", (unsigned)k->pos.blk, (unsigned)k->pos.ch,
+			k->percent, k->status, k->stamp);
 	fclose(fp);
-	LOG_OP(t0, "shelf_save %d", nbooks);
+	LOG_OP(t0, "shelf_save %s", k->id);
 }
 
 int shelf_stamp(void) { return ++last_stamp; }
@@ -202,7 +191,7 @@ static void book_menu(shelf_book_t *k) {
 	} else {
 		return;
 	}
-	shelf_save();
+	shelf_save(k);
 }
 
 int reader_main(void) {

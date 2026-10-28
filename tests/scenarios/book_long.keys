@@ -11,3 +11,5 @@ LEFT LEFT shot p100
 #! read 32768
 RSOFT RSOFT shot list
 5 shot resumed
+# out to the menu and back: the shelf reads the place again from state/<id>.pos
+RSOFT RSOFT 1 5 shot reopened

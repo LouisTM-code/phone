@@ -12,14 +12,6 @@ static void path(char *buf, int size, const char *id) {
 	snprintf(buf, size, "state/%s.txt", id);
 }
 
-static char *field(char **p) {
-	char *s = *p, *t;
-	if (!s) return "";
-	if ((t = strchr(s, '\t'))) *t = 0, *p = t + 1;
-	else *p = NULL;
-	return s;
-}
-
 void marks_free(marks_t *m) {
 	int i;
 	for (i = 0; i < m->n; i++) free(m->list[i].text);
@@ -28,17 +20,23 @@ void marks_free(marks_t *m) {
 
 void marks_load(marks_t *m, const char *id) {
 	char name[32], *buf, *pos, *line;
-	m->n = 0;
+	FILE *fp;
+	m->n = m->broken = 0;
 	path(name, sizeof(name), id);
-	if (!(buf = file_load(name, NULL))) return;
-	for (pos = buf; m->n < MAX_MARKS && (line = next_line(&pos)); ) {
+	if (!(buf = file_load(name, NULL))) {
+		/* there but unreadable: saving now would lose the bookmarks */
+		if ((fp = fopen(name, "rb"))) fclose(fp), m->broken = 1;
+		return;
+	}
+	for (pos = buf; (line = next_line(&pos)); ) {
 		mark_t *k = &m->list[m->n];
-		char *kind = field(&line);
+		char *kind = next_field(&line);
 		if (kind[0] != 'b' && kind[0] != 'q') continue;
+		if (m->n == MAX_MARKS) { m->broken = 1; break; }
 		k->kind = kind[0];
-		k->pos.blk = strtoul(field(&line), NULL, 10);
-		k->pos.ch = strtoul(field(&line), NULL, 10);
-		if (!(k->text = malloc(strlen(line ? line : "") + 1))) break;
+		k->pos.blk = strtoul(next_field(&line), NULL, 10);
+		k->pos.ch = strtoul(next_field(&line), NULL, 10);
+		if (!(k->text = malloc(strlen(line ? line : "") + 1))) { m->broken = 1; break; }
 		strcpy(k->text, line ? line : "");
 		m->n++;
 	}
@@ -50,6 +48,7 @@ int marks_save(marks_t *m, const char *id) {
 	FILE *fp;
 	int i;
 	LOG_T0(t0);
+	if (m->broken) return -1;
 	path(name, sizeof(name), id);
 	if (!(fp = fopen(name, "wb"))) return -1;
 	for (i = 0; i < m->n; i++)
