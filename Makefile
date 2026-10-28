@@ -7,13 +7,19 @@ ARM = TOOLCHAIN=$(NDK_BIN)/llvm CC=$(NDK_BIN)/armv7a-linux-androideabi21-clang N
 FP = fpdoom
 SPD = spreadtrum_flash
 DATA = phone-data
-PY = python3
+# python with matplotlib (formulas in books): make venv
+PY = .venv/bin/python3
 # volume label set by sudo/02_format_sd_fat32.sh
 CARD_LABEL ?= BQ3590
 
-.PHONY: all tools apps apps-sd pctest test launcher ports sdboot sdcard update sdtest data run clean
+.PHONY: all venv tools apps apps-sd pctest test testdl testbooks launcher ports sdboot sdcard update sdtest data run clean
 
 all: tools apps apps-sd launcher sdboot
+
+# Python environment for the tools: system packages plus matplotlib.
+venv:
+	python3 -m venv --system-site-packages .venv
+	.venv/bin/pip install matplotlib
 
 # Host USB tools (need libusb-1.0-0-dev) and the flash loader.
 tools:
@@ -37,9 +43,28 @@ apps-sd:
 pctest:
 	$(MAKE) -C $(FP)/apps PCTEST=1 LOG=0 OBJDIR=obj_pc NAME=apps_pc
 
-# Key-script scenarios in the emulator against golden screenshots (tests/run.py).
-test: pctest data
+# Key-script scenarios in the emulator against golden screenshots (tests/run.py),
+# on a card with the test books.
+test: pctest testbooks
 	$(PY) tests/run.py
+
+# Long and real books for the tests (tests/downloads.txt), not in git.
+testdl:
+	mkdir -p dl/books
+	grep -v '^#' tests/downloads.txt | while read name url; do \
+		[ -f dl/books/$$name ] || curl -sSfL -o dl/books/$$name "$$url" || exit 1; \
+	done
+
+# The test card tests/out/card: phone-data plus the test books, checked by
+# tests/test_books.py.
+TESTBOOKS = tests/books/*.md tests/out/gen/*.epub tests/out/gen/*.fb2 tests/out/gen/*.html \
+	$(wildcard dl/books/*)
+testbooks: data
+	rm -rf tests/out/card tests/out/gen
+	cp -r $(DATA) tests/out/card
+	$(PY) tests/make_books.py tests/out/gen
+	$(PY) tools/mkbook.py tests/out/card $(TESTBOOKS)
+	$(PY) tests/test_books.py tests/out/card $(TESTBOOKS)
 
 # Boot launcher (fpbin/fpmain.bin): runs a program by the key held at power on,
 # the table is fpdoom/launcher/config.txt.
