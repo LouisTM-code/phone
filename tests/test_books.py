@@ -84,7 +84,7 @@ def check(path, src):
     for i, (page, level, title) in enumerate(b.toc):
         if page >= b.npages or (i and page < b.toc[i - 1][0]):
             errors.append(f"contents: {title!r} on page {page}")
-    if max(sizes) > MAX_PAGE_BYTES and not b.flags & bf.FLAG_PAN:
+    if max(sizes) > MAX_PAGE_BYTES:
         errors.append(f"page {sizes.index(max(sizes))} has {max(sizes)} bytes")
     # PDF pages are pictures: their text is only for the search
     if src and not src.lower().endswith(".pdf"):

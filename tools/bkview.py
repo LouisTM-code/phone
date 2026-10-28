@@ -54,11 +54,10 @@ def main():
                                         for b in range(s):
                                             put(x + (i + sh) * s + a, y + j * s + b, COLOURS[c])
                         x += 8 * s
-            elif it[0] in ("image", "pan"):
-                iid = it[3] if it[0] == "image" else it[1]
-                x, y = (it[1], it[2]) if it[0] == "image" else (0, 0)
+            elif it[0] == "image":
+                _, x, y, iid = it[:4]
                 w, h, kind, rows = book.image(iid)
-                col = COLOURS[it[5]] if it[0] == "image" else (255, 255, 255)
+                col = COLOURS[it[5]]
                 for j, row in enumerate(rows):
                     for i, p in enumerate(row):
                         if kind == bf.IMG_RGB:

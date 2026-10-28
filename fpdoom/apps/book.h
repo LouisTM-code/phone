@@ -8,10 +8,9 @@
    header is kept in memory; pages and pictures are read from the card when
    drawn. */
 
-enum { BK_END, BK_TEXT, BK_RECT, BK_IMAGE, BK_PAN, BK_SEARCH };
+enum { BK_END, BK_TEXT, BK_RECT, BK_IMAGE, BK_SEARCH };
 #define BK_LINE_HYPHEN 1
 #define BK_LINE_REPEAT 2  /* a repeated table header, not searched */
-#define BK_FLAG_PAN 1
 #define BK_NONE 0xffffffffu
 enum { BK_IMG_RGB = 1, BK_IMG_MASK = 2 };
 /* colours of the items, mapped to the theme by book_pal */
@@ -20,7 +19,7 @@ enum { BC_TEXT, BC_DIM, BC_HEAD, BC_TITLE, BC_CODE, BC_CODE_BG, BC_QUOTE, BC_RUL
 
 typedef struct {
 	FILE *f;
-	unsigned npages, flags, page_w, page_h;
+	unsigned npages, page_w, page_h;
 	uint32_t pages_off, toc_off, images_off, cover;
 	char title[128], author[128];
 	uint8_t *page;         /* the loaded page */

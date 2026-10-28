@@ -4,7 +4,7 @@ The PC lays the book out for the reader's page area; the phone only draws
 the items of a page and reads one page at a time. Little-endian throughout.
 
 Header, 64 bytes:
-  0  "FPBK"   4  u16 version   6  u16 page w   8  u16 page h   10 u16 flags
+  0  "FPBK"   4  u16 version   6  u16 page w   8  u16 page h   10 u16 0
   12 u32 npages                  16 u32 pages_off (npages + 1 entries)
   20 u32 toc_off                 24 u32 images_off
   28 u32 cover image or NONE     32 u32 meta_off
@@ -24,7 +24,6 @@ Page data is a list of items, each starting with a u8 type:
   TEXT  s16 y, u8 flags, u8 nruns, runs: s16 x, u8 style, u8 nbytes, UTF-8
   RECT  s16 x, s16 y, u16 w, u16 h, u8 colour
   IMAGE s16 x, s16 y, u32 image, u32 full image or NONE, u8 colour
-  PAN   u32 image: the page is a picture larger than the screen (PDF)
   SEARCH u16 nbytes, UTF-8: text that is searched but not drawn
   END
 Run style: bits 0-3 STYLE_*, bits 4-7 colour.
@@ -32,14 +31,12 @@ Run style: bits 0-3 STYLE_*, bits 4-7 colour.
 import struct
 
 MAGIC = b"FPBK"
-VERSION = 1
+VERSION = 2
 NONE = 0xFFFFFFFF
 HEADER = struct.Struct("<4sHHHHIIIIII28x")
 PAGE = struct.Struct("<III")
 
-FLAG_PAN = 1  # pages are pictures (PDF)
-
-END, TEXT, RECT, IMAGE, PAN, SEARCH = range(6)
+END, TEXT, RECT, IMAGE, SEARCH = range(5)
 LINE_HYPHEN = 1  # the line ends with an inserted hyphen
 LINE_REPEAT = 2  # a table header repeated on a new page: not searched
 
@@ -111,16 +108,12 @@ def image_item(x, y, image, full, colour):
     return struct.pack("<BhhIIB", IMAGE, x, y, image, full, colour)
 
 
-def pan_item(image):
-    return struct.pack("<BI", PAN, image)
-
-
 def search_item(text):
     b = text.encode("utf-8")[:65535]
     return struct.pack("<BH", SEARCH, len(b)) + b
 
 
-def write(path, page_w, page_h, flags, pages, toc, images, cover, title, author):
+def write(path, page_w, page_h, pages, toc, images, cover, title, author):
     """pages: list of (anchor_block, anchor_char, data bytes without END).
     toc: (page, level, title). images: blobs."""
     body = bytearray()
@@ -157,7 +150,7 @@ def write(path, page_w, page_h, flags, pages, toc, images, cover, title, author)
     meta_off = ipos + len(blobs)
     mb = f"{title}\n{author}".encode("utf-8")
     meta = struct.pack("<H", len(mb)) + mb
-    head = HEADER.pack(MAGIC, VERSION, page_w, page_h, flags, len(pages), pages_off,
+    head = HEADER.pack(MAGIC, VERSION, page_w, page_h, 0, len(pages), pages_off,
                        toc_off, images_off, cover, meta_off)
     with open(path, "wb") as f:
         f.write(head + body + tab + tocb + imgtab + blobs + meta)
@@ -168,7 +161,7 @@ class Book:
 
     def __init__(self, path):
         self.data = d = open(path, "rb").read()
-        (magic, self.version, self.page_w, self.page_h, self.flags, self.npages,
+        (magic, self.version, self.page_w, self.page_h, _, self.npages,
          pages_off, toc_off, images_off, self.cover, meta_off) = HEADER.unpack_from(d)
         assert magic == MAGIC, path
         self.pages = [PAGE.unpack_from(d, pages_off + i * PAGE.size) for i in range(self.npages + 1)]
@@ -208,9 +201,6 @@ class Book:
             elif t == IMAGE:
                 out.append(("image",) + struct.unpack_from("<hhIIB", d, p))
                 p += 13
-            elif t == PAN:
-                out.append(("pan",) + struct.unpack_from("<I", d, p))
-                p += 4
             elif t == SEARCH:
                 nb, = struct.unpack_from("<H", d, p)
                 out.append(("search", d[p + 2:p + 2 + nb].decode("utf-8")))

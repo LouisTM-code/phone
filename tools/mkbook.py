@@ -10,8 +10,7 @@ long names).
 
 The text is laid out here for the phone's page area and font, so the phone
 only draws prepared lines. PDF pages are reflowed by k2pdfopt into
-screen-size pictures (CONF "k2pdfopt"), or else become pictures the phone
-pans over.
+screen-size pictures.
 """
 import hashlib
 import io
@@ -47,11 +46,9 @@ CONF = {
     "list_indent": 16, "quote_indent": 12,
     "full_image_max": 960,   # pictures opened full screen are at most this size
     "thumb": (36, 48),       # cover on the shelf
-    # PDF: reflowed by k2pdfopt into page-size pictures; "" pans over whole
-    # pages pdf_width wide instead (two screens)
+    # PDF: k2pdfopt reflows the pages into page-size pictures
     "k2pdfopt": os.path.join(os.path.dirname(TOOLS), "dl/k2pdfopt"),
     "k2pdfopt_args": ["-dpi", "100", "-j", "0", "-c", "-bpc", "8"],
-    "pdf_width": 464,
     "font": os.path.join(TOOLS, "fonts/Uni3-Terminus16.psf.gz"),
     "font_bold": os.path.join(TOOLS, "fonts/Uni3-TerminusBold16.psf.gz"),
 }
@@ -873,7 +870,7 @@ def pdf_thumb(img, images):
     return images.add(bg, bf.IMG_RGB)
 
 
-def build_pdf_reflow(path, images, report):
+def build_pdf(path, images, report):
     """k2pdfopt cuts the text lines, formulas and figures out of the pages and
     lays them out again into pages of the reader's size: no panning. A page's
     text for the search goes with the first new page made from it."""
@@ -911,30 +908,6 @@ def build_pdf_reflow(path, images, report):
     return meta, [tuple(p) for p in pages], toc, thumb
 
 
-def build_pdf(path, images, report):
-    pw = CONF["pdf_width"]
-    meta, npages, texts = pdf_info(path)
-    lay = Layout(images, report)
-    pages = []
-    cover = None
-    for i in range(npages):
-        out = subprocess.run(["pdftoppm", "-f", str(i + 1), "-l", str(i + 1), "-scale-to-x", str(pw * 2),
-                              "-scale-to-y", "-1", "-png", path], capture_output=True).stdout
-        img = Image.open(io.BytesIO(out)).convert("RGB")
-        box = ImageChops.difference(img, Image.new("RGB", img.size, (255, 255, 255))).getbbox()
-        if box:
-            m = 8
-            img = img.crop((max(0, box[0] - m), max(0, box[1] - m), min(img.width, box[2] + m),
-                            min(img.height, box[3] + m)))
-        img = img.resize((pw, max(1, round(img.height * pw / img.width))), Image.LANCZOS)
-        if i == 0:
-            cover = img
-        iid = images.add(img, bf.IMG_RGB)
-        data = bf.pan_item(iid) + bf.search_item(lay.clean(" ".join(texts[i].split())))
-        pages.append((i, 0, data))
-    return meta, pages, pdf_outline(path), pdf_thumb(cover, images)
-
-
 def pdf_outline(path):
     """The PDF bookmarks as (page, level, title), via pdftohtml -xml."""
     try:
@@ -965,12 +938,7 @@ def build(src, dst):
     images = Images()
     report = {"missing": {}, "bad_tex": [], "bad_images": 0, "wide_tables": 0, "def_lists": 0}
     if src.lower().endswith(".pdf"):
-        if CONF["k2pdfopt"]:
-            meta, pages, toc, thumb = build_pdf_reflow(src, images, report)
-            flags = 0
-        else:
-            meta, pages, toc, thumb = build_pdf(src, images, report)
-            flags = bf.FLAG_PAN
+        meta, pages, toc, thumb = build_pdf(src, images, report)
     else:
         meta, blocks = bookparse.read(src)
         lay = Layout(images, report)
@@ -981,13 +949,12 @@ def build(src, dst):
         raw, tocs = paginate(boxes)
         pages = [(a[0], a[1], d) for a, d in (encode_page(p) for p in raw)]
         toc = [(p, lvl, t) for p, (lvl, t) in tocs]
-        flags = 0
     if not pages:
         pages = [(0, 0, b"")]
     title = meta.get("title") or os.path.splitext(os.path.basename(src))[0].replace("_", " ")
     title = Layout(images, report).clean(" ".join(title.split()))[:120]
     author = Layout(images, report).clean(" ".join((meta.get("author") or "").split()))[:120]
-    bf.write(dst, CONF["page_w"], CONF["page_h"], flags, pages, toc, images.blobs, thumb, title, author)
+    bf.write(dst, CONF["page_w"], CONF["page_h"], pages, toc, images.blobs, thumb, title, author)
     return title, author, len(pages), report
 
 

@@ -17,11 +17,10 @@ int book_open(book_t *b, const char *path) {
 	char *nl;
 	memset(b, 0, sizeof(*b));
 	if (!(b->f = fopen(path, "rb"))) return -1;
-	if (fread(h, 1, 64, b->f) != 64 || memcmp(h, "FPBK", 4) || bk_u16(h + 4) != 1)
+	if (fread(h, 1, 64, b->f) != 64 || memcmp(h, "FPBK", 4) || bk_u16(h + 4) != 2)
 		goto err;
 	b->page_w = bk_u16(h + 6);
 	b->page_h = bk_u16(h + 8);
-	b->flags = bk_u16(h + 10);
 	b->npages = bk_u32(h + 12);
 	b->pages_off = bk_u32(h + 16);
 	b->toc_off = bk_u32(h + 20);
@@ -103,7 +102,6 @@ int book_item(const uint8_t **pp, const uint8_t *end) {
 		break;
 	case BK_RECT: p += 9; break;
 	case BK_IMAGE: p += 13; break;
-	case BK_PAN: p += 4; break;
 	case BK_SEARCH: p += 2 + bk_u16(p); break;
 	default: t = BK_END;
 	}

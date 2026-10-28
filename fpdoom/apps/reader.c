@@ -112,14 +112,6 @@ static void collect_words(book_t *b) {
 	}
 }
 
-/* PDF: the page is a picture larger than the screen, the view moves over it */
-static uint32_t pan_image(book_t *b) {
-	const uint8_t *p = b->page, *end = p + b->page_size, *it;
-	while (it = p, book_item(&p, end) != BK_END)
-		if (*it == BK_PAN) return bk_u32(it + 1);
-	return BK_NONE;
-}
-
 static void frame(int x, int y, int w, int h, uint16_t c) {
 	fill_rect(x, y, w, 2, c);
 	fill_rect(x, y + h - 2, w, 2, c);
@@ -229,37 +221,6 @@ static void book_progress(shelf_book_t *k, book_t *b, int page) {
 	else if (k->status == ST_NEW) k->status = ST_READING;
 }
 
-/* PDF pages: RIGHT moves the view right, then to the next row and the next
-   page, like reading; LEFT goes back the same way, UP and DOWN scroll.
-   Returns the new page; *x, *y = -1 mean the end of the page. */
-static int pan_key(book_t *b, int key, int page, int *x, int *y) {
-	int w = 0, h = 0, vw = scr_w, vh = scr_h - UI_BAR_H, mx, my, step = 24;
-	uint32_t id = pan_image(b);
-	if (id != BK_NONE) book_image_size(b, id, &w, &h);
-	mx = w > vw ? w - vw : 0;
-	my = h > vh ? h - vh : 0;
-	if (key == KEYPAD_RIGHT || key == KEYPAD_6) {
-		if (*x < mx) *x = *x + vw - step < mx ? *x + vw - step : mx;
-		else if (*y < my) { *x = 0; *y = *y + vh - step < my ? *y + vh - step : my; }
-		else if (page + 1 < (int)b->npages) { page++; *x = *y = 0; }
-	} else if (key == KEYPAD_LEFT || key == KEYPAD_4) {
-		if (*x > 0) *x = *x - (vw - step) > 0 ? *x - (vw - step) : 0;
-		else if (*y > 0) { *x = mx; *y = *y - (vh - step) > 0 ? *y - (vh - step) : 0; }
-		else if (page) { page--; *x = *y = -1; }
-	} else if (key == KEYPAD_DOWN || key == KEYPAD_8) {
-		*y = *y + vh / 2 < my ? *y + vh / 2 : my;
-	} else if (key == KEYPAD_UP || key == KEYPAD_2) {
-		*y = *y > vh / 2 ? *y - vh / 2 : 0;
-	} else if (key == KEYPAD_3) {
-		page = page + 10 < (int)b->npages ? page + 10 : (int)b->npages - 1;
-		*x = *y = 0;
-	} else if (key == KEYPAD_1) {
-		page = page > 10 ? page - 10 : 0;
-		*x = *y = 0;
-	}
-	return page;
-}
-
 /* ---- searchable text of the loaded page */
 
 #define TEXT_MAX 6144
@@ -328,7 +289,7 @@ static void lower(char *s, int n) {
 typedef struct {
 	book_t b;
 	shelf_book_t *k;
-	int page, sel, qsel, pan_x, pan_y;
+	int page, sel, qsel;
 	char query[64];
 	int found_page, found_end;  /* the last match: page and its end in the page text */
 } reading_t;
@@ -377,13 +338,7 @@ static void draw_page(reading_t *r) {
 	book_t *b = &r->b;
 	int sel = r->sel;
 	fill_rect(0, UI_BAR_H, scr_w, scr_h - UI_BAR_H, book_bg);
-	if (b->flags & BK_FLAG_PAN) {
-		uint32_t id = pan_image(b);
-		if (id != BK_NONE)
-			book_image(b, id, 0, UI_BAR_H, r->pan_x, r->pan_y, scr_w, scr_h - UI_BAR_H, 0, 1);
-	} else {
-		book_draw(b, page_x, page_y);
-	}
+	book_draw(b, page_x, page_y);
 	if (r->qsel >= 0) {
 		int i, a = r->qsel < sel ? r->qsel : sel, e = r->qsel < sel ? sel : r->qsel;
 		for (i = a; i <= e; i++)
@@ -467,7 +422,6 @@ static int search(reading_t *r, int from, int pos) {
 			r->found_page = p;
 			r->found_end = i + qn;
 			r->sel = -1;
-			r->pan_x = r->pan_y = 0;
 			if (poff[i] != NO_OFF) {
 				int w;
 				collect_words(b);
@@ -530,7 +484,6 @@ static int show_toc(reading_t *r) {
 		for (i = 0, p = toc; (int)i < sel; i++) p += 6 + p[5];
 		r->page = bk_u32(p);
 		r->sel = -1;
-		r->pan_x = r->pan_y = 0;
 	}
 	free(toc); free(items); free(names);
 	return sel == -2 ? -1 : 0;
@@ -560,7 +513,6 @@ static int show_marks(reading_t *r) {
 			if (a == 0) {
 				r->page = book_find(&r->b, marks.list[sel].pos);
 				r->sel = -1;
-				r->pan_x = r->pan_y = 0;
 				return 0;
 			}
 			if (a == 1) {
@@ -596,7 +548,6 @@ static int reader_menu(reading_t *r) {
 		if (p > 0) {
 			r->page = p - 1;
 			r->sel = -1;
-			r->pan_x = r->pan_y = 0;
 		}
 	} else if (a == 2) {
 		int len = ui_input("Поиск", r->query, sizeof(r->query));
@@ -654,12 +605,6 @@ int read_book(shelf_book_t *k) {
 		if (r->sel >= MAX_PAGE_WORDS) r->sel = nwords - 1;
 		if (r->sel >= nwords) r->sel = nwords ? 0 : -1;
 		if (r->qsel >= nwords) r->qsel = -1;
-		if (r->pan_x < 0) {  /* came back from the next page: show its end */
-			int w = 0, h = 0;
-			if (pan_image(b) != BK_NONE) book_image_size(b, pan_image(b), &w, &h);
-			r->pan_x = w > (int)scr_w ? w - (int)scr_w : 0;
-			r->pan_y = h > (int)scr_h - UI_BAR_H ? h - ((int)scr_h - UI_BAR_H) : 0;
-		}
 		draw_page(r);
 		LOG_SLOW(tp, LOG_SLOW_MS, "page %d", r->page);
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
@@ -676,14 +621,6 @@ int read_book(shelf_book_t *k) {
 			if (search_next(r, r->page, r->found_page == r->page ? r->found_end : 0) < 0) {
 				ret = -1;
 				break;
-			}
-		} else if (b->flags & BK_FLAG_PAN) {
-			if (key == KEYPAD_RSOFT) break;
-			if (key == KEYPAD_STAR) toggle_bookmark(r);
-			else if (key == KEYPAD_CENTER || key == KEYPAD_5) {
-				if (pan_image(b) != BK_NONE && view_image(b, pan_image(b)) < 0) { ret = -1; break; }
-			} else {
-				r->page = pan_key(b, key, r->page, &r->pan_x, &r->pan_y);
 			}
 		} else if (r->sel < 0) {
 			if (key == KEYPAD_RIGHT || key == KEYPAD_6 || key == KEYPAD_DOWN || key == KEYPAD_8) {
