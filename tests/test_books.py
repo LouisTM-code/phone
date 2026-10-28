@@ -19,6 +19,7 @@ import bookparse  # noqa: E402
 import mkbook  # noqa: E402
 
 MAX_PAGE_BYTES = 8192
+TEXT_MAX = 6144
 
 
 def letters(s):
@@ -83,6 +84,9 @@ def check(path, src):
                 if x < 0 or y < 0 or x + w > pw or y + h > ph:
                     errors.append(f"page {n}: image {iid} {w}x{h} outside the page at {x},{y}")
         text.append(b.page_text(n))
+        # the phone searches a page's text in a buffer of TEXT_MAX bytes (reader.c)
+        if len(text[-1].encode("utf-8")) >= TEXT_MAX:
+            errors.append(f"page {n}: {len(text[-1].encode())} bytes of text, the phone searches {TEXT_MAX}")
     for i, (page, level, title) in enumerate(b.toc):
         if page >= b.npages or (i and page < b.toc[i - 1][0]):
             errors.append(f"contents: {title!r} on page {page}")

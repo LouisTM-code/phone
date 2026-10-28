@@ -109,7 +109,7 @@ def image_item(x, y, image, full, colour):
 
 
 def search_item(text):
-    b = text.encode("utf-8")[:65535]
+    b = text.encode("utf-8")[:65535].decode("utf-8", "ignore").encode("utf-8")
     return struct.pack("<BH", SEARCH, len(b)) + b
 
 

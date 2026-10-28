@@ -52,7 +52,8 @@ CONF = {
     "title_max": 96, "author_max": 64, "cat_max": 32,
     # PDF: k2pdfopt reflows the pages into page-size pictures
     "k2pdfopt": os.path.join(os.path.dirname(TOOLS), "dl/k2pdfopt"),
-    "k2pdfopt_args": ["-dpi", "100", "-j", "0", "-c", "-bpc", "8"],
+    "k2pdfopt_dpi": 100,     # the size of the text: more is larger
+    "k2pdfopt_args": ["-j", "0", "-c", "-bpc", "8"],
     "font": os.path.join(TOOLS, "fonts/Uni3-Terminus16.psf.gz"),
     "font_bold": os.path.join(TOOLS, "fonts/Uni3-TerminusBold16.psf.gz"),
 }
@@ -895,7 +896,9 @@ def pdf_thumb(img, images):
 def build_pdf(path, images, report):
     """k2pdfopt cuts the text lines, formulas and figures out of the pages and
     lays them out again into pages of the reader's size: no panning. A page's
-    text for the search goes with the first new page made from it."""
+    text for the search is shared out between the new pages made from it. The
+    anchor of a new page is (page of the PDF, new page in it): a place survives
+    other k2pdfopt settings."""
     pw, ph = CONF["page_w"], CONF["page_h"]
     if not os.access(CONF["k2pdfopt"], os.X_OK):
         sys.exit(f"{path}: no k2pdfopt at {CONF['k2pdfopt']} (README.md, books)")
@@ -903,26 +906,34 @@ def build_pdf(path, images, report):
     lay = Layout(images, report)
     with tempfile.TemporaryDirectory() as tmp:
         out = os.path.join(tmp, "out.pdf")
-        r = subprocess.run([CONF["k2pdfopt"], "-ui-", "-a-", "-x", "-y", "-bp", "-w", str(pw), "-h", str(ph)]
-                           + CONF["k2pdfopt_args"] + ["-o", out, path], capture_output=True, text=True)
+        r = subprocess.run([CONF["k2pdfopt"], "-ui-", "-a-", "-x", "-y", "-bp", "-w", str(pw), "-h", str(ph),
+                            "-dpi", str(CONF["k2pdfopt_dpi"])] + CONF["k2pdfopt_args"] + ["-o", out, path], capture_output=True, text=True)
         # "SOURCE PAGE 3 of 15 (...) ... 5 pages saved": new pages per page
         counts = [int(n) for n in re.findall(r"^SOURCE PAGE.*?(\d+) pages? saved", r.stdout, re.M)]
         if r.returncode or not os.path.exists(out) or len(counts) != npages:
             sys.exit(f"{path}: k2pdfopt failed\n{r.stdout[-500:]}{r.stderr[-500:]}")
-        subprocess.run(["pdftoppm", "-r", CONF["k2pdfopt_args"][1], "-png", out, os.path.join(tmp, "p")],
+        subprocess.run(["pdftoppm", "-r", str(CONF["k2pdfopt_dpi"]), "-png", out, os.path.join(tmp, "p")],
                        check=True, capture_output=True)
         files = sorted(f for f in os.listdir(tmp) if f.endswith(".png"))
+        if len(files) != sum(counts):
+            sys.exit(f"{path}: k2pdfopt made {len(files)} pages, reported {sum(counts)}")
         pages = []
-        for i, f in enumerate(files):
-            img = Image.open(os.path.join(tmp, f)).convert("RGB")
-            img = img.resize(fit(img.width, img.height, pw, ph), Image.LANCZOS)
-            data = bf.image_item((pw - img.width) // 2, 0, images.add(img, bf.IMG_RGB), bf.NONE, bf.C_TEXT)
-            pages.append([i, 0, data])
-        first = []
         for i, n in enumerate(counts):
-            p = min(sum(counts[:i]), len(pages) - 1)
-            first.append(p)
-            pages[p][2] += bf.search_item(lay.clean(" ".join(texts[i].split())))
+            for j in range(n):
+                img = Image.open(os.path.join(tmp, files[len(pages)])).convert("RGB")
+                img = img.resize(fit(img.width, img.height, pw, ph), Image.LANCZOS)
+                pages.append([i, j, bf.image_item((pw - img.width) // 2, 0, images.add(img, bf.IMG_RGB),
+                                                  bf.NONE, bf.C_TEXT)])
+        first, p = [], 0
+        for i, n in enumerate(counts):
+            first.append(min(p, len(pages) - 1))
+            words = lay.clean(" ".join(texts[i].split())).split()
+            k = max(n, 1)  # a page that made no new page: its text goes to the nearest one
+            for j in range(k):
+                chunk = " ".join(words[len(words) * j // k:len(words) * (j + 1) // k])
+                if chunk:
+                    pages[min(p + j, len(pages) - 1)][2] += bf.search_item(chunk)
+            p += n
         cover = subprocess.run(["pdftoppm", "-f", "1", "-l", "1", "-scale-to-x", str(pw), "-scale-to-y", "-1",
                                 "-png", path], capture_output=True).stdout
     toc = [(first[p], lvl, t) for p, lvl, t in pdf_outline(path) if p < npages]
