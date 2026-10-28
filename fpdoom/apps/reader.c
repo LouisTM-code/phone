@@ -31,11 +31,12 @@ static int nbooks, last_stamp;
 
 static int page_x, page_y, page_w, page_h;
 
-/* words on the current page */
+/* words and pictures on the current page, in reading order */
 typedef struct {
-	int16_t x, y;
+	int16_t x, y, w, h;
 	uint16_t off, len;   /* bytes in the page */
 	uint8_t chars, style, hyphen;
+	uint32_t img;        /* a picture: the one shown full screen, else BK_NONE */
 } word_t;
 static word_t words[MAX_PAGE_WORDS];
 static int nwords;
@@ -129,6 +130,20 @@ static void collect_words(book_t *b) {
 	nwords = 0;
 	while (it = p, (t = book_item(&p, end)) != BK_END) {
 		int y, flags, n, last = -1;
+		if (t == BK_IMAGE && nwords < MAX_PAGE_WORDS) {
+			word_t *w = &words[nwords];
+			int iw, ih;
+			uint32_t full = bk_u32(it + 9);
+			if (book_image_size(b, bk_u32(it + 5), &iw, &ih)) continue;
+			memset(w, 0, sizeof(*w));
+			w->x = bk_s16(it + 1);
+			w->y = bk_s16(it + 3);
+			w->w = iw;
+			w->h = ih;
+			w->img = full != BK_NONE ? full : bk_u32(it + 5);
+			nwords++;
+			continue;
+		}
 		if (t != BK_TEXT) continue;
 		y = bk_s16(it + 1);
 		flags = it[3];
@@ -149,6 +164,7 @@ static void collect_words(book_t *b) {
 					w->style = st;
 					w->chars = 0;
 					w->hyphen = 0;
+					w->img = BK_NONE;
 					while (k < len) {
 						c = utf8_at(s + k, &l);
 						if (!is_letter(c)) {
@@ -161,6 +177,8 @@ static void collect_words(book_t *b) {
 						w->chars++;
 					}
 					w->len = s + k - b->page - w->off;
+					w->w = w->chars * cw;
+					w->h = FONT_H * (cw / FONT_W);
 					last = nwords - 1;
 				} else {
 					k += l;
@@ -187,25 +205,82 @@ static void draw_status(book_t *b, int page) {
 	fill_rect(0, UI_BAR_H - 2, scr_w * (page + 1) / b->npages, 2, UI_ACCENT);
 }
 
-static void draw_page(book_t *b, int page, int sel) {
+/* PDF: the page is a picture larger than the screen, the view moves over it */
+static uint32_t pan_image(book_t *b) {
+	const uint8_t *p = b->page, *end = p + b->page_size, *it;
+	while (it = p, book_item(&p, end) != BK_END)
+		if (*it == BK_PAN) return bk_u32(it + 1);
+	return BK_NONE;
+}
+
+static void frame(int x, int y, int w, int h, uint16_t c) {
+	fill_rect(x, y, w, 2, c);
+	fill_rect(x, y + h - 2, w, 2, c);
+	fill_rect(x, y, 2, h, c);
+	fill_rect(x + w - 2, y, 2, h, c);
+}
+
+static void draw_page(book_t *b, int page, int sel, int pan_x, int pan_y) {
 	fill_rect(0, UI_BAR_H, scr_w, scr_h - UI_BAR_H, book_bg);
 	if (b->flags & BK_FLAG_PAN) {
-		const uint8_t *p = b->page, *end = p + b->page_size, *it;
-		int t;
-		while (it = p, (t = book_item(&p, end)) != BK_END)
-			if (t == BK_PAN) book_image(b, bk_u32(it + 1), 0, UI_BAR_H, 0, 0, scr_w, scr_h - UI_BAR_H, 0);
+		uint32_t id = pan_image(b);
+		if (id != BK_NONE)
+			book_image(b, id, 0, UI_BAR_H, pan_x, pan_y, scr_w, scr_h - UI_BAR_H, 0, 1);
 	} else {
 		book_draw(b, page_x, page_y);
 	}
 	if (sel >= 0 && sel < nwords) {
 		word_t *w = &words[sel];
-		int s = w->style & TEXT_BIG ? 2 : 1;
-		fill_rect(page_x + w->x - 1, page_y + w->y - 1, w->chars * FONT_W * s + 2, FONT_H * s + 2, UI_SEL);
-		draw_text_style(page_x + w->x, page_y + w->y, w->style & 7,
-				(const char*)b->page + w->off, w->len, UI_TEXT);
+		if (w->img != BK_NONE) {
+			frame(page_x + w->x - 2, page_y + w->y - 2, w->w + 4, w->h + 4, UI_SEL);
+		} else {
+			fill_rect(page_x + w->x - 1, page_y + w->y - 1, w->w + 2, w->h + 2, UI_SEL);
+			draw_text_style(page_x + w->x, page_y + w->y, w->style & 7,
+					(const char*)b->page + w->off, w->len, UI_TEXT);
+		}
 	}
 	draw_status(b, page);
 	gfx_present();
+}
+
+/* a picture full screen: arrows move it, 5 changes the scale x1, x2, 1/2,
+   RSOFT closes */
+static int view_image(book_t *b, uint32_t id) {
+	static const int zooms[] = { 1, 2, -2 };
+	static const char *const names[] = { "", "  x2", "  1/2" };
+	int w, h, x = 0, y = 0, z = 0;
+	if (book_image_size(b, id, &w, &h)) return 0;
+	for (;;) {
+		int zoom = zooms[z], k = zoom > 0 ? zoom : 1, q = zoom < 0 ? -zoom : 1;
+		int vw = scr_w, vh = scr_h - UI_BAR_H * 2, zw = w * k / q, zh = h * k / q, key;
+		int dx = zw < vw ? (vw - zw) / 2 : 0, dy = zh < vh ? (vh - zh) / 2 : 0;
+		char title[48];
+		if (x > zw - vw) x = zw - vw;
+		if (y > zh - vh) y = zh - vh;
+		if (x < 0) x = 0;
+		if (y < 0) y = 0;
+		snprintf(title, sizeof(title), "Картинка %dx%d%s", w, h, names[z]);
+		ui_header(title);
+		fill_rect(0, UI_BAR_H, scr_w, vh, book_bg);
+		book_image(b, id, dx, UI_BAR_H + dy, x * q / k, y * q / k, vw * q / k + 1, vh * q / k + 1,
+				book_pal[BC_TEXT], zoom);
+		ui_footer("5 масштаб  <> двигать  П-назад");
+		gfx_present();
+		key = wait_key();
+		if (key < 0) return -1;
+		if (key == KEYPAD_RSOFT) return 0;
+		if (key == KEYPAD_RIGHT || key == KEYPAD_6) x += vw / 2;
+		else if (key == KEYPAD_LEFT || key == KEYPAD_4) x -= vw / 2;
+		else if (key == KEYPAD_DOWN || key == KEYPAD_8) y += vh / 2;
+		else if (key == KEYPAD_UP || key == KEYPAD_2) y -= vh / 2;
+		else if (key == KEYPAD_CENTER || key == KEYPAD_5) {
+			/* keep the middle of the view in place */
+			int z2 = (z + 1) % 3, k2 = zooms[z2] > 0 ? zooms[z2] : 1, q2 = zooms[z2] < 0 ? -zooms[z2] : 1;
+			x = (x + vw / 2) * q / k * k2 / q2 - vw / 2;
+			y = (y + vh / 2) * q / k * k2 / q2 - vh / 2;
+			z = z2;
+		}
+	}
 }
 
 /* the nearest word on the next line up or down */
@@ -229,11 +304,12 @@ static int lookup_word(book_t *b, int sel) {
 	char word[64], base[64], title[200];
 	word_t *w = &words[sel];
 	int len = w->len, i;
+	if (w->img != BK_NONE) return view_image(b, w->img);
 	if (len > 40) len = 40;
 	memcpy(word, b->page + w->off, len);
 	word[len] = 0;
 	/* a word broken with a hyphen goes on at the start of the next line */
-	if (w->hyphen && sel + 1 < nwords) {
+	if (w->hyphen && sel + 1 < nwords && words[sel + 1].img == BK_NONE) {
 		int l2 = words[sel + 1].len;
 		if (l2 > 62 - len) l2 = 62 - len;
 		memcpy(word + len, b->page + words[sel + 1].off, l2);
@@ -267,9 +343,40 @@ static void book_progress(shelf_book_t *k, book_t *b, int page) {
 	else if (k->status == ST_NEW) k->status = ST_READING;
 }
 
+/* PDF pages: RIGHT moves the view right, then to the next row and the next
+   page, like reading; LEFT goes back the same way, UP and DOWN scroll.
+   Returns the new page; *x, *y = -1 mean the end of the page. */
+static int pan_key(book_t *b, int key, int page, int *x, int *y) {
+	int w = 0, h = 0, vw = scr_w, vh = scr_h - UI_BAR_H, mx, my, step = 24;
+	uint32_t id = pan_image(b);
+	if (id != BK_NONE) book_image_size(b, id, &w, &h);
+	mx = w > vw ? w - vw : 0;
+	my = h > vh ? h - vh : 0;
+	if (key == KEYPAD_RIGHT || key == KEYPAD_6) {
+		if (*x < mx) *x = *x + vw - step < mx ? *x + vw - step : mx;
+		else if (*y < my) { *x = 0; *y = *y + vh - step < my ? *y + vh - step : my; }
+		else if (page + 1 < (int)b->npages) { page++; *x = *y = 0; }
+	} else if (key == KEYPAD_LEFT || key == KEYPAD_4) {
+		if (*x > 0) *x = *x - (vw - step) > 0 ? *x - (vw - step) : 0;
+		else if (*y > 0) { *x = mx; *y = *y - (vh - step) > 0 ? *y - (vh - step) : 0; }
+		else if (page) { page--; *x = *y = -1; }
+	} else if (key == KEYPAD_DOWN || key == KEYPAD_8) {
+		*y = *y + vh / 2 < my ? *y + vh / 2 : my;
+	} else if (key == KEYPAD_UP || key == KEYPAD_2) {
+		*y = *y > vh / 2 ? *y - vh / 2 : 0;
+	} else if (key == KEYPAD_3) {
+		page = page + 10 < (int)b->npages ? page + 10 : (int)b->npages - 1;
+		*x = *y = 0;
+	} else if (key == KEYPAD_1) {
+		page = page > 10 ? page - 10 : 0;
+		*x = *y = 0;
+	}
+	return page;
+}
+
 static int read_book(shelf_book_t *k) {
 	book_t bk, *b = &bk;
-	int page, sel = -1, ret = 0, dirty = 0;
+	int page, sel = -1, ret = 0, dirty = 0, pan_x = 0, pan_y = 0;
 	LOG_T0(t0);
 
 	if (book_open(b, k->file) < 0) return ui_message("Книги", "Не удалось открыть книгу.");
@@ -292,7 +399,13 @@ static int read_book(shelf_book_t *k) {
 		collect_words(b);
 		if (sel >= MAX_PAGE_WORDS) sel = nwords - 1;
 		if (sel >= nwords) sel = nwords ? 0 : -1;
-		draw_page(b, page, sel);
+		if (pan_x < 0) {  /* came back from the next page: show its end */
+			int w = 0, h = 0;
+			if (pan_image(b) != BK_NONE) book_image_size(b, pan_image(b), &w, &h);
+			pan_x = w > (int)scr_w ? w - (int)scr_w : 0;
+			pan_y = h > (int)scr_h - UI_BAR_H ? h - ((int)scr_h - UI_BAR_H) : 0;
+		}
+		draw_page(b, page, sel, pan_x, pan_y);
 		key = wait_key_ms(dirty ? SAVE_IDLE_MS : -1);
 		if (key < 0) { ret = -1; break; }
 		if (!key) {
@@ -300,7 +413,14 @@ static int read_book(shelf_book_t *k) {
 			dirty = 0;
 			continue;
 		}
-		if (sel < 0) {
+		if (b->flags & BK_FLAG_PAN) {
+			if (key == KEYPAD_RSOFT) break;
+			if (key == KEYPAD_CENTER || key == KEYPAD_5) {
+				if (pan_image(b) != BK_NONE && view_image(b, pan_image(b)) < 0) { ret = -1; break; }
+			} else {
+				page = pan_key(b, key, page, &pan_x, &pan_y);
+			}
+		} else if (sel < 0) {
 			if (key == KEYPAD_RIGHT || key == KEYPAD_6 || key == KEYPAD_DOWN || key == KEYPAD_8) {
 				if (page + 1 < (int)b->npages) page++;
 			} else if (key == KEYPAD_LEFT || key == KEYPAD_4 || key == KEYPAD_UP || key == KEYPAD_2) {

@@ -133,7 +133,7 @@ void book_draw(book_t *b, int x, int y) {
 			uint32_t id = bk_u32(it + 4);
 			if (!book_image_size(b, id, &w, &h))
 				book_image(b, id, x + bk_s16(it), y + bk_s16(it + 2), 0, 0, w, h,
-						book_pal[it[12] < BC_COUNT ? it[12] : 0]);
+						book_pal[it[12] < BC_COUNT ? it[12] : 0], 1);
 		}
 	}
 }
@@ -164,23 +164,35 @@ static uint16_t blend(uint16_t bg, uint16_t fg, unsigned a) {
 	return r << 11 | g << 5 | bl;
 }
 
-void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int h, uint16_t c) {
+static void put(int x, int y, int zoom, unsigned v, int kind, uint16_t c) {
+	uint16_t *d = framebuf + y * scr_w + x;
+	if (kind != BK_IMG_RGB) {
+		if (!v) return;
+		v = v >= 15 ? c : blend(*d, c, v);
+	}
+	d[0] = v;
+	if (zoom == 2) d[1] = d[scr_w] = d[scr_w + 1] = v;
+}
+
+void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int h,
+		uint16_t c, int zoom) {
 	uint8_t head[8], *rows = NULL, *buf = NULL;
 	uint32_t off;
-	int iw, ih, kind, j, maxrow = 0;
+	int iw, ih, kind, j, maxrow = 0, k = zoom > 1 ? zoom : 1, q = zoom < -1 ? -zoom : 1;
 	if (!(off = image_blob(b, id, head))) return;
 	iw = bk_u16(head);
 	ih = bk_u16(head + 2);
 	kind = head[4];
-	/* clip to the picture and the screen */
-	if (sx < 0) { w += sx; x -= sx; sx = 0; }
-	if (sy < 0) { h += sy; y -= sy; sy = 0; }
+	/* clip to the picture, then to the screen; w, h are in picture pixels,
+	   drawn k times larger or q times smaller */
+	if (sx < 0) { x -= sx * k / q; w += sx; sx = 0; }
+	if (sy < 0) { y -= sy * k / q; h += sy; sy = 0; }
 	if (sx + w > iw) w = iw - sx;
 	if (sy + h > ih) h = ih - sy;
-	if (x < 0) { w += x; sx -= x; x = 0; }
-	if (y < 0) { h += y; sy -= y; y = 0; }
-	if (x + w > (int)scr_w) w = scr_w - x;
-	if (y + h > (int)scr_h) h = scr_h - y;
+	if (x < 0) { int d = (-x * q + k - 1) / k; sx += d; w -= d; x += d * k / q; }
+	if (y < 0) { int d = (-y * q + k - 1) / k; sy += d; h -= d; y += d * k / q; }
+	if (x + w * k / q > (int)scr_w) w = ((int)scr_w - x) * q / k;
+	if (y + h * k / q > (int)scr_h) h = ((int)scr_h - y) * q / k;
 	if (w <= 0 || h <= 0) return;
 	rows = malloc((h + 1) * 4);
 	if (!rows || read_at(b, off + 8 + sy * 4, rows, (h + 1) * 4)) goto end;
@@ -191,21 +203,21 @@ void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int
 	if (!(buf = malloc(maxrow)) || fseek(b->f, off + bk_u32(rows), SEEK_SET)) goto end;
 	for (j = 0; j < h; j++) {
 		int n = bk_u32(rows + j * 4 + 4) - bk_u32(rows + j * 4), px = 0, size = kind == BK_IMG_RGB ? 2 : 1;
+		int dy = y + j * k / q;
 		const uint8_t *p = buf, *e = buf + n;
-		uint16_t *d = framebuf + (y + j) * scr_w + x;
 		if ((int)fread(buf, 1, n, b->f) != n) break;
+		if (j % q) continue;
 		while (p < e && px < sx + w) {
-			int cnt = *p++, rep = cnt >= 128, k;
+			int cnt = *p++, rep = cnt >= 128, i;
 			cnt = rep ? cnt - 126 : cnt + 1;
-			for (k = 0; k < cnt && px < sx + w; k++, px++) {
+			for (i = 0; i < cnt && px < sx + w; i++, px++) {
 				unsigned v = size == 2 ? bk_u16(p) : *p;
 				if (!rep) p += size;
-				if (px < sx) continue;
-				if (kind == BK_IMG_RGB) d[px - sx] = v;
-				else if (v) d[px - sx] = v >= 15 ? c : blend(d[px - sx], c, v);
+				if (px >= sx && !((px - sx) % q))
+					put(x + (px - sx) * k / q, dy, k, v, kind, c);
 			}
 			if (rep) p += size;
-			else p += (cnt - k) * size;
+			else p += (cnt - i) * size;
 		}
 	}
 end:

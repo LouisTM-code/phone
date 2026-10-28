@@ -53,8 +53,9 @@ void book_draw(book_t *b, int x, int y);
 
 int book_image_size(book_t *b, uint32_t id, int *w, int *h);
 /* draws the part of a picture at sx, sy of size w x h to x, y on the screen,
-   masks in the colour c */
-void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int h, uint16_t c);
+   masks in the colour c; zoom 1, 2 (twice larger) or -2 (half) */
+void book_image(book_t *b, uint32_t id, int x, int y, int sx, int sy, int w, int h,
+		uint16_t c, int zoom);
 
 /* contents: read whole when shown, free() the result; entries are
    u32 page, u8 level, u8 nbytes, title */

@@ -1,0 +1,19 @@
+# pictures: selected like words, full screen with scrolling and zoom
+1 UP UP 5 RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT shot rich7
+5 RIGHT shot chart_sel
+5 shot chart_view
+5 shot chart_x2
+RIGHT DOWN shot chart_x2_moved
+5 shot chart_half
+RSOFT RSOFT RIGHT 5 shot photo_sel
+5 shot photo_view
+RIGHT shot photo_right
+5 shot photo_x2
+RSOFT RSOFT LEFT LEFT 5 shot formula_sel
+5 shot formula_view
+# a wide table: the picture opens 1:1
+RSOFT RSOFT RSOFT UP 5 RIGHT RIGHT RIGHT RIGHT RIGHT shot table_page
+5 shot table_sel
+5 shot table_view
+RIGHT shot table_right
+DOWN shot table_down
