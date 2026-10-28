@@ -1,0 +1,15 @@
+# book list, paging, word selection, translation, card from a word, resume
+1 shot list
+5 shot page1
+RIGHT RIGHT shot page3
+3 shot page13
+1 shot page3_back
+5 shot word1
+RIGHT RIGHT DOWN shot word_moved
+5 shot article
+1 shot card_added
+5 RSOFT shot word_back
+RSOFT shot list_again
+DOWN 5 shot book2
+RSOFT UP 5 shot resumed
+RSOFT RSOFT shot menu

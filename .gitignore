@@ -31,3 +31,4 @@ spreadtrum_flash/spd_dump_fast
 spreadtrum_flash/fphelper/fphelper
 spreadtrum_flash/custom_fdl/nor_fdl1.bin
 __pycache__/
+/tests/out/

@@ -11,7 +11,7 @@ PY = python3
 # volume label set by sudo/02_format_sd_fat32.sh
 CARD_LABEL ?= BQ3590
 
-.PHONY: all tools apps apps-sd launcher ports sdboot sdcard update sdtest data run clean
+.PHONY: all tools apps apps-sd pctest test launcher ports sdboot sdcard update sdtest data run clean
 
 all: tools apps apps-sd launcher sdboot
 
@@ -31,6 +31,15 @@ apps:
 # SD card mode (sdboot): files are read from the card.
 apps-sd:
 	$(MAKE) -C $(FP)/apps $(ARM) OBJDIR=obj_sd NAME=apps_sd LIBC_SDIO=3
+
+# The menu in a PC window (SDL2), files from the current directory:
+# cd phone-data && ../fpdoom/apps/apps_pc.bin --res 240 320
+pctest:
+	$(MAKE) -C $(FP)/apps PCTEST=1 LOG=0 OBJDIR=obj_pc NAME=apps_pc
+
+# Key-script scenarios in the emulator against golden screenshots (tests/run.py).
+test: pctest data
+	$(PY) tests/run.py
 
 # Boot launcher (fpbin/fpmain.bin): runs a program by the key held at power on,
 # the table is fpdoom/launcher/config.txt.
@@ -104,5 +113,5 @@ run: apps data
 		../$(FP)/libc_server/libc_server -- --bright 60 apps --day $$(( $$(date +%s) / 86400 ))
 
 clean:
-	$(RM) -r $(FP)/apps/obj_usb $(FP)/apps/obj_sd $(FP)/apps/apps.bin $(FP)/apps/apps_sd.bin sdcard $(DATA)
+	$(RM) -r $(FP)/apps/obj_usb $(FP)/apps/obj_sd $(FP)/apps/obj_pc $(FP)/apps/apps.bin $(FP)/apps/apps_sd.bin $(FP)/apps/apps_pc.bin sdcard $(DATA) tests/out
 	$(RM) -r $(FP)/launcher/obj $(FP)/launcher/launcher.bin

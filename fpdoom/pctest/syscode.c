@@ -177,9 +177,72 @@ static const int pc_keys[] = {
 	0, 0 };
 #undef POWER
 
+/* Test script, FP_KEYS=file: key names (UP, 5, RSOFT...) separated by spaces,
+   "shot NAME" saves the screen to $FP_SHOTS/NAME.ppm, "#" starts a comment.
+   Each key is pressed and released; the end of the script quits. */
+static FILE *script_fp;
+static int script_up;
+
+static void script_shot(const char *name) {
+	unsigned w = sys_data.display.w2, h = sys_data.display.h2, i;
+	const char *dir = getenv("FP_SHOTS");
+	char path[512];
+	FILE *f;
+	snprintf(path, sizeof(path), "%s/%s.ppm", dir ? dir : ".", name);
+	if (!(f = fopen(path, "wb"))) {
+		fprintf(stderr, "!!! can't write %s\n", path);
+		exit(1);
+	}
+	fprintf(f, "P6\n%u %u\n255\n", w, h);
+	for (i = 0; i < w * h; i++) {
+		unsigned a = framebuf_base[i];
+		fputc((a >> 11) << 3, f);
+		fputc((a >> 5 & 63) << 2, f);
+		fputc((a & 31) << 3, f);
+	}
+	fclose(f);
+}
+
+static int script_event(int *rkey) {
+	static const struct { int code; const char *name; } names[] = {
+#define X(num, name) { num, #name },
+		KEYPAD_ENUM(X)
+#undef X
+	};
+	char tok[256];
+	unsigned i;
+	if (script_up) {
+		*rkey = script_up;
+		script_up = 0;
+		return EVENT_KEYUP;
+	}
+	while (fscanf(script_fp, "%255s", tok) == 1) {
+		if (tok[0] == '#') {
+			int c;
+			while ((c = fgetc(script_fp)) != EOF && c != '\n');
+			continue;
+		}
+		if (!strcmp(tok, "shot")) {
+			if (fscanf(script_fp, "%255s", tok) != 1) break;
+			script_shot(tok);
+			continue;
+		}
+		for (i = 0; i < sizeof(names) / sizeof(*names); i++)
+			if (!strcmp(tok, names[i].name)) break;
+		if (i == sizeof(names) / sizeof(*names)) {
+			fprintf(stderr, "!!! unknown key \"%s\" in FP_KEYS\n", tok);
+			exit(1);
+		}
+		*rkey = script_up = sys_data.keytrn[names[i].code >> 6][names[i].code & 63];
+		return EVENT_KEYDOWN;
+	}
+	return EVENT_QUIT;
+}
+
 int sys_event(int *rkey) {
 	const int *keys = pc_keys;
 	SDL_Event event;
+	if (script_fp) return script_event(rkey);
 	for (;;) {
 		int ret, key, i, x;
 		if (!SDL_PollEvent(&event)) return EVENT_END;
@@ -270,6 +333,10 @@ int __wrap_main(int argc, char **argv) {
 
 	lcd_appinit();
 	keytrn_init();
+#if !NO_SYSEVENT
+	if (getenv("FP_KEYS") && !(script_fp = fopen(getenv("FP_KEYS"), "r")))
+		ERR_EXIT("can't open FP_KEYS\n");
+#endif
 
 	if (SDL_Init(SDL_INIT_VIDEO | SDL_INIT_TIMER)) {
 		fprintf(stderr, "!!! SDL_Init failed: %s\n", SDL_GetError());
