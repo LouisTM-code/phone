@@ -600,7 +600,7 @@ class Layout:
         natural = [max(len(texts[r][c]) for r in range(len(rows))) for c in range(n)]
         longest = [max((max((len(w) for w in texts[r][c].split()), default=0)
                         for r in range(len(rows))), default=0) for c in range(n)]
-        minw = [min(max(1, x), 12) for x in longest]
+        minw = [min(max(1, x), 8) for x in longest]  # longer words are hyphenated
         frame = (n + 1) + n * 2 * pad
         avail = (width - frame) // cw
         if n == 2 and len(rows) - head >= 2 and sum(natural) > avail and natural[0] <= 24:
@@ -641,13 +641,16 @@ class Layout:
             is_head = r < head
             cells = [self.lines(row[c], xs[c] + 1 + pad, cols[c] * cw,
                                 bf.STYLE_BOLD if is_head else 0) for c in range(n)]
-            h = max([sum(bx.h for bx in cell) for cell in cells] + [self.lh]) + 2
+            # each row draws its bottom line, so a row ending a page is closed
+            h = max([sum(bx.h for bx in cell) for cell in cells] + [self.lh]) + 3
             items = []
             if is_head:
                 items.append(("rect", x0, 0, tablew, h, bf.C_TH_BG))
-            items.append(("rect", x0, 0, tablew, 1, bf.C_RULE))
+            if r == 0:
+                items.append(("rect", x0, 0, tablew, 1, bf.C_RULE))
+            items.append(("rect", x0, h - 1, tablew, 1, bf.C_RULE))
             for c in range(n + 1):
-                items.append(("rect", xs[c] if c < n else x0 + tablew - 1, 0, 1, h + 1, bf.C_RULE))
+                items.append(("rect", xs[c] if c < n else x0 + tablew - 1, 0, 1, h, bf.C_RULE))
             for c, cell in enumerate(cells):
                 y = 1
                 for bx in cell:
@@ -659,9 +662,8 @@ class Layout:
             (head_boxes if is_head else row_boxes).append(bx)
         for bx in row_boxes:
             bx.repeat = head_boxes
-        last = Box(1, [("rect", x0, 0, tablew, 1, bf.C_RULE)], (self.block, 0))
         self.gap(self.lh // 4)
-        self.add(head_boxes + row_boxes + [last])
+        self.add(head_boxes + row_boxes)
         self.gap(self.lh // 2)
 
     def wide_table(self, rows, head, texts, natural, x0, width):
@@ -749,7 +751,7 @@ def paginate(boxes):
         # keep a heading with the line after it; a chain longer than a page
         # (a list of headings) is not kept together
         h, j = b.h, i
-        while boxes[j].keep_next and j + 1 < len(boxes):
+        while (boxes[j].keep_next or (j > i and not boxes[j].items)) and j + 1 < len(boxes):
             j += 1
             h += boxes[j].h
             if h > ph:
@@ -759,7 +761,7 @@ def paginate(boxes):
             close()
             if b.repeat and b not in b.repeat:
                 for r in b.repeat:
-                    cur.append((y, r))
+                    cur.append((y, Repeated(r)))
                     y += r.h
         if not cur and not b.items:  # no empty space at the top of a page
             if b.toc:
@@ -773,6 +775,15 @@ def paginate(boxes):
         i += 1
     close()
     return pages, tocs
+
+
+class Repeated:
+    """A table header box repeated at the top of a page."""
+
+    def __init__(self, box):
+        self.h, self.anchor, self.search = box.h, box.anchor, None
+        self.items = [(it[0], it[1], it[2] | bf.LINE_REPEAT, it[3]) if it[0] == "text" else it
+                      for it in box.items]
 
 
 def encode_page(page):

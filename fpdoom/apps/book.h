@@ -10,6 +10,7 @@
 
 enum { BK_END, BK_TEXT, BK_RECT, BK_IMAGE, BK_PAN, BK_SEARCH };
 #define BK_LINE_HYPHEN 1
+#define BK_LINE_REPEAT 2  /* a repeated table header, not searched */
 #define BK_FLAG_PAN 1
 #define BK_NONE 0xffffffffu
 enum { BK_IMG_RGB = 1, BK_IMG_MASK = 2 };

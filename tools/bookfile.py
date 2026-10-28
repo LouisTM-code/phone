@@ -41,6 +41,7 @@ FLAG_PAN = 1  # pages are pictures (PDF)
 
 END, TEXT, RECT, IMAGE, PAN, SEARCH = range(6)
 LINE_HYPHEN = 1  # the line ends with an inserted hyphen
+LINE_REPEAT = 2  # a table header repeated on a new page: not searched
 
 STYLE_BOLD, STYLE_ITALIC, STYLE_BIG = 1, 2, 4
 
@@ -221,7 +222,7 @@ class Book:
         """The text of a page as the phone searches it."""
         parts = []
         for it in self.items(page):
-            if it[0] == "text":
+            if it[0] == "text" and not it[2] & LINE_REPEAT:
                 s = "".join(r[3] for r in it[3])
                 if it[2] & LINE_HYPHEN and s.endswith("-"):
                     parts.append(s[:-1])
