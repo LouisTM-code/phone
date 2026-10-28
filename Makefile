@@ -133,7 +133,7 @@ data:
 	$(PY) tools/mkdict.py $(DATA)/dict.bin sources/lexicon $(FP)/apps/words.txt
 	$(PY) tools/mkdecks.py sources/lexicon $(DATA)
 	rm -rf $(DATA)/books
-	$(PY) tools/mkbook.py $(DATA) samples/*.txt $(wildcard sources/books/*.*)
+	$(PY) tools/mkbook.py $(DATA) $(wildcard sources/books/*.*)
 	for d in sources/books/*/; do \
 		$(PY) tools/mkbook.py $(DATA) --cat "$$(basename "$$d")" "$$d"* || exit 1; \
 	done
