@@ -97,9 +97,40 @@ def check(path, src):
     return errors, b, max(sizes)
 
 
+# (source, extension, expected blocks text with formulas as [tex])
+PARSE_CASES = [
+    ("Код `echo $HOME/$USER` и $x^2$.", ".md", "Код echo $HOME/$USER и [x^2]."),
+    ("```\nprice=$a$b $(OBJDIR)\n```", ".md", "price=$a$b $(OBJDIR)"),
+    ("<p><kbd>$PATH$</kbd> и \\(a+b\\)</p>", ".html", "$PATH$ и [a+b]"),
+]
+TEX_CASES = [("a \\le b", "a ≤ b"), ("x^2", "x²"), ("\\int f", None), ("a \\top b", None),
+             ("f \\circ g", None), ("\\inf x", None)]
+
+
+def check_parsers(tmp):
+    """Formulas are found outside code only; TeX is written as text by whole commands."""
+    errors = []
+    for i, (src, ext, want) in enumerate(PARSE_CASES):
+        path = os.path.join(tmp, f"case{i}{ext}")
+        open(path, "w", encoding="utf-8").write(src)
+        _, blocks = bookparse.read(path)
+        got = " ".join(b["text"] if b["t"] == "code" else f"[{b['tex']}]" if b["t"] == "math" else
+                       "".join(t if t != bookparse.MATH else f"[{x}]" for t, x in b.get("inl", []))
+                       for b in blocks)
+        if got != want:
+            errors.append(f"parse {src!r}: {got!r}, want {want!r}")
+    for tex, want in TEX_CASES:
+        if mkbook.tex_as_text(tex) != want:
+            errors.append(f"tex_as_text({tex!r}) = {mkbook.tex_as_text(tex)!r}, want {want!r}")
+    return errors
+
+
 def main():
     card, sources = sys.argv[1], sys.argv[2:]
     mkbook.FONT = mkbook.Font()
+    errors = check_parsers(os.path.dirname(os.path.abspath(card)))
+    for e in errors:
+        print("FAIL " + e)
     by_name = {}
     for s in sources:
         base = os.path.basename(s)
@@ -108,7 +139,7 @@ def main():
                 base = base[:-len(ext)]
                 break
         by_name[mkbook.file_name(base)] = s
-    failed = 0
+    failed = len(errors)
     for line in open(os.path.join(card, "books/index.txt"), encoding="utf-8"):
         fn = line.split("\t")[0]
         name = os.path.basename(fn)[:-3]
@@ -119,7 +150,7 @@ def main():
             print("     " + e)
         failed += bool(errors)
     if failed:
-        sys.exit(f"{failed} books failed")
+        sys.exit(f"{failed} checks failed")
 
 
 if __name__ == "__main__":

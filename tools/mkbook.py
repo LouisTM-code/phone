@@ -219,21 +219,21 @@ def render_tex(tex, size_px):
     return img.crop(box) if box else None
 
 
-TEX_SYMBOLS = {"\\pi": "π", "\\mu": "μ", "\\Delta": "Δ", "\\Omega": "Ω", "\\infty": "∞",
-               "\\leq": "≤", "\\le": "≤", "\\geq": "≥", "\\ge": "≥", "\\neq": "≠", "\\ne": "≠",
-               "\\approx": "≈", "\\pm": "±", "\\times": "×", "\\cdot": "·", "\\div": "÷",
-               "\\to": "→", "\\rightarrow": "→", "\\leftarrow": "←", "\\in": "∈", "\\cap": "∩",
-               "\\cup": "∪", "\\equiv": "≡", "\\sqrt": "√", "\\emptyset": "∅", "\\circ": "°",
-               "\\,": " ", "\\;": " ", "\\ ": " ", "\\%": "%", "\\{": "{", "\\}": "}"}
+# TeX commands written as text in simple formulas; others make a picture
+TEX_SYMBOLS = {"pi": "π", "mu": "μ", "Delta": "Δ", "Omega": "Ω", "infty": "∞",
+               "leq": "≤", "le": "≤", "geq": "≥", "ge": "≥", "neq": "≠", "ne": "≠",
+               "approx": "≈", "pm": "±", "times": "×", "cdot": "·", "div": "÷",
+               "to": "→", "rightarrow": "→", "leftarrow": "←", "in": "∈", "cap": "∩",
+               "cup": "∪", "equiv": "≡", "sqrt": "√", "emptyset": "∅",
+               ",": " ", ";": " ", " ": " ", "%": "%", "{": "{", "}": "}"}
 
 
 def tex_as_text(tex):
     """Simple formulas (x^2, a \\le b) as plain text, else None."""
-    s = tex.strip()
-    for k in sorted(TEX_SYMBOLS, key=len, reverse=True):
-        s = s.replace(k, TEX_SYMBOLS[k])
+    s = re.sub(r"\\(mathrm|text|mathit)\{([^{}]*)\}", r"\2", tex.strip())
+    # whole commands only: \int is not \in followed by t
+    s = re.sub(r"\\([A-Za-z]+|.)", lambda m: TEX_SYMBOLS.get(m.group(1), m.group(0)), s)
     s = re.sub(r"\^\{?([123n])\}?", lambda m: "¹²³ⁿ"["123n".index(m.group(1))], s)
-    s = re.sub(r"\\(mathrm|text|mathit)\{([^{}]*)\}", r"\2", s)
     if re.search(r"[\\^_{}]", s) or not all(FONT.has(c) for c in s):
         return None
     return s

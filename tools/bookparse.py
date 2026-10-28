@@ -358,6 +358,8 @@ def find(el, tag):
 
 MATH_BLOCK = re.compile(r"^\$\$(.+?)\$\$[ \t]*$", re.S | re.M)
 MATH_INLINE = re.compile(r"(?<![\\$])\$(?!\s)([^$\n]+?)(?<!\s)\$(?!\d)")
+# Markdown code (fenced blocks and `spans`): its $ are not formulas
+MD_CODE = re.compile(r"^[ \t]*(`{3,}|~{3,})[^\n]*\n.*?^[ \t]*\1[ \t]*$|(`+)(?!`).+?(?<!`)\2(?!`)", re.S | re.M)
 
 
 # TeX written in the text as on MathJax pages: $$..$$ and \[..\] are display
@@ -367,7 +369,7 @@ TEX_IN_TEXT = re.compile(r"\$\$(.+?)\$\$|\\\[(.+?)\\\]|\\\((.+?)\\\)|" + MATH_IN
 
 def text_math(el):
     """Turns TeX in the text of el into math elements."""
-    if el.tag in ("pre", "code", "math", "script", "style"):
+    if el.tag in ("pre", "code", "kbd", "samp", "tt", "math", "script", "style"):
         return
     out = []
     for c in el.children:
@@ -558,8 +560,15 @@ def read_md(path):
         k = len(maths) - 1
         return f"\n\n<div data-math=\"{k}\"></div>\n\n" if display else f"<span data-math=\"{k}\"></span>"
 
-    src = MATH_BLOCK.sub(lambda m: keep(m, True), src)
-    src = MATH_INLINE.sub(lambda m: keep(m, False), src)
+    def no_code(sub, text):
+        out, pos = [], 0
+        for m in MD_CODE.finditer(text):
+            out += [sub(text[pos:m.start()]), m.group(0)]
+            pos = m.end()
+        return "".join(out + [sub(text[pos:])])
+
+    src = no_code(lambda t: MATH_BLOCK.sub(lambda m: keep(m, True), t), src)
+    src = no_code(lambda t: MATH_INLINE.sub(lambda m: keep(m, False), t), src)
     md = MarkdownIt("commonmark", {"html": True}).enable("table").enable("strikethrough")
     dom = parse_html(md.render(src))
 
