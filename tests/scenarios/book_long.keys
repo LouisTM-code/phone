@@ -1,0 +1,12 @@
+# long books are read a page at a time: War and Peace (7000+ pages)
+1 DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN 5 shot open
+#! peak 32768
+#! read 10240
+3 3 3 3 3 3 3 3 3 3 shot p101
+#! read 2048
+RIGHT shot p102
+LEFT LEFT shot p100
+5 shot word
+#! read 4096
+RSOFT RSOFT shot list
+5 shot resumed

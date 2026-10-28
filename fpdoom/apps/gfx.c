@@ -180,7 +180,15 @@ int poll_key(void) {
 }
 
 int wait_key(void) {
+	return wait_key_ms(-1);
+}
+
+int wait_key_ms(int ms) {
+	unsigned t0 = sys_timer_ms();
 	int key;
-	while (!(key = poll_key())) sys_wait_ms(10);
+	while (!(key = poll_key())) {
+		if (ms >= 0 && sys_timer_ms() - t0 >= (unsigned)ms) return 0;
+		sys_wait_ms(10);
+	}
 	return key;
 }

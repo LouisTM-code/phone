@@ -105,7 +105,7 @@ def main():
             if base.lower().endswith(ext):
                 base = base[:-len(ext)]
                 break
-        by_name[re.sub(r"[^\w-]+", "_", base)[:60].strip("_")] = s
+        by_name[mkbook.file_name(base)] = s
     failed = 0
     for line in open(os.path.join(card, "books/index.txt"), encoding="utf-8"):
         fn = line.split("\t")[0]

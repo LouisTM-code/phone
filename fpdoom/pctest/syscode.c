@@ -182,6 +182,8 @@ static const int pc_keys[] = {
    Each key is pressed and released; the end of the script quits. */
 static FILE *script_fp;
 static int script_up;
+/* the program may print its statistics at each screenshot */
+void pc_shot_hook(const char *name) __attribute__((weak));
 
 static void script_shot(const char *name) {
 	unsigned w = sys_data.display.w2, h = sys_data.display.h2, i;
@@ -201,6 +203,8 @@ static void script_shot(const char *name) {
 		fputc((a & 31) << 3, f);
 	}
 	fclose(f);
+	if (pc_shot_hook) pc_shot_hook(name);
+	fflush(stdout);
 }
 
 static int script_event(int *rkey) {

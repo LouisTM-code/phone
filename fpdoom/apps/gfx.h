@@ -47,6 +47,8 @@ int wrap_text(const char *text, int cols, int *starts, int *lens, int max);
 
 /* waits for a key press, returns its keypad code or -1 on quit */
 int wait_key(void);
+/* the same, but gives up after ms milliseconds (ms < 0: never) and returns 0 */
+int wait_key_ms(int ms);
 /* non-blocking: returns keypad code, 0 if no key, -1 on quit */
 int poll_key(void);
 

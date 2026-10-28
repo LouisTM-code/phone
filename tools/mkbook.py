@@ -558,8 +558,7 @@ class Layout:
                 first = next((bx for bx in boxes if any(i[0] == "text" for i in bx.items)), None)
                 if first:
                     ty = next(i for i in first.items if i[0] == "text")[1]
-                    first.items.append(("text", ty, 0, [(x0 + ind - mw - CONF["char_w"] // 2 * (not b["ordered"]),
-                                                         0, bf.C_DIM, marker)]))
+                    first.items.append(("text", ty, 0, [(x0 + ind - mw - CONF["char_w"], 0, bf.C_DIM, marker)]))
                 self.add(boxes)
             self.list_depth = depth
         elif t == "img":
@@ -746,11 +745,15 @@ def paginate(boxes):
         b = boxes[i]
         if b.new_page and cur and any(x[1].items for x in cur):
             close()
-        # keep a heading with the following lines
+        # keep a heading with the line after it; a chain longer than a page
+        # (a list of headings) is not kept together
         h, j = b.h, i
-        while boxes[j].keep_next and j + 1 < len(boxes) and h + boxes[j + 1].h <= ph:
+        while boxes[j].keep_next and j + 1 < len(boxes):
             j += 1
             h += boxes[j].h
+            if h > ph:
+                h = b.h
+                break
         if y + h > ph and cur and any(x[1].items for x in cur):
             close()
             if b.repeat and b not in b.repeat:
@@ -916,6 +919,18 @@ def build(src, dst):
     return title, author, len(pages), report
 
 
+TRANSLIT = dict(zip("абвгдеёжзийклмнопрстуфхцчшщъыьэюя",
+                    "a b v g d e e zh z i y k l m n o p r s t u f h ts ch sh sch _ y _ e yu ya".split()))
+TRANSLIT["ъ"] = TRANSLIT["ь"] = ""
+
+
+def file_name(base):
+    """An ASCII name: the phone's FAT code matches long names in ASCII only."""
+    s = "".join(TRANSLIT[c.lower()].capitalize() if c.lower() in TRANSLIT and c.isupper()
+                else TRANSLIT.get(c, c) for c in base)
+    return re.sub(r"[^A-Za-z0-9_-]+", "_", s)[:60].strip("_") or "book"
+
+
 def state_id(fn):
     return f"{zlib.crc32(fn.encode()):08X}"
 
@@ -943,7 +958,7 @@ def main():
             if base.lower().endswith(ext):
                 base = base[:-len(ext)]
                 break
-        name = re.sub(r"[^\w-]+", "_", base)[:60].strip("_") or "book"
+        name = file_name(base)
         fn = f"books/{name}.bk"
         title, author, npages, rep = build(src, os.path.join(data_dir, fn))
         index[fn] = [title.replace("\t", " "), author.replace("\t", " "), cat, state_id(fn)]

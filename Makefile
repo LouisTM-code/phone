@@ -62,6 +62,7 @@ TESTBOOKS = tests/books/*.md tests/out/gen/*.epub tests/out/gen/*.fb2 tests/out/
 testbooks: data
 	rm -rf tests/out/card tests/out/gen
 	cp -r $(DATA) tests/out/card
+	mkdir -p tests/out/card/state
 	$(PY) tests/make_books.py tests/out/gen
 	$(PY) tools/mkbook.py tests/out/card $(TESTBOOKS)
 	$(PY) tests/test_books.py tests/out/card $(TESTBOOKS)
@@ -88,7 +89,7 @@ sdboot:
 # Card image in sdcard/: copy its contents to the root of a FAT32 card.
 # Ports are added when built (make ports), games/ when it exists.
 sdcard: apps-sd launcher data
-	rm -rf sdcard && mkdir -p sdcard/fpbin
+	rm -rf sdcard && mkdir -p sdcard/fpbin sdcard/state
 	cp -r $(DATA)/. sdcard/
 	cp $(FP)/launcher/launcher.bin sdcard/fpbin/fpmain.bin
 	cp $(FP)/launcher/config.txt sdcard/fpbin/config.txt

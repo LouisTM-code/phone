@@ -6,8 +6,12 @@ Each tests/scenarios/NAME.keys runs fpdoom/apps/apps_pc.bin (make pctest) in a
 fresh copy of phone-data/ (make data). Key script syntax: fpdoom/pctest/syscode.c.
 "shot X" saves tests/out/NAME/X.png, which must equal tests/golden/NAME/X.png;
 --update accepts the new screenshots as the golden ones.
+Budgets: a "#! read N" or "#! peak N" line limits, for the shots after it, the
+bytes read from the card since the previous shot and how much the heap grew
+in that time over its size at the previous shot (fpdoom/apps/pccard.c).
 """
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -37,7 +41,7 @@ def run(name, update):
         open(os.path.join(out, "log.txt"), "w").write(log)
         if r.returncode:
             return [f"exit code {r.returncode}:\n{log[-2000:]}"]
-    errors = []
+    errors = check_budgets(keys, log)
     shots = sorted(f[:-4] for f in os.listdir(out) if f.endswith(".ppm"))
     for shot in shots:
         ppm = os.path.join(out, shot + ".ppm")
@@ -57,6 +61,24 @@ def run(name, update):
         for f in os.listdir(golden):
             if f[:-4] not in shots:
                 os.remove(os.path.join(golden, f))
+    return errors
+
+
+def check_budgets(keys, log):
+    limits, budget = {}, {}
+    for line in open(keys):
+        m = re.match(r"#!\s*(read|peak)\s+(\d+)", line)
+        if m:
+            limits[m.group(1)] = int(m.group(2))
+            continue
+        for shot in re.findall(r"\bshot\s+(\S+)", line.split("#")[0]):
+            budget[shot] = dict(limits)
+    errors = []
+    for m in re.finditer(r"^io (\S+) read=(\d+) write=(\d+) heap=(\d+) peak=(\d+)$", log, re.M):
+        got = {"read": int(m.group(2)), "peak": int(m.group(5))}
+        for k, v in budget.get(m.group(1), {}).items():
+            if got[k] > v:
+                errors.append(f"{m.group(1)}: {k} {got[k]} > {v}")
     return errors
 
 
