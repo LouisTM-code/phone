@@ -23,13 +23,21 @@ void gfx_present(void);
 
 void fill_rect(int x, int y, int w, int h, uint16_t c);
 
-/* UTF-8 text with the 8x16 font (ASCII + Cyrillic), s = scale */
+/* UTF-8 text with the 8x16 font (Terminus, 512 glyphs: Latin, Cyrillic,
+   Greek capitals, punctuation, arrows, box drawing; others are drawn as '?'),
+   s = scale 1 or 2 */
 unsigned utf8_next(const char **ps);
 int text_len(const char *s);
 int draw_text(int x, int y, int s, const char *str, uint16_t c);
 void draw_text_center(int y, int s, const char *str, uint16_t c);
 /* word-wraps to width w, returns y below the last line */
 int draw_text_wrap(int x, int y, int w, int s, const char *str, uint16_t c);
+
+#define TEXT_BOLD   1
+#define TEXT_ITALIC 2
+#define TEXT_BIG    4  /* twice the size */
+/* draws nbytes of str (all if nbytes < 0) in a TEXT_* style, returns the x after it */
+int draw_text_style(int x, int y, int style, const char *str, int nbytes, uint16_t c);
 
 /* draws only the first nbytes of str */
 int draw_text_n(int x, int y, int s, const char *str, int nbytes, uint16_t c);

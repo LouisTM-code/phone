@@ -18,7 +18,7 @@ from PIL import Image, ImageChops
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TESTS = os.path.join(ROOT, "tests")
 APP = os.path.join(ROOT, "fpdoom/apps/apps_pc.bin")
-DATA = os.path.join(ROOT, "phone-data")
+DATA = os.path.join(ROOT, "tests/out/card")
 
 
 def run(name, update):

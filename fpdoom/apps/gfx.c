@@ -2,12 +2,7 @@
 #include <string.h>
 #include "gfx.h"
 
-static const uint8_t font_ascii[] = {
-#include "font_ascii.h"
-};
-static const uint8_t font_cyr[] = {
-#include "font_cyr.h"
-};
+#include "font.h"
 
 uint16_t *framebuf;
 unsigned scr_w, scr_h;
@@ -83,30 +78,41 @@ int text_len(const char *s) {
 	return n;
 }
 
-static const uint8_t *glyph(unsigned c) {
-	if (c >= 0x20 && c < 0x80) return font_ascii + (c - 0x20) * FONT_H;
-	if (c >= 0x410 && c < 0x450) return font_cyr + (c - 0x410) * FONT_H;
-	if (c == 0x401) return font_cyr + 64 * FONT_H;
-	if (c == 0x451) return font_cyr + 65 * FONT_H;
-	return font_ascii + ('?' - 0x20) * FONT_H;
+static const uint8_t *glyph(unsigned c, int bold) {
+	int lo = 0, hi = FONT_NCODES - 1;
+	while (lo <= hi) {
+		int mid = (lo + hi) >> 1;
+		if (font_codes[mid] < c) lo = mid + 1;
+		else if (font_codes[mid] > c) hi = mid - 1;
+		else return (bold ? font_bold : font_regular) + font_glyph[mid] * FONT_H;
+	}
+	return c == '?' ? font_regular : glyph('?', bold);
 }
 
-static void draw_glyph(int x, int y, int s, unsigned ch, uint16_t c) {
-	const uint8_t *g = glyph(ch);
-	int i, j;
+/* italic leans the upper rows of a glyph to the right */
+static void draw_glyph(int x, int y, int style, unsigned ch, uint16_t c) {
+	const uint8_t *g = glyph(ch, style & TEXT_BOLD);
+	int s = style & TEXT_BIG ? 2 : 1, i, j;
 	for (j = 0; j < FONT_H; j++) {
 		unsigned bits = g[j];
+		int x1 = style & TEXT_ITALIC ? x + (FONT_H - 1 - j) / 6 * s : x;
 		for (i = 0; bits; i++, bits = bits << 1 & 0xff)
-			if (bits & 0x80) fill_rect(x + i * s, y + j * s, s, s, c);
+			if (bits & 0x80) fill_rect(x1 + i * s, y + j * s, s, s, c);
 	}
+}
+
+int draw_text_style(int x, int y, int style, const char *str, int nbytes, uint16_t c) {
+	const char *end = nbytes < 0 ? NULL : str + nbytes;
+	int w = FONT_W * (style & TEXT_BIG ? 2 : 1);
+	while ((!end || str < end) && *str) {
+		draw_glyph(x, y, style, utf8_next(&str), c);
+		x += w;
+	}
+	return x;
 }
 
 int draw_text(int x, int y, int s, const char *str, uint16_t c) {
-	while (*str) {
-		draw_glyph(x, y, s, utf8_next(&str), c);
-		x += FONT_W * s;
-	}
-	return x;
+	return draw_text_style(x, y, s == 2 ? TEXT_BIG : 0, str, -1, c);
 }
 
 void draw_text_center(int y, int s, const char *str, uint16_t c) {
@@ -129,7 +135,7 @@ int draw_text_wrap(int x, int y, int w, int s, const char *str, uint16_t c) {
 		/* words longer than a line are broken anywhere */
 		while (word < p) {
 			if (col >= max_chars) { col = 0; y += FONT_H * s + 2; }
-			draw_glyph(x + col * FONT_W * s, y, s, utf8_next(&word), c);
+			draw_glyph(x + col * FONT_W * s, y, s == 2 ? TEXT_BIG : 0, utf8_next(&word), c);
 			col++;
 		}
 		str = p;
@@ -139,12 +145,7 @@ int draw_text_wrap(int x, int y, int w, int s, const char *str, uint16_t c) {
 }
 
 int draw_text_n(int x, int y, int s, const char *str, int nbytes, uint16_t c) {
-	const char *end = str + nbytes;
-	while (str < end && *str) {
-		draw_glyph(x, y, s, utf8_next(&str), c);
-		x += FONT_W * s;
-	}
-	return x;
+	return draw_text_style(x, y, s == 2 ? TEXT_BIG : 0, str, nbytes, c);
 }
 
 int wrap_text(const char *text, int cols, int *starts, int *lens, int max) {
