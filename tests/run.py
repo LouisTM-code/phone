@@ -74,8 +74,8 @@ def check_budgets(keys, log):
         for shot in re.findall(r"\bshot\s+(\S+)", line.split("#")[0]):
             budget[shot] = dict(limits)
     errors = []
-    for m in re.finditer(r"^io (\S+) read=(\d+) write=(\d+) heap=(\d+) peak=(\d+)$", log, re.M):
-        got = {"read": int(m.group(2)), "peak": int(m.group(5))}
+    for m in re.finditer(r"^io (\S+) read=(\d+) heap=(\d+) peak=(\d+)$", log, re.M):
+        got = {"read": int(m.group(2)), "peak": int(m.group(4))}
         for k, v in budget.get(m.group(1), {}).items():
             if got[k] > v:
                 errors.append(f"{m.group(1)}: {k} {got[k]} > {v}")

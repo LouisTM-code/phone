@@ -25,7 +25,6 @@ int book_open(book_t *b, const char *path) {
 	b->pages_off = bk_u32(h + 16);
 	b->toc_off = bk_u32(h + 20);
 	b->images_off = bk_u32(h + 24);
-	b->cover = bk_u32(h + 28);
 	if (!b->npages || read_at(b, bk_u32(h + 32), m, 2)) goto err;
 	n = bk_u16(m);
 	if (n > 256) n = 256;

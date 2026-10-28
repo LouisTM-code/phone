@@ -846,14 +846,10 @@ def cover_images(images, meta):
     if img is None:
         thumb = generated_cover(meta["title"], tw, th)
         return None, images.add(thumb, bf.IMG_RGB)
-    thumb = img.copy()
-    thumb.thumbnail((tw, th), Image.LANCZOS)
-    bg = Image.new("RGB", (tw, th), (40, 40, 50))
-    bg.paste(thumb, ((tw - thumb.width) // 2, (th - thumb.height) // 2))
     iid, w, h, full = images.picture(img, bf.IMG_RGB, CONF["page_w"], CONF["page_h"])
     box = Box(CONF["page_h"], [("image", (CONF["page_w"] - w) // 2, (CONF["page_h"] - h) // 2, iid, full,
                                 bf.C_TEXT)], (0, 0))
-    return box, images.add(bg, bf.IMG_RGB)
+    return box, thumb_image(img, images)
 
 
 def generated_cover(title, w, h):
@@ -884,7 +880,8 @@ def pdf_info(path):
     return meta, npages, texts
 
 
-def pdf_thumb(img, images):
+def thumb_image(img, images):
+    """The shelf cover: img fitted on a dark card."""
     tw, th = CONF["thumb"]
     thumb = img.copy()
     thumb.thumbnail((tw, th), Image.LANCZOS)
@@ -937,7 +934,7 @@ def build_pdf(path, images, report):
         cover = subprocess.run(["pdftoppm", "-f", "1", "-l", "1", "-scale-to-x", str(pw), "-scale-to-y", "-1",
                                 "-png", path], capture_output=True).stdout
     toc = [(first[p], lvl, t) for p, lvl, t in pdf_outline(path) if p < npages]
-    thumb = pdf_thumb(Image.open(io.BytesIO(cover)).convert("RGB"), images)
+    thumb = thumb_image(Image.open(io.BytesIO(cover)).convert("RGB"), images)
     return meta, [tuple(p) for p in pages], toc, thumb
 
 

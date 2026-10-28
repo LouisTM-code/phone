@@ -20,7 +20,7 @@ enum { BC_TEXT, BC_DIM, BC_HEAD, BC_TITLE, BC_CODE, BC_CODE_BG, BC_QUOTE, BC_RUL
 typedef struct {
 	FILE *f;
 	unsigned npages, page_w, page_h;
-	uint32_t pages_off, toc_off, images_off, cover;
+	uint32_t pages_off, toc_off, images_off;
 	char title[128], author[128];
 	uint8_t *page;         /* the loaded page */
 	unsigned page_size, page_cap;

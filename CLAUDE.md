@@ -29,8 +29,9 @@ Books: `tools/mkbook.py` lays a book out for the reader's page area (232x292, mu
 `reader.c`) into `books/<name>.bk` (format in `tools/bookfile.py`), `books/index.txt` and
 `books/covers.bin`; a folder of `sources/books/` is a shelf category. The phone reads a page at a
 time (`book.c`). PDF is reflowed into page-size pictures by `dl/k2pdfopt` (the author's static
-Linux build; Ubuntu's package crashes). Reader state lives in `state/` (made by `make sdcard`): `books.txt`, `<id>.txt`
-(bookmarks, quotes), `reader.txt` (theme, brightness).
+Linux build; Ubuntu's package crashes). Reader state lives in `state/` (made by `make sdcard`):
+`<id>.pos` (a book's place, one file per book), `<id>.txt` (bookmarks, quotes), `reader.txt`
+(theme, brightness).
 
 Card layout: `fpbin/fpmain.bin` is the boot launcher (`fpdoom/launcher/`), which runs a program
 from `fpbin/` by the keys held at power on, per `fpdoom/launcher/config.txt` (fpmenu syntax,
@@ -72,5 +73,5 @@ its menus through `fpdoom/term/`; floats and math.h come from `fpdoom/softfp/`.
 `fpdoom/apps/log.c` writes memory, stack and timings to `log.txt` on the card (stdout over USB);
 `make update` copies it to `logs/log.txt`. Calls go through `log.h` macros only. Remove: build with
 `LOG=0` (after `make clean`), or delete `log.c`/`log.h`, the `LOG` block in `fpdoom/apps/Makefile` and
-the `log_*`/`LOG_*` lines in `main.c`, `reader.c`, `shelf.c`, `cards.c`, `dictfile.c`. The PC
+the `log_*`/`LOG_*` lines in `main.c`, `reader.c`, `shelf.c`, `marks.c`, `cards.c`, `dictfile.c`. The PC
 build (`make pctest`) uses `LOG=0`: `log.c` reads the phone's stack and heap directly.

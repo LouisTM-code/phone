@@ -12,7 +12,7 @@ endif
 # the PC build checks what the phone's card allows and counts reads (pccard.c)
 ifeq ($(PCTEST), 1)
 APP_SRCS += pccard
-LFLAGS += $(foreach f,fopen fread fwrite malloc calloc realloc free,-Wl,--wrap=$(f))
+LFLAGS += $(foreach f,fopen fread malloc calloc realloc free,-Wl,--wrap=$(f))
 endif
 APP_OBJS1 = $(APP_SRCS:%=$(OBJDIR)/app/%.o)
 APP_OBJS2 =
