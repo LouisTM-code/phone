@@ -663,7 +663,8 @@ class Layout:
                         items.append((it[0], it[1], it[2] + y) + it[3:] if it[0] != "text"
                                      else ("text", it[1] + y, it[2], it[3]))
                     y += bx.h
-            bx = Box(h, items, (self.block, 0), keep_next=is_head)
+            # the row number in the anchor: pages of a long table differ
+            bx = Box(h, items, (self.block, r), keep_next=is_head)
             (head_boxes if is_head else row_boxes).append(bx)
         for bx in row_boxes:
             bx.repeat = head_boxes
@@ -795,7 +796,7 @@ def encode_page(page):
     data = bytearray()
     anchor = None
     for y, b in page:
-        if anchor is None and b.items:
+        if anchor is None and b.items and not isinstance(b, Repeated):
             anchor = b.anchor
         for it in b.items:
             if it[0] == "text":

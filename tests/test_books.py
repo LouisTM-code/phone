@@ -61,8 +61,9 @@ def check(path, src):
     for n in range(b.npages):
         start, blk, ch = b.pages[n]
         sizes.append(b.pages[n + 1][0] - start)
-        if (blk, ch) < prev:
-            errors.append(f"page {n}: anchor {(blk, ch)} before {prev}")
+        # positions are saved as anchors: each page needs its own
+        if n and (blk, ch) <= prev:
+            errors.append(f"page {n}: anchor {(blk, ch)} not after {prev}")
         prev = (blk, ch)
         for it in b.items(n):
             if it[0] == "text":
