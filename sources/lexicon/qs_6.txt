@@ -1,0 +1,719 @@
+@soup
+n. A1
+1. суп - a hot liquid food
+   chicken soup - куриный суп
+
+@sour
+adj. B1
+1. кислый - with a sharp taste like a lemon
+   The milk has gone sour. - Молоко скисло.
+2. недовольный, угрюмый - unfriendly
+   a sour face
+
+@source
+n. B1
+1. источник - where something comes from
+   a source of energy
+   The police have a secret source.
+
+@south
+n. A1
+1. юг - the direction to your right as you face the sunrise
+   in the south of France - на юге Франции
+adj. A1
+2. южный - in the south
+   the south coast
+adv. A1
+3. на юг - towards the south
+   We drove south.
+
+@southern
+adj. B1
+1. южный - in or from the south
+   southern Europe
+
+@souvenir
+n. A2
+1. сувенир - something you buy to remember a place
+   We bought souvenirs in Paris.
+
+@space
+n. A2
+1. место, пространство - an empty area
+   There isn't enough space.
+2. космос - the area outside the earth
+   travel into space
+3. промежуток, пробел - a gap
+   Leave a space between words.
+
+@spade
+n. C1
+1. лопата - a tool for digging
+2. пики (spades, масть в картах) - a suit of playing cards
+phr. call a spade a spade - называть вещи своими именами
+
+@spare
+adj. B1
+1. запасной, лишний - extra
+   a spare key - запасной ключ
+2. свободный (о времени) - free
+   What do you do in your spare time?
+v. B2
+3. уделить, выделить - give time or money
+   Can you spare a minute?
+4. щадить, избавлять - not hurt; save from
+   Spare me the details.
+
+@spark
+n. B2
+1. искра - a tiny burning piece
+v. C1
+2. вызывать, разжигать - cause
+   His words sparked a fight.
+
+@speak
+v. (spoke, spoken) A1
+1. говорить, разговаривать - say words, talk
+   Can I speak to Anna? - Можно поговорить с Анной?
+2. говорить (на языке) - know a language
+   Do you speak English? - Вы говорите по-английски?
+phr. speak up - говорить громче; высказываться
+   Speak up, I can't hear you.
+
+@speaker
+n. B1
+1. оратор, докладчик - a person giving a speech
+2. говорящий (на языке) - a person who speaks a language
+   a native speaker of English
+3. динамик, колонка - a device that sound comes out of
+
+@special
+adj. A1
+1. особый, особенный - better or different from usual
+   a special day
+2. специальный - for a particular purpose
+   special training
+
+@species
+n. (pl. species) B1
+1. вид (животных, растений) - a group of similar animals or plants
+   a rare species of bird
+
+@specific
+adj. B1
+1. конкретный, определённый - particular, exact
+   Can you be more specific?
+
+@speech
+n. B1
+1. речь, выступление - a formal talk to listeners
+   He gave a speech at the wedding.
+2. речь (способность говорить) - the ability to speak
+
+@speed
+n. A2
+1. скорость - how fast something moves
+   at full speed - на полной скорости
+v. (sped, sped) B1
+2. мчаться - move fast
+   The car sped away.
+3. превышать скорость - drive too fast
+phr. speed up - ускорять(ся)
+
+@spell
+v. (spelled/spelt, spelled/spelt) A1
+1. писать (произносить) по буквам - say or write the letters of a word
+   How do you spell your name? - Как пишется ваше имя?
+n. B2
+2. заклинание, чары - magic words
+   The witch cast a spell on him.
+3. период - a short time
+   a cold spell
+
+@spend
+v. (spent, spent) A1
+1. тратить (деньги) - pay money
+   I spent all my money. - Я потратил все деньги.
+2. проводить (время) - pass time
+   We spent a week in Paris. - Мы провели неделю в Париже.
+
+@spice
+n. B1
+1. пряность, специя - a powder or seed that gives food flavour
+   Add salt and spices.
+
+@spicy
+adj. A2
+1. острый, пряный - with a strong hot taste
+   spicy food
+
+@spider
+n. A2
+1. паук - a small creature with eight legs
+   I'm afraid of spiders.
+
+@spill
+v. B2
+1. проливать(ся), рассыпать - let liquid fall out
+   I spilled coffee on my shirt.
+
+@spin
+v. (spun, spun) B2
+1. вращать(ся), кружить(ся) - turn round fast
+   The wheel spun.
+   He spun round to face me.
+2. прясть - make thread
+
+@spine
+n. B2
+1. позвоночник - the line of bones down your back
+   A shiver ran down my spine.
+2. корешок (книги) - the back of a book
+
+@spirit
+n. B1
+1. дух, душа - the part of a person that is not the body
+2. призрак, дух - a ghost
+   evil spirits
+3. настроение (spirits) - feelings, mood
+   in high spirits - в приподнятом настроении
+4. дух, смелость - courage, energy
+   team spirit
+5. крепкие напитки (spirits) - strong alcohol
+
+@spit
+v. (spat, spat) B2
+1. плевать(ся) - push liquid out of your mouth
+   He spat on the ground.
+
+@spite
+n. B2
+1. злоба, злость - wish to hurt someone
+   He did it out of spite.
+phr. in spite of - несмотря на
+   In spite of the rain, we went out.
+
+@splash
+v. B2
+1. брызгать, плескать(ся) - make water fly about
+   The kids splashed in the pool.
+n. B2
+2. всплеск, плеск - the sound of water hit
+
+@splendid
+adj. B2
+1. великолепный, прекрасный - very good; beautiful
+   a splendid view
+
+@split
+v. (split, split) B2
+1. раскалывать(ся), разделять(ся) - break or divide
+   Let's split the bill.
+2. расходиться, расставаться (split up) - end a relationship
+   They split up last year.
+n. B2
+3. трещина, раскол - a crack; a division
+
+@spoil
+v. B1
+1. портить - make something worse
+   The rain spoiled our picnic.
+2. баловать - give a child too much
+   She spoils her grandchildren.
+
+@sponge
+n. B2
+1. губка - a soft thing for washing
+2. бисквит - a light cake
+
+@spoon
+n. A2
+1. ложка - a tool for eating soup
+   a spoon of sugar - ложка сахара
+
+@sport
+n. A1
+1. спорт, вид спорта - games like football, tennis
+   What sports do you play? - Какими видами спорта ты занимаешься?
+
+@spot
+n. B1
+1. пятно, точка - a small round mark
+   a white dress with red spots
+2. место - a place
+   a quiet spot by the river
+3. прыщ - a small red mark on the skin
+v. B1
+4. заметить, увидеть - see, notice
+   I spotted him in the crowd.
+phr. on the spot - на месте, сразу
+
+@spray
+v. B2
+1. распылять, брызгать, опрыскивать - send liquid in small drops
+   She sprayed perfume on her neck.
+n. B2
+2. брызги; спрей, баллончик - small drops; a liquid in a can
+   hair spray
+
+@spread
+v. (spread, spread) B1
+1. распространять(ся) - move to more places or people
+   The fire spread quickly.
+   News spreads fast.
+2. расстилать, раскрывать - open out
+   She spread a cloth on the table.
+3. намазывать - put a thin layer on
+   Spread butter on the bread.
+n. B2
+4. распространение - spreading
+   the spread of disease
+
+@spring
+n. A1
+1. весна - the season after winter
+   in spring - весной
+2. пружина - a coiled piece of metal
+3. родник, источник - water coming from the ground
+v. (sprang, sprung) B2
+4. прыгать, вскакивать - jump suddenly
+   He sprang to his feet.
+
+@spy
+n. B1
+1. шпион - a person who secretly collects information
+v. B2
+2. шпионить, следить (spy on) - watch secretly
+   She was spying on us.
+
+@square
+n. A1
+1. квадрат - a shape with four equal sides
+2. площадь - an open area in a town
+   the main square - главная площадь
+adj. A2
+3. квадратный - shaped like a square
+   a square table
+
+@squeeze
+v. B2
+1. сжимать, выжимать - press firmly
+   He squeezed her hand.
+   squeeze a lemon
+2. втискиваться, протискиваться - push into a small space
+   We all squeezed into the car.
+
+@stab
+v. B2
+1. ударить ножом, заколоть - push a knife into someone
+   He was stabbed in the back.
+
+@stable
+adj. B1
+1. стабильный, устойчивый - firm, not likely to change
+   a stable job
+n. B2
+2. конюшня - a building for horses
+
+@stadium
+n. A2
+1. стадион - a large sports ground with seats
+   a football stadium
+
+@staff
+n. A2
+1. персонал, штат, сотрудники - the people working for an organization
+   The hotel staff were very kind.
+
+@stage
+n. A2
+1. сцена - a raised area in a theatre
+   She came on stage.
+2. этап, стадия - a period in a process
+   at an early stage
+v. B2
+3. ставить (спектакль); устраивать - organize, perform
+   to stage a play
+
+@stagger
+v. C1
+1. шататься, идти шатаясь - walk unsteadily
+   He staggered to the door.
+
+@stain
+n. B2
+1. пятно - a dirty mark
+   a coffee stain
+v. B2
+2. пачкать, оставлять пятна - leave a dirty mark
+   The wine stained the carpet.
+
+@stair
+n. A2
+1. лестница (stairs) - steps inside a building
+   He ran up the stairs. - Он взбежал по лестнице.
+2. ступенька - one step
+
+@stale
+adj. C1
+1. чёрствый, несвежий - no longer fresh
+   stale bread
+2. затхлый, спёртый (о воздухе) - not fresh
+   stale air
+
+@stall
+n. B2
+1. ларёк, прилавок - a table or small shop in a market
+   a fruit stall
+v. C1
+2. глохнуть (о моторе) - (of an engine) stop suddenly
+3. тянуть время - delay
+
+@stamp
+n. A2
+1. марка (почтовая) - a small paper you stick on a letter
+2. печать, штамп - a mark made with ink
+v. B2
+3. топать - put your foot down hard
+   She stamped her foot angrily.
+4. ставить печать - mark with a stamp
+
+@stand
+v. (stood, stood) A1
+1. стоять - be on your feet
+   He stood by the window. - Он стоял у окна.
+2. вставать (stand up) - get up
+   Everyone stood up.
+3. терпеть, выносить (can't stand) - bear
+   I can't stand him. - Я его терпеть не могу.
+4. стоять, находиться - be in a place
+   The castle stands on a hill.
+n. B1
+5. киоск, лоток, стенд - a small shop or table
+6. позиция, отношение - an opinion
+   to take a stand
+phr. stand for - означать
+   What does BBC stand for?
+phr. stand out - выделяться
+
+@standard
+n. B1
+1. уровень, стандарт - a level of quality
+   standard of living
+adj. B1
+2. стандартный, обычный - usual, normal
+   standard size
+
+@star
+n. A1
+1. звезда - a light in the night sky
+   The stars were shining. - Звёзды сияли.
+2. звезда (знаменитость) - a famous person
+   a film star
+v. A2
+3. играть главную роль - have the main part
+   She starred in the film.
+
+@stare
+v. B1
+1. пристально смотреть, уставиться - look for a long time
+   Don't stare at people! - Не пялься на людей!
+n. B2
+2. пристальный взгляд - a long fixed look
+
+@start
+v. A1
+1. начинать(ся) - begin
+   The film starts at eight. - Фильм начинается в восемь.
+2. заводить (мотор) - make a machine work
+   The car won't start.
+3. вздрагивать - jump in surprise
+n. A1
+4. начало - the beginning
+phr. start off / start out - начинать (путь)
+phr. for a start - во-первых, для начала
+
+@startle
+v. C1
+1. напугать, испугать (внезапно) - surprise and frighten
+   You startled me!
+
+@starve
+v. B2
+1. голодать, умирать от голода - suffer or die from hunger
+   Millions are starving.
+phr. be starving - очень хотеть есть (разг.)
+   I'm starving! - Умираю с голоду!
+
+@state
+n. A2
+1. состояние - condition
+   The house was in a bad state.
+2. государство; штат - a country; part of a country (USA)
+   the state of Texas
+v. B1
+3. заявлять, утверждать - say formally
+   He stated that he was innocent.
+
+@statement
+n. B1
+1. заявление, показание - something said formally
+   He made a statement to the police.
+
+@station
+n. A1
+1. вокзал, станция - a place where trains or buses stop
+   the railway station - железнодорожный вокзал
+2. станция, участок - a building for a service
+   a police station - полицейский участок
+3. станция (радио, ТВ) - a radio or TV company
+
+@statue
+n. B1
+1. статуя - a figure of stone or metal
+   a statue of the king
+
+@status
+n. B2
+1. положение, статус - position in society
+   social status
+
+@stay
+v. A1
+1. оставаться - not leave
+   Stay here! - Останься здесь!
+2. останавливаться, жить (временно) - live for a short time
+   We stayed in a hotel. - Мы остановились в гостинице.
+3. оставаться (каким-то) - remain
+   Stay calm.
+n. A2
+4. пребывание, визит - a time spent somewhere
+   a short stay in hospital
+phr. stay up - не ложиться спать
+
+@steady
+adj. B1
+1. постоянный, равномерный - regular, developing gradually
+   a steady rise in prices
+2. устойчивый, твёрдый - firm, not shaking
+   Hold the ladder steady.
+
+@steal
+v. (stole, stolen) A2
+1. красть, воровать - take something that is not yours
+   Someone stole my bag. - Кто-то украл мою сумку.
+2. прокрадываться - move quietly
+   He stole out of the room.
+
+@steam
+n. B1
+1. пар - hot gas from boiling water
+
+@steel
+n. B1
+1. сталь - a strong hard metal
+   a steel door
+phr. nerves of steel - стальные нервы
+
+@steep
+adj. B1
+1. крутой - rising sharply
+   a steep hill
+2. резкий (рост, падение) - large and sudden
+
+@steer
+v. B2
+1. править, управлять (машиной, лодкой) - control the direction
+   He steered the boat towards the shore.
+
+@step
+n. A2
+1. шаг - a movement of your foot
+   He took a step back. - Он сделал шаг назад.
+2. ступенька - a stair
+   She sat on the steps.
+3. шаг, мера - an action in a process
+   the first step
+v. B1
+4. шагать, ступать - move your foot
+   Don't step on the grass.
+phr. step by step - шаг за шагом
+
+@stern
+adj. C1
+1. строгий, суровый - serious and strict
+   a stern voice
+
+@stew
+n. B2
+1. рагу, тушёное мясо - meat and vegetables cooked slowly in liquid
+   beef stew
+v. C1
+2. тушить - cook slowly in liquid
+
+@stick
+v. (stuck, stuck) A2
+1. приклеивать(ся), прилипать - fix with glue; be fixed
+   Stick a stamp on the letter.
+2. втыкать, вонзать - push something sharp into
+   She stuck a pin in the map.
+3. застревать (get stuck) - be unable to move
+   The door is stuck.
+   We got stuck in traffic.
+4. сунуть, положить (разг.) - put
+   Stick it in the bag.
+n. A2
+5. палка, прут - a thin piece of wood
+phr. stick to - придерживаться
+   Stick to the plan.
+phr. stick out - торчать; высовывать
+
+@sticky
+adj. B1
+1. липкий - covered with something that sticks
+   sticky fingers
+2. душный, влажный (о погоде) - hot and wet
+3. трудный, щекотливый (разг.) - difficult
+   a sticky situation
+
+@stiff
+adj. B2
+1. жёсткий, негнущийся - hard to bend
+   stiff paper
+2. одеревеневший, затёкший - painful when you move
+   I have a stiff neck.
+3. сдержанный, натянутый - formal, unfriendly
+   a stiff smile
+
+@still
+adv. A1
+1. всё ещё, до сих пор - continuing until now
+   He's still asleep. - Он всё ещё спит.
+2. всё же, тем не менее - but, even so
+   It was raining. Still, we had fun.
+3. ещё (с сравнительной степенью) - even
+   It got still colder.
+adj. A2
+4. неподвижный, тихий - not moving; calm
+   Sit still! - Сиди спокойно!
+   The lake was still.
+
+@sting
+v. (stung, stung) B2
+1. жалить - hurt with a sharp point (of insects)
+   A bee stung me.
+2. щипать, жечь - cause sharp pain
+   My eyes were stinging.
+n. B2
+3. укус, жало - a wound or the sharp part of an insect
+
+@stink
+v. (stank, stunk) C1
+1. вонять, смердеть - have a very bad smell
+   The room stank of fish.
+
+@stir
+v. B2
+1. мешать, размешивать - mix a liquid with a spoon
+   Stir the soup.
+2. шевелиться - move slightly
+   The baby stirred in its sleep.
+3. пробуждать (чувства) - cause feelings
+n. C1
+4. волнение, шум - excitement
+   The news caused a stir.
+
+@stitch
+n. B2
+1. стежок; шов - a piece of thread in cloth or a wound
+   He needed six stitches.
+2. колотьё в боку - a pain in your side after running
+v. C1
+3. шить, зашивать - sew
+
+@stock
+n. B2
+1. запас, товар на складе - goods in a shop
+   in stock - в наличии
+   out of stock - нет в наличии
+2. акции - shares in a company
+   the stock market
+v. B2
+3. иметь в продаже - keep goods for sale
+   We don't stock that brand.
+
+@stomach
+n. A2
+1. желудок, живот - the organ where food goes; belly
+   I have a pain in my stomach. - У меня болит живот.
+v. C1
+2. выносить, терпеть - accept something unpleasant
+   I can't stomach violence.
+
+@stone
+n. A2
+1. камень - a small piece of rock; rock as material
+   He threw a stone. - Он бросил камень.
+   a stone wall
+2. косточка (плода) - the hard seed in some fruit
+3. стоун (6,35 кг) - a British unit of weight
+
+@stool
+n. B2
+1. табурет, табуретка - a seat with no back
+   a bar stool
+
+@stoop
+v. C1
+1. наклоняться, нагибаться - bend your body down
+   He stooped to pick up a coin.
+2. сутулиться - stand with your back bent
+phr. stoop to - опуститься до (чего-то низкого)
+   I won't stoop to lying.
+
+@stop
+v. A1
+1. останавливать(ся) - end movement
+   The bus stopped. - Автобус остановился.
+2. прекращать, переставать - not continue
+   Stop talking! - Хватит болтать!
+   It stopped raining.
+3. мешать, не давать (stop from) - prevent
+   Nobody can stop me.
+n. A1
+4. остановка - a place where buses stop
+   the bus stop - автобусная остановка
+5. остановка (прекращение) - an end of movement
+   The train came to a stop.
+
+@store
+n. A1
+1. магазин - a shop
+   a department store - универмаг
+2. запас - a supply kept for later
+v. B1
+3. хранить, запасать - keep for later
+   Store in a cool place.
+phr. in store for - ожидает, готовится
+   I don't know what's in store for us.
+
+@storm
+n. A2
+1. буря, гроза, шторм - very bad weather with wind and rain
+   The storm lasted all night. - Буря продолжалась всю ночь.
+v. B2
+2. ворваться; выбежать (в гневе) - go angrily
+   She stormed out of the room.
+3. штурмовать - attack a place
+
+@story
+n. A1
+1. рассказ, история, сказка - a description of events, real or not
+   Tell me a story. - Расскажи мне сказку.
+2. статья, сообщение - a news report
+3. этаж (амер. story, брит. storey) - a floor of a building
+
+@stove
+n. B2
+1. плита, печь - a thing you cook on or heat a room with
+   a gas stove

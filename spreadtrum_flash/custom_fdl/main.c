@@ -1,0 +1,394 @@
+#include "common.h"
+#include "cmd_def.h"
+#include "packet.h"
+#include "channel.h"
+
+#if WITH_SFC
+#include "sfc.c"
+#define ERASE_CMD 0x20
+#define ERASE_BLK 0x1000
+#endif
+
+#if WITH_EFUSE
+#include "efuse.h"
+#endif
+
+#if FDL_DEBUG
+struct _IO_FILE;
+typedef struct _IO_FILE FILE;
+extern FILE *stdout;
+int fputc(int, FILE*);
+#include <stdarg.h>
+#define PREFIX(name) name
+// fpdoom/libc/printf.h
+#include "printf.h"
+
+__attribute__((unused))
+static void fdl_printf(const char *fmt, ...) {
+	uint8_t *pkt = dl_send_buf();
+	int len;
+	va_list va;
+	va_start(va, fmt);
+	len = vsnprintf((char*)pkt + 4, MAX_PKT_PAYLOAD, fmt, va);
+	WRITE16_BE(pkt, BSL_REP_LOG);
+	WRITE16_BE(pkt + 2, len);
+	dl_send_packet(pkt);
+}
+#define DBG_LOG(...) fdl_printf(__VA_ARGS__)
+#else
+#define DBG_LOG(...) (void)0
+#endif
+
+static struct {
+	uintptr_t start;
+	uint32_t size, recv;
+} dl_status;
+
+#define FW_ADDR (_chip != 1 ? 0x30000000 : 0x10000000)
+
+#if WITH_SFC
+static uint32_t flash_id = ~0;
+
+static void sfc_unlock(void) {
+	unsigned cs = 0, id = flash_id, id1;
+	if (~id) return;
+	flash_id = id = sfc_readid(cs);
+	DBG_LOG("sfc: id = 0x%06x\n", id);
+	id1 = id >> 16;
+	do {
+		unsigned mask, sr1, sr2 = 0;
+		mask = 0xfc;
+		if (id1 == 0xef) goto match; /* Winbond */
+		if (id1 == 0xc8) goto match; /* GigaDevice */
+		mask = 0xbc;
+		if (id1 == 0xc2) goto match; /* Macronix */
+		break;
+match:
+		// 4MB (32Mbit) chips use the value 0x38,
+		// which means the first 2MB are locked.
+		sr1 = sfc_read_status(cs);
+		DBG_LOG("sfc: sr1 = 0x%02x\n", sr1);
+		if (mask == 0xfc) {
+			sr2 = sfc_cmd_read(cs, 0x35, 1) >> 24;
+			DBG_LOG("sfc: sr2 = 0x%02x\n", sr2);
+		}
+		if (id1 == 0xc8) { /* GigaDevice */
+			sr1 |= sr2 << 8;
+			if (sr1 & 0x40fc)
+				sfc_cmd_write(cs, 0x01, sr1 & ~0x40fc, 2);
+		} else {
+			if (sr1 & mask)
+				sfc_cmd_write(cs, 0x01, sr1 & ~mask, 1);
+			if (sr2 & 0x40)
+				sfc_cmd_write(cs, 0x31, sr2 & ~0x40, 1);
+		}
+	} while (0);
+	sfc_spiread(cs);
+}
+#endif
+
+static int data_start(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	uint32_t addr = READ32_BE(pkt + 4);
+	uint32_t size = READ32_BE(pkt + 8);
+
+	if (len != 8)
+		return BSL_REP_INVALID_CMD;
+
+	dl_status.start = addr;
+	dl_status.size = size;
+	dl_status.recv = 0;
+	return BSL_REP_ACK;
+}
+
+#if WITH_SFC
+static int write_and_check(int cs, int addr, void *buf, unsigned size, uint32_t fw_addr) {
+	uint8_t *d, *s; int i;
+	sfc_write(cs, addr, buf, size);
+	sfc_spiread(cs);
+	d = (uint8_t*)fw_addr + addr + size;
+	s = (uint8_t*)buf + size;
+	i = 0 - size;
+	if (!(((uintptr_t)buf | addr) & 3))
+		for (; i <= -4; i += 4)
+			if (*(uint32_t*)&d[i] != *(uint32_t*)&s[i]) return 1;
+	for (; i; i++) if (d[i] != s[i]) return 1;
+	return 0;
+}
+#endif
+
+static int data_midst(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	unsigned remain = dl_status.size - dl_status.recv;
+	uint32_t addr, fw_addr;
+	uint8_t *src = pkt + 4;
+
+	if (len > remain)
+		return BSL_REP_DOWN_SIZE_ERROR;
+
+	addr = dl_status.start + dl_status.recv;
+	fw_addr = FW_ADDR;
+	dl_status.recv += len;
+	if ((addr - fw_addr) >> 24) {
+		memcpy((uint8_t*)addr, src, len);
+	} else {
+#if WITH_SFC
+#if ERASE_BLK > 0x1000
+#error
+#endif
+		unsigned cs = 0;
+		uint8_t *buf = (uint8_t*)CHIPRAM_ADDR + 0x9000;
+		unsigned blk = ERASE_BLK;
+#if FDL_DEBUG
+		uint8_t *src2 = (uint8_t*)CHIPRAM_ADDR + 0x4000 - len;
+		memcpy(src2, src, len); src = src2;
+#endif
+		sfc_init();
+		sfc_unlock();
+		while (len) {
+			unsigned i, n = blk - (addr & (blk - 1));
+			unsigned diff = 0;
+			if (n > len) n = len;
+			len -= n;
+			for (i = 0; i < n; i++) {
+				int a = *(uint8_t*)(addr + i);
+				int b = src[i];
+				a ^= b;
+				if (a & b) break;
+				diff |= a;
+			}
+			if (i != n) {
+				uint32_t addr2, tmp;
+				memcpy(buf, (uint8_t*)(addr & -blk), addr & (blk - 1));
+				addr2 = addr + n;
+				memcpy(buf + (addr & (blk - 1)), src, n);
+				tmp = -addr2 & (blk - 1);
+				i = dl_status.start + dl_status.size - addr2;
+				if (i > tmp) i = tmp;
+				tmp = addr2 & (blk - 1); addr2 += i;
+				memset(buf + tmp, -1, i);
+				tmp = addr2 & (blk - 1);
+				memcpy(buf + tmp, (uint8_t*)addr2, -addr2 & (blk - 1));
+				addr2 = (addr & -blk) - fw_addr;
+				DBG_LOG("sfc_erase %u, 0x%x\n", cs, addr2);
+				sfc_erase(cs, addr2, ERASE_CMD, 3);
+				DBG_LOG("sfc_write %u, 0x%x, %p, 0x%x\n", cs, addr2, buf, blk);
+				if (write_and_check(cs, addr2, buf, blk, fw_addr))
+					return BSL_REP_OPERATION_FAILED;
+			} else if (diff) {
+				DBG_LOG("sfc_write %u, 0x%x, %p, 0x%x\n", cs, addr - fw_addr, src, n);
+				if (write_and_check(cs, addr - fw_addr, src, n, fw_addr))
+					return BSL_REP_OPERATION_FAILED;
+			}
+			addr += n; src += n;
+		}
+#else
+		return BSL_REP_DOWN_SIZE_ERROR;
+#endif
+	}
+	return BSL_REP_ACK;
+}
+
+static int data_end(void) {
+	uint32_t recv = dl_status.recv;
+	uint32_t size = dl_status.size;
+
+	if (size != recv)
+		return BSL_REP_DOWN_EARLY_END;
+	return BSL_REP_ACK;
+}
+
+static int data_exec(void) {
+	typedef void (*entry_t)(void);
+	uintptr_t start = dl_status.start;
+
+	if (start == ~0u)
+		return BSL_REP_INVALID_CMD;
+
+	((entry_t)start)();
+	return BSL_REP_ACK;
+}
+
+static int set_baudrate(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	uint32_t baudrate;
+
+	if (len != 4)
+		return BSL_REP_INVALID_CMD;
+
+	baudrate = READ32_BE(pkt + 4);
+	dl_channel->open(dl_channel, baudrate);
+	return BSL_REP_ACK;
+}
+
+static int read_flash(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	uint32_t addr = READ32_BE(pkt + 4);
+	uint32_t size = READ32_BE(pkt + 8);
+	uint32_t offs = -1;
+
+	if ((len != 8 && len != 12) ||
+			size >= MAX_PKT_PAYLOAD)
+		return BSL_REP_INVALID_CMD;
+
+	if (len == 12) offs = READ32_BE(pkt + 12);
+	if (offs != ~0u) {
+		if (addr == 0x80000003)
+			addr = FW_ADDR + offs;
+	}
+
+	pkt = dl_send_buf();
+	WRITE16_BE(pkt, BSL_REP_READ_FLASH);
+	WRITE16_BE(pkt + 2, size);
+	memcpy(pkt + 4, (void*)addr, size);
+	dl_send_packet(pkt);
+	return 0;
+}
+
+#if WITH_SFC
+static int erase_flash(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	uint32_t addr = READ32_BE(pkt + 4);
+	uint32_t size = READ32_BE(pkt + 8);
+	uint32_t fw_addr;
+	unsigned i, blk = ERASE_BLK;
+
+	if (len != 8)
+		return BSL_REP_INVALID_CMD;
+
+	fw_addr = FW_ADDR;
+	if ((addr - fw_addr) >> 24 | ((addr | size) & (blk - 1)))
+		return BSL_REP_INVALID_CMD;
+
+	if (size) {
+		unsigned cs = 0;
+		uint32_t end = addr + size;
+		sfc_init();
+		sfc_unlock();
+		do {
+			for (i = 0; i < blk; i++)
+				if (~*(uint32_t*)(addr + i)) break;
+			if (i != blk) {
+				DBG_LOG("sfc_erase %u, 0x%x\n", cs, addr - fw_addr);
+				sfc_erase(cs, addr - fw_addr, ERASE_CMD, 3);
+				sfc_spiread(cs);
+				for (i = 0; i < blk; i++)
+					if (~*(uint32_t*)(addr + i)) break;
+				if (i != blk) return BSL_REP_OPERATION_FAILED;
+			}
+		} while ((addr += blk) != end);
+	}
+	return BSL_REP_ACK;
+}
+#endif
+
+#if WITH_EFUSE
+static int read_efuse(uint8_t *pkt) {
+	unsigned len = READ16_BE(pkt + 2);
+	unsigned i, n;
+
+	if (len) return BSL_REP_INVALID_CMD;
+
+	pkt = dl_send_buf();
+	WRITE16_BE(pkt, BSL_REP_READ_FLASH);
+
+	efuse_init();
+	n = EFUSE_MAX;
+	for (i = 0; i < n; i++)
+		if (efuse_read(i, (uint32_t*)(pkt + 4) + i))
+			return BSL_REP_OPERATION_FAILED;
+	efuse_off();
+
+	WRITE16_BE(pkt + 2, n * 4);
+	dl_send_packet(pkt);
+	return 0;
+}
+#endif
+
+void dl_main(void) {
+	uint8_t *pkt;
+#if 0
+	static const char version[] = { "Spreadtrum Boot Block version 1.2" };
+#else
+	static char version[] = { "Custom FDL1: CHIP ID = 0x00000000" };
+	{
+		uint32_t i = 25, t, a;
+		for (t = chip_id; t; t <<= 4) {
+			a = t >> 28;
+			if (a >= 10) a += 'a' - '0' - 10;
+			version[i++] = a + '0';
+		}
+	}
+#endif
+
+	dl_packet_init();
+	dl_status.start = ~0;
+
+	for (;;) {
+		int ch = dl_channel->getchar(dl_channel, 1);
+		if (ch == HDLC_HEADER) break;
+	}
+
+	pkt = dl_send_buf();
+	WRITE16_BE(pkt, BSL_REP_VER);
+	WRITE16_BE(pkt + 2, sizeof(version));
+	memcpy(pkt + 4, version, sizeof(version));
+	dl_send_packet(pkt);
+
+	for (;;) {
+		pkt = dl_get_packet();
+		int type = READ16_BE(pkt);
+		int ret;
+		switch (type) {
+		case BSL_CMD_CONNECT:
+			ret = BSL_REP_ACK;
+			break;
+
+		case BSL_CMD_START_DATA:
+			ret = data_start(pkt);
+			break;
+
+		case BSL_CMD_MIDST_DATA:
+			ret = data_midst(pkt);
+			break;
+
+		case BSL_CMD_END_DATA:
+			ret = data_end();
+			break;
+
+		case BSL_CMD_EXEC_DATA:
+			ret = data_exec();
+			break;
+
+		case BSL_CMD_CHANGE_BAUD:
+			ret = set_baudrate(pkt);
+			break;
+
+		case BSL_CMD_READ_FLASH:
+			ret = read_flash(pkt);
+			break;
+
+#if WITH_SFC
+		case BSL_CMD_ERASE_FLASH:
+			ret = erase_flash(pkt);
+			break;
+#endif
+
+#if WITH_EFUSE
+		case 0x6566: // "ef"
+			ret = read_efuse(pkt);
+			break;
+#endif
+
+		case BSL_CMD_OFF_CHG:
+			ret = BSL_REP_ACK;
+			break;
+
+		default:
+			ret = BSL_REP_UNKNOWN_CMD;
+		}
+		if (ret > 0)
+			dl_send_ack(ret);
+	}
+}
+

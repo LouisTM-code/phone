@@ -1,0 +1,661 @@
+@table
+n. A1
+1. стол - a piece of furniture with a flat top and legs
+   Put the plates on the table. - Поставь тарелки на стол.
+2. таблица - numbers or facts in rows and columns
+   Look at the table on page 10.
+phr. set the table - накрывать на стол
+
+@tablet
+n. B1
+1. таблетка - a small pill of medicine
+   Take two tablets a day.
+2. планшет - a small flat computer
+   She reads books on her tablet.
+
+@tackle
+v. B2
+1. браться за (проблему), решать - try to deal with a problem
+   We must tackle this problem now.
+2. схватить, повалить (в игре, в драке) - try to stop someone by grabbing them
+   The policeman tackled the thief.
+n. B2
+3. снасти (рыболовные) - things for fishing
+   He packed his fishing tackle.
+
+@tag
+n. B2
+1. ярлык, бирка - a small label
+   a price tag - ценник
+v. B2
+2. отмечать, помечать - put a label on
+
+@tail
+n. A2
+1. хвост - the part at the back of an animal's body
+   The dog wagged its tail. - Собака виляла хвостом.
+2. решка (у монеты) - the side of a coin without a head
+   Heads or tails?
+v. B2
+3. следить, идти по пятам - follow someone secretly
+   The police tailed him for days.
+
+@tailor
+n. B2
+1. портной - a person who makes suits
+   He had his suit made by a tailor.
+
+@take
+v. (took, taken) A1
+1. брать, взять - get something into your hands
+   Take my hand. - Возьми меня за руку.
+2. отнести, отвезти, отвести - carry or lead to a place
+   I'll take you home. - Я отвезу тебя домой.
+3. занимать (о времени) - need an amount of time
+   It takes an hour to get there. - Дорога занимает час.
+4. принимать (лекарство, решение и т.п.) - swallow; accept
+   Take two pills a day.
+phr. take off - снимать (одежду); взлетать
+phr. take place - происходить, иметь место
+phr. take care of - заботиться о
+phr. take after - быть похожим на (родителя)
+
+@tale
+n. B1
+1. рассказ, сказка, история - a story, often not true
+   She told us a tale about a brave knight.
+phr. fairy tale - сказка (волшебная)
+
+@talent
+n. B1
+1. талант - a natural ability to do something well
+   She has a talent for music. - У неё талант к музыке.
+
+@talk
+v. A1
+1. говорить, разговаривать - speak to someone
+   We talked for hours. - Мы разговаривали часами.
+n. A2
+2. разговор, беседа - a conversation
+   I had a long talk with my father.
+3. доклад, лекция - a speech to a group
+   He gave a talk about history.
+phr. talk someone into - уговорить кого-то
+
+@tall
+adj. A1
+1. высокий (о человеке, здании) - big from top to bottom
+   He is very tall. - Он очень высокий.
+   The tree is ten metres tall.
+
+@tame
+adj. B2
+1. ручной, приручённый - not wild, used to people
+   The bird was so tame it sat on my hand.
+v. B2
+2. приручать, укрощать - make an animal not wild
+   He tamed a wild horse.
+
+@tank
+n. B1
+1. бак, резервуар - a big container for liquid or gas
+   Fill the tank with petrol.
+2. танк - a heavy army vehicle with a gun
+   Tanks rolled into the city.
+3. аквариум - a glass box for fish
+   We keep fish in a tank.
+
+@tap
+n. B1
+1. кран (водопроводный) - a thing you turn to get water
+   Turn off the tap. - Закрой кран.
+2. лёгкий стук, хлопок - a light knock or touch
+   There was a tap at the window.
+v. B1
+3. постучать, похлопать - hit lightly
+   She tapped me on the shoulder.
+
+@tape
+n. B1
+1. лента, скотч - a long thin strip of sticky material
+   Fix it with tape.
+2. кассета, плёнка - a strip that records sound or pictures
+   He played an old tape.
+v. B1
+3. записывать (на плёнку) - record
+   They taped the interview.
+
+@target
+n. B1
+1. цель, мишень - a thing you try to hit
+   The arrow hit the target.
+2. цель, задача - a result you want to reach
+   We met our sales target.
+v. B2
+3. нацеливаться на, быть направленным на - aim at
+   The ads target young people.
+
+@task
+n. A2
+1. задача, задание - a piece of work you must do
+   This is a difficult task. - Это трудная задача.
+
+@taste
+n. A2
+1. вкус - the flavour of food
+   I like the taste of honey. - Мне нравится вкус мёда.
+2. вкус (умение выбирать) - the ability to choose good things
+   She has good taste in clothes.
+v. A2
+3. иметь вкус - have a flavour
+   This soup tastes great.
+4. пробовать (на вкус) - try food
+   Taste this cake.
+
+@tasty
+adj. A2
+1. вкусный - with a good taste
+   a tasty meal - вкусная еда
+
+@tax
+n. B1
+1. налог - money you pay to the government
+   We pay taxes every year. - Мы платим налоги каждый год.
+v. B2
+2. облагать налогом - make someone pay tax
+   Cigarettes are heavily taxed.
+
+@taxi
+n. A1
+1. такси - a car you pay to drive you somewhere
+   Let's take a taxi. - Давай возьмём такси.
+
+@tea
+n. A1
+1. чай - a hot drink made from leaves
+   Would you like a cup of tea? - Хочешь чашку чая?
+2. полдник, ужин (в Англии) - a light meal in the afternoon or evening
+   Come round for tea.
+
+@teach
+v. (taught, taught) A1
+1. учить, преподавать - help someone learn
+   She teaches English. - Она преподаёт английский.
+   My dad taught me to swim.
+
+@teacher
+n. A1
+1. учитель - a person who teaches
+   Our teacher is very kind. - Наш учитель очень добрый.
+
+@team
+n. A1
+1. команда - a group of people who play or work together
+   Which team do you support? - За какую команду ты болеешь?
+
+@tear
+n. A2
+1. слеза - a drop of water from your eye when you cry
+   Tears ran down her face. - Слёзы текли по её лицу.
+phr. in tears - в слезах
+v. (tore, torn) B1
+2. рвать, разорвать - pull apart, make a hole
+   He tore the letter into pieces.
+3. мчаться, нестись - move very fast
+   She tore down the street.
+phr. tear up - разорвать (на клочки)
+
+@tease
+v. B2
+1. дразнить, подшучивать - laugh at someone in a playful or unkind way
+   They teased him about his hair.
+
+@technical
+adj. B1
+1. технический - connected with machines or science
+   technical problems
+
+@technique
+n. B1
+1. техника, метод, приём - a special way of doing something
+   a new technique for teaching
+
+@technology
+n. A2
+1. техника, технология - machines and science used in practical ways
+   Modern technology changes fast.
+
+@teenager
+n. A2
+1. подросток - a person aged 13 to 19
+   She has two teenagers. - У неё двое подростков.
+
+@telephone
+n. A1
+1. телефон - a device to speak to people far away
+   The telephone rang. - Зазвонил телефон.
+v. A2
+2. звонить (по телефону) - call
+   I'll telephone you tomorrow.
+
+@television
+n. A1
+1. телевизор; телевидение - a box with a screen that shows programmes
+   We watched television all evening. - Мы весь вечер смотрели телевизор.
+
+@tell
+v. (told, told) A1
+1. сказать, сообщить - give information to someone
+   Tell me your name. - Скажи мне своё имя.
+2. рассказывать - give a story
+   Grandma told us a story.
+3. велеть, приказать - order someone to do something
+   He told me to wait. - Он велел мне подождать.
+4. различать, понять - know or see the difference
+   I can't tell them apart. - Я не могу их различить.
+phr. tell off - отчитать, отругать
+
+@temper
+n. B2
+1. характер, нрав (вспыльчивость) - a tendency to get angry
+   He has a terrible temper.
+2. настроение - mood
+   She was in a good temper.
+phr. lose your temper - выйти из себя
+
+@temperature
+n. A2
+1. температура - how hot or cold something is
+   The temperature fell below zero.
+2. жар, высокая температура - a fever
+   The child has a temperature. - У ребёнка температура.
+
+@temple
+n. B1
+1. храм - a building for worship
+   They visited an old temple.
+2. висок - the side of your head near the eye
+   Grey hair at his temples.
+
+@temporary
+adj. B1
+1. временный - lasting only a short time
+   This is a temporary job.
+
+@tempt
+v. B2
+1. соблазнять, искушать - make someone want something
+   The cake tempted me.
+phr. be tempted to - испытывать соблазн
+
+@temptation
+n. B2
+1. соблазн, искушение - a wish to do something you shouldn't
+   I couldn't resist the temptation.
+
+@ten
+num. A1
+1. десять - 10
+   ten minutes - десять минут
+
+@tend
+v. B1
+1. иметь тенденцию, обычно (делать) - usually do something
+   He tends to be late. - Он обычно опаздывает.
+2. ухаживать, присматривать - look after
+   She tended the sick.
+
+@tender
+adj. B2
+1. нежный, ласковый - gentle and loving
+   He gave her a tender smile.
+2. мягкий (о мясе) - soft, easy to cut
+   The meat was tender.
+3. болезненный (при касании) - painful when touched
+   My knee is still tender.
+
+@tennis
+n. A1
+1. теннис - a game with rackets and a ball over a net
+   Let's play tennis. - Давай поиграем в теннис.
+
+@tense
+adj. B2
+1. напряжённый, нервный - nervous, not relaxed
+   She looked tense.
+n. B1
+2. время (глагола) - a verb form showing time
+   the past tense
+
+@tension
+n. B2
+1. напряжение, напряжённость - a nervous, worried feeling
+   You could feel the tension in the room.
+2. натяжение - tightness of a rope or muscle
+   Relax the tension in your neck.
+
+@tent
+n. A2
+1. палатка, шатёр - a cloth shelter for camping
+   We slept in a tent. - Мы спали в палатке.
+
+@term
+n. B1
+1. термин, выражение - a word with a special meaning
+   a medical term
+2. четверть, семестр - a part of the school year
+   The summer term starts in April.
+3. срок - a period of time
+   a term of five years
+4. условия (договора) - conditions (pl.)
+   the terms of the agreement
+phr. on good terms - в хороших отношениях
+phr. in terms of - с точки зрения
+
+@terrible
+adj. A2
+1. ужасный, страшный - very bad
+   The food was terrible. - Еда была ужасная.
+   I feel terrible.
+
+@terribly
+adv. B1
+1. ужасно, очень - very
+   I'm terribly sorry. - Мне ужасно жаль.
+2. ужасно, очень плохо - very badly
+   He played terribly.
+
+@terrific
+adj. B2
+1. потрясающий, отличный - very good
+   You look terrific!
+2. огромный, страшный (о силе, шуме) - very great
+   a terrific noise
+
+@terrify
+v. B2
+1. пугать, приводить в ужас - make very afraid
+   Spiders terrify me.
+phr. be terrified of - ужасно бояться
+
+@territory
+n. B2
+1. территория, земля - land owned by a country or animal
+   enemy territory
+
+@terror
+n. B2
+1. ужас, страх - very great fear
+   She screamed in terror.
+2. террор - violence for political aims
+   the war on terror
+
+@test
+n. A1
+1. контрольная, экзамен, тест - a set of questions to check knowledge
+   I passed my driving test. - Я сдал экзамен на права.
+2. анализ, проверка - a check of health or quality
+   a blood test
+v. A2
+3. проверять, испытывать - check how good something is
+   Test the water before you jump.
+
+@text
+n. A1
+1. текст - written words
+   Read the text. - Прочитай текст.
+2. сообщение (СМС) - a message on a phone
+   I sent her a text.
+v. A2
+3. написать СМС - send a phone message
+   Text me when you arrive.
+
+@than
+conj., prep. A1
+1. чем - used to compare
+   He is taller than me. - Он выше меня.
+   I have more than you.
+phr. rather than - вместо того чтобы
+phr. no sooner... than - едва... как
+
+@thank
+v. A1
+1. благодарить - say you are grateful
+   I thanked her for the gift. - Я поблагодарил её за подарок.
+phr. thank you - спасибо
+phr. thanks to - благодаря
+
+@thankful
+adj. B2
+1. благодарный; радый (что) - glad and grateful
+   I was thankful to be home.
+
+@thanks
+excl., n. A1
+1. спасибо - thank you
+   Thanks a lot! - Большое спасибо!
+2. благодарность - words of thanks
+phr. thanks to - благодаря
+
+@that
+det., pron. A1
+1. тот, та, то; это - the one there, not this
+   Look at that man. - Посмотри на того человека.
+   What's that? - Что это?
+conj. A1
+2. что - joins two parts of a sentence
+   I know that he is right. - Я знаю, что он прав.
+pron. A2
+3. который - used to say which one
+   The book that I read was good.
+adv. B1
+4. так, настолько - so, very
+   It's not that hard. - Это не так уж трудно.
+
+@the
+det. A1
+1. (определённый артикль) - used for a thing already known
+   Close the door. - Закрой дверь.
+   The sun is hot.
+2. чем... тем - used to compare two changes
+   The more, the better. - Чем больше, тем лучше.
+
+@theatre
+n. A1
+1. театр - a building where you watch plays (Am. theater)
+   We went to the theatre. - Мы ходили в театр.
+2. операционная - a room in a hospital for operations
+   He is still in the operating theatre.
+
+@theft
+n. B2
+1. кража - the crime of stealing
+   He was arrested for theft.
+
+@their
+det. A1
+1. их, свой - belonging to them
+   This is their house. - Это их дом.
+   They washed their hands.
+
+@theirs
+pron. A2
+1. их (без существительного) - the one belonging to them
+   This car is theirs. - Эта машина их.
+
+@them
+pron. A1
+1. их, им, ими - used for "they" after a verb or preposition
+   I saw them yesterday. - Я видел их вчера.
+   Give it to them.
+
+@theme
+n. B1
+1. тема - the main subject or idea
+   Love is the main theme of the book.
+
+@themselves
+pron. A2
+1. себя, себе; сами - used when "they" do something to them
+   They hurt themselves.
+   They did it themselves. - Они сделали это сами.
+
+@then
+adv. A1
+1. тогда, в то время - at that time
+   I was young then. - Тогда я был молод.
+2. потом, затем - next, after that
+   We ate, then we went out. - Мы поели, потом вышли.
+3. тогда, в таком случае - so, in that case
+   Then let's go.
+phr. now and then - время от времени
+
+@theory
+n. B1
+1. теория - an idea that explains something
+   That's just a theory.
+phr. in theory - теоретически
+
+@there
+adv. A1
+1. там, туда - in or to that place
+   Put it there. - Положи это туда.
+   I live there.
+2. вот - used to show something
+   There you are! - Вот ты где!
+pron. A1
+3. (в оборотах there is/are) есть, имеется - says something exists
+   There is a cat in the garden. - В саду кошка.
+
+@therefore
+adv. B1
+1. поэтому, следовательно - for that reason
+   He was ill and therefore stayed home.
+
+@these
+det., pron. A1
+1. эти - plural of "this"
+   These shoes are new. - Эти туфли новые.
+phr. these days - в наши дни
+
+@they
+pron. A1
+1. они - the people or things already talked about
+   They are my friends. - Они мои друзья.
+2. (о человеке, пол не важен) он, она - a person
+   Someone called but they didn't leave a name.
+
+@thick
+adj. A2
+1. толстый - wide from one side to the other
+   a thick book - толстая книга
+2. густой - dense, close together
+   thick fog, thick hair
+3. тупой, глупый (разг.) - stupid
+   Don't be so thick!
+
+@thief
+n. (pl. thieves) B1
+1. вор - a person who steals
+   The thief ran away. - Вор убежал.
+
+@thigh
+n. B2
+1. бедро - the top part of your leg
+   He was shot in the thigh.
+
+@thin
+adj. A1
+1. худой - with little fat on the body
+   She is very thin. - Она очень худая.
+2. тонкий - not thick
+   a thin slice of bread
+3. жидкий, редкий - with little in it
+   thin soup, thin hair
+
+@thing
+n. A1
+1. вещь, предмет - an object
+   Pack your things. - Собери свои вещи.
+2. дело, событие, вещь - an action, idea or event
+   A strange thing happened. - Случилась странная вещь.
+phr. the thing is - дело в том, что
+
+@think
+v. (thought, thought) A1
+1. думать, полагать - believe, have an opinion
+   I think you're right. - Я думаю, ты прав.
+2. думать, размышлять - use your mind
+   Let me think. - Дай подумать.
+phr. think of/about - думать о; придумать
+phr. think over - обдумать
+
+@third
+num. A1
+1. третий - number 3 in order
+   the third floor - третий этаж
+n. A2
+2. треть - one of three equal parts
+   a third of the money
+
+@thirst
+n. B2
+1. жажда - the need to drink
+   They died of thirst.
+2. жажда (чего-то), стремление - a strong wish
+   a thirst for knowledge
+
+@thirsty
+adj. A1
+1. испытывающий жажду - wanting to drink
+   I'm thirsty. - Я хочу пить.
+
+@this
+det., pron. A1
+1. этот, эта, это - the one here or now
+   This is my sister. - Это моя сестра.
+   this morning - сегодня утром
+adv. B1
+2. так, настолько - so, to this degree
+   I didn't know it was this late.
+
+@thorn
+n. B2
+1. шип, колючка - a sharp point on a plant
+   the thorns of a rose
+
+@thorough
+adj. B2
+1. тщательный, полный - careful and complete
+   The police made a thorough search.
+
+@those
+det., pron. A1
+1. те - plural of "that"
+   Those were happy days. - То были счастливые дни.
+2. те, кто - the people who
+   Those who want can stay.
+
+@though
+conj. B1
+1. хотя - but, even if
+   Though it was cold, we went out. - Хотя было холодно, мы вышли.
+adv. B1
+2. однако, всё же - however (at the end)
+   It was a good film. Too long, though.
+phr. as though - как будто
+phr. even though - хотя, даже если
+
+@thought
+n. A2
+1. мысль - an idea in your mind
+   I had a sudden thought. - Мне в голову пришла мысль.
+2. размышление, раздумье - thinking
+   She was lost in thought.
+
+@thoughtful
+adj. B2
+1. задумчивый - thinking a lot
+   He looked thoughtful.
+2. заботливый, внимательный - kind to others
+   It was thoughtful of you to call.

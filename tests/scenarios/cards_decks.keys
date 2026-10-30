@@ -1,0 +1,15 @@
+# decks: two decks on give new words by turns; a deck's words, their status, its progress
+#! day 20755
+2 5 DOWN 5 DOWN DOWN DOWN DOWN DOWN DOWN DOWN 5 shot two_on
+RSOFT 5 5 shot first
+5 3 shot second
+5 3 5 3 RSOFT
+# the topic's words: the two taken are "учу"; mark one known, filter, back to new
+DOWN DOWN 5 UP RIGHT shot words
+DOWN DOWN 5 shot word
+STAR shot known
+HASH HASH HASH HASH shot only_known
+RSOFT shot progress
+RIGHT 0 shot reset_ask
+DOWN 5 shot reset_done
+RSOFT RSOFT shot menu

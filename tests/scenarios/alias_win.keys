@@ -1,0 +1,7 @@
+# Alias: a game to 1 point; team 1 gets it, team 2 doesn't, so team 1 wins
+# after the full round; settings stay on the card
+#! app party
+5 DOWN 5 DOWN DOWN 5 1 CENTER RSOFT UP 5
+5 5 LSOFT DOWN 5 HASH RSOFT shot team2
+5 LSOFT DOWN 5 HASH RSOFT shot winner
+RSOFT shot back

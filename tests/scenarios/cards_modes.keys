@@ -1,0 +1,24 @@
+# flashcard modes: type the word, the warm-ups
+#! day 20755
+#! cards a1on.txt
+2
+# type: lion right, bottle wrong
+5 DOWN 5 shot type
+5 5 5 4 4 4 6 6 6 RIGHT 6 6 shot typed
+CENTER shot type_right
+5 shot type_next
+9 CENTER shot type_wrong
+5 RSOFT
+# a few more learned words
+5 UP 5 5 4 5 4 5 4 5 4 5 4 RSOFT
+# warm-ups on the learned words: pairs on the keypad rows
+5 DOWN DOWN 5 shot pairs
+1 shot pair_word
+3 shot pair_tried
+6 shot pair_mean
+1 shot pair_right
+RSOFT shot pairs_end
+RSOFT 5 DOWN 5 shot speed
+1 shot speed_next
+RSOFT shot speed_end
+RSOFT RSOFT shot menu

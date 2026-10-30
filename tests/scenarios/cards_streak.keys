@@ -1,0 +1,6 @@
+# the streak of days: yesterday was a day with answers, one answer today goes on with it
+#! day 20755
+#! cards streak.txt
+2 DOWN DOWN 5 shot stats_before
+RSOFT 5 5 5 3 RSOFT DOWN DOWN 5 shot stats_after
+RSOFT RSOFT shot menu

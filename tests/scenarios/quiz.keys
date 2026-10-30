@@ -1,0 +1,35 @@
+# quizzes: the list of sets, a set's topics, a part, a round asked both ways
+# with a wrong and a right answer, stopped; the mistakes repeated; the flags and
+# the currencies with their signs; the direction; the round length; the
+# statistics; kept on the card
+#! day 20000
+RIGHT RIGHT RIGHT RIGHT shot menu
+5 shot sets
+5 shot topics
+5 shot groups
+DOWN 5 shot ask
+1 shot answered
+5 shot ask2
+1 shot answered2
+RSOFT shot stopped
+5 shot repeat
+2 shot repeated
+5 RSOFT shot hard
+RSOFT DOWN 5 5 shot flag
+1 shot flag_answered
+5 shot flag2
+2 shot flag2_answered
+RSOFT RSOFT RSOFT DOWN 5 5 shot money
+3 shot money_answered
+5 shot money2
+3 shot money2_answered
+RSOFT RSOFT RSOFT DOWN 5 shot direction
+UP 5 5 shot money_forward
+4 shot money_forward_answered
+RSOFT RSOFT RSOFT DOWN 5 shot direction2
+UP 5 5 shot money_back
+RSOFT RSOFT DOWN DOWN 5 shot round_len
+DOWN 5 shot stats
+6 shot stats_end
+RSOFT RSOFT RSOFT shot main
+5 5 shot reopened

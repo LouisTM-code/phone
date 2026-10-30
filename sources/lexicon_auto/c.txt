@@ -1,0 +1,5963 @@
+@cab
+/kæb/
+n. A2
+1. такси
+   Before this, I worked as a cab driver. - Перед этим я работал таксистом.
+phr. take a cab - взять такси
+   I don't want to walk. Let's take a cab. - Я не хочу идти пешком. Давай возьмём такси.
+
+@cabbage
+/ˈkæbɪdʒ/
+n. B1
+1. (кочанная) капуста - specific cultivar
+   We like all vegetables except cabbage. - Мы любим все овощи, кроме капусты.
+
+@cabin
+/ˈkæbɪn/
+n. B1
+1. хижина - small dwelling, especially one made of logs
+   The cabin had no water or electricity. - В хижине не было ни воды, ни электричества.
+2. каюта, салон - private room on a ship
+   The captain is lying drunk in his cabin. - Капитан лежит пьяный в своей каюте.
+
+@cabinet
+/ˈkæbɪnɪt/
+n. B2
+1. кабинет министров, правительство - group of ministers
+   Every member of the cabinet was present. - Присутствовали все члены кабинета.
+2. шкаф с выдвижными ящиками - storage closet
+   The file cabinet drawers are open. - Открыты ящики картотечного шкафа.
+
+@cable
+/ˈkeɪbəl/
+n. B2
+1. кабель - assembly of wires for electricity
+   Electricity cables are made of copper. - Электрические провода сделаны из меди.
+2. канат, трос, якорная цепь - heavy rope or chain as used for mooring
+   The elevator cable snapped. - Трос лифта оборвался.
+
+@cafe
+/ˈkæfeɪ/
+n. A1
+1. кафе
+   I saw a cafe just like that in London. - Я видел такое же кафе в Лондоне.
+
+@cafeteria
+/ˌkafəˈtɪəriə/
+n. A2
+1. кафетерий, кафе-закусочная - restaurant
+   I had lunch in the school cafeteria today. - Сегодня я пообедал в школьной столовой.
+
+@cage
+/keɪdʒ/
+n. B1
+1. клетка - enclosure
+   A nightingale will not sing in a cage. - Соловей не будет петь в клетке.
+v. B2
+2. сажать в клетку
+   No bird likes to be caged. - Ни одна птица не любит сидеть в клетке.
+
+@cake
+/keɪk/
+n. A1
+1. торт, кекс, пирожное, лепёшка - type of sweet dessert
+   Chocolate cake is my favorite dessert. - Шоколадный торт - мой любимый десерт.
+
+@calamitous
+/kəˈlæmɪtəs/
+adj. C2
+1. пагубный
+
+@calamity
+/kəˈlæmɪti/
+n. C2
+1. бедствие - event resulting in great loss
+   A calamity was avoided by sheer luck. - Катастрофы удалось избежать по чистой случайности.
+
+@calculate
+/ˈkælkjʊleɪt/
+v. B1
+1. рассчитывать - to determine the value or solution of sth.
+   A computer can calculate very rapidly. - Компьютер может считать очень быстро.
+
+@calculation
+/ˌkælkjuˈleɪʃn/
+n. B1
+1. вычисление, калькуляция - act or process of calculating
+   I've made a mistake in my calculations. - Я допустил ошибку в расчётах.
+2. расчёт - result of calculating
+   There was an error in the calculation. - В расчётах была допущена ошибка.
+
+@calculator
+/ˈkælkjəleɪtə/
+n. B1
+1. вычислитель, калькулятор
+   Doom has been ported to a calculator. - "Дум" портирован на калькулятор.
+
+@calendar
+/ˈkæləndə/
+n. A2
+1. календарь, летосчисление - system by which time is divided
+   I marked your birthday on my calendar. - Я отметил твой день рождения у себя в календаре.
+
+@calf
+/kɑːf/
+n. B1
+1. телёнок - young cow or bull
+   He left as a calf and returned as a bull. - Ушёл телёнок, вернулся бык.
+
+@calibration
+/ˌkælɪˈbreɪʃən/
+n. C1
+1. калибрование, градуировка - act of calibrating
+
+@call
+/kɔːl/
+n. A1
+1. зов, оклик - beckoning or summoning
+   From today on, call me Hanako, please. - С этого дня зови меня, пожалуйста, Ханако.
+v. A2
+2. звать, окликать - request, summon, or beckon
+   A friend of mine called me last night. - Прошлой ночью мне позвонил друг.
+3. называть, давать имя - name or refer to
+   Not every error is to be called folly. - Не всякую ошибку следует называть глупостью.
+4. будить
+   Feel free to call if you need anything. - Звони, если будет что-нибудь нужно.
+phr. call on - приглашать высказаться
+   Every time I call on you, you are out. - Всякий раз, когда я захожу к тебе, тебя нет дома.
+phr. call back - звать обратно
+   Your friend said he would call back. - Ваш друг сказал, что перезвонит.
+phr. call off - отзывать
+   The police have called off the search. - Полиция отменила поиски.
+phr. call in - потребовать назад (долг)
+   He called in to say that he'd be late. - Он позвонил, чтобы сказать, что он задержится.
+phr. call out - вызывать
+   He called out the name of the winner. - Он назвал имя победителя.
+phr. call up - вызывать в памяти
+   She called up her mother on the phone. - Она позвонила своей матери по телефону.
+phr. the game was called off - игру отложили
+   The game was called off on account of rain. - Игру отменили из-за дождя.
+
+@caller
+/ˈkɔːlə/
+n. B1
+1. тот, кто звонит по телефону - the person who makes a telephone call
+   The caller refused to give us his name. - Звонивший отказался назвать нам своё имя.
+
+@callous
+/ˈkæləs/
+adj. C2
+1. бессердечный, чёрствый, нечуткий - emotionally hardened
+   How could she be so callous? - Как она могла быть такой чёрствой?
+
+@calm
+/kɑːm/
+adj. B1
+1. спокойный, тихий, мирный - free from anger and anxiety
+   He remains calm in the face of danger. - Он остаётся спокойным перед лицом опасности.
+v. B1
+2. успокаивать, умиротворять - make calm
+   Money doesn't excite me. It calms me. - Деньги меня не волнуют. Они меня успокаивают.
+phr. calm down - успокаивать(ся), смягчать (-ся)
+   Calm down and begin at the beginning. - Успокойся и начни с начала.
+
+@calmly
+/ˈkɑːmli/
+adv. B2
+1. спокойно, хладнокровно - in a calm manner
+   The professor calmly washed his hands. - Профессор спокойно мыл руки.
+
+@calmness
+/ˈkɑːmnəs/
+n. B1
+1. тишина, спокойствие
+   Strength is found in calmness. - Сила заключена в спокойствии.
+
+@calorie
+/ˈkæləri/
+n. C1
+1. калория
+   Is eating 1,800 calories a day enough? - Достаточно ли съедать по 1800 калорий в день?
+
+@calorific
+/ˌkæləˈrɪfɪk/
+adj. C2
+1. тепловой, теплотворный
+   calorific capacity - теплотворная способность
+
+@camel
+/ˈkæml/
+n. B1
+1. верблюд - beast of burden
+   Camels are slightly slower than horses. - Верблюды немного медленнее лошадей.
+
+@camera
+/ˈkæmərə/
+n. A1
+1. киноаппарат, кинокамера
+   Do you have any film for this camera? - У тебя есть плёнка для этой камеры?
+
+@camp
+/ˈkæmp/
+n. A1
+1. лагерь, стан - outdoor place
+   The children left for camp this morning. - Сегодня утром дети отправились в лагерь.
+v. A2
+2. располагаться лагерем - set up a camp
+   We camped on the border of the lake. - Мы разбили лагерь на берегу озера.
+
+@campaign
+/kæmˈpeɪn/
+n. B2
+1. кампания, поход
+   Our sales campaign is successful in a big way. - Наша кампания по сбыту проходит весьма успешно.
+v. C1
+2. участвовать в походе
+
+@camping
+/ˈkæmpɪŋ/
+n. A2
+1. кемпинг, лагерь для автотуристов
+   Camping is impossible where there is no water. - Нельзя разбивать лагерь там, где нет воды.
+
+@campsite
+/ˈkæmpˌsaɪt/
+n. B1
+1. кемпинг - a place where a tent may be or is pitched
+
+@campus
+/ˈkæmpəs/
+n. A2
+1. кампус - grounds or property of a school, etc.
+   No alcohol is allowed on campus. - На территории кампуса алкоголь не разрешён.
+
+@can
+/kæn/
+v. A1
+1. консервировать (мясо, овощи, фрукты) - preserve
+   Can you get the work finished in time? - Вы можете закончить работу в срок?
+n. A2
+2. жестяная коробка или банка - a tin-plate canister
+   Crush the can before you throw it away. - Прежде чем выбрасывать жестяную банку, раздавите её.
+phr. garbage can - помойное ведро
+   The garbage-can gave off a bad smell. - Мусорный бак испускал неприятный запах.
+
+@canal
+/kəˈnæl/
+n. B1
+1. канал (искусственный) - artificial waterway
+   The ship went through the Suez Canal. - Корабль прошёл через Суэцкий канал.
+
+@cancel
+/ˈkænsl/
+v. B1
+1. аннулировать, отменять - invalidate, annul
+   All of our classes have been canceled. - У нас все уроки отменили.
+
+@cancer
+/ˈkænsə/
+n. B1
+1. Рак (созвездие и знак зодиака)
+   My uncle died of cancer two years ago. - Мой дядя умер от рака два года назад.
+
+@candid
+/ˈkændɪd/
+adj. C1
+1. искренний, прямой, чистосердечный - straightforward, open and sincere
+   She is too candid; sometimes it hurts me. - Она слишком искренняя; иногда это задевает меня.
+
+@candidate
+/ˈkændɪdət/
+n. B2
+1. кандидат - person running in an election
+   The two candidates are neck and neck. - Два кандидата идут ноздря в ноздрю.
+
+@candidly
+/ˈkændɪdli/
+adv. C1
+1. откровенно - in a candid manner
+
+@candle
+/ˈkændəl/
+n. B1
+1. свеча - a light source
+   Blow out the candles and make a wish! - Задуй свечи и загадай желание!
+
+@candy
+/ˈkændi/
+v. A1
+1. варить в сахаре
+   Yuri treated Martha with cotton candy. - Юрий угостил Марту сахарной ватой.
+n. A1
+2. леденец
+   Is that candy? - Это леденец?
+
+@cane
+/keɪn/
+n. B2
+1. трость, палка, прут
+   I get along quite well now with my new cane. - Я приноровился к своей новой трости.
+2. сахарный тростник - plant itself
+   A lot of sugar cane is grown in Cuba. - На Кубе выращивают много сахарного тростника.
+
+@canned
+/kænd/
+adj. B1
+1. консервированный (о продуктах) - preserved in cans
+   Do you have any canned vegetables? - Есть у вас какие-нибудь консервированные овощи?
+
+@cannonball
+/ˈkænənˌbɔːl/
+n. B2
+1. пушечное ядро, ядро
+
+@canoe
+/kəˈnuː/
+n. C1
+1. каноэ, челнок, байдарка - small long and narrow boat
+   A big wave turned over his canoe. - Его каноэ опрокинула большая волна.
+
+@canon
+/ˈkænən/
+n. B2
+1. правило, критерий - religious law
+   "That's not canon!" "I don't care! It's my fanon!" - «Это не канон!» — «Мне всё равно! Это мой фанон!»
+
+@canteen
+/kænˈtiːn/
+n. B1
+1. буфет, столовая - small cafeteria or snack bar
+   Have you been to the canteen yet? - Вы уже были в столовой?
+2. (солдатская) фляга - water bottle
+   My canteen is already half empty. - Моя фляжка уже наполовину пуста.
+
+@canvas
+/ˈkænvəs/
+n. B2
+1. холст, парусина, брезент - type of coarse cloth
+   The painter loves his canvas and brush. - Художник любит свой холст и кисть.
+2. полотно, холст, картина - piece of canvas cloth on which one may paint
+   This world is but canvas to our imaginations. - Этот мир не более чем полотно для нашего воображения.
+
+@cap
+/kæp/
+n. A1
+1. кепка, фуражка, шапка - head covering
+   Look, there's your cap on the table! - Смотри, на столе твоя шапка!
+2. шляпка (гриба) - top part of a mushroom
+   I paid ten dollars for this cap. - Я заплатил десять долларов за эту шляпу.
+
+@capability
+/ˌkeɪpəˈbɪlɪti/
+n. B2
+1. (потенциальные) возможности
+   How can I develop my mind's hidden capabilities? - Как я могу развить скрытые возможности своего мозга?
+2. способность - the power or ability to generate an outcome
+   When have you demonstrated your leadership capabilities? - Когда вы демонстрировали свои лидерские способности?
+
+@capable
+/ˈkeɪpəbəl/
+adj. B1
+1. способный, одарённый - able and efficient
+   This is the only thing I'm capable of. - Это единственное, на что я способен.
+
+@capacious
+/kəˈpeɪʃəs/
+adj. C2
+1. просторный, вместительный - having a lot of space inside
+
+@capacity
+/kəˈpæsɪti/
+n. B1
+1. способность - capability
+   He has no capacity to be a teacher. - У него нет способностей, чтобы быть учителем.
+2. вместимость - the ability to hold, receive, or absorb
+   fill to capacity - наполнять до отказа
+
+@capital
+/ˈkæpɪtəl/
+n. A2
+1. столица
+   Barcelona is the capital of Catalonia. - Барселона - столица Каталонии.
+adj. B2
+2. главный, основной, капитальный - of prime importance
+   Honesty is a capital virtue. - Честность - это главная добродетель.
+phr. capital letter - прописная буква
+   Sentences begin with a capital letter. - Предложения начинаются с большой буквы.
+phr. capital punishment - смертная казнь
+   I'm totally against capital punishment. - Я категорически против смертной казни.
+
+@capital letter
+n. A2
+1. прописная буква, заглавная буква - upper-case letter
+
+@capsule
+/ˈkæpsjuːl/
+n. B1
+1. капсюль
+
+@captain
+/ˈkæptɪn/
+v. A2
+1. быть капитаном корабля
+   The ship captain believes in his crew. - Капитан корабля уверен в своей команде.
+n. A2
+2. брандмейстер
+   I don't know the captain of this team. - Я не знаю капитана этой команды.
+
+@caption
+/ˈkæpʃən/
+n. B2
+1. заголовок (статьи, главы) - descriptive title or heading of
+
+@captive
+/ˈkæptɪv/
+adj. B2
+1. взятый в плен - held prisoner
+   He fell captive to her charms. - Его пленило её обаяние.
+n. B2
+2. пленник, пленный - a person held prisoner
+
+@capture
+/ˈkæpʃəː/
+v. B1
+1. захватывать силой, брать в плен - take control of
+   The pirates captured a merchant ship. - Пираты захватили торговый корабль.
+n. B1
+2. поимка, захват - act of capturing
+
+@car
+/kɑː/
+n. A1
+1. автомобиль, машина - automobile, a vehicle steered by a driver
+   "What happened?" "The car broke down." - "Что случилось?" - "Машина сломалась".
+
+@caravan
+/ˈkærəvæn/
+n. B2
+1. караван - convoy or procession
+   Dogs bark when the caravan passes by. - Собаки лают, а караван идёт.
+2. фургон, крытая цыганская телега - vehicle
+   They live in a caravan. - Они живут в трейлере.
+
+@carbon
+/ˈkɑːbən/
+n. B2
+1. химически чистый уголь - fossil fuel made of impure carbon
+   Paper is white, carbon is black. - Бумага белая, а уголь чёрный.
+phr. carbon dioxide - углекислота, углекислый газ
+   Carbon dioxide sometimes harms people. - Углекислый газ иногда наносит людям вред.
+
+@carbon dioxide
+/ˌkɑːbən daɪˈɒksaɪd/
+n. B2
+1. двуокись углерода, углекислый газ - CO₂
+
+@carbon footprint
+n. B2
+1. углеродный след - measure of carbon dioxide produced by someone
+
+@carbon monoxide
+n. B2
+1. угарный газ - chemical of the formula CO
+
+@card
+/kɑːd/
+n. A1
+1. карта (игральная), карты - resource or an argument
+   Credit cards are useful but dangerous. - Кредитные карты удобны, но опасны.
+2. карточка, открытка - flat
+   How many Christmas cards did you send? - Сколько рождественских открыток ты отправил?
+
+@cardboard
+/ˈkɑːdbɔːd/
+n. B2
+1. картон - material resembling heavy paper
+   Cardboard is stronger than paper. - Картон прочнее бумаги.
+
+@cardigan
+/ˈkɑːdɪgən/
+n. B2
+1. кардиган, кофта - type of sweater
+
+@care
+/kɛə/
+n. A1
+1. забота, попечение, уход - treatment of those in need
+   I've already taken care of everything. - Я уже обо всём позаботился.
+v. B1
+2. заботиться - look after
+   Is that the only thing you care about? - Это единственное, что вас заботит?
+3. питать интерес, любовь
+   I know that you don't care about money. - Я знаю, что на деньги вам наплевать.
+
+@career
+/kəˈrɪə/
+n. B1
+1. карьера, успех - one's calling in life
+   The scandal nearly wrecked her career. - Скандал чуть не разрушил её карьеру.
+
+@carefree
+/ˈkɛəfriː/
+adj. B2
+1. беззаботный, беспечный - worry free, light hearted, etc.
+   We were young and carefree. - Мы были молоды и беззаботны.
+
+@careful
+/ˈkɛːfl/
+adj. A1
+1. осторожный - cautious
+   Be careful not to slip in the bathtub. - Смотри не поскользнись в ванне.
+2. старательный, аккуратный - meticulous
+   I'll try to be more careful in future. - Я постараюсь впредь быть внимательнее.
+
+@carefully
+/ˈkɛːfli/
+adv. A1
+1. бережно, внимательно, заботливо
+   Everyone was listening very carefully. - Все внимательно слушали.
+2. осторожно, с осторожностью - in a careful manner
+   This telescope must be used carefully. - С этим телескопом нужно обращаться осторожно.
+
+@careless
+/ˈkɛəlɪs/
+adj. B1
+1. небрежный, неосторожный - not giving sufficient attention or thought
+   She was punished for careless driving. - Она была наказана за неосторожное вождение.
+
+@carelessly
+/ˈkɛələsli/
+adv. B1
+1. небрежно, беспечно, халатно - in a careless manner
+   He does everything carelessly. - Он всё делает небрежно.
+
+@carelessness
+/ˈkɛələsnəs/
+n. B1
+1. беззаботность, легкомысленность - lack of care
+   Tom cursed himself for his carelessness. - Том проклял себя за беспечность.
+
+@cargo
+/ˈkɑːgəʊ/
+n. B2
+1. груз - freight carried by a ship
+   The cargo was stopped at customs. - Груз задержали на таможне.
+
+@caring
+/ˈkɛərɪŋ/
+adj. B2
+1. заботливый - kind, sensitive, empathetic
+   Everyone here is so kind and caring. - Здесь все такие милые и заботливые.
+
+@carnival
+/ˈkɑːnɪvəl/
+n. B2
+1. карнавал - festive occasion marked by parades
+   Rio's carnival is held in February. - Карнавал в Рио проходит в феврале.
+
+@carpenter
+/ˈkɑːpəntə/
+n. C1
+1. плотник - one who practices carpentry
+   The carpenter brought his tools along. - Столяр пришёл со своими инструментами.
+
+@carpentry
+/ˈkɑːpɪntri/
+n. C1
+1. плотничные работы, плотничное дело - trade of cutting and joining timber
+   I'm not good at carpentry. - Плотник из меня не очень хороший.
+
+@carpet
+/ˈkɑːpɪt/
+n. B1
+1. ковёр - a fabric used as a floor covering
+   The cat started to scratch the carpet. - Кот стал царапать ковёр.
+v. B1
+2. устилать, покрывать коврами
+   I prefer hardwood floors to carpet. - Я предпочитаю деревянный пол вместо ковра.
+
+@carriage
+/ˈkærɪdʒ/
+n. B1
+1. вагонетка
+   Were there many people in your carriage? - В твоём вагоне было много людей?
+2. каретка (пишущей машинки, станка) - part of typewriter
+   Automobiles replaced carriages. - Автомобили заменили кареты.
+3. экипаж, коляска - wheeled vehicle
+   The horses pull the carriage. - Лошади тянут экипаж.
+4. осанка, манера себя держать - manner of standing or walking
+   She has a graceful carriage. - У неё грациозная осанка.
+
+@carrier
+/ˈkæriə/
+n. C1
+1. носильщик, возчик, перевозчик
+   Tom is a carrier of a coronavirus. - Том - носитель коронавируса.
+2. посыльный, курьер
+
+@carrot
+/ˈkærət/
+n. A2
+1. морковь - Daucus carota ssp. sativus
+   I had no idea you didn't like carrots. - Я и не знал, что ты морковь не любишь.
+
+@carry
+/ˈkæri/
+v. A1
+1. нести, носить, переносить - transport by lifting
+   I can't carry this suitcase by myself. - Я не могу сам нести этот чемодан.
+2. держаться, вести себя
+   Everybody carries a mobile phone nowadays. - В наши дни у каждого при себе есть мобильный телефон.
+phr. carry out - доводить до конца
+   Green plants carry out photosynthesis. - Зеленые растения осуществляют фотосинтез.
+phr. carry on - продолжать
+   The patient was carried on a stretcher. - Больного несли на носилках.
+phr. carry away - увлекать
+   The house was carried away by the flood. - Дом унесло наводнением.
+phr. carry off - выигрывать (приз)
+   He was carried off on a stretcher. - Его унесли на носилках.
+phr. carry weight - иметь вес, влияние
+   Your opinion carries some weight. - Ваше мнение имеет определённый вес.
+
+@cart
+/kɑːt/
+n. B1
+1. телега, повозка, подвода, тележка - small, open, wheeled vehicle — see also wagon
+   Don't put the cart before the horse. - Не ставь телегу впереди лошади.
+
+@carton
+/ˈkɑːtən/
+n. B1
+1. (большая) картонная коробка - box-like container
+   I bought some bread and a carton of milk. - Я купил хлеба и пакет молока.
+
+@cartoon
+/kɑːˈtuːn/
+n. A1
+1. мультипликация
+   Tom likes to watch cartoons. - Том любит смотреть мультики.
+
+@carve
+/kɑːv/
+v. B2
+1. гравировать, высекать (из камня) - cut
+   The boy carved his name into the tree. - Мальчик вырезал своё имя на дереве.
+
+@cascade
+/kæsˈkeɪd/
+n. B2
+1. каскад, водопад - sequence of events
+v. C2
+2. ниспадать каскадом
+
+@case
+/keɪs/
+n. A1
+1. случай, обстоятельство, положение - actual event, situation, or fact
+   I know what to do in a case like this. - Я знаю, что делать в подобных случаях.
+phr. in case - в случае
+   I will write it down in case I forget. - Я запишу это на случай, если забуду.
+phr. in any case - во всяком случае
+   In any case, it's a very ancient name. - В любом случае это очень древнее имя.
+phr. just in case - на всякий случай
+   I'll unplug the computer just in case. - На всякий случай отключу компьютер.
+
+@cash
+/kæʃ/
+n. A2
+1. деньги - money in the form of notes/bills and coins
+   The shop only admits payments in cash. - В этом магазине принимают только наличные.
+phr. pay cash - расплатиться наличными
+   Could I get a discount if I pay in cash? - Могу ли я получить скидку, если заплачу наличными?
+
+@cassette
+/kəˈsɛt/
+n. A2
+1. кассета - small flat case containing magnetic tape
+   My cassette tape recorder needs fixing. - Мой кассетный магнитофон требует ремонта.
+
+@cast
+/kɑːst/
+v. B2
+1. а) бросать, метать - throw forcefully
+   Cast the ashes toward a flowing stream. - Бросьте пепел в текущий ручей.
+n. B2
+2. расстояние
+
+@castle
+/ˈkɑːsəl/
+n. A2
+1. замок, дворец - fortified building
+   There used to be a castle on the hill. - Когда-то на холме был замок.
+
+@casual
+/ˈkaʒəl/
+adj. B1
+1. случайный - happening by chance
+   We had a casual meeting on the crowded street. - Мы случайно встретились на оживленной улице.
+
+@cat
+/ˈkæt/
+n. A1
+1. кот, кошка - domestic species
+   How many cats are there in this house? - В этом доме сколько кошек?
+phr. tom cat - кот
+   I have two cats: a black male cat and a grey female cat. - У меня есть два кота: чёрный кот и серая кошка.
+
+@catalog
+/ˈkætəˌlɒg/
+n. B2
+1. каталог - a systematic list of names
+   Please send me your latest catalogue. - Отправьте мне, пожалуйста, ваш последний каталог.
+
+@catalogue
+/ˈkætəˌlɒg/
+n. B1
+1. каталог - a systematic list of names
+   Please send me your latest catalogue. - Отправьте мне, пожалуйста, ваш последний каталог.
+
+@catalyst
+/ˈkætɪlɪst/
+n. B2
+1. катализатор
+   Many metals make good catalysts. - Многие металлы являются хорошими катализаторами.
+
+@catastrophe
+/kəˈtæstrəfi/
+n. B2
+1. катастрофа, гибель, несчастье
+   Few passengers survived the catastrophe. - Немногие пассажиры пережили катастрофу.
+
+@catastrophic
+/kætəˈstrɒfɪk/
+adj. B2
+1. катастрофический - of or pertaining to a catastrophe
+   This might have catastrophic consequences. - Это может иметь катастрофические последствия.
+
+@catastrophically
+adv. C2
+1. катастрофически - in a catastrophic manner
+
+@catch
+/kætʃ/
+v. A1
+1. ловить, поймать, схватывать - intercept an object in the air etc.
+   He caught the ball with his left hand. - Он поймал мяч левой рукой.
+2. успеть, застать
+   We have ample time to catch our train. - У нас куча времени до нашего поезда.
+3. схватить, заразиться - perceive and understand
+   Aren't you afraid of catching a virus? - Ты не боишься подхватить вирус?
+n. A1
+4. улов, добыча - that which is captured or caught
+   The fishermen took photos of their catch. - Рыбаки сфотографировали улов.
+phr. catch up - догнать
+   I think he will soon catch up with us. - Думаю, он нас скоро догонит.
+phr. catch on - понимать
+   It takes you a while to catch on to things. - У тебя занимает много времени, чтобы сообразить.
+phr. catch the train - поспеть к поезду
+   I had wanted to catch the first train. - Я хотел сесть на первый поезд.
+
+@catchy
+/ˈkætʃi/
+adj. B2
+1. легко запоминающийся (о мелодии) - instantly appealing and memorable
+   That's a very catchy melody. - Это очень привязчивая мелодия.
+
+@categorization
+/ˌkætəgəraɪˈzeɪʃən/
+n. B2
+1. категоризация
+
+@categorize
+/ˈkætɪgəˌraɪz/
+v. B1
+1. распределять по категориям - assign a category
+
+@category
+/ˈkætɪgri/
+n. B1
+1. категория, разряд, класс - group
+   They don't belong under that category. - Они не принадлежат к этой категории.
+
+@catering
+/ˈkeɪtərɪŋ/
+n. B2
+1. общественное питание
+
+@cathedral
+/kəˈθiːdrəl/
+n. B2
+1. кафедральный собор
+   Several cathedrals were once mosques. - Некоторые соборы когда-то были мечетями.
+
+@cattle
+/ˈkætəl/
+n. B1
+1. крупный рогатый скот - certain other livestock
+   There are about 500 cattle on the ranch. - На ранчо держат около пятисот голов крупного рогатого скота.
+
+@cause
+/kɔːz/
+v. A2
+1. быть причиной, причинять, вызывать - set off an event or action
+   The typhoon caused the river to flood. - По причине урагана река вышла из берегов.
+n. B2
+2. причина - source or reason of an event or action
+   The cause of the illness is not clear. - Причина болезни неясна.
+
+@caution
+/ˈkɔːʃn/
+n. B1
+1. осторожность, предусмотрительность - careful attention, prudence
+   We should proceed with great caution. - Мы должны действовать с величайшей осторожностью.
+v. B1
+2. предостерегать
+   I'd like to caution you against making rash decisions. - Я хотел бы предостеречь вас от поспешных решений.
+
+@cautious
+/ˈkɔːʃəs/
+adj. B1
+1. осторожный, предусмотрительный - careful
+   He is too cautious to try anything new. - Он слишком осторожен, чтобы пробовать что-то новое.
+
+@cave
+/keɪv/
+n. B1
+1. пещера - large
+   He likes to explore underground caves. - Он любит исследовать подземные пещеры.
+phr. cave in - уступать, отступать, сдаваться
+   She refused to cave in to their demands. - Она отказалась уступать их требованиям.
+
+@cavity
+/ˈkævɪti/
+n. C1
+1. впадина, полость - hole or hollow depression
+   I have a cavity. - У меня полость в зубе.
+
+@cay
+/kiː/
+n. C2
+1. коралловый риф
+
+@cease
+/siːs/
+v. B2
+1. переставать, прекращать(ся) - transitive
+   His memory never ceases to astonish me. - Его память не перестаёт меня удивлять.
+
+@ceaseless
+/ˈsiːsləs/
+adj. C1
+1. непрерывный, непрестанный
+
+@ceaselessly
+adv. C1
+1. беспрестанно - without ceasing
+
+@ceiling
+/ˈsiːlɪŋ/
+n. B2
+1. потолок - upper limit of room
+   I saw a spider walking on the ceiling. - Я видел паука, ползущего по потолку.
+
+@celebrate
+/ˈsɛlɪbreɪt/
+v. A1
+1. праздновать - honour by rites, ceremonies, etc.
+   I don't want to celebrate my birthday. - Я не хочу отмечать свой день рождения.
+2. веселиться
+   Epiphany is celebrated on January 6th. - Богоявление отмечается 6 января.
+
+@celebration
+/ˌsɛlɪˈbreɪʃən/
+n. A1
+1. празднование, торжества - formal performance of a solemn rite
+   This is not a time for celebration. - Сейчас не время праздновать.
+
+@celebrity
+/sɪˈlɛbrɪti/
+n. B1
+1. известность - fame
+   Sami doesn't consider himself a celebrity. - Сами не считает себя знаменитостью.
+
+@cell
+/sɛl/
+n. B1
+1. тюремная камера - room in a prison for containing inmates
+   My cell phone has a built-in digital camera. - В моём мобильном есть встроенная цифровая камера.
+2. ячейка, ячея - biological cavity
+   I have the key to the twenty-seventh cell. - Ключ от двадцать седьмой ячейки у меня.
+v. B1
+3. помещать в клетку
+   A single-celled organism consists of just one cell. - Одноклеточный организм состоит только из одной клетки.
+
+@cellar
+/ˈsɛlə/
+n. B2
+1. подвал, погреб - underground space
+   The cellar is ugly, dark, and stinky. - Подвал некрасивый, тёмный и вонючий.
+2. винный погреб - wine collection
+   We don't use our coal cellar anymore. - Мы больше не используем наш погреб для угля.
+
+@cellist
+/ˈtʃɛlɪst/
+n. B2
+1. виолончелист, виолончелистка - person who plays the cello
+
+@cello
+/ˈtʃɛləʊ/
+n. B2
+1. виолончель - musical instrument
+   I have an interest in cello and piano. - Я интересуюсь виолончелью и пианино.
+
+@cemetery
+/ˈsɛmɪˌtri/
+n. B2
+1. кладбище
+   I'm scared of going near the cemetery. - Я боюсь ходить мимо кладбища.
+
+@cent
+/sɛnt/
+n. A2
+1. цент - subunit of currency in US and elsewhere
+   A dollar is equal to a hundred cents. - Доллар равен ста центам.
+2. сто, сотня
+   I agree with you a hundred per cent. - Я с тобой согласен на все сто.
+
+@center
+/ˈsɛntəː/
+n. A2
+1. центр, средоточие
+   The post office is in the town centre. - Почта находится в центре города.
+
+@centigrade
+adj. B2
+1. стоградусный
+   Water freezes at 0 degrees Centigrade. - Вода замерзает при нуле градусов Цельсия.
+
+@centimeter
+/ˈsɛntɪmiːtə/
+n. A2
+1. сантиметр - one-hundredth of a metre
+   The ruler is thirty centimetres long. - В этой линейке тридцать сантиметров.
+
+@central
+/ˈsɛntrl/
+adj. B1
+1. центральный, главный - being in the centre
+   Did the Incas live in Central America? - Инки жили в Центральной Америке?
+
+@central heating
+n. B1
+1. центральное отопление - heating system
+
+@centre
+/ˈsɛntəː/
+n. A1
+1. центр, средоточие
+   The post office is in the town centre. - Почта находится в центре города.
+
+@century
+/ˈsɛntʃʊri/
+n. A2
+1. столетие, век - period of 100 years
+   How many years are there in a century? - Сколько лет в столетии?
+
+@cereal
+/ˈsɪərɪəl/
+n. A2
+1. хлебный злак - type of grass
+   Rye, wheat, and barley are cereals. - Рожь, пшеница и ячмень - зерновые культуры.
+
+@ceremony
+/ˈsɛrɪməni/
+n. B1
+1. церемония - official gathering to celebrate
+   I was invited to the opening ceremony. - Меня пригласили на церемонию открытия.
+
+@certain
+/ˈsɜːtən/
+adj. A2
+1. уверенный - sure, positive, not doubting
+   Are you absolutely certain about this? - Ты в этом абсолютно уверен?
+
+@certainly
+/ˈsɜːtnli/
+adv. A2
+1. конечно, непременно, несомненно - without doubt, surely
+   "That's not so!" "It certainly is so." - «Это не так!» – «Безусловно, это так».
+
+@certainty
+/ˈsɜːtnti/
+n. B1
+1. несомненный факт
+   The present is the only reality and the only certainty. - Настоящее - единственная реальность и несомненный факт.
+
+@certificate
+/səˈtɪfɪkɪt/
+n. B2
+1. письменное удостоверение - document containing a certified statement
+   I can't find my birth certificate. - Я не могу найти своё свидетельство о рождении.
+
+@certification
+/ˌsɜːtɪfɪˈkeɪʃən/
+n. B2
+1. удостоверение
+
+@certify
+/ˈsɜːtɪfaɪ/
+v. B2
+1. удостоверять, заверять - attest as to
+
+@cessation
+/sɛˈseɪʃən/
+n. C1
+1. прекращение - a ceasing or discontinuance
+
+@chain
+/ˈtʃeɪn/
+n. A2
+1. цепь, цепочка - series of interconnected rings or links
+   These are all links in the same chain. - Всё это звенья одной цепи.
+v. B2
+2. привязывать
+   Vex not too far the lion, chained though he be. - Не дразни льва, хоть и привязан он.
+
+@chair
+/tʃɛə/
+n. A1
+1. стул - furniture
+   Do we have enough chairs for everyone? - У нас на всех стульев хватает?
+
+@chairman
+/ˈtʃɛːmən/
+n. A2
+1. председатель - person presiding over a meeting
+   He served as chairman for three years. - Он выполнял функции председателя три года.
+
+@chalk
+/tʃɔːk/
+n. B2
+1. мел - soft, white, powdery limestone
+   He erased the chalk from the blackboard. - Он стёр мел с доски.
+
+@challenge
+/ˈtʃælɪndʒ/
+n. A2
+1. вызов
+   This will be an interesting challenge. - Это будет настоящий вызов.
+2. сложная задача, проблема - difficult task
+   I like challenges, but I'm not stupid. - Мне нравятся трудные задачи, но я не дурак.
+v. B2
+3. вызывать, бросать вызов - invite someone to take part in a competition
+   I was challenged to a duel. - Меня вызвали на дуэль.
+
+@challenging
+/ˈtʃælɪndʒɪŋ/
+adj. B1
+1. испытывающий, трудновыполнимый - difficult
+   It's been a challenging day. - Это был трудный день.
+
+@chamber
+/ˈtʃeɪmbə/
+n. B2
+1. комната (гл. обр. спальня) - room or set of rooms
+   "I observed it when you entered the chamber," Holmes said. - "Я заметил это, когда вы вошли в комнату", - сказал Холмс.
+adj. B2
+2. камерный
+   Sami's basement was in fact a torture chamber. - Подвал Сами фактически был камерой пыток.
+
+@champagne
+/ʃæmˈpeɪn/
+n. A2
+1. шампанское - sparkling white wine produced in Champagne
+   Help me open this bottle of champagne. - Помоги мне открыть эту бутылку шампанского.
+
+@champion
+/ˈtʃæmpiən/
+n. B1
+1. чемпион, победитель - someone who has been winner in a contest
+   My mother was once a champion swimmer. - Моя мать когда-то была чемпионкой по плаванию.
+
+@championship
+/ˈtʃæmpiənʃɪp/
+n. A2
+1. звание чемпиона - competition to determine a champion
+   The Miami Heat won the NBA championship. - Майями Хит выиграл чемпионат НБА.
+phr. world championship - первенство мира
+   The World Football Championship will take place in Kazan. - Чемпионат мира по футболу пройдёт в Казани.
+
+@chance
+n. A2
+1. возможность, вероятность, шанс - an opportunity or possibility
+   Are you saying there's still a chance? - Ты говоришь, шанс ещё есть?
+phr. by chance - случайно
+   Do you by any chance speak Vietnamese? - Вы, случайно, не говорите по-вьетнамски?
+
+@chancellor
+/ˈtʃɑːnsələ/
+n. B2
+1. канцлер
+   Who was called the Iron Chancellor? - Кого называли "железным канцлером"?
+
+@change
+/ˈtʃeɪndʒ/
+v. A1
+1. менять (-ся), изменять(ся) - become something different
+   Can you change the color of your eyes? - Вы можете изменить цвет своих глаз?
+2. переодеваться - replace one's own clothing
+   I'll change before going to the dance. - Я переоденусь перед танцами.
+n. A1
+3. перемена, изменение, сдвиг - the process of becoming different
+   He told me about the change in the plan. - Он сказал мне про изменения в плане.
+phr. change over - меняться местами
+   Our priorities have changed over time. - Со временем наши приоритеты изменились.
+phr. for a change - для разнообразия
+   Maybe I'll make a cake for a change. - Я, может быть, пирог испеку для разнообразия.
+phr. times change - времена меняются
+   Times change, and we change in them. - Времена меняются, и мы меняемся вместе с ними.
+phr. small change - мелкие деньги, мелочь
+   I don't have any small change on me. - У меня с собой нет мелочи.
+
+@channel
+/ˈtʃænəl/
+n. B1
+1. канал, русло, фарватер, проток - navigable part of a river
+   Sami created a second YouTube channel. - Сами создал второй YouTube-канал.
+
+@chaos
+/ˈkeɪɒs/
+n. B1
+1. хаос, полный беспорядок - state of disorder
+   People are tired of chaos and tyranny. - Люди устали от хаоса и произвола.
+
+@chaotic
+/keɪˈɒtɪk/
+adj. B2
+1. хаотический - filled with chaos
+   Is your life chaotic? - Ваша жизнь хаотична?
+
+@chaotically
+adv. C1
+1. хаотически - In a chaotic manner
+
+@chap
+/tʃæp/
+n. B2
+1. малый, парень - man or fellow
+   Tom is an amiable chap. - Том славный малый.
+
+@chapel
+/ˈtʃæpəl/
+n. B2
+1. часовня, церковь - place of worship
+   It is said that the old chapel is haunted. - Говорят, в старой часовне привидения.
+
+@chapter
+/ˈtʃæptə/
+n. A2
+1. глава (книги) - section in a book
+   I only read the first three chapters. - Я читал только первые три главы.
+
+@character
+/ˈkærɪktə/
+n. A1
+1. характер - distinguishing feature
+   She resembles her father in character. - По характеру она вся в отца.
+2. буква, литера, иероглиф, цифра - symbol or letter
+   Chinese characters are very beautiful. - Китайские иероглифы очень красивы.
+3. характерная особенность
+   Character limit exceeded. - Превышено максимальное количество знаков.
+
+@characteristic
+/ˌkærəktəˈrɪstɪk/
+n. B1
+1. характерная черта, особенность - distinguishing feature
+   Slow speech is characteristic of that man. - Этому человеку свойственна медленная речь.
+adj. B2
+2. характерный, типичный - being a distinguishing feature
+   It's characteristic of him to be late. - Опоздания для него типичны.
+
+@characterization
+/ˌkærəktəraɪˈzeɪʃən/
+n. C1
+1. характеристика, описание характера - act or process of characterizing
+
+@characterize
+/ˈkærəktəraɪz/
+v. B1
+1. характеризовать, изображать - depict someone or something a particular way
+
+@charge
+/ˈtʃɑːdʒ/
+v. B1
+1. заряжать (оружие; аккумулятор)
+   Can I charge my mobile somewhere here? - Здесь где-нибудь можно зарядить телефон?
+2. обвинять - formally accuse of a crime
+   He was charged with assault and battery. - Его обвинили в нападении и избиении.
+n. B1
+3. обвинение - accusation
+   I refuse to reply to these charges. - Я отказываюсь отвечать на эти обвинения.
+4. обязанности, ответственность
+phr. free of charge - бесплатно
+   The parking lot is free of charge. - Парковка бесплатная.
+phr. charge with murder - обвинять в убийстве
+   We charged the wrong person with murder. - Мы обвинили в убийстве не того человека.
+
+@chariot
+/ˈtʃæriət/
+n. B1
+1. колесница - vehicle used in warfare
+   A quadriga is a chariot drawn by four horses. - Квадрига — это колесница, запряжённая четырьмя лошадьми.
+
+@charity
+/ˈtʃærɪti/
+n. B1
+1. благотворительность, милостыня - organization
+   He gave away all his money to charity. - Он отдал все свои деньги на благотворительность.
+2. милосердие - attitude
+   Do not expect charity from them. - Не ждите от них милосердия.
+
+@charm
+/tʃɑːm/
+n. B1
+1. обаяние, очарование - quality of inspiring delight or admiration
+   His charm didn't leave anyone indifferent. - Его обаяние никого не оставляло равнодушным.
+2. амулет - something with magic power
+   Have you got a lucky charm? - У тебя есть талисман на удачу?
+v. B2
+3. очаровывать, прельщать - seduce, entrance or fascinate
+   I think she is charming and attractive. - Я нахожу её очаровательной и привлекательной.
+
+@charming
+/ˈtʃɑːmɪŋ/
+adj. B2
+1. очаровательный, прелестный - pleasant, charismatic
+   I think she is charming and attractive. - Я нахожу её очаровательной и привлекательной.
+
+@chart
+/tʃɑːt/
+n. A2
+1. диаграмма, схема, чертёж, таблица - non-narrative presentation of data
+   What's this chart? - Что это за график?
+v. C1
+2. наносить на карту
+
+@charter
+/ˈtʃɑːtə/
+n. C1
+1. устав - document creating an institution
+   The United Nations Charter was signed in 1945. - Устав ООН был подписан в 1945 году.
+v. C1
+2. фрахтовать (судно)
+   I would like to charter a yacht. - Я бы хотел зафрахтовать яхту.
+
+@chase
+/tʃeɪs/
+n. B1
+1. преследование, погоня, слежка - action of the verb "to chase"
+   give chase - гнаться, преследовать
+2. охота, место охоты
+   Cats chase mice in the garden. - Кошки охотятся на мышей в саду.
+v. B2
+3. охотиться - pursue, to follow at speed
+   A young girl is chased by an old man. - Молодую девушку преследует пожилой мужчина.
+4. прогонять, рассеивать, разгонять
+   No one's chasing you away. - Тебя никто не прогоняет.
+
+@chat
+/ˈtʃæt/
+v. A2
+1. непринуждённо болтать - be engaged in informal conversation
+   It's nice to just chat with you like this. - Приятно вот так с вами поболтать.
+n. B1
+2. дружеский разговор, беседа - informal conversation
+   You better have a chat with my brother. - Вам лучше поговорить с моим братом.
+
+@chatter
+/ˈtʃætə/
+v. B2
+1. болтать - talk idly
+   Stop chattering and finish your work. - Кончай болтать и доделывай работу.
+2. стучать (зубами) - make a chattering noise
+   My teeth are chattering because of the cold. - Мои зубы стучат от холода.
+n. B2
+3. болтовня - talk
+
+@chauffer
+/ˈtʃɔːfə/
+n. C1
+1. небольшая переносная железная печь
+
+@cheap
+/ˈtʃiːp/
+adj. A2
+1. дешёвый - low and/or reduced in price
+   A small car is cheaper than a big one. - Маленькая машина дешевле большой.
+
+@cheat
+/ˈtʃiːt/
+v. B2
+1. мошенничать, обманывать - violate rules to gain advantage
+   The gambler used loaded dice to cheat. - Игрок смошенничал при помощи костей со смещённым центром тяжести.
+n. B2
+2. мошенничество, обман
+
+@check
+/tʃɛk/
+n. A1
+1. контроль, проверка - inspection or examination
+   Unfortunately, you didn't pass the check. - К сожалению, проверку вы не прошли.
+v. A2
+2. проверять, контролировать - inspect, examine
+   How frequently do you check your mail? - Как часто ты проверяешь почту?
+3. делать выговор, давать нагоняй
+   Kate checked the tasks off of her to-do list. - Кейт отметила задания в своём списке дел.
+4. останавливать(ся), сдерживать
+phr. check out - освободить номер в гостинице
+   We checked out of the hotel at ten. - Мы съехали из гостиницы в десять.
+phr. check up - проверять
+   The doctor gave her a thorough check-up. - Врач провёл ей полное обследование.
+
+@check-in counter
+/ˈtʃɛkˌɪn/
+n. B1
+1. регистрация, чек-ин - act of checking in
+
+@check-in desk
+/ˈtʃɛkˌɪn/
+n. B1
+1. регистрация, чек-ин - act of checking in
+
+@checkout
+/ˈtʃɛkˌaʊt/
+n. B1
+1. контроль, испытание
+
+@checkpoint
+/ˈtʃɛkˌpɔɪnt/
+n. B2
+1. контрольнопропускной пункт - point along a road or on a frontier
+   Dan was stopped at a checkpoint. - Дэна остановили на контрольно-пропускном пункте.
+
+@cheek
+/tʃiːk/
+n. A2
+1. щека - part of face
+   I'm not going to turn the other cheek. - Я не собираюсь подставлять вторую щёку.
+
+@cheeky
+/ˈtʃiːki/
+adj. B2
+1. нахальный - impudent
+   I know him, a wily, cheeky lad. - Я знаю его. Хитрый, нахальный парень.
+
+@cheer
+/tʃɪə/
+v. A2
+1. ободрять
+   What can I do to cheer you up? - Чем я могу тебя порадовать?
+2. аплодировать - applaud or encourage with cheers or shouts
+   I could hear everybody cheering. - Я слышал, как все аплодировали.
+n. B1
+3. одобрительное или приветственное восклицание
+   words of cheer - ободряющие слова
+phr. cheer up - утешить(ся)
+   She needs a little cheering up. - Её нужно немного подбодрить.
+
+@cheerful
+/ˈtʃɪəfl/
+adj. B1
+1. бодрый, весёлый
+   She is always cheerful and smiling. - Она всегда весела и улыбчива.
+
+@cheerfulness
+/ˈtʃɪəfəlnəs/
+n. B2
+1. жизнерадостность - the state of being cheerful
+
+@cheese
+/tʃiːz/
+n. A1
+1. сыр - dairy product
+   Cheese can easily be cut with a knife. - Сыр легко режется ножом.
+phr. a cheese - головка или круг сыра
+   There was a cheese and wine reception. - Был прием с вином и сыром.
+
+@chef
+/ʃɛf/
+n. A2
+1. шеф-повар, повар, старший кок
+   Please tell the chef it was delicious. - Пожалуйста, скажи шеф-повару, что было вкусно.
+
+@chemical
+/ˈkɛmɪkəl/
+adj. A2
+1. химический - relating to chemistry
+   The chemical formula for water is H₂O. - Химическая формула воды - H₂O.
+n. B1
+2. химикалии, химические препараты - any specific element or chemical compound
+   Don't swallow these chemical products. - Не глотайте эти химикаты.
+
+@chemist
+/ˈkɛmɪst/
+n. B1
+1. химик - person working in chemistry
+   Dmitri Mendeleev was a Russian chemist. - Дмитрий Менделеев был русским химиком.
+2. аптекарь
+   The duty chemist is open on Sunday morning. - В воскресенье утром дежурная аптека открыта.
+
+@chemistry
+/ˈkɛmɪstri/
+n. B1
+1. химия - branch of natural science
+   I'm not a bit interested in chemistry. - Меня ни капли не интересует химия.
+
+@chemotherapy
+/ˌkiːməʊˈθɛrəpi/
+n. B2
+1. химиотерапия - therapeutic chemical treatment
+   Tom lost his hair because of the chemotherapy. - Том лишился волос из-за химиотерапии.
+
+@cheque
+/tʃɛk/
+n. A2
+1. банковый чек
+   I'm going to cash in my cheque soon. - Я собираюсь в скором времени обналичить свой чек.
+
+@cherish
+/ˈtʃɛrɪʃ/
+v. B1
+1. лелеять (надежду, мысль) - treat with affection, nurture with care
+   She cherishes the hope that he will return. - Она лелеет надежду, что он вернётся.
+2. хранить (в памяти)
+   She cherishes the memory of her husband. - Она бережно хранит память о муже.
+
+@cherry
+/ˈtʃɛri/
+n. B2
+1. вишня (плод) - tree
+   The cherry trees are about to blossom. - Вишни вот-вот зацветут.
+
+@chess
+/tʃɛs/
+n. A2
+1. шахматы - two-player board game
+   Could you teach me how to play chess? - Ты не мог бы научить меня играть в шахматы?
+
+@chest
+/tʃɛst/
+n. A2
+1. грудная клетка - thorax
+   Do you think that chest hair is sexy? - Ты считаешь, что волосы на груди привлекательны?
+2. ящик, сундук - strong box
+   Do you have a file in the tool chest? - В вашем ящике с инструментами есть напильник?
+
+@chest of drawers
+/tʃɛst ov drɔːz/
+n. B1
+1. комод, шифоньер, шкаф, скрыня - furniture for the storage of clothes
+
+@chew
+/tʃuː/
+v. B2
+1. жевать - crush food with teeth prior to swallowing
+   I cannot chew. I do not have teeth. - Я не могу жевать. У меня нет зубов.
+
+@chewing gum
+n. B1
+1. жевательная резинка, жвачка - flavoured preparation for chewing
+
+@chick
+/tʃɪk/
+n. B2
+1. цыплёнок, птенец - young chicken
+   A chick will soon hatch from the egg. - Из яйца скоро вылупится птенец.
+
+@chicken
+/ˈtʃɪkɪn/
+n. A1
+1. курица (кушанье) - bird
+   Turkeys are much larger than chickens. - Индюки гораздо больше куриц.
+
+@chief
+/tʃiːf/
+adj. B1
+1. главный, руководящий - primary
+   The chief crop of our country is rice. - Рис - главный урожай нашей страны.
+n. B2
+2. глава, руководитель, лидер - head of an organization
+   He is the chief of a police station. - Он начальник полицейского участка.
+3. вождь (племени, клана) - leader of group, etc.
+   He has been the chief of his tribe for 35 years. - Он был вождём своего племени 35 лет.
+
+@child
+/tʃaɪld/
+n. A1
+1. ребёнок, дитя, чадо, сын, дочь - son or daughter
+   Don't worry. Even a child could do it. - Не беспокойся. Это даже ребёнку под силу.
+
+@childhood
+/ˈtʃaɪldhʊd/
+n. A2
+1. детство - state of being a child
+   I always got up early in my childhood. - В детстве я всегда рано вставал.
+
+@childish
+/ˈtʃaɪldɪʃ/
+adj. B2
+1. ребяческий, несерьёзный - immature, unbecoming
+   I like the childish feel of this game. - Мне нравится ребяческая атмосфера этой игры.
+2. детский - belonging to or suitable for a child
+   I'd never ask such a childish question. - Я никогда не задал бы такого детского вопроса.
+
+@chili
+/ˈtʃɪli/
+n. A2
+1. красный перец, горький перец - spicy fresh or dried fruit of capsicum
+   The chili burnt my tongue. - Перец чили обжёг мне язык.
+
+@chill
+/tʃɪl/
+n. C1
+1. холод - sudden penetrating sense of cold
+   Thinking of it made a chill run up my spine. - От мыслей об этом по спине пробежал холод.
+2. простуда, озноб, дрожь
+   He caught a chill because he went out in the rain. - Он подхватил простуду из-за того, что ходил под дождём.
+v. C1
+3. чувствовать озноб
+adj. C1
+4. неприятно холодный
+phr. chilled to the bone - продрогший до костей
+   I feel chilled to the bone today. - Я промерз до костей сегодня.
+
+@chilly
+/ˈtʃɪli/
+adj. C1
+1. холодный, прохладный (о погоде) - distant and cool
+   Feeling chilly, I turned on the heater. - Почувствовав холод, я включил обогреватель.
+
+@chimney
+/ˈtʃɪmni/
+n. B2
+1. труба (дымовая или вытяжная) - vertical tube or hollow column
+   Sparks were coming out of the chimney. - Из трубы летели искры.
+
+@chimpanzee
+/tʃɪmˈpænzi/
+n. A2
+1. шимпанзе - any hominid of the genus Pan
+   Which live longer, chimpanzees or baboons? - Кто дольше живёт, шимпанзе или бабуины?
+
+@chin
+/ˈtʃɪn/
+n. A2
+1. подбородок - bottom of a face
+   He has a cleft chin and a square jaw. - У него ямочка на подбородке и квадратная челюсть.
+
+@chip
+/tʃɪp/
+n. B2
+1. чипсы, жареный хрустящий картофель - thin
+   I can't stop eating these potato chips. - Я не могу перестать есть картофельные чипсы.
+phr. chip in - вмешиваться
+   Let's all chip in thirty dollars. - Давайте все скинемся по тридцать долларов.
+
+@chirp
+/tʃɜːp/
+v. A2
+1. чирикать, щебетать - birds
+   Birds were chirping in the tree. - На дереве щебетали птицы.
+n. A2
+2. чириканье, щебетание - birds
+   Tom hears the chirps of sparrows. - Том слышит чириканье воробьёв.
+
+@chisel
+/ˈtʃɪzəl/
+v. C1
+1. ваять, высекать (из мрамора)
+   They are chiseling a statue out of marble. - Они ваяют статую из мрамора.
+
+@chiselled
+adj. C1
+1. точёный, отделанный
+   chiselled features - точёные черты лица
+
+@chocolate
+/ˈtʃɒklət/
+n. A1
+1. шоколад - food made from ground roasted cocoa beans
+   Break the chocolate into small pieces. - Разломи шоколад на кусочки.
+
+@choice
+/tʃɔɪs/
+n. A2
+1. выбор, отбор, альтернатива - option or decision
+   As I told you before, I had no choice. - Как я уже говорил, у меня не было выбора.
+
+@choir
+/kwaɪə/
+n. B1
+1. церковный хор - singing group
+   The boy did not want to sing in a choir. - Мальчик не хотел петь в хоре.
+
+@choke
+/tʃəʊk/
+v. B1
+1. давиться (от кашля)
+   The woman choked on a piece of an orange. - Женщина подавилась долькой апельсина.
+2. душить
+   She choked him with her bare hands. - Она задушила его голыми руками.
+
+@choose
+/tʃuːz/
+v. (chose, chosen) A1
+1. выбирать - pick
+   I should've chosen a shorter username. - Надо было мне выбрать ник покороче.
+2. решать, решаться, предпочитать - decide to act in a certain way
+   I could not decide which way to choose. - Я не мог решить, какую дорогу выбрать.
+
+@chop
+/tʃɒp/
+v. B2
+1. рубить
+   When wood is chopped, woodchips will fly. - Лес рубят — щепки летят.
+2. нарезать, крошить
+   What's the best way to chop an onion? - Как лучше всего нарезать лук?
+phr. chop down - срубать
+   He chopped down the branch with an ax. - Он срубил ветку топором.
+phr. chop off - отрубать
+   Tom chopped off the chicken's head. - Том отрубил цыплёнку голову.
+
+@choreography
+/ˌkɒriˈɒgrəfi/
+n. C2
+1. хореография - art
+   The choreography is quite simple. - Хореография достаточно простая.
+
+@chorus
+/ˈkɔːrəs/
+n. B1
+1. хор, хоровая группа
+   They answered in chorus. - Они ответили хором.
+2. припев, подхватываемый всем хором
+   I did not listen to the chorus of that song. - Я не слышал припев этой песни.
+phr. in chorus - хором
+   We sang songs in chorus. - Мы хором пели песни.
+
+@christian
+n. B1
+1. христианин, христианка
+   I'm a Christian, but I don't eat pork. - Я христианин, но не ем свинину.
+adj. B1
+2. христианский
+   Christians believe that Jesus is God. - Христиане верят, что Иисус - Бог.
+
+@christmas
+n. A1
+1. Рождество - the holiday on 25 December
+   Merry Christmas! - Счастливого Рождества!
+
+@chronological
+/ˌkrɒnəˈlɒdʒɪkəl/
+adj. B1
+1. хронологический
+
+@chronology
+/krəˈnɒlədʒi/
+n. C2
+1. хронология - determining the order of events
+
+@chrysalis
+/ˈkrɪsəlɪs/
+n. C2
+1. куколка, хризалида - the pupa of a butterfly
+
+@chubby
+/ˈtʃʌbi/
+adj. B2
+1. круглолицый, полнощёкий - of a person, somewhat fat
+   My sister's skinny and me, I'm chubby. - Сестра моя худенькая, а я толстоват.
+
+@chuck
+/tʃʌk/
+v. B2
+1. бросать, швырять
+2. скликать домашнюю птицу
+   Chuck Norris can kill two stones with one bird. - Чак Норрис может убить два камня одной птицей.
+3. понукать лошадь 3. int: chuck!
+
+@chuckle
+/ˈtʃʌkəl/
+n. B1
+1. довольный смех, хихиканье
+v. B2
+2. посмеиваться, хихикать - laugh quietly or inwardly
+   They both chuckled. - Они оба захихикали.
+
+@chunk
+/tʃʌŋk/
+n. B2
+1. толстый кусок, ломоть - a part of something
+
+@church
+/tʃɜːtʃ/
+n. A1
+1. церковь - house of worship
+   A beautiful church stands on the hill. - Там на холме красивая церковь.
+phr. go to church - ходить в церковь
+   Her parents go to church every Sunday. - Её родители каждое воскресенье ходят в церковь.
+
+@churn
+/tʃɜːn/
+v. C1
+1. сбивать (масло) - agitate rapidly
+
+@cigar
+/sɪˈgɑː/
+n. B2
+1. сигара - rolled bundle of tobacco made for smoking
+   I saw a man with a cigar in his mouth. - Я увидел человека с сигарой во рту.
+
+@cigarette
+/ˈsɪgərɛt/
+n. A2
+1. сигарета, папироса - thin roll of tobacco made for smoking
+   Are hookahs healthier than cigarettes? - Кальян полезнее сигарет?
+
+@cinema
+/ˈsɪnɪmə/
+n. A1
+1. кино, кинематография, кинематограф - the film and movie industry
+   What's on at the cinema at the moment? - Что сейчас идёт в кино?
+2. кинотеатр - a film/movie theatre
+   The cinema is bursting at the seams. - Кинотеатр набит битком.
+
+@cinematographer
+n. C2
+1. кинематографист, кинематографистка - a movie photographer
+
+@cinematography
+/ˌsɪnəməˈtɒgrəfiː/
+n. C2
+1. кинематография
+   Cinematography is a magical world. - Кинематограф - это волшебный мир.
+
+@circle
+/ˈsɜːkəl/
+n. A1
+1. круг, окружность - specific group of persons
+   I think we've been going in circles. - Кажется, мы ходим кругами.
+v. B1
+2. двигаться по кругу, вращаться
+   Why is your name circled? - Почему твоё имя обведено кругом?
+
+@circuit
+/ˈsɜːkɪt/
+n. B2
+1. кругооборот - act of moving around
+
+@circular
+/ˈsɜːkjələ/
+adj. B1
+1. круговой - of or relating to a circle
+   An eddy is a circular current of water. - Водоворот - это круговой поток воды.
+2. циркулярный - distributed to a large number of persons
+   This is a circular saw. - Это циркулярная пила.
+3. круглый - in the shape of, or moving in a circle
+   circular saw - круглая пила
+n. B1
+4. циркуляр - advertisement
+   I've received a circular from the bank. - Я получил циркуляр от банка.
+
+@circulate
+/ˈsɜːkjʊˌleɪt/
+v. C1
+1. циркулировать
+   Blood circulates through blood vessels. - Кровь циркулирует по кровеносным сосудам.
+2. быть в обращении
+   Money circulates through the banking system. - Деньги обращаются в банковской системе.
+3. повторяться
+
+@circulation
+/ˌsɜːkjʊˈleɪʃən/
+n. C1
+1. тираж (газет, журналов)
+   The newspaper has a large circulation. - У этой газеты большой тираж.
+2. кровообращение
+   He suffers from poor blood circulation to his legs. - У него нарушено кровообращение в ногах.
+3. денежное обращение - currency
+   The bill was removed from circulation. - Купюра была изъята из обращения.
+
+@circumnavigate
+/ˌsəkəmˈnævɪgeɪt/
+v. C2
+1. плавать вокруг
+   circumnavigate the globe - совершать кругосветное плавание
+
+@circumnavigation
+n. C2
+1. кругосветное плавание
+
+@circumstance
+/ˈsɜːkəmstns/
+n. B2
+1. обстоятельство, случай - event
+   I wouldn't go under any circumstances. - Я бы не пошёл ни при каких обстоятельствах.
+2. обстоятельства, условия - that which attends
+   He explained to her his circumstances. - Он объяснил ей свою ситуацию.
+phr. under the circumstances - при данных обстоятельствах
+   Under the circumstances we have no choice but to surrender. - При этих обстоятельствах нам не остаётся ничего, кроме как сдаться.
+
+@circus
+/ˈsɜːkəs/
+n. B1
+1. цирк - company that travels
+   My uncle works as a clown at a circus. - Мой дядя работает клоуном в цирке.
+
+@citation
+/ˌsaɪˈteɪʃn/
+n. C1
+1. цитирование, ссылка, упоминание - the act of citing a passage from a book
+
+@cite
+/saɪt/
+v. C1
+1. ссылаться, цитировать
+
+@citizen
+/ˈsɪtɪzən/
+n. A2
+1. гражданин, гражданка - legal member of a state
+   It's free for European Union citizens. - Для граждан Евросоюза бесплатно.
+
+@citizenship
+/ˈsɪtɪzənʃɪp/
+n. B1
+1. гражданство - state of being a citizen
+   He will be given American citizenship. - Ему дадут американское гражданство.
+
+@city
+/sɪtɪ/
+n. A1
+1. большой
+   A giant lizard is destroying the city! - Огромный ящер уничтожает город!
+phr. city water - вода из (городского) водопровода
+   The lake supplies the city with water. - Озеро снабжает город водой.
+
+@civil
+/ˈsɪvəl/
+adj. B1
+1. гражданский
+   America's Civil War lasted four years. - Гражданская война в США продлилась четыре года.
+phr. civil rights - гражданские права
+   He was deprived of his civil rights. - Его лишили гражданских прав.
+
+@civilian
+/sɪˈvɪljən/
+n. B2
+1. гражданское население - non-military person
+   The bombing of civilians is a war crime. - Бомбардировка мирного населения является военным преступлением.
+
+@civilization
+/ˌsɪvɪlaɪˈzeɪʃən/
+n. B1
+1. цивилизация - organized culture
+   They destroyed the native civilization. - Они уничтожили местную цивилизацию.
+
+@claim
+/kleɪm/
+v. A2
+1. утверждать, заявлять - state a new fact
+   They claim they haven't been paid yet. - Они утверждают, что им ещё не заплатили.
+2. претендовать - demand ownership of something
+   She claims that she was born in 2013. - Она заявляет, что родилась в 2013.
+n. B1
+3. требование, претензия, притязание - demand for compensation
+   They have no claim to the property. - У них нет претензий на собственность.
+
+@clam
+/klæm/
+v. B2
+1. собирать моллюсков
+
+@clammy
+/ˈklæmi/
+adj. C1
+1. клейкий, липкий
+
+@clan
+/klæn/
+n. C1
+1. клан, род (в Шотландии) - group having common ancestor
+
+@clap
+/klæp/
+v. B2
+1. хлопать, аплодировать - To bring two surfaces together forcefully
+   A few people clapped after his lecture. - После его лекции несколько человек зааплодировали.
+n. B2
+2. хлопанье, хлопок
+
+@clarify
+/ˈklærɪfaɪ/
+v. B2
+1. вносить ясность
+   Let me clarify that. - Давайте я поясню свою мысль.
+
+@clash
+/ˈklæʃ/
+n. B2
+1. конфликт
+   His interests clash with mine. - Его интересы конфликтуют с моими.
+v. B2
+2. ударять с грохотом - make a clashing sound
+
+@clasp
+/klɑːsp/
+n. B2
+1. пряжка, застёжка
+   The clasp on this necklace is broken. - У этого ожерелья сломана застёжка.
+v. B2
+2. застёгивать
+
+@class
+/klɑːs/
+n. A1
+1. класс, разряд, группа, категория - group
+   Everyone in our class passed the exam. - Все в нашем классе сдали экзамен.
+2. курс (обучения) - series of classes covering a single subject
+   All of our classes have been canceled. - У нас все уроки отменили.
+v. C1
+3. классифицировать - assign to a class
+   I dreamed of coming to class naked. - Мне приснилось, что я пришёл в класс голым.
+
+@classic
+/ˈklæsɪk/
+adj. A2
+1. классический - exemplary of a particular style
+   This is classic Stockholm syndrome. - Это классический стокгольмский синдром.
+n. B2
+2. классик - lasting work
+   This is a classic. - Это классик.
+
+@classical
+/ˈklæsɪkl/
+adj. B1
+1. классический - art etc
+   He loves listening to classical music. - Он любит слушать классическую музыку.
+
+@classical music
+/ˈklasɪkl ˈmjuːzɪk/
+n. A2
+1. классическая музыка, классика - music of the classical period
+
+@classification
+/ˌklæsɪfɪˈkeɪʃən/
+n. B2
+1. классификация - act of forming into classes
+
+@classify
+/ˈklæsɪfaɪ/
+v. B1
+1. классифицировать - identify or divide into classes
+
+@classmate
+/ˈklɑːsmeɪt/
+n. A1
+1. одноклассник, одноклассница - student who is in the same class at school
+   Did you recognize your old classmate? - Ты узнал своего бывшего одноклассника?
+
+@classroom
+/ˈklɑːsrʊm/
+n. A1
+1. класс, классная комната - room in a school
+   The children ran toward the classroom. - Дети побежали в класс.
+
+@classy
+/ˈklɑːsi/
+adj. C1
+1. первоклассный, отличный - elegant and fashionable
+
+@clatter
+/ˈklætəː/
+n. B2
+1. грохот (машин) - A rattling noise
+   The clatter of the horse's hooves soothed him. - Цокот копыт его успокоил.
+v. B2
+2. стучать, греметь
+phr. clatter along - топать
+
+@clause
+/klɔːz/
+n. B2
+1. статья, пункт
+   Is there a clause in the lease regarding that? - А в договоре об аренде есть пункт, предусматривающий это?
+
+@claustrophobia
+/ˌklɒstrəˈfəʊbiə/
+n. C1
+1. клаустрофобия - fear of closed, tight places
+   I hope you don't suffer from claustrophobia. - Надеюсь, вы не страдаете клаустрофобией.
+
+@claustrophobic
+adj. C1
+1. клаустрофобный - Suffering from claustrophobia
+   Did I tell you that I'm claustrophobic? - Я вам говорил, что у меня клаустрофобия?
+
+@claw
+/klɔː/
+n. B2
+1. лапа с когтями - foot equipped with such
+   Do cats' claws have to be trimmed? - Кошачьи когти нужно подстригать?
+2. рука, лапа
+   The cat dug its claws into my hand. - Кошка вонзила свои когти в мою руку.
+v. B2
+3. царапать, рвать когтями, когтить - scratch or tear at
+   The cat clawed its owner. - Кот поцарапал хозяина.
+
+@clay
+/kleɪ/
+n. B2
+1. глина, глинозём - mineral substance
+   Swallows build their nests from clay. - Ласточки строят свои гнёзда из глины.
+
+@clean
+/kliːn/
+adj. A1
+1. чистый, опрятный - not dirty
+   The fork isn't as clean as the plates. - Вилка не такая чистая, как тарелки.
+v. A1
+2. чистить - to remove dirt from a place or object
+   You've cleaned your shoes, haven't you? - Ты ботинки-то почистил?
+phr. clean up - прибирать, приводить в порядок
+   Could you help me clean up this mess? - Можешь помочь мне убрать этот бардак?
+phr. clean out - обворовать, "обчистить"
+   Clean the ashes out of the fireplace. - Вычисти золу из камина.
+phr. clean room - чистая комната
+   They promised me they'd clean my room. - Они обещали мне, что уберутся в моей комнате.
+
+@cleaner
+/ˈkliːnə/
+n. A2
+1. уборщик, чистильщик - person who cleans
+   Tom is a street cleaner. - Том - уборщик улиц.
+2. средство для чистки
+   We need cleaner sources of energy. - Нам нужны более чистые источники энергии.
+3. химчистка
+
+@cleanly
+/ˈklɛnli/
+adv. C1
+1. чисто, целомудренно
+
+@clear
+/ˈklɪə/
+adj. A2
+1. ясный, светлый - bright, not obscured
+   A clear conscience is the best pillow. - Чистая совесть - лучшая подушка.
+2. понятный, ясный, недвусмысленный - free of ambiguity or doubt
+   He explains things in a very clear way. - Он очень понятно всё объясняет.
+v. B1
+3. получать чистую прибыль
+   The water from this fountain is clear. - Вода из этого фонтана чистая.
+phr. clear up - проясняться (о погоде)
+   Who's going to clear up all this mess? - Кто будет убирать весь этот беспорядок?
+phr. clear away - убирать со стола
+   She cleared away the dishes from the table. - Она убрала со стола посуду.
+phr. clear off - отделываться от чего-л
+   Pack your things and clear off! - Собирай свои вещи и проваливай!
+phr. clear out - очищать
+   I told him to clear out of the room. - Я сказал ему убираться из комнаты.
+phr. clear the table - убирать со стола
+   She will clear the table of the dishes. - Она уберёт посуду со стола.
+phr. clear the dishes - убирать посуду со стола
+   I cleared the table of the dishes. - Я убрал посуду со стола.
+phr. clear sky - безоблачное небо
+   Fish were falling out of the clear blue sky! - С чистого голубого неба падала рыба!
+
+@clearly
+/ˈklɪəli/
+adv. A2
+1. ясно, очевидно, несомненно - in a clear manner
+   Express yourself as clearly as you can. - Выражайся как можно яснее.
+
+@clench
+/klɛntʃ/
+v. C1
+1. сжимать (кулаки) - squeeze
+   You cannot shake hands with a clenched fist. - Нельзя пожать друг другу руки со сжатыми кулаками.
+
+@clerical
+/ˈklɛrɪkəl/
+adj. B2
+1. клерикальный
+
+@clerk
+/klɑːk/
+n. A2
+1. клерк, письмоводитель - one working with records etc.
+   He is nothing more than a clerk. - Он всего лишь клерк.
+
+@clever
+/ˈklɛvə/
+adj. A1
+1. умный - mentally quick or sharp
+   It was clever of you to tell him that. - Это было умно с вашей стороны сказать ему об этом.
+
+@cleverness
+/ˈklɛvənəs/
+n. C1
+1. одарённость
+
+@click
+/klɪk/
+v. A2
+1. щёлкать - operate so as to make click
+   I clicked the first link on the page. - Я кликнул на первую ссылку на странице.
+n. B1
+2. щёлканье (затвора, щеколды) - sharp sound
+   A soft click was heard. - Прозвучал тихий щелчок.
+
+@client
+/ˈklaɪənt/
+n. B2
+1. клиент - a customer or receiver of services
+   She is very popular with the clients. - Она очень популярна у клиентов.
+
+@cliff
+/klɪf/
+n. B1
+1. отвесная скала, утёс - a (near) vertical rock face
+   They scaled the cliff with difficulty. - Они с трудом взобрались на утёс.
+2. крутой обрыв
+   Stay away from the edge of the cliff. - Не подходи к краю обрыва.
+
+@climate
+/ˈklaɪmɪt/
+n. B1
+1. климат - long-term atmospheric conditions
+   Most of Brazil has a tropical climate. - На большей части Бразилии тропический климат.
+
+@climate change
+/ˈklaɪmət ˌtʃeɪndʒ/
+n. B2
+1. изменение климата - changes in the Earth's climate
+
+@climax
+/ˈklaɪmæks/
+n. C1
+1. высшая точка
+
+@climb
+/ˈklaɪm/
+n. A1
+1. подъём, восхождение - an act of climbing
+   The climb will be steep and difficult. - Это будет крутой и трудный подъём.
+v. A2
+2. лазить - mount, to move upwards on
+   He climbed up the tree without effort. - Он без труда залез на дерево.
+3. подниматься, карабкаться, влезать - ascend, to go up
+   He succeeded in climbing the mountain. - Ему удалось залезть на гору.
+phr. climb down - слезать
+   Climb down out of that tree immediately! - Слезай с этого дерева немедленно!
+
+@climber
+/ˈklaɪmə/
+n. B1
+1. альпинист
+   The mountain attracts many climbers. - Гора привлекает многих альпинистов.
+
+@clinch
+/klɪntʃ/
+v. C2
+1. прибивать гвоздём
+
+@cling
+/ˈklɪŋ/
+v. B2
+1. цепляться, прилипать - feel strongly about
+   The boy is clinging to his mother. - Мальчик цепляется за мать.
+2. оставаться верным (взглядам, друзьям)
+   He clings to his customs. - Он остаётся верным своим привычкам.
+
+@clinic
+/ˈklɪnɪk/
+n. B1
+1. клиника, лечебница - medical facility
+   He doesn't work at the clinic anymore. - Он больше не работает в клинике.
+
+@clinical
+/ˈklɪnɪkəl/
+adj. C1
+1. клинический - of or pertaining to a clinic
+   A large clinical study is underway. - Проводится крупное клиническое исследование.
+
+@clip
+/klɪp/
+n. B1
+1. скрепка, зажим, хомутик - something which clips or grasps
+   Do you have a paper clip? - У вас есть скрепка для бумаги?
+v. B2
+2. обрезать, отрезать, отсекать
+   Tom clipped his safety harness. - Том обрезал ремни безопасности.
+
+@cloak
+/kləʊk/
+n. C1
+1. покров - blanket-like covering, often metaphorical
+   cloak of snow - покров снега
+
+@clock
+/klɒk/
+n. A1
+1. часы - instrument to measure or keep track of time
+   His clock is more expensive than mine. - Его часы дороже моих.
+
+@clog
+/klɒg/
+v. B2
+1. засорять(ся), застопоривать(ся) - block or slow passage through
+   They have to fix the pipe. It's clogged. - Они должны починить трубу. Она засорилась.
+n. B2
+2. башмак на деревянной подошве
+
+@cloister
+/ˈklɔɪstə/
+n. C2
+1. монастырь - place devoted to religious seclusion
+
+@cloistered
+adj. C2
+1. заточённый
+
+@clone
+/kləʊn/
+v. A2
+1. клонировать - create a clone
+   I wonder if a human will ever be cloned. - Интересно, клонируют ли когда-нибудь человека?
+n. A2
+2. клон - living organism (originally a plant)
+   He's a clone. They replaced him. - Он клон. Его подменили.
+
+@close
+/ˈkləʊz/
+v. A1
+1. закрывать(ся) - move (a door)
+   All the shops will be closed tomorrow. - Завтра все магазины будут закрыты.
+adj. A1
+2. близкий (о времени и месте) - at little distance
+   I know you considered me a close friend. - Я знаю, что вы считали меня своим близким другом.
+adv. B1
+3. коротко
+   close cropped - коротко остриженный
+phr. close on - приходить к соглашению
+   The post office is closed on Sundays. - По воскресеньям почта не работает.
+phr. close in - приближаться
+   Mercury is close in size to our moon. - Меркурий близок по размеру к нашей Луне.
+phr. close down - закрывать (предприятие)
+   This mine will close down next month. - Эту шахту закроют в следующем месяце.
+phr. close friend - близкий друг
+   He is a close friend of my brother. - Он близкий друг моего брата.
+
+@closed
+/kləʊzd/
+adj. A1
+1. запертый, закрытый
+   All the shops will be closed tomorrow. - Завтра все магазины будут закрыты.
+
+@closely
+/ˈkləʊsliː/
+adv. B1
+1. внимательно
+   Listen closely and do not interrupt. - Слушай внимательно и не перебивай.
+2. близко, тесно - in a close manner
+   Monkeys are closely related to humans. - Обезьяны тесно связаны с людьми.
+
+@closeness
+/ˈkləʊsnəs/
+n. C1
+1. близость
+   Martina fears emotional closeness. - Мартина боится эмоциональной близости.
+
+@closet
+/ˈklɒzɪt/
+n. B1
+1. (стенной) шкаф - furniture
+   Andy hung his shirt up in the closet. - Энди повесил свою рубашку в шкаф.
+
+@closure
+/ˈkləʊʒə/
+n. B2
+1. закрытие, смыкание - event signifying an ending
+   The road closure was due to a flash flood. - Дорога была перекрыта из-за внезапного паводка.
+
+@cloth
+/klɒθ/
+n. A1
+1. ткань, сукно, полотно, холст - fabric
+   I cut the cloth with a pair of scissors. - Я разрезал ткань ножницами.
+2. скатерть
+   She spread a beautiful cloth on a table. - Она постелила на стол красивую скатерть.
+
+@clothes
+/kləʊz/
+n. A1
+1. платье, одежда
+   Clothes lay strewn all over the floor. - По полу была разбросана одежда.
+
+@clothing
+/ˈkləʊðɪŋ/
+n. B2
+1. одежда, платье - clothes
+   The hem of his clothing caught a nail. - Подол его одежды зацепился за гвоздь.
+
+@cloud
+/ˈklaʊd/
+n. A1
+1. облако, туча
+   A cloud is a mass of vapor in the sky. - Облако - это масса пара в небе.
+
+@cloudy
+/ˈklaʊdiː/
+adj. A1
+1. облачный - covered with or characterised by clouds
+   It won't rain. It's just cloudy today. - Дождя не будет. Просто сегодня облачно.
+
+@clown
+/ˈklaʊn/
+n. A2
+1. клоун - performance artist working in a circus
+   My uncle works as a clown at a circus. - Мой дядя работает клоуном в цирке.
+
+@club
+/klʌb/
+n. A1
+1. клуб
+   Can you persuade him to join our club? - Можешь ли ты уговорить его вступить в наш клуб?
+
+@clue
+/kluː/
+n. A2
+1. ключ (к разгадке чего-л.), улика
+   Do you have any clue to the mystery? - У вас есть ключ к разгадке тайны?
+
+@clumsy
+/ˈklʌmzi/
+adj. B2
+1. неуклюжий, неловкий - awkward
+   Why are you so clumsy? - Почему ты так неуклюжа?
+
+@clutch
+/ˈklʌtʃ/
+v. C1
+1. схватить, зажать, ухватить(ся) - grip or grasp tightly
+   He'll clutch at any straw. - Он уцепится за любую соломинку.
+n. C1
+2. сжатие, захват
+   make a clutch at something - схватить что-л
+
+@clutter
+/ˈklʌtə/
+n. C1
+1. беспорядок, хаос - a confused disordered jumble of things
+   Clutter on the table, clutter in the head. - Бардак на столе - бардак в голове.
+v. C1
+2. создавать суматоху
+
+@coach
+/kəʊtʃ/
+n. A1
+1. тренер, инструктор - trainer
+   The coach considers Bob a good player. - Тренер считает Боба хорошим игроком.
+v. B2
+2. тренировать
+   Ziri coached the prison guards' soccer team. - Зири тренировал футбольную команду тюремных охранников.
+
+@coal
+/kəʊl/
+n. B1
+1. (каменный) уголь - carbon rock
+   Coal and natural gas are natural fuels. - Уголь и природный газ — природное топливо.
+v. B1
+2. грузить(ся) углем
+
+@coalition
+/kəʊəˈlɪʃən/
+n. B2
+1. коалиция, союз (временный) - group of organizations
+
+@coarse
+/kɔːs/
+adj. B2
+1. грубый (о пище, одежде) - not refined
+   Her dress was made of coarse wool. - Её юбка связана из грубой шерсти.
+
+@coast
+/kəʊst/
+n. A2
+1. морской берег, побережье - edge of land meeting ocean, sea, gulf, bay
+   Driving along the coast is wonderful. - Ехать вдоль берега так прекрасно.
+v. B1
+2. плавать вдоль побережья
+
+@coastal
+/ˈkəʊstəl/
+adj. B1
+1. береговой - relating to the coast
+   Seagulls are mainly coastal birds. - Чайки, большей частью, являются прибрежными птицами.
+
+@coastline
+n. B2
+1. береговая линия - the shape of a coast
+   The city has a long coastline. - У города длинная береговая линия.
+
+@coat
+/ˈkəʊt/
+n. A1
+1. пиджак, мундир, френч, китель
+   He put on his coat and left the house. - Он надел пальто и вышел из дома.
+phr. coat of arms - гербовый щит, герб
+   What's written on your coat of arms? - Что написано на вашем гербе?
+phr. coat of paint - слой краски
+   That house cried for a coat of paint. - Тот дом требовал покраски.
+
+@coax
+/kəʊks/
+v. C2
+1. упрашивать (лаской, терпеливо)
+
+@cocktail
+/ˈkɒkteɪl/
+n. B2
+1. коктейль - alcoholic beverage
+   This cocktail is a little too strong. - Этот коктейль крепковат.
+
+@cocoa
+/ˈkəʊkəʊ/
+n. B2
+1. какао (порошок и напиток) - partially fermented seeds of cocoa tree
+   Chocolate is made from cocoa beans. - Шоколад делают из какао-бобов.
+
+@coconut
+/ˈkəʊkənʌt/
+n. B2
+1. кокос - fruit of coco palm
+   I drink coconut water in the morning. - Я пью кокосовую воду по утрам.
+
+@cocoon
+/kəˈkuːn/
+n. C2
+1. кокон
+   Silkworms spin cocoons. - Шелкопряды плетут коконы.
+
+@cod
+/kɒd/
+n. B1
+1. стручок, шелуха
+
+@code
+/kəʊd/
+n. A1
+1. код - set of rules for converting information
+   Churches enforce a strict dress code. - В церквях соблюдается строгий дресс-код.
+v. B2
+2. шифровать по коду, кодировать - write software programs
+   To create a website, it is useful to know how to code. - Чтобы создать сайт, полезно уметь кодить.
+
+@coffee
+/ˈkɒfi/
+n. A1
+1. кофе - beverage
+   "What's your favourite tea?" "Coffee." - «Какой твой любимый чай?» – «Кофе».
+
+@coffin
+/ˈkɒfɪn/
+n. B1
+1. гроб - box in which a dead person is buried
+   The coffin was loaded into the hearse. - Гроб поставили в катафалк.
+
+@cogent
+/ˈkəʊdʒnt/
+adj. C2
+1. убедительный, неоспоримый - reasonable and convincing
+
+@cognitive
+/ˈkɒgnɪtɪv/
+adj. C2
+1. познавательный - relating to mental functions
+
+@coherence
+/kəʊˈhɪərəns/
+n. B2
+1. связность - quality of cohering
+
+@coherent
+/kəʊˈhɪərənt/
+adj. B2
+1. сцепленный
+
+@coil
+/kɔɪl/
+n. B2
+1. верёвка, сложенная витками в круг
+v. B2
+2. свёртываться кольцом, спиралью - wind into regular rings
+
+@coin
+/ˈkoɪn/
+n. A2
+1. монета, деньги - (currency) a piece of currency
+   Please change these bills into coins. - Пожалуйста, разменяйте эти купюры на монеты.
+
+@coincide
+/ˌkəʊɪnˈsaɪd/
+v. B2
+1. совпадать - occupy exactly the same space
+   My birthday coincides with yours. - Мой день рождения совпадает с вашим.
+
+@coincidence
+/kəʊˈɪnsɪdəns/
+n. B2
+1. совпадение - of objects, property of being coincident
+   I don't think that it's a coincidence. - Не думаю, что это совпадение.
+
+@coke
+/kəʊk/
+n. A1
+1. кока-кола (напиток) - short for cocaine
+   I prefer to drink coke instead of coffee. - Я предпочитаю пить кока-колу вместо кофе.
+
+@cola
+/ˈkəʊlə/
+n. A2
+1. кола - drink
+   I'll have an ice cream and a Coca-Cola. - Я буду мороженое и кока-колу.
+
+@cold
+/kəʊld/
+adj. A1
+1. холодный - of a person's sensation
+   A little cold water never hurt anyone. - Немного холодной воды ещё никому не повредило.
+n. A1
+2. простуда - illness — see also flu, catarrh
+   I hope you'll get over your cold soon. - Надеюсь, твоя простуда скоро пройдёт.
+3. холод - low temperature
+   We have become accustomed to the cold. - Мы привыкли к холоду.
+phr. catch cold - простудиться
+   Put your coat on, or you'll catch cold. - Надень пальто, а то простудишься.
+phr. cold war - холодная война
+   The Cold War began after World War Two. - Холодная война началась после Второй мировой войны.
+phr. be cold - зябнуть, мёрзнуть
+   He is not going to be cold. - Он не замёрзнет.
+
+@collaborate
+/kəˈlæbəreɪt/
+v. C1
+1. сотрудничать - work together on a piece of work
+   Let's collaborate. - Давайте сотрудничать.
+
+@collaboration
+/kəˌlæbəˈreɪʃən/
+n. C1
+1. сотрудничество, совместная работа - act of collaborating
+   Only collaboration can save humanity. - Только сотрудничество может спасти человечество.
+
+@collaborative
+/kəˈlæbərətɪv/
+adj. C1
+1. совместный - of, relating to, or done by collaboration
+
+@collaborator
+/kəˈlæbəreɪtə/
+n. C1
+1. сотрудник
+   Tom is a collaborator. - Том — сотрудник.
+
+@collapse
+/kəˈlæps/
+n. B1
+1. обвал, разрушение, осадка - act of collapsing
+v. B2
+2. терпеть крах
+   The country's economy is about to collapse. - Экономика страны на грани коллапса.
+3. сильно ослабеть
+   I'm going to collapse if I don't sit down. - Я сейчас рухну, если не сяду.
+
+@collar
+/ˈkɒlə/
+n. B1
+1. воротник, воротничок - fabric garment part fitting around throat
+   I bought a jacket without a collar. - Я купил куртку без воротника.
+2. ошейник - device for restraining animal
+   I grabbed the dog by its collar. - Я схватил собаку за ошейник.
+
+@colleague
+/ˈkɒliːg/
+n. B2
+1. сослуживец, коллега - fellow member of a profession
+   My colleagues welcomed me very warmly. - Мои коллеги приняли меня очень тепло.
+
+@collect
+/kəˈlɛkt/
+v. A1
+1. собирать - gather together
+   Facebook collects private information. - Фейсбук собирает личную информацию.
+2. коллекционировать - accumulate items for a hobby
+   Her hobby is to collect ancient coins. - Её хобби — коллекционирование старинных монет.
+
+@collection
+/kəˈlɛkʃən/
+n. A1
+1. коллекция, собрание - set of items
+   He showed me his collection of stamps. - Он показал мне свою коллекцию марок.
+
+@collector
+/kəˈlɛktə/
+n. B2
+1. коллекционер, собиратель - person or thing that collects
+   She's an avid art collector. - Она — заядлый коллекционер произведений искусства.
+
+@college
+/ˈkɒlɪdʒ/
+n. A1
+1. университетский колледж
+   He lived in Kyoto in his college days. - Во время учёбы в колледже он жил в Киото.
+2. средняя школа с интернатом - academic institution
+   His elder son is studying at college. - Его старший сын учится в университете.
+
+@collide
+/kəˈlaɪd/
+v. C2
+1. сталкиваться - make a direct impact, especially if violent
+   Two asteroids collided in deep space. - Два астероида столкнулись в далёком космосе.
+
+@collider
+/kəˈlaɪdə/
+n. C2
+1. коллайдер - particle accelerator
+
+@collocation
+/ˌkɒləˈkeɪʃən/
+n. B2
+1. расположение, расстановка
+
+@colloquial
+/kəˈləʊkwiəl/
+adj. C2
+1. разговорный - of oral communication language
+
+@colloquially
+/kəˈləʊkwɪəli/
+adv. C2
+1. разговорно - in a colloquial manner
+
+@colloquium
+/kəˈləʊkwiəm/
+n. C2
+1. коллоквиум - academic meeting
+
+@colon
+/ˈkəʊlən/
+n. B2
+1. двоеточие - punctuation mark
+   A space is missing before the colon. - Не хватает пробела перед двоеточием.
+
+@colonel
+/ˈkɜːnəl/
+n. B2
+1. полковник - commissioned office in the armed services
+   Who killed Colonel James Barclay, then? - Кто же тогда убил полковника Джеймса Барклая?
+
+@colonial
+/kəˈləʊniəl/
+adj. B2
+1. колониальный - of or pertaining to a colony
+   In the 15th century, Portugal was a great colonial power. - В XV веке Португалия была могущественной колониальной державой.
+
+@colony
+/ˈkɒləni/
+n. B2
+1. колония - group of organisms
+   Zimbabwe was once a colony of Britain. - Зимбабве когда-то было колонией Британии.
+
+@color
+/ˈkʌlə/
+n. A1
+1. цвет, оттенок, тон
+   Do you have that in any other colours? - У вас есть такое же, но других цветов?
+v. A1
+2. красить, раскрашивать, окрашивать
+   She had mahogany-coloured hair. - У неё были волосы цвета красного дерева.
+
+@colorful
+/ˈkʌləfl/
+adj. A2
+1. красочный, яркий
+   The feathers of this parrot are so colourful! - У этого попугая такие яркие перья!
+
+@colour
+n. A1
+1. цвет, оттенок, тон
+   Do you have that in any other colours? - У вас есть такое же, но других цветов?
+v. B1
+2. красить, раскрашивать, окрашивать
+   She had mahogany-coloured hair. - У неё были волосы цвета красного дерева.
+
+@colourful
+adj. A2
+1. красочный, яркий
+   The feathers of this parrot are so colourful! - У этого попугая такие яркие перья!
+
+@column
+/ˈkɒləm/
+n. A2
+1. столб(ик) - a vertical body of text
+   Columns provide a solid foundation. - Колонны дают прочную основу.
+
+@columnist
+/ˈkɒləmɪst/
+n. B1
+1. обозреватель
+   Ali works as a sports columnist for the newspaper. - Али работает спортивным обозревателем в газете.
+
+@coma
+/ˈkəʊmə/
+n. B2
+1. кома - deep sleep
+   I was in a coma for three months. - Я три месяца пробыл в коме.
+
+@comb
+/kəʊm/
+n. A2
+1. гребень, расчёска
+   Why do you need a comb if you're bald? - Зачем вам нужна расческа, если вы лысый?
+v. B2
+2. расчёсывать - groom the hair with a toothed implement
+   I like to comb my hair with this comb. - Я люблю расчёсывать свои волосы этой расчёской.
+3. чистить скребницей
+
+@combat
+/ˈkɒmˌbæt/
+n. B2
+1. бой - a battle
+   He was sent into combat. - Он был отправлен в бой.
+
+@combination
+/ˌkɒmbɪˈneɪʃən/
+n. B1
+1. комбинация (бельё)
+   The combination is the poetry of chess. - Комбинация - это поэзия шахмат.
+2. соединение, комбинация, сочетание - act of combining
+   Which colour combinations do you like? - Какие сочетания цветов вам нравятся?
+
+@combine
+/kəmˈbaɪn/
+v. B1
+1. комбинировать, сочетать(ся)
+   This poem combines prose with poetry. - Это стихотворение сочетает в себе прозу и поэзию.
+2. объединять(ся)
+   They combined forces to fight the enemy. - Они объединили свои силы для того, чтобы одолеть врага.
+3. убирать комбайном
+   Tom was a tractor and combine driver. - Том был трактористом и комбайнером.
+n. B1
+4. объединение
+
+@combustion
+/kəmˈbʌstʃən/
+n. C2
+1. горение, сгорание, сожжение - the act or process of burning
+   spontaneous combustion - самовоспламенение, самовозгорание
+
+@come
+/kʌm/
+v. (came, come) A1
+1. приходить, подходить - move nearer
+   A year has passed since she came here. - Прошёл год с тех пор, как она сюда приехала.
+phr. come back - возвращаться
+   Are you going to come back on Tuesday? - Ты во вторник вернёшься?
+phr. come in - входить
+   The guards didn't see anybody come in. - Охранники не видели, чтобы кто-нибудь входил.
+phr. come on - приближаться
+   Come on Monday afternoon, if possible. - Приходите в понедельник после обеда, если это возможно.
+phr. come out - выходить
+   I hope the new version comes out soon. - Надеюсь, новая версия скоро выйдет.
+phr. come up - подниматься, вырастать, возникать
+   I'm the one who came up with the idea. - Идея пришла в голову мне.
+phr. come into - вступать в
+   Sometimes bears come into our village. - Иногда в деревню заходят медведи.
+phr. come again - возвращаться
+   A missed opportunity never comes again. - Упущенная возможность никогда не возвращается.
+phr. come what may - будь, что будет
+   Come what may, I won't change my mind. - Будь что будет, я не передумаю.
+phr. come into force - вступать в силу
+   The treaty will come into force at midnight. - Договор вступит в силу в полночь.
+
+@comedian
+/kəˈmiːdiən/
+n. B1
+1. комик, комедийный актёр - entertainer
+   He's one of the funniest comedians. - Он один из смешнейших комиков.
+
+@comedy
+/ˈkɒmədi/
+n. B1
+1. комедия - a choric song of celebration or revel
+   Tim is a huge fan of satirical comedy. - Том - большой фанат сатирической комедии.
+
+@comet
+/ˈkɒmɪt/
+n. B1
+1. комета - a celestial body, generally with a tail
+   Don't confuse a comet with an asteroid. - Не путай комету с астероидом.
+
+@comfort
+/ˈkʌmfət/
+v. B1
+1. утешать, успокаивать - provide comfort to — see also console
+   No one comforted her when she was sad. - Никто не утешал её, когда ей было грустно.
+n. B1
+2. комфорт, удобства - contentment, ease
+   I choose to stay in my comfort zone. - Я решил остаться в зоне комфорта.
+3. утешение, успокоение, ободрение - consolation
+   A heavenly comfort, I don't know how, takes hold of me. - Небесное утешение, не знаю как, охватывает меня.
+
+@comfortable
+/ˈkʌmftəbəl/
+adj. A2
+1. удобный, комфортабельный, уютный - providing physical comfort and ease
+   I never really felt comfortable there. - На самом деле я никогда здесь не чувствовал себя комфортно.
+
+@comic
+/ˈkɒmɪk/
+n. A2
+1. актёр-комик - comedian
+   I borrowed this comic from his sister. - Я одолжил этот комикс у его сестры.
+adj. A2
+2. комический, юмористический - being funny
+   Most funny stories are based on comic situations. - Большинство смешных историй основано на комических ситуациях.
+
+@comma
+/ˈkɒmə/
+n. B1
+1. запятая - punctuation mark ','
+   There should be a comma before "wenn". - Не хватает запятой перед "wenn".
+
+@command
+/kəˈmɑːnd/
+n. B1
+1. команда, приказ - unit of military personnel
+   He trained the dog to follow commands. - Он дрессировал собаку, чтобы она выполняла команды.
+2. владение - power of control, direction or disposal
+   He has a perfect command of English. - Он в совершенстве владеет английским.
+v. B2
+3. приказывать - order
+   The policeman commanded them to stop. - Полицейский приказал им остановиться.
+4. командовать, управлять - hold, to control
+   Through obedience learn to command. - Через подчинение учиться командовать.
+
+@commander
+/kəˈmɑːndə/
+n. B2
+1. командир, начальник, командующий
+   Soldiers must obey their commanders. - Солдаты должны подчиняться своим командирам.
+
+@commemorate
+/kəˈmɛməˌreɪt/
+v. B2
+1. чтить память - honor the memory of someone or something
+
+@commend
+/kəˈmɛnd/
+v. C1
+1. хвалить, рекомендовать - praise
+   I commended him according to his merits. - Я похвалил его по заслугам.
+
+@commendation
+/ˌkɒmənˈdeɪʃən/
+n. C1
+1. похвала
+
+@commensurate
+/kəˈmensrət/
+adj. C2
+1. соответственный, соразмерный - proportionate
+
+@comment
+/ˈkɒmɛnt/
+n. B1
+1. замечание, отзыв - spoken remark
+   Thank you very much for your comments. - Большое вам спасибо за комментарии.
+v. B2
+2. делать (критические) замечания
+   I'd prefer not to comment on that now. - Я бы предпочёл сейчас это не комментировать.
+
+@commerce
+/ˈkɒmɜːs/
+n. B2
+1. (оптовая) торговля, коммерция - large scale trade
+   Osaka is the center of commerce in Japan. - Осака - центр торговли Японии.
+
+@commercial
+/kəˈmɜːʃəl/
+adj. B1
+1. торговый, коммерческий - of or pertaining to commerce
+   This is not a commercial marina. - Это не коммерческая пристань.
+
+@commercially
+adv. C1
+1. коммерчески - in a commercial manner
+   It's forbidden to use this information commercially. - Эту информацию запрещено использовать в коммерческих целях.
+
+@commission
+/kəˈmɪʃən/
+n. B2
+1. комиссия - body of officials
+   He should work for the European Commission. - Он должен работать на Европейскую комиссию.
+2. комиссионное вознаграждение - fee charged
+   Tom's commissions often exceed his weekly salary. - Комиссионные Тома часто превышают его недельную зарплату.
+v. C1
+3. назначать на должность
+   commission an officer - присвоить первое офицерское звание
+
+@commit
+/kəˈmɪt/
+v. B1
+1. совершать (преступление) - do (something bad)
+   He conceded that he committed a crime. - Он признал, что совершил преступление.
+phr. commit suicide - покончить жизнь самоубийством
+   He committed suicide by taking poison. - Он покончил жизнь самоубийством, приняв яд.
+phr. commit a crime - совершить преступление
+   The criminal committed a horrible crime. - Преступник совершил ужасное преступление.
+phr. commit to memory - заучивать, запоминать
+   It is not easy to commit dates to memory. - Запоминать даты непросто.
+
+@commitment
+/kəˈmɪtmənt/
+n. A2
+1. обязательство
+   Marriage is a lifelong commitment. - Брак – это обязательство длиною в жизнь.
+
+@committee
+/kəˈmɪti/
+n. A2
+1. комитет
+   Our committee consists of ten members. - Наш комитет состоит из десяти членов.
+2. комиссия
+   What did the committee of the institute say? - Что сказала комиссия института?
+
+@commode
+/kəˈməʊd/
+n. C2
+1. комод - low chest of drawers
+
+@commodity
+/kəˈmɒdəti/
+n. C2
+1. (часто ) товар - anything movable traded
+   Nowadays prices of commodities are very high. - В настоящее время цены на потребительские товары очень высоки.
+
+@common
+/ˈkɒmən/
+adj. A2
+1. общий - mutual
+   As a rule, twins have a lot in common. - Как правило, у близнецов много друг с другом общего.
+2. общепринятый, распространённый
+   Murders are very common in big cities. - Убийства широко распространены в больших городах.
+phr. common sense - здравый смысл
+   Let's hope that common sense prevails. - Будем надеяться, что здравый смысл возобладает.
+phr. common interests - общие интересы
+   Common interests bring people together. - Общие интересы сближают людей.
+
+@common sense
+n. B1
+1. здравый смысл, ум-разум - ordinary understanding
+
+@commonly
+/ˈkɒmənli/
+adv. B1
+1. обычно, обыкновенно - as a rule
+   What are some foods commonly eaten in America? - Что обычно едят в Америке?
+
+@commonwealth
+/ˈkɒmənˌwelθ/
+n. B2
+1. государство, республика
+
+@communicate
+/kəˈmjuːnɪkeɪt/
+v. A2
+1. сообщать, передавать - impart information or knowledge of
+   Do you need help communicating this news to your family? - Нужна ли вам помощь в том, чтобы сообщить эту новость семье?
+
+@communication
+/kəˌmjuːnɪˈkeɪʃən/
+n. A2
+1. общение, средство общения, связи - concept of exchanging information
+   Good communication makes good friends. - Хорошее общение делает людей хорошими друзьями.
+
+@communicative
+/kəˈmjuːnɪkətɪv/
+adj. B2
+1. общительный, разговорчивый - eager to communicate
+   I'm not a very communicative person. - Я не очень общительный человек.
+
+@community
+/kəˈmjuːnɪti/
+n. B2
+1. община - group sharing a common understanding
+   The house was built by the community. - Дом был построен общиной.
+2. местность, населённый пункт
+   The whole community is behind this plan. - Всё местное население поддерживает этот план.
+
+@commute
+/kəˈmjuːt/
+v. B2
+1. заменять
+
+@companion
+/kəmˈpænjən/
+n. B1
+1. спутник, попутчик
+   And where is your traveling companion? - А где же ваш попутчик?
+2. товарищ
+   My companions were all asleep. - Все мои товарищи спали.
+3. компаньон, компаньонка
+   He fell among bad companions. - Он угодил в плохую компанию.
+
+@company
+/ˈkʌmpni/
+n. A2
+1. общество, компания - in legal context, a corporation
+   He is the lawful owner of the company. - Он законный владелец компании.
+phr. for company - за компанию
+   I can't work for this company anymore. - Я больше не могу работать в этой компании.
+
+@comparative
+/kəmˈpærətɪv/
+adj. A2
+1. сравнительный - of or relating to comparison
+   comparative anatomy - сравнительная анатомия
+
+@compare
+/kəmˈpɛə/
+v. A2
+1. сравнивать, сличать
+   Compared to her, I'm very impractical. - По сравнению с ней я совершенно не практична.
+
+@comparison
+/kəmˈpærɪsən/
+n. B1
+1. сравнение
+   Comparison is the mother of violence. - Сравнение - мать насилия.
+phr. in comparison with - в сравнении с
+   In comparison with Tokyo, London is small. - Лондон маленький по сравнению с Токио.
+
+@compass
+/ˈkʌmpəs/
+n. B2
+1. компас, буссоль - instrument to determine cardinal directions
+   I don't know how to use this compass. - Я не знаю, как пользоваться этим компасом.
+2. (часто ) циркуль
+   This circle was drawn by a compass. - Этот круг был начерчен циркулем.
+
+@compassion
+/kəmˈpæʃən/
+n. B2
+1. жалость, сострадание, сочувствие
+   Nothing is as important as compassion. - Нет ничего важнее сострадания.
+
+@compassionate
+/kəmˈpæʃənət/
+adj. B2
+1. жалостливый, сострадательный
+
+@compatible
+/kəmˈpætəbəl/
+adj. B2
+1. совместимый - capable of easy interaction
+   Is this program compatible with Windows XP? - Эта программа совместима с Windows XP?
+
+@compel
+/kəmˈpɛl/
+v. C1
+1. заставлять, принуждать - force, constrain or coerce
+   He compelled me to make a speech. - Он заставил меня выступить с речью.
+
+@compensate
+/ˈkɒmpənseɪt/
+v. B2
+1. возмещать (убытки), компенсировать - do
+   I will compensate you for your loss. - Я возмещу ваши потери.
+
+@compensation
+/ˌkɒmpənˈseɪʃən/
+n. B2
+1. возмещение, компенсация - act or principle of compensating
+   You may be entitled to compensation. - Вам может быть положена компенсация.
+
+@compete
+/kəmˈpiːt/
+v. B1
+1. состязаться, соревноваться - contend
+   I don't want to compete with anyone. - Я ни с кем не хочу соперничать.
+
+@competence
+/ˈkɒmpətəns/
+n. B2
+1. компетентность
+   I'm not questioning your competence. - Я не ставлю под вопрос вашу компетенцию.
+
+@competent
+/ˈkɒmpətənt/
+adj. B2
+1. компетентный, знающий - skilled
+   I think they are a competent person. - Думаю, он компетентный человек.
+
+@competition
+/ˌkɒmpəˈtɪʃən/
+n. A2
+1. соревнование - action of competing
+   He was lucky and won the competition. - Ему повезло и он победил в соревновании.
+2. конкурс, конкурсный экзамен - contest for a prize or award
+   Which team will win the competition? - Какая команда выиграет конкурс?
+
+@competitive
+/kəmˈpɛtɪtɪv/
+adj. B1
+1. соперничающий, конкурирующий
+   These are very competitive prices. - Это очень конкурентоспособные цены.
+
+@competitor
+/kəmˈpɛtɪtə/
+n. B1
+1. конкурент, соперник - person against whom one is competing
+   We have a lot of competitors. - У нас много конкурентов.
+
+@compile
+/kəmˈpaɪl/
+v. B2
+1. компилировать - produce executable
+   The data hasn't been compiled yet. - Данные ещё не собраны.
+2. составлять - assemble from a collection
+   I compiled a list of 30 of the most common dirty words. - Я составил список из тридцати наиболее распространённых ругательств.
+
+@complain
+/kəmˈpleɪn/
+v. A2
+1. жаловаться - express feelings of pain
+   I don't see any customers complaining. - Я не вижу, чтобы какие бы то ни было клиенты жаловались.
+
+@complaint
+/kəmˈpleɪnt/
+n. A2
+1. жалоба - grievance, problem, difficulty, or concern
+   I'm sick and tired of your complaints. - Мне надоели твои жалобы.
+
+@complement
+/ˈkɒmpləmənt/
+v. B1
+1. дополнять - complete
+   You complement me. - Ты меня дополняешь.
+n. B1
+2. комплект
+
+@complementary
+/ˌkɒmplɪˈmɛntri/
+adj. C1
+1. дополнительный, добавочный
+
+@complete
+/kəmˈpliːt/
+adj. A2
+1. полный, законченный - with everything included
+   I want a complete list of your books. - Я бы хотел получить полный список ваших книг.
+v. B1
+2. заканчивать, завершать - finish
+   This project is nowhere near complete. - Этот проект далёк от завершения.
+
+@completely
+/kəmˈpliːtli/
+adv. B1
+1. совершенно, полностью, вполне - in a complete manner
+   Bill is completely unlike his brother. - Билл совсем не похож на своего брата.
+
+@completion
+/kəmˈpliːʃən/
+n. B2
+1. завершение, окончание, заключение - making complete
+   The first stage is nearing completion. - Первый этап близится к завершению.
+
+@complex
+/ˈkɒmplɛks/
+adj. B1
+1. сложный, комплексный, составной - intricate
+   This example is a little more complex. - Этот пример чуть сложнее.
+n. B2
+2. комплекс, совокупность - psychologically based dislike or fear
+   The new sports complex is nice and big. - Новый спортивный комплекс большой и хороший.
+
+@complexion
+/kəmˈplɛkʃən/
+n. B2
+1. вид, аспект
+
+@complexity
+/kəmˈplɛksɪti/
+n. B2
+1. сложность, запутанность - the state of being complex
+
+@compliance
+/kəmˈplaɪəns/
+n. C1
+1. согласие - act of complying
+   I've brought the website into compliance with W3C standards. - Я привёл веб-сайт в соответствие со стандартами W3C.
+
+@compliant
+/kəmˈplʌɪənt/
+adj. C1
+1. податливый, уступчивый
+
+@complicate
+/ˈkɒmplɪkeɪt/
+v. B1
+1. усложнять - combine intricately
+   This further complicates the problem. - Это ещё больше усложняет проблему.
+
+@complicated
+/ˈkɒmplɪkeɪtɪd/
+adj. B1
+1. запутанный, сложный - difficult or convoluted
+   It seems complicated, yet it's simple. - Это кажется сложным, но это просто.
+
+@compliment
+/ˈkɒmplɪmənt/
+n. B1
+1. комплимент, похвала, любезность - expression of praise
+   She is always fishing for compliments. - Она всегда напрашивается на комплименты.
+v. B2
+2. говорить комплименты, хвалить - pay a compliment
+   The teacher complimented our son. - Учитель похвалил нашего сына.
+
+@complimentary
+/ˌkɒmplɪˈmɛntri/
+adj. C1
+1. поздравительный
+
+@comply
+/kəmˈplaɪ/
+v. C1
+1. уступать, соглашаться
+2. подчиняться - yield assent
+   You must comply. - Вы должны подчиняться правилам.
+
+@component
+/kəmˈpəʊnənt/
+adj. B2
+1. составной, составляющий, слагающий
+   Discipline is the most important component of success. - Дисциплина — важнейшая составляющая успеха.
+n. B2
+2. компонент, составная часть - smaller, self-contained part of larger entity
+   Thread is the basic component of fabric. - Нить - это основной компонент ткани.
+3. детали
+
+@compose
+/kəmˈpəʊz/
+v. B1
+1. обыкн. состоять (из) - make up the whole
+   A team is composed of eleven players. - Команда состоит из одиннадцати игроков.
+2. сочинять, создавать, писать - construct by mental labor
+   Composing music requires inspiration. - Сочинение музыки требует вдохновения.
+3. улаживать (ссору), успокаивать
+   Try to compose yourself. - Постарайтесь успокоиться.
+
+@composer
+/kəmˈpəʊzə/
+n. A2
+1. композитор - one who composes music
+   Mozart is one of my favorite composers. - Моцарт — один из моих любимых композиторов.
+
+@composition
+/ˌkɒmpəˈzɪʃən/
+n. B1
+1. школьное сочинение
+   His composition is free from mistakes. - В его сочинении нет ошибок.
+2. композиция, компоновка - work of music, literature or art
+   Compare your composition with the example. - Сравните свою композицию с образцом.
+
+@compound
+/ˈkɒmpaʊnd/
+n. B1
+1. смесь, состав, соединение
+   Ammonium carbonate is an organic compound. - Карбонат аммония - это органическое соединение.
+adj. B1
+2. составной, сложный - composed of elements
+   "Monday" in Portuguese is a compound word. - «Понедельник» в португальском — составное слово.
+
+@comprehension
+/ˌkɒmprɪˈhɛnʃn/
+n. B2
+1. понимание, понятливость - thorough understanding
+   Why he did it is beyond my comprehension. - Причины его поступка выходят за пределы моего понимания.
+
+@comprehensive
+/ˌkɒmprɪˈhɛnsɪv/
+adj. B2
+1. объемлющий, исчерпывающий
+   I gave you a comprehensive answer. - Я дал вам исчерпывающий ответ.
+2. всесторонний - broadly or completely covering
+   There is no such a thing as a comprehensive textbook. - Не существует всеобъемлющего учебника.
+3. обширный
+   His comprehensive knowledge impressed me. - Его обширные познания меня впечатлили.
+
+@compress
+/kəmˈprɛs/
+v. B2
+1. сжимать, сдавливать - press together into a smaller space
+   Send it to me as a compressed file. - Отправь мне это в виде сжатого файла.
+n. B2
+2. компресс
+   Apply a cold compress to the affected area. - Приложите к поражённому участку холодный компресс.
+
+@compression
+/kəmˈprɛʃən/
+n. B2
+1. сжатие, сдавливание - the act of compressing
+
+@comprise
+/kəmˈpraɪz/
+v. C1
+1. содержать, вмещать - compose
+   This sentence comprises exactly forty-four letters. - Это предложение содержит как раз сорок четыре буквы.
+2. входить в состав
+   Uyghurs comprise the majority in Kashgar. - Уйгуры составляют большинство в Кашгаре.
+
+@compromise
+/ˈkɒmprəˌmaɪz/
+n. B1
+1. компромисс
+   A reasonable compromise must be found. - Должен быть найден разумный компромисс.
+v. B2
+2. пойти на компромисс - adjust and settle by mutual concessions
+   I don't think that we should compromise. - Не думаю, что нам стоит идти на компромисс.
+
+@compulsion
+/kəmˈpʌlʃən/
+n. C1
+1. принуждение - use of power to force a person to act
+   under compulsion - вынужденный
+
+@compulsory
+/kəmˈpʌlsəri/
+adj. B2
+1. принудительный, обязательный - constraining
+   Some countries make voting compulsory. - Некоторые страны делают голосование обязательным.
+
+@compute
+/kəmˈpjuːt/
+v. B2
+1. считать, подсчитывать, вычислять - reckon or calculate
+   What's cloud computing? - Что такое облачные вычисления?
+
+@computer
+/kəmˈpjuːtə/
+n. A1
+1. компьютер - programmable electronic device
+   "I fixed the computer." "Yeah, right." - «Я починил компьютер». — «Ага, хорошо».
+
+@computerize
+v. C2
+1. компьютеризировать - equip with a computer or a computer system
+   80% of the world's computerized information is in English. - 80% компьютеризированной информации в мире на английском.
+
+@con
+/kɒn/
+n. C1
+1. жульничество - a fraud
+   She's a con artist. - Она мошенница.
+2. жулик
+   Tom is a con man. - Том жулик.
+v. C1
+3. заучивать наизусть, зубрить
+
+@conceal
+/kənˈsiːl/
+v. B2
+1. скрывать, утаивать, умалчивать - hide something
+   She tried in vain to conceal her fear. - Она тщетно пыталась скрыть страх.
+
+@concede
+/kənˈsiːd/
+v. B2
+1. допускать, признавать - (sports) to have a point scored against
+   He conceded that he committed a crime. - Он признал, что совершил преступление.
+2. уступать - yield or make concession
+   He conceded us the use of his yacht. - Он уступил нам использование его яхты.
+
+@conceit
+/kənˈsiːt/
+n. B2
+1. самонадеянность, самомнение - overly high self-esteem
+   he is full of conceit - он о себе высокого мнения
+
+@conceivable
+/kənˈsiːvəbl/
+adj. B2
+1. мыслимый, постижимый, возможный - capable of being conceived or imagined
+
+@conceive
+/kənˈsiːv/
+v. B2
+1. постигать, понимать
+   I can't conceive of living without him. - Не могу представить себе жизнь без него.
+2. задумывать
+   a well conceived scheme - хорошо задуманный план
+3. зачать, забеременеть - become pregnant
+
+@concentrate
+/ˈkɒnsəntreɪt/
+v. A2
+1. сосредоточивать(ся) - bring to, or direct toward, a common center
+   He tried to concentrate on the letter. - Он попытался сосредоточиться на письме.
+
+@concentration
+/ˌkɒnsənˈtreɪʃən/
+n. B1
+1. концентрация, сосредоточение - act or process of concentrating
+   Concentration is a very simple thing. - Концентрация - очень простая вещь.
+
+@concept
+/ˈkɒnsɛpt/
+n. B1
+1. понятие, идея, общее представление - something understood and retained in the mind
+   There is such a concept as decency. - Есть такое понятие, как порядочность.
+
+@conception
+/kənˈsɛpʃən/
+n. B2
+1. понятие - an image
+
+@concern
+/kənˈsɜːn/
+n. A2
+1. забота, беспокойство, огорчение - that which affects one’s welfare or happiness
+   It's a matter that concerns all of us. - Это вопрос, который беспокоит всех нас.
+2. дело, отношение, касательство
+   Don't interfere in private concerns. - Не вмешивайтесь в мои личные дела.
+v. B2
+3. заботиться, беспокоиться
+   He wasn't concerned with his afterlife. - Загробная жизнь его не беспокоила.
+
+@concerned
+/kənˈsɜːnd/
+adj. B1
+1. озабоченный - showing concern
+   I am very concerned about his health. - Я очень обеспокоен его здоровьем.
+
+@concerning
+/kənˈsɜːnɪŋ/
+prep. B2
+1. относительно, касательно - regarding
+   Concerning this matter, I'm the one to blame. - Что касается этого вопроса, винить нужно меня.
+
+@concert
+/kənˈsɜːt/
+n. A1
+1. концерт
+   Are you coming to the concert with me? - Ты идёшь со мной на концерт?
+
+@concerto
+/kənˈtʃɛrtoʊ/
+n. C1
+1. концерт
+   I didn't know he wrote a cello concerto. - Я не знал, что он написал концерт для виолончели.
+
+@concession
+/kənˈsɛʃən/
+n. B2
+1. уступка - any admission of the validity of a point
+   We're ready to make concessions. - Мы готовы пойти на уступки.
+
+@conciliation
+n. C2
+1. примирение, умиротворение
+
+@conciliatory
+/kənˈsɪliəˌtɔri/
+adj. C2
+1. примирительный - willing to conciliate
+
+@conclude
+/kənˈkluːd/
+v. B1
+1. выводить заключение, делать вывод
+   They concluded that he had told a lie. - Они пришли к выводу, что он солгал.
+2. заключать - come to a final decision
+   What did you conclude from that? - Что вы заключили из этого?
+3. заканчивать(ся) - end
+   The play concludes with the hero's death. - Пьеса заканчивается смертью главного героя.
+
+@conclusion
+/kənˈkluːʒən/
+n. B1
+1. заключение - decision, judgment
+   How did you arrive at that conclusion? - Как ты пришёл к такому выводу?
+phr. foregone conclusion - предрешённое дело
+   The outcome of the war was a foregone conclusion. - Исход войны был предрешён.
+
+@concrete
+/ˈkɒnkriːt/
+n. B2
+1. нечто конкретное, реальное
+   She says she has no concrete plans. - Она говорит, что у неё нет конкретных планов.
+2. бетон - building material
+   It's a shame that concrete doesn't burn. - Жаль, что бетон не горит.
+adj. B2
+3. бетонный - made of concrete
+   Hong Kong Island is a concrete jungle. - Остров Гонконг - бетонные джунгли.
+
+@concur
+/kənˈkɜː/
+v. C1
+1. совпадать - To unite or agree
+   Everything concurred to make him happy. - Всё совпало, чтобы сделать его счастливым.
+
+@concurrence
+/kənˈkʌrəns/
+n. C2
+1. совпадение (мнений)
+
+@condemn
+/kənˈdɛm/
+v. B2
+1. осуждать, порицать - strongly criticise or denounce
+   We condemn terrorism in all it's forms. - Мы осуждаем терроризм во всех его формах.
+2. приговаривать, выносить приговор
+   The judge condemned him to death. - Судья приговорил его к смерти.
+3. браковать, признавать негодным
+   This building has been condemned. - Это здание было признано непригодным для жилья.
+
+@condensation
+/ˌkɒndɛnˈseɪʃən/
+n. C2
+1. сгущение, уплотнение, конденсация - the act or process
+
+@condition
+/kənˈdɪʃn/
+n. A2
+1. условие - requirement or requisite
+   I'll do it, but there's one condition. - Я сделаю это, но при одном условии.
+2. состояние, положение - health status of a patient
+   Everything was in excellent condition. - Всё было в отличном состоянии.
+v. C1
+3. улучшать состояние
+phr. on condition - при условии
+   I accept, but only on one condition. - Я согласен, но с одним условием.
+
+@conditional
+/kənˈdɪʃənəl/
+adj. C1
+1. условный, обусловленный - limited by a condition
+
+@condone
+/kənˈdəʊn/
+v. C2
+1. мириться, смотреть сквозь пальцы
+
+@conduct
+/ˈkɒndʌkt/
+n. B1
+1. поведение, образ действий - manner of guiding or carrying oneself
+   He is known for his eccentric conduct. - Он узнаваем благодаря своему экстравагантному поведению.
+v. B2
+2. сопровождать, экскортировать - lead or guide
+   Wood does not conduct electric current. - Дерево не проводит электрический ток.
+
+@conductor
+/kənˈdʌktə/
+n. B2
+1. дирижёр - person who conducts an orchestra
+   The famous conductor lives in New York. - Этот знаменитый дирижёр живёт в Нью-Йорке.
+2. кондуктор
+   The conductor forgot to punch my ticket. - Кондуктор забыл прокомпостировать мой билет.
+
+@conduit
+/ˈkɒndʊɪt/
+n. C2
+1. трубопровод, водопроводная труба
+
+@cone
+/ˈkəʊn/
+n. B2
+1. конус - anything shaped like a cone
+   He placed a traffic cone in the road. - Он поставил на дорогу дорожный конус.
+
+@confabulate
+/kənˈfæbjʊleɪt/
+v. C2
+1. разговаривать, беседовать, болтать
+
+@confabulation
+/kənˌfæbjʊˈleɪʃən/
+n. C2
+1. болтовня, дружеский разговор
+
+@confection
+/kənˈfɛkʃən/
+n. C2
+1. сласти - food item
+
+@conference
+/ˈkɒnfrəns/
+n. B2
+1. конференция, совещание, съезд - a meeting of people
+   I had an awful time at the conference. - Конференция прошла для меня ужасно.
+
+@confess
+/kənˈfɛs/
+v. B2
+1. признавать (ся), сознаваться - admit to the truth
+   He confessed that he had taken bribes. - Он признался, что брал взятки.
+
+@confession
+/kənˈfɛʃən/
+n. B2
+1. признание (вины, ошибки) - open admittance
+   I'm afraid I have a confession to make. - Боюсь, мне надо кое в чём признаться.
+2. исповедь - disclosure of one's sins to a priest
+   Anton regularly goes to confession. - Антон регулярно исповедуется.
+
+@confide
+/kənˈfaɪd/
+v. C1
+1. доверять, поверять, полагаться - trust, have faith in
+   You're the only person in whom I confide. - Ты единственный человек, которому я доверяю.
+
+@confidence
+/ˈkɒnfɪdəns/
+n. B1
+1. уверенность - self-assurance
+   Self confidence is the key to success. - Самоуверенность - ключ к успеху.
+2. доверие
+   Don't put much confidence in him. - Не сильно ему доверяйте.
+
+@confident
+/ˈkɒnfɪdənt/
+adj. A2
+1. уверенный
+   I'm confident that I'll pass the exam. - Я уверен, что сдам экзамен.
+
+@confidential
+/ˌkɒnfɪˈdɛnʃəl/
+adj. B2
+1. конфиденциальный, секретный
+   The report is of a confidential nature. - Доклад носит конфиденциальный характер.
+
+@confidently
+/ˈkɒnfɪdəntli/
+adv. B2
+1. уверенно - in a confident manner
+   Tom spoke calmly, eloquently and confidently. - Том говорил спокойно, красноречиво и уверенно.
+
+@confine
+/kənˈfaɪn/
+v. B2
+1. ограничивать - restrict
+   Soccer is not necessarily confined to men. - Футбол не обязательно ограничен только мужчинами.
+2. придерживаться (чего-л.)
+   Confine your remarks to the matter we are discussing. - Придерживай свои замечания в рамках предмета нашего обсуждения.
+
+@confinement
+/kənˈfaɪnmənt/
+n. C1
+1. ограничение - state of being confined
+   Thus the days of my confinement dragged on. - Так тянулись дни моего заточения.
+
+@confirm
+/kənˈfɜːm/
+v. B1
+1. подтверждать - confer the confirmation
+   Kindly confirm when you are available. - Пожалуйста, подтвердите, когда вы доступны.
+
+@confirmation
+/ˌkɒnfəˈmeɪʃən/
+n. B1
+1. подтверждение - indicator
+
+@conflict
+/ˈkɒnflɪkt/
+n. B1
+1. конфликт, столкновение - clash or disagreement
+   An international conflict is brewing. - Назревает международный конфликт.
+v. B2
+2. противоречить
+   It conflicts with my principles. - Это противоречит моим принципам.
+
+@conform
+/kənˈfɔːm/
+v. C1
+1. сообразовать (-ся), согласоваться - be in accordance with a set of specifications
+   I'm tired of always conforming to your standards. - Мне надоело постоянно соответствовать твоим стандартам.
+
+@conformity
+/kənˈfɔːmɪti/
+n. C1
+1. соответствие, согласованность - state of things being similar, or identical
+
+@confront
+/kənˈfrʌnt/
+v. B2
+1. стоять лицом к лицу, стоять против
+   We are confronted with a complex situation. - Мы перед лицом непростого положения.
+2. противостоять - stand or meet facing
+   You simply don't want to confront the truth. - Ты просто не хочешь смотреть правде в глаза.
+
+@confuse
+/kənˈfjuːz/
+v. A2
+1. приводить в замешательство
+   Everyone looked confused and terrified. - Все выглядели смущёнными и испуганными.
+2. производить беспорядок
+   I always get those two names confused. - Я всегда путаю эти два имени.
+
+@confused
+/kənˈfjuːzd/
+adj. A2
+1. смущённый - embarrassed
+   Everyone looked confused and terrified. - Все выглядели смущёнными и испуганными.
+
+@confusing
+/kənˈfjuːzɪŋ/
+adj. B1
+1. сбивающий с толку, запутанный - difficult to understand
+   Life is full of confusing things. - В жизни полно сбивающих с толку вещей.
+
+@confusion
+/kənˈfjuːʒən/
+n. B1
+1. смятение, замешательство - state of being confused
+   Their confusion is understandable. - Их замешательство можно понять.
+2. путаница, неразбериха - lack of clarity or order
+   This is where the confusion came from. - Отсюда и возникла путаница.
+3. смущение
+   She tried to hide her confusion. - Она пыталась скрыть своё смущение.
+
+@conglomerate
+/kənˈglɒmrɪt/
+n. C2
+1. конгломерат - cluster of heterogeneous things
+
+@congratulate
+/kənˈgrætʃʊˌleɪt/
+v. B1
+1. поздравлять
+   I congratulate you on a job well done. - Поздравляю вас с хорошо проделанной работой.
+
+@congratulations
+/kənˌgratʃəˈleɪʃnz/
+excl. A2
+1. поздравляю, мои поздравления - expressing approbation
+   Congratulations on earning your degree! - Поздравляю с получением диплома!
+
+@congregate
+/ˈkɒŋgrəgeɪt/
+v. C1
+1. собирать (-ся), скопляться - To collect into an assembly or assemblage
+   Eagles congregate here in the spring. - Весной здесь собираются орлы.
+
+@conjecture
+/kənˈdʒɛktʃə/
+n. C2
+1. догадка, предположение - unproven statement
+   However, that was just my conjecture. - Впрочем, это было только мое предположение.
+v. C2
+2. предполагать, гадать - guess
+
+@conjunction
+/kənˈdʒʌŋkʃn/
+n. B2
+1. соединение, связь
+   in conjunction - вместе, сообща
+
+@conjure
+/ˈkʌndʒə/
+v. C1
+1. заниматься магией, колдовать - practice black magic
+
+@connect
+/kəˈnɛkt/
+v. B1
+1. соединять(ся), связывать(ся) - join two or more pieces
+   Have they connected the radio antenna? - Они подключили радиоантенну?
+
+@connection
+/kəˈnɛkʃn/
+n. B1
+1. связь, соединение, присоединение
+   in this connexion - в этой связи
+
+@connoisseur
+/ˌkɒnəˈsɜː/
+n. C1
+1. знаток, ценитель, ценительница - specialist whose opinion is valued
+   He is a connoisseur of the art of opera. - Он знаток оперного искусства.
+
+@connotation
+/ˌkɒnəˈteɪʃən/
+n. C2
+1. дополнительное
+
+@connote
+/kəˈnəʊt/
+v. C2
+1. иметь дополнительное
+
+@conquer
+/ˈkɒŋkə/
+v. B1
+1. завоёвывать, покорять, подчинять - defeat in combat
+   The Martians have conquered the earth. - Марсиане завоевали Землю.
+
+@conquest
+/ˈkɒŋkwɛst/
+n. B2
+1. завоевание, покорение, победа
+   This is what is called the Norman Conquest. - Вот что называется Нормандским завоеванием.
+
+@conscience
+/ˈkɒnʃəns/
+n. B2
+1. совесть - moral sense
+   A clear conscience is the best pillow. - Чистая совесть - лучшая подушка.
+phr. good conscience - чистая совесть
+   Now I can go home with good conscience. - Теперь я с чистой совестью могу ехать домой.
+
+@conscientious
+/ˌkɒnʃiˈɛnʃəs/
+adj. C1
+1. добросовестный, сознательный - thorough, careful, or vigilant
+   Only the conscientious students came to the lecture. - На лекцию пришли только сознательные студенты.
+
+@conscious
+/ˈkɒnʃəs/
+adj. B1
+1. находящийся в сознании - alert, awake
+   Is he conscious? - Он в сознании?
+2. сознательный, здравый
+   That was a conscious decision. - Это было осознанное решение.
+3. сознающий - aware of or alert to, sensitive to
+   He is not conscious of his own faults. - Он сознаёт свои ошибки.
+
+@consciousness
+/ˈkɒnʃəsnəs/
+n. B2
+1. сознание - awareness
+   He regained consciousness in hospital. - Очнулся он в больнице.
+phr. lose consciousness - потерять сознание
+   Did you lose consciousness after the accident? - Ты терял сознание после аварии?
+
+@consensus
+/kənˈsɛnsəs/
+n. B2
+1. согласие, единодушие - general agreement
+
+@consent
+/kənˈsɛnt/
+n. B2
+1. согласие - voluntary agreement
+   I interpreted your silence as consent. - Я расценил твоё молчание как знак согласия.
+v. B2
+2. соглашаться, давать согласие - express willingness
+   My father consented to my going abroad. - Папа согласился отпустить меня за границу.
+
+@consequence
+/ˈkɒnsɪkwəns/
+n. A2
+1. (по) следствие
+   There will be inevitable consequences. - Будут неизбежные последствия.
+
+@consequently
+/ˈkɒnsɪˌkwɛntli/
+adv. B1
+1. следовательно, поэтому - as a result or consequence
+
+@conservation
+/ˌkɑnsəˈveɪʃən/
+n. B1
+1. сохранение - The act of preserving
+
+@conservative
+/kənˈsɜːvətɪv/
+adj. B1
+1. консервативный, реакционный - tending to resist change
+   The English are generally conservative. - Англичане в целом консервативны.
+
+@conservatory
+/kənˈsɜːvətri/
+n. C1
+1. оранжерея, теплица
+
+@conserve
+/ˈkɒnsɜːv/
+v. C1
+1. сохранять, сберегать - save for later use
+   We must try to conserve our natural resources. - Мы должны попытаться сохранить наши природные ресурсы.
+
+@consider
+/kənˈsɪdə/
+v. A2
+1. считаться с кем-л - assign some quality to
+   I consider that racial discrimination. - Я считаю это расовой дискриминацией.
+2. рассматривать, обсуждать - think about seriously
+   He considered two alternative courses. - Он рассматривал два альтернативных курса.
+phr. all things considered - приняв всё во внимание
+   All things considered, she is a fairly good wife. - Принимая все обстоятельства во внимание, она достаточно хорошая жена.
+
+@considerable
+/kənˈsɪdərəbl/
+adj. B1
+1. значительный, важный - worth considering
+   His debts amount to a considerable sum. - Его долги составляют значительную сумму.
+2. большой
+   a considerable amount of time - немало времени
+
+@considerably
+/kənˈsɪdərəbli/
+adv. B2
+1. значительно, изрядно - significantly
+   Your French has improved considerably. - Твой французский стал значительно лучше.
+
+@consideration
+/kənˌsɪdəˈreɪʃən/
+n. B1
+1. внимание, предупредительность
+   The problem is not worth consideration. - Проблема не заслуживает внимания.
+2. рассмотрение, обсуждение - process of considering
+   That requires careful consideration. - Это требует тщательного рассмотрения.
+
+@considering
+/kənˈsɪdərɪŋ/
+prep. B2
+1. учитывая, принимая во внимание
+   She did well considering her age. - Она прекрасно справилась, учитывая её возраст.
+
+@consign
+/kənˈsaɪn/
+v. C2
+1. передавать, поручать - transfer to the custody of
+
+@consignment
+/kənˈsaɪnmənt/
+n. C2
+1. груз, партия товаров
+
+@consist
+/kənˈsɪst/
+v. A2
+1. состоять, заключаться
+   Our committee consists of ten members. - Наш комитет состоит из десяти членов.
+
+@consistent
+/kənˈsɪstənt/
+adj. B2
+1. последовательный, стойкий - of a regularly occurring, dependable nature
+   Be consistent. - Будь последователен.
+2. совместимый, согласующийся - not logically contradictory
+   consistent pattern - закономерность
+
+@consolation
+/ˌkɒnsəˈleɪʃən/
+n. B2
+1. утешение - act of consoling
+   The rest will receive consolation prizes. - Остальные получат утешительные призы.
+
+@console
+/ˈkɒnsəʊl/
+v. B2
+1. утешать - comfort
+   No one consoled me when I was sad. - Никто не утешил меня, когда я был в грусти.
+
+@consonant
+/ˈkɒnsənənt/
+adj. B1
+1. согласный, совместимый - Characterized by harmony or agreement
+   Most languages have bilabial consonants. - В большинстве языков есть билабиальные согласные.
+n. B1
+2. буква, обозначающая согласный звук
+
+@conspiracy
+/kənˈspɪrəsi/
+n. B2
+1. заговор, тайный сговор - act of working in secret to obtain some goal
+   I don't believe in conspiracy theories. - Я не верю в теории заговора.
+
+@constable
+/ˈkʌnstəbəl/
+n. B2
+1. констебль, полицейский (чин) - police officer rank
+   Chief C - начальник полиции (в городе, графстве)
+
+@constant
+/ˈkɒnstənt/
+adj. B2
+1. постоянный - unchanged through time
+   There's a constant ringing in my ears. - У меня в ушах постоянно что-то звенит.
+
+@constantly
+/ˈkɒnstəntli/
+adv. B1
+1. постоянно - in a constant manner
+   He constantly criticizes other people. - Он постоянно всех критикует.
+
+@consternation
+/ˌkɒnstəˈneɪʃən/
+n. C2
+1. ужас, испуг - amazement or horror
+
+@constitute
+/ˈkɒnstɪtjuːt/
+v. B1
+1. составлять - make up
+   These things constitute a balanced meal. - Эти продукты составляют сбалансированное питание.
+
+@constitution
+/ˌkɒnstɪˈtjuːʃn/
+n. B1
+1. конституция, основной закон
+   Everyone has to obey the constitution. - Все должны подчиняться Конституции.
+
+@constrained
+/kənˈstrɛjnd/
+adj. C2
+1. вынужденный, принуждённый
+   I was constrained to tell a lie. - Я был вынужден солгать.
+2. скованный
+   I am constrained by lack of time. - Я скован недостатком времени.
+
+@constraint
+/kənˈstreɪnt/
+n. C1
+1. принуждение
+   under constraint - по принуждению
+
+@construct
+/ˈkɒnstrʌkt/
+v. B1
+1. строить, сооружать, воздвигать - build or form by assembling parts
+   These workmen are constructing a road. - Эти рабочие строят дорогу.
+2. создавать, сочинять, придумывать
+   They constructed a new government. - Они создали новое правительство.
+
+@construction
+/kənˈstrʌkʃən/
+n. B1
+1. строительство, стройка - process of constructing
+   Construction area: hard hats required. - Строительная площадка: ношение касок обязательно.
+2. строение, здание - structure
+   Construction will start in a few weeks. - Стройка начнётся через несколько недель.
+phr. under construction - в процессе строительства
+   The library is now under construction. - Библиотека сейчас находится в процессе строительства.
+
+@consult
+/ˈkɒnsʌlt/
+v. B2
+1. советоваться, консультироваться - ask advice
+   I don't know who to consult with. - Я не знаю, с кем мне проконсультироваться.
+2. принимать во внимание
+   Why didn't you consult me before taking this decision? - Почему ты не посоветовался со мной, прежде чем принимать это решение?
+phr. consult a doctor - посоветоваться с врачом
+   If symptoms persist, consult a doctor. - Если симптомы не проходят, посоветуйтесь с врачом.
+phr. consult a dictionary - справляться в словаре
+   When in doubt, consult a dictionary. - Не уверен – посмотри в словаре.
+
+@consultant
+/kənˈsʌltənt/
+n. B2
+1. консультант - person or party that is consulted
+   I'd like to hire you as a consultant. - Я хотел бы нанять Вас консультантом.
+
+@consultation
+/ˌkɒnsəlˈteɪʃən/
+n. C1
+1. консультация - act of consulting
+   They offer a free consultation. - Они предлагают бесплатную консультацию.
+
+@consume
+/kənˈsjuːm/
+v. B1
+1. потреблять, расходовать - 1. use up
+   This device consumes little energy. - Этот прибор потребляет мало энергии.
+2. съедать, поглощать
+   The fire consumed the whole house. - Пожар поглотил весь дом.
+
+@consumer
+/kənˈsjuːmə/
+n. B1
+1. потребитель - person purchasing goods
+   Try to be a more rational consumer. - Попытайся быть более рациональным потребителем.
+
+@consumption
+/kənˈsʌmpʃən/
+n. B1
+1. потребление - the amount consumed
+   Youth alcohol consumption has increased. - Потребление алкоголя среди молодёжи выросло.
+2. чахотка, туберкулез легких
+   Consumption is tuberculosis. - Чахотка - это туберкулёз.
+
+@contact
+/ˈkɒntækt/
+v. A2
+1. устанавливать связь (по телефону, телеграфу) - establish communication with
+   I'm not able to contact my relatives. - Я не могу связаться со своими родственниками.
+n. A2
+2. связь, контакт - an establishment of communication
+   We had no contact with the outside world. - У нас не было связи с внешним миром.
+3. соприкосновение, контакт - an act of touching physically
+   I still haven't found my contact lens. - Я ещё не нашёл свои контактные линзы.
+
+@contagion
+/kənˈteɪdʒən/
+n. C2
+1. зараза, инфекция, заразное начало - transmission of a contagious disease
+
+@contain
+/kənˈteɪn/
+v. B1
+1. содержать - hold inside
+   Tangerines contain a lot of vitamin C. - Мандарины содержат много витамина С.
+2. сдерживать (чувства) - limit through restraint
+   Can I slap you? I can't contain myself. - Можно я дам тебе пощёчину? Не могу сдержаться!
+
+@container
+/kənˈteɪnə/
+n. A2
+1. сосуд, вместилище - an item in which objects
+   Do you know what's in those containers? - Ты знаешь, что в тех контейнерах?
+
+@contaminate
+/kənˈtæmɪneɪt/
+v. B2
+1. загрязнять, заражать - To introduce impurities or foreign matter
+   The water was contaminated with oil. - Вода была загрязнена нефтью.
+
+@contemplate
+/ˈkɒntəmˌpleɪt/
+v. B2
+1. созерцать
+   I contemplated the painting. - Я созерцал картину.
+2. обдумывать, размышлять
+   He contemplated taking a trip to Paris. - Он размышлял о поездке в Париж.
+
+@contemporary
+/kənˈtɛmprəri/
+n. B2
+1. современник - someone living at the same time
+   He was a contemporary of Shakespeare. - Он был современником Шекспира.
+adj. B2
+2. современный - from the same time period
+   What contemporary authors do you like? - Какие современные авторы вам нравятся?
+
+@contempt
+/kənˈtɛmpt/
+n. B2
+1. презрение - a feeling or attitude
+   Familiarity breeds contempt and children. - Близкое знакомство рождает презрение и детей.
+
+@contemptuous
+/kənˈtɛmtʃuəs/
+adj. C2
+1. презрительный, пренебрежительный - showing contempt
+   Tom answered with a contemptuous laugh. - Том ответил презрительным смехом.
+
+@contemptuously
+/kənˈtɛmptʃuəsli/
+adv. C2
+1. презрительно, с презрением - in a disrespectful or discourteous manner
+   Mary snorted contemptuously. - Мэри презрительно фыркнула.
+
+@content
+/kənˈtɛnt/
+n. B1
+1. содержание - subject matter
+   Oranges have a high vitamin content. - В апельсинах содержится много витаминов.
+2. содержимое - that which is contained
+   The label doesn't match the contents. - Этикетка не соответствует содержимому.
+v. B1
+3. довольствоваться
+   He was never content with his success. - Он никогда не довольствовался достигнутым.
+adj. B2
+4. довольный - satisfied
+
+@contest
+/ˈkɒntɛst/
+n. A1
+1. соревнование, состязание, конкурс - competition — see also competition
+   He wants to participate in the contest. - Он хочет принять участие в соревновании.
+v. C1
+2. оспаривать, опровергать
+
+@context
+/ˈkɒntɛkst/
+n. A2
+1. контекст - text in which a word appears
+   But you took my quote out of context! - Но вы вырвали мою цитату из контекста!
+
+@contextual
+adj. C1
+1. контекстуальный - depending on context
+
+@continent
+/ˈkɒntɪnənt/
+n. A2
+1. материк, континент - each of main land-masses on earth's surface
+   Are insects found on every continent? - На каждом континенте есть насекомые?
+
+@continual
+/kənˈtɪnjuəl/
+adj. B1
+1. постоянный, непрерывный
+
+@continually
+/kənˈtɪnjuəli/
+adv. B1
+1. непрерывно - in a continuous manner
+
+@continue
+/kənˈtɪnjuː/
+v. A2
+1. продолжать(ся), оставаться - proceed
+   Continue doing what you've been doing. - Продолжай делать то, что делал.
+
+@continuity
+/ˌkɒntɪˈnjuːɪti/
+n. C1
+1. непрерывность, неразрывность - lack of interruption
+
+@continuous
+/kənˈtɪnjuːəs/
+adj. B1
+1. непрерывный, постоянного действия - without break
+2. сплошной
+   A continuous stream of people were walking. - Люди шли сплошным потоком.
+
+@continuously
+/kənˈtɪnjuəsli/
+adv. B1
+1. непрерывно, постоянно - without pause
+   The north wind blew continuously all day. - Северный ветер дул непрерывно весь день.
+
+@contract
+/ˈkɒntrækt/
+n. B2
+1. контракт, договор, соглашение - agreement that is legally binding
+   Don't sign the contract with a pencil. - Не подписывай контракт карандашом.
+v. C1
+2. приобретать (привычку), получать
+   You may contract many deadly diseases. - Ты можешь подхватить много смертельных заболеваний.
+
+@contractor
+/ˈkɒnˌtræktə/
+n. C1
+1. подрядчик
+   builder and contractor - подрядчик-строитель
+
+@contractual
+/kənˈtrækʃəl/
+adj. C2
+1. договорный - of or pertaining to a contract
+
+@contradict
+/ˌkɒntrəˈdɪkt/
+v. B2
+1. противоречить, возражать - deny the truth of (a statement or statements)
+   I think you're contradicting yourself. - По-моему, ты сам себе противоречишь.
+
+@contradiction
+/ˌkɒntrəˈdɪkʃən/
+n. B2
+1. противоречие, расхождение - act of contradicting
+   I don't see any contradiction here. - Я не вижу тут противоречия.
+
+@contradictory
+/ˌkɒntrəˈdɪktri/
+adj. B2
+1. противоречащий, несовместимый - that contradicts something
+   This is contradictory. - Тут есть противоречие.
+
+@contraption
+/kənˈtræpʃən/
+n. C2
+1. новоизобретённое хитроумное приспособление - complicated and precarious machine
+
+@contrary
+/ˈkɒntrəri/
+n. B1
+1. нечто обратное, противоположное
+   There is evidence to the contrary. - Есть свидетельство обратного.
+adj. B1
+2. противоположный
+   My point of view is contrary to yours. - Моя точка зрения не совпадает с вашей.
+3. противный (о ветре)
+   It is contrary to the morals. - Это противоречит морали.
+adv. B1
+4. вопреки, против
+   Contrary to expectations, he was on time. - Вопреки ожиданиям, он пришёл вовремя.
+phr. on the contrary - наоборот
+   No, unfortunately; on the contrary. - К сожалению, нет; наоборот.
+phr. the contrary - в обратном смысле, иначе
+   We have no proof to the contrary. - У нас нет доказательства обратного.
+
+@contrast
+/ˈkɒntrɑːst/
+n. A2
+1. противоположность, контраст
+   The contrast immediately jumps out at one. - Контраст сразу же бросается в глаза.
+v. B2
+2. контрастировать
+
+@contribute
+/kənˈtrɪbjuːt/
+v. B1
+1. делать вклад - give something
+   And everyone has the ability to contribute. - И каждый имеет возможность внести свой вклад.
+2. жертвовать
+   He contributed a lot of money to the charity. - Он пожертвовал много денег на благотворительность.
+3. содействовать, способствовать
+   The summit conference contributed to world peace. - Саммит способствовал миру во всём мире.
+
+@contribution
+/ˌkɒntrɪˈbjuːʃən/
+n. B1
+1. вклад (денежный, научный)
+   Yes, each one of you made a contribution. - Да, каждый из вас внёс свой вклад.
+
+@contrive
+/kənˈtraɪv/
+v. C2
+1. придумывать, изобретать
+
+@control
+/kənˈtrəʊl/
+n. A2
+1. власть - influence or authority over something
+   Franco's forces took control in Spain. - Силы Франко взяли под свой контроль Испанию.
+2. управление, руководство
+   Where's the remote control for the TV? - Где пульт от телевизора?
+v. B1
+3. управлять, распоряжаться - exercise influence over
+   You always want to control everything. - Ты хочешь всё всегда контролировать.
+4. сдерживать (чувства, слёзы)
+   Sometimes I can't control my emotions. - Иногда я не могу сдержать эмоций.
+
+@controversial
+/ˌkɒntrəˈvɜːʃəl/
+adj. B1
+1. спорный, дискуссионный - arousing controversy
+   This scientific theory is controversial. - Эта научная теория является спорной.
+
+@controversy
+/kənˈtrɒvəsi/
+n. B2
+1. спор, дискуссия, полемика - debate, discussion of opposing opinions
+   without controversy - неоспоримо, бесспорно
+
+@convenience
+/kənˈviːnɪəns/
+n. A2
+1. удобство - quality of being suitable
+   The house has all the conveniences. - В доме есть все удобства.
+
+@convenient
+/kənˈviːniənt/
+adj. A2
+1. удобный, подходящий, пригодный - of or pertaining to convenience
+   Come whenever it is convenient to you. - Приходи, когда тебе удобно.
+phr. convenient time - удобное время
+   I'll speak to you at a more convenient time. - Я поговорю с вами в более удобное время.
+
+@conveniently
+/kənˈviːnɪəntli/
+adv. B2
+1. удобно, легко, просто, без труда - in a convenient manner
+
+@convention
+/kənˈvɛnʃən/
+n. B2
+1. собрание, съезд, конвент - meeting or a gathering
+   Bush respects the Geneva Convention. - Буш уважает Женевскую конвенцию.
+2. общее согласие - generally accepted principle
+   The convention opened as planned. - Встреча открылась согласно плану.
+
+@conventional
+/kənˈvɛnʃənl/
+adj. B2
+1. обычный, общепринятый - ordinary, commonplace
+   He made a few conventional remarks about the event. - Он оставил несколько стандартных комментариев о данном событии.
+
+@conversation
+/ˌkɒnvəˈseɪʃn/
+n. A1
+1. разговор, беседа
+   Let's keep this conversation sub rosa. - Давай оставим этот разговор в тайне.
+
+@converse
+/kənˈvɜːs/
+v. B2
+1. разговаривать, беседовать - engage in conversation
+   We conversed in utter darkness. - Мы беседовали в полной темноте.
+n. B2
+2. обратное утверждение
+   Every car is a vehicle, but the converse isn't true. - Каждый автомобиль — это транспортное средство, но обратное неверно.
+adj. C2
+3. обратный, перевёрнутый
+
+@conversely
+/kənˈvɜːsli/
+adv. B2
+1. обратно, наоборот - with a reversed relationship
+
+@conversion
+/kənˈvɜːʃn/
+n. B2
+1. обращение (в какую-л. веру)
+   Conversion was peaceful and gradual. - Обращение было мирным и постепенным.
+
+@convert
+/kənˈvɜːt/
+v. B2
+1. превращать, переделывать - transform
+   The body converts extra calories into fat. - Тело превращает лишние калории в жир.
+
+@convey
+/kənˈveɪ/
+v. B1
+1. передавать - communicate
+   Wires are used to convey electricity. - Провода служат для передачи электричества.
+2. перевозить - carry
+   Buses, trains and planes convey passengers. - Автобусы, поезда и самолёты перевозят пассажиров.
+
+@convict
+/kənˈvɪkt/
+n. C1
+1. осуждённый, заключённый, каторжник - person deported to a penal colony
+   I'm supposed to feel sympathy for the convict? - Я должен сочувствовать заключенному?
+v. C1
+2. привести к сознанию (проступка, вины)
+
+@conviction
+/kənˈvɪkʃən/
+n. C1
+1. убеждение - state of being convinced
+   She always stands up for her convictions. - Она всегда отстаивает свои убеждения.
+
+@convince
+/kənˈvɪns/
+v. B1
+1. убеждать, уверять - make someone believe
+   Her explanation isn't very convincing. - Её объяснение не очень убедительно.
+
+@convinced
+/kənˈvɪnst/
+adj. B2
+1. убеждённый - in a state of believing
+   I'm not wholly convinced you're right. - Я не совсем уверен, что ты прав.
+
+@convoluted
+/ˌkɒnvəˈluːtɪd/
+adj. C1
+1. свёрнутый спиралью
+   The hikers traced a convoluted route through the mountains. - Туристы проследовали по извилистому пути через горы.
+
+@cook
+/kʊk/
+v. A1
+1. стряпать, приготовлять пищу - prepare food for eating
+   I'm not used to cooking on a campfire. - Я не привык готовить на костре.
+n. A1
+2. кухарка, повар, кок - person who prepares food
+   First of all, we must dismiss the cook. - Для начала мы должны уволить повара.
+
+@cooker
+/ˈkʊkə/
+n. A2
+1. плита, печь - device for heating food, stove
+
+@cookie
+/ˈkʊki/
+n. A1
+1. печенье - small, flat baked good — see also biscuit
+   Could you save me a couple of cookies? - Можешь приберечь для меня пару печенек?
+
+@cooking
+/ˈkʊkɪŋ/
+n. A2
+1. готовка, кулинария, стряпня
+   I'm not used to cooking on a campfire. - Я не привык готовить на костре.
+2. кухня, кулинария - 3.2. the style or genre of food preparation
+   I was in the kitchen, cooking dinner. - Я была на кухне, готовила ужин.
+
+@cool
+/kuːl/
+adj. A1
+1. прохладный, свежий, нежаркий - having a slightly low temperature
+   It was cool in the shade of the trees. - В тени деревьев было прохладно.
+2. спокойный, невозмутимый - not upset
+   Keep your cool. - Сохраняй спокойствие.
+v. B2
+3. охлаждать(ся), остывать - make less intense, e.g. less amicable
+   Open windows are good for cooling. - Открытые окна хороши для охлаждения.
+
+@cooler
+/ˈkuːlə/
+n. A2
+1. прохладительный напиток - chilled mixed drink
+   After this storm it will be cooler. - После этой грозы станет свежее.
+2. холодильник
+   As we go up higher, the air becomes cooler. - Чем выше мы поднимаемся, тем холоднее становится воздух.
+
+@cooperate
+/kəʊˈɒpəreɪt/
+v. B2
+1. сотрудничать, кооперировать - work together
+   We had to cooperate with each other. - Мы должны были сотрудничать друг с другом.
+
+@cooperation
+/kəʊˌɒpəˈreɪʃən/
+n. B2
+1. сотрудничество, кооперация - act of cooperating or being cooperative
+   I really appreciate your cooperation. - Я действительно высоко ценю ваше сотрудничество.
+
+@cooperative
+/kuˈɑprətɪv/
+adj. B2
+1. готовый к сотрудничеству - ready to work with another
+   I'm cooperative. - Я отзывчив.
+
+@cop
+/kɒp/
+n. A1
+1. полицейский, полисмен, "фараон" - police officer
+   Get out of here before I call the cops. - Убирайся отсюда, пока я не вызвал полицию.
+
+@cope
+/ˈkəʊp/
+v. B2
+1. справиться, совладать - deal effectively with something
+   She will cope with difficult problems. - Она справится со сложными задачами.
+
+@copper
+/ˈkɒpə/
+n. B2
+1. медь
+   Electricity cables are made of copper. - Электрические провода сделаны из меди.
+
+@copy
+/ˈkɒpi/
+n. A1
+1. копия - result of copying
+   I'd like a copy of the autopsy report. - Я бы хотел получить копию протокола о вскрытии.
+2. экземпляр - printed edition of a book or magazine
+   I am hoping to get two copies of this book. - Я надеюсь получить два экземпляра этой книги.
+v. A2
+3. снимать копию, копировать
+   Please copy the first and second pages. - Сделайте, пожалуйста, копии первой и второй страниц.
+4. списывать, переписывать
+   Ancient manuscripts were copied by hand. - Древние рукописи переписывались от руки.
+
+@copyright
+/ˈkɒpiˌraɪt/
+n. B1
+1. авторское право - right to publish
+   Copyright infringement is against the law. - Нарушение авторских прав противозаконно.
+
+@coral
+/ˈkɒrəl/
+adj. B2
+1. коралловый - made of coral
+   Coral reefs are threatened by climate change. - Коралловые рифы находятся под угрозой из-за изменения климата.
+n. B2
+2. коралл - species or colony
+   Corals can live for thousands of years. - Кораллы могут жить тысячи лет.
+
+@cord
+/ˈkɔːd/
+n. B2
+1. верёвка, шнур(ок) - length of twisted strands
+   They made a whip out of cords. - Из верёвок они сделали кнут.
+
+@cordon
+/ˈkɔːdən/
+n. C2
+1. кордон, охранение
+
+@core
+/kɔː/
+n. B2
+1. сердцевина, внутренность, ядро - heart of a thing
+   Earth has a core of molten iron-nickel. - Ядро Земли состоит из расплавленного железа и никеля.
+2. суть - most important part of a thing
+   This is the core of the problem. - Это суть проблемы.
+
+@corn
+/ˈkɔːn/
+n. A1
+1. зерно, зёрнышко - grain or seed of a cereal crop
+   Bad seed must produce bad corn. - От плохого семени будет плохое зерно.
+2. мозоль (обыкн. на ноге) - type of callus
+   I have a corn on my right foot. - У меня мозоль на правой ноге.
+
+@corner
+/ˈkɔːnə/
+n. A1
+1. угол, уголок
+   The bus turned the corner and stopped. - Автобус завернул за угол и остановился.
+v. B2
+2. завернуть за угол - drive into a corner
+phr. turn the corner - завернуть за угол
+   Please turn right at the first corner. - На первом повороте поверни, пожалуйста, направо.
+phr. round the corner - за углом
+   Round the corner came a large truck. - Из-за угла выехал большой грузовик.
+
+@cornerstone
+/ˈkɔːnəstəʊn/
+n. B2
+1. краеугольный камень - base stone
+   This is the cornerstone of creation. - Это краеугольный камень мироздания.
+
+@cornet
+/ˈkɔːnɪt/
+n. B2
+1. корнетист - musical instrument
+
+@corona
+/kəˈrəʊnə/
+n. B2
+1. солнечная корона
+
+@corporal
+/ˈkɔːprəl/
+adj. B2
+1. телесный
+   I'm firmly opposed to corporal punishment. - Я категорически против телесных наказаний.
+phr. corporal punishment - телесное наказание, порка
+   Corporal punishment is forbidden in Sweden. - Телесные наказания в Швеции запрещены.
+
+@corporate
+/ˈkɔːpərət/
+adj. B2
+1. корпоративный, общий - of, or relating to an institution
+   We provide individual, group, and corporate courses. - Мы организуем индивидуальное, групповое и корпоративное обучение.
+
+@corporation
+/ˌkɔːpəˈreɪʃən/
+n. B2
+1. корпорация - body corporate with legal personality
+   This corporation is a political puppet. - Эта корпорация — политическая марионетка.
+
+@corps
+n. C1
+1. корпус - battlefield formation
+   C. diplomatique - дипломатический корпус
+
+@corpse
+/kɔːps/
+n. C2
+1. труп - dead body
+   I can't touch the corpse without gloves. - Я не могу трогать труп без перчаток.
+
+@corpus
+/ˈkɔːpəs/
+n. C2
+1. корпус, собрание - collection of writings
+   The Russian corpus is growing quickly. - Русский корпус растёт быстро.
+
+@correct
+/kəˈrɛkt/
+adj. A1
+1. правильный, верный, точный - free from error
+   All that you say is perfectly correct. - Всё, что ты говоришь, совершенно правильно.
+v. B2
+2. исправлять, поправлять
+   Can you please correct my translation? - Не могли бы вы подкорректировать мой перевод?
+3. править (корректуру)
+   Please correct me if I make a mistake. - Пожалуйста, поправь меня, если я сделаю ошибку.
+
+@correction
+/kəˈrɛkʃən/
+n. B1
+1. исправление, поправка - act of correcting
+   This is an extremely important correction. - Это чрезвычайно важная поправка.
+
+@correctly
+/kəˈrɛkli/
+adv. A2
+1. правильно, верно - in a correct manner
+   Are these sentences written correctly? - Эти предложения правильно написаны?
+
+@correctness
+n. B2
+1. правильность - freedom from error
+
+@correlate
+/ˈkɒrəleɪt/
+n. C2
+1. коррелят, соотносительное понятие
+v. C2
+2. находиться в связи
+
+@correlation
+/ˌkɒrəˈleɪʃən/
+n. C2
+1. взаимосвязь, соотношение - a reciprocal
+   I don't think there's any correlation. - Не думаю, что есть какая-то взаимосвязь.
+
+@correspond
+/ˌkɒrɪˈspɒnd/
+v. B2
+1. соответствовать, согласовываться - be equivalent or similar
+   A cubic meter corresponds to 1000 liters. - Кубический метр соответствует 1000 литрам.
+2. переписываться - exchange messages
+   I correspond with many friends in Canada. - Я переписываюсь со многими друзьями из Канады.
+
+@correspondence
+/ˌkɒrɪˈspɒndəns/
+n. B2
+1. корреспонденция, переписка, письма - postal or other written communications
+   A correspondence sprang up between us. - У нас завязалась переписка.
+
+@correspondent
+/ˌkɒrɪˈspɒndənt/
+n. B2
+1. корреспондент - one who corresponds
+   He was sent abroad as a correspondent. - Его отправили за границу в качестве корреспондента.
+
+@corresponding
+/ˌkɒrəˈspɒndɪŋ/
+adj. B2
+1. ведущий переписку
+   I am corresponding with my granny's friend. - Я переписываюсь с бабушкиной подругой.
+
+@corridor
+/ˈkɒrɪdɔː/
+n. B2
+1. коридор - narrow hall or passage
+   I swear this corridor wasn't this long. - Этот коридор точно не был настолько длинным.
+
+@corrupt
+/kəˈrʌpt/
+adj. B2
+1. продажный - in a depraved state
+   Some officials may have been corrupted. - Некоторые официальные лица могут быть коррумпированы.
+2. испорченный, развращённый - with lots of errors in it
+   Absolute power corrupts absolutely. - Абсолютная власть абсолютно развращает.
+v. B2
+3. портить(ся), развращать(ся) - change from good to bad
+   Power corrupts people. - Власть портит людей.
+
+@corruption
+/kəˈrʌpʃən/
+n. B2
+1. разложение (моральное) - the decomposition of biological matter
+   Corruption is bankrupting Algeria. - Коррупция ведёт Алжир к банкротству.
+
+@cosmic
+/ˈkɒzmɪk/
+adj. C2
+1. космический
+   If the universe is a cosmic egg, then who laid it? - Если Вселенная - это космическое яйцо, то кто его снёс?
+
+@cosset
+/ˈkɒsɪt/
+v. C2
+1. баловать, ласкать, нежить
+
+@cost
+/kɒst/
+v. A2
+1. стоить, обходиться - incur a charge of
+   A small cup of coffee costs two euros. - Чашечка кофе стоит два евро.
+n. A2
+2. цена, стоимость - negative consequence or loss
+   Let's figure out the cost of the trip. - Давайте подсчитаем стоимость поездки.
+
+@costly
+/ˈkɒstli/
+adj. B2
+1. дорогой, ценный - expensive
+   This is the world's most costly earthquake. - Это самое дорогостоящее землетрясение в мире.
+
+@costume
+/ˈkɒstjuːm/
+n. B2
+1. костюм - dress of a particular country
+   Have you ever been to a costume party? - Ты когда-нибудь был на костюмированной вечеринке?
+
+@cosy
+/ˈkəʊzi/
+adj. B2
+1. уютный, удобный - affording comfort and warmth
+   That's a very cosy philosophy. - Это очень удобная философия.
+
+@cottage
+/ˈkɒtɪdʒ/
+n. B2
+1. коттедж, летняя дача - a small house
+   There is a cottage beyond the bridge. - За мостом стоит коттедж.
+
+@cotton
+/ˈkɒtn/
+n. B1
+1. хлопок, хлопчатник
+   The Netherlands imports coffee and cotton. - Нидерланды импортируют кофе и хлопок.
+2. вата - fiber
+   Yuri treated Martha with cotton candy. - Юрий угостил Марту сахарной ватой.
+3. одежда из бумажной ткани - fabric
+   That cloth is made from cotton. - Та ткань изготовлена из хлопка.
+adj. B1
+4. хлопковый - made of cotton
+   I was wearing a white cotton shirt. - На мне была белая хлопковая рубашка.
+phr. cotton on - сдружиться
+   It took him ages to cotton on to the joke. - Шутка доходила до него как до жирафа.
+
+@couch
+/kaʊtʃ/
+n. A1
+1. кушетка, тахта - furniture for seating of more than one person
+   This couch is comfortable to sleep on. - На этом диване удобно спать.
+
+@cough
+/kɒf/
+v. B1
+1. кашлять - push air from the lungs through the glottis
+   Everyone in the classroom was coughing. - Все в классе кашляли.
+n. B2
+2. кашель - sudden
+   The silence was broken by a loud cough. - Тишину нарушил громкий кашель.
+phr. cough up - сболтнуть, проболтаться
+   You'd better cough up the money, or else. - Лучше раскошеливайся, а не то...
+
+@could
+/kəd/
+modal v. A1
+1. мог, умел (прош. вр. от can) - was able to
+   I could swim when I was five. - Я умел плавать в пять лет.
+2. мог бы - would be able to
+   I could help you tomorrow.
+3. можно ли... ? (вежливая просьба) - polite request
+   Could you open the window? - Не могли бы вы открыть окно?
+4. может быть, возможно - possibly
+   It could rain later.
+
+@council
+/ˈkaʊnsəl/
+n. B1
+1. совет - committee that leads or governs
+   I'm running for city council. - Я баллотируюсь в городской совет.
+2. церковный собор
+3. совещание
+   The council began at 9:00 and should be finished by 10:45. - Совещание началось в 9:00 и должно закончиться в 10:45.
+
+@counsel
+/ˈkaʊnsəl/
+n. C2
+1. решение, намерение, план
+
+@count
+/kaʊnt/
+v. A2
+1. считать, подсчитывать - enumerate or determine number
+   I have more problems than I can count. - У меня больше проблем, чем я могу сосчитать.
+n. B1
+2. счет, подсчет - the act of counting
+   The boxer got up on the count of nine. - Боксёр поднялся на счёте «девять».
+phr. count on - рассчитывать на (что-л., кого-л.)
+   I know that I can always count on you. - Я знаю, что всегда могу на вас рассчитывать.
+phr. count up - подсчитывать, складывать
+   My son can count up to a hundred now. - Мой сын может досчитать до ста.
+phr. count in - включать
+   Only looks and money count in this world. - В этом мире ценятся только внешность и деньги.
+
+@counter
+/ˈkaʊntə/
+v. B1
+1. прилавок, стойка
+   On which counter can I make my appointment? - На какой стойке я могу записаться на приём?
+2. противостоять, противиться - contradict, oppose
+   counter a claim - опровергать утверждение
+n. B2
+3. противное, обратное - something in contradiction to a proposal
+   as a counter to something - в противовес чему-л
+
+@counterproductive
+/ˌkaʊntəprəˈdʌktɪv/
+adj. C2
+1. контрпродуктивный - more of a hindrance than a help
+   This is counterproductive. - Это контрпродуктивно.
+
+@countless
+/ˈkaʊntləs/
+adj. B1
+1. несчётный, бесчисленный - too many to count, innumerable
+   There were countless stars in the sky. - В небе было бесчисленное количество звёзд.
+
+@country
+/ˈkʌntri/
+n. A2
+1. страна - region of land
+   Australia is a very beautiful country. - Австралия очень красивая страна.
+phr. in the country - за городом
+   It's the hottest city in the country. - Это самый жаркий город в стране.
+phr. leave the country - уехать за границу
+   I'm going to leave the country. - Я собираюсь покинуть страну.
+
+@countryman
+/ˈkʌntrimən/
+n. B2
+1. соотечественник, земляк - somebody from one's own country
+   I didn't know that we were fellow countrymen. - Я не знал, что мы земляки.
+
+@countryside
+/ˈkʌntriˌsaɪd/
+n. A2
+1. сельская местность, деревня, село - area outside of towns and cities
+   He wants to return to the countryside. - Он хочет вернуться за город.
+
+@county
+/ˈkaʊnti/
+n. B1
+1. жители графства или округа - administrative region of various countries
+   This is the best school in the county. - Это лучшая школа в округе.
+
+@couple
+/ˈkʌpəl/
+n. A2
+1. два, пара
+   Could you save me a couple of cookies? - Можешь приберечь для меня пару печенек?
+
+@courage
+/ˈkʌrɪdʒ/
+n. B1
+1. храбрость, смелость, отвага - quality of a confident character
+   Who has enough courage to ride a lion? - У кого достанет храбрости скакать на льве?
+
+@courageous
+/kəˈreɪdʒəs/
+adj. B1
+1. смелый, отважный, храбрый - of an action, that requires courage
+   The world belongs to the courageous. - Мир принадлежит храбрым.
+
+@courgette
+/kʊəˈʒɛt/
+n. B1
+1. цуккини, кабачок - a small marrow/squash
+   Courgettes are green. - Кабачки зелёные.
+
+@course
+/kɔːs/
+n. A1
+1. курс, направление - itinerary of a race
+   He considered two alternative courses. - Он рассматривал два альтернативных курса.
+2. ход, течение - sequence of events
+   This last statement is true, of course. - Последнее утверждение, разумеется, верно.
+phr. of course - конечно
+   Of course I can drive a car very well. - Конечно же я хороший водитель.
+phr. a matter of course - нечто само собой разумеющееся
+   As a matter of course you must go there yourself. - Разумеется, вам следует пойти туда самому.
+
+@court
+/ˈkɔːt/
+n. A2
+1. суд, тж. судья, судьи - hall
+   The court ordered her to pay the fine. - Суд распорядился, что она должна выплатить штраф.
+2. площадка для игр, корт
+   Some were playing tennis on the court. - Некоторые играли в теннис на теннисном корте.
+
+@courtesy
+/ˈkɜːtəsi/
+n. B2
+1. учтивость, обходительность - polite behavior
+   Courtesy costs nothing. - Вежливость ничего не стоит.
+
+@courtyard
+/ˈkɔːtjɑːd/
+n. B2
+1. двор, внутренний двор, подворье - unroofed walled area
+   The window gives on to the courtyard. - Окно выходит во двор.
+
+@cousin
+/ˈkʌzn/
+n. A1
+1. двоюродный брат, кузен
+   "Where's your cousin?" "He just left." - «Где твой кузен?» — «Вышел только что».
+phr. second cousin - троюродный брат
+   Jack is Mary's second cousin, I believe. - Кажется, Джек — троюродный брат Мэри.
+
+@cover
+/ˈkʌvə/
+n. A1
+1. обложка, переплёт - front and back of a book or a magazine
+   Write your name on the notebook cover. - Напиши своё имя на обложке тетрада.
+2. покров - top sheet
+   A bed of leaves covers the pavement. - Слой листвы покрывает тротуар.
+3. убежище, укрытие, прикрытие
+   This book covers the subject completely. - В этой книге тема раскрыта полностью.
+v. A2
+4. покрывать (кобылу) - conceal or protect
+   I'm not covering your roof with straw. - Я не покрываю вашу крышу соломой.
+phr. cover in - забросать землёй (могилу)
+   Vinyl records are covered in grooves. - Виниловые пластинки покрыты канавками.
+phr. cover up - спрятать, тщательно прикрыть
+   Cover up the injured man with this blanket. - Укройте раненого этим одеялом.
+phr. under cover - в укрытии, под защитой
+   We advanced under cover of darkness. - Мы продвигались под покровом темноты.
+phr. under cover of darkness - под покровом темноты
+   He escaped under cover of darkness. - Он сбежал под покровом ночи.
+
+@coverage
+/ˈkʌvrɪdʒ/
+n. C1
+1. зона действия
+
+@cow
+/kaʊ/
+n. A1
+1. самка слона, носорога, кита
+   till the cows come home - после дождичка в четверг
+
+@coward
+/ˈkaʊəd/
+n. B2
+1. трус - a person who lacks courage
+   Better a live coward than a dead hero. - Живой трус лучше мёртвого героя.
+
+@cowardly
+/ˈkaʊədli/
+adj. B2
+1. трусливый, малодушный - showing cowardice
+   The executioner is always cowardly. - Палач всегда трус.
+
+@cowboy
+/ˈkaʊˌbɔɪ/
+n. B1
+1. ковбой - man who identifies with cowboy culture
+   My grandmother ran off with a cowboy. - Моя бабушка сбежала с ковбоем.
+
+@coziness
+n. B2
+1. уют, уютность - state or quality of being cosy
+
+@cozy
+/ˈkəʊzi/
+adj. B2
+1. уютный, удобный - affording comfort and warmth
+   That's a very cosy philosophy. - Это очень удобная философия.
+
+@crab
+/kræb/
+n. B2
+1. раздражительный, ворчливый человек
+
+@crack
+/kræk/
+n. B2
+1. трещина, щель, расселина, свищ
+   Gas was escaping from a crack in the pipe. - Газ просачивался через трещину в трубе.
+2. треск, щёлканье (хлыста) - sharp sound made when solid material breaks
+   Ziri heard some cracks and snaps. - Зири услышал какой-то треск и щелчки.
+v. B2
+3. давать трещину, трескаться - make a cracking sound
+   Have you got something to crack these nuts? - У тебя есть чем расколоть эти орехи?
+4. производить треск, шум, выстрел - form cracks
+   I like cracking sunflower seeds. - Я люблю щелкать подсолнечные семечки.
+
+@cradle
+/ˈkreɪdəl/
+n. B2
+1. колыбель, люлька - oscillating bed for a baby
+   The baby in the cradle is very cute. - Ребёнок в колыбели очень милый.
+v. B2
+2. качать в люльке, убаюкивать
+phr. the cradle of civilization - истоки цивилизации
+   Greece was the cradle of western civilization. - Греция была колыбелью западной цивилизации.
+
+@craft
+/ˈkrɑːft/
+n. B1
+1. ремесло - skilled practice of practical occupation
+   She earns a living from the craft of writing. - Она зарабатывает себе на жизнь писательским ремеслом.
+2. ловкость, умение, искусство
+
+@craftsman
+/ˈkrɑːftsmən/
+n. B2
+1. мастер, ремесленник
+   Tom is a craftsman. - Том - ремесленник.
+
+@crane
+/kreɪn/
+n. B2
+1. журавль - bird
+   Cranes flying low indicate warm weather. - Журавли, летящие низко, — к теплу.
+v. B2
+2. поднимать краном
+
+@crash
+/ˈkræʃ/
+v. B1
+1. разбить, разрушить, вызвать аварию - 1. To collide with something destructively
+   Sami's car crashed into a bus shelter. - Машина Сами врезалась в автобусную остановку.
+2. потерпеть аварию, крушение - 11.
+   I wasn't on the bus when it crashed. - Меня не было в автобусе во время столкновения.
+n. B1
+3. авария, поломка, крушение - vehicle accident
+   Police are investigating the crash. - Полиция расследует аварию.
+4. сильный удар при падении
+   We prepared ourselves for the crash. - Мы приготовились к столкновению.
+phr. crash in - вторгаться
+   His airplane crashed in the mountains. - Его самолёт разбился в горах.
+
+@crate
+/kreɪt/
+n. B2
+1. (деревянный) ящик - box or basket
+   We bought two crates of beer. - Мы купили два ящика пива.
+
+@crater
+/ˈkreɪtə/
+n. B2
+1. кратер (вулкана) - pit left by an explosion
+   There are many craters on the moon. - На Луне много кратеров.
+
+@crave
+/kreɪv/
+v. C1
+1. страстно желать, жаждать
+   I crave knowledge. - Я жажду знаний.
+
+@craving
+/ˈkreɪvɪŋ/
+n. C1
+1. страстное желание, стремление
+
+@crawl
+/krɔːl/
+v. B2
+1. ползать, ползти - move along the ground
+   He crawled to the side on his stomach. - Он по-пластунски пополз в сторону.
+2. кишеть - teem or swarm
+   My bedroom is crawling with spiders. - Моя спальня кишит пауками.
+3. чувствовать мурашки по телу - feel swarming sensation
+   That scream made my skin crawl. - У меня от этого крика мурашки по коже побежали.
+
+@crazy
+/ˈkreɪzi/
+adj. A2
+1. сумасшедший, безумный - insane, demented
+   Stephen Colbert is a pretty crazy guy. - Стивен Кольбер — достаточно чокнутый малый.
+
+@creak
+/kriːk/
+v. B2
+1. скрипеть
+   Can you fix this door? It's creaking. - Вы можете починить эту дверь? Она скрипит.
+n. B2
+2. скрип - the sound produced by anything that creaks
+
+@cream
+/kriːm/
+n. A1
+1. сливки, крем - fatty part of milk
+   Coffee, please, with cream and sugar. - Пожалуйста, кофе со сливками и сахаром.
+2. крем (косметическое средство) - product to apply to the skin
+   The hand cream smells like chamomile. - Крем для рук пахнет ромашкой.
+3. что-л. отборное, самое лучшее
+   Ice cream sells better in summer than winter. - Летом мороженое продаётся лучше, чем зимой.
+
+@creamy
+/ˈkriːmi/
+adj. C1
+1. сливочный, жирный - containing cream
+
+@crease
+/kriːs/
+v. B2
+1. утюжить складки
+2. загибать, фальцевать - make a crease in
+   Stop creasing the pages! - Перестань загибать страницы!
+n. B2
+3. складка, сгиб, загиб - mark made by folding
+
+@create
+/kriːˈeɪt/
+v. A2
+1. творить, создавать - put into existence
+   Sami created a second YouTube channel. - Сами создал второй YouTube-канал.
+
+@creation
+/ˈkriˈeɪʃən/
+n. B2
+1. создание, сотворение, созидание - act of creation
+   The creation killed its creator. - Творение погубило своего творца.
+2. мироздание - (Biblical) all which exists
+   This is the cornerstone of creation. - Это краеугольный камень мироздания.
+
+@creative
+/kriˈeɪtɪv/
+adj. A2
+1. творческий, созидательный - having the ability to create
+   Television can dull our creative power. - Телевизор отупляет наши творческие силы.
+
+@creativity
+/kriːeɪˈtɪvɪti/
+n. A2
+1. креативность
+   Creativity is what we're looking for. - Нам нужна творческая жилка.
+
+@creator
+/kriːˈeɪtəː/
+n. B1
+1. творец, создатель, автор - the deity that created the world
+   Nothing would exist without a creator. - Ничто не существовало бы, если бы не было кем-то создано.
+2. бог
+   God is the creator of everything. - Бог — создатель всего.
+
+@creature
+/ˈkriːtʃə/
+n. A2
+1. живое существо - living being
+   Without water, no creature could live. - Без воды ни одно существо не смогло бы жить.
+
+@credential
+/krɪˈdɛnʃəl/
+n. C1
+1. мандат, удостоверение личности - document of authority
+   I'm going to need to see your credentials. - Мне нужно будет Ваше удостоверение личности.
+
+@credibility
+/krɛdəˈbɪlɪti/
+n. C1
+1. вероятность, правдоподобие
+
+@credible
+/ˈkrɛdəbl/
+adj. C1
+1. вероятный, заслуживающий доверия
+   You're credible. - Тебе можно доверять.
+
+@credit
+/ˈkrɛdɪt/
+n. A2
+1. доверие, вера
+   give credit to something - поверить чему-л
+v. B2
+2. приписывать - acknowledge a contribution
+
+@credit card
+/ˈkrɛdɪt ˌkɑrd/
+n. A1
+1. кредитная карточка
+
+@creek
+/ˈkriːk/
+n. B2
+1. бухта, залив, устье реки - small inlet or bay
+
+@creep
+/kriːp/
+n. B2
+1. содрогание, мурашки
+   This place gives me the creeps. - От этого места у меня мурашки по коже.
+v. B2
+2. ползать, пресмыкаться - change or deviate gradually
+   The kitten crept under the bed. - Котёнок заполз под кровать.
+
+@creepy
+/ˈkriːpi/
+adj. B2
+1. вызывающий мурашки - producing a fearful sensation
+   The robot was so lifelike that it was creepy. - Робот был настолько похож на живого, что прямо бросало в дрожь.
+
+@crew
+/kruː/
+n. B2
+1. судовая команда, экипаж (судна) - any company of people
+   The ship captain believes in his crew. - Капитан корабля уверен в своей команде.
+
+@crib
+/krɪb/
+n. B2
+1. детская кроватка (с боковыми стенками) - a baby’s bed with high sides
+   The baby is sleeping in his crib. - Ребёнок спит в своей колыбели.
+
+@cricket
+/ˈkrɪkɪt/
+n. A2
+1. крикет - game
+   I don't know anything about cricket. - Я не разбираюсь в крикете.
+2. сверчок - insect
+   That's not a cricket. It's a grasshopper. - Это не сверчок. Это кузнечик.
+
+@crime
+/kraɪm/
+n. A2
+1. преступление, злодеяние
+   He conceded that he committed a crime. - Он признал, что совершил преступление.
+
+@criminal
+/ˈkrɪmɪnəl/
+n. B1
+1. преступник - person guilty of a crime, breaking the law
+   How dare you treat me like a criminal! - Как вы смеете обращаться со мной как с преступником!
+adj. B2
+2. преступный, криминальный - being against the law
+   Murder and robbery are criminal acts. - Убийство и ограбление — преступные деяния.
+
+@crimson
+/ˈkrɪmzən/
+adj. B2
+1. тёмно-красный, малиновый
+   The sails were crimson in the sunset. - Паруса багровели на закате.
+n. B2
+2. малиновый цвет
+   As the sun sets, the sky turns a beautiful crimson. - Когда солнце садится, небо становится красивого багряного цвета.
+
+@cringe
+/ˈkrɪndʒ/
+v. B2
+1. проявлять раболепный страх
+   I cringe just thinking about it. - Я съеживаюсь только от одной мысли об этом.
+
+@cripple
+/ˈkrɪpl/
+n. B2
+1. калека, инвалид
+   Every cripple is happy to talk about the war. - Каждый калека с удовольствием рассказывает о войне.
+v. B2
+2. калечить, уродовать - give someone a physical disability
+   It's your fault that I'm crippled. - Это из-за вас я изувечен.
+
+@crisis
+/ˈkraɪsɪs/
+n. B1
+1. кризис - crucial or decisive point or situation
+   Her company didn't survive the crisis. - Её компания не пережила кризис.
+phr. economic crisis - экономический кризис
+   Algeria is facing a political and economic crisis. - Алжир столкнулся с политическим и экономическим кризисом.
+
+@crisp
+/krɪsp/
+n. A2
+1. хрустящий картофель
+   I ate some crisps. - Я поел немного картофельных чипсов.
+adj. B2
+2. рассыпчатый, хрустящий
+   The crisp was salty and crunchy. - Чипс был солёный и хрустящий.
+
+@critic
+/ˈkrɪtɪk/
+n. B1
+1. критик - person who appraises the works of others
+   He is a critic rather than a novelist. - Он скорее критик, чем романист.
+
+@critical
+/ˈkrɪtɪkəl/
+adj. B1
+1. критический - relating to criticism
+   The patient is in critical condition. - Пациент находится в критическом состоянии.
+
+@critically
+/ˈkrɪtɪkəli/
+adv. B2
+1. критично - in a critical manner, with criticism
+   She eyed me critically. - Она критично оглядела меня.
+
+@criticism
+/ˈkrɪtɪsɪzm/
+n. B2
+1. критика - act of criticising
+   He was subjected to severe criticism. - Его подвергли резкой критике.
+
+@criticize
+/ˈkrɪtɪsaɪz/
+v. A2
+1. критиковать - find fault
+   He constantly criticizes other people. - Он постоянно всех критикует.
+
+@croak
+/krəʊk/
+v. B2
+1. каркать, квакать
+   The frogs are croaking in the pond. - Лягушки квакают в пруду.
+n. B2
+2. карканье, кваканье
+   I've never heard a frog croak. - Я никогда не слышал, как квакает лягушка.
+
+@crocodile
+/ˈkrɒkədaɪl/
+n. B2
+1. крокодил - reptile
+   Crocodiles drag their prey into water. - Крокодилы затаскивают свою добычу в воду.
+
+@crony
+/ˈkrəʊni/
+n. C2
+1. близкий, закадычный друг
+
+@crooked
+/krʊkt/
+adj. B2
+1. изогнутый, кривой - having one or more bends or angles
+   All the paintings in the room hung crooked. - Все картины в комнате висели криво.
+
+@crop
+/krɒp/
+n. B1
+1. урожай, жатва, посев - natural production for a specific year
+   The chief crop of our country is rice. - Рис - главный урожай нашей страны.
+
+@cross
+/krɒs/
+v. A2
+1. пересекать - go from one side of something to the other
+   After you cross the river, head north. - Перейдя реку, идите на север.
+2. скрещивать (шпаги, руки) - place across
+   Don't cross your arms across your chest. - Не скрещивай руки на груди.
+n. A2
+3. крест - geometrical figure
+   Put a cross beside the correct answer. - Поставьте крестик рядом с правильным ответом.
+adj. B1
+4. раздражённый, злой, сердитый
+   he is cross with you - он сердит на вас
+phr. cross over - переходить, пересекать, переезжать
+   It's green. Let's cross over. - Зелёный. Переходим.
+
+@crossing
+/ˈkrɒsɪŋ/
+n. B1
+1. перекрёсток, переход (через улицу) - intersection where roads
+   I saw it as I was crossing the street. - Я видел это, когда переходил улицу.
+
+@crossly
+adv. B2
+1. раздражённо, сварливо, сердито
+
+@crossroads
+n. B1
+1. перекрёсток, перепутье, распутье - intersection
+   The accident happened at a crossroads. - Авария произошла на перекрёстке.
+2. распутье - decisive turning point
+   The world has come to a new crossroads. - Мир вновь оказался на перепутье.
+
+@crouch
+/ˈkraʊtʃ/
+v. B2
+1. раболепствовать, пресмыкаться - bend servilely
+   crouch one's back - гнуть спину (перед кем-л.)
+
+@crow
+/krəʊ/
+n. B1
+1. ворона - any bird of the genus Corvus
+   One crow doesn't peck another's eye. - Ворон ворону глаз не выклюет.
+2. пение петуха
+   Every morning, the rooster crows. - Петух каждое утро кукарекает.
+v. B2
+3. кричать кукареку - make the sound of a rooster
+   Did you hear the cockerel crowing? - Ты слышала, как петух поёт?
+
+@crowd
+/ˈkraʊd/
+n. A2
+1. толпа - group of people
+   The crowd gathered around the speaker. - Толпа окружила говорящего.
+v. B1
+2. собираться толпой, толпиться
+   If the next bus is crowded, let's walk. - Если следующий автобус будет битком, пошли пешком.
+
+@crowded
+/ˈkraʊdɪd/
+adj. A2
+1. переполненный, битком набитый - containing a dense pack or mass of something
+   It seems less crowded during the week. - На неделе, похоже, не так людно.
+2. полный, наполненный
+   It's going to be crowded everywhere. - Везде будут толпы.
+
+@crown
+/kraʊn/
+n. A2
+1. корона, престол - imperial or regal power
+   The Queen's crown was made of gold. - Корона Королевы была сделана из золота.
+2. крона, верхушка дерева - upper part of a tree
+   A cup of coffee costs one crown. - Чашка кофе стоит одну крону.
+v. B2
+3. поставить коронку (на зуб) - place a crown on the head of
+   Charlemagne was crowned by the Pope. - Карл Великий был коронован Папой Римским.
+
+@crucial
+/ˈkruːʃəl/
+adj. B2
+1. решающий (о моменте, опыте) - extremely important
+   Sunday's match will be crucial. - Воскресный матч будет решающим.
+
+@crude
+/kruːd/
+adj. C1
+1. грубый - lacking tact or taste
+   Mike made a crude table out of logs. - Майк сколотил грубый стол из брёвен.
+2. сырой, незрелый - being in a natural state
+   Crude oil is refined at this plant. - На этом заводе рафинируют сырую нефть.
+phr. crude oil - неочищенная нефть
+   A tanker is a ship that carries crude oil. - Танкер - это судно, перевозящее сырую нефть.
+
+@cruel
+/ˈkruːəl/
+adj. B1
+1. жестокий, безжалостный - that intentionally causes pain and suffering
+   A beautiful face can hide a cruel heart. - За красивым лицом может скрываться жестокое сердце.
+
+@cruelly
+/ˈkruːəli/
+adv. B2
+1. жестоко, безжалостно - in a cruel manner
+   It's shameful to treat a child so cruelly. - Стыдно так жестоко обращаться с ребёнком.
+
+@cruelty
+/ˈkruːlti/
+n. B2
+1. жестокость, безжалостность - indifference to suffering
+   Cruelty is quite alien to his nature. - Жестокость противоречит его натуре.
+
+@cruise
+/kruːz/
+n. A2
+1. морское путешествие, плавание - sea voyage
+   Congratulations! You won a free cruise! - Поздравляем! Вы выиграли бесплатный круиз!
+v. B2
+2. летать с крейсерской скоростью
+
+@crumb
+/krʌm/
+n. C1
+1. крошка (особ. хлеба) - small piece of biscuit, cake, etc
+   It will be hard to sweep these crumbs. - Будет нелегко смести эти крошки.
+
+@crumble
+/ˈkrʌmbəl/
+v. C1
+1. крошить, раздроблять, толочь - fall apart
+   The old brickwork was beginning to crumble. - Старая кирпичная кладка начинала крошиться.
+
+@crumple
+/ˈkrʌmpəl/
+v. B2
+1. комкать, мять в руках - rumple
+   Tom crumpled Mary's note in his hand. - Том скомкал в руке записку Мэри.
+
+@crunch
+/krʌntʃ/
+v. B2
+1. грызть с хрустом - crush something with a noisy crackling sound
+   A faint crunching noise could be heard. - Послышался тонкий хруст.
+n. B2
+2. хруст, скрип, треск - a noisy crackling sound
+
+@crush
+/krʌʃ/
+n. B1
+1. увлечение, пылкая любовь - love or infatuation or its object
+   I used to have a crush on my friend. - Когда-то я был влюблён в свою подругу.
+v. B2
+2. раздавить - overwhelm by pressure or weight
+   He crushed the insect with his heel. - Он раздавил насекомое пяткой.
+3. уничтожать, подавлять, сокрушать
+   Every evil is easily crushed at birth. - Всякое зло легко сокрушается при рождении.
+
+@crust
+/krʌst/
+n. B2
+1. корка (хлеба) - any solid, hard surface layer
+   I usually cut the crust off bread. - Я обычно срезаю хлебную корку.
+
+@cry
+/kraɪ/
+n. A1
+1. плач - shedding of tears
+   Children cry because they want to eat. - Дети плачут, потому что хотят есть.
+2. крик - shout or scream
+   A donkey has a loud and unpleasant cry. - У ишака громкий и неприятный крик.
+v. A2
+3. плакать - shed tears
+   He was crying bitter tears of despair. - Он плакал горькими слезами отчаяния.
+4. кричать, вопить - shout, scream, yell
+   She began to cry in a loud voice. - Она закричала во весь голос.
+phr. cry out - объявлять во всеуслышание
+   You cried out during your sleep again. - Ты опять кричал во сне.
+phr. cry bitter tears - плакать горькими слезами
+   He cried bitter tears of despair. - Он плакал горькими слезами отчаяния.
+
+@crystal
+/ˈkrɪstəl/
+n. B2
+1. кристалл - array of atoms
+   There is a big crystal in his room. - В его комнате есть большой кристалл.
+adj. B2
+2. хрустальный
+   A crystal chandelier hangs in the hall. - В зале висит хрустальная люстра.
+3. чистый, прозрачный, кристальный
+   The water is crystal clear. - Вода кристально чиста.
+
+@crystallization
+/ˌkrɪstəlaɪˈzeɪʃən/
+n. C2
+1. кристаллизация
+   He extracted salt from seawater through crystallization. - Он извлёк соль из морской воды путем кристаллизации.
+
+@crystallize
+/ˈkrɪstəlaɪz/
+v. B2
+1. засахаривать(ся) (о фруктах)
+   The honey crystallized. - Мёд засахарился.
+
+@cube
+/kjuːb/
+v. B2
+1. вычислять кубатуру
+
+@cubism
+/ˈkjuːbɪzəm/
+n. B2
+1. кубизм
+
+@cucumber
+/ˈkjuːˌkʌmbə/
+n. B1
+1. огурец - plant
+   The killer cucumber is sexist. - Огурец-убийца — сексист.
+
+@cuddle
+/ˈkʌdl/
+v. B2
+1. прижимать к себе, обнимать - embrace, lie together snugly
+   They fell asleep cuddling on the sofa. - Они в обнимку заснули на диване.
+n. B2
+2. объятия - affectionate embrace
+
+@cue
+/kjuː/
+n. B2
+1. намёк
+   When I cough twice, that's your cue to come into the room. - Когда я кашляну два раза, это сигнал, что ты должен войти в комнату.
+
+@cuff
+/kʌf/
+n. B2
+1. манжета, обшлаг
+   The cuffs of his suit jacket are badly frayed. - Манжеты его пиджака сильно протёрлись.
+
+@cuisine
+/kwɪˈziːn/
+n. B2
+1. кухня, кулинария - characteristic style of preparing food
+   Asian cuisine is often flavoured with MSG. - В блюда азиатской кухни часто добавляют глутамат натрия.
+
+@cull
+/kʌl/
+v. C2
+1. собирать (цветы)
+
+@culmination
+/ˌkʌlmɪˈneɪʃən/
+n. B2
+1. наивысшая точка
+
+@cultivate
+/ˈkʌltɪveɪt/
+v. B1
+1. развивать, культивировать
+   You must cultivate your mind. - Тебе следует развить свой ум.
+2. обрабатывать, возделывать - turn or stir soil in preparation for planting
+   They cultivated the land. - Они возделывали землю.
+
+@cultural
+/ˈkʌltʃrəl/
+adj. B1
+1. культурный - pertaining to culture
+   What do you mean by cultural relativism? - Что ты имеешь в виду под культурным релятивизмом?
+
+@culture
+/ˈkʌltʃə/
+n. A1
+1. культура - arts, customs and habits
+   Culture Day falls on Monday this year. - В этом году День культуры выпадает на понедельник.
+
+@cunning
+/ˈkʌnɪŋ/
+n. B2
+1. хитрость, коварство - skill of being sly or deceitful
+   Weasels have a reputation for being elusive and cunning. - Ласки известны своей хитростью и неуловимостью.
+adj. B2
+2. хитрый, коварный - sly
+
+@cup
+/ˈkʌp/
+n. A1
+1. чашка, кубок - drinking vessel
+   A small cup of coffee costs two euros. - Чашечка кофе стоит два евро.
+
+@cupboard
+/ˈkʌbəd/
+n. A2
+1. шкаф, буфет - enclosed storage
+   There's someone hiding in the cupboard. - В шкафу кто-то прячется.
+
+@curate
+/ˈkjʊərət/
+n. C2
+1. викарий
+
+@curator
+/kjʊəˈreɪtə/
+n. C2
+1. хранитель (музея, библиотеки)
+
+@curb
+/kɜːb/
+n. B2
+1. бордюрный камень, обочина
+   Pull up to the curb. - Прижмись к обочине.
+v. B2
+2. обуздывать, сдерживать - check, restrain, control
+
+@cure
+/kjɔː/
+n. B1
+1. лекарство, средство - method
+   Antibiotics are a cure for infection. - Антибиотики - это средство от инфекций.
+v. B2
+2. вылечивать, исцелять - restore to health
+   I won't be discharged until I'm cured. - Меня не выпишут, пока я не вылечусь.
+
+@curiosity
+/ˌkjʊəriˈɒsɪti/
+n. B1
+1. любопытство - inquisitiveness
+   Curiosity and science go hand in hand. - Любопытство и наука идут рука об руку.
+
+@curious
+/ˈkjʊəriəs/
+adj. B1
+1. любопытный - tending to ask questions
+   You're a very curious guy, aren't you? - Ты очень любопытный парень, не так ли?
+
+@curiously
+/ˈkjʊəriəsli/
+adv. B1
+1. странно, необычайно
+   curiously enough - любопытно, как ни странно
+
+@curl
+/kɜːl/
+v. B1
+1. завивать(ся), виться (о волосах)
+n. B2
+2. локон, завиток, вьющиеся волосы - curving lock of hair
+phr. curl up - скручивать(ся), сморщивать(ся)
+   The cat slept curled up in a ball. - Кот спал, свернувшись в клубок.
+
+@curly
+/ˈkɜːli/
+adj. B1
+1. кудрявый, курчавый, вьющийся - having curls
+   Her hair is black, short and curly. - Волосы у неё чёрные, короткие и кудрявые.
+
+@currency
+/ˈkʌrənsi/
+n. B1
+1. валюта, деньги
+   Where can I exchange foreign currency? - Где я могу обменять иностранную валюту?
+2. денежное обращение
+   The country's currency is the euro. - Денежная единица страны — евро.
+
+@current
+/ˈkʌrənt/
+adj. B1
+1. текущий, теперешний, современный - generally accepted
+   Can you give me your current address? - Можешь дать мне твой теперешний адрес?
+n. B1
+2. течение, ход (событий)
+   The river's got a fast-moving current. - У реки быстрое течение.
+3. струя, поток
+   An eddy is a circular current of water. - Водоворот - это круговой поток воды.
+phr. against the current - против течения
+   Let's try to swim against the current. - Давайте попробуем плыть против течения.
+
+@currently
+/ˈkʌrəntli/
+adv. B1
+1. в данный момент, в настоящее время - at this moment
+   The students are currently on holiday. - У студентов сейчас каникулы.
+
+@curriculum
+/kəˈrɪkjʊləm/
+n. B1
+1. курс обучения, учебный план - set of courses and coursework
+   They have a very good curriculum at that university. - В этом университете очень хорошая учебная программа.
+
+@curry
+/ˈkʌri/
+n. A2
+1. блюдо, приправленное кэрри
+   Curry is a food from India. - Карри - индийское блюдо.
+
+@curse
+/kɜːs/
+n. A2
+1. проклятие, ругательство - vulgar epithet
+   The opposite of a blessing is a curse. - Противоположность благословению - проклятие.
+v. B2
+2. проклинать, ругаться - place a curse upon
+   The witch cursed the poor little girl. - Ведьма прокляла бедную маленькую девочку.
+
+@cursor
+/ˈkɜːsə/
+n. B2
+1. курсор
+   Help me find the cursor. I lost sight of it. - Помоги мне найти курсор. Я потерял его из виду.
+
+@curtain
+/ˈkɜːtn/
+n. B1
+1. занавеска - piece of cloth in a theater
+   The curtains make this room beautiful. - Занавески украшают эту комнату.
+
+@curve
+/kɜːv/
+n. B1
+1. изгиб, кривизна, закругление - gentle bend
+   Here the road curves to the right. - Дорога сворачивает тут направо.
+2. кривая (линия), дуга - curved line
+   The mortality curve is climbing upwards. - Кривая смертности ползёт вверх.
+v. B2
+3. гнуть, сгибать, изгибать(ся) - bend, crook
+
+@cushion
+/ˈkʊʃən/
+n. B1
+1. (диванная) подушка - soft material in cloth bag
+   A whoopie-cushion is like a joke shortcut. - Подушка-пердушка - это похоже на баян.
+
+@custom
+/ˈkʌstəm/
+n. A2
+1. обычай, привычка - frequent repetition of the same act
+   In Colombia, Catholic customs prevail. - В Колумбии преобладают католические обычаи.
+
+@customary
+/ˈkʌstəmri/
+adj. C1
+1. обычный, привычный - agreeing with, or established by, custom
+
+@customer
+/ˈkʌstəmə/
+n. A2
+1. заказчик, покупатель, клиент
+   I don't see any customers complaining. - Я не вижу, чтобы какие бы то ни было клиенты жаловались.
+
+@customs
+/ˈkʌstəmz/
+n. B1
+1. таможенный сбор
+   The customs officials boarded the ship. - Таможенники поднялись на борт судна.
+
+@cut
+/kʌt/
+v. A1
+1. резать, срезать, отрезать - perform an incision
+   He cut himself with a knife yesterday. - Он вчера порезался ножом.
+2. урезывать, сокращать - reduce
+   We must cut our expenses to save money. - Мы должны урезать наши расходы, чтобы сэкономить деньги.
+adj. A1
+3. порезанный - having been cut
+   The cut will heal up in a few days. - Порез пройдёт через несколько дней.
+n. B1
+4. разрез, порез, рана, зарубка - opening resulting from cutting
+   Cut the meat with a knife. - Режь мясо ножом.
+phr. cut down - рубить (деревья)
+   My doctor told me to cut down on salt. - Мой врач сказал мне снизить потребление соли.
+phr. cut off - обрезать, отсекать
+   The soldier immediately cut off her head. - Солдат незамедлительно отрезал ей голову.
+phr. cut in - вмешиваться
+   Don't cut in while others are talking. - Не вмешивайся, когда другие говорят.
+phr. cut out - вырезать
+   I cut the article out of the magazine. - Я вырезал статью из журнала.
+phr. cut it out - перестаньте!, бросьте!
+   Cut it out now. - Хватит уже.
+phr. cut up - разрубать, разрезать на куски
+   Please help me cut up vegetables for the salad. - Помоги мне, пожалуйста, нарезать овощи для салата.
+phr. cut short - прерывать, обрывать
+   Please cut your vacation short and return. - Пожалуйста, прервите отпуск и возвращайтесь.
+
+@cute
+/kjuːt/
+adj. A1
+1. привлекательный, миловидный - attractive or pleasing in a youthful
+   That girl is more cute than beautiful. - Эта девушка скорее симпатичная, чем красивая.
+
+@cutlery
+/ˈkʌtləri/
+n. B2
+1. ножевые изделия, ножевой товар
+
+@cybercrime
+n. B2
+1. киберпреступность - crime committed using computer networks
+
+@cyberspace
+/ˈsaɪbəˌspeɪs/
+n. B2
+1. киберпространство - world of information
+   Welcome to Cyberspace! - Добро пожаловать в киберпространство!
+
+@cycle
+/ˈsaɪkəl/
+v. B1
+1. ездить на велосипеде - ride a cycle
+   While I was cycling, the rain started. - Пока я катался на велосипеде, начался дождь.
+n. B1
+2. цикл, круг, круговорот - complete rotation
+   A lunar cycle is shorter than a month. - Лунный цикл короче, чем месяц.
+
+@cycling
+/ˈsaɪklɪŋ/
+n. A2
+1. езда на велосипеде - the activity of riding bicycles
+   While I was cycling, the rain started. - Пока я катался на велосипеде, начался дождь.
+
+@cyclist
+/ˈsaɪklɪst/
+n. B2
+1. велосипедист - person who rides a cycle
+   Cyclists usually have very strong legs. - У велосипедистов обычно очень сильные ноги.
+
+@cynic
+/ˈsɪnɪk/
+n. C1
+1. циник
+   That's just the jaundiced view of an old cynic. - Это лишь скептический взгляд старого циника.
+
+@cynical
+/ˈsɪnɪkəl/
+adj. C1
+1. циничный, бесстыдный
+   There's nothing cynical in being alive. - Нет ничего циничного в том, чтобы быть живым.
+
+@cynically
+/ˈsɪnɪkli/
+adv. C1
+1. цинично - in a cynical manner
+
+@cynicism
+/ˈsɪnɪˌsɪzəm/
+n. C1
+1. цинизм - skeptical, scornful or pessimistic attitude
+   How is cynicism different from Nazism? - Чем цинизм отличается от нацизма?

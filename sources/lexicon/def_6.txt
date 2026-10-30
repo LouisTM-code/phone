@@ -1,0 +1,423 @@
+@forehead
+n. B2
+1. лоб - the part of the face above the eyes
+   He wiped his forehead.
+
+@foreign
+adj. A1
+1. иностранный, зарубежный - from another country
+   Do you speak any foreign languages? - Ты говоришь на иностранных языках?
+2. чуждый, чужой - strange, unknown
+   The idea was foreign to him.
+
+@foreigner
+n. B1
+1. иностранец - a person from another country
+   Many foreigners visit the city.
+
+@forest
+n. A1
+1. лес - a large area of trees
+   They got lost in the forest. - Они заблудились в лесу.
+
+@forever
+adv. B1
+1. навсегда, вечно - for all time
+   I'll love you forever. - Я буду любить тебя вечно.
+2. целую вечность - a very long time
+   It took forever.
+
+@forget
+v. (forgot, forgotten) A1
+1. забывать - not remember
+   I forgot her name. - Я забыл её имя.
+2. забыть, оставить (где-то) - not bring
+   I forgot my umbrella.
+phr. Forget it! - Забудь! Неважно!
+
+@forgive
+v. (forgave, forgiven) B1
+1. прощать - stop being angry with someone
+   Please forgive me. - Пожалуйста, прости меня.
+
+@fork
+n. A1
+1. вилка - a tool for eating
+   a knife and fork - нож и вилка
+2. развилка - a place where a road divides
+
+@form
+n. A2
+1. анкета, бланк - a paper with questions to fill in
+   Fill in this form, please. - Заполните, пожалуйста, этот бланк.
+2. форма, вид - a kind, a type; a shape
+   a form of art
+v. B1
+3. образовывать(ся), создавать - make, appear
+   They formed a group.
+
+@formal
+adj. B1
+1. официальный, формальный - serious and correct
+   a formal letter
+
+@former
+adj. B1
+1. бывший, прежний - from an earlier time
+   her former husband
+pron. B2
+2. первый (из двух названных) - the first of two
+   the former ... the latter
+
+@forth
+adv. B2
+1. вперёд, наружу - forward, out
+phr. back and forth - взад и вперёд
+   He walked back and forth.
+phr. and so forth - и так далее
+
+@fortnight
+n. B2
+1. две недели (брит.) - two weeks
+   I'll see you in a fortnight.
+
+@fortunate
+adj. B2
+1. удачливый, счастливый - lucky
+   We were fortunate to find a hotel.
+
+@fortunately
+adv. A2
+1. к счастью - luckily
+   Fortunately, nobody was hurt. - К счастью, никто не пострадал.
+
+@fortune
+n. B1
+1. состояние, богатство - a lot of money
+   It cost a fortune.
+2. удача, судьба - luck
+phr. tell someone's fortune - гадать
+
+@forty
+num. A1
+1. сорок - 40
+   He is forty. - Ему сорок.
+
+@forward
+adv. A2
+1. вперёд - towards the front
+   She stepped forward. - Она шагнула вперёд.
+v. B2
+2. пересылать - send on to another person
+   I'll forward the email to you.
+phr. look forward to - ждать с нетерпением
+   I'm looking forward to the holiday.
+
+@foul
+adj. B2
+1. отвратительный, мерзкий - very bad, dirty
+   a foul smell
+n. B2
+2. фол, нарушение - an action against the rules in sport
+
+@found
+v. B2
+1. основывать - start a company or school (founded)
+   The school was founded in 1850.
+
+@foundation
+n. B2
+1. основание, фундамент - the base of a building or idea
+2. фонд - an organization that gives money
+
+@fountain
+n. B2
+1. фонтан - water that shoots up in the air
+   a fountain in the square
+
+@four
+num. A1
+1. четыре - 4
+   a table for four - столик на четверых
+
+@fourteen
+num. A1
+1. четырнадцать - 14
+   She is fourteen. - Ей четырнадцать.
+
+@fourth
+num. A1
+1. четвёртый - number 4 in order
+   the fourth floor - четвёртый этаж
+
+@fox
+n. B1
+1. лиса - a wild animal like a dog with red fur
+   A fox stole our chickens.
+
+@fragile
+adj. B2
+1. хрупкий - easily broken
+   Be careful, the glass is fragile.
+
+@frame
+n. B2
+1. рама, рамка - a border round a picture or window
+   a photo frame
+2. каркас; телосложение - a structure; body
+   his large frame
+v. B2
+3. вставлять в рамку - put in a frame
+4. подставить (обвинить ложно) - make someone look guilty
+
+@frankly
+adv. B2
+1. откровенно, честно говоря - honestly
+   Frankly, I don't care.
+
+@frantic
+adj. C1
+1. отчаянный, лихорадочный - very worried, wild
+   She was frantic with worry.
+
+@free
+adj. A1
+1. бесплатный - costing nothing
+   Entry is free. - Вход бесплатный.
+2. свободный - not busy; not in prison
+   Are you free tonight? - Ты свободен сегодня вечером?
+v. B1
+3. освобождать - let go
+   They freed the prisoners.
+phr. for free - бесплатно
+
+@freedom
+n. B1
+1. свобода - being free
+   freedom of speech
+
+@freeze
+v. (froze, frozen) B1
+1. замерзать, замораживать - become ice
+   The lake froze.
+2. застыть, замереть - stop moving
+   She froze with fear.
+phr. I'm freezing! - Я замерзаю!
+
+@frequent
+adj. B1
+1. частый - happening often
+   frequent visits
+
+@frequently
+adv. B1
+1. часто - often
+   He frequently travels abroad.
+
+@fresh
+adj. A2
+1. свежий - new, just made
+   fresh bread - свежий хлеб
+2. свежий, прохладный (о воздухе) - clean and cool
+   fresh air - свежий воздух
+3. пресный (о воде) - not salty
+   fresh water
+
+@fridge
+n. A1
+1. холодильник - a machine to keep food cold
+   The milk is in the fridge. - Молоко в холодильнике.
+
+@friend
+n. A1
+1. друг, подруга - a person you know and like
+   She's my best friend. - Она моя лучшая подруга.
+phr. make friends - подружиться
+
+@friendly
+adj. A1
+1. дружелюбный - kind and nice
+   The people here are very friendly. - Люди здесь очень дружелюбные.
+
+@friendship
+n. A2
+1. дружба - being friends
+   a long friendship
+
+@frighten
+v. B1
+1. пугать - make afraid
+   Don't frighten the children.
+
+@frightened
+adj. A2
+1. испуганный - afraid
+   I was frightened. - Мне было страшно.
+
+@frightening
+adj. B1
+1. пугающий, страшный - making you afraid
+   a frightening experience
+
+@frog
+n. A2
+1. лягушка - a small green animal that jumps
+   A frog jumped into the pond.
+
+@from
+prep. A1
+1. из, от - showing where something starts
+   I'm from Russia. - Я из России.
+   a letter from my mother - письмо от мамы
+2. с (о времени) - starting at a time
+   from Monday to Friday - с понедельника по пятницу
+
+@front
+n. A1
+1. перед, передняя часть - the part that faces forward
+   the front of the house
+adj. A2
+2. передний - at the front
+   the front door - входная дверь
+phr. in front of - перед
+   He stood in front of me. - Он стоял передо мной.
+
+@frost
+n. B2
+1. мороз, иней - very cold weather; ice on surfaces
+   There was frost on the grass.
+
+@frown
+v. B2
+1. хмуриться - make lines on your forehead when angry or worried
+   She frowned at me.
+n. B2
+2. хмурый взгляд - an angry look
+
+@frozen
+adj. B1
+1. замёрзший, замороженный - turned to ice; very cold
+   frozen food; My hands are frozen.
+
+@fruit
+n. A1
+1. фрукт(ы) - an apple, orange, banana...
+   Eat more fruit. - Ешь больше фруктов.
+
+@frustrated
+adj. B1
+1. раздосадованный, неудовлетворённый - annoyed because you can't do something
+   He felt frustrated.
+
+@fry
+v. A2
+1. жарить - cook in hot oil
+   She fried some eggs. - Она пожарила яйца.
+
+@fuel
+n. B1
+1. топливо - petrol, coal, gas
+   We ran out of fuel.
+
+@fulfil
+v. B2
+1. выполнять, осуществлять - do what was promised or hoped
+   He fulfilled his dream.
+
+@full
+adj. A1
+1. полный - with no more space
+   The bus was full. - Автобус был полон.
+2. сытый - having eaten enough
+   I'm full. - Я наелся.
+3. полный, весь - complete
+   your full name
+phr. full of - полный чего-то
+phr. in full - полностью
+
+@fully
+adv. B1
+1. полностью - completely
+   I fully understand.
+
+@fun
+n. A1
+1. веселье, удовольствие - enjoyment
+   We had a lot of fun. - Нам было очень весело.
+adj. A2
+2. весёлый, забавный - enjoyable
+   It was a fun day.
+phr. make fun of - смеяться над, высмеивать
+
+@function
+n. B1
+1. функция, назначение - the purpose of something
+v. B2
+2. работать, действовать - work
+   The machine isn't functioning.
+
+@fund
+n. B2
+1. фонд; средства - money for a purpose
+   We are raising funds for the school.
+
+@funeral
+n. B1
+1. похороны - a ceremony for a dead person
+   They went to his funeral.
+
+@funny
+adj. A1
+1. смешной - making you laugh
+   a funny story - смешная история
+2. странный - strange
+   That's funny, I can't find my keys.
+
+@fur
+n. B2
+1. мех, шерсть - thick hair of animals
+   a fur coat - шуба
+
+@furious
+adj. B2
+1. разъярённый, в ярости - very angry
+   She was furious with him.
+
+@furniture
+n. A2
+1. мебель - tables, chairs, beds, etc.
+   We bought new furniture. - Мы купили новую мебель.
+
+@further
+adv. B1
+1. дальше - more far
+   I can't walk any further.
+adj. B1
+2. дальнейший, дополнительный - more
+   for further information
+
+@furthermore
+adv. B2
+1. кроме того, более того - also, in addition
+
+@fury
+n. C1
+1. ярость, бешенство - great anger
+   Her eyes were full of fury.
+
+@fuss
+n. B2
+1. суета, шум (из-за пустяков) - worry or excitement about small things
+   What's all the fuss about?
+phr. make a fuss - поднимать шум
+v. B2
+2. суетиться, волноваться - worry too much
+
+@future
+n. A1
+1. будущее - the time that will come
+   What are your plans for the future? - Какие у тебя планы на будущее?
+adj. A2
+2. будущий - happening later
+   his future wife
+phr. in future - впредь

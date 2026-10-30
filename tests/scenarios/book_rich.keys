@@ -1,0 +1,15 @@
+# formatting of the test book
+1 DOWN 5 shot md1
+RIGHT shot md2
+RIGHT shot md3
+RIGHT shot md4
+RIGHT shot md5
+RIGHT shot md6
+RIGHT shot md7
+RIGHT shot md8
+RIGHT shot md9
+# tables: header repeated on the next page, cells of several lines
+RIGHT shot tb1
+RIGHT shot tb2
+RIGHT RIGHT shot tb4
+RIGHT RIGHT shot tb6

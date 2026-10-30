@@ -1,0 +1,4 @@
+#cards v2 day=20754 new=0 ans=4 ok=4 streak=1 best=1 last=20754
+#decks my
+bank	n. банк	20770	30	2500	4	0	He works in a bank.	my
+river	n. река	20770	30	2500	4	0		my

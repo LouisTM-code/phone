@@ -1,0 +1,19 @@
+# Alias: settings (goal typed, kept on the card), a turn with a guess, a skip,
+# a pause to end it, the last word, the review changing a mark, the next team's
+# scoreboard, ending the game, the rules
+#! app party
+5 shot menu
+DOWN 5 shot settings
+DOWN DOWN 5 1 0 CENTER shot goal
+RSOFT 5 shot again
+RSOFT UP 5 shot scores
+5 shot word
+5 HASH shot counted
+LSOFT shot pause
+DOWN 5 shot last
+5 shot review
+5 shot toggled
+RSOFT shot next
+RSOFT shot confirm
+DOWN 5 shot ended
+DOWN DOWN 5 shot rules

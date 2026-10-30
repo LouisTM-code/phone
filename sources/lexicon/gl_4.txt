@@ -1,0 +1,622 @@
+@income
+n. B1
+1. доход - money you earn
+   a low income
+
+@increase
+v. A2
+1. увеличивать(ся), расти - become or make bigger
+   Prices have increased. - Цены выросли.
+n. B1
+2. рост, увеличение - a rise
+   an increase in crime
+
+@incredible
+adj. B1
+1. невероятный - impossible to believe
+   The story is incredible.
+2. потрясающий - very good
+   an incredible view
+
+@incredibly
+adv. B1
+1. невероятно, очень - extremely
+   It was incredibly hot.
+
+@indeed
+adv. B1
+1. действительно, в самом деле - really (to make stronger)
+   Thank you very much indeed.
+2. более того - in fact
+phr. a friend in need is a friend indeed - друг познаётся в беде
+
+@independent
+adj. B1
+1. независимый - not controlled by others
+   an independent country
+2. самостоятельный - not needing help
+   She's very independent.
+
+@indicate
+v. B1
+1. указывать, показывать - show, point to
+   He indicated the door.
+2. свидетельствовать - be a sign of
+   Research indicates that...
+
+@indifferent
+adj. C1
+1. равнодушный - not interested
+   He was indifferent to her pain.
+
+@individual
+adj. B1
+1. отдельный, личный - single, separate; for one person
+   individual lessons
+n. B1
+2. человек, личность - one person
+   Each individual is different.
+
+@indoors
+adv. B1
+1. в помещении, дома - inside a building
+   Let's stay indoors.
+
+@industry
+n. A2
+1. промышленность - making goods in factories
+   heavy industry
+2. отрасль - a type of business
+   the film industry - киноиндустрия
+
+@inevitable
+adj. B2
+1. неизбежный - certain to happen
+   War was inevitable.
+
+@infant
+n. B2
+1. младенец - a baby
+
+@infection
+n. B1
+1. инфекция, заражение - a disease caused by bacteria or virus
+   an ear infection
+
+@infinite
+adj. B2
+1. бесконечный - without limits
+   infinite space
+2. безграничный - very great
+   infinite patience
+
+@influence
+n. B1
+1. влияние - the power to affect
+   He had a big influence on me.
+v. B1
+2. влиять - have an effect on
+   The weather influences my mood.
+phr. under the influence - в нетрезвом виде
+
+@inform
+v. B1
+1. сообщать, информировать - tell officially
+   Please inform us of any changes.
+
+@informal
+adj. B1
+1. неофициальный, непринуждённый - relaxed, not formal
+   an informal party
+2. разговорный - used in everyday speech
+   informal language
+
+@information
+n. A1
+1. информация, сведения - facts about something
+   I need some information. - Мне нужна информация.
+
+@ingredient
+n. A2
+1. ингредиент, составная часть - one thing in a recipe
+   What are the ingredients? - Какие нужны ингредиенты?
+
+@initial
+adj. B1
+1. начальный, первоначальный - first
+   My initial reaction was fear.
+n. B2
+2. инициал, первая буква - the first letter of a name
+   Write your initials here.
+
+@initially
+adv. B1
+1. сначала, вначале - at first
+   Initially I was afraid.
+
+@injection
+n. B1
+1. укол, инъекция - putting medicine in with a needle
+   The nurse gave me an injection.
+
+@injure
+v. B1
+1. ранить, травмировать - hurt
+   Two people were injured in the accident.
+2. задеть, оскорбить - harm (feelings)
+   injured pride
+
+@injury
+n. B1
+1. травма, ранение - harm to the body
+   He has a knee injury.
+
+@ink
+n. B1
+1. чернила - coloured liquid for writing
+   Write in black ink.
+
+@inn
+n. C1
+1. трактир, постоялый двор - a small old hotel or pub
+   They stayed the night at an inn.
+
+@inner
+adj. B2
+1. внутренний - inside
+   the inner rooms
+2. внутренний, душевный - private, secret
+   inner thoughts
+
+@innocence
+n. B2
+1. невиновность - not being guilty
+2. невинность, наивность - not knowing evil
+
+@innocent
+adj. B1
+1. невиновный - not guilty
+   He was innocent of the crime.
+2. невинный, наивный - knowing nothing bad
+   an innocent child
+
+@inquiry
+n. B2
+1. запрос, вопрос - a question
+   I made some inquiries.
+2. расследование - an official investigation
+
+@insane
+adj. B2
+1. сумасшедший, безумный - mentally ill; crazy
+   He went insane.
+2. безумный, нелепый - very stupid
+   It's an insane idea.
+
+@insect
+n. A2
+1. насекомое - a small animal with six legs
+   Ants are insects. - Муравьи - насекомые.
+
+@inside
+prep. A1
+1. внутри, в - in
+   inside the house - внутри дома
+adv. A1
+2. внутрь, внутри - into or in a place
+   Come inside. - Заходи внутрь.
+n. A2
+3. внутренняя сторона - the inner part
+phr. inside out - наизнанку
+phr. know inside out - знать вдоль и поперёк
+
+@insist
+v. B1
+1. настаивать - say firmly
+   She insisted on paying.
+2. утверждать - say strongly that something is true
+   He insisted he was innocent.
+
+@inspect
+v. B2
+1. осматривать, проверять - look at closely
+   He inspected the car.
+
+@inspector
+n. B1
+1. инспектор, контролёр - a person who checks things
+2. инспектор (полиции) - a police officer
+   Inspector Morse
+
+@inspire
+v. B2
+1. вдохновлять - give the wish to do something
+   Her story inspired me.
+
+@install
+v. B1
+1. устанавливать - put in place to use
+   We installed a new heating system.
+
+@instance
+n. B1
+1. случай, пример - an example
+phr. for instance - например
+   For instance, you could take a bus.
+
+@instant
+adj. B1
+1. немедленный, мгновенный - happening at once
+   an instant success
+2. растворимый, быстрого приготовления - quick to prepare
+   instant coffee
+n. B2
+3. мгновение - a moment
+   For an instant, I was afraid.
+
+@instantly
+adv. B2
+1. мгновенно, сразу - immediately
+   He fell asleep instantly.
+
+@instead
+adv. A2
+1. вместо этого - in place of
+   I'll have tea instead. - Я лучше выпью чаю.
+phr. instead of - вместо
+   Take this instead of that.
+
+@instinct
+n. B2
+1. инстинкт, чутьё - a natural feeling
+   Trust your instincts.
+
+@institution
+n. B2
+1. учреждение, организация - a large organization
+   a financial institution
+2. обычай, традиция - a custom
+
+@instruction
+n. A2
+1. инструкция, указание - information on how to do something
+   Read the instructions. - Прочитай инструкцию.
+2. приказ - an order
+   He gave instructions to the driver.
+
+@instrument
+n. A2
+1. инструмент (музыкальный) - a thing for making music
+   Do you play an instrument? - Ты играешь на каком-нибудь инструменте?
+2. инструмент, прибор - a tool
+
+@insult
+v. B2
+1. оскорблять - say rude things to
+   He insulted my mother.
+n. B2
+2. оскорбление - a rude remark
+
+@insurance
+n. B1
+1. страховка, страхование - money paid against loss or damage
+   car insurance
+
+@intelligence
+n. B1
+1. ум, интеллект - the ability to learn and understand
+   a man of great intelligence
+2. разведка - secret information
+
+@intelligent
+adj. B1
+1. умный - clever
+   She's very intelligent.
+
+@intend
+v. B1
+1. намереваться, собираться - plan
+   I intend to stay.
+2. предназначать - mean for
+   The book is intended for children.
+
+@intense
+adj. B2
+1. сильный, интенсивный - very strong
+   intense heat
+2. серьёзный, страстный (о человеке) - very serious
+   He's very intense.
+
+@intention
+n. B1
+1. намерение - what you plan to do
+   I have no intention of leaving.
+
+@interest
+n. A2
+1. интерес - wanting to know more
+   He showed no interest. - Он не проявил интереса.
+2. увлечение - a hobby
+   My interests are music and sport.
+3. проценты - money paid on a loan
+v. A2
+4. интересовать - make someone interested
+   Politics doesn't interest me.
+
+@interested
+adj. A1
+1. заинтересованный - wanting to know more
+   I'm interested in art. - Я интересуюсь искусством.
+
+@interesting
+adj. A1
+1. интересный - holding your attention
+   an interesting book - интересная книга
+
+@interfere
+v. B2
+1. вмешиваться - get involved when not wanted
+   Don't interfere in my life.
+2. мешать (interfere with) - stop something going well
+
+@interior
+n. B2
+1. интерьер, внутренняя часть - the inside
+   the interior of the car
+adj. B2
+2. внутренний - inside
+
+@internal
+adj. B2
+1. внутренний - inside
+   internal injuries
+
+@international
+adj. A2
+1. международный - between countries
+   an international airport - международный аэропорт
+
+@internet
+n. A1
+1. интернет - the worldwide computer network
+   I found it on the internet. - Я нашёл это в интернете.
+
+@interpret
+v. B2
+1. понимать, толковать - understand in a certain way
+   I interpreted his silence as anger.
+2. переводить (устно) - translate speech
+
+@interrupt
+v. B1
+1. перебивать, прерывать - stop someone talking
+   Don't interrupt me!
+
+@interview
+n. A2
+1. собеседование - a meeting for a job
+   I have a job interview. - У меня собеседование.
+2. интервью - questions to a famous person
+v. B1
+3. проводить собеседование, брать интервью - ask questions
+
+@into
+prep. A1
+1. в (внутрь) - to the inside of
+   He went into the room. - Он вошёл в комнату.
+2. в (о превращении) - becoming
+   The water turned into ice.
+3. увлечён (разг.) (be into) - like
+   I'm into jazz. - Я увлекаюсь джазом.
+
+@introduce
+v. A2
+1. представлять, знакомить - tell people each other's names
+   Let me introduce my wife. - Позвольте представить мою жену.
+2. вводить - bring in something new
+   They introduced a new law.
+
+@invade
+v. B2
+1. вторгаться - enter with an army
+   The army invaded the country.
+
+@invent
+v. A2
+1. изобретать - make something new
+   Who invented the telephone? - Кто изобрёл телефон?
+2. выдумывать - make up a story
+   He invented an excuse.
+
+@invention
+n. B1
+1. изобретение - something new that was invented
+
+@invest
+v. B1
+1. вкладывать, инвестировать - put money in to earn more
+   He invested in property.
+
+@investigate
+v. B1
+1. расследовать, изучать - try to find the truth
+   Police are investigating the murder.
+
+@invisible
+adj. B1
+1. невидимый - impossible to see
+   an invisible man
+
+@invitation
+n. A2
+1. приглашение - a request to come
+   Thanks for the invitation. - Спасибо за приглашение.
+
+@invite
+v. A1
+1. приглашать - ask to come
+   She invited me to her party. - Она пригласила меня на вечеринку.
+
+@involve
+v. B1
+1. включать, требовать - include as a part
+   The job involves travelling.
+2. вовлекать, втягивать - make part of
+   Don't involve me in this.
+
+@iron
+n. A2
+1. железо - a hard metal
+   an iron gate - железные ворота
+2. утюг - a device for smoothing clothes
+v. A2
+3. гладить (бельё) - smooth clothes
+   I need to iron my shirt. - Мне нужно погладить рубашку.
+
+@irritate
+v. B2
+1. раздражать - annoy
+   His voice irritates me.
+
+@island
+n. A1
+1. остров - land with water all around
+   They live on an island. - Они живут на острове.
+
+@isolated
+adj. B2
+1. отдалённый, уединённый - far from others
+   an isolated farm
+2. одинокий - lonely
+3. единичный - single, rare
+   an isolated case
+
+@issue
+n. B1
+1. вопрос, проблема - an important topic
+   It's a political issue.
+2. номер, выпуск (журнала) - one edition
+   the May issue
+v. B2
+3. выдавать, издавать - give officially
+   They issued a statement.
+
+@it
+pron. A1
+1. он, она, оно, это (о предмете) - a thing already mentioned
+   Where's my bag? - It's here. - Где моя сумка? - Она здесь.
+2. (безличное, не переводится) - in sentences about weather, time
+   It's raining. - Идёт дождь.
+   It's five o'clock. - Пять часов.
+
+@itch
+v. B2
+1. чесаться, зудеть - make you want to scratch
+   My nose itches.
+2. жаждать, рваться (be itching to) - want badly
+   I'm itching to go.
+
+@item
+n. A2
+1. предмет, вещь; пункт - one thing in a list
+   I bought a few items.
+2. новость, сообщение - a piece of news
+
+@its
+det. A1
+1. его, её, свой (о предмете, животном) - belonging to it
+   The dog wagged its tail. - Собака виляла хвостом.
+
+@itself
+pron. A1
+1. себя, себе (о предмете, животном) - it (the same thing)
+   The cat washed itself. - Кошка умылась.
+2. сам, само - it, nothing else
+   The house itself is small.
+phr. by itself - сам по себе
+
+@jacket
+n. A1
+1. куртка, пиджак - a short coat
+   Put on your jacket. - Надень куртку.
+
+@jail
+n. B1
+1. тюрьма - prison
+   He was sent to jail.
+v. B2
+2. сажать в тюрьму - put in prison
+
+@jam
+n. A2
+1. варенье, джем - fruit cooked with sugar
+   bread and jam - хлеб с вареньем
+2. пробка (на дороге) - too many cars (traffic jam)
+v. B2
+3. застревать, заклинить - become stuck
+   The door jammed.
+4. запихивать, втискивать - push hard into a space
+
+@jar
+n. B1
+1. банка (стеклянная) - a glass container
+   a jar of honey
+
+@jaw
+n. B2
+1. челюсть - the bone of the mouth
+   His jaw dropped.
+
+@jealous
+adj. B1
+1. ревнивый - afraid of losing someone's love
+   He's a very jealous husband.
+2. завистливый - wanting what others have
+   I'm jealous of your new car.
+
+@jealousy
+n. B2
+1. ревность; зависть - a jealous feeling
+
+@jeans
+n. A1
+1. джинсы - trousers made of denim
+   She wore jeans. - Она была в джинсах.
+
+@jelly
+n. A2
+1. желе - a soft sweet food that shakes
+2. джем (амер.) - jam (US)
+
+@jerk
+v. C1
+1. дёргать(ся), рвануть - move suddenly
+   He jerked his head up.
+n. C1
+2. рывок - a sudden movement
+3. придурок (разг.) - a stupid or rude man
+
+@jet
+n. B1
+1. реактивный самолёт - a fast plane
+2. струя - a strong stream
+   a jet of water
+
+@jewel
+n. B2
+1. драгоценный камень - a precious stone
+2. сокровище, жемчужина - something very valuable
+
+@jewellery
+n. A2
+1. ювелирные украшения - rings, necklaces etc. (US jewelry)
+   She wore a lot of jewellery.
+
+@job
+n. A1
+1. работа, должность - work for money
+   I have a new job. - У меня новая работа.
+2. дело, задача - a task
+   It's your job to clean the room.
+phr. good job! - молодец!
+phr. make a good job of - хорошо справиться

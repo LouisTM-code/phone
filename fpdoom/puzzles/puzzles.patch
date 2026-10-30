@@ -1,0 +1,11 @@
+--- a/mines.c	2026-10-28 01:22:51.022372712 +0300
++++ b/mines.c	2026-10-28 01:22:51.015161028 +0300
+@@ -1643,7 +1643,7 @@
+ {
+     int ia = *((int *)a);
+     int ib = *((int *)b);
+-    return (ia < ib) ? -1 : +1;  /* Equal should not happen */
++    return (ia > ib) - (ia < ib);
+ }
+ 
+ static void ss_add(struct setstore *ss, struct set *s)

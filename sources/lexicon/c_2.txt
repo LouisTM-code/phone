@@ -1,0 +1,777 @@
+@characteristic
+n. B1
+1. особенность, характерная черта - a typical quality
+   Kindness is his best characteristic.
+adj. B2
+2. характерный, типичный - typical
+   She answered with characteristic honesty.
+
+@charge
+n. B1
+1. плата, сбор - the price asked for something
+   There is no charge for entry. - Вход бесплатный.
+2. обвинение - an official claim that someone did a crime
+   He faces a charge of murder.
+3. руководство, ответственность - control over something
+   Who is in charge here? - Кто здесь главный?
+v. B1
+4. брать плату - ask a price
+   They charged me 10 dollars.
+5. бросаться (в атаку), нестись - rush forward
+   The bull charged at him.
+6. заряжать (батарею) - fill with electricity
+   I need to charge my phone.
+
+@charity
+n. B1
+1. благотворительная организация - an organization that helps people in need
+   She works for a charity.
+2. благотворительность, милостыня - help or money given to people in need
+   He gave money to charity.
+
+@charm
+n. B2
+1. обаяние, очарование - a quality that makes people like you
+   He has a lot of charm.
+2. амулет, талисман - a small object thought to bring luck
+   a lucky charm
+v. B2
+3. очаровывать - to please someone very much
+   She charmed everyone at the party.
+
+@charming
+adj. B1
+1. очаровательный, милый - very pleasant and attractive
+   What a charming little town!
+
+@chart
+n. A2
+1. график, диаграмма, таблица - a picture that shows information
+   Look at the chart on page 5.
+2. хит-парад - a list of the most popular songs
+   The song is top of the charts.
+v. B2
+3. отслеживать, отмечать на карте - to record or follow
+   The book charts his early life.
+
+@chase
+v. B1
+1. гнаться, преследовать - to run after someone to catch them
+   The dog chased the cat. - Собака погналась за кошкой.
+n. B1
+2. погоня - the act of chasing
+   a car chase
+phr. chase away / off - прогнать
+   She chased the boys away.
+
+@chat
+v. A1
+1. болтать, беседовать - talk in a friendly informal way
+   We chatted for hours. - Мы болтали часами.
+2. переписываться (в чате) - send messages online
+   I chatted with her online.
+n. A2
+3. беседа, разговор - a friendly talk
+   We had a nice chat. - Мы мило поболтали.
+
+@chatter
+v. B2
+1. болтать, трещать - talk fast about unimportant things
+   The girls chattered all the way home.
+2. стучать (о зубах) - knock together from cold or fear
+   His teeth were chattering.
+n. B2
+3. болтовня - fast, unimportant talk
+   the chatter of children
+
+@cheap
+adj. A1
+1. дешёвый - not costing much money
+   This shirt was very cheap. - Эта рубашка была очень дешёвой.
+2. дешёвый, низкопробный - of poor quality
+   cheap perfume
+3. скупой (амер., разг.) - not wanting to spend money
+   Don't be so cheap!
+
+@cheat
+v. B1
+1. жульничать, списывать - act dishonestly to win or pass
+   He cheated in the exam. - Он списывал на экзамене.
+2. обманывать - to trick someone
+   They cheated him out of his money.
+3. изменять (партнёру) - have a secret relationship
+   She found out he was cheating on her.
+n. B2
+4. обманщик, жулик - a person who cheats
+   You're a cheat!
+
+@check
+v. A1
+1. проверять - look at something to see if it is correct or safe
+   Check your answers. - Проверь свои ответы.
+2. проверять, узнавать - find out
+   I'll check if he's at home.
+n. A2
+3. проверка - an act of checking
+   a security check
+4. счёт (в ресторане, амер.) - a bill in a restaurant
+   Can I have the check, please?
+phr. check in - регистрироваться (в отеле, аэропорту)
+   We checked in at the hotel.
+phr. check out - выписываться (из отеля); проверить
+   We checked out at noon.
+
+@cheek
+n. A2
+1. щека - the soft side of your face below the eye
+   She kissed him on the cheek. - Она поцеловала его в щёку.
+2. наглость, нахальство - rude behaviour without respect
+   What a cheek!
+
+@cheeky
+adj. B2
+1. дерзкий, нахальный (брит.) - rude in a funny way
+   Don't be cheeky!
+   a cheeky grin
+
+@cheer
+v. B1
+1. приветствовать криками, болеть (за) - shout to show support
+   The crowd cheered loudly.
+n. B1
+2. радостный крик, возглас одобрения - a shout of joy or support
+   A cheer went up from the crowd.
+phr. cheer up - подбодрить; приободриться
+   Cheer up! It's not so bad. - Не грусти! Всё не так плохо.
+
+@cheerful
+adj. B1
+1. весёлый, жизнерадостный - happy and friendly
+   She gave a cheerful smile.
+2. радостный, яркий (о месте) - bright and pleasant
+   a cheerful room
+
+@cheese
+n. A1
+1. сыр - a food made from milk
+   a cheese sandwich - бутерброд с сыром
+
+@chef
+n. A2
+1. повар, шеф-повар - a cook in a restaurant
+   He is a chef in a hotel.
+
+@chemical
+adj. B1
+1. химический - about chemistry
+   a chemical reaction
+n. B1
+2. химическое вещество - a substance used in chemistry
+   dangerous chemicals
+
+@chemist
+n. B1
+1. аптекарь; аптека (брит.) - a person who sells medicine; a shop
+   I'll get some pills at the chemist's.
+2. химик - a scientist who studies chemistry
+   He works as a chemist.
+
+@chemistry
+n. A2
+1. химия - the science of substances and how they change
+   a chemistry lesson - урок химии
+2. взаимная симпатия, притяжение - attraction between two people
+   There was real chemistry between them.
+
+@cheque
+n. B1
+1. чек (банковский) - a printed form used to pay money from a bank
+   He paid by cheque.
+
+@cherish
+v. B2
+1. дорожить, лелеять - love and care for; keep in your mind
+   I cherish the memory of that day.
+
+@cherry
+n. B1
+1. вишня, черешня - a small round red fruit with a stone
+   a bowl of cherries
+
+@chess
+n. A2
+1. шахматы - a game for two players on a board with 64 squares
+   Do you play chess? - Ты играешь в шахматы?
+
+@chest
+n. A2
+1. грудь, грудная клетка - the front of your body between neck and stomach
+   He felt a pain in his chest. - Он почувствовал боль в груди.
+2. сундук, ящик - a big strong box
+   a treasure chest - сундук с сокровищами
+phr. chest of drawers - комод
+   Put it in the chest of drawers.
+
+@chew
+v. B1
+1. жевать - bite food many times in your mouth
+   Chew your food well. - Хорошо пережёвывай пищу.
+   He chewed his lip nervously.
+
+@chick
+n. B2
+1. цыплёнок, птенец - a baby bird
+   The hen had six chicks.
+
+@chicken
+n. A1
+1. курица (птица и мясо) - a farm bird; its meat
+   We had chicken for dinner. - На ужин у нас была курица.
+2. трус (разг.) - a coward
+   Don't be such a chicken!
+
+@chief
+adj. B1
+1. главный, основной - most important; highest in rank
+   the chief reason
+   the chief of police
+n. B1
+2. начальник, вождь, глава - a leader
+   the chief of the tribe
+
+@child
+n. (pl. children) A1
+1. ребёнок - a young human
+   They have two children. - У них двое детей.
+2. сын, дочь - a son or daughter of any age
+   She is an only child.
+
+@childhood
+n. A2
+1. детство - the time when you are a child
+   I had a happy childhood. - У меня было счастливое детство.
+
+@childish
+adj. B2
+1. ребяческий, детский (неодобр.) - silly, like a child
+   Don't be so childish!
+
+@chill
+n. B2
+1. холод, прохлада - a feeling of cold
+   There was a chill in the air.
+2. дрожь, озноб (от страха) - a feeling of fear
+   A chill ran down my spine.
+v. B2
+3. охлаждать - make something cold
+   Chill the wine before serving.
+phr. chill out - расслабиться, отдохнуть (разг.)
+   Let's just chill out at home.
+
+@chilly
+adj. B2
+1. прохладный, зябкий - quite cold
+   It's a bit chilly today.
+2. холодный, недружелюбный - unfriendly
+   a chilly welcome
+
+@chimney
+n. B2
+1. труба (дымовая), дымоход - a pipe that takes smoke out of a house
+   Smoke rose from the chimney.
+
+@chin
+n. B1
+1. подбородок - the part of the face below the mouth
+   He rubbed his chin.
+phr. keep your chin up - не унывай, держись
+   Keep your chin up!
+
+@chip
+n. A2
+1. картофель фри (брит.) - a thin piece of fried potato
+   fish and chips - рыба с картошкой фри
+2. чипс (амер.) - a thin dry slice of potato
+   a bag of chips
+3. щербинка, скол - a small broken piece or mark
+   There's a chip in this cup.
+4. микросхема, чип - a small part of a computer
+   a computer chip
+
+@chocolate
+n. A1
+1. шоколад; конфета - a sweet brown food made from cocoa
+   a bar of chocolate - плитка шоколада
+   hot chocolate - горячий шоколад
+
+@choice
+n. A2
+1. выбор - the act of choosing
+   You made the right choice. - Ты сделал правильный выбор.
+2. выбор, ассортимент - the things you can choose from
+   There's a big choice of food.
+phr. have no choice - не иметь выбора
+   I had no choice but to go.
+
+@choir
+n. B2
+1. хор - a group of people who sing together
+   She sings in the church choir.
+
+@choke
+v. B2
+1. давиться, задыхаться - be unable to breathe because something is in your throat
+   He choked on a fish bone.
+2. душить - squeeze someone's neck
+   He tried to choke her.
+3. перехватывать (горло от чувств) - be unable to speak from emotion
+   Her voice choked with tears.
+
+@choose
+v. (chose, chosen) A1
+1. выбирать - decide which one you want
+   Choose a number. - Выбери число.
+2. решить, предпочесть - decide to do something
+   She chose to stay at home.
+
+@chop
+v. B1
+1. рубить, нарезать - cut into pieces with a knife or axe
+   Chop the onions. - Нарежь лук.
+   He was chopping wood.
+phr. chop off - отрубить
+   They chopped off the branch.
+
+@chorus
+n. B1
+1. припев - the part of a song that repeats
+   Everyone sang the chorus.
+2. хор - a group of singers
+   a chorus of voices
+
+@chubby
+adj. B2
+1. пухлый, полненький - slightly fat
+   a chubby baby
+
+@chuck
+v. B2
+1. швырять, бросать (разг.) - throw carelessly
+   He chucked the ball to me.
+2. бросить, выбросить (разг.) - throw away; leave
+   She chucked her job.
+
+@chuckle
+v. B2
+1. посмеиваться, хихикать - laugh quietly
+   He chuckled at the joke.
+n. B2
+2. смешок - a quiet laugh
+   She gave a little chuckle.
+
+@chunk
+n. B2
+1. кусок, ломоть - a thick solid piece
+   a chunk of bread
+2. большая часть - a large part
+   It took a chunk of my salary.
+
+@church
+n. A1
+1. церковь - a building for Christian worship
+   They go to church on Sundays. - Они ходят в церковь по воскресеньям.
+
+@cigar
+n. B2
+1. сигара - a thick roll of tobacco leaves for smoking
+   He lit a cigar.
+
+@cigarette
+n. A2
+1. сигарета - thin roll of paper and tobacco for smoking
+   He lit a cigarette. - Он закурил сигарету.
+
+@cinema
+n. A1
+1. кинотеатр, кино - a building where people watch films
+   Let's go to the cinema. - Пойдём в кино.
+
+@circle
+n. A2
+1. круг, кружок - a round shape
+   Draw a circle. - Нарисуй круг.
+2. круг (людей) - a group of people
+   a circle of friends - круг друзей
+v. B1
+3. кружить, обходить кругом - move in a circle
+   The plane circled the airport.
+4. обводить кружком - draw a circle round
+   Circle the right answer.
+
+@circumstance
+n. B1
+1. обстоятельство (обычно мн. ч.) - a fact or condition that affects a situation
+   in difficult circumstances - в трудных обстоятельствах
+phr. under no circumstances - ни при каких обстоятельствах
+   Under no circumstances open the door.
+
+@circus
+n. B1
+1. цирк - a show with clowns, acrobats and animals
+   We took the kids to the circus.
+
+@citizen
+n. B1
+1. гражданин - a person who belongs to a country
+   an American citizen
+2. житель (города) - a person who lives in a town
+   the citizens of London
+
+@city
+n. A1
+1. город (большой) - a large town
+   I live in a big city. - Я живу в большом городе.
+
+@civil
+adj. B1
+1. гражданский - about the people of a country, not the army or church
+   civil war - гражданская война
+   civil rights
+2. вежливый, учтивый - polite but not friendly
+   Try to be civil to him.
+
+@civilian
+n. B2
+1. мирный житель, гражданское лицо - a person who is not a soldier
+   Many civilians were killed.
+
+@civilization
+n. B1
+1. цивилизация - an advanced society and its culture
+   ancient civilizations
+
+@claim
+v. B1
+1. утверждать, заявлять - say something is true
+   He claims he saw a ghost.
+2. требовать, претендовать - ask for something as your right
+   She claimed the prize.
+3. уносить (жизни) - cause death
+   The war claimed many lives.
+n. B1
+4. утверждение, заявление - a statement that something is true
+   His claims were false.
+5. требование, иск - a request for money
+   an insurance claim
+
+@clap
+v. B1
+1. хлопать, аплодировать - hit your hands together
+   The audience clapped. - Зрители захлопали.
+2. похлопать (по плечу) - hit someone lightly with your hand
+   He clapped me on the back.
+n. B2
+3. хлопок; удар (грома) - a loud sound
+   a clap of thunder
+
+@clarify
+v. B2
+1. прояснять, разъяснять - make clearer
+   Could you clarify what you mean?
+
+@clash
+n. B2
+1. столкновение, стычка - a fight or argument
+   clashes between police and protesters
+v. B2
+2. сталкиваться, спорить - fight or argue
+   He often clashes with his boss.
+3. не сочетаться (о цветах) - look bad together
+   Those colours clash.
+
+@clasp
+v. B2
+1. сжимать, обхватывать - hold tightly
+   She clasped her hands together.
+   He clasped her to his chest.
+n. B2
+2. застёжка - a small metal fastener
+   the clasp of a necklace
+
+@class
+n. A1
+1. класс, группа (учеников) - a group of students
+   There are 20 children in my class. - В моём классе 20 детей.
+2. урок, занятие - a lesson
+   I have a class at nine. - У меня занятие в девять.
+3. класс (общественный) - a social group
+   the middle class - средний класс
+4. класс, сорт - a level of quality
+   to travel first class
+
+@classic
+adj. B1
+1. классический, типичный - very typical; of very high quality
+   a classic example
+   a classic film
+n. B1
+2. классика, классическое произведение - a famous book or film
+   "War and Peace" is a classic.
+
+@classical
+adj. A2
+1. классический (о музыке, искусстве) - traditional, serious
+   classical music - классическая музыка
+2. античный - of ancient Greece and Rome
+   classical languages
+
+@classify
+v. B2
+1. классифицировать - put into groups
+   The books are classified by subject.
+
+@classroom
+n. A1
+1. класс, классная комната - a room where lessons are taught
+   The classroom was empty. - Класс был пуст.
+
+@clatter
+v. B2
+1. грохотать, стучать - make a loud noise of hard things hitting
+   The plates clattered to the floor.
+n. B2
+2. грохот, стук - a loud noise of hard things
+   the clatter of hooves
+
+@claw
+n. B2
+1. коготь, клешня - a sharp nail of an animal or bird; part of a crab
+   The cat showed its claws.
+v. B2
+2. царапать (когтями) - scratch or tear
+   The cat clawed at the door.
+
+@clay
+n. B2
+1. глина - heavy earth used to make pots and bricks
+   a clay pot - глиняный горшок
+
+@clean
+adj. A1
+1. чистый - not dirty
+   Are your hands clean? - У тебя чистые руки?
+2. честный, не нарушающий правил - fair, honest
+   a clean fight
+v. A1
+3. чистить, убирать - make clean
+   I clean my room every Saturday. - Я убираю комнату каждую субботу.
+phr. clean up - убрать, прибраться
+   Clean up this mess!
+
+@cleaner
+n. A2
+1. уборщик, уборщица - a person who cleans
+   The cleaner comes on Mondays.
+2. чистящее средство - a substance for cleaning
+   a floor cleaner
+
+@clear
+adj. A2
+1. ясный, понятный - easy to understand
+   Is that clear? - Это понятно?
+2. прозрачный, ясный (о небе, воде) - easy to see through
+   clear water; a clear sky
+3. свободный (путь) - with nothing in the way
+   The road was clear.
+4. очевидный - obvious
+   It was clear that she was lying.
+v. B1
+5. убирать, освобождать, расчищать - remove things from a place
+   Can you clear the table? - Можешь убрать со стола?
+phr. clear up - прояснить(ся); прибрать
+   The weather cleared up.
+
+@clearly
+adv. A2
+1. ясно, чётко - in a way that is easy to see, hear or understand
+   Speak clearly, please. - Говорите чётко, пожалуйста.
+2. очевидно, явно - obviously
+   She was clearly upset.
+
+@clench
+v. B2
+1. сжимать (кулаки, зубы) - close tightly
+   He clenched his fists in anger.
+   She spoke through clenched teeth.
+
+@clerk
+n. B1
+1. служащий, клерк - an office worker who keeps records
+   a bank clerk
+2. продавец (амер.) - a person who works in a shop
+   The clerk smiled at me.
+
+@clever
+adj. A1
+1. умный, сообразительный - quick to learn and understand
+   She's a clever girl. - Она умная девочка.
+2. хитроумный, ловкий - smart and skilful
+   a clever plan
+
+@click
+v. A1
+1. щёлкать, нажимать (мышкой) - press a button on a computer mouse
+   Click on the link. - Нажми на ссылку.
+2. щёлкать (о звуке) - make a short sharp sound
+   The door clicked shut.
+n. A2
+3. щелчок - a short sharp sound
+   I heard a click.
+
+@client
+n. B1
+1. клиент - a person who pays for a service
+   The lawyer met her client.
+
+@cliff
+n. B1
+1. утёс, скала, обрыв - a high steep rock, often by the sea
+   They stood on the edge of the cliff.
+
+@climate
+n. A2
+1. климат - the usual weather in a place
+   a hot climate - жаркий климат
+2. обстановка, атмосфера - the general situation
+   the political climate
+
+@climb
+v. A1
+1. подниматься, взбираться, лезть - go up using your hands and feet
+   They climbed the mountain. - Они поднялись на гору.
+2. залезать, вылезать - move with effort into or out of somewhere
+   He climbed into bed. - Он забрался в кровать.
+3. подниматься, расти - go higher
+   Prices are climbing.
+n. B1
+4. подъём, восхождение - an act of climbing
+   a long climb
+
+@cling
+v. (clung, clung) B2
+1. цепляться, прижиматься - hold on tightly
+   The child clung to her mother.
+2. липнуть, облегать - stick to
+   Her wet dress clung to her body.
+3. держаться (за надежду, идею) - refuse to give up
+   He clung to the hope that she was alive.
+
+@clinic
+n. B1
+1. поликлиника, клиника - a place where people get medical help
+   She took her son to the clinic.
+
+@clip
+n. B1
+1. отрывок (фильма), клип - a short part of a film
+   They showed a clip from the movie.
+2. скрепка, зажим - a small metal object that holds things
+   a paper clip - скрепка
+v. B2
+3. скреплять - fasten with a clip
+   Clip the papers together.
+4. подстригать - cut a little
+   He clipped the hedge.
+
+@cloak
+n. B2
+1. плащ, накидка - a loose coat without sleeves
+   He wrapped his cloak around him.
+
+@clock
+n. A1
+1. часы (настенные, настольные) - an instrument that shows the time
+   The clock struck twelve. - Часы пробили двенадцать.
+phr. around the clock - круглосуточно
+   They worked around the clock.
+
+@close
+v. A1
+1. закрывать(ся) - shut
+   Close the door, please. - Закрой дверь, пожалуйста.
+2. закрываться (о магазине) - stop being open
+   The shop closes at six.
+adj. A2
+3. близкий - near
+   The station is close to here. - Вокзал рядом.
+4. близкий (о людях) - knowing each other well
+   They are close friends. - Они близкие друзья.
+5. тщательный, пристальный - careful
+   Take a close look.
+adv. B1
+6. близко, рядом - near
+   Come close. - Подойди поближе.
+
+@closed
+adj. A1
+1. закрытый - not open
+   The museum is closed on Mondays. - Музей закрыт по понедельникам.
+
+@closely
+adv. B1
+1. внимательно, пристально - carefully
+   Watch closely.
+2. близко, тесно - near; strongly connected
+   They work closely together.
+
+@closet
+n. B1
+1. шкаф (стенной, амер.) - a cupboard in a wall for clothes
+   She hung her coat in the closet.
+
+@cloth
+n. B1
+1. ткань, материя - material made by weaving
+   a piece of cotton cloth
+2. тряпка, салфетка - a piece of cloth for cleaning
+   Wipe the table with a cloth.
+
+@clothes
+n. A1
+1. одежда - things you wear
+   She bought new clothes. - Она купила новую одежду.
+
+@clothing
+n. B1
+1. одежда - clothes in general
+   warm clothing
+
+@cloud
+n. A1
+1. облако, туча - a white or grey mass in the sky
+   There wasn't a cloud in the sky. - На небе не было ни облачка.
+2. облако (дыма, пыли) - a mass of smoke or dust
+   a cloud of dust
+
+@cloudy
+adj. A1
+1. облачный, пасмурный - with many clouds
+   It's cloudy today. - Сегодня пасмурно.
+
+@clown
+n. B1
+1. клоун - a funny person in a circus
+   The clown made the children laugh.
+2. шут, дурак - a silly person
+   Stop being a clown!
+
+@club
+n. A1
+1. клуб, кружок - a group of people with a shared interest
+   a tennis club - теннисный клуб
+2. ночной клуб - a place to dance at night
+   They went to a club.
+3. дубинка - a heavy stick used as a weapon
+   He was hit with a club.
+4. трефы (в картах) - one of the four suits in cards
+   the ace of clubs

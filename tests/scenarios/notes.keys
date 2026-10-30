@@ -1,0 +1,14 @@
+# notes: new ones, a long one wraps while typed, show, edit, delete, kept on the card;
+# fpbin/config.txt at the bottom of the list, read-only
+4 shot empty
+5 STAR 6 6 6 RIGHT 5 5 shot typing
+CENTER shot added
+5 STAR  6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 6 6 6 RIGHT 5 5 0 STAR 3 2 shot long
+CENTER shot two
+DOWN 5 5 shot shown
+RSOFT DOWN 5 DOWN 5 HASH shot edit
+CENTER shot edited
+5 DOWN DOWN 5 shot deleted
+RSOFT shot menu
+4 shot kept
+UP 5 shot config

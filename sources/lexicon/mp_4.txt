@@ -1,0 +1,594 @@
+@onion
+n. A2
+1. лук (репчатый) - a round vegetable with a strong smell
+   Chop the onions.
+
+@online
+adj., adv. A2
+1. онлайн, в Интернете - on the Internet
+   I bought it online.
+
+@only
+adv. A1
+1. только, лишь - no more than; no one else
+   It's only five o'clock. - Сейчас только пять.
+adj. A1
+2. единственный - with no others
+   He's an only child. - Он единственный ребёнок.
+phr. if only - если бы только
+phr. only just - только что; едва
+
+@onto
+prep. B1
+1. на (движение) - moving to a position on
+   The cat jumped onto the table.
+
+@onwards
+adv. B2
+1. вперёд; начиная с - forward; from a time
+   from 1990 onwards
+
+@open
+adj. A1
+1. открытый - not closed
+   The door was open. - Дверь была открыта.
+v. A1
+2. открывать(ся) - to make or become open
+   Open the window, please. - Открой окно, пожалуйста.
+3. начинать(ся), открывать (магазин и т.п.) - to start
+   The shop opens at nine.
+phr. in the open (air) - на открытом воздухе
+
+@opening
+n. B2
+1. отверстие, проход - a hole or gap
+   an opening in the fence
+2. начало, открытие - the beginning
+   the opening of the film
+
+@operate
+v. B2
+1. управлять, работать (о машине) - to use or work a machine
+   He operated the crane.
+2. оперировать - to cut open a body to treat it
+   The doctors operated on her leg.
+
+@operation
+n. B1
+1. операция (хирургическая) - cutting a body to repair it
+   He had an operation on his knee.
+2. операция, действие - an organized activity
+   a rescue operation
+
+@opinion
+n. A2
+1. мнение - what you think about something
+   In my opinion, he's wrong. - По-моему, он неправ.
+
+@opponent
+n. B2
+1. противник, соперник - a person you fight or play against
+
+@opportunity
+n. B1
+1. возможность, шанс - a chance
+   I had the opportunity to travel.
+
+@oppose
+v. B2
+1. выступать против, противиться - to disagree with and try to stop
+   Many people opposed the war.
+
+@opposite
+adj. A2
+1. противоположный - completely different
+   in the opposite direction
+prep., adv. A2
+2. напротив - facing
+   She sat opposite me. - Она сидела напротив меня.
+n. B1
+3. противоположность - something completely different
+   Hot is the opposite of cold.
+
+@optimistic
+adj. B2
+1. оптимистичный - expecting good things
+   I'm optimistic about the future.
+
+@option
+n. B1
+1. вариант, выбор - something you can choose
+   We have no other option.
+
+@or
+conj. A1
+1. или - used to give a choice
+   Tea or coffee? - Чай или кофе?
+2. иначе, а то - if not
+   Hurry, or you'll be late. - Поторопись, а то опоздаешь.
+phr. or so - примерно, около
+
+@orange
+n. A1
+1. апельсин - a round sweet fruit with a thick skin
+   orange juice - апельсиновый сок
+adj. A1
+2. оранжевый - of the colour of an orange
+
+@orchestra
+n. B1
+1. оркестр - a large group of musicians
+
+@order
+n. A1
+1. порядок, последовательность - the way things are arranged
+   in alphabetical order
+2. приказ - an instruction
+   He gave the order to fire.
+3. заказ - a request for food or goods
+   Can I take your order?
+v. A1
+4. заказывать - to ask for food or goods
+   We ordered pizza. - Мы заказали пиццу.
+5. приказывать - to tell someone to do something
+   He ordered them to leave.
+phr. in order to - чтобы, для того чтобы
+phr. out of order - не работает, неисправен
+
+@ordinary
+adj. A2
+1. обычный, обыкновенный - normal, not special
+   an ordinary day - обычный день
+
+@organ
+n. B2
+1. орган (тела) - a part of the body like the heart or liver
+2. орган (инструмент) - a large musical instrument in a church
+
+@organization
+n. A2
+1. организация - a group of people working for a purpose
+   a charity organization
+
+@organize
+v. A2
+1. организовывать, устраивать - to plan or arrange
+   We organized a party.
+
+@origin
+n. B2
+1. происхождение, источник - where something comes from
+   the origin of the word
+
+@original
+adj. B1
+1. первоначальный, исходный - existing at the beginning
+   the original plan
+2. оригинальный, новый - new and interesting
+   an original idea
+
+@orphan
+n. B2
+1. сирота - a child whose parents are dead
+
+@other
+adj., pron. A1
+1. другой, остальные - more of the same kind; different
+   Where are the other children? - Где остальные дети?
+2. другой (из двух) - the second of two
+   He lifted one foot, then the other.
+phr. the other day - на днях
+phr. each other - друг друга
+phr. every other day - через день
+
+@otherwise
+adv. B1
+1. иначе, в противном случае - if not
+   Go now, otherwise you'll miss the train.
+2. в остальном - apart from that
+   The soup was cold, but otherwise it was a good meal.
+
+@ought
+modal v. B1
+1. следует, должен (бы) - should
+   You ought to see a doctor. - Тебе следует сходить к врачу.
+
+@our
+det. A1
+1. наш - belonging to us
+   our house - наш дом
+
+@ours
+pron. A2
+1. наш (без сущ.) - the one that belongs to us
+   This car is ours. - Эта машина наша.
+
+@ourselves
+pron. A2
+1. себя, сами - used when "we" do something to us
+   We enjoyed ourselves. - Мы хорошо провели время.
+
+@out
+adv. A1
+1. наружу, вон - away from the inside
+   Get out! - Вон!
+   She went out. - Она вышла.
+2. не дома, нет на месте - not at home
+   He's out. - Его нет дома.
+3. погашен, потух - not burning
+   The fire went out.
+4. вслух, громко - loudly
+   She cried out.
+phr. out of - из; без (чего-то)
+   He took a coin out of his pocket. We're out of milk.
+
+@outcome
+n. B2
+1. результат, исход - the result
+   the outcome of the war
+
+@outdoor
+adj. B1
+1. на открытом воздухе - done outside
+   outdoor sports
+
+@outdoors
+adv. B1
+1. на улице, на воздухе - outside
+   The children played outdoors.
+
+@outer
+adj. B2
+1. внешний, наружный - on the outside
+   outer space - космос
+
+@outfit
+n. B2
+1. наряд, костюм - a set of clothes
+   a new outfit for the party
+
+@outline
+n. B2
+1. контур, очертание - the shape of something
+   the dark outline of the castle
+2. краткое описание, план - the main ideas
+   an outline of the plan
+
+@outside
+adv., prep. A1
+1. снаружи, на улице; за - not inside
+   Let's go outside. - Давай выйдем на улицу.
+   He waited outside the door.
+n. A2
+2. внешняя сторона - the outer part
+
+@outstanding
+adj. B2
+1. выдающийся - extremely good
+   an outstanding player
+
+@oven
+n. A2
+1. духовка, печь - a box in a kitchen for cooking
+   Put the bread in the oven.
+
+@over
+prep., adv. A1
+1. над - above
+   a bridge over the river
+2. через - across
+   He jumped over the wall. - Он перепрыгнул через стену.
+3. больше, свыше - more than
+   over 100 people
+4. закончен - finished
+   The game is over. - Игра окончена.
+5. по всему - everywhere in
+   all over the world - по всему миру
+phr. over and over (again) - снова и снова
+phr. over there - вон там
+
+@overall
+adj. B2
+1. общий, полный - including everything
+   the overall cost
+adv. B2
+2. в целом - generally
+   Overall, it was a good day.
+
+@overcoat
+n. B2
+1. пальто, шинель - a long warm coat
+
+@overcome
+v. (overcame, overcome) B2
+1. преодолеть, побороть - to succeed in dealing with a problem
+   She overcame her fear of water.
+2. охватить, сломить (о чувствах) - to be too strong for
+   He was overcome with grief.
+
+@overhear
+v. (overheard, overheard) B2
+1. случайно услышать, подслушать - to hear what others say by chance
+   I overheard them talking about me.
+
+@overlook
+v. B2
+1. выходить на (о виде) - to have a view of
+   The room overlooks the sea.
+2. не заметить, упустить - to fail to notice
+   He overlooked one small detail.
+
+@overnight
+adv. B2
+1. всю ночь, на ночь - during the night
+   We stayed overnight.
+2. вдруг, сразу - suddenly
+   She became famous overnight.
+
+@overseas
+adj., adv. B2
+1. за рубежом, за границу - in or to a foreign country
+   He works overseas.
+
+@overtake
+v. (overtook, overtaken) B2
+1. обгонять - to pass a car going the same way
+   Don't overtake on a bend.
+
+@overwhelm
+v. B2
+1. ошеломить, переполнить (чувствами) - to give too strong a feeling
+   She was overwhelmed with joy.
+
+@owe
+v. B1
+1. быть должным - to have to pay back
+   I owe you ten pounds. - Я должен тебе десять фунтов.
+2. быть обязанным - to have something because of someone
+   I owe my life to you.
+
+@owl
+n. B1
+1. сова - a bird with big eyes that hunts at night
+
+@own
+adj., pron. A2
+1. собственный, свой - belonging to you
+   I have my own room. - У меня своя комната.
+phr. on your own - один, сам, самостоятельно
+v. B1
+2. владеть, иметь - to have something that is yours
+   Who owns this house?
+phr. own up - признаться
+
+@owner
+n. A2
+1. владелец, хозяин - a person who owns something
+   the owner of the dog
+
+@oxygen
+n. B1
+1. кислород - a gas in the air we need to live
+
+@pace
+n. B2
+1. темп, скорость - the speed of walking or doing something
+   He walked at a slow pace.
+2. шаг - a single step
+   She took two paces forward.
+v. B2
+3. ходить взад и вперёд - to walk up and down nervously
+   He paced the room.
+
+@pack
+v. A2
+1. собирать вещи, упаковывать - to put things in a bag or box
+   I need to pack for the trip. - Мне нужно собраться в дорогу.
+n. B1
+2. пачка, упаковка; рюкзак - a box or bag of things
+   a pack of cigarettes
+3. стая - a group of wild dogs or wolves
+   a pack of wolves
+phr. pack up - собрать вещи; сломаться
+
+@package
+n. B1
+1. посылка, пакет - something wrapped to be sent
+   A package arrived for you.
+
+@pad
+n. B2
+1. блокнот - sheets of paper fixed together
+   a writing pad
+2. подкладка, прокладка - a soft piece of material for protection
+   knee pads
+
+@page
+n. A1
+1. страница - one side of a sheet in a book
+   Turn to page ten. - Откройте страницу десять.
+
+@pain
+n. A2
+1. боль - the feeling when you are hurt
+   I have a pain in my back. - У меня болит спина.
+2. мучение, зануда - an annoying person or thing
+   He's a real pain.
+
+@painful
+adj. B1
+1. болезненный, мучительный - causing pain
+   a painful memory
+
+@paint
+n. A1
+1. краска - coloured liquid for walls or pictures
+   Wet paint! - Осторожно, окрашено!
+v. A1
+2. красить - to cover with paint
+   We painted the door red.
+3. рисовать (красками) - to make a picture with paint
+   She paints landscapes.
+
+@painting
+n. A1
+1. картина - a picture made with paint
+   a painting by Picasso
+2. живопись - the art of making pictures
+
+@pair
+n. A1
+1. пара - two things of the same kind
+   a pair of shoes - пара туфель
+   a pair of trousers - брюки
+
+@pal
+n. B2
+1. приятель, дружище - a friend (informal)
+   He's my old pal.
+
+@palace
+n. A2
+1. дворец - a big house of a king or queen
+   Buckingham Palace
+
+@pale
+adj. B1
+1. бледный - having less colour than usual
+   You look pale. Are you ill? - Ты бледный. Ты болен?
+2. светлый (о цвете) - light in colour
+   pale blue
+
+@palm
+n. B2
+1. ладонь - the inside of your hand
+   He held the coin in his palm.
+2. пальма - a tropical tree
+   a palm tree
+
+@pan
+n. A2
+1. кастрюля, сковорода - a metal pot for cooking
+   a frying pan - сковорода
+
+@panel
+n. B2
+1. панель - a flat piece of wood, metal, etc.
+   a control panel
+2. комиссия, группа экспертов - a group of people who discuss or judge
+   a panel of judges
+
+@panic
+n. B1
+1. паника - sudden great fear
+   There was panic in the streets.
+v. (panicked, panicked) B1
+2. паниковать - to feel sudden fear
+   Don't panic! - Без паники!
+
+@pant
+v. B2
+1. тяжело дышать, задыхаться - to breathe quickly after running
+   He arrived panting.
+
+@pants
+n. A2
+1. брюки (амер.) - trousers (American English)
+2. трусы (брит.) - underwear (British English)
+
+@paper
+n. A1
+1. бумага - material for writing on
+   a piece of paper - листок бумаги
+2. газета - a newspaper
+   Have you read today's paper?
+3. документы, бумаги (мн.) - official documents
+   Show me your papers.
+
+@parade
+n. B2
+1. парад, шествие - a public celebration with people marching
+   a victory parade
+
+@paragraph
+n. A2
+1. абзац - a part of a text that starts on a new line
+   Read the first paragraph.
+
+@parcel
+n. B1
+1. посылка, свёрток - something wrapped in paper to be sent
+   The postman brought a parcel.
+
+@pardon
+excl. A2
+1. простите?, что? - used to ask someone to repeat
+   Pardon? I didn't hear you. - Простите? Я не расслышал.
+n. B2
+2. прощение; помилование - forgiveness
+   I beg your pardon. - Прошу прощения.
+v. B2
+3. прощать; помиловать - to forgive
+
+@parent
+n. A1
+1. родитель - a mother or father
+   My parents live in Moscow. - Мои родители живут в Москве.
+
+@park
+n. A1
+1. парк - a public garden
+   Let's walk in the park. - Давай погуляем в парке.
+v. A1
+2. парковать, ставить (машину) - to leave a car somewhere
+   You can't park here.
+
+@parking
+n. A2
+1. парковка, стоянка - leaving a car somewhere
+   No parking. - Стоянка запрещена.
+
+@parliament
+n. B1
+1. парламент - the group of people who make laws in a country
+
+@parrot
+n. A2
+1. попугай - a bright bird that can copy words
+
+@part
+n. A1
+1. часть - a piece of the whole
+   part of the house - часть дома
+2. роль - a character in a film or play
+   She played the part of Juliet.
+3. деталь - a piece of a machine
+   car parts
+v. B2
+4. расставаться - to leave each other
+   They parted at the station.
+phr. take part (in) - принимать участие (в)
+phr. for my part - что касается меня
+
+@participate
+v. B2
+1. участвовать - to take part
+   Everyone participated in the game.
+
+@particular
+adj. B1
+1. особый, определённый - this one and not others
+   on that particular day
+2. привередливый - hard to please
+   He's very particular about food.
+phr. in particular - в частности, особенно
+
+@particularly
+adv. A2
+1. особенно - especially
+   I'm not particularly hungry.
+
+@partly
+adv. B1
+1. частично, отчасти - not completely
+   It was partly my fault.

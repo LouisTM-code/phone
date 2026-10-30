@@ -1,0 +1,14 @@
+# a topic with another meaning of a learned word: added to the card, shown once, the interval stays
+#! day 20755
+#! cards meaning.txt
+2 shot start
+5 UP shot decks
+5 shot topic_on
+RSOFT shot menu_review
+5 5 shot meaning
+5 shot answer
+3 shot done
+RSOFT DOWN 5 UP RIGHT 5 shot card
+RSOFT RSOFT 5 5 shot again_on
+RIGHT 5 shot card_again
+RSOFT RSOFT RSOFT shot menu

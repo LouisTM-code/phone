@@ -1,0 +1,22 @@
+# the reader: book list, paging, word selection, translation, card from a word, resume
+1 DOWN shot list
+5 shot page1
+#! read 4096
+RIGHT RIGHT shot page3
+3 shot page13
+1 shot page3_back
+# the English paragraph of page 1
+LEFT LEFT shot page1_back
+# each step over the words looks the word up in the dictionary, about 1 KB
+#! read 16384
+5 DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN DOWN shot word1
+#! read 4096
+RIGHT RIGHT shot word_moved
+#! read 1000000
+5 shot article
+1 shot card_added
+5 RSOFT RIGHT shot word_back
+RSOFT shot list_again
+UP 5 shot book2
+RSOFT DOWN 5 shot resumed
+RSOFT RSOFT shot menu

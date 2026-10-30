@@ -1,0 +1,7 @@
+# a topic for the tests: "bank" has another meaning than in the dictionary
+bank	берег (реки)	We sat on the bank of the river.
+river	река
+forest	лес
+hill	холм
+lake	озеро
+field	поле

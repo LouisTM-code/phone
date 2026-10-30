@@ -1,0 +1,16 @@
+# Odd one for 3 players: the rule mode, then the task mode (a long card), the rules
+#! app party
+RIGHT RIGHT 5 shot menu
+DOWN 5 shot settings
+DOWN 5 3 CENTER RSOFT UP 5 5 shot rule1
+5 5 shot rule2
+5 5 shot rule3
+5 5 shot talk
+5 shot answer
+RSOFT DOWN 5 5 shot modes
+DOWN 5 RSOFT UP 5 5 shot task1
+5 5 shot task2
+5 5 shot task3
+5 5 shot task_talk
+5 shot task_answer
+RSOFT DOWN DOWN 5 shot rules

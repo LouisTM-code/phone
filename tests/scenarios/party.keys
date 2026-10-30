@@ -1,0 +1,5 @@
+# Party games: the menu, the signal choice shared by the games
+#! app party
+shot menu
+RIGHT RIGHT RIGHT RIGHT 5 shot signal
+DOWN 5 shot chosen

@@ -1,0 +1,19 @@
+# flashcards: a deck turned on gives new words, review, undo an answer; the date comes from --day
+#! day 20755
+2 shot start
+5 shot decks
+DOWN 5 shot deck_on
+RSOFT shot start2
+5 shot modes
+# the session reads the decks that are on once, at its start
+#! read 120000
+5 shot review
+# a card reads only its word's transcription, the first line of its dict.bin article
+#! read 200
+5 shot answer
+5 shot next
+0 shot undone
+5 5 shot next_again
+3 shot next2
+RSOFT shot stopped
+RSOFT shot menu

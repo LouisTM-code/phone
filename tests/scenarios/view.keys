@@ -1,0 +1,17 @@
+# the look: backgrounds, screen and keypad brightness, kept in state/reader.txt
+1 DOWN 5 shot dark
+LSOFT UP UP 5 shot view
+5 shot themes
+DOWN 5 shot night_menu
+RSOFT shot night
+LSOFT UP UP 5 5 DOWN 5 RSOFT shot paper
+LSOFT UP UP 5 5 DOWN 5 RSOFT shot white
+RIGHT RIGHT RIGHT RIGHT RIGHT shot white_formulas
+RIGHT shot white_chart
+LSOFT UP UP 5 DOWN 5 shot brightness
+UP UP 5 shot bright_set
+DOWN DOWN 5 shot kpled
+DOWN DOWN DOWN 5 shot kpled_set
+RSOFT shot back
+# the setting stays: the book opened again has it
+RSOFT 5 shot kept

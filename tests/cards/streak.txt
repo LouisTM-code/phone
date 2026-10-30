@@ -1,0 +1,5 @@
+#cards v2 day=20754 new=0 ans=12 ok=10 streak=3 best=5 last=20754
+bottle	n. бутылка	20755	1	2500	1	0	a bottle of milk - бутылка молока
+saturday	n. суббота	20755	1	2500	1	0
+meet	v. встречать(ся)	20760	5	2500	2	0
+team	n. команда	0	0	2500	0	0

@@ -1,0 +1,646 @@
+@vow
+n. C1
+1. клятва, обет - a serious promise
+   wedding vows
+v. C1
+2. клясться - promise seriously
+   She vowed never to return.
+
+@voyage
+n. B2
+1. путешествие (морское), плавание - a long journey by sea or in space
+   a voyage across the Atlantic
+
+@vulnerable
+adj. B2
+1. уязвимый, беззащитный - easily hurt
+   She felt alone and vulnerable.
+
+@wade
+v. C1
+1. брести (по воде) - walk through water
+   We waded across the river.
+
+@wage
+n. B1
+1. зарплата (обычно недельная) - money paid for work
+   a low wage
+v. C1
+2. вести (войну, борьбу) - fight
+   to wage war
+
+@wagon
+n. B2
+1. повозка, телега - a vehicle pulled by horses
+   a covered wagon
+2. вагон (товарный) - a railway truck for goods
+
+@waist
+n. B1
+1. талия, пояс - the middle part of the body
+   She had a thin waist.
+
+@wait
+v. A1
+1. ждать - stay until something happens
+   Wait for me! - Подожди меня!
+   I can't wait to see you. - Не могу дождаться встречи с тобой.
+n. B1
+2. ожидание - time spent waiting
+   a long wait
+phr. wait on - обслуживать, прислуживать
+phr. wait up - не ложиться спать (ожидая)
+
+@waiter
+n. A1
+1. официант - a man who brings food in a restaurant
+   The waiter brought the menu.
+
+@waitress
+n. A1
+1. официантка - a woman who serves food in a restaurant
+   The waitress brought our coffee.
+
+@wake
+v. (woke, woken) A1
+1. просыпаться; будить - stop sleeping; make someone stop sleeping
+   I woke at six. - Я проснулся в шесть.
+   Don't wake the baby.
+n. C1
+2. след (за судном) - waves behind a boat
+phr. wake up - проснуться; разбудить
+phr. in the wake of - вслед за, в результате
+
+@walk
+v. A1
+1. идти пешком, гулять - move on foot
+   I walk to work. - Я хожу на работу пешком.
+2. выгуливать; провожать - take a dog or person somewhere
+   I walked her home.
+n. A1
+3. прогулка - a trip on foot
+   Let's go for a walk. - Пойдём погуляем.
+phr. walk out - уйти (в знак протеста)
+
+@wall
+n. A1
+1. стена - a side of a room or building
+   a picture on the wall - картина на стене
+2. стена, ограда (каменная) - a stone or brick fence
+   a garden wall
+
+@wallet
+n. A2
+1. бумажник, кошелёк - a small case for money and cards
+   I lost my wallet. - Я потерял бумажник.
+
+@wander
+v. B1
+1. бродить, гулять - walk without a plan
+   We wandered around the town.
+2. отвлекаться, блуждать (о мыслях) - stop paying attention
+   My mind wandered.
+
+@want
+v. A1
+1. хотеть - wish for
+   I want a coffee. - Я хочу кофе.
+   Do you want to come?
+2. нуждаться (разг.) - need
+   The car wants washing.
+n. C1
+3. нехватка, нужда - lack
+   for want of money
+
+@war
+n. A1
+1. война - fighting between countries
+   The war ended in 1945. - Война закончилась в 1945 году.
+phr. at war - в состоянии войны
+
+@wardrobe
+n. B1
+1. платяной шкаф - a tall cupboard for clothes
+   Hang it in the wardrobe.
+2. гардероб (одежда) - all your clothes
+   a summer wardrobe
+
+@warehouse
+n. B2
+1. склад - a large building for storing goods
+   an old warehouse by the river
+
+@warm
+adj. A1
+1. тёплый - a little hot
+   a warm day - тёплый день
+2. тёплый, сердечный - friendly
+   a warm welcome
+v. B1
+3. греть, согревать(ся) - make or become warm
+   Come and warm yourself by the fire.
+phr. warm up - разогреть(ся); размяться
+
+@warmth
+n. B2
+1. тепло - heat
+   the warmth of the sun
+2. теплота, сердечность - friendliness
+   the warmth of her smile
+
+@warn
+v. B1
+1. предупреждать - tell someone about danger
+   I warned you! - Я тебя предупреждал!
+
+@warning
+n. B1
+1. предупреждение - words about danger
+   without warning - без предупреждения
+
+@warrior
+n. B2
+1. воин - a fighter, a soldier in old times
+   a brave warrior
+
+@wary
+adj. C1
+1. осторожный, настороженный - careful, not trusting
+   Be wary of strangers.
+
+@wash
+v. A1
+1. мыть, стирать - clean with water
+   Wash your hands. - Помой руки.
+   I washed my shirt.
+2. умываться - clean yourself
+n. B1
+3. мытьё, стирка - an act of washing
+   Your shirt is in the wash.
+phr. wash up - мыть посуду
+phr. wash away - смыть
+
+@waste
+v. A2
+1. тратить зря, терять - use badly
+   Don't waste time. - Не трать время зря.
+n. B1
+2. пустая трата - bad use
+   It's a waste of money.
+3. отходы, мусор - things you throw away
+   household waste
+adj. B2
+4. пустой, ненужный - not used
+   waste paper
+
+@watch
+v. A1
+1. смотреть, наблюдать - look at for some time
+   We watched TV. - Мы смотрели телевизор.
+2. следить, присматривать - take care of
+   Watch the baby for me.
+n. A1
+3. часы (наручные) - a small clock on your wrist
+   My watch is slow. - Мои часы отстают.
+phr. watch out - осторожно!, берегись
+phr. keep watch - стоять на страже
+
+@water
+n. A1
+1. вода - the clear liquid in rivers and rain
+   a glass of water - стакан воды
+v. B1
+2. поливать - give water to plants
+   Water the flowers.
+3. слезиться; течь (о слюне) - make tears or saliva
+   My eyes are watering.
+
+@waterfall
+n. B1
+1. водопад - water falling from a high place
+   a beautiful waterfall
+
+@wave
+v. A2
+1. махать (рукой) - move your hand to say hello or goodbye
+   She waved to me. - Она помахала мне.
+n. B1
+2. волна - a moving line of water in the sea
+   big waves - большие волны
+3. взмах (руки) - a movement of the hand
+4. волна, прилив (чувства) - a sudden feeling
+   a wave of fear
+
+@wax
+n. B2
+1. воск - the material candles are made of
+   candle wax
+
+@way
+n. A1
+1. путь, дорога - the road or direction
+   Which way is the station? - Как пройти к вокзалу?
+2. способ - how you do something
+   the best way to learn - лучший способ учиться
+3. образ, манера - a manner
+   I like the way she smiles.
+adv. B2
+4. намного, гораздо (разг.) - much, far
+   way too expensive
+phr. by the way - кстати
+phr. on the way - по пути
+phr. in a way - в каком-то смысле
+phr. no way! - ни за что!
+
+@we
+pron. A1
+1. мы - I and other people
+   We are friends. - Мы друзья.
+
+@weak
+adj. A2
+1. слабый - not strong
+   I feel weak. - Я чувствую слабость.
+2. слабый, некрепкий (о чае и т.п.) - with a lot of water
+   weak tea
+
+@weakness
+n. B1
+1. слабость - lack of strength
+   a moment of weakness
+2. слабое место, недостаток - a fault
+   his only weakness
+
+@wealth
+n. B1
+1. богатство - a lot of money or property
+   a man of great wealth
+
+@wealthy
+adj. B1
+1. богатый, состоятельный - rich
+   a wealthy family
+
+@weapon
+n. B1
+1. оружие - a gun, knife, bomb, etc.
+   He had no weapon.
+
+@wear
+v. (wore, worn) A1
+1. носить, быть одетым в - have on your body
+   She wore a red dress. - Она была в красном платье.
+2. изнашиваться - become thin by use
+   The carpet is wearing thin.
+phr. wear out - износить(ся); утомлять
+phr. wear off - проходить (о действии)
+
+@weary
+adj. C1
+1. усталый, утомлённый - very tired
+   weary travellers
+
+@weather
+n. A1
+1. погода - rain, sun, wind, etc.
+   What's the weather like? - Какая погода?
+phr. under the weather - нездоровится
+
+@weave
+v. (wove, woven) B2
+1. ткать, плести - make cloth or baskets from threads
+2. пробираться, петлять - move in and out
+   He weaved through the crowd.
+
+@web
+n. A2
+1. сеть, интернет - the internet
+   I found it on the web.
+2. паутина - a net made by a spider
+   a spider's web
+
+@wedding
+n. A2
+1. свадьба - a marriage ceremony
+   They had a big wedding. - У них была большая свадьба.
+
+@wednesday
+n. A1
+1. среда (день недели) - the day after Tuesday
+   on Wednesday - в среду
+
+@weed
+n. B2
+1. сорняк - a wild plant in a garden
+   The garden was full of weeds.
+v. B2
+2. полоть - remove weeds
+
+@week
+n. A1
+1. неделя - seven days
+   See you next week. - Увидимся на следующей неделе.
+
+@weekend
+n. A1
+1. выходные - Saturday and Sunday
+   at the weekend - на выходных
+
+@weekly
+adj., adv. B1
+1. еженедельный; еженедельно - every week
+   a weekly magazine
+
+@weep
+v. (wept, wept) C1
+1. плакать, рыдать - cry
+   She wept bitterly.
+
+@weigh
+v. B1
+1. весить - have a weight
+   I weigh 70 kilos. - Я вешу 70 килограммов.
+2. взвешивать - measure the weight
+3. обдумывать, взвешивать - consider
+   weigh the risks
+
+@weight
+n. A2
+1. вес - how heavy something is
+   I need to lose weight. - Мне нужно похудеть.
+2. тяжесть, груз - a heavy thing or burden
+   a weight off my mind
+
+@weird
+adj. B1
+1. странный, чудной - very strange
+   a weird dream
+
+@welcome
+excl. A1
+1. добро пожаловать - said to greet someone
+   Welcome to our home! - Добро пожаловать к нам!
+v. A2
+2. приветствовать, встречать - greet warmly; be glad about
+   They welcomed us.
+adj. A2
+3. желанный, приятный - wanted
+   a welcome guest
+phr. you're welcome - пожалуйста (в ответ на спасибо)
+
+@welfare
+n. B2
+1. благополучие - health and happiness
+   the welfare of children
+2. пособие, соцпомощь (Am.) - money from the state
+   They live on welfare.
+
+@well
+adv. A1
+1. хорошо - in a good way
+   She sings well. - Она хорошо поёт.
+2. значительно, вполне - very much
+   well after midnight
+adj. A1
+3. здоровый - healthy
+   I don't feel well. - Мне нехорошо.
+excl. A2
+4. ну, что ж - used to start or pause
+   Well, I don't know.
+n. B2
+5. колодец - a deep hole for water
+phr. as well - тоже, также
+phr. as well as - а также, так же как
+
+@west
+n., adj., adv. A1
+1. запад; западный; на запад - the direction where the sun goes down
+   We drove west. - Мы ехали на запад.
+
+@wet
+adj. A1
+1. мокрый, влажный - covered with water
+   My shoes are wet. - Мои туфли мокрые.
+2. дождливый - rainy
+   a wet day
+3. невысохший, свежий (о краске) - not dry yet
+   Wet paint!
+
+@whale
+n. B1
+1. кит - a very large sea animal
+   a blue whale
+
+@what
+pron., det. A1
+1. что, какой - asking for information
+   What is this? - Что это?
+   What time is it?
+2. то, что - the thing that
+   I know what you mean. - Я знаю, что ты имеешь в виду.
+3. какой (восклицание) - used for surprise
+   What a beautiful day! - Какой прекрасный день!
+phr. what about...? - как насчёт...?
+phr. what if...? - а что если...?
+
+@whatever
+pron., det. B1
+1. что бы ни, всё что - anything at all
+   Do whatever you want. - Делай что хочешь.
+2. неважно, всё равно - it doesn't matter
+   Whatever happens, call me.
+
+@wheat
+n. B2
+1. пшеница - a plant for flour
+   fields of wheat
+
+@wheel
+n. A2
+1. колесо - a round thing that turns on a car or bike
+   a flat wheel
+2. руль - steering wheel
+   He was at the wheel.
+
+@when
+adv., conj. A1
+1. когда - at what time
+   When did you come? - Когда ты пришёл?
+   Call me when you arrive.
+2. хотя, тогда как - although
+   Why walk when you can drive?
+
+@whenever
+conj. B1
+1. всякий раз когда - every time that
+   Whenever I see her, she smiles.
+2. когда угодно - at any time
+   Come whenever you like.
+
+@where
+adv., conj. A1
+1. где, куда - in or to what place
+   Where are you? - Где ты?
+   Where are you going? - Куда ты идёшь?
+2. где, в котором - in which
+   the house where I was born
+
+@whereas
+conj. B2
+1. тогда как, в то время как - but, while
+   He is tall, whereas his brother is short.
+
+@wherever
+conj. B1
+1. где бы ни, куда бы ни - in any place
+   I'll find you wherever you are.
+
+@whether
+conj. B1
+1. ли - if
+   I don't know whether he'll come. - Я не знаю, придёт ли он.
+phr. whether... or - ли... или; независимо от того
+   whether you like it or not
+
+@which
+pron., det. A1
+1. какой, который - what one (from a choice)
+   Which book do you want? - Какую книгу ты хочешь?
+2. который - used to say which thing
+   the car which I bought
+
+@whichever
+pron., det. B2
+1. какой бы ни, любой - any one that
+   Take whichever you like.
+
+@while
+conj. A2
+1. пока, в то время как - during the time that
+   He called while you were out. - Он звонил, пока тебя не было.
+2. тогда как, хотя - although; but
+   While I like him, I don't trust him.
+n. B1
+3. некоторое время - a period of time
+   for a while - на некоторое время
+phr. once in a while - время от времени
+phr. worth your while - стоит того
+
+@whilst
+conj. B2
+1. пока, в то время как (Br., книжн.) - while
+   Whilst I was waiting, it started to rain.
+
+@whimper
+v. C1
+1. скулить, хныкать - make small weak crying sounds
+   The dog whimpered in pain.
+
+@whip
+n. B2
+1. кнут, хлыст - a long leather strap for hitting
+   He cracked his whip.
+v. B2
+2. хлестать, сечь - hit with a whip
+3. взбивать (сливки, яйца) - beat cream fast
+
+@whirl
+v. C1
+1. кружиться, вертеться - turn round fast
+   Leaves whirled in the wind.
+
+@whisky
+n. B1
+1. виски - a strong alcoholic drink (Am. whiskey)
+   a glass of whisky
+
+@whisper
+v. B1
+1. шептать - speak very quietly
+   She whispered in my ear. - Она прошептала мне на ухо.
+n. B1
+2. шёпот - very quiet speech
+   in a whisper - шёпотом
+
+@whistle
+v. B1
+1. свистеть - make a high sound through your lips
+   He whistled a song.
+n. B1
+2. свисток; свист - an instrument or sound
+   The referee blew his whistle.
+
+@white
+adj. A1
+1. белый - the colour of snow
+   a white shirt - белая рубашка
+2. бледный - pale
+   She went white with fear.
+n. A2
+3. белок (яйца) - the clear part of an egg
+
+@who
+pron. A1
+1. кто - what person
+   Who is that? - Кто это?
+2. который - used to say which person
+   the man who lives next door - человек, который живёт по соседству
+
+@whoever
+pron. B2
+1. кто бы ни, тот кто - any person who
+   Whoever did this will pay.
+
+@whole
+adj. A2
+1. весь, целый - all, complete
+   the whole day - весь день
+n. B1
+2. целое - all of something
+phr. on the whole - в целом
+
+@whom
+pron. B2
+1. кого, кому (книжн.) - used for "who" as object
+   To whom did you speak?
+
+@whose
+det., pron. A2
+1. чей - of which person
+   Whose bag is this? - Чья это сумка?
+2. чей, которого - of whom
+   the boy whose father is a doctor
+
+@why
+adv. A1
+1. почему, зачем - for what reason
+   Why are you late? - Почему ты опоздал?
+phr. why not? - почему бы и нет?
+
+@wicked
+adj. B2
+1. злой, нечестивый - very bad, evil
+   a wicked witch
+2. озорной, лукавый - naughty, playful
+   a wicked smile
+
+@wide
+adj. A2
+1. широкий - far from side to side
+   a wide river - широкая река
+2. широкий (выбор) - large in range
+   a wide choice
+adv. B1
+3. широко, полностью - fully
+   wide open - широко открытый
+   wide awake - совсем не сонный
+
+@widely
+adv. B1
+1. широко, повсеместно - by many people; in many places
+   It is widely believed that...
+
+@widespread
+adj. B2
+1. широко распространённый - existing in many places
+   widespread fear

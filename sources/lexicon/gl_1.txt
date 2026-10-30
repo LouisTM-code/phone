@@ -1,0 +1,789 @@
+@gain
+v. B1
+1. получать, приобретать - get something useful
+   She gained a lot of experience.
+2. набирать (вес, скорость) - increase in weight or speed
+   He has gained five kilos.
+n. B2
+3. рост, прибавка; выгода - an increase; a profit
+   There was a small gain in sales.
+
+@gallery
+n. A2
+1. галерея, картинная галерея - a place that shows art
+   We visited an art gallery. - Мы посетили картинную галерею.
+2. балкон, галерея (в театре) - an upper floor in a hall
+   They sat in the gallery.
+
+@gamble
+v. B2
+1. играть в азартные игры - play games for money
+   He gambled away all his money.
+2. рисковать - take a risk
+   We gambled on good weather.
+n. B2
+3. риск, рискованное дело - a risky action
+   It was a gamble, but it worked.
+
+@game
+n. A1
+1. игра - an activity you play for fun
+   Let's play a game. - Давай сыграем в игру.
+2. матч, партия - one match of a sport
+   We won the game. - Мы выиграли матч.
+3. дичь - wild animals hunted for food
+   The forest was full of game.
+phr. the game is up - всё кончено, ты раскрыт
+
+@gang
+n. B1
+1. банда - a group of criminals
+   He was attacked by a gang.
+2. компания, ватага (друзей) - a group of friends
+   The whole gang came to the party.
+phr. gang up on - ополчиться на, сговориться против
+   The other boys ganged up on him.
+
+@gap
+n. B1
+1. щель, промежуток - an empty space between things
+   The dog got out through a gap in the fence.
+2. перерыв, пауза - a period of time with nothing
+   There was a long gap in the conversation.
+3. разрыв, пропасть (между) - a big difference
+   the gap between rich and poor
+
+@garage
+n. A1
+1. гараж - a building for a car
+   The car is in the garage. - Машина в гараже.
+2. автомастерская, автосервис - a place that repairs cars
+   I took the car to the garage.
+
+@garbage
+n. B1
+1. мусор - waste, rubbish (US)
+   Take out the garbage.
+2. чепуха - nonsense
+
+@garden
+n. A1
+1. сад, огород - land near a house with plants
+   The children are playing in the garden. - Дети играют в саду.
+v. B1
+2. работать в саду - work in a garden
+   She loves gardening.
+
+@garlic
+n. A2
+1. чеснок - a plant with a strong taste, used in cooking
+   Add two cloves of garlic. - Добавьте два зубчика чеснока.
+
+@gas
+n. A2
+1. газ - air-like substance
+   Turn off the gas. - Выключи газ.
+2. бензин (амер.) - fuel for cars (US)
+   We ran out of gas.
+
+@gasp
+v. B2
+1. ахнуть, судорожно вдохнуть - breathe in suddenly from surprise
+   She gasped when she saw the price.
+2. задыхаться, хватать воздух - breathe with difficulty
+   He was gasping for air.
+n. B2
+3. вздох, судорожный вдох - a quick loud breath
+   There was a gasp from the crowd.
+
+@gate
+n. A2
+1. калитка, ворота - a door in a fence or wall
+   Close the gate, please. - Закрой, пожалуйста, калитку.
+2. выход (в аэропорту) - a door to a plane
+   The flight leaves from gate 12.
+
+@gather
+v. B1
+1. собираться (вместе) - come together in a group
+   A crowd gathered outside.
+2. собирать - collect things
+   She gathered her books and left.
+3. понимать, делать вывод - understand from what you hear
+   I gather you have met before.
+phr. gather speed - набирать скорость
+
+@gaze
+v. B2
+1. пристально смотреть, глядеть - look at something for a long time
+   She gazed out of the window.
+n. B2
+2. (пристальный) взгляд - a long steady look
+   He met her gaze.
+
+@gear
+n. B1
+1. снаряжение, принадлежности - equipment for an activity
+   Bring your camping gear.
+2. передача (скорость) - the part of a car that controls speed
+   Change into second gear.
+
+@general
+adj. A2
+1. общий - not detailed; about the main parts
+   I have a general idea of the plan.
+2. всеобщий, общий - for most people
+   It was a general holiday.
+n. B1
+3. генерал - a high army officer
+   The general gave the order.
+phr. in general - в целом, вообще
+
+@generally
+adv. A2
+1. обычно, как правило - usually
+   I generally get up at seven. - Я обычно встаю в семь.
+2. в целом, в общем - by most people; in most ways
+   He is generally liked.
+
+@generate
+v. B2
+1. производить, вырабатывать - produce
+   generate electricity
+2. вызывать, порождать - cause
+   generate interest
+
+@generation
+n. A2
+1. поколение - all people born at about the same time
+   My parents' generation had no internet. - У поколения моих родителей не было интернета.
+2. производство (энергии) - producing energy
+   electricity generation
+
+@generous
+adj. B1
+1. щедрый - happy to give money, time, help
+   It was very generous of you.
+2. большой, обильный - larger than usual
+   a generous portion of soup
+
+@genius
+n. B2
+1. гений - a very clever person
+   He was a musical genius.
+2. гениальность, талант - great skill or cleverness
+   a work of genius
+
+@gentle
+adj. B1
+1. мягкий, нежный, добрый - kind and calm
+   He was a gentle, quiet man.
+2. лёгкий, слабый (ветер, наклон) - not strong
+   a gentle breeze
+
+@gentleman
+n. (pl. gentlemen) A2
+1. джентльмен - a polite, well-behaved man
+   He was a real gentleman. - Он был настоящим джентльменом.
+2. господин (вежл.) - a polite word for a man
+   Ladies and gentlemen! - Дамы и господа!
+
+@gently
+adv. B1
+1. мягко, осторожно, нежно - in a gentle way
+   She gently touched his arm.
+
+@genuine
+adj. B2
+1. настоящий, подлинный - real, not fake
+   Is this a genuine diamond?
+2. искренний - honest, sincere
+   She showed genuine interest.
+
+@geography
+n. A2
+1. география - the study of countries, land, seas
+   I like geography. - Я люблю географию.
+
+@gesture
+n. B2
+1. жест - a movement of the hand or head
+   He made a rude gesture.
+2. жест, поступок - an action that shows feeling
+   It was a kind gesture.
+v. B2
+3. показывать жестом - make a gesture
+   She gestured towards the door.
+
+@get
+v. (got, got) A1
+1. получать - receive
+   I got a letter today. - Я сегодня получил письмо.
+2. доставать, приносить - fetch, buy
+   Can you get me some water? - Принеси мне воды.
+3. становиться - become
+   It's getting dark. - Темнеет.
+4. добираться, попадать - arrive, reach
+   We got home late. - Мы поздно добрались домой.
+phr. get up - вставать
+phr. get on (with) - ладить (с)
+phr. get over - оправиться (от)
+phr. get away - сбежать, уйти
+phr. get rid of - избавиться от
+phr. I get it - понятно, ясно
+
+@ghost
+n. B1
+1. призрак, привидение - the spirit of a dead person
+   Do you believe in ghosts? - Ты веришь в привидения?
+phr. not a ghost of a chance - ни малейшего шанса
+
+@giant
+n. B1
+1. великан, гигант - a huge person in stories
+   The giant lived in a castle.
+2. гигант (крупная компания) - a very big company
+   an oil giant
+adj. B1
+3. огромный, гигантский - very big
+   a giant wave
+
+@gift
+n. A1
+1. подарок - something you give
+   Thank you for the gift. - Спасибо за подарок.
+2. дар, талант - a natural ability
+   She has a gift for music.
+
+@giggle
+v. B2
+1. хихикать - laugh in a silly way
+   The girls giggled at the joke.
+n. B2
+2. хихиканье, смешок - a silly laugh
+
+@girl
+n. A1
+1. девочка, девушка - a female child or young woman
+   There are ten girls in my class. - В моём классе десять девочек.
+
+@girlfriend
+n. A1
+1. девушка (подруга) - a woman you have a romantic relationship with
+   Is she your girlfriend? - Она твоя девушка?
+2. подруга - a female friend (of a woman)
+   She went shopping with her girlfriends.
+
+@give
+v. (gave, given) A1
+1. давать, дарить - hand something to someone
+   He gave me a book. - Он дал мне книгу.
+2. делать (действие) - perform an action
+   She gave a cry. - Она вскрикнула.
+3. устраивать (праздник), проводить - organize
+   They gave a party.
+phr. give up - сдаваться; бросать (привычку)
+phr. give in - уступить
+phr. give away - отдать; выдать (секрет)
+phr. give back - вернуть, отдать обратно
+
+@glad
+adj. A2
+1. рад, довольный - happy, pleased
+   I'm glad to see you. - Рад тебя видеть.
+2. готовый, рад (сделать) - willing
+   I'd be glad to help.
+
+@glance
+v. B2
+1. взглянуть, бросить взгляд - look quickly
+   He glanced at his watch.
+n. B2
+2. (быстрый) взгляд - a quick look
+   She gave him a glance.
+phr. at a glance - с первого взгляда
+
+@glare
+v. B2
+1. сердито смотреть - look at someone angrily
+   She glared at him.
+2. ярко светить, слепить - shine too brightly
+   The sun glared down.
+n. B2
+3. сердитый взгляд - an angry look
+4. слепящий свет - a strong bright light
+
+@glass
+n. A1
+1. стекло - hard material for windows
+   The table is made of glass. - Стол сделан из стекла.
+2. стакан, бокал - a cup made of glass
+   a glass of water - стакан воды
+3. очки (glasses, мн. ч.) - lenses you wear to see better
+   I need my glasses. - Мне нужны мои очки.
+
+@gleam
+v. C1
+1. блестеть, мерцать - shine softly
+   His eyes gleamed with excitement.
+n. C1
+2. блеск, отблеск - a small bright light
+   a gleam of hope
+
+@glimpse
+n. B2
+1. мельком увиденное, проблеск - a quick, short look
+   I caught a glimpse of her in the crowd.
+v. B2
+2. мельком увидеть - see for a moment
+   He glimpsed a figure at the window.
+
+@glitter
+v. C1
+1. сверкать, блестеть - shine with many small flashes
+   The stars glittered in the sky.
+n. C1
+2. блеск; блёстки - shining light; small shiny pieces
+
+@global
+adj. B1
+1. мировой, глобальный - of the whole world
+   global warming
+2. общий, всеобъемлющий - including everything
+
+@gloomy
+adj. B2
+1. мрачный, тёмный - dark and sad-looking
+   a gloomy room
+2. унылый, угрюмый - sad, without hope
+   He was gloomy about the future.
+
+@glorious
+adj. B2
+1. славный, великолепный - very beautiful or wonderful
+   a glorious summer day
+2. славный, прославленный - bringing fame
+   a glorious victory
+
+@glory
+n. B2
+1. слава - fame and honour
+   He won glory in battle.
+2. великолепие, красота - great beauty
+   the glory of the sunset
+
+@glove
+n. A2
+1. перчатка - a cover for your hand
+   Put on your gloves, it's cold. - Надень перчатки, холодно.
+
+@glow
+v. B2
+1. светиться, тлеть - give out soft light
+   The fire glowed in the dark.
+2. сиять, раскраснеться (от чувства) - look happy or hot
+   Her face glowed with pleasure.
+n. B2
+3. свечение, сияние - a soft light
+   the glow of the lamp
+
+@glue
+n. A2
+1. клей - a substance to stick things together
+v. B1
+2. клеить, приклеивать - stick with glue
+   He glued the pieces together.
+phr. be glued to - не отрываться от (экрана)
+
+@go
+v. (went, gone) A1
+1. идти, ехать - move to a place
+   I go to school by bus. - Я езжу в школу на автобусе.
+2. уходить, уезжать - leave
+   I must go now. - Мне пора идти.
+3. становиться - become (often bad)
+   He went red. - Он покраснел.
+4. проходить, идти (о делах) - happen, progress
+   How did the exam go? - Как прошёл экзамен?
+phr. go on - продолжать; происходить
+phr. go out - выходить; гаснуть
+phr. go off - взорваться; зазвонить
+phr. be going to - собираться (сделать)
+
+@goal
+n. A2
+1. гол; ворота - a point in football; the net
+   He scored a goal. - Он забил гол.
+2. цель - something you want to achieve
+   My goal is to learn English. - Моя цель - выучить английский.
+
+@goat
+n. A2
+1. коза, козёл - a farm animal with horns
+   They keep goats on the farm. - На ферме держат коз.
+
+@god
+n. A2
+1. Бог (God) - the being Christians, Jews and Muslims pray to
+   Do you believe in God? - Ты веришь в Бога?
+2. бог, божество - a spirit people worship
+   the gods of ancient Greece
+phr. Oh my God! - Боже мой!
+phr. thank God - слава Богу
+
+@gold
+n. A2
+1. золото - a yellow precious metal
+   a ring made of gold - кольцо из золота
+adj. A2
+2. золотой - made of gold or gold-coloured
+   a gold watch - золотые часы
+
+@golden
+adj. B1
+1. золотой, золотистый - gold-coloured; made of gold
+   golden hair
+2. счастливый, лучший (о времени) - very happy or successful
+   the golden age of cinema
+
+@golf
+n. A2
+1. гольф - a game where you hit a small ball into holes
+   He plays golf on Sundays. - Он играет в гольф по воскресеньям.
+
+@good
+adj. (better, best) A1
+1. хороший - of high quality; pleasant
+   It's a good book. - Это хорошая книга.
+2. умелый, способный (в чём-то) - able to do something well
+   She is good at maths. - Она хорошо знает математику.
+3. добрый; послушный - kind; well-behaved
+   Be a good boy.
+n. B1
+4. добро, польза - what is right; benefit
+   It's for your own good.
+phr. for good - навсегда
+phr. no good - бесполезно
+
+@goodbye
+excl. A1
+1. до свидания, прощай - what you say when you leave
+   Goodbye, see you tomorrow! - До свидания, до завтра!
+n. A2
+2. прощание - the act of saying goodbye
+   We said our goodbyes.
+
+@goods
+n. B1
+1. товары - things for sale
+   The shop sells electrical goods.
+2. вещи, имущество - things you own
+   stolen goods
+
+@goose
+n. (pl. geese) B1
+1. гусь - a large bird like a duck
+   Geese flew over the lake.
+
+@gorgeous
+adj. B1
+1. великолепный, прекрасный - very beautiful or pleasant
+   What a gorgeous day!
+2. очень красивый (о человеке) - very attractive
+   She looked gorgeous.
+
+@gossip
+n. B2
+1. сплетни - talk about other people's private lives
+   Don't listen to gossip.
+2. сплетник, сплетница - a person who gossips
+v. B2
+3. сплетничать - talk about others' private lives
+   They were gossiping about the new teacher.
+
+@government
+n. A2
+1. правительство - the group of people who rule a country
+   The government raised taxes. - Правительство повысило налоги.
+2. управление - the act of ruling
+
+@gown
+n. B2
+1. длинное платье, вечернее платье - a long formal dress
+   She wore a silk evening gown.
+2. мантия, халат - a long loose piece of clothing
+   a hospital gown
+
+@grab
+v. B1
+1. хватать, схватить - take suddenly and roughly
+   He grabbed my arm.
+2. перехватить (быстро взять, съесть) - get quickly
+   Let's grab a sandwich.
+n. B2
+3. рывок, хватание - a sudden attempt to take
+   He made a grab for the gun.
+
+@grace
+n. B2
+1. изящество, грация - beauty of movement
+   She danced with grace.
+2. благосклонность; молитва (перед едой) - kindness; a prayer before a meal
+   He said grace before dinner.
+
+@graceful
+adj. B2
+1. изящный, грациозный - moving beautifully
+   a graceful dancer
+
+@grade
+n. A2
+1. оценка, отметка - a mark for school work
+   She got good grades. - Она получила хорошие оценки.
+2. класс (в школе, амер.) - a year at school (US)
+   He is in fifth grade.
+3. сорт, уровень, качество - a level of quality
+   high-grade oil
+v. B2
+4. оценивать; сортировать - give a mark; sort by quality
+
+@gradually
+adv. B1
+1. постепенно - slowly, little by little
+   The weather gradually improved.
+
+@graduate
+n. B1
+1. выпускник - a person with a university degree
+   a graduate of Oxford
+v. B1
+2. окончить (учебное заведение) - finish university or school
+   She graduated from Harvard in 2010.
+
+@grain
+n. B2
+1. зерно, хлебные злаки - seeds of wheat, rice etc.
+   The farmers grow grain.
+2. крупинка, песчинка - a very small piece
+   a grain of sand
+phr. a grain of truth - доля правды
+
+@grand
+adj. B1
+1. величественный, грандиозный - large and impressive
+   a grand palace
+2. важный, знатный - important, of high class
+   She thinks she's very grand.
+3. замечательный (разг.) - very good
+   We had a grand time.
+
+@grandchild
+n. (pl. grandchildren) A2
+1. внук, внучка - a child of your son or daughter
+   She has five grandchildren. - У неё пять внуков.
+
+@grandfather
+n. A1
+1. дедушка - the father of your father or mother
+   My grandfather is eighty. - Моему дедушке восемьдесят.
+
+@grandmother
+n. A1
+1. бабушка - the mother of your father or mother
+   I visit my grandmother every week. - Я навещаю бабушку каждую неделю.
+
+@grandparent
+n. A1
+1. дедушка или бабушка - a grandmother or grandfather
+   my grandparents - мои бабушка и дедушка
+
+@grant
+v. B2
+1. предоставлять, давать (разрешение) - officially give
+   They granted him permission to stay.
+2. признавать, допускать - agree something is true
+   I grant that he is clever.
+n. B2
+3. грант, субсидия - money given for study etc.
+   a research grant
+phr. take for granted - принимать как должное
+
+@grape
+n. A2
+1. виноград (одна ягода) - a small green or purple fruit
+   a bunch of grapes - гроздь винограда
+
+@grasp
+v. B2
+1. схватить, крепко держать - hold firmly
+   She grasped my hand.
+2. понять, уловить - understand
+   He didn't grasp the idea.
+n. B2
+3. хватка; понимание - a firm hold; understanding
+   a good grasp of English
+
+@grass
+n. A1
+1. трава - green plants on the ground
+   We sat on the grass. - Мы сидели на траве.
+2. газон, лужайка - an area of grass
+   Keep off the grass.
+
+@grateful
+adj. B1
+1. благодарный - feeling thanks
+   I'm very grateful for your help. - Я очень благодарен за вашу помощь.
+
+@grave
+n. B1
+1. могила - a place where a dead person is buried
+   They put flowers on the grave.
+adj. B2
+2. серьёзный, важный - very serious
+   He made a grave mistake.
+3. серьёзный, мрачный (о лице) - looking serious and worried
+   His face was grave.
+
+@great
+adj. A1
+1. отличный, замечательный - very good
+   That's a great idea! - Отличная идея!
+2. большой, огромный - very large
+   a great crowd of people
+3. великий, выдающийся - important, famous
+   a great writer
+phr. a great deal (of) - много
+phr. great-grandmother - прабабушка
+
+@greatly
+adv. B2
+1. очень, значительно - very much
+   Your help is greatly appreciated.
+
+@greedy
+adj. B1
+1. жадный - wanting more than you need
+   Don't be greedy, leave some for me.
+
+@green
+adj. A1
+1. зелёный - the colour of grass
+   a green dress - зелёное платье
+2. неопытный - young, without experience
+   He was still green.
+3. экологический - about protecting nature
+   green energy
+n. A1
+4. зелёный цвет; лужайка - green colour; a grass area
+   the village green
+
+@greet
+v. B1
+1. приветствовать, здороваться - say hello to
+   She greeted me with a smile.
+2. встречать, принимать (реакцией) - react to
+   The news was greeted with joy.
+
+@grey
+adj. A1
+1. серый - the colour of clouds before rain
+   a grey sky - серое небо
+2. седой - with white hair (also gray)
+   He went grey early.
+3. унылый, хмурый - dull, sad
+   a grey day
+
+@grief
+n. B2
+1. горе, печаль - deep sadness when someone dies
+   She was full of grief.
+
+@grim
+adj. B2
+1. мрачный, суровый - serious, unfriendly
+   His face was grim.
+2. тяжёлый, жуткий - unpleasant, depressing
+   grim news
+
+@grin
+v. B2
+1. широко улыбаться, ухмыляться - smile widely
+   He grinned at me.
+n. B2
+2. широкая улыбка, ухмылка - a wide smile
+   She had a big grin on her face.
+
+@grind
+v. (ground, ground) B2
+1. молоть, перемалывать - crush into powder
+   grind coffee
+2. скрежетать - rub together with noise
+   He ground his teeth.
+phr. grind to a halt - постепенно остановиться
+
+@grip
+n. B2
+1. хватка, сжатие - a firm hold
+   He kept a tight grip on the rope.
+2. власть, контроль - control
+   in the grip of fear
+v. B2
+3. крепко держать, сжимать - hold tightly
+   She gripped my hand.
+4. захватывать (внимание) - hold attention
+   The story gripped me.
+phr. get a grip - возьми себя в руки
+
+@groan
+v. B2
+1. стонать - make a low sound of pain
+   He groaned in pain.
+2. ворчать, жаловаться - complain
+n. B2
+3. стон - a low sound of pain or unhappiness
+
+@grocery
+n. B1
+1. продуктовый магазин - a shop that sells food
+2. продукты (groceries, мн. ч.) - food you buy
+   She went to buy groceries.
+
+@ground
+n. A2
+1. земля - the surface of the earth
+   He sat on the ground. - Он сел на землю.
+2. площадка, поле - an area for a purpose
+   a football ground
+3. основание, причина (grounds) - a reason
+   on the grounds of health
+phr. gain/lose ground - продвигаться/сдавать позиции
+
+@group
+n. A1
+1. группа - a number of people or things together
+   We worked in groups. - Мы работали в группах.
+2. группа (музыкальная) - a band
+   a pop group
+v. B1
+3. группировать(ся) - put together in groups
+
+@grow
+v. (grew, grown) A1
+1. расти - get bigger
+   Children grow fast. - Дети быстро растут.
+2. выращивать - make plants grow
+   We grow tomatoes. - Мы выращиваем помидоры.
+3. становиться - become slowly
+   It grew dark. - Стемнело.
+phr. grow up - взрослеть, вырасти
+phr. grow on - всё больше нравиться
+
+@growl
+v. B2
+1. рычать - make a low angry sound (of a dog)
+   The dog growled at me.
+2. ворчать, рычать (о человеке) - say angrily
+   "Get out," he growled.
+n. B2
+3. рычание - a low angry sound

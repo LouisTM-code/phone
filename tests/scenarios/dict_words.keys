@@ -1,0 +1,14 @@
+# dictionary article: cursor on its words, nested articles, a card with all meanings, the mark
+3 4 6 6 6 CENTER shot article
+0 shot cursor
+RIGHT RIGHT DOWN shot moved
+5 shot nested
+RSOFT shot back
+RSOFT 1 shot added
+RSOFT shot list_marked
+RSOFT RSOFT RSOFT 2 DOWN 5 RIGHT 5 shot card
+RSOFT RSOFT RSOFT RSOFT shot menu
+# the word family: its line, all of it into the cards, the marks in the list
+3 4 4 2 7 DOWN DOWN CENTER shot family
+3 shot family_added
+RSOFT shot family_marked

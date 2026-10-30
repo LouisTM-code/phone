@@ -1,0 +1,661 @@
+@fare
+n. B2
+1. плата за проезд - money you pay to travel
+   How much is the bus fare?
+
+@farewell
+n. B2
+1. прощание - saying goodbye
+   a farewell party - прощальная вечеринка
+
+@farm
+n. A1
+1. ферма - land for growing food and keeping animals
+   They live on a farm. - Они живут на ферме.
+
+@farmer
+n. A1
+1. фермер - a person who owns or works on a farm
+   The farmer has many cows.
+
+@fascinating
+adj. B1
+1. увлекательный, захватывающий - very interesting
+   It's a fascinating book.
+
+@fashion
+n. A2
+1. мода - popular style of clothes
+   She loves fashion. - Она обожает моду.
+2. образ, манера - a way of doing something
+   in a strange fashion
+phr. in fashion / out of fashion - в моде / не в моде
+
+@fast
+adj. A1
+1. быстрый - quick
+   a fast car - быстрая машина
+2. спешащий (о часах) - showing a later time
+   My watch is five minutes fast.
+adv. A1
+3. быстро - quickly
+   Don't drive so fast! - Не езди так быстро!
+4. крепко - firmly, deeply
+   She was fast asleep. - Она крепко спала.
+
+@fasten
+v. B2
+1. застёгивать, пристёгивать - close, fix
+   Fasten your seat belts.
+
+@fat
+adj. A1
+1. толстый, жирный - having too much weight
+   The cat is very fat. - Кот очень толстый.
+n. B1
+2. жир - the oily part of food or body
+
+@fatal
+adj. B2
+1. смертельный - causing death
+   a fatal accident
+2. роковой - very serious
+   a fatal mistake
+
+@fate
+n. B2
+1. судьба, рок - a power that decides what happens
+   It was fate that we met.
+
+@father
+n. A1
+1. отец - your male parent
+   My father is a doctor. - Мой отец врач.
+2. отец, святой отец - a priest
+   Father Brown
+
+@fault
+n. B1
+1. вина - responsibility for a mistake
+   It's not my fault! - Это не моя вина!
+2. недостаток, дефект - a problem in a person or thing
+   a fault in the engine
+
+@favour
+n. B1
+1. одолжение, услуга - something you do to help
+   Can you do me a favour?
+phr. in favour of - за (что-то), в пользу
+v. B2
+2. отдавать предпочтение - prefer
+
+@favourite
+adj. A1
+1. любимый - liked the most
+   What's your favourite colour? - Какой твой любимый цвет?
+n. A2
+2. любимец, фаворит - the person or thing you like most
+
+@fear
+n. A2
+1. страх - the feeling of being afraid
+   He was shaking with fear.
+v. B1
+2. бояться, опасаться - be afraid of
+   She feared the worst.
+phr. for fear of - из боязни
+
+@feast
+n. B2
+1. пир, праздничное угощение - a big special meal
+   a wedding feast
+
+@feather
+n. B2
+1. перо - a bird is covered in them
+   a hat with a feather
+
+@feature
+n. B1
+1. особенность, черта - an important part or quality
+   The car has many new features.
+2. черты лица - parts of the face
+   She has delicate features.
+v. B2
+3. показывать, включать - include as an important part
+
+@fee
+n. B1
+1. плата, взнос, гонорар - money paid for a service
+   school fees
+
+@feed
+v. (fed, fed) B1
+1. кормить - give food to
+   Did you feed the cat?
+phr. be fed up (with) - быть сытым по горло, надоело
+   I'm fed up with this job.
+
+@feel
+v. (felt, felt) A1
+1. чувствовать (себя) - have a feeling
+   I feel tired. - Я чувствую себя уставшим.
+2. на ощупь (быть каким-то) - seem when touched
+   The water feels cold.
+3. щупать, трогать - touch
+   Feel this fabric.
+4. считать, думать - think
+   I feel that you are wrong.
+phr. feel like - хотеть (чего-то)
+   I feel like a walk.
+
+@feeling
+n. A2
+1. чувство - an emotion
+   a feeling of happiness
+2. ощущение, предчувствие - an idea
+   I have a feeling he won't come.
+phr. hurt someone's feelings - обидеть
+
+@fellow
+n. B2
+1. парень, человек (разг.) - a man
+   He's a nice fellow.
+adj. B2
+2. товарищ, собрат - people like you, in the same group
+   my fellow students - мои однокурсники
+
+@female
+adj. B1
+1. женский, женского пола - of women or girls
+n. B1
+2. женщина, самка - a woman or female animal
+
+@fence
+n. B1
+1. забор, ограда - a wall made of wood or wire
+   He climbed over the fence.
+
+@festival
+n. A2
+1. фестиваль, праздник - a special event or celebration
+   a music festival
+
+@fetch
+v. B2
+1. сходить за, принести - go and bring back
+   Fetch me a glass of water.
+
+@fever
+n. B1
+1. жар, температура, лихорадка - a high body temperature
+   She has a fever.
+
+@few
+det. A1
+1. мало, немного - not many
+   Few people came.
+phr. a few - несколько
+   I have a few friends here. - У меня здесь есть несколько друзей.
+
+@fiction
+n. B1
+1. художественная литература - stories that are not true
+   I like reading fiction.
+2. вымысел - something not true
+
+@field
+n. A2
+1. поле - land for crops or animals
+   Cows were in the field. - Коровы были в поле.
+2. область, сфера - an area of study or work
+   an expert in this field
+3. поле, площадка (спортивная) - a place for sport
+
+@fierce
+adj. B2
+1. свирепый, злой - angry and dangerous
+   a fierce dog
+2. сильный, яростный - very strong
+   fierce competition
+
+@fifteen
+num. A1
+1. пятнадцать - 15
+   She is fifteen. - Ей пятнадцать.
+
+@fifty
+num. A1
+1. пятьдесят - 50
+   It costs fifty pounds. - Это стоит пятьдесят фунтов.
+
+@fight
+v. (fought, fought) A2
+1. драться, сражаться - use force against someone
+   The boys were fighting. - Мальчики дрались.
+2. бороться - try hard to stop or get
+   They fought for freedom.
+3. ссориться - argue
+n. B1
+4. драка, бой, борьба - an act of fighting
+phr. fight back - давать отпор
+
+@figure
+n. B1
+1. цифра - a number
+   sales figures
+2. фигура (человека) - a shape of a person
+   A tall figure appeared in the doorway.
+3. фигура, личность - an important person
+v. B2
+4. полагать (амер. разг.) - think
+phr. figure out - понять, разобраться
+   I can't figure it out.
+
+@file
+n. B1
+1. папка, дело - a folder of papers
+2. файл - information on a computer
+v. B2
+3. подшивать, регистрировать - put in a file
+phr. in single file - гуськом, один за другим
+
+@fill
+v. A1
+1. наполнять(ся), заполнять - make full
+   She filled the glass with water. - Она наполнила стакан водой.
+phr. fill in / fill out - заполнять (анкету)
+phr. fill up - заправить (машину), наполнить
+
+@film
+n. A1
+1. фильм, кино - a movie
+   Let's watch a film. - Давай посмотрим фильм.
+v. A2
+2. снимать (на камеру) - record with a camera
+
+@final
+adj. A2
+1. последний, окончательный - last
+   the final day
+n. B1
+2. финал - the last game in a competition
+
+@finally
+adv. A2
+1. наконец - after a long time
+   We finally arrived. - Мы наконец приехали.
+2. в заключение - lastly
+
+@financial
+adj. B1
+1. финансовый - about money
+   financial problems
+
+@find
+v. (found, found) A1
+1. находить - discover something you looked for
+   I can't find my keys. - Не могу найти ключи.
+2. считать, находить (каким-то) - think, feel
+   I find him boring.
+phr. find out - узнать, выяснить
+   I found out the truth.
+
+@fine
+adj. A1
+1. в порядке, хорошо - well, OK
+   "How are you?" "Fine, thanks." - "Как дела?" "Хорошо, спасибо."
+2. тонкий, мелкий - very thin, small
+   fine sand
+3. прекрасный, отличный - very good
+   a fine view
+n. B1
+4. штраф - money paid as punishment
+v. B1
+5. штрафовать - make someone pay a fine
+
+@finger
+n. A2
+1. палец (руки) - one of the five parts at the end of your hand
+   She cut her finger. - Она порезала палец.
+phr. keep your fingers crossed - держать кулачки (на удачу)
+
+@finish
+v. A1
+1. заканчивать, кончаться - end, complete
+   Have you finished your homework? - Ты закончил домашнее задание?
+n. B1
+2. финиш, окончание - the end
+
+@fire
+n. A2
+1. огонь, костёр - burning, flames
+   We sat by the fire. - Мы сидели у огня.
+2. пожар - burning that destroys
+   The house was on fire. - Дом горел.
+v. B1
+3. стрелять - shoot
+   He fired a gun.
+4. увольнять - remove from a job
+   She was fired.
+phr. catch fire - загореться
+phr. set fire to - поджечь
+
+@fireplace
+n. B1
+1. камин - a place for a fire in a room
+   They sat in front of the fireplace.
+
+@firm
+n. B1
+1. фирма - a company
+   a law firm
+adj. B2
+2. твёрдый, крепкий - hard; strong and steady
+   a firm bed; a firm handshake
+3. твёрдый, решительный - not changing
+   a firm decision
+
+@first
+det. A1
+1. первый - number 1 in order
+   my first job - моя первая работа
+adv. A1
+2. сначала, сперва - before anything else
+   First, wash your hands. - Сначала вымой руки.
+phr. at first - сначала, поначалу
+phr. first of all - прежде всего
+
+@fish
+n. (pl. fish) A1
+1. рыба - an animal that lives in water
+   We had fish for dinner. - На ужин у нас была рыба.
+v. A2
+2. ловить рыбу, рыбачить - try to catch fish
+
+@fishing
+n. A2
+1. рыбалка - catching fish
+   My dad loves fishing. - Мой папа любит рыбалку.
+
+@fist
+n. B2
+1. кулак - a closed hand
+   He banged his fist on the table.
+
+@fit
+v. (fitted/fit) A2
+1. подходить (по размеру), быть впору - be the right size
+   These shoes don't fit me. - Эти туфли мне не подходят.
+2. помещаться, вмещать - have room for
+   We can't fit everything in the car.
+3. устанавливать - put in place
+adj. B1
+4. в хорошей форме - healthy and strong
+   She keeps fit.
+n. B2
+5. приступ - a sudden attack
+   a fit of laughter
+
+@five
+num. A1
+1. пять - 5
+   I have five cats. - У меня пять кошек.
+
+@fix
+v. B1
+1. чинить, ремонтировать - repair
+   Can you fix my bike? - Можешь починить мой велосипед?
+2. назначать, устанавливать - decide a date, price
+   Let's fix a date.
+3. приготовить (амер.) - prepare food or drink
+   I'll fix you a drink.
+
+@flag
+n. A2
+1. флаг - a piece of cloth with a country's colours
+   the French flag
+
+@flame
+n. B2
+1. пламя - the bright burning part of a fire
+   The house was in flames.
+
+@flash
+n. B2
+1. вспышка - a sudden bright light
+   a flash of lightning
+v. B2
+2. сверкать, мигать - shine suddenly
+   Lights flashed.
+phr. in a flash - в мгновение ока
+
+@flat
+n. A1
+1. квартира (брит.) - rooms to live in on one floor
+   We live in a small flat. - Мы живём в маленькой квартире.
+adj. B1
+2. плоский, ровный - level, smooth
+   a flat roof
+3. спущенный (о шине) - without enough air
+   a flat tyre
+
+@flavour
+n. B1
+1. вкус, привкус - the taste of food
+   What flavour is the ice cream?
+
+@flee
+v. (fled, fled) B2
+1. бежать, спасаться бегством - run away from danger
+   They fled the country.
+
+@flesh
+n. B2
+1. плоть, тело, мясо - the soft part of a body
+phr. in the flesh - во плоти, лично
+
+@flexible
+adj. B2
+1. гибкий - able to bend; able to change
+   flexible working hours
+
+@flicker
+v. C1
+1. мерцать, мелькать - shine unsteadily
+   The candle flickered.
+n. C1
+2. мерцание, проблеск - a short unsteady light or feeling
+   a flicker of hope
+
+@flight
+n. A2
+1. рейс, полёт - a journey by plane
+   The flight was long. - Полёт был долгим.
+2. пролёт (лестницы) - a set of stairs
+   a flight of stairs
+
+@fling
+v. (flung, flung) C1
+1. швырять, бросать - throw with force
+   She flung her bag on the floor.
+2. резко распахнуть - open quickly
+   He flung the door open.
+
+@float
+v. B2
+1. плавать (на поверхности), плыть - stay on water; move in air
+   Leaves floated on the water.
+
+@flood
+n. B1
+1. наводнение - a lot of water covering land
+v. B1
+2. затоплять - cover with water
+   The river flooded the town.
+3. хлынуть, наводнить - come in large numbers
+   Letters flooded in.
+
+@floor
+n. A1
+1. пол - the surface you walk on in a room
+   The book fell on the floor. - Книга упала на пол.
+2. этаж - a level of a building
+   We live on the third floor. - Мы живём на третьем этаже.
+
+@flour
+n. B1
+1. мука - white powder for making bread
+   a bag of flour
+
+@flow
+v. B2
+1. течь, литься - move smoothly
+   The river flows into the sea.
+n. B2
+2. поток, течение - steady movement
+   the flow of traffic
+
+@flower
+n. A1
+1. цветок - the coloured part of a plant
+   He gave her flowers. - Он подарил ей цветы.
+
+@flu
+n. B1
+1. грипп - an illness like a bad cold
+   I've got flu.
+
+@flush
+v. C1
+1. краснеть - become red in the face
+   She flushed with anger.
+2. спускать воду (в туалете) - clean a toilet with water
+   Don't forget to flush.
+
+@flutter
+v. C1
+1. порхать, трепетать - move quickly and lightly
+   A flag fluttered in the wind.
+
+@fly
+v. (flew, flown) A1
+1. летать, лететь - move through the air
+   Birds fly south. - Птицы летят на юг.
+2. лететь (самолётом) - travel by plane
+   We flew to Rome. - Мы полетели в Рим.
+3. пролетать (о времени) - pass quickly
+   Time flies.
+n. A2
+4. муха - a small insect
+
+@focus
+v. B1
+1. сосредотачиваться - give attention to one thing
+   I can't focus on my work.
+n. B1
+2. центр внимания, фокус - the main point
+
+@fog
+n. B1
+1. туман - thick cloud near the ground
+   The fog was so thick we couldn't see.
+
+@fold
+v. B2
+1. складывать, сгибать - bend paper or cloth
+   She folded the letter.
+phr. fold your arms - скрестить руки на груди
+
+@folk
+n. B2
+1. люди (разг.) - people
+   old folk
+2. родные, родители (разг.) - parents, family
+   my folks
+adj. B2
+3. народный - traditional
+   folk music
+
+@follow
+v. A1
+1. следовать, идти за - go after
+   Follow me! - Иди за мной!
+2. следовать (совету) - do what is said
+   Follow the instructions.
+3. понимать (объяснение) - understand
+   I don't follow you.
+phr. as follows - следующим образом
+
+@fond
+adj. B2
+1. любящий, нежный - loving
+phr. be fond of - любить, нравиться
+   I'm very fond of her.
+
+@food
+n. A1
+1. еда, пища - what you eat
+   We need some food. - Нам нужна еда.
+
+@fool
+n. B2
+1. дурак - a stupid person
+   Don't be a fool!
+v. B2
+2. обманывать, дурачить - trick
+   You can't fool me.
+phr. make a fool of - выставить дураком
+phr. fool around - валять дурака
+
+@foolish
+adj. B2
+1. глупый - silly
+   It was a foolish thing to do.
+
+@foot
+n. (pl. feet) A1
+1. нога (ступня) - the part of the leg you stand on
+   My feet hurt. - У меня болят ноги.
+2. фут (30,5 см) - a unit of length
+3. подножие, низ - the bottom of something
+   at the foot of the hill
+phr. on foot - пешком
+
+@football
+n. A1
+1. футбол - a game with a ball for two teams
+   He plays football. - Он играет в футбол.
+
+@for
+prep. A1
+1. для - meant to be given to
+   This is for you. - Это для тебя.
+2. в течение (о времени) - showing time
+   I waited for an hour. - Я ждал час.
+3. за (цена, причина) - in exchange for; because of
+   I bought it for $10. Thank you for your help.
+4. в (направлении) - going to
+   the train for London
+
+@forbid
+v. (forbade, forbidden) B2
+1. запрещать - say someone must not do
+   I forbid you to go.
+
+@force
+n. B1
+1. сила - power, violence
+   They used force to open the door.
+2. войска, силы - a group of soldiers or police
+   the police force
+v. B1
+3. заставлять, принуждать - make someone do
+   They forced him to sign.
+4. взламывать - open with force
+   He forced the door.
+
+@forecast
+n. B1
+1. прогноз - a statement about the future
+   the weather forecast - прогноз погоды

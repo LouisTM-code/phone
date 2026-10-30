@@ -1,0 +1,18 @@
+# phrases: a word of a book with its particle further in the sentence ("gave it up")
+# offers the phrase of the dictionary; a phrase from the dictionary gets an example
+# of its word's article in any form ("He ran away from home.")
+# the last page of the test book
+1 DOWN 5 3 RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT shot open
+5 RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT RIGHT shot gave
+5 shot choice
+5 shot article
+1 shot added
+RSOFT RSOFT RSOFT RSOFT
+3 7 7 7 8 8 6 6 0 2 9 2 9 9 9 shot search
+CENTER 1 shot run_added
+# out of the article, the search erased letter by letter (8), out of the dictionary
+RSOFT RSOFT RSOFT RSOFT RSOFT RSOFT RSOFT RSOFT RSOFT RSOFT
+2 DOWN 5 RIGHT shot my_words
+5 shot card_give
+RSOFT DOWN 5 shot card_run
+RSOFT RSOFT RSOFT RSOFT shot menu

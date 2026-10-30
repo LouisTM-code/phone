@@ -1,0 +1,20 @@
+# the shelf: filters, covers, progress, the book menu, opening where reading stopped
+1 shot all
+LEFT shot reading_empty
+RIGHT RIGHT shot done_empty
+# read both books a little
+LEFT 5 DOWN DOWN RSOFT shot pdf_after
+DOWN 5 3 RSOFT shot rich_after
+LEFT shot reading
+# the book menu: mark as read
+LSOFT shot menu
+5 shot marked
+RIGHT RIGHT shot done
+# back to the main menu and in again: the shelf opens on the books being read
+RSOFT RSOFT 1 shot reopen
+5 shot continued
+# delete: the book is marked (make update-data deletes it) and goes to "На удаление",
+# a shelf there while a book is marked; "Не удалять" brings it back
+RSOFT LSOFT DOWN DOWN 5 shot del_marked
+LEFT shot del_shelf
+LSOFT DOWN DOWN 5 shot del_undone

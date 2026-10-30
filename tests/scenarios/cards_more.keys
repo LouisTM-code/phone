@@ -1,0 +1,17 @@
+# flashcard settings, more new words after the day's ones, "already known", forget, statistics
+#! day 20755
+#! cards a1on.txt
+2
+DOWN DOWN DOWN DOWN 5 shot settings
+5 2 CENTER shot set_two
+RSOFT 5 5 5 3 5 3 shot day_done
+RSOFT shot menu_more
+DOWN 5 5 shot more_session
+5 STAR shot known
+0 shot known_undone
+# the known word in its deck's list, made new again
+5 STAR RSOFT DOWN DOWN 5 DOWN RIGHT HASH HASH HASH HASH shot list_known
+5 shot card_known
+HASH shot forgot
+RSOFT RSOFT DOWN DOWN DOWN 5 shot stats
+RSOFT RSOFT shot menu

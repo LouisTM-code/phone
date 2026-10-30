@@ -1,0 +1,11 @@
+# Bomb: a task, the bomb ticking, stopping it for the next task, the settings
+# (the later bound can't go below the earlier one), the rules. The blast comes
+# after real seconds, so a script doesn't reach it.
+#! app party
+RIGHT RIGHT RIGHT 5 shot menu
+5 shot task
+5 shot ticking
+RSOFT shot next
+RSOFT DOWN 5 shot settings
+DOWN 5 1 0 CENTER shot max
+RSOFT DOWN 5 shot rules

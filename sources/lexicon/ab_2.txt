@@ -1,0 +1,551 @@
+@agreement
+n. B1
+1. соглашение, договор - a deal, contract
+   We signed an agreement.
+2. согласие - having the same opinion
+   They are in agreement.
+
+@agriculture
+n. B2
+1. сельское хозяйство - farming
+
+@ah
+excl. A2
+1. ах, а (удивление, понимание) - shows surprise or understanding
+   Ah, I see. - А, понятно.
+
+@ahead
+adv. A2
+1. вперёд, впереди - in front; forward
+   Look straight ahead. - Смотри прямо вперёд.
+2. заранее, наперёд - in the future; before
+   plan ahead
+3. давай, валяй (разрешение) (go ahead)
+   "Can I sit here?" "Go ahead."
+
+@aid
+n. B2
+1. помощь - help (money, food etc.)
+   first aid - первая помощь
+2. пособие, средство - a thing that helps
+   a hearing aid
+v. C1
+3. помогать - help
+
+@aim
+n. B1
+1. цель - what you want to achieve
+   Our aim is to win.
+v. B1
+2. стремиться, ставить целью - plan, try to achieve
+   We aim to finish by May.
+3. целиться - point a gun at
+   He aimed the gun at the bird.
+
+@air
+n. A1
+1. воздух - what we breathe
+   fresh air - свежий воздух
+2. самолётом (by air) - by plane
+3. вид, атмосфера - an appearance, a feeling
+   an air of mystery
+
+@aircraft
+n. (pl. aircraft) B1
+1. самолёт, воздушное судно - a plane or helicopter
+
+@airline
+n. A2
+1. авиакомпания - a company that flies planes
+
+@airport
+n. A1
+1. аэропорт - a place where planes land and take off
+   I'll meet you at the airport. - Я встречу тебя в аэропорту.
+
+@aisle
+n. B2
+1. проход (между рядами) - a passage between rows of seats
+
+@alarm
+n. B1
+1. тревога, сигнализация - a warning bell or sound
+   a fire alarm
+2. будильник - a clock that wakes you
+   I set the alarm for seven.
+3. тревога, страх - sudden fear
+   She looked at him in alarm.
+v. C1
+4. тревожить, пугать - make someone worried
+
+@alas
+excl. C1
+1. увы - sadly (old or literary)
+   Alas, it was too late.
+
+@album
+n. A2
+1. альбом - a book for photos; a music collection
+
+@alcohol
+n. A2
+1. алкоголь, спиртное - drinks like beer and wine
+   He doesn't drink alcohol.
+
+@alert
+adj. B2
+1. бдительный, настороже - watching carefully, ready
+   Stay alert!
+n. B2
+2. тревога, сигнал - a warning
+v. B2
+3. предупреждать - warn someone
+
+@alien
+n. B2
+1. инопланетянин - a creature from another planet
+2. иностранец (офиц.) - a foreigner
+adj. B2
+3. чужой, чуждый - strange, unfamiliar
+   an alien culture
+
+@alike
+adj. B2
+1. похожий; одинаково - similar; in the same way
+   The twins look alike.
+2. как ... так и - both
+   adults and children alike
+
+@alive
+adj. A2
+1. живой - living, not dead
+   Is the fish still alive? - Рыба ещё живая?
+2. полный жизни, оживлённый - full of life
+   The city comes alive at night.
+
+@all
+det. A1
+1. все, весь, всё - every one; the whole of
+   all my friends - все мои друзья
+   all day - весь день
+adv. A2
+2. совсем, полностью - completely
+   She was all alone.
+3. совсем нет; не за что (not at all)
+   "Thanks!" "Not at all."
+4. вообще (в вопросах и отрицаниях) (at all)
+   I don't know him at all.
+
+@allergic
+adj. B1
+1. аллергический (be allergic to - иметь аллергию на)
+   I'm allergic to cats.
+
+@alley
+n. B2
+1. переулок, проход - a narrow street between buildings
+   a dark alley
+
+@allow
+v. A2
+1. разрешать, позволять - let someone do something
+   Dogs are not allowed here. - Сюда нельзя с собаками.
+2. давать (время, возможность) - give time or chance
+   Allow two hours for the trip.
+
+@allowance
+n. C1
+1. пособие, карманные деньги - money given regularly
+2. норма (багажа и т.п.) - an amount allowed
+
+@ally
+n. B2
+1. союзник - a friend or country that helps you
+
+@almost
+adv. A2
+1. почти - nearly, not quite
+   It's almost ten o'clock. - Почти десять часов.
+   I almost fell. - Я чуть не упал.
+
+@alone
+adj. A2
+1. один, в одиночестве - without other people
+   She lives alone. - Она живёт одна.
+2. оставить в покое (leave alone)
+   Leave me alone!
+
+@along
+prep. A2
+1. вдоль, по - from one end towards the other
+   We walked along the river. - Мы шли вдоль реки.
+2. вместе, с собой - with someone
+   Bring your sister along.
+3. ладить (get along with) - be friendly with
+   I get along well with him.
+
+@alongside
+prep. C1
+1. рядом с, бок о бок - next to; together with
+   He worked alongside his father.
+
+@aloud
+adv. B2
+1. вслух - so that others can hear
+   She read the letter aloud.
+
+@alphabet
+n. A2
+1. алфавит - all the letters of a language
+
+@already
+adv. A2
+1. уже - before now, sooner than expected
+   I've already eaten. - Я уже поел.
+
+@alright
+adj. A2
+1. в порядке, нормально - OK, fine (= all right)
+   Are you alright? - Ты в порядке?
+2. ладно, хорошо - yes, OK
+   "Let's go." "Alright."
+
+@also
+adv. A1
+1. тоже, также - too, as well
+   She also speaks German. - Она также говорит по-немецки.
+
+@alter
+v. B2
+1. изменять(ся), переделывать - change
+   The town hasn't altered much.
+
+@alternative
+n. B1
+1. альтернатива, выбор - another possible choice
+   We have no alternative.
+adj. B1
+2. другой, альтернативный - different, possible instead
+   an alternative route
+
+@although
+conj. A2
+1. хотя - despite the fact that
+   Although it was cold, we went out. - Хотя было холодно, мы вышли.
+
+@altogether
+adv. B2
+1. полностью, совсем - completely
+   The noise stopped altogether.
+2. в целом, всего - in total
+   Altogether, there were twenty people.
+
+@always
+adv. A1
+1. всегда - every time, at all times
+   He is always late. - Он всегда опаздывает.
+
+@amateur
+n. B2
+1. любитель - a person who does something for fun, not for money
+adj. B2
+2. любительский - not professional
+   an amateur photographer
+
+@amaze
+v. B1
+1. изумлять, поражать - surprise very much
+   You never cease to amaze me.
+
+@amazed
+adj. B1
+1. изумлённый, поражённый - very surprised
+   I was amazed at how big it was.
+
+@amazing
+adj. A1
+1. удивительный, потрясающий - very surprising; wonderful
+   The view was amazing! - Вид был потрясающий!
+
+@ambition
+n. B1
+1. мечта, цель (в жизни) - something you want very much to do
+   Her ambition is to be a doctor.
+2. честолюбие, амбиции - a strong wish to be successful
+
+@ambitious
+adj. B1
+1. честолюбивый, амбициозный - wanting to be successful
+2. грандиозный (план) - large and hard to do
+
+@ambulance
+n. A2
+1. скорая помощь (машина) - a car that takes sick people to hospital
+   Call an ambulance! - Вызовите скорую!
+
+@amid
+prep. C1
+1. среди, посреди - in the middle of
+   amid the noise and smoke
+
+@among
+prep. A2
+1. среди, между (многими) - in a group of; surrounded by
+   a house among the trees - дом среди деревьев
+2. между (делить) - shared by
+   Divide the cake among you.
+
+@amount
+n. B1
+1. количество, сумма - how much there is of something
+   a large amount of money
+v. B2
+2. составлять, равняться (amount to) - add up to
+   The bill amounted to 100 dollars.
+
+@amuse
+v. B2
+1. забавлять, смешить - make someone laugh or smile
+   His jokes amused us.
+2. развлекать - keep someone busy and happy
+
+@amusement
+n. B2
+1. веселье, забава - finding something funny
+   He watched with amusement.
+2. развлечение - something that entertains
+   an amusement park
+
+@amusing
+adj. B2
+1. забавный, смешной - funny
+   an amusing story
+
+@analyse
+v. B1
+1. анализировать, разбирать - study something in detail
+   (US: analyze)
+
+@analysis
+n. B1
+1. анализ, разбор - a careful study of something
+
+@ancestor
+n. B2
+1. предок - a person in your family who lived long ago
+
+@anchor
+n. B2
+1. якорь - a heavy metal thing that keeps a ship in place
+v. B2
+2. ставить на якорь, закреплять - hold in place
+
+@ancient
+adj. A2
+1. древний, старинный - very old; from long ago
+   ancient Rome - Древний Рим
+
+@and
+conj. A1
+1. и, а - also; then
+   bread and butter - хлеб с маслом
+   He opened the door and went in. - Он открыл дверь и вошёл.
+
+@angel
+n. B1
+1. ангел - a spirit from God; a very kind person
+   You're an angel! - Ты ангел!
+
+@anger
+n. B1
+1. гнев, злость - a strong feeling of being angry
+   His face was red with anger.
+
+@angle
+n. B2
+1. угол - the space between two lines that meet
+   at an angle - под углом
+2. точка зрения - a way of looking at things
+
+@angry
+adj. A1
+1. злой, сердитый - feeling strong displeasure
+   She was angry with me. - Она на меня рассердилась.
+
+@anguish
+n. C1
+1. мука, страдание - great pain of the mind
+   a cry of anguish
+
+@animal
+n. A1
+1. животное, зверь - a living creature (not a plant)
+   wild animals - дикие животные
+
+@ankle
+n. A2
+1. лодыжка - the joint between your foot and leg
+   I hurt my ankle.
+
+@anniversary
+n. B1
+1. годовщина - the same date as an event in an earlier year
+   our wedding anniversary
+
+@announce
+v. B1
+1. объявлять, сообщать - tell people officially
+   They announced their engagement.
+
+@announcement
+n. B1
+1. объявление - an official statement
+
+@annoy
+v. B1
+1. раздражать, досаждать - make a bit angry
+   Stop annoying your sister!
+
+@annoyed
+adj. B1
+1. раздражённый, недовольный - a bit angry
+   I was annoyed with him.
+
+@annoying
+adj. B1
+1. раздражающий, надоедливый - making you a bit angry
+   an annoying noise
+
+@annual
+adj. B2
+1. ежегодный, годовой - every year; for one year
+   an annual meeting
+
+@another
+det. A1
+1. ещё один - one more
+   Have another cup. - Выпей ещё чашку.
+2. другой - a different one
+   Let's try another way.
+3. друг друга (one another) - each other
+
+@answer
+n. A1
+1. ответ - what you say or write when asked
+   I don't know the answer. - Я не знаю ответа.
+v. A1
+2. отвечать - give an answer
+   Please answer the question.
+3. открыть дверь; взять трубку (answer the door/phone)
+
+@ant
+n. B1
+1. муравей - a small insect that lives in large groups
+
+@anticipate
+v. B2
+1. предвидеть, ожидать - expect something to happen
+   We didn't anticipate any problems.
+
+@antique
+n. B2
+1. антикварная вещь - an old valuable object
+adj. B2
+2. старинный, антикварный
+
+@anxiety
+n. B2
+1. тревога, беспокойство - a worried, nervous feeling
+
+@anxious
+adj. B1
+1. встревоженный, беспокойный - worried
+   She was anxious about the exam.
+2. жаждущий, очень желающий - wanting something very much
+   He was anxious to please her.
+
+@any
+det. A1
+1. какой-нибудь, сколько-нибудь (в вопросах) - some, an amount
+   Have you got any money? - У тебя есть деньги?
+2. никакой (с not) - none at all
+   I don't have any time. - У меня совсем нет времени.
+3. любой - it doesn't matter which
+   Take any book you like.
+adv. B1
+4. больше не (not any more)
+   She doesn't live here any more.
+
+@anybody
+pron. A1
+1. кто-нибудь; никто (с not); любой - = anyone
+   Is anybody there? - Тут кто-нибудь есть?
+
+@anyhow
+adv. B2
+1. всё равно, так или иначе - anyway
+2. кое-как - carelessly
+
+@anyone
+pron. A1
+1. кто-нибудь (в вопросах) - any person
+   Did anyone call? - Кто-нибудь звонил?
+2. никто (с not) - no person
+   I didn't see anyone.
+3. любой, кто угодно - every person
+   Anyone can do it.
+
+@anything
+pron. A1
+1. что-нибудь (в вопросах) - any thing
+   Do you need anything? - Тебе что-нибудь нужно?
+2. ничего (с not) - nothing
+   I didn't say anything. - Я ничего не сказал.
+3. что угодно, всё - it doesn't matter what
+   I'll do anything for you.
+
+@anyway
+adv. A2
+1. всё равно, всё-таки - in spite of that
+   It was raining, but we went anyway.
+2. во всяком случае; ну ладно - (changing the subject)
+   Anyway, how are you?
+
+@anywhere
+adv. A2
+1. где-нибудь, куда-нибудь - in or to any place
+   Are you going anywhere tonight?
+2. нигде, никуда (с not) - no place
+   I can't find it anywhere.
+3. где угодно - any place at all
+   Sit anywhere you like.
+
+@apart
+adv. B1
+1. на расстоянии, отдельно - away from each other
+   They live apart.
+2. на части - into pieces
+   It fell apart.
+3. кроме, помимо (apart from) - except
+   Apart from Tom, everyone came.
+
+@apartment
+n. A1
+1. квартира - a flat, rooms to live in a building
+   a two-room apartment
+
+@apologize
+v. A2
+1. извиняться - say sorry
+   He apologized for being late. - Он извинился за опоздание.
+
+@apology
+n. B1
+1. извинение - words saying sorry
+   I owe you an apology.
+
+@apparent
+adj. B2
+1. очевидный, явный - easy to see or understand
+   for no apparent reason
+2. кажущийся - seeming true but maybe not

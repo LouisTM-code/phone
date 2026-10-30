@@ -1,0 +1,30 @@
+# Запуск с SD-карты: зажать
+# клавишу при включении.
+# Первая - LSOFT, 1 или 4,
+# вторая - сразу за ней.
+#
+# LSOFT  меню
+# 4      Doom
+# 1      игры для компании
+# 1+2    GB: Tobu Tobu Girl
+# 1+5    GB: Deadeus
+# 1+6    головоломки
+# иначе  каждая клавиша
+#        отдельно, потом меню
+#
+# Файл пишет make sdcard из
+# fpdoom/launcher/config.txt
+
+# Общие аргументы ($@).
+# Только --bright и т.п.:
+# --rotate меняет клавиши,
+# --dir ломает пути.
+--bright 60 --kpled 50
+
+|LSOFT| fpbin/apps.bin $@ apps
+|4| fpbin/doom.bin $@ --rotate 3 --dir games/doom1 doom
+|1| fpbin/party.bin $@ party
+|1+2| fpbin/gnuboy.bin $@ --rotate 3 --dir games/gb gnuboy tobudx.gb
+|1+5| fpbin/gnuboy.bin $@ --rotate 3 --dir games/gb gnuboy deadeus.gb
+|1+6| fpbin/puzzles.bin $@ puzzles
+|default| fpbin/apps.bin $@ apps

@@ -1,0 +1,560 @@
+@prepare
+v. A2
+1. готовить(ся), подготавливать - to make ready
+   She prepared dinner. - Она приготовила ужин.
+   to prepare for an exam
+
+@prepared
+adj. B1
+1. готовый (к чему-то) - ready; willing
+   I'm not prepared to wait.
+
+@prescription
+n. B2
+1. рецепт (врача) - a doctor's note for medicine
+
+@presence
+n. B2
+1. присутствие - being in a place
+   Don't talk about it in my presence.
+
+@present
+n. A1
+1. подарок - a gift
+   a birthday present - подарок на день рождения
+2. настоящее (время) - now
+   at present - в настоящее время
+adj. A2
+3. присутствующий - in a place
+   Fifty people were present.
+4. нынешний, теперешний - existing now
+   the present situation
+v. B1
+5. вручать, представлять - to give; to show
+   He presented her with flowers.
+
+@presently
+adv. C1
+1. вскоре, сейчас - soon; now
+   He'll be here presently.
+
+@preserve
+v. B2
+1. сохранять, оберегать - to keep safe or the same
+   to preserve old buildings
+2. консервировать - to keep food from going bad
+
+@president
+n. A2
+1. президент - the leader of a country or a company
+   the President of the USA
+
+@press
+v. B1
+1. нажимать, прижимать - to push
+   Press the button. - Нажмите кнопку.
+2. настаивать, давить - to try to make someone do something
+   They pressed him for an answer.
+n. B1
+3. пресса - newspapers and journalists
+   freedom of the press
+
+@pressure
+n. B1
+1. давление - force pressing on something
+   blood pressure
+2. давление, напряжение - stress
+   She's under a lot of pressure at work.
+
+@pretend
+v. B1
+1. притворяться, делать вид - to act as if something is true when it is not
+   He pretended to be asleep. - Он притворился спящим.
+
+@pretty
+adj. A1
+1. красивый, хорошенький - nice to look at (about girls, things)
+   a pretty girl - хорошенькая девушка
+adv. A2
+2. довольно, вполне - quite, rather
+   It's pretty cold today. - Сегодня довольно холодно.
+phr. pretty much - почти, практически
+
+@prevent
+v. B1
+1. предотвращать, мешать - to stop something from happening
+   The rain prevented us from going out.
+
+@previous
+adj. B1
+1. предыдущий, прежний - happening before
+   the previous day - накануне
+
+@prey
+n. B2
+1. добыча, жертва - an animal hunted by another
+   The lion caught its prey.
+
+@price
+n. A1
+1. цена - the money you pay for something
+   The price is too high. - Цена слишком высокая.
+
+@pride
+n. B1
+1. гордость - a feeling of being proud
+   He spoke of his son with pride.
+2. гордыня, самолюбие - feeling too important
+   Her pride stopped her from asking for help.
+
+@priest
+n. B1
+1. священник - a person who leads religious services
+
+@primary
+adj. B1
+1. главный, основной - most important
+2. начальный - for young children
+   a primary school - начальная школа
+
+@prime
+adj. B2
+1. главный, основной - most important
+   the prime suspect
+phr. Prime Minister - премьер-министр
+
+@prince
+n. A2
+1. принц, князь - the son of a king or queen
+   The prince married a poor girl.
+
+@princess
+n. A2
+1. принцесса, княгиня - the daughter of a king or queen
+
+@principle
+n. B2
+1. принцип - a rule or belief
+   a man of principle
+phr. in principle - в принципе
+
+@print
+v. A2
+1. печатать - to put words on paper with a machine
+   Can you print this document?
+2. писать печатными буквами - to write without joining letters
+n. B2
+3. шрифт, печать - letters in a book
+   small print
+
+@printer
+n. A2
+1. принтер - a machine that prints
+
+@priority
+n. B2
+1. приоритет, первоочередная задача - the most important thing
+   My family is my priority.
+
+@prison
+n. A2
+1. тюрьма - a place where criminals are kept
+   He was sent to prison. - Его посадили в тюрьму.
+
+@prisoner
+n. B1
+1. заключённый, пленник - a person kept in prison
+   They took him prisoner. - Его взяли в плен.
+
+@privacy
+n. B2
+1. уединение, личная жизнь - being alone; your private life
+   I need some privacy.
+
+@private
+adj. B1
+1. частный - owned by a person, not the state
+   a private school
+2. личный, тайный - secret, personal
+   private letters
+3. уединённый - quiet, without other people
+   Can we talk somewhere private?
+phr. in private - наедине, конфиденциально
+
+@privilege
+n. B2
+1. привилегия; честь - a special right or advantage
+   It was a privilege to meet him.
+
+@prize
+n. A2
+1. приз, премия - something you win
+   He won first prize.
+
+@probable
+adj. B2
+1. вероятный - likely to happen
+   the probable cause
+
+@probably
+adv. A2
+1. вероятно, наверное - almost certainly
+   She'll probably be late. - Она, наверное, опоздает.
+
+@problem
+n. A1
+1. проблема, задача - something difficult to deal with
+   No problem! - Нет проблем!
+
+@proceed
+v. B2
+1. продолжать, переходить (к) - to continue; to go on to do
+   He then proceeded to tell us everything.
+2. направляться - to go in a direction
+   Please proceed to gate 5.
+
+@process
+n. B1
+1. процесс - a series of actions
+   Learning a language is a slow process.
+phr. in the process of - в процессе
+
+@produce
+v. B1
+1. производить, выпускать - to make or grow
+   The factory produces cars.
+2. достать, вытащить - to take out to show
+   He produced a gun from his pocket.
+3. ставить, продюсировать - to organize a film or play
+
+@producer
+n. B1
+1. продюсер; производитель - a person or company that produces
+
+@product
+n. A2
+1. продукт, товар, изделие - something made to be sold
+   new products
+
+@production
+n. B1
+1. производство - making goods
+   car production
+2. постановка - a play or film
+
+@profession
+n. B1
+1. профессия - a job that needs special training
+   He's a lawyer by profession.
+
+@professional
+adj. B1
+1. профессиональный - connected with a job; done for money
+   a professional footballer
+
+@professor
+n. B1
+1. профессор - a high-ranking university teacher
+
+@profit
+n. B1
+1. прибыль - money you gain in business
+   They made a profit of $1000.
+
+@program
+n. A1
+1. программа (компьютерная) - instructions for a computer
+2. программа, передача (амер.) - (US) programme
+v. B2
+3. программировать - to write a computer program
+
+@programme
+n. A1
+1. передача, программа (ТВ, радио) - a show on TV or radio
+   my favourite TV programme
+2. программа, план - a plan of activities
+   a training programme
+
+@progress
+n. A2
+1. прогресс, успехи - development; getting better
+   She's making good progress.
+2. продвижение - movement forward
+phr. in progress - в процессе, идёт
+
+@project
+n. A2
+1. проект - a planned piece of work
+   a school project
+
+@promise
+v. A2
+1. обещать - to say you will certainly do something
+   I promise I'll be careful. - Обещаю, буду осторожен.
+n. A2
+2. обещание - words that promise
+   You broke your promise. - Ты нарушил обещание.
+   Keep your promise. - Сдержи обещание.
+
+@promote
+v. B2
+1. повышать (в должности) - to move to a higher job
+   She was promoted to manager.
+2. продвигать, рекламировать - to help to sell or develop
+
+@pronounce
+v. B1
+1. произносить - to say a word in a certain way
+   How do you pronounce your name?
+2. объявлять - to say officially
+   I now pronounce you husband and wife.
+
+@pronunciation
+n. A2
+1. произношение - the way a word is said
+   His pronunciation is good.
+
+@proof
+n. B2
+1. доказательство - facts that show something is true
+   Do you have any proof?
+
+@proper
+adj. B1
+1. настоящий, нормальный - real; correct
+   a proper meal
+2. правильный, подходящий - right, suitable
+   Put it back in its proper place.
+
+@properly
+adv. B1
+1. как следует, правильно - correctly
+   He can't even cook properly.
+
+@property
+n. B1
+1. собственность, имущество - things you own
+   This is private property.
+2. недвижимость, дом - a building or land
+   They bought a property in Spain.
+
+@proposal
+n. B2
+1. предложение (план) - a suggestion; a plan
+2. предложение руки и сердца - asking someone to marry
+
+@propose
+v. B2
+1. предлагать - to suggest
+   I propose that we leave now.
+2. делать предложение (руки) - to ask to marry
+   He proposed to her on the beach.
+
+@protect
+v. A2
+1. защищать, охранять - to keep safe from harm
+   She wore glasses to protect her eyes.
+
+@protection
+n. B1
+1. защита - keeping safe
+
+@protest
+v. B1
+1. протестовать, возражать - to say strongly you do not agree
+   "But I didn't do it!" she protested.
+n. B1
+2. протест - a strong complaint
+
+@proud
+adj. A2
+1. гордый - pleased with something you or others did
+   I'm proud of you. - Я горжусь тобой.
+2. гордый, надменный - thinking you are too important
+   He was too proud to ask for help.
+
+@prove
+v. B1
+1. доказывать - to show that something is true
+   Can you prove it? - Можешь доказать?
+2. оказываться - to turn out to be
+   The task proved difficult.
+
+@provide
+v. B1
+1. обеспечивать, предоставлять - to give something needed
+   The hotel provides towels.
+   to provide for a family - содержать семью
+
+@provoke
+v. B2
+1. вызывать, провоцировать - to cause a reaction; to make angry
+   Don't provoke him.
+
+@pub
+n. A2
+1. паб, пивная - a British bar where people drink beer
+   Let's go to the pub.
+
+@public
+adj. A2
+1. общественный, публичный - for everyone
+   public transport - общественный транспорт
+n. B1
+2. публика, общественность - ordinary people
+   The museum is open to the public.
+phr. in public - публично, на людях
+
+@publish
+v. B1
+1. издавать, публиковать - to print a book, newspaper, etc.
+   Her first novel was published in 1990.
+
+@pudding
+n. B1
+1. десерт, сладкое - a sweet dish at the end of a meal (British)
+2. пудинг - a soft sweet food
+
+@puddle
+n. B2
+1. лужа - a small pool of rain water
+   He stepped into a puddle.
+
+@puff
+v. B2
+1. пыхтеть, затягиваться (сигаретой) - to breathe out smoke; to breathe quickly
+   He puffed on his pipe.
+n. B2
+2. клуб (дыма), дуновение - a small amount of smoke or air
+   a puff of smoke
+
+@pull
+v. A2
+1. тянуть, тащить - to move something towards you
+   Pull the door, don't push it. - Тяни дверь, не толкай.
+2. вытаскивать, выдёргивать - to take out
+   He pulled out a gun.
+n. B2
+3. рывок, тяга - an act of pulling
+phr. pull up - остановиться (о машине)
+phr. pull yourself together - взять себя в руки
+phr. pull someone's leg - разыгрывать, подшучивать
+
+@pulse
+n. B2
+1. пульс - the beat of your heart
+   The nurse took his pulse.
+
+@pump
+n. B2
+1. насос - a machine that moves liquid or air
+v. B2
+2. качать - to move with a pump
+   The heart pumps blood.
+
+@punch
+v. B2
+1. ударить кулаком - to hit with a closed hand
+   He punched me in the face.
+n. B2
+2. удар кулаком - a hit with the fist
+
+@punish
+v. B1
+1. наказывать - to make someone suffer for doing wrong
+   They were punished for lying.
+
+@punishment
+n. B1
+1. наказание - a way of punishing
+
+@pupil
+n. A2
+1. ученик, школьник - a child at school
+   The school has 500 pupils.
+2. зрачок - the black centre of the eye
+
+@puppy
+n. B1
+1. щенок - a young dog
+
+@purchase
+v. B2
+1. покупать - to buy
+n. B2
+2. покупка - something bought
+
+@pure
+adj. B1
+1. чистый - not mixed with anything
+   pure gold; pure water
+2. чистый, полный (усилит.) - complete
+   by pure chance - по чистой случайности
+
+@purple
+adj., n. A1
+1. фиолетовый, лиловый - red and blue mixed
+   a purple dress
+
+@purpose
+n. B1
+1. цель, назначение - the reason for doing something
+   What is the purpose of your visit?
+phr. on purpose - нарочно, специально
+   You did that on purpose! - Ты сделал это нарочно!
+
+@purse
+n. A2
+1. кошелёк - a small bag for money
+2. сумочка (амер.) - a handbag
+
+@pursue
+v. B2
+1. преследовать, гнаться - to follow in order to catch
+   The police pursued the car.
+2. заниматься, стремиться к - to try to achieve
+   to pursue a career
+
+@push
+v. A1
+1. толкать, нажимать - to move something away from you
+   Push the door. - Толкни дверь.
+   Don't push! - Не толкайся!
+2. заставлять, давить - to try to make someone do something
+   His parents pushed him to study.
+n. B1
+3. толчок - an act of pushing
+   Give it a push.
+
+@put
+v. (put, put) A1
+1. класть, ставить, положить - to move something into a place
+   Put the book on the table. - Положи книгу на стол.
+2. выражать, формулировать - to say
+   Let me put it another way.
+phr. put on - надевать; включать
+   Put on your coat. - Надень пальто.
+phr. put off - откладывать
+   We put off the meeting until Friday.
+phr. put out - тушить (огонь, сигарету)
+phr. put up with - мириться с, терпеть
+   I can't put up with this noise.
+phr. put away - убирать на место
+
+@puzzle
+n. B1
+1. головоломка, загадка - a game or problem that is hard to solve
+   a crossword puzzle
+v. B2
+2. озадачивать - to confuse
+   His answer puzzled me.
+
+@puzzled
+adj. B1
+1. озадаченный - confused
+   She looked puzzled.
+
+@pyjamas
+n. A2
+1. пижама - clothes for sleeping
+   He was still in his pyjamas.

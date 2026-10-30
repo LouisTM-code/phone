@@ -1,0 +1,734 @@
+@religion
+n. B1
+1. религия - belief in a god or gods
+   They have different religions.
+
+@religious
+adj. B1
+1. религиозный - connected with religion; believing in God
+   She's very religious.
+
+@reluctant
+adj. B2
+1. неохотный, не желающий - not wanting to do something
+   He was reluctant to leave.
+
+@rely
+v. B1
+1. полагаться, зависеть (rely on) - trust, depend on
+   You can rely on me. - Можешь на меня положиться.
+
+@remain
+v. B1
+1. оставаться - stay in the same place or state
+   Please remain seated.
+   She remained silent.
+2. оставаться (в наличии) - be left
+   Only a few houses remain.
+
+@remark
+n. B1
+1. замечание - something you say
+   He made a rude remark.
+v. B2
+2. замечать, говорить - say, comment
+   "It's late," she remarked.
+
+@remarkable
+adj. B1
+1. замечательный, удивительный - unusual and surprising
+   She made a remarkable recovery.
+
+@remember
+v. A1
+1. помнить, вспоминать - keep in your mind; recall
+   Do you remember me? - Ты меня помнишь?
+2. не забыть (сделать) - not forget to do
+   Remember to lock the door. - Не забудь запереть дверь.
+3. передавать привет - send greetings
+   Remember me to your parents.
+
+@remind
+v. B1
+1. напоминать (сделать) - make someone remember
+   Remind me to call her. - Напомни мне позвонить ей.
+2. напоминать (кого-то, что-то) - be similar to
+   You remind me of your father.
+
+@remote
+adj. B1
+1. отдалённый, глухой - far away from towns
+   a remote village
+2. маловероятный - very small (chance)
+   a remote possibility
+n. B1
+3. пульт (дистанционного управления) - a remote control
+   Where's the TV remote?
+
+@remove
+v. A2
+1. убирать, удалять - take away
+   Remove the pan from the heat.
+2. снимать (одежду) - take off clothes
+   He removed his hat.
+
+@rent
+n. A2
+1. арендная плата, квартплата - money paid to use a home
+   The rent is due on Monday.
+v. A2
+2. снимать, арендовать - pay to use a place or thing
+   We rented a flat in London. - Мы снимали квартиру в Лондоне.
+3. сдавать (в аренду) - let others use for money
+   They rent rooms to students.
+
+@repair
+v. A2
+1. чинить, ремонтировать - fix something broken
+   Can you repair my bike? - Можешь починить мой велосипед?
+n. B1
+2. ремонт - the work of fixing something
+   The road is under repair.
+
+@repeat
+v. A1
+1. повторять - say or do again
+   Could you repeat that, please? - Повторите, пожалуйста.
+
+@replace
+v. A2
+1. заменять - take the place of; put a new thing instead
+   Machines replaced workers.
+   We need to replace the window.
+2. класть на место - put back
+   He replaced the book on the shelf.
+
+@reply
+v. A2
+1. отвечать - answer
+   She didn't reply to my letter. - Она не ответила на моё письмо.
+n. A2
+2. ответ - an answer
+   I'm waiting for a reply.
+
+@report
+n. A2
+1. доклад, отчёт; репортаж - a description of an event
+   a news report
+v. A2
+2. сообщать, докладывать - tell people about something
+   Report any problems to the manager.
+3. заявлять (в полицию) - tell the police
+   She reported the theft.
+4. являться, прибыть (report to) - tell someone you have arrived
+   Report to the office at nine.
+
+@represent
+v. B1
+1. представлять (интересы) - speak or act for someone
+   A lawyer represented him in court.
+2. изображать, обозначать - show, be a sign of
+   The red line represents the river.
+3. являться, представлять собой - be
+   This represents a big change.
+
+@reputation
+n. B1
+1. репутация - what people think of someone
+   The hotel has a good reputation.
+
+@request
+n. B1
+1. просьба, запрос - asking for something politely
+   I have a small request. - У меня небольшая просьба.
+v. B1
+2. просить (официально) - ask for formally
+   Passengers are requested to remain seated.
+
+@require
+v. B1
+1. требовать(ся), нуждаться - need
+   This job requires patience.
+2. требовать (по правилам) - make someone do something
+   You are required to wear a seat belt.
+
+@rescue
+v. B1
+1. спасать - save from danger
+   He rescued a child from the river. - Он спас ребёнка из реки.
+n. B1
+2. спасение - saving from danger
+   They came to our rescue.
+
+@research
+n. A2
+1. исследование - careful study to find new facts
+   She does research on cancer.
+v. B1
+2. исследовать, изучать - study to find facts
+   He is researching the history of the town.
+
+@resemble
+v. B2
+1. походить на, быть похожим - look like
+   She resembles her mother.
+
+@resent
+v. B2
+1. обижаться, возмущаться - feel angry about something unfair
+   He resented being treated like a child.
+
+@reserve
+v. B1
+1. бронировать, резервировать - keep a place for later
+   I reserved a table for two. - Я забронировал столик на двоих.
+n. B2
+2. запас, резерв - a supply kept for later
+   reserves of oil
+3. сдержанность - not showing feelings
+   She lost her reserve and laughed.
+
+@resident
+n. B1
+1. житель, жилец - a person living in a place
+   local residents
+
+@resign
+v. B2
+1. уходить в отставку, увольняться - leave your job officially
+   The minister resigned yesterday.
+phr. resign yourself to - смириться с
+   She resigned herself to waiting.
+
+@resist
+v. B2
+1. сопротивляться - fight against
+   He resisted arrest.
+2. удерживаться, устоять (перед) - stop yourself from doing
+   I couldn't resist the cake.
+
+@resolve
+v. B2
+1. решать, разрешать (проблему) - find an answer to a problem
+   They resolved the dispute.
+2. решить, принять решение - decide firmly
+   She resolved to work harder.
+n. C1
+3. решимость - strong will
+   The danger only strengthened his resolve.
+
+@resort
+n. B2
+1. курорт - a place for holidays
+   a ski resort
+phr. as a last resort - в крайнем случае
+   Use force only as a last resort.
+phr. resort to - прибегать к (чему-то плохому)
+   He resorted to violence.
+
+@resource
+n. B1
+1. ресурс, запас - something useful you have
+   natural resources
+2. находчивость (resources) - ability to solve problems
+   She had to rely on her own resources.
+
+@respect
+n. A2
+1. уважение - a good opinion of someone
+   I have great respect for him. - Я очень его уважаю.
+2. отношение (in this respect) - a detail, aspect
+   In some respects, he is right.
+v. A2
+3. уважать - admire, treat with respect
+   Children should respect their parents.
+
+@respond
+v. B1
+1. отвечать - answer
+   She didn't respond to my email.
+2. реагировать - react
+   How did he respond to the news?
+
+@response
+n. B1
+1. ответ, реакция - an answer or reaction
+   I got no response. - Я не получил ответа.
+
+@responsibility
+n. B1
+1. ответственность, обязанность - a duty to take care of something
+   It's your responsibility to lock the door.
+2. ответственность (вина) - blame
+   No one took responsibility for the mistake.
+
+@responsible
+adj. B1
+1. ответственный (за) - having the duty to deal with something
+   Who is responsible for this? - Кто за это отвечает?
+2. виновный - being the cause of something bad
+   He was responsible for the accident.
+3. надёжный, ответственный - sensible, can be trusted
+   She's a very responsible girl.
+
+@rest
+n. A1
+1. отдых - time of relaxing or sleeping
+   You need a rest. - Тебе нужно отдохнуть.
+2. остальное, остальные (the rest) - what is left
+   I'll do the rest. - Остальное сделаю я.
+   The rest of the children stayed home.
+v. A2
+3. отдыхать - relax, sleep
+   Let's rest for a minute.
+4. опирать(ся), класть - lean or put on something
+   She rested her head on his shoulder.
+
+@restaurant
+n. A1
+1. ресторан - a place where you buy and eat meals
+   Let's eat at a restaurant tonight. - Давай поужинаем сегодня в ресторане.
+
+@restless
+adj. B2
+1. беспокойный, неугомонный - unable to stay still or relax
+   The children were restless.
+   a restless night
+
+@restore
+v. B2
+1. восстанавливать, реставрировать - bring back to a good state
+   They restored the old church.
+   to restore order
+
+@result
+n. A1
+1. результат, итог - what happens because of something
+   The result was a disaster.
+phr. as a result - в результате
+   As a result, he lost his job.
+v. B1
+2. приводить к (result in); быть следствием (result from) - cause; be caused by
+   The fire resulted in three deaths.
+
+@retire
+v. B1
+1. уходить на пенсию - stop working because of age
+   My father retired last year. - Мой отец вышел на пенсию в прошлом году.
+2. удаляться, уходить (спать) - go away, go to bed
+   She retired to her room.
+
+@retreat
+v. B2
+1. отступать - move back, away from danger
+   The army retreated.
+n. B2
+2. отступление - the act of moving back
+3. убежище, уединённое место - a quiet, private place
+   a mountain retreat
+
+@return
+v. A2
+1. возвращаться - come or go back
+   He returned home late. - Он вернулся домой поздно.
+2. возвращать, отдавать - give or send back
+   Please return the book on Friday.
+n. A2
+3. возвращение - coming back
+   on his return from Paris
+4. обратный билет (return ticket) - a ticket there and back
+   A return to Oxford, please.
+phr. in return - в ответ, взамен
+   What do you want in return?
+
+@reveal
+v. B1
+1. раскрывать, открывать (тайну) - make known
+   He revealed the secret.
+2. показывать, обнажать - let something be seen
+   She opened the door, revealing a dark room.
+
+@revenge
+n. B2
+1. месть - harm done to someone who hurt you
+   He wanted revenge. - Он хотел мести.
+   She took revenge on him.
+
+@reverse
+v. B2
+1. давать задний ход - drive backwards
+   He reversed the car into the garage.
+2. изменять на противоположное, отменять - change to the opposite
+   The court reversed the decision.
+n. B2
+3. противоположное - the opposite
+   Quite the reverse!
+adj. B2
+4. обратный - opposite
+   in reverse order
+
+@review
+n. B1
+1. рецензия, отзыв - an article giving an opinion of a book, film
+   The film got good reviews.
+2. пересмотр, обзор - careful study of something again
+v. B1
+3. пересматривать, проверять - look at again carefully
+   We will review the situation next week.
+4. писать рецензию - write a review
+
+@revolution
+n. B1
+1. революция - violent change of government
+   the French Revolution
+2. переворот (в чём-то) - a great change
+   a revolution in medicine
+
+@reward
+n. B1
+1. награда, вознаграждение - something given for good work
+   a reward for finding the dog
+v. B1
+2. награждать - give a reward
+   He was rewarded for his courage.
+
+@rhythm
+n. B1
+1. ритм - a regular pattern of sounds or movements
+   the rhythm of the music
+
+@rib
+n. B2
+1. ребро - one of the curved bones of the chest
+   He broke two ribs.
+
+@ribbon
+n. B2
+1. лента - a narrow strip of cloth
+   She tied her hair with a ribbon.
+
+@rice
+n. A1
+1. рис - small white grains used as food
+   chicken with rice - курица с рисом
+
+@rich
+adj. A1
+1. богатый - having a lot of money
+   He is a rich man. - Он богатый человек.
+2. богатый (чем-то) - having a lot of something
+   The soil is rich in minerals.
+3. жирный, сытный (о еде) - with a lot of fat or sugar
+   a rich chocolate cake
+4. насыщенный, глубокий (о цвете, звуке) - deep and strong
+   a rich red colour
+
+@rid
+v. (rid, rid) B1
+phr. get rid of - избавиться от
+   I want to get rid of this old sofa. - Я хочу избавиться от этого старого дивана.
+phr. be rid of - отделаться от
+   I'm glad to be rid of him.
+
+@ride
+v. (rode, ridden) A1
+1. ездить (верхом, на велосипеде) - sit on and control a horse or bike
+   Can you ride a bike? - Ты умеешь кататься на велосипеде?
+2. ехать (в транспорте) - travel in a vehicle
+   We rode the bus into town.
+n. A2
+3. поездка, прогулка - a journey on a horse, bike or in a car
+   Let's go for a ride.
+4. подвезти (give a ride) - free trip in someone's car
+   Can you give me a ride home?
+
+@ridge
+n. C1
+1. гребень (горы), хребет - a long narrow top of a hill
+   We walked along the ridge.
+
+@ridiculous
+adj. B1
+1. нелепый, смешной - very silly
+   You look ridiculous in that hat.
+
+@rifle
+n. B2
+1. винтовка, ружьё - a long gun
+   He raised his rifle and fired.
+
+@right
+adj. A1
+1. правильный, верный - correct
+   That's the right answer. - Это правильный ответ.
+2. правый - on the side of the right hand
+   my right hand - моя правая рука
+3. правый, справедливый - morally good, fair
+   It's not right to lie.
+4. подходящий - suitable
+   He's the right man for the job.
+adv. A1
+5. направо - to the right side
+   Turn right at the corner. - Поверните направо на углу.
+6. прямо, точно - exactly, directly
+   He stood right behind me.
+n. A2
+7. право - something you are allowed to do or have
+   You have no right to say that.
+phr. right away - сразу, немедленно
+   I'll do it right away.
+
+@rigid
+adj. B2
+1. жёсткий, негибкий - stiff; very strict
+   rigid rules
+   She sat rigid with fear.
+
+@ring
+n. A1
+1. кольцо - a round band worn on a finger
+   a wedding ring - обручальное кольцо
+2. круг - a circle
+   They sat in a ring.
+3. звонок - the sound of a bell
+   There was a ring at the door.
+4. ринг, арена - a place for boxing or a circus
+v. (rang, rung) A1
+5. звонить (по телефону) - phone
+   I'll ring you tomorrow. - Я позвоню тебе завтра.
+6. звенеть, звонить (о звонке) - make a bell sound
+   The phone was ringing.
+phr. ring up - позвонить по телефону
+
+@riot
+n. B2
+1. бунт, беспорядки - violent behaviour by a crowd
+   Police were called to stop the riot.
+v. C1
+2. бунтовать - take part in a riot
+
+@rip
+v. B2
+1. рвать, разрывать - tear quickly
+   She ripped the letter open.
+phr. rip off - обдирать, обманывать (разг.)
+   The taxi driver ripped us off.
+
+@ripe
+adj. B2
+1. спелый, зрелый - ready to eat (of fruit)
+   ripe bananas
+
+@rise
+v. (rose, risen) A2
+1. подниматься, возрастать - go up, increase
+   Prices are rising. - Цены растут.
+2. восходить (о солнце) - come up in the sky
+   The sun rises in the east. - Солнце встаёт на востоке.
+3. вставать, подниматься - stand up, get out of bed
+   He rose from his chair.
+4. восставать - fight against authority
+   The people rose against the king.
+n. B1
+5. рост, повышение - an increase
+   a rise in prices
+   a pay rise
+
+@risk
+n. B1
+1. риск, опасность - the chance of something bad
+   There is a risk of fire.
+phr. take a risk - рисковать
+   I don't want to take any risks.
+v. B1
+2. рисковать - do something that might be dangerous
+   He risked his life to save her.
+
+@rival
+n. B2
+1. соперник, конкурент - someone competing with you
+   They were rivals for her love.
+adj. B2
+2. соперничающий - competing
+   a rival company
+
+@river
+n. A1
+1. река - a long natural stream of water
+   We swam in the river. - Мы купались в реке.
+
+@road
+n. A1
+1. дорога, улица - a hard way for cars
+   Be careful when you cross the road. - Будь осторожен, когда переходишь дорогу.
+2. путь (к чему-то) - a way to a result
+   on the road to success
+
+@roar
+v. B2
+1. реветь, рычать - make a loud deep sound
+   The lion roared.
+2. хохотать - laugh loudly
+   They roared with laughter.
+n. B2
+3. рёв, рык, гул - a loud deep sound
+   the roar of the engine
+
+@roast
+v. B1
+1. жарить, запекать (в духовке) - cook in an oven or over a fire
+   We roasted a chicken.
+adj. B1
+2. жареный, запечённый - cooked in this way
+   roast beef
+
+@rob
+v. B1
+1. грабить, обворовывать - steal from a person or place
+   They robbed a bank. - Они ограбили банк.
+   He was robbed of his watch.
+
+@robe
+n. C1
+1. халат; мантия - a long loose piece of clothing
+   a bath robe
+   the judge's robes
+
+@robot
+n. A2
+1. робот - a machine that does work like a person
+   Robots build cars in this factory.
+
+@rock
+n. A2
+1. скала, камень - the hard part of the earth; a large stone
+   He sat on a rock by the sea.
+2. рок (музыка) - loud modern music
+   a rock band
+v. B2
+3. качать(ся) - move gently from side to side
+   She rocked the baby to sleep.
+
+@rod
+n. B2
+1. прут, стержень - a long thin stick
+   a fishing rod - удочка
+
+@role
+n. A2
+1. роль - a part in a film or play
+   She played the role of the queen.
+2. роль, функция - the job or position someone has
+   Parents play a key role in education.
+
+@roll
+v. B1
+1. катить(ся) - move by turning over and over
+   The ball rolled down the hill.
+2. сворачивать (в рулон, трубку) - make into a tube or ball
+   He rolled a cigarette.
+3. катиться (о слезах), плыть - move smoothly
+   Tears rolled down her cheeks.
+n. B1
+4. рулон - a tube of something rolled up
+   a roll of toilet paper
+5. булочка - a small round bread
+phr. roll up - закатывать (рукава)
+   He rolled up his sleeves.
+
+@romantic
+adj. B1
+1. романтический, романтичный - about love
+   a romantic dinner
+2. романтичный, мечтательный - unrealistic, idealistic
+   romantic ideas about life
+
+@roof
+n. A2
+1. крыша - the top cover of a building or car
+   The roof is leaking. - Крыша протекает.
+
+@room
+n. A1
+1. комната - a part of a building with walls
+   My room is upstairs. - Моя комната наверху.
+2. место, пространство - space
+   There's no room for a piano.
+   Make room for me.
+
+@root
+n. B1
+1. корень - the part of a plant under the ground
+   the roots of the tree
+2. корень, источник - the cause of something
+   Money is the root of all evil.
+3. корни (roots) - where your family comes from
+   He went back to his roots.
+
+@rope
+n. B1
+1. верёвка, канат - very thick strong string
+   They tied him up with a rope.
+
+@rose
+n. A2
+1. роза - a flower with a sweet smell
+   He gave her a red rose.
+
+@rotten
+adj. B2
+1. гнилой, тухлый - gone bad
+   rotten eggs
+2. отвратительный, скверный (разг.) - very bad
+   I feel rotten today.
+
+@rough
+adj. B1
+1. шершавый, грубый, неровный - not smooth
+   rough skin
+   a rough road
+2. приблизительный - not exact
+   a rough idea
+3. грубый, жёсткий - violent, not gentle
+   Don't be so rough with him.
+4. бурный (о море); тяжёлый - stormy; difficult
+   a rough sea
+   I had a rough day.
+
+@roughly
+adv. B1
+1. примерно, приблизительно - about, not exactly
+   It costs roughly 100 dollars.
+2. грубо - in a rough way
+   He pushed her roughly.
+
+@round
+adj. A1
+1. круглый - shaped like a circle
+   a round table - круглый стол
+adv. A2
+2. вокруг, кругом - in a circle; turning
+   Turn round. - Обернись.
+prep. A2
+3. вокруг - on all sides of
+   They sat round the fire.
+4. по (местности), за (угол) - in or to different parts of
+   We walked round the town.
+   round the corner
+n. B1
+5. раунд, тур - one part of a game or competition
+6. круг, порция (выпивки для всех) - drinks for everyone
+   It's my round.
+
+@route
+n. B1
+1. маршрут, путь - the way from one place to another
+   What's the best route to the station?
+
+@routine
+n. B1
+1. распорядок, привычный порядок - the usual order of doing things
+   my daily routine
+adj. B2
+2. обычный, рутинный - normal, regular
+   a routine check

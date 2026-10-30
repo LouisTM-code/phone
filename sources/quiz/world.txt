@@ -1,0 +1,204 @@
+# Страны мира: столицы, флаги, валюты (193 страны ООН и Ватикан).
+# Формат набора викторины: tools/mkquiz.py. Знаки валют: signs/signs.txt, tools/mksigns.py.
+!title	Страны мира
+!group	Часть света
+!image	Флаг
+!icon	Валюта	Знак
+!mode	Столицы	Страна	Столица
+!mode	Флаги	Флаг	Страна
+!mode	Валюты	Страна	Валюта
+Страна	Столица	Валюта	Часть света	Флаг	Знак
+Албания	Тирана	лек	Европа	flags/al.png	signs/all.png
+Андорра	Андорра-ла-Велья	евро	Европа	flags/ad.png	signs/eur.png
+Австрия	Вена	евро	Европа	flags/at.png	signs/eur.png
+Беларусь	Минск	белорусский рубль	Европа	flags/by.png	signs/byn.png
+Бельгия	Брюссель	евро	Европа	flags/be.png	signs/eur.png
+Босния и Герцеговина	Сараево	конвертируемая марка	Европа	flags/ba.png	signs/bam.png
+Болгария	София	лев	Европа	flags/bg.png	signs/bgn.png
+Ватикан	Ватикан	евро	Европа	flags/va.png	signs/eur.png
+Великобритания	Лондон	фунт стерлингов	Европа	flags/gb.png	signs/gbp.png
+Венгрия	Будапешт	форинт	Европа	flags/hu.png	signs/huf.png
+Германия	Берлин	евро	Европа	flags/de.png	signs/eur.png
+Греция	Афины	евро	Европа	flags/gr.png	signs/eur.png
+Дания	Копенгаген	датская крона	Европа	flags/dk.png	signs/dkk.png
+Ирландия	Дублин	евро	Европа	flags/ie.png	signs/eur.png
+Исландия	Рейкьявик	исландская крона	Европа	flags/is.png	signs/isk.png
+Испания	Мадрид	евро	Европа	flags/es.png	signs/eur.png
+Италия	Рим	евро	Европа	flags/it.png	signs/eur.png
+Кипр	Никосия	евро	Европа	flags/cy.png	signs/eur.png
+Латвия	Рига	евро	Европа	flags/lv.png	signs/eur.png
+Литва	Вильнюс	евро	Европа	flags/lt.png	signs/eur.png
+Лихтенштейн	Вадуц	швейцарский франк	Европа	flags/li.png	signs/chf.png
+Люксембург	Люксембург	евро	Европа	flags/lu.png	signs/eur.png
+Мальта	Валлетта	евро	Европа	flags/mt.png	signs/eur.png
+Молдова	Кишинёв	молдавский лей	Европа	flags/md.png	signs/mdl.png
+Монако	Монако	евро	Европа	flags/mc.png	signs/eur.png
+Нидерланды	Амстердам	евро	Европа	flags/nl.png	signs/eur.png
+Норвегия	Осло	норвежская крона	Европа	flags/no.png	signs/nok.png
+Польша	Варшава	злотый	Европа	flags/pl.png	signs/pln.png
+Португалия	Лиссабон	евро	Европа	flags/pt.png	signs/eur.png
+Россия	Москва	российский рубль	Европа	flags/ru.png	signs/rub.png
+Румыния	Бухарест	румынский лей	Европа	flags/ro.png	signs/ron.png
+Сан-Марино	Сан-Марино	евро	Европа	flags/sm.png	signs/eur.png
+Северная Македония	Скопье	денар	Европа	flags/mk.png	signs/mkd.png
+Сербия	Белград	сербский динар	Европа	flags/rs.png	signs/rsd.png
+Словакия	Братислава	евро	Европа	flags/sk.png	signs/eur.png
+Словения	Любляна	евро	Европа	flags/si.png	signs/eur.png
+Украина	Киев	гривна	Европа	flags/ua.png	signs/uah.png
+Финляндия	Хельсинки	евро	Европа	flags/fi.png	signs/eur.png
+Франция	Париж	евро	Европа	flags/fr.png	signs/eur.png
+Хорватия	Загреб	евро	Европа	flags/hr.png	signs/eur.png
+Черногория	Подгорица	евро	Европа	flags/me.png	signs/eur.png
+Чехия	Прага	чешская крона	Европа	flags/cz.png	signs/czk.png
+Швейцария	Берн	швейцарский франк	Европа	flags/ch.png	signs/chf.png
+Швеция	Стокгольм	шведская крона	Европа	flags/se.png	signs/sek.png
+Эстония	Таллин	евро	Европа	flags/ee.png	signs/eur.png
+Афганистан	Кабул	афгани	Азия	flags/af.png	signs/afn.png
+Армения	Ереван	драм	Азия	flags/am.png	signs/amd.png
+Азербайджан	Баку	азербайджанский манат	Азия	flags/az.png	signs/azn.png
+Бахрейн	Манама	бахрейнский динар	Азия	flags/bh.png	signs/bhd.png
+Бангладеш	Дакка	така	Азия	flags/bd.png	signs/bdt.png
+Бутан	Тхимпху	нгултрум	Азия	flags/bt.png	signs/btn.png
+Бруней	Бандар-Сери-Бегаван	брунейский доллар	Азия	flags/bn.png	signs/bnd.png
+Камбоджа	Пномпень	риель	Азия	flags/kh.png	signs/khr.png
+Китай	Пекин	юань	Азия	flags/cn.png	signs/cny.png
+Грузия	Тбилиси	лари	Азия	flags/ge.png	signs/gel.png
+Индия	Нью-Дели	индийская рупия	Азия	flags/in.png	signs/inr.png
+Индонезия	Джакарта	индонезийская рупия	Азия	flags/id.png	signs/idr.png
+Иран	Тегеран	иранский риал	Азия	flags/ir.png	signs/irr.png
+Ирак	Багдад	иракский динар	Азия	flags/iq.png	signs/iqd.png
+Израиль	Иерусалим	шекель	Азия	flags/il.png	signs/ils.png
+Япония	Токио	иена	Азия	flags/jp.png	signs/jpy.png
+Иордания	Амман	иорданский динар	Азия	flags/jo.png	signs/jod.png
+Казахстан	Астана	тенге	Азия	flags/kz.png	signs/kzt.png
+Кувейт	Эль-Кувейт	кувейтский динар	Азия	flags/kw.png	signs/kwd.png
+Киргизия	Бишкек	сом	Азия	flags/kg.png	signs/kgs.png
+Лаос	Вьентьян	кип	Азия	flags/la.png	signs/lak.png
+Ливан	Бейрут	ливанский фунт	Азия	flags/lb.png	signs/lbp.png
+Малайзия	Куала-Лумпур	ринггит	Азия	flags/my.png	signs/myr.png
+Мальдивы	Мале	руфия	Азия	flags/mv.png	signs/mvr.png
+Монголия	Улан-Батор	тугрик	Азия	flags/mn.png	signs/mnt.png
+Мьянма	Нейпьидо	кьят	Азия	flags/mm.png	signs/mmk.png
+Непал	Катманду	непальская рупия	Азия	flags/np.png	signs/npr.png
+Северная Корея	Пхеньян	северокорейская вона	Азия	flags/kp.png	signs/kpw.png
+Южная Корея	Сеул	южнокорейская вона	Азия	flags/kr.png	signs/krw.png
+Оман	Маскат	оманский риал	Азия	flags/om.png	signs/omr.png
+Пакистан	Исламабад	пакистанская рупия	Азия	flags/pk.png	signs/pkr.png
+Филиппины	Манила	филиппинское песо	Азия	flags/ph.png	signs/php.png
+Катар	Доха	катарский риал	Азия	flags/qa.png	signs/qar.png
+Саудовская Аравия	Эр-Рияд	саудовский риял	Азия	flags/sa.png	signs/sar.png
+Сингапур	Сингапур	сингапурский доллар	Азия	flags/sg.png	signs/sgd.png
+Шри-Ланка	Шри-Джаяварденепура-Котте	шри-ланкийская рупия	Азия	flags/lk.png	signs/lkr.png
+Сирия	Дамаск	сирийский фунт	Азия	flags/sy.png	signs/syp.png
+Таджикистан	Душанбе	сомони	Азия	flags/tj.png	signs/tjs.png
+Таиланд	Бангкок	бат	Азия	flags/th.png	signs/thb.png
+Восточный Тимор	Дили	доллар США	Азия	flags/tl.png	signs/usd.png
+Турция	Анкара	турецкая лира	Азия	flags/tr.png	signs/try.png
+Туркмения	Ашхабад	туркменский манат	Азия	flags/tm.png	signs/tmt.png
+ОАЭ	Абу-Даби	дирхам ОАЭ	Азия	flags/ae.png	signs/aed.png
+Узбекистан	Ташкент	узбекский сум	Азия	flags/uz.png	signs/uzs.png
+Вьетнам	Ханой	донг	Азия	flags/vn.png	signs/vnd.png
+Йемен	Сана	йеменский риал	Азия	flags/ye.png	signs/yer.png
+Алжир	Алжир	алжирский динар	Африка	flags/dz.png	signs/dzd.png
+Ангола	Луанда	кванза	Африка	flags/ao.png	signs/aoa.png
+Бенин	Порто-Ново	франк КФА	Африка	flags/bj.png	signs/xof.png
+Ботсвана	Габороне	пула	Африка	flags/bw.png	signs/bwp.png
+Буркина-Фасо	Уагадугу	франк КФА	Африка	flags/bf.png	signs/xof.png
+Бурунди	Гитега	бурундийский франк	Африка	flags/bi.png	signs/bif.png
+Камерун	Яунде	франк КФА	Африка	flags/cm.png	signs/xof.png
+Кабо-Верде	Прая	эскудо Кабо-Верде	Африка	flags/cv.png	signs/cve.png
+ЦАР	Банги	франк КФА	Африка	flags/cf.png	signs/xof.png
+Чад	Нджамена	франк КФА	Африка	flags/td.png	signs/xof.png
+Коморы	Морони	коморский франк	Африка	flags/km.png	signs/kmf.png
+Республика Конго	Браззавиль	франк КФА	Африка	flags/cg.png	signs/xof.png
+ДР Конго	Киншаса	конголезский франк	Африка	flags/cd.png	signs/cdf.png
+Кот-д’Ивуар	Ямусукро	франк КФА	Африка	flags/ci.png	signs/xof.png
+Джибути	Джибути	франк Джибути	Африка	flags/dj.png	signs/djf.png
+Египет	Каир	египетский фунт	Африка	flags/eg.png	signs/egp.png
+Экваториальная Гвинея	Малабо	франк КФА	Африка	flags/gq.png	signs/xof.png
+Эритрея	Асмэра	накфа	Африка	flags/er.png	signs/ern.png
+Эсватини	Мбабане	лилангени	Африка	flags/sz.png	signs/szl.png
+Эфиопия	Аддис-Абеба	быр	Африка	flags/et.png	signs/etb.png
+Габон	Либревиль	франк КФА	Африка	flags/ga.png	signs/xof.png
+Гамбия	Банжул	даласи	Африка	flags/gm.png	signs/gmd.png
+Гана	Аккра	седи	Африка	flags/gh.png	signs/ghs.png
+Гвинея	Конакри	гвинейский франк	Африка	flags/gn.png	signs/gnf.png
+Гвинея-Бисау	Бисау	франк КФА	Африка	flags/gw.png	signs/xof.png
+Кения	Найроби	кенийский шиллинг	Африка	flags/ke.png	signs/kes.png
+Лесото	Масеру	лоти	Африка	flags/ls.png	signs/lsl.png
+Либерия	Монровия	либерийский доллар	Африка	flags/lr.png	signs/lrd.png
+Ливия	Триполи	ливийский динар	Африка	flags/ly.png	signs/lyd.png
+Мадагаскар	Антананариву	ариари	Африка	flags/mg.png	signs/mga.png
+Малави	Лилонгве	малавийская квача	Африка	flags/mw.png	signs/mwk.png
+Мали	Бамако	франк КФА	Африка	flags/ml.png	signs/xof.png
+Мавритания	Нуакшот	угия	Африка	flags/mr.png	signs/mru.png
+Маврикий	Порт-Луи	маврикийская рупия	Африка	flags/mu.png	signs/mur.png
+Марокко	Рабат	марокканский дирхам	Африка	flags/ma.png	signs/mad.png
+Мозамбик	Мапуту	метикал	Африка	flags/mz.png	signs/mzn.png
+Намибия	Виндхук	намибийский доллар	Африка	flags/na.png	signs/nad.png
+Нигер	Ниамей	франк КФА	Африка	flags/ne.png	signs/xof.png
+Нигерия	Абуджа	найра	Африка	flags/ng.png	signs/ngn.png
+Руанда	Кигали	руандийский франк	Африка	flags/rw.png	signs/rwf.png
+Сан-Томе и Принсипи	Сан-Томе	добра	Африка	flags/st.png	signs/stn.png
+Сенегал	Дакар	франк КФА	Африка	flags/sn.png	signs/xof.png
+Сейшелы	Виктория	сейшельская рупия	Африка	flags/sc.png	signs/scr.png
+Сьерра-Леоне	Фритаун	леоне	Африка	flags/sl.png	signs/sle.png
+Сомали	Могадишо	сомалийский шиллинг	Африка	flags/so.png	signs/sos.png
+ЮАР	Претория	рэнд	Африка	flags/za.png	signs/zar.png
+Южный Судан	Джуба	южносуданский фунт	Африка	flags/ss.png	signs/ssp.png
+Судан	Хартум	суданский фунт	Африка	flags/sd.png	signs/sdg.png
+Танзания	Додома	танзанийский шиллинг	Африка	flags/tz.png	signs/tzs.png
+Того	Ломе	франк КФА	Африка	flags/tg.png	signs/xof.png
+Тунис	Тунис	тунисский динар	Африка	flags/tn.png	signs/tnd.png
+Уганда	Кампала	угандийский шиллинг	Африка	flags/ug.png	signs/ugx.png
+Замбия	Лусака	замбийская квача	Африка	flags/zm.png	signs/zmw.png
+Зимбабве	Хараре	зиг	Африка	flags/zw.png	signs/zwg.png
+Антигуа и Барбуда	Сент-Джонс	восточнокарибский доллар	Северная Америка	flags/ag.png	signs/xcd.png
+Багамы	Нассау	багамский доллар	Северная Америка	flags/bs.png	signs/bsd.png
+Барбадос	Бриджтаун	барбадосский доллар	Северная Америка	flags/bb.png	signs/bbd.png
+Белиз	Бельмопан	белизский доллар	Северная Америка	flags/bz.png	signs/bzd.png
+Канада	Оттава	канадский доллар	Северная Америка	flags/ca.png	signs/cad.png
+Коста-Рика	Сан-Хосе	колон	Северная Америка	flags/cr.png	signs/crc.png
+Куба	Гавана	кубинское песо	Северная Америка	flags/cu.png	signs/cup.png
+Доминика	Розо	восточнокарибский доллар	Северная Америка	flags/dm.png	signs/xcd.png
+Доминиканская Республика	Санто-Доминго	доминиканское песо	Северная Америка	flags/do.png	signs/dop.png
+Сальвадор	Сан-Сальвадор	доллар США	Северная Америка	flags/sv.png	signs/usd.png
+Гренада	Сент-Джорджес	восточнокарибский доллар	Северная Америка	flags/gd.png	signs/xcd.png
+Гватемала	Гватемала	кетсаль	Северная Америка	flags/gt.png	signs/gtq.png
+Гаити	Порт-о-Пренс	гурд	Северная Америка	flags/ht.png	signs/htg.png
+Гондурас	Тегусигальпа	лемпира	Северная Америка	flags/hn.png	signs/hnl.png
+Ямайка	Кингстон	ямайский доллар	Северная Америка	flags/jm.png	signs/jmd.png
+Мексика	Мехико	мексиканское песо	Северная Америка	flags/mx.png	signs/mxn.png
+Никарагуа	Манагуа	кордоба	Северная Америка	flags/ni.png	signs/nio.png
+Панама	Панама	бальбоа	Северная Америка	flags/pa.png	signs/pab.png
+Сент-Китс и Невис	Бастер	восточнокарибский доллар	Северная Америка	flags/kn.png	signs/xcd.png
+Сент-Люсия	Кастри	восточнокарибский доллар	Северная Америка	flags/lc.png	signs/xcd.png
+Сент-Винсент и Гренадины	Кингстаун	восточнокарибский доллар	Северная Америка	flags/vc.png	signs/xcd.png
+Тринидад и Тобаго	Порт-оф-Спейн	доллар Тринидада и Тобаго	Северная Америка	flags/tt.png	signs/ttd.png
+США	Вашингтон	доллар США	Северная Америка	flags/us.png	signs/usd.png
+Аргентина	Буэнос-Айрес	аргентинское песо	Южная Америка	flags/ar.png	signs/ars.png
+Боливия	Сукре	боливиано	Южная Америка	flags/bo.png	signs/bob.png
+Бразилия	Бразилиа	реал	Южная Америка	flags/br.png	signs/brl.png
+Чили	Сантьяго	чилийское песо	Южная Америка	flags/cl.png	signs/clp.png
+Колумбия	Богота	колумбийское песо	Южная Америка	flags/co.png	signs/cop.png
+Эквадор	Кито	доллар США	Южная Америка	flags/ec.png	signs/usd.png
+Гайана	Джорджтаун	гайанский доллар	Южная Америка	flags/gy.png	signs/gyd.png
+Парагвай	Асунсьон	гуарани	Южная Америка	flags/py.png	signs/pyg.png
+Перу	Лима	соль	Южная Америка	flags/pe.png	signs/pen.png
+Суринам	Парамарибо	суринамский доллар	Южная Америка	flags/sr.png	signs/srd.png
+Уругвай	Монтевидео	уругвайское песо	Южная Америка	flags/uy.png	signs/uyu.png
+Венесуэла	Каракас	боливар	Южная Америка	flags/ve.png	signs/ves.png
+Австралия	Канберра	австралийский доллар	Океания	flags/au.png	signs/aud.png
+Фиджи	Сува	фиджийский доллар	Океания	flags/fj.png	signs/fjd.png
+Кирибати	Южная Тарава	австралийский доллар	Океания	flags/ki.png	signs/aud.png
+Маршалловы Острова	Маджуро	доллар США	Океания	flags/mh.png	signs/usd.png
+Микронезия	Паликир	доллар США	Океания	flags/fm.png	signs/usd.png
+Науру	Ярен	австралийский доллар	Океания	flags/nr.png	signs/aud.png
+Новая Зеландия	Веллингтон	новозеландский доллар	Океания	flags/nz.png	signs/nzd.png
+Палау	Нгерулмуд	доллар США	Океания	flags/pw.png	signs/usd.png
+Папуа — Новая Гвинея	Порт-Морсби	кина	Океания	flags/pg.png	signs/pgk.png
+Самоа	Апиа	тала	Океания	flags/ws.png	signs/wst.png
+Соломоновы Острова	Хониара	доллар Соломоновых Островов	Океания	flags/sb.png	signs/sbd.png
+Тонга	Нукуалофа	паанга	Океания	flags/to.png	signs/top.png
+Тувалу	Фунафути	австралийский доллар	Океания	flags/tv.png	signs/aud.png
+Вануату	Порт-Вила	вату	Океания	flags/vu.png	signs/vuv.png

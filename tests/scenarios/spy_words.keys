@@ -1,0 +1,10 @@
+# Spy, two close words for 3 players: the spy sees the other word as if it were
+# the same game; the answer shows both
+#! app party
+RIGHT 5 DOWN 5 5 DOWN 5 shot settings
+DOWN 5 3 CENTER RSOFT UP 5 5 shot role1
+5 5 shot role2
+5 5 shot role3
+5 shot ready
+5 shot talk
+5 shot answer

@@ -1,0 +1,30 @@
+# navigation: menu, contents, page number, search, bookmarks, quotes
+1 DOWN 5 shot open
+LSOFT shot menu
+5 shot toc
+DOWN DOWN DOWN DOWN DOWN DOWN DOWN 5 shot toc_jump
+LSOFT DOWN 5 shot goto
+1 2 shot goto_typed
+CENTER shot page12
+LSOFT 5 shot toc_current
+# back 10 pages to page 2 and search from there
+RSOFT 1 LSOFT DOWN DOWN 5 shot search
+# "таблица" by multi-tap in the Russian layout; > ends a letter
+6 6 6 2 RIGHT 2 2 4 4 4 4 RIGHT 4 7 7 7 2 shot search_typed
+CENTER shot found
+HASH shot found2
+RSOFT shot found_normal
+HASH shot found3
+# a bookmark on the page, a quote from word to word
+RSOFT STAR shot bookmark
+5 RIGHT STAR RIGHT RIGHT RIGHT DOWN shot quote_sel
+5 shot quote_saved
+RSOFT LSOFT DOWN DOWN DOWN DOWN 5 shot marks
+DOWN 5 shot quote_actions
+DOWN DOWN 5 shot quote_text
+RSOFT RSOFT shot back_to_page
+LSOFT UP 5 shot keys
+# the bookmarks are in state/, read again when the book is opened
+RSOFT RSOFT 5 LSOFT DOWN DOWN DOWN DOWN 5 shot marks_reopen
+5 5 shot mark_jump
+RSOFT shot shelf

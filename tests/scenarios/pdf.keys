@@ -1,0 +1,8 @@
+# PDF with text: read as text (tools/pdfparse.py), the first page drawn as its cover
+1 5 shot p1
+# a page with pictures of the PDF
+#! read 120000
+DOWN shot p2
+DOWN shot p3
+UP shot p2_back
+RSOFT shot list

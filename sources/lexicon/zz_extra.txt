@@ -1,0 +1,378 @@
+@nine
+num. A1
+1. девять - the number 9
+   She gets up at nine. - Она встаёт в девять.
+
+@thirteen
+num. A1
+1. тринадцать - the number 13
+
+@nineteen
+num. A1
+1. девятнадцать - the number 19
+
+@thirty
+num. A1
+1. тридцать - the number 30
+   He is thirty years old. - Ему тридцать лет.
+
+@ninety
+num. A1
+1. девяносто - the number 90
+
+@fifth
+num. A1
+1. пятый - number 5 in order
+   on the fifth floor - на пятом этаже
+
+@ninth
+num. A1
+1. девятый - number 9 in order
+
+@eleventh
+num. A2
+1. одиннадцатый - number 11 in order
+
+@thirteenth
+num. A2
+1. тринадцатый - number 13 in order
+
+@fourteenth
+num. A2
+1. четырнадцатый - number 14 in order
+   on the fourteenth of May - четырнадцатого мая
+
+@twentieth
+num. A2
+1. двадцатый - number 20 in order
+   the twentieth century - двадцатый век
+
+@o'clock
+adv. A1
+1. ровно (о времени: час) - used with the exact hour
+   at nine o'clock - в девять часов
+
+@mr
+n. A1
+1. господин, мистер (перед фамилией мужчины) - title for a man
+   Mr Smith is our teacher. - Мистер Смит - наш учитель.
+
+@mrs
+n. A1
+1. госпожа, миссис (замужняя женщина) - title for a married woman
+   Mrs Brown lives next door.
+
+@ms
+n. A2
+1. госпожа (женщина, без указания на брак) - title for any woman
+   Ms Lee will see you now.
+
+@monday
+n. A1
+1. понедельник - the day after Sunday
+   on Monday - в понедельник
+
+@tuesday
+n. A1
+1. вторник - the day after Monday
+
+@wednesday
+n. A1
+1. среда - the day after Tuesday
+
+@thursday
+n. A1
+1. четверг - the day after Wednesday
+
+@friday
+n. A1
+1. пятница - the day after Thursday
+   See you on Friday! - Увидимся в пятницу!
+
+@saturday
+n. A1
+1. суббота - the day after Friday
+
+@sunday
+n. A1
+1. воскресенье - the day after Saturday
+
+@january
+n. A1
+1. январь - the first month of the year
+
+@february
+n. A1
+1. февраль - the second month of the year
+
+@march
+n. A1
+1. март - the third month of the year
+v. B1
+2. маршировать, идти строем - walk like soldiers
+   They marched into the town.
+
+@april
+n. A1
+1. апрель - the fourth month of the year
+
+@june
+n. A1
+1. июнь - the sixth month of the year
+   in June - в июне
+
+@july
+n. A1
+1. июль - the seventh month of the year
+
+@august
+n. A1
+1. август - the eighth month of the year
+
+@september
+n. A1
+1. сентябрь - the ninth month of the year
+
+@october
+n. A1
+1. октябрь - the tenth month of the year
+
+@november
+n. A1
+1. ноябрь - the eleventh month of the year
+
+@december
+n. A1
+1. декабрь - the last month of the year
+
+@christmas
+n. A1
+1. Рождество - the holiday on 25 December
+   Merry Christmas! - Счастливого Рождества!
+
+@english
+adj. A1
+1. английский - from England
+n. A1
+2. английский язык - the language
+   She speaks English well. - Она хорошо говорит по-английски.
+
+@british
+adj. A2
+1. британский - from Great Britain
+   a British passport - британский паспорт
+
+@russian
+adj. A1
+1. русский, российский - from Russia
+n. A1
+2. русский язык - the language
+
+@scottish
+adj. A2
+1. шотландский - from Scotland
+   a Scottish accent - шотландский акцент
+
+@app
+n. A2
+1. приложение (на телефоне) - a program for a phone
+   Download the app. - Скачай приложение.
+
+@website
+n. A2
+1. сайт - pages on the internet
+   Their website is very slow.
+
+@headphones
+n. A2
+1. наушники - you wear them to listen to music
+   She put on her headphones.
+
+@footpath
+n. B1
+1. пешеходная тропинка - a path for people walking
+   We followed the footpath across the fields.
+
+@footprint
+n. B1
+1. след (ноги) - the mark of a foot
+   There were footprints in the snow. - На снегу были следы.
+
+@windowsill
+n. B1
+1. подоконник - the shelf at the bottom of a window
+   A cat was sleeping on the windowsill.
+
+@bookshop
+n. A2
+1. книжный магазин - a shop that sells books
+   She works in a bookshop.
+
+@dashboard
+n. B2
+1. приборная панель (в машине) - the panel in front of the driver
+   A red light came on on the dashboard.
+
+@motorway
+n. B1
+1. автострада, шоссе - a big fast road between cities
+   We drove down the motorway to London.
+
+@satnav
+n. B2
+1. навигатор (в машине) - a device that shows the way
+   The satnav sent us the wrong way.
+
+@farmhouse
+n. B1
+1. фермерский дом - the main house on a farm
+   They lived in an old stone farmhouse.
+
+@handwriting
+n. B1
+1. почерк - the way someone writes by hand
+   I know her handwriting. - Я узнаю её почерк.
+
+@tractor
+n. A2
+1. трактор - a farm vehicle
+   A tractor was blocking the road.
+
+@fiddle
+n. B2
+1. скрипка (в народной музыке) - a violin, in folk music
+   He plays the fiddle at weddings.
+v. B2
+2. вертеть в руках, теребить - touch nervously
+   She fiddled with her ring.
+
+@trumpet
+n. B1
+1. труба (музыкальный инструмент) - a brass instrument
+   He plays the trumpet in a band.
+
+@quiz
+n. A2
+1. викторина, тест - a game with questions
+   We go to the pub quiz every Tuesday.
+
+@robin
+n. B2
+1. малиновка (птица с красной грудкой) - a small bird with a red breast
+   A robin sat on the fence.
+
+@crate
+n. B2
+1. ящик (деревянный, для перевозки) - a big box for carrying things
+   The crates were full of food.
+
+@runway
+n. B2
+1. взлётная полоса - where planes land and take off
+   The plane stopped at the end of the runway.
+
+@plateau
+n. C1
+1. плато, плоскогорье - high flat land
+   The station stood on a wide icy plateau.
+
+@procedure
+n. B2
+1. порядок действий, процедура - the correct way of doing something
+   Follow the safety procedure.
+
+@packet
+n. B1
+1. пакет, пачка - a small paper or plastic box or bag
+   a packet of biscuits - пачка печенья
+2. пакет (данных) - a small piece of computer data
+
+@format
+n. B2
+1. формат - the form or layout of something
+   The file is in a strange format.
+
+@reading
+n. A2
+1. чтение - the activity of reading
+   Reading is my hobby.
+2. показание (прибора) - the number a machine shows
+   The temperature readings were strange.
+
+@satellite
+n. B1
+1. спутник (искусственный) - a machine that goes round the Earth
+   a satellite phone - спутниковый телефон
+
+@minus
+prep. B1
+1. минус - less, below zero
+   It was minus forty outside. - Снаружи было минус сорок.
+
+@generator
+n. B2
+1. генератор - a machine that makes electricity
+   The generator stopped in the night.
+
+@freezer
+n. A2
+1. морозилка - a cold box that keeps food frozen
+   Put the meat in the freezer.
+
+@acoustic
+adj. B2
+1. акустический, звуковой - connected with sound
+   an acoustic guitar - акустическая гитара
+
+@telemetry
+n. C1
+1. телеметрия - data sent by radio from a machine
+   The telemetry showed a problem.
+
+@calibration
+n. C1
+1. калибровка, настройка (прибора) - setting a machine to measure correctly
+
+@transmitter
+n. B2
+1. передатчик - a device that sends radio signals
+   The transmitter was on the roof.
+
+@borehole
+n. C1
+1. буровая скважина - a deep narrow hole made in the ground or ice
+
+@whiteout
+n. C1
+1. белая мгла (метель без видимости) - snow so thick you can see nothing
+   We were caught in a whiteout.
+
+@buckwheat
+n. B2
+1. гречка - a grain used for porridge
+   She cooked buckwheat with butter. - Она сварила гречку с маслом.
+
+@midge
+n. B2
+1. мошка, мошкара - a very small flying insect that bites
+   The midges in Scotland are terrible.
+
+@ferry
+n. A2
+1. паром - a boat that carries people and cars
+   We took the ferry to the island.
+
+@loch
+n. B2
+1. озеро (в Шотландии) - a lake in Scotland
+   Loch Ness - озеро Лох-Несс
+
+@halfway
+adv. B1
+1. на полпути, наполовину - in the middle of the way
+   We stopped halfway to Glasgow.
+
+@dye
+v. B2
+1. красить (волосы, ткань) - change the colour of something
+   She dyed her hair red.

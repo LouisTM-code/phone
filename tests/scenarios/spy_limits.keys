@@ -1,0 +1,7 @@
+# Spy, a word with a limit for each of 3 players; the spy doesn't know the word
+#! app party
+RIGHT 5 DOWN 5 5 DOWN DOWN DOWN 5 DOWN 5 3 CENTER RSOFT UP 5 5 shot role1
+5 5 shot role2
+5 5 shot role3
+5 5 shot talk
+5 shot answer

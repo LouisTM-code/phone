@@ -1,0 +1,2711 @@
+@each
+/iːtʃ/
+det. A1
+1. каждый - every
+   Each of his children has his own room. - У каждого из его детей есть своя комната.
+
+@each other
+/iːˈtʃʌðə/
+pron. A1
+1. друг друга, друг другу, взаимно - one another
+
+@eager
+/ˈiːgə/
+adj. B1
+1. полный страстного желания
+   She is eager to live in Australia. - Она стремится жить в Австралии.
+2. нетерпеливый, горячий (о желании) - wanting something very much
+   He is eager for a chance to study abroad. - Он жаждет получить возможность учиться за границей.
+
+@eagerness
+/ˈiːgənəs/
+n. B1
+1. пыл, рвение
+
+@eagle
+/ˈiːgəl/
+n. B2
+1. орёл
+   The eagle is flying against the wind. - Орел летит против ветра.
+
+@ear
+/ɪə/
+n. A1
+1. ухо - organ of hearing
+   Does it hurt to get your ears pierced? - Уши больно прокалывать?
+2. слух - musical ability
+   It's a pity that I have no ear for music. - Жаль, что у меня нет слуха.
+phr. an ear for music - музыкальный слух
+   They don't have an ear for music. - У них нет слуха.
+
+@earache
+/ˈɪəreɪk/
+n. B1
+1. ушная боль, оталгия - pain in the ear
+   Do you have frequent earaches? - У Вас часто болят уши?
+
+@early
+/ˈɜːli/
+adv. A1
+1. рано - at a time before expected
+   Being very tired, I went to bed early. - Я очень устал и поэтому рано лёг спать.
+adj. A2
+2. ранний - at a time in advance of the usual
+   What's your earliest childhood memory? - Какое твоё самое раннее детское воспоминание?
+
+@earn
+/ɜːn/
+v. A2
+1. зарабатывать - gain through applied effort or work
+   He earns more money than he can spend. - Он зарабатывает больше, чем тратит.
+
+@earnest
+/ˈɜːnɪst/
+adj. B1
+1. серьёзный, важный - important, serious
+   Are you in earnest in saying so? - Ты это серьёзно говоришь?
+phr. in earnest - всерьёз, серьёзно
+   Are you in jest or in earnest? - Вы говорите это в шутку или всерьёз?
+
+@earnings
+n. B2
+1. заработанные деньги, заработок
+
+@earring
+/ˈɪərɪŋ/
+n. A2
+1. серьга, серёжка - piece of jewelry
+   Maybe your earring is under the table. - Может быть, твоя серёжка под столом.
+
+@earth
+/ɜːθ/
+n. A2
+1. земля, земной шар - soil
+   Actually, the earth is getting warmer. - Вообще-то, земля становится теплей.
+phr. on earth - на земле
+   All the people on earth are brothers. - Все люди на Земле - братья.
+phr. earth water - жёсткая вода
+   The surface of the earth is 70% water. - Поверхность Земли на 70 процентов состоит из воды.
+
+@earthquake
+/ˈɜːθkweɪk/
+n. A2
+1. землетрясение - shaking of the surface of a planet
+   A fire broke out after the earthquake. - После землетрясения разгорелся пожар.
+
+@ease
+/iːz/
+n. B2
+1. лёгкость - ability — see also ability
+   He solved all those problems with ease. - Он легко решил все задачи.
+2. покой, свобода, непринуждённость - comfort — see also comfort
+   My mind is at ease believing you'll keep the secret. - Мне спокойно, так как я верю, что ты сохранишь секрет.
+v. B2
+3. успокаивать - free
+   These pills will ease the pain. - Эти таблетки успокоят боль.
+4. облегчать (боль, ношу) - alleviate, assuage or lessen (pain)
+   This medicine will ease your cramps. - Это лекарство облегчит ваши спазмы.
+phr. with ease - с лёгкостью
+   She passed the examination with ease. - Она с лёгкостью сдала экзамены.
+
+@easily
+/ˈiːzɪli/
+adv. A2
+1. легко, свободно, без труда - without difficulty
+   Cheese can easily be cut with a knife. - Сыр легко режется ножом.
+
+@east
+/ɪjst/
+n. A2
+1. восток, ост - compass point
+   Yemen is a country in the Middle East. - Йемен — это страна на Ближнем Востоке.
+adj. A2
+2. восточный - in or towards the east
+   Angela Merkel was born in East Germany. - Ангела Меркель родилась в Восточной Германии.
+adv. A2
+3. на восток, к востоку
+
+@eastern
+/ˈiːstən/
+adj. B1
+1. восточный - related to the east
+   They lost the war on the eastern front. - Они проиграли войну на восточном фронте.
+
+@eastward
+/ˈiːstwəd/
+adj. B2
+1. движущийся или обращённый на восток
+   The plane turned eastward. - Самолёт повернул на восток.
+adv. B2
+2. на восток, к востоку - towards the east
+
+@easy
+/ˈiːzi/
+adj. A1
+1. лёгкий, нетрудный - requiring little skill or effort
+   All the questions were easy to answer. - Все вопросы были лёгкие.
+phr. easier said than done - легче сказать, чем сделать
+   I'm afraid that's easier said than done. - Боюсь, это легче сказать, чем сделать.
+phr. easy money - шальные деньги
+   It's an easy way to make money. - Это лёгкий способ заработать.
+
+@easygoing
+adj. B1
+1. добродушно-весёлый, беспечный
+
+@eat
+/iːt/
+v. (ate, eaten) A1
+1. есть, поедать, поглощать - ingest — see also consume, ingest
+   An animal eats only when it is hungry. - Животное ест, только когда голодное.
+phr. eat in - столоваться по месту работы
+   I'm fed up with eating in restaurants. - С меня хватит еды в ресторанах.
+phr. eat up - пожирать
+   Facebook eats up a lot of my time. - Facebook отнимает у меня много времени.
+phr. eat away - съедать, пожирать
+   The rust is eating away the iron. - Ржавчина разъедает железо.
+phr. eat into - растрачивать (состояние)
+   The acid ate into the metal. - Кислота разъела металл.
+
+@ebb
+/ɛb/
+n. C2
+1. отлив - receding movement of the tide
+   Every tide has its ebb. - У каждого прилива есть свой отлив.
+v. C2
+2. ослабевать, угасать - fall away or decline
+   All my energy has ebbed away. - Вся моя энергия угасла.
+
+@eccentric
+/ɪkˈsɛntrɪk/
+adj. C1
+1. эксцентричный, странный - deviating from the norm
+   Many scientists have the reputation of being eccentric. - Многие ученые имеют репутацию людей эксцентричных.
+n. C1
+2. эксцентричный человек, оригинал
+   Money, like vodka, turns a person into an eccentric. - Деньги, как водка, делают человека чудаком.
+
+@eccentricity
+/ˌɛksɛnˈtrɪsɪti/
+n. C2
+1. эксцентричность, странность - the quality of being eccentric
+   It's better to ignore his eccentricities. - Лучше игнорировать его эксцентричность.
+
+@echo
+/ˈɛkəʊ/
+n. C2
+1. эхо - reflected sound
+   Remorse is the echo of a lost virtue. - Угрызения совести — это эхо утраченной добродетели.
+v. C2
+2. отдаваться эхом
+   Her laughter echoed through the house. - Её смех эхом разнесся по дому.
+
+@echolocation
+/ˌɛkoʊloʊˈkeɪʃən/
+n. C2
+1. эхолокация - use of echos to detect objects
+   Dolphins rely on echolocation. - Дельфины полагаются на эхолокацию.
+
+@eclectic
+/ɛkˈlɛktɪk/
+adj. C1
+1. эклектический
+n. C1
+2. эклектик - one who selects by the eclectic method
+
+@ecological
+/ˌiːkəˈlɒdʒɪkl/
+adj. B1
+1. экологический - relating to ecology
+   The ecological situation here is quite poor. - Экология тут не айс.
+
+@ecologically
+adv. B2
+1. экологически - in an ecological manner
+
+@ecologist
+/iːˈkɒlədʒɪst/
+n. B2
+1. эколог - A scientist who studies ecology
+
+@ecology
+/ɪˈkɒlədʒi/
+n. B1
+1. экология - branch of biology
+   I asked him many questions about ecology. - Я задал ему много вопросов об экологии.
+
+@economic
+/ˌiːkəˈnɒmɪk/
+adj. B1
+1. экономический, хозяйственный - pertaining to an economy
+   I don't know anything about economics. - Я не разбираюсь в экономике.
+
+@economical
+/ˌiːkəˈnɒmɪkəl/
+adj. B2
+1. экономный, бережливый - careful with money
+   Besides being economical, it's fun. - Это не только экономично, но и весело.
+
+@economics
+/ˌiːkəˈnɒmɪks/
+n. B1
+1. экономика, народное хозяйство - study of resource and wealth allocation
+   I don't know anything about economics. - Я не разбираюсь в экономике.
+
+@economist
+/ɪˈkɒnəmɪst/
+n. B2
+1. экономист - expert in economics
+   I'm not an astrologer; I'm an economist. - Я экономист, а не астролог.
+
+@economize
+/iˈkɒnəmaɪz/
+v. C2
+1. экономить - use sparingly
+
+@economy
+/ɪˈkɒnəmi/
+n. B1
+1. экономия, бережливость - frugal use of resources
+   Algeria's economy is relatively small. - Алжирская экономика относительно невелика.
+
+@ecosystem
+/ˈiːkəʊˌsɪstəm/
+n. B1
+1. экосистема
+
+@ecotourism
+/ˌiːkəʊˈtʊərɪzm/
+n. C2
+1. экотуризм, экологический туризм - responsible travel
+
+@ecstasy
+/ˈɛkstəsi/
+n. B1
+1. экстаз, исступлённый восторг - intense emotion
+   They're in ecstasy. - Они в экстазе.
+
+@ecstatic
+/ɛkˈstætɪk/
+adj. B2
+1. исступлённый, экстатический
+   The fans were ecstatic about the win. - Фанаты были в восторге от победы.
+
+@edge
+/ɛdʒ/
+v. B1
+1. точить, заострять
+   The knife has a very sharp edge. - У ножа очень острое лезвие.
+
+@edification
+/ˌɛdɪfɪˈkeɪʃən/
+n. C2
+1. назидание, наставление
+
+@edifice
+/ˈɛdɪfɪs/
+n. C2
+1. здание, сооружение - building
+
+@edify
+/ˈɛdɪfaɪ/
+v. C2
+1. поучать, наставлять
+
+@edit
+/ˈɛdɪt/
+v. B2
+1. редактировать, готовить к печати - change a text, or a document
+   How often do you edit your profile? - Как часто вы редактируете свой профиль?
+
+@edition
+/ɪˈdɪʃn/
+n. B1
+1. издание - literary work
+   This dictionary is an abridged edition. - Это сокращённое издание словаря.
+2. выпуск - whole set of copies, print run
+   Has the evening edition of the newspaper come out already? - Вечерний выпуск газеты уже вышел?
+
+@editor
+/ˈɛdɪtə/
+n. A2
+1. редактор - person who edits
+   The editor and publisher is my cousin. - Редактор и издатель — мой двоюродный брат.
+
+@editorial
+/ˌɛdɪˈtɔːrɪəl/
+adj. B2
+1. редакторский, редакционный - of or relating to an editor
+   The editorial office is located underground. - Редакция находится под землёй.
+n. B2
+2. передовая или редакционная статья - article giving the opinion of editors
+phr. editorial office - редакция (помещение)
+   After work, we stayed overnight at the editorial office. - После работы мы остались ночевать в редакции.
+
+@educate
+/ˈɛdʒʊˌkeɪt/
+v. B1
+1. воспитывать, давать образование - instruct or train
+   Traveling educates young people. - Путешествия воспитывают молодых людей.
+
+@educated
+/ˈɛdʒəkeɪtɪd/
+adj. B2
+1. высокообразованный
+   Our personnel are very highly educated. - Наш персонал очень высоко образован.
+
+@education
+/ˌɛdʒʊˈkeɪʃən/
+n. A2
+1. образование, просвещение, обучение - process or art of imparting knowledge
+   He gave his children a good education. - Он дал своим детям хорошее образование.
+phr. higher education - высшее образование
+   Higher education is not a luxury. - Высшее образование — не роскошь.
+
+@educational
+/ˌɛdʒʊˈkeɪʃənəl/
+adj. A2
+1. образовательный, воспитательный - instructive
+   The firm publishes educational books. - Фирма выпускает учебные пособия.
+
+@educator
+/ˈɛdʒʊkeɪtə/
+n. B2
+1. воспитатель, педагог
+   Educators should respect learners' mother tongue. - Педагогам следует уважать родной язык учеников.
+
+@effect
+/ɪˈfɛkt/
+n. A2
+1. эффект, впечатление - result of an action
+   Liquor will have an effect on a person. - Алкоголь будет иметь эффект на человека.
+2. действие, влияние, воздействие
+   The medicine has an immediate effect. - Лекарство действует сразу.
+phr. no effects - нет средств
+   This medicine has no harmful side effects. - У этого лекарства нет вредных побочных действий.
+phr. cause and effect - причина и следствие
+   Everything has a cause and effect. - У всего есть причина и следствие.
+
+@effective
+/ɪˈfɛktɪv/
+adj. B1
+1. эффектный
+   He could not take effective measures. - Он не мог принять эффективных мер.
+
+@effectively
+/ɪˈfɛktɪvli/
+adv. B2
+1. эффективно - in an efficient or effective manner
+   Are you managing your time effectively? - Ты эффективно распоряжаешься своим временем?
+
+@effectiveness
+/ɪˈfɛktɪvnɪs/
+n. B2
+1. эффективность, результативность - property
+   Don't doubt the effectiveness of this medicine. - Не сомневайтесь в эффективности этого лекарства.
+
+@efficiency
+/ɪˈfɪʃənsi/
+n. B1
+1. действенность, эффективность
+   This will increase efficiency by 20%. - Это повысит эффективность на 20%.
+2. продуктивность, производительность
+   Efficiency is important, but so is quality. - Производительность важна, но и качество тоже.
+
+@efficient
+/ɪˈfɪʃənt/
+adj. B1
+1. действенный, эффективный
+   We must find a more efficient method. - Надо найти более эффективный метод.
+
+@effort
+/ˈɛfət/
+n. A2
+1. усилие, попытка, напряжение
+   All her efforts culminated in failure. - Все её усилия закончились неудачей.
+phr. without effort - легко, не прилагая усилий
+   Nothing can be gained without effort. - Ничего нельзя достичь без усилий.
+
+@effortless
+/ˈɛfətlɪs/
+adj. C1
+1. не делающий усилий, пассивный - without effort
+
+@egalitarian
+/ɪˌgælɪˈtɛəriən/
+adj. C2
+1. поборник равноправия, эгалитарист
+
+@egg
+/ɛg/
+n. A1
+1. яйцо
+   Don't put all your eggs in one basket. - Не клади все яйца в одну корзину.
+phr. ham and eggs - яичница с ветчиной
+   He likes ham and eggs. - Он любит яичницу с ветчиной.
+
+@ego
+/ˈiːgəʊ/
+n. C1
+1. эгоизм
+
+@eight
+/eɪt/
+num. A1
+1. восемь - cardinal number 8
+   Classes start at eight in the morning. - Уроки начинаются в восемь утра.
+n. A1
+2. восьмёрка - The digit/figure 8
+   Father seldom comes home before eight. - Отец редко приходит домой раньше восьми.
+
+@eighteen
+/ˈeɪtiːn/
+num. A1
+1. восемнадцать - cardinal number
+   Are you older than eighteen years old? - Вы старше восемнадцати лет?
+
+@eighty
+/ˈeɪti/
+num. A1
+1. восемьдесят - 80
+   My grandfather is eighty years old. - Моему дедушке восемьдесят лет.
+n. A1
+2. восемьдесят (единиц, штук)
+
+@either
+/ˈaɪðə/
+conj. A2
+1. или
+   either ... or - или... или
+pron. B1
+2. и тот и другой, оба, каждый
+   Either day would be all right with me. - Мне подойдёт любой день.
+3. один из двух, тот или другой
+   Either skillful or lazy. But not both. - Или ты мастер, или лентяй, одно из двух.
+4. один из двух, такой или другой
+   This man is either insane or drunk. - Этот человек или сумасшедший, или пьяный.
+
+@eke out
+v. C2
+1. дополнять - supplement
+
+@elaborate
+/ɪˈlæbrət/
+adj. C1
+1. тщательно разработанный - detailed
+   The knights wore elaborate suits of armor. - Рыцари носили сложные доспехи.
+v. C1
+2. тщательно разрабатывать - give further detail or explanation
+   She did not elaborate on the reasons. - Причины уточнять она не стала.
+
+@elaboration
+n. C1
+1. разработка, развитие, уточнение
+
+@elastic
+/ɪˈlɑːstɪk/
+adj. C1
+1. эластичный, гибкий и упругий - capable of stretching
+   This material isn't elastic enough. - Этот материал недостаточно эластичен.
+n. C1
+2. резинка (шнур) - material
+   A rubber ball bounces because it is elastic. - Резиновый мяч отскакивает, потому что он упругий.
+
+@elasticity
+/ɪlæsˈtɪsɪti/
+n. C2
+1. эластичность и пр - quality of being elastic
+   This material lacks elasticity. - Этот материал недостаточно эластичен.
+
+@elated
+/ɪˈleɪtɪd/
+adj. C2
+1. в приподнятом настроении, ликующий
+   elated by success - окрылённый успехом
+
+@elation
+/ɪˈleɪʃən/
+n. C2
+1. приподнятое настроение, восторг
+   Elation gave way to horror. - Восторг сменился ужасом.
+
+@elbow
+/ˈɛlbəʊ/
+n. B1
+1. локоть - joint between upper arm and forearm
+   She hurt her elbow when she fell down. - Она ударила локоть, когда упала.
+v. B2
+2. толкать(ся) локтями
+   It is impolite to elbow one's way through the crowd. - Невежливо проталкиваться локтями через толпу.
+
+@elderly
+/ˈɛldəli/
+adj. A2
+1. пожилой, почтенный - old
+   She takes care of many elderly people. - Она заботится о многих пожилых людях.
+
+@elect
+/ɪˈlɛkt/
+v. B2
+1. избирать, выбирать (голосованием) - choose in election
+   A new president has just been elected. - Только что был избран новый президент.
+
+@election
+/ɪˈlɛkʃn/
+n. B1
+1. выборы
+   Coolidge won the 1924 election easily. - Кулидж легко победил на выборах в 1924 году.
+
+@elective
+/ɪˈlɛktɪv/
+adj. B2
+1. выборный
+   elective office - выборная должность
+
+@electric
+/ɪˈlɛktrɪk/
+adj. A2
+1. электрический - electrical
+   Electric cars can be recharged at home. - Электромобили можно подзаряжать дома.
+
+@electrical
+/ɪˈlɛktrɪkəl/
+adj. B1
+1. электрический
+   Lightning is an electrical phenomenon. - Молния — электрическое явление.
+
+@electrician
+/ɪˌlɛkˈtrɪʃn/
+n. B2
+1. электротехник - tradesman who works with electrical equipment
+   I don't want to become an electrician. - Я не хочу становиться электриком.
+
+@electricity
+/ˌiːlɛkˈtrɪsɪti/
+n. B1
+1. электричество - form of energy
+   Electricity cables are made of copper. - Электрические провода сделаны из меди.
+
+@electrode
+/əˈlɛktrəʊd/
+n. C2
+1. электрод
+
+@electron
+/ɪˈlɛktrɒn/
+n. B1
+1. электрон
+   An electron is an elementary particle. - Электрон — это элементарная частица.
+
+@electronic
+/ˌɛlɛkˈtrɒnɪk/
+adj. B1
+1. электронный - pertaining to electrons
+   Please turn off your electronic devices. - Пожалуйста, выключите ваши электронные приборы.
+
+@electronics
+/ˌɛlɛkˈtrɒnɪks/
+n. B2
+1. электроника - physics
+   He knows nothing about electronics. - Он ничего не знает об электронике.
+
+@elegance
+/ˈɛlɪgəns/
+n. B2
+1. элегантность, изящество - grace
+   He likes the simple elegance of Scandinavian design. - Ему нравится простая элегантность скандинавского дизайна.
+
+@elegant
+/ˈɛləgənt/
+n. B2
+1. человек с претензиями на элегантность
+   Where did you buy these elegant shoes? - Где вы купили эти элегантные туфли?
+adj. B2
+2. изящный, элегантный, изысканный - exhibiting elegance
+   Your handwriting is quite elegant. - Ваш почерк довольно изящный.
+
+@element
+/ˈɛlɪmənt/
+n. B1
+1. элемент, составная часть
+   Iridium is one of the rarest elements. - Иридий — один из наиболее редких элементов.
+2. стихия - atmospheric forces
+   The elements raged for a very long time. - Стихия бушевала очень долго.
+phr. the four elements - земля, воздух, огонь, вода
+   Fire is the most dangerous of the four elements. - Огонь — самая опасная из четырёх стихий.
+
+@elemental
+/ɛləˈmɛntəl/
+adj. B2
+1. стихийный
+   The elemental force destroys everything in its path. - Стихия уничтожает всё на своём пути.
+
+@elementary
+/ˌɛlɪˈmɛntəri/
+adj. A1
+1. элементарный, простой - relating to the basic
+   An electron is an elementary particle. - Электрон — это элементарная частица.
+
+@elephant
+/ˈɛlɪfənt/
+n. A2
+1. слон - mammal
+   Elephants can be extremely aggressive. - Слоны могут быть крайне агрессивны.
+
+@elephantine
+/ɛləˈfæntin/
+adj. C2
+1. слоновый
+
+@elevate
+/ˈɛləveɪt/
+v. C1
+1. повышать (по службе)
+
+@elevation
+/ˌɛlɪˈveɪʃn/
+n. C1
+1. поднятие, повышение
+
+@elevator
+/ˈɛləˌveɪtə/
+n. A2
+1. грузоподъёмник
+   That elevator is for freight only. - Этот лифт только для груза.
+
+@eleven
+/ɪˈlɛvən/
+num. A1
+1. одиннадцать
+   I usually eat breakfast around eleven. - Обычно я завтракаю часов в одиннадцать.
+
+@eleventh
+/ɪˈlɛvənθ/
+num. A2
+1. одиннадцатый
+   We are leaving on the eleventh of June. - Мы уедем одиннадцатого июня.
+n. A2
+2. одиннадцатая часть
+
+@eligible
+/ˈɛlɪdʒɪbəl/
+adj. B2
+1. могущий быть избранным
+   eligible for membership - имеющий право быть членом
+
+@eliminate
+/ɪˈlɪmɪneɪt/
+v. B1
+1. устранять, исключать
+   They have eliminated all imperfections. - Они устранили все недостатки.
+2. уничтожать, ликвидировать - kill
+   We have to eliminate these letters. - Нам надо уничтожить эти письма.
+
+@elite
+/ɪˈliːt/
+n. B2
+1. элита - group with higher status
+   The intelligentsia is the elite of society. - Интеллигенция - это элита общества.
+adj. B2
+2. элитный - of high birth or social position
+   Tom goes to an elite university. - Том учится в элитном университете.
+
+@elitist
+/ɪˈliːtɪst/
+adj. C1
+1. элитный - of or relating to elitism
+
+@elongate
+/ɪˈlɒŋgeɪt/
+adj. C1
+1. вытянутый, удлинённый
+v. C1
+2. растягивать (-ся), удлинять(ся)
+
+@eloquence
+/ˈɛləkwəns/
+n. B2
+1. красноречие, ораторское искусство
+   He takes obvious pleasure in his own eloquence. - Он явно наслаждается собственным красноречием.
+
+@eloquent
+/ˈɛləˌkwənt/
+adj. B2
+1. красноречивый - fluently persuasive and articulate
+   She's always witty and eloquent. - Она всегда остроумна и красноречива.
+
+@else
+/ɛls/
+adv. A1
+1. иначе, а то, или же
+   Don't you dare defy me, or else you will die. - Не смей перечить мне, иначе умрёшь.
+phr. what else - что ещё?
+   Do you want to see what else I've got? - Хотите посмотреть, что у меня ещё есть?
+phr. who else - кто ещё?
+   Who else was involved in the decision? - Кто ещё участвовал в принятии этого решения?
+
+@elsewhere
+adv. A2
+1. где-нибудь в другом месте
+   I have a pressing engagement elsewhere. - У меня неотложная встреча в другом месте.
+
+@elude
+/ɪˈljuːd/
+v. C1
+1. избегать, уклоняться
+
+@elusive
+/ɪˈluːsɪv/
+adj. C1
+1. неуловимый, уклончивый - evading capture, comprehension or remembrance
+   Weasels have a reputation for being elusive and cunning. - Ласки известны своей хитростью и неуловимостью.
+
+@email
+/ˈiːmeɪl/
+n. A1
+1. электронная почта, имейл, мейл
+   How frequently do you check your email? - Насколько часто вы проверяете электронную почту?
+2. имейл, мейл, сообщение, письмо - message sent through an electronic system
+   I found your email in the spam folder. - Я обнаружил твоё письмо в спаме.
+v. A2
+3. послать имейл - send an email
+   Tom has been emailing me a lot recently. - Том в последнее время пишет мне много имейлов.
+
+@embark
+/ɪmˈbɑːk/
+v. C1
+1. начинать - start
+   Sami embarked on a killing spree. - Сами начал серию убийств.
+
+@embarrass
+/ɪmˈbærəs/
+v. B1
+1. смущать - humiliate
+   The young man was visibly embarrassed. - Молодой человек был явно смущён.
+
+@embarrassed
+/ɪmˈbærəst/
+adj. B1
+1. смущённый, растерянный - Having a feeling of shameful discomfort
+   The young man was visibly embarrassed. - Молодой человек был явно смущён.
+
+@embarrassing
+/ɪmˈbærəsɪŋ/
+adj. A2
+1. смущающий - causing embarrassment
+   Stop praising me. You're embarrassing me. - Хватит меня хвалить. Вы меня смущаете.
+
+@embarrassment
+/ɪmˈbærəsmənt/
+n. B1
+1. замешательство, смущение - state of confusion
+   I was feverish with embarrassment. - От смущения меня трясло.
+
+@embassy
+/ˈɛmbəsi/
+n. B2
+1. посольство - organization representing a foreign state
+   He has access to the American Embassy. - У него есть доступ в американское посольство.
+
+@embed
+/ɪmˈbɛd/
+v. C2
+1. внедрять
+
+@embodiment
+n. C2
+1. воплощение - entity typifying an abstraction
+
+@embody
+/ɪmˈbɒdi/
+v. C2
+1. воплощать, изображать - represent in a physical form
+
+@embrace
+/ɛmˈbres/
+n. B2
+1. объятие, объятия
+   Why do women want to sleep in a man's embrace? - Почему женщины хотят спать в объятиях мужчин?
+v. C1
+2. обнимать(ся) - clasp
+   Tom tried to embrace Mary. - Том попытался обнять Мэри.
+
+@emerge
+/ɪˈmɜːdʒ/
+v. B1
+1. появляться, всплывать, выходить - come into view
+   The robber emerged from the darkness. - Грабитель появился из темноты.
+
+@emergence
+/ɪˈmɜːdʒns/
+n. B2
+1. выход, появление
+
+@emergency
+/ɪˈmɜːdʒənsi/
+n. A2
+1. критическое положение, авария - situation requiring urgent assistance
+   We need to be ready for any emergency. - Мы должны быть готовы к любой чрезвычайной ситуации.
+2. непредвиденный случай
+   Press this button in case of emergency. - В случае чрезвычайной ситуации нажмите эту кнопку.
+phr. in case of emergency - в случае крайней необходимости
+   In case of an emergency, call the police. - В экстренном случае вызывай полицию.
+
+@eminence
+/ˈɛmɪnəns/
+n. C2
+1. высокое положение, знаменитость
+   He won eminence as a scientist. - Он добился высокого положения в качестве учёного.
+
+@eminent
+/ˈɛmɪnənt/
+adj. C2
+1. выдающийся, видный, знаменитый - remarkable, great
+   Mr Smith is an eminent violinist. - Мистер Смит - выдающийся скрипач.
+
+@emolument
+/ɪˈmɒljʊmənt/
+n. C2
+1. вознаграждение, гонорар, оплата - payment for an office or employment
+
+@emotion
+/ɪˈməʊʃən/
+n. B1
+1. чувство, эмоция - person's internal state of being
+   Sometimes I can't control my emotions. - Иногда я не могу сдержать эмоций.
+
+@emotional
+/ɪˈməʊʃənəl/
+adj. B1
+1. эмоциональный - characterised by emotion
+   I'm anxious about his emotional state. - Меня беспокоит его эмоциональное состояние.
+
+@emotionally
+/ɪˈməʊʃənəli/
+adv. B1
+1. эмоционально - in an emotional manner
+   People tend to react emotionally to events. - Люди склонны эмоционально реагировать на события.
+
+@emperor
+/ˈɛmprə/
+n. B1
+1. император - ruler of an empire
+   That was the Japanese emperor Hirohito. - Это был японский император Хирохито.
+
+@emphasis
+/ˈɛmfəsɪs/
+n. B1
+1. подчёркивание, ударение
+   He put special emphasis on the problem. - Он заострил внимание на этой проблеме.
+
+@emphasize
+/ˈɛmfəsaɪz/
+v. B1
+1. придавать особое значение
+   He emphasized the importance of peace. - Он подчеркнул важность мира.
+
+@emphatically
+/ɪmˈfætɪkli/
+adv. B2
+1. настойчиво
+
+@empire
+/ˈɛmpaɪə/
+n. B1
+1. империя - political unit
+   The fall of the empire was inevitable. - Падение империи было неизбежным.
+
+@employ
+/ɪmˈplɔɪ/
+v. B2
+1. держать на службе
+   The company wants to employ 20 people. - Фирма хочет нанять на работу двадцать человек.
+2. употреблять, применять - put into use
+   No one knows the tactics they'll employ. - Никто не знает, какую тактику они применят.
+3. занимать (чьё-л. время)
+
+@employee
+/ˌɛmplɔɪˈiː/
+n. B2
+1. служащий, работающий по найму
+   Almost all of our employees are young. - Почти все наши работники - молодые люди.
+
+@employer
+/ɪmˈplɔɪə/
+n. B2
+1. наниматель, работодатель - person or entity which employs others
+   His employer dismissed him yesterday. - Работодатель вчера его уволил.
+
+@employment
+/ɪmˈplɔɪmənt/
+n. B1
+1. служба, занятие, работа - occupation or work for which one is used
+   I'm looking for full-time employment. - Я ищу работу на полную ставку.
+
+@empty
+/ˈɛmti/
+adj. A2
+1. пустой, порожний - devoid of content
+   An empty head is the devil's workshop. - Пустая голова — мастерская дьявола.
+v. B1
+2. опорожнять, осушать (стакан) - make empty
+   He emptied the glass in one draught. - Он залпом осушил стакан.
+
+@emulate
+/ˈɛmjʊleɪt/
+v. C2
+1. подражать
+   Every child needs someone to admire and emulate. - Каждому ребёнку нужно кем-то восхищаться и кому-то подражать.
+
+@emulation
+/ˌɛmjʊˈleɪʃən/
+n. C2
+1. соревнование
+   socialist emulation - социалистическое соревнование
+
+@emulsifier
+/ˈɪimʌlsɪfaɪə/
+n. C2
+1. эмульгатор - substance that helps an emulsion form
+
+@emulsify
+/ɪˈmʊlsɪfaɪ/
+v. C2
+1. делать эмульсию
+
+@enable
+/ɪˈneɪbəl/
+v. B1
+1. облегчать
+
+@enabler
+n. C2
+1. фактор, катализатор, активатор - one who helps something to happen
+
+@enclose
+/ɪnˈkləʊz/
+v. B1
+1. вкладывать (в письмо), прилагать - insert
+   I have enclosed your order form. - Я приложил ваш бланк заказа.
+2. окружать, огораживать, заключать
+   Her house is enclosed with a white fence. - Её дом окружён белым забором.
+
+@encompass
+/ɪnˈkʌmpəs/
+v. C2
+1. окружать, заключать - encircle
+
+@encounter
+/ɪnˈkaʊntə/
+n. B1
+1. неожиданная встреча - unplanned meeting
+   Life is made of encounters and partings. - Жизнь состоит из встреч и расставаний.
+v. B2
+2. (неожиданно) встретить(ся) - meet
+   Tomorrow we will encounter the enemy. - Завтра мы встретимся с противником.
+3. сталкиваться, иметь столкновение - engage in conflict
+   Never in his life had he encountered such a dilemma. - Он ни разу в жизни не сталкивался с подобной дилеммой.
+
+@encourage
+/ɪnˈkʌrɪdʒ/
+v. A2
+1. поощрять, поддерживать - spur on, recommend
+   He encouraged his son to study harder. - Он поощрял усердную учёбу сына.
+2. ободрять - mentally support or motivate
+   When I'm sad, my friends encourage me. - Когда я печален, мои друзья меня ободряют.
+
+@encouragement
+n. B1
+1. ободрение и пр - the act of encouraging
+   Tom gave Mary a little encouragement. - Том немного приободрил Мэри.
+
+@encouraging
+/ɪnˈkʌrɪdʒɪŋ/
+adj. B1
+1. ободряющий, обнадёживающий - supporting by giving encouragement
+   I find it very encouraging. - По-моему, это очень обнадёживает.
+
+@encumber
+/ɪnˈkʌmbə/
+v. C2
+1. обременять - load down
+
+@encumbrance
+/ɪnˈkʌmbrəns/
+n. C2
+1. препятствие, затруднение
+
+@encyclopedia
+/ɪnˌsaɪkləˈpiːdiə/
+n. B1
+1. энциклопедия
+   An encyclopedia is a mine of information. - Энциклопедия — кладезь знаний.
+phr. walking encyclopedia - ходячая энциклопедия
+   He is, as they say, a walking encyclopedia. - Он, как говорится, ходячая энциклопедия.
+
+@end
+/ɛnd/
+n. A1
+1. конец, окончание, предел - extreme part
+   Everything has a beginning and an end. - У всего есть начало и конец.
+v. A2
+2. кончать, заканчивать, прекращать - be finished, be terminated
+   I didn't like the way the movie ended. - Мне не понравилось, как закончился фильм.
+phr. at the end of - в конце (чего-л.)
+   The hotel is at the end of the street. - Гостиница находится в конце улицы.
+phr. make both ends meet - сводить концы с концами
+   He managed to make both ends meet. - Ему удалось свести концы с концами.
+phr. on end - беспрерывно, подряд
+   He worked more than five hours on end. - Он работал более пяти часов подряд.
+
+@endanger
+/ɛnˈdeɪndʒə/
+v. B1
+1. подвергать опасности - put someone or something in danger
+   The free market system is endangered. - Система свободного рынка находится в опасности.
+
+@endangered
+/ɪnˈdeɪndʒəd/
+adj. A2
+1. угрожаемый, вымирающий, исчезающий - in danger, at risk
+   Elephants are an endangered species. - Слоны — вымирающий вид.
+
+@endeavor
+/ɪnˈdɛvə/
+n. B2
+1. попытка, старание, стремление
+   Their endeavours bore no fruit. - Их усилия оказались бесплодными.
+
+@ending
+/ˈɛndɪŋ/
+n. A2
+1. окончание - last part of something
+   A good beginning makes a good ending. - Хорошее начало обеспечивает хороший конец.
+
+@endless
+/ˈɛndlɪs/
+adj. B1
+1. бесконечный, нескончаемый - having no end
+   I'm tired of your endless complaints. - Я устал от твоих бесконечных жалоб.
+
+@endlessly
+/ˈɛndləsli/
+adv. B2
+1. бесконечно - in an endless manner
+   I could talk endlessly about this topic. - Я мог бы бесконечно говорить на эту тему.
+
+@endorse
+/ɪnˈdɔːs/
+v. B2
+1. подтверждать, одобрять
+   I wholeheartedly endorse this decision. - Я всецело одобряю это решение.
+2. расписываться на обороте документа
+   Endorse this check. - Индоссируйте этот чек.
+
+@endorsement
+/ɪnˈdɔːrsmənt/
+n. C1
+1. подтверждение, поддержка
+
+@endurance
+/ɪnˈdjʊərəns/
+n. B2
+1. выносливость
+   This is a test of endurance. - Это испытание на выносливость.
+
+@endure
+/ɪnˈdʒʊə/
+v. B1
+1. выносить, терпеть - tolerate something
+   How much more suffering can they endure? - Сколько ещё страданий они могут вынести?
+2. выдерживать испытание временем - continue despite obstacles
+   They had to endure great hardship during the war. - Им пришлось пережить большие лишения во время войны.
+
+@enduring
+/ɪnˈdjʊərɪŋ/
+adj. B2
+1. терпеливый, выносливый
+
+@enemy
+/ˈɛnəmi/
+n. B1
+1. враг, неприятель, противник - someone who is hostile to
+   Do you come as an ally or as an enemy? - Вы пришли как союзник или как враг?
+
+@energetic
+/ˌɛnəˈdʒɛtɪk/
+adj. A2
+1. энергичный - possessing, exerting, or displaying energy
+   How come you're always so energetic? - Как у Вас получается всегда быть таким энергичным?
+
+@energy
+/ˈɛnədʒi/
+n. B2
+1. энергия, сила, мощность - impetus behind activity
+   The price of energy continues to rise. - Цены на энергию продолжают расти.
+2. силы, энергия (в борьбе)
+   Don't try to talk. Save your energy. - Не пытайся разговаривать. Береги силы.
+
+@enforce
+/ɪnˈfɔːs/
+v. B2
+1. оказывать давление, принуждать
+   They enforced obedience upon us. - Они принудили нас к подчинению.
+
+@engage
+/ɪnˈgeɪdʒ/
+v. B1
+1. обручиться
+   She never told me she was engaged. - Она никогда не говорила мне, что обручена.
+2. заниматься (чем-л.)
+   They are engaged in cancer research. - Они занимаются исследованием рака.
+
+@engaged
+/ɪnˈgeɪdʒd/
+adj. B1
+1. помолвленный - agreed to be married
+   Dan and Linda weren't even engaged. - Дэн и Линда не были даже помолвлены.
+
+@engagement
+/ɪnˈgeɪdʒmənt/
+n. B2
+1. помолвка
+   His parents approve of the engagement. - Его родители одобряют помолвку.
+
+@engender
+/ɪnˈdʒɛndə/
+v. C2
+1. порождать, вызывать, возбуждать - bring into existence, cause
+   It is not white hair that engenders wisdom. - Не седина порождает мудрость.
+
+@engine
+/ˈɛndʒɪn/
+n. B1
+1. машина, двигатель, мотор
+   Something's not right with the engine. - С двигателем что-то не так.
+
+@engineer
+/ˌɛnʒɪˈnɪə/
+n. A1
+1. инженер - person engaged in designing
+   She got a job as a recording engineer. - Она получила работу инженера звукозаписи.
+v. C1
+2. работать в качестве инженера
+   Engineering puts theory into practice. - Инженерия претворяет теорию в жизнь.
+
+@engineering
+/ˌɛnʒɪˈnɪərɪŋ/
+n. B1
+1. инженерное искусство, техника - work of an engineer
+   Engineering puts theory into practice. - Инженерия претворяет теорию в жизнь.
+
+@english
+/ˈɪŋglɪʃ/
+adj. A1
+1. английский
+   All the students are studying English. - Все студенты изучают английский.
+n. A1
+2. англичане
+   The English are generally conservative. - Англичане в целом консервативны.
+
+@englishman
+n. B1
+1. англичанин
+   He's an Englishman, but lives in India. - Он англичанин, но живёт в Индии.
+
+@engross
+/ɪnˈgrəʊs/
+v. C1
+1. поглощать (время, внимание)
+   He was completely engrossed in the book. - Он был полностью поглощен книгой.
+
+@engrossing
+/ɛnˈgrəʊsɪŋ/
+adj. C1
+1. всепоглощающий, захватывающий
+
+@engulf
+/ɪŋˈgʌlf/
+v. B2
+1. поглощать - surround
+   The sea engulfed him. - Море его поглотило.
+
+@enhance
+/ɪnˈhɑːns/
+v. B2
+1. увеличивать, усиливать, усугублять
+   Garlic enhances the flavor of meals. - Чеснок усиливает вкус еды.
+
+@enjoy
+/ɛnˈdʒɔɪ/
+v. A1
+1. получать удовольствие
+   Enjoy your life while you are able to. - Наслаждайтесь жизнью, пока можете.
+
+@enjoyable
+/ɛnˈdʒɔɪəbl/
+adj. B1
+1. приятный - giving pleasure or delight
+   It was enjoyable. - Это было приятно.
+
+@enjoyment
+/ɪnˈdʒɔɪmənt/
+n. B1
+1. наслаждение, удовольствие - the condition of enjoying anything
+   Reading is a great enjoyment to him. - Он получает от чтения большое удовольствие.
+
+@enormous
+/ɪˈnɔːməs/
+adj. A2
+1. громадный, огромный - extremely large
+   He left his wife an enormous fortune. - Он оставил жене огромное состояние.
+
+@enormously
+/ɪˈnɔːməsli/
+adv. C1
+1. чрезвычайно
+
+@enough
+/ɪˈnʌf/
+adj. A2
+1. достаточный
+   Do you have enough money for the trip? - У тебя хватит денег на поездку?
+adv. A2
+2. достаточно, довольно - sufficiently
+   That happens often enough in the summer. - Летом это довольно часто случается.
+phr. have enough time - располагать достаточным запасом времени
+   I don't think that I have enough time. - Не думаю, что мне хватит времени.
+phr. you know well enough - вы отлично знаете
+   Do you know Tom well enough to ask him to help? - Ты достаточно хорошо знаешь Тома, чтобы просить его помочь?
+
+@enrich
+/ɪnˈrɪtʃ/
+v. B1
+1. обогащать - make rich(er)
+   His encounter with her is enriching his inner life. - Его встреча с ней обогатила его внутренний мир.
+2. украшать
+
+@enroll
+/ɪnˈrəʊl/
+v. B2
+1. поступать на военную службу
+   He was not allowed to enroll in the college. - Ему не позволили поступить в колледж.
+2. вербовать, зачислять в армию
+   Tom is now enrolled in college. - Том сейчас уже зачислен в колледж.
+3. записываться - enter (a name) in a register, roll or list
+   I enrolled in a language class online. - Я записался на языковой онлайн-курс.
+
+@ensure
+/ɪnˈʃɔː/
+v. B1
+1. обеспечивать, гарантировать
+   Careful preparations ensure success. - Внимательная подготовка гарантирует успех.
+
+@enter
+/ˈɛntə/
+v. A2
+1. входить, проникать - go into (a room, etc.)
+   The police saw the man enter the bank. - Полиция видела, как мужчина входил в банк.
+2. вступать, поступать
+   This was why he entered the university. - Это была причина, по которой он поступил в университет.
+phr. enter into - вступать
+   They entered into a heated discussion. - Они вступили в оживлённую дискуссию.
+
+@enterprise
+/ˈɛntəˌpraɪz/
+n. B2
+1. смелое предприятие - company, business, organization, or endeavor
+   The enterprise was doomed to failure. - Предприятие было обречено на провал.
+
+@enterprising
+adj. C1
+1. предприимчивый, инициативный - very able and ingenious in business dealings
+   Tom is an enterprising young man. - Том - предприимчивый молодой человек.
+
+@entertain
+/ˌɛntəˈteɪn/
+v. B1
+1. развлекать, занимать - amuse
+   He entertained the children by singing. - Он развлёк детей пением.
+2. принимать, угощать (гостей) - have over at one's home
+   Will you entertain the guests while I get dressed? - Ты не займешь гостей, пока я одеваюсь?
+
+@entertainer
+/ˌɛntəˈteɪnə/
+n. B1
+1. эстрадный артист - person who entertains
+   Tom is an entertainer. - Том шоумен.
+
+@entertaining
+/ˌɛntərˈteɪnɪŋ/
+adj. B2
+1. забавный, занимательный - amusing
+   They're entertaining the children. - Они развлекают детей.
+
+@entertainment
+/ˌɛntəˈteɪnmənt/
+n. A2
+1. развлечения, увеселения - show for enjoyment
+   What's the most popular entertainment? - Какое самое популярное развлечение?
+
+@enthuse
+/ɛnˈθjuːz/
+v. C2
+1. приходить в восторг
+
+@enthusiasm
+/ɪnˈθuziæzəm/
+n. B1
+1. восторг, энтузиазм - feeling of excited, lively interest
+   He was bowled over by her enthusiasm. - Его поразил её энтузиазм.
+
+@enthusiast
+/ɪnˈθuːziˌæst/
+n. B1
+1. восторженный человек, энтузиаст
+   We need more enthusiasts. - Нам нужно больше энтузиастов.
+
+@enthusiastic
+/ɪnˌθjuːzɪˈæstɪk/
+adj. B1
+1. восторженный, полный энтузиазма - with zealous fervor
+   His speech met with enthusiastic applause. - Его речь была встречена восторженными аплодисментами.
+2. увлечённый
+   I'm enthusiastic. - Я увлечён.
+
+@enthusiastically
+adv. B2
+1. с энтузиазмом - in an enthusiastic manner
+
+@entire
+/ɪnˈtaɪə/
+adj. B1
+1. полный, совершенный - whole
+   The entire city is overrun by zombies. - Весь город заполонили зомби.
+
+@entirely
+/ɪnˈtaɪəli/
+adv. B1
+1. полностью, всецело, совершенно - the full extent
+   He is entirely ignorant of the world. - Он совершенно не обращает внимания на то, что происходит вокруг.
+
+@entitle
+/ɪnˈtaɪtəl/
+v. B2
+1. давать право - bestow the right to do something
+   Everyone is entitled to their opinion. - Каждый имеет право на своё мнение.
+
+@entrance
+/ˈɛntrəns/
+n. A2
+1. вход (в здание) - place of entering
+   How much does an entrance ticket cost? - Сколько стоит входной билет?
+2. вступление, доступ, право входа - act of taking possession
+   She took the entrance exam yesterday. - Вчера она сдавала вступительный экзамен.
+phr. entrance examination - вступительный экзамен
+   He passed the entrance examination. - Он сдал вступительные экзамены.
+
+@entrepreneur
+/ˌɒntrəprəˈnɜː/
+n. B2
+1. предприниматель
+   Entrepreneurs are already calculating their losses. - Предприниматели уже подсчитывают убытки.
+
+@entry
+/ˈɛntri/
+n. B1
+1. вход, въезд - act of entering
+   Entry without a tie is not permitted. - Вход без галстука запрещён.
+2. статья - article in a dictionary or encyclopedia
+   This dictionary has about 40,000 entries. - В этом словаре примерно 40 000 статей.
+3. отдельная запись - record in a log or in a database
+   She posted an entry to the blog yesterday. - Вчера она опубликовала в блоге запись.
+
+@envelope
+/ˈɛnvələʊp/
+n. A2
+1. конверт - wrapper for mailing
+   I have to put a stamp on the envelope. - Я должен наклеить марку на конверт.
+
+@enviable
+/ˈɛnviəbl/
+adj. C1
+1. завидный - arousing or likely to arouse envy
+   She has a very enviable position. - У неё очень завидное положение.
+
+@environment
+/ɪnˈvaɪrəmənt/
+n. B2
+1. окружение, окружающая обстановка - natural world or ecosystem
+   Children need a happy home environment. - Детям нужна счастливая семейная обстановка.
+
+@environmental
+/ɪnˌvaɪrəˈmɛntəl/
+adj. B1
+1. относящийся к окружающей среде - pertaining to the environment
+   K-cups have a large environmental impact. - Пластиковые стаканы оказывают большое влияние на окружающую среду.
+
+@environmentalist
+n. B1
+1. учёный
+   He is an environmentalist. - Он — специалист по защите окружающей среды.
+
+@environmentally friendly
+adj. B2
+1. экологичный, экологически чистый - causing little harm to the environment
+
+@envisage
+/ɪnˈvɪzɪdʒ/
+v. C1
+1. рассматривать (вопрос)
+
+@envy
+/ˈɛnvi/
+n. A2
+1. зависть
+   Envy is one of the seven deadly sins. - Зависть — один из семи смертных грехов.
+v. B2
+2. завидовать - feel displeasure towards
+   It is better to be envied than pitied. - Пусть лучше завидуют, чем жалеют.
+
+@ephemera
+/ɪˈfɛmərə/
+n. C2
+1. что-л. мимолётное, преходящее
+
+@ephemeral
+/ɛˈfɛmərəl/
+adj. C2
+1. эфемерный, преходящий - lasting for a short period of time
+   Life is ephemeral. - Жизнь мимолётна.
+
+@episode
+/ˈɛpɪsəʊd/
+n. A2
+1. эпизод
+   I've just finished watching episode three. - Я только что досмотрел третью серию.
+
+@equable
+/ˈɛkwəbəl/
+adj. C2
+1. равномерный, ровный - calm and steady
+
+@equal
+/ˈiːkwəl/
+adj. B1
+1. равный, одинаковый, равносильный - the same in all respects
+   All people are born with equal rights. - Все люди рождаются равными в своих правах.
+v. B2
+2. равняться, быть равным - be equal to
+   The forces were not equal. - Силы оказались не равны.
+n. B2
+3. равный, ровня - person or thing of equal status to others
+   he has no equal - ему нет равного
+phr. equal rights - равноправие
+   In a democracy, all citizens have equal rights. - В условиях демократии все граждане имеют равные права.
+
+@equality
+/ɪˈkwɒlɪti/
+n. B1
+1. равенство, равноправие - fact of being equal
+   He was in favor of equality for all. - Он выступал за всеобщее равенство.
+
+@equally
+/ˈiːkwəli/
+adv. B1
+1. равно, в равной степени, одинаково
+   Women and men are equally bad drivers. - Женщины и мужчины одинаково плохо водят машину.
+2. поровну - in an equal manner
+   Let's divide the work equally. - Давай разделим работу поровну.
+
+@equation
+/ɪˈkweɪʒən/
+n. B2
+1. выравнивание
+
+@equilibrium
+/ɛkwɪˈlɪbrɪəm/
+n. C2
+1. равновесие
+
+@equip
+/ɪˈkwɪp/
+v. B2
+1. снаряжать, экипировать
+   This car is equipped with airbags. - Эта машина оборудована подушками безопасности.
+
+@equipment
+/ɪˈkwɪpmənt/
+n. B1
+1. оборудование, оснащение, арматура - the act of equipping
+   We're having some equipment problems. - У нас некоторые проблемы с оборудованием.
+
+@equity
+/ˈɛkwɪti/
+n. B2
+1. справедливость, беспристрастность - justice, impartiality and fairness
+
+@era
+/ˈɪərə/
+n. B1
+1. эра, эпоха - time period
+   We live in the era of procrastination. - Мы живём в эпоху прокрастинации.
+
+@erect
+/ɪˈrɛkt/
+v. B2
+1. сооружать, устанавливать
+   This statue was erected ten years ago. - Эту статую воздвигли десять лет назад.
+adj. B2
+2. прямой, вертикальный - vertical in position
+
+@error
+/ˈɛrə/
+n. A2
+1. ошибка, заблуждение - mistake — see also mistake
+   Not every error is to be called folly. - Не всякую ошибку следует называть глупостью.
+
+@erupt
+/ɪˈrʌpt/
+v. B2
+1. извергать(ся) (о вулкане, гейзере) - violently eject
+   The volcano has erupted twice this year. - Вулкан извергался дважды в этом году.
+
+@eruption
+/ɪˈrʌpʃən/
+n. B2
+1. извержение (вулкана) - violent ejection
+   The volcanic eruption threatened the village. - Извержение вулкана угрожало деревне.
+
+@escalator
+/ˈɛskəleɪtə/
+n. A2
+1. эскалатор - mechanical device
+   My shoelace got caught in the escalator. - У меня шнурок попал в эскалатор.
+
+@escape
+/ɪˈskeɪp/
+n. A2
+1. бегство, побег
+   We must devise some means of escape. - Мы должны придумать какой-нибудь способ побега.
+v. B1
+2. бежать
+   The prisoners were trying to escape. - Заключённые пытались сбежать.
+3. избежать (опасности), спастись - avoid (any unpleasant person or thing)
+   None of the passengers escaped injury. - Никто из пассажиров не избежал травм.
+4. уходить, отключаться, отстраняться
+   Everything was locked; how did he escape? - Всё было заперто на ключ; как он сбежал?
+
+@especially
+/ɪˈspɛʃli/
+adv. A2
+1. особенно, главным образом - in a special manner
+   I especially like the smell of lilacs. - Мне особенно нравится запах сирени.
+
+@essay
+/ˈɛseɪ/
+n. A2
+1. очерк, этюд, набросок, эссе - written composition
+   His essay was concise and to the point. - Его эссе было кратким и по делу.
+
+@essayist
+/ˈɛseɪɪst/
+n. B2
+1. очеркист, эссеист - one who composes essays
+
+@essence
+/ˈɛsəns/
+n. B1
+1. сущность, существо - true nature of something
+   Freedom is the essence of mathematics. - Сущность математики - свобода.
+
+@essential
+/ɪˈsɛnʃəl/
+adj. B1
+1. необходимый, весьма важный, ценный - necessary
+   Only buy what is absolutely essential. - Покупайте только самое необходимое.
+2. существенный - of high importance
+   Accurate measurements are essential. - Точные измерения крайне важны.
+
+@essentially
+/ɪˈsɛnʃəli/
+adv. B2
+1. по существу - essentially
+   Love is essentially a selfish passion. - Любовь — это, в сущности, эгоистичная страсть.
+
+@establish
+/ɪˈstæblɪʃ/
+v. A2
+1. основывать, создавать, учреждать - found
+   Saudi Arabia was established in 1932. - Саудовская Аравия была основана в 1932 году.
+2. устанавливать, создавать - make stable or firm
+   A temporary government was established. - Установилось временное правительство.
+
+@establishment
+/ɪˈstæblɪʃmənt/
+n. B1
+1. основание, введение - the act of establishing
+
+@estate
+/ɪˈsteɪt/
+n. B2
+1. имение, поместье - property and liabilities
+   My aunt inherited the huge estate. - Моя тётушка унаследовала огромное поместье.
+2. имущество
+   I inherited his estate. - Я унаследовал его имущество.
+
+@estimate
+/ˈɛstɪmət/
+v. B1
+1. оценивать, давать оценку - calculate roughly
+   We estimated the damage at 1000 dollars. - Мы оценили ущерб в тысячу долларов.
+n. B2
+2. оценка - rough calculation or guess
+   This estimate should be pretty accurate. - Эта оценка должна быть довольно точна.
+3. смета, намётка, калькуляция
+   Did he give you an estimate? - Он составил тебе смету?
+
+@estimation
+/ˌɛstɪˈmeɪʃən/
+n. C1
+1. суждение, мнение, оценка
+   In my estimation, he is an honest man. - По моему мнению, он честный человек.
+
+@etch
+/ɛtʃ/
+v. C2
+1. гравировать, травить на металле - engrave
+
+@etching
+/ˈɛtʃɪŋ/
+n. C2
+1. гравировка
+
+@eternal
+/ɪˈtɜːnl/
+adj. B1
+1. вечный, извечный, вековечный - lasting forever
+   Keep in mind that youth is not eternal. - Помни, что молодость - не вечна.
+
+@eternally
+/ɪˈtɜːnəli/
+adv. B2
+1. вечно - forever
+   I'll be eternally grateful if you do that. - Если вы это сделаете, я буду вам вечно благодарен.
+
+@eternity
+/ɪˈtɜːnɪti/
+n. B1
+1. вечность - infinite time
+   We've been waiting an eternity for you. - Мы уже целую вечность тебя ждём.
+
+@ethic
+/ˈɛθɪk/
+adj. B2
+1. нравственный, этический, этичный
+
+@ethical
+/ˈɛθɪkəl/
+adj. C1
+1. нравственный, этический, этичный
+   Is it ethical to clone humans? - Этично ли клонировать людей?
+
+@ethnic
+/ˈɛθnɪk/
+adj. B2
+1. этнический - of or relating to a group of people
+   There are 56 ethnic groups in China. - В Китае проживает 56 этнических групп.
+
+@ethos
+/ˈiːθɒs/
+n. C2
+1. этос - character or fundamental values of a people
+
+@euphemism
+/ˈjuːfəˌmɪzəm/
+n. C2
+1. эвфемизм
+   Is that a euphemism for something? - Это какой-то эвфемизм?
+
+@euphemistic
+/ˌjuːfəˈmɪstɪk/
+adj. C2
+1. эвфемистический - of euphemism
+
+@euphemistically
+adv. C2
+1. эвфемистически - in a euphemistic manner
+
+@euphoria
+/juːˈfɔːriə/
+n. C2
+1. повышенно-радостное настроение - an excited state of joy
+   in a state of euphoria - в приподнятом настроении
+
+@euphoric
+/juːˈfɒrɪk/
+adj. C2
+1. эйфорический, эйфористический
+
+@euro
+/ˈjʊərəʊ/
+n. A2
+1. евро - currency unit of the European Monetary Union
+   A small cup of coffee costs two euros. - Чашечка кофе стоит два евро.
+
+@evacuate
+/ɪˈvækjueɪt/
+v. B2
+1. эвакуировать, вывозить - move out of an unsafe location into safety
+   We have 24 hours to evacuate the city. - У нас есть двадцать четыре часа, чтобы эвакуировать город.
+
+@evacuation
+/ɪˌvækjuˈeɪʃən/
+n. B2
+1. эвакуация - act of evacuating
+   The evacuation is in full gear. - Эвакуация идёт полным ходом.
+
+@evaluate
+/ɪˈvaljʊeɪt/
+v. B2
+1. оценивать, определять количество - draw conclusions from by examining
+   It's difficult to evaluate his ability. - Его компетентность сложно оценить.
+
+@evaluation
+/ɪˌvæljuˈeɪʃn/
+n. B2
+1. оценка, определение - assessment
+   I want a full evaluation as soon as possible. - Я хочу полную оценку как можно скорее.
+
+@even
+/ˈiːvən/
+adv. A2
+1. даже - implying extreme example
+   Don't worry. Even a child could do it. - Не беспокойся. Это даже ребёнку под силу.
+adj. B1
+2. равный, на одном уровне - equal
+   I don't mind even if she doesn't come. - Даже если она не придёт, мне всё равно.
+
+@evening
+/ˈiːvnɪŋ/
+n. A1
+1. вечер
+   Are you always at home in the evening? - Ты всегда дома по вечерам?
+
+@evenly
+/ˈiːvənli/
+adv. B1
+1. ровно, поровну, одинаково - so as to make flat
+   They split the bill evenly. - Они поделили счёт поровну.
+
+@event
+/ɪˈvɛnt/
+n. A1
+1. событие - occurrence
+   Do you know when the event took place? - Ты знаешь, когда произошло это событие?
+
+@eventually
+/ɪˈvɛntʃuːəli/
+adv. B1
+1. в конечном счёте, в конце концов - in the end
+   That's what we eventually want to do. - Это мы в итоге и хотим сделать.
+
+@ever
+/ˈɛvə/
+adv. A2
+1. когда-л - at any time
+   Have you ever been bitten by your dog? - Вас когда-нибудь кусала ваша собака?
+
+@everlasting
+/ˌɛvəˈlɑːstɪŋ/
+adj. B2
+1. вечный
+   I'm tired of your everlasting grumbles. - Я устал от твоего вечного ворчания.
+2. вечный, длительный, постоянный
+   Everlasting fear, everlasting peace. - Постоянный страх, постоянный мир.
+
+@every
+/ˈɛvri/
+pron. A1
+1. каждый, всякий
+   Choose a spokesperson for every group. - Выберите представителя от каждой группы.
+phr. every time - когда бы ни, каждый раз
+   Every time I call on you, you are out. - Всякий раз, когда я захожу к тебе, тебя нет дома.
+
+@everybody
+/ˈɛvribɒdi/
+pron. A1
+1. все, каждый, всякий - all people
+   Everybody here already knows about it. - Здесь уже все об этом знают.
+
+@everyday
+/ˈɛvriˌdeɪ/
+adj. A1
+1. ежедневный, повседневный, обычный - appropriate for ordinary use
+   Fights are an everyday occurrence here. - Драки здесь - обычное дело.
+
+@everyone
+/ˈɛvriːwʌn/
+pron. A1
+1. все, каждый, всякий - every person
+   Almost everyone has already gone home. - Почти все уже ушли домой.
+
+@everything
+/ˈɛvriˌθɪŋ/
+pron. A1
+1. всё - all the things
+   "Is everything alright?" "Not really." - "Всё хорошо?" - "Не совсем".
+
+@everywhere
+/ˈɛvriweə/
+adv. A1
+1. всюду, везде - at all places
+   Butterflies are fluttering everywhere. - Повсюду порхают бабочки.
+
+@evidence
+/ˈɛvɪdəns/
+v. A2
+1. служить доказательством - provide evidence
+   We have evidence that all this is true. - У нас есть доказательства, что всё это правда.
+n. A2
+2. очевидность
+   The evidence is clear. - Доказательства очевидны.
+
+@evident
+/ˈɛvɪdənt/
+adj. B1
+1. очевидный, ясный - obviously true
+   It is evident that the Earth is round. - Очевидно, что Земля круглая.
+
+@evidently
+/ˈɛvɪdəntli/
+adv. B2
+1. очевидно, несомненно - obviously
+   Evidently he does not want to speak to me. - Очевидно, он не хочет со мной разговаривать.
+
+@evil
+/ˈiːvəl/
+n. B2
+1. зло, вред - moral badness, wickedness
+   Every evil is easily crushed at birth. - Всякое зло легко сокрушается при рождении.
+adj. B2
+2. дурной, злой, зловещий
+   Do you believe in the Evil Eye? - Ты веришь в сглаз?
+
+@evoke
+/ɪˈvəʊk/
+v. C1
+1. вызывать - cause the manifestation of
+
+@evolution
+/ˌiːvəˈluːʃn/
+n. B2
+1. эволюция - a gradual process of development
+   Extinction is a part of evolution. - Вымирание - часть эволюции.
+
+@evolve
+/ɪˈvɒlv/
+v. B2
+1. развиваться, развёртываться - come into being
+   Human beings evolved their intelligence. - Люди развили свой интеллект.
+2. эволюционировать - change genetic composition
+   Can microorganisms evolve in a closed system? - Могут ли микроорганизмы эволюционировать в закрытой системе?
+
+@ewe
+/juː/
+n. C1
+1. овца - female sheep
+   The ewe fled. - Овца сбежала.
+
+@exact
+/ɪgˈzækt/
+adj. B1
+1. точный - precisely agreeing
+   This is an exact copy of the original. - Это точная копия оригинала.
+v. C2
+2. (настоятельно) требовать
+   The problem exacted a great effort to solve it. - Проблема требовала больших усилий, чтобы её решить.
+
+@exactly
+/ɪgˈzækli/
+adv. A2
+1. именно, да
+   How are they going to do that exactly? - Как именно они собираются это делать?
+2. точно, как раз - in an exact manner
+   I assure you they're exactly the same. - Уверяю вас, они точно такие же.
+
+@exactness
+n. B2
+1. точность, аккуратность - the state of being exact
+
+@exaggerate
+/ɛgˈzædʒəreɪt/
+v. B2
+1. преувеличивать - overstate, to describe more than is fact
+   Don't you feel that you're exaggerating? - Вам не кажется, что вы преувеличиваете?
+
+@exaggeration
+/ɪgˌzædʒəˈreɪʃən/
+n. B2
+1. преувеличение - act of exaggerating
+   He has a tendency toward exaggeration. - Он имеет склонность к преувеличению.
+
+@exalt
+/ɪgˈzɒlt/
+v. B2
+1. возвышать, возносить
+2. превозносить, восхвалять
+   exalt to the skies - превозносить до небес
+
+@exalted
+/ɪgˈzɔːltɪd/
+adj. C2
+1. возвышенный (о чувстве, стиле)
+
+@exam
+/ɪgˈzam/
+n. A2
+1. экзамен
+   Everyone in our class passed the exam. - Все в нашем классе сдали экзамен.
+
+@examination
+/ɪgˌzæmɪˈneɪʃən/
+n. B1
+1. экзамен - formal test
+   You don't have to take an examination. - Экзамен сдавать не нужно.
+phr. take an examination - сдавать экзамен
+
+@examine
+/ɪgˈzæmɪn/
+v. B1
+1. рассматривать, исследовать
+   The doctor used X-rays to examine my stomach. - Доктор прибегнул к рентгенографии, чтобы исследовать мой желудок.
+
+@examinee
+/ɪgˌzæmɪˈniː/
+n. B2
+1. экзаменующийся
+
+@examiner
+/əgˈzæmɪnə/
+n. B1
+1. экзаменатор - person who marks an examination
+
+@example
+/ɪgˈzɑːmpəl/
+n. A1
+1. пример - something representative of a group
+   "Kayak" is an example of a palindrome. - Слово "kayak" - пример палиндрома.
+phr. for example - например
+   I like flowers, for example, roses. - Я люблю цветы, например розы.
+
+@exceed
+/ɪkˈsiːd/
+v. B2
+1. превышать, переходить границы - go beyond the limits of something
+   Imports exceeded exports last year. - В прошлом году импорт превысил экспорт.
+
+@excel
+/ɪkˈsɛl/
+v. B2
+1. превосходить - surpass someone or something
+   Joe excels his older brother at swimming. - Джо превосходит своего старшего брата в плавании.
+
+@excellence
+/ˈɛksələns/
+n. B1
+1. превосходство - the quality of being excellent
+
+@excellent
+/ˈɛksələnt/
+adj. A1
+1. превосходный, отличный - of the highest quality
+   Everything was in excellent condition. - Всё было в отличном состоянии.
+
+@except
+/ɪkˈsɛpt/
+prep. A2
+1. исключая, кроме
+   No one asks such questions except you. - Никто, кроме тебя, не задает такие вопросы.
+
+@exception
+/əkˈsɛpʃən/
+n. B2
+1. исключение
+   There are no rules without exceptions. - Нет правил без исключений.
+phr. with the exception of - за исключением
+   With the exception of this point, things are not so simple. - За исключением этого места, все не так просто.
+
+@exceptional
+/ɪkˈsɛpʃənəl/
+adj. B2
+1. исключительный, необычный - forming an exception
+   Exceptional patience is required. - Требуется исключительное терпение.
+
+@exceptionally
+/ɪkˈsɛpʃənəli/
+adv. B2
+1. исключительно - unusual, remarkable or exceptional degree
+   Kyoto is an exceptionally pretty city. - Киото - исключительно красивый город.
+
+@excess
+/ˈɛksɛs/
+n. B1
+1. избыток, излишек - degree by which one thing exceeds another
+   An excess of sugar in the blood is called diabetes. - Когда у человека избыток сахара в крови, это называется диабет.
+
+@excessive
+/ɪkˈsɛsɪv/
+adj. B2
+1. чрезмерный - exceeding the bounds of something
+   Please refrain from excessive drinking. - Пожалуйста, воздержитесь от чрезмерного употребления алкоголя.
+
+@exchange
+/ɛksˈtʃeɪndʒ/
+n. A2
+1. обмен, мена - act of exchanging or trading
+   It came to a heated exchange of words. - Дошло до разгорячённого обмена ругательствами.
+2. биржа - place for conducting trading
+   The New York Stock Exchange closed for ten days. - Нью-Йоркская фондовая биржа закрылась на десять дней.
+v. B1
+3. обменивать - To trade or barter
+   Where can I exchange foreign currency? - Где я могу обменять иностранную валюту?
+phr. exchange seats - поменяться местами
+   Let me exchange seats with you. - Позвольте мне поменяться с вами местами.
+
+@exchange rate
+n. B1
+1. курс обмена, валютный курс, курс - currency rate (finance)
+
+@excited
+/ɪkˈsaɪtɪd/
+adj. A1
+1. возбуждённый - having great enthusiasm and energy
+   The audience were excited by the show. - Публика была в восторге от зрелища.
+
+@excitement
+/ɪkˈsaɪtmənt/
+n. B1
+1. возбуждение, волнение
+   I could barely contain my excitement. - Я едва мог сдержать волнение.
+
+@exciting
+/ɪkˈsʌɪtɪŋ/
+adj. A1
+1. захватывающий - causing excitement
+   It was a really exciting baseball game. - Это была очень захватывающая игра в бейсбол.
+
+@exclaim
+/ɛkˈskleɪm/
+v. B2
+1. восклицать - cry out
+   He exclaimed, "What a dirty face you have!" - "Какое грязное у тебя лицо!" — воскликнул он.
+
+@exclamation mark
+/ˌɛkskləˈmeɪʃn ˌmɑːk/
+n. B2
+1. восклицательный знак - punctuation mark “!”
+
+@exclude
+/ɪksˈkluːd/
+v. B2
+1. исключать, не впускать - bar from entering
+   Who do you want to exclude from the will? - Кого ты хочешь исключить из завещания?
+
+@exclusion
+/ɪksˈkluːʒən/
+n. B2
+1. исключение
+   Demand the exclusion of the country from the U. N. - Требует исключения страны из ООН.
+
+@exclusive
+/ɪkˈsklusɪv/
+adj. B1
+1. исключительный
+   We have the exclusive right to sell them. - У нас есть эксклюзивное право продавать их.
+
+@exclusively
+/ɪkˈskluːsɪvli/
+adv. B2
+1. исключительно, единственно, только - the exclusion of anything or anyone else
+   Arabic writing is exclusively cursive. - По-арабски пишут исключительно курсивом.
+
+@excursion
+/ɪkˈskɜːʃən/
+n. B2
+1. экскурсия, поездка - brief recreational trip
+   All in all, the excursion was pleasant. - В целом экскурсия оставила приятное впечатление.
+
+@excuse
+/ɪkˈskjuːz/
+n. A1
+1. извинение, оправдание
+   Excuse me for being dressed like this. - Извини, что я так одет.
+v. B1
+2. извинять, прощать - forgive, pardon
+   He excused himself and left the table. - Он извинился и вышел из-за стола.
+3. служить оправданием, извинением
+   He who excuses himself accuses himself. - Кто оправдывается, тот тем себя и обвиняет.
+phr. excuse me - извините!, виноват!
+   Excuse me, can you tell me that again? - Простите, можете ещё раз повторить?
+
+@execute
+/ˈɛksɪˌkjuːt/
+v. B2
+1. казнить - kill as punishment
+   The murderer was executed this morning. - Убийцу казнили сегодня утром.
+2. выполнять, осуществлять - start a defined process
+   I want to execute the plan by all means. - Я хочу выполнить план любой ценой.
+
+@execution
+/ˌɛksɪˈkjuːʃən/
+n. B2
+1. казнь
+   A stay of execution was ordered at the eleventh hour. - Казнь было приказано отложить в последнюю минуту.
+2. исполнение (музыкального произведения) - manner or style of a performance etc
+   The idea is good, but the execution is awful. - Идея-то хороша, а вот исполнение никудышное.
+
+@executive
+/ɪgˈzɛkjʊtɪv/
+adj. B2
+1. исполнительный - designed for execution
+   I am the executive director of the museum. - Я исполнительный директор музея.
+n. B2
+2. исполнительная власть
+
+@exercise
+/ˈɛksəsaɪz/
+v. A1
+1. упражнять(ся), развивать - exert for the sake of training
+   How do you find the time to exercise? - Как ты находишь время тренироваться?
+2. использовать, осуществлять (права) - take action, enforce
+   Everyone should exercise their right to vote. - Каждому следует осуществлять своё право голоса.
+n. A2
+3. упражнение, тренировка
+   The exercises are simple and effective. - Упражнения просты и эффективны.
+4. физическая зарядка, моцион
+   It is necessary to do some exercise every day. - Каждый день необходимо делать зарядку.
+
+@exert
+/ɪgˈzɜːt/
+v. C1
+1. напрягать (силы)
+   You don't exert yourself much. - Ты не сильно напрягаешься.
+
+@exhaust
+/ɪgˈzɔːst/
+n. B2
+1. выхлопная труба, выхлоп, выпуск
+   The air was polluted by exhaust gas. - Воздух был загрязнён выхлопными газами.
+v. C1
+2. истощать, изнурять
+   I am exhausted from a two-hour examination. - Я изнурен двухчасовым экзаменом.
+3. исчерпывать - draw or let out wholly
+   He exhausted all his energy. - Он исчерпал всю свою энергию.
+
+@exhausted
+/ɪgˈzɔːstɪd/
+adj. B1
+1. истощённый, изнурённый, измученный
+   I'm exhausted after that long trip. - Эта долгая поездка меня измучила.
+2. исчерпанный - drained of resources
+   He exhausted all his energy. - Он исчерпал всю свою энергию.
+
+@exhausting
+/ɪgˈzɔstɪŋ/
+adj. B2
+1. утомительный, изнурительный - Very tiring
+   Going out with girls is exhausting. - Встречаться с девушками утомительно.
+
+@exhaustion
+/ɪgˈzɔːstʃən/
+n. B2
+1. изнеможение, истощение - supreme tiredness
+   The giraffe died of exhaustion. - Жираф умер от истощения.
+
+@exhibit
+/ɪgˈzɪbɪt/
+n. B2
+1. экспонат - something exhibited
+   Visitors are asked not to touch the exhibits. - Посетителей просят не трогать экспонаты.
+v. B2
+2. выставлять
+   Sculptures from antiquity are exhibited in the museum. - В музее выставлены античные скульптуры.
+
+@exhibition
+/ɛksɪˈbɪʃən/
+n. A2
+1. выставка
+   The exhibition caused a minor scandal. - Выставка вызвала небольшой скандал.
+
+@exhibitionist
+/ɛksɪˈbɪʃənɪst/
+n. C1
+1. позёр, эксгибиционист
+
+@exhilarate
+/ɪgˈzɪləreɪt/
+v. C1
+1. развеселить, оживлять, подбодрять
+
+@exhilarating
+adj. C1
+1. волнующий - refreshingly thrilling
+   It was so exhilarating. - Это было так волнующе.
+
+@exhilaration
+n. C1
+1. весёлость, радостное настроение
+
+@exile
+/ˈɛgˌzaɪl/
+n. B2
+1. изгнание, ссылка
+   The criminal was sent into exile. - Преступник был отправлен в ссылку.
+2. изгнанник, ссыльный
+   He became an exile in his own country. - Он стал изгнанником в своей стране.
+v. B2
+3. изгонять, ссылать
+   All political prisoners are exiled here. - Сюда ссылают всех политзаключённых.
+
+@exist
+/ɪgˈzɪst/
+v. A2
+1. существовать, жить - be
+   I don't believe Atlantis ever existed. - Не думаю, что Атлантида когда-либо существовала.
+
+@existence
+/ɛgˈzɪstəns/
+n. B1
+1. существование, жизнь - state of being, existing, or occurring
+   Do you believe in the existence of God? - Вы верите в существование бога?
+
+@existing
+/ɪgˈzɪstɪŋ/
+adj. B2
+1. существующий - that exists
+
+@exit
+/ˈɛksɪt/
+n. B1
+1. выход - action of going out or going away
+   In case of fire, please use this exit. - При пожаре используйте, пожалуйста, этот выход.
+phr. no exit - нет выхода!
+   That building has no emergency exit. - В этом здании нет аварийного выхода.
+
+@exodus
+/ˈɛksədəs/
+n. C1
+1. массовый отъезд (особ. об эмигрантах)
+
+@exorcism
+/ˈɛksɔːsɪzəm/
+n. C2
+1. заклинание, изгнание нечистой силы
+
+@exorcist
+/ˈɛksɔːsɪst/
+n. C2
+1. экзорцист - a person who practices exorcism
+   He's an exorcist. - Он экзорцист.
+
+@exotic
+/ɪgˈzɒtɪk/
+adj. B2
+1. экзотический, иноземный - foreign
+   Her exotic perfume has a subtle scent. - У её экзотических духов тонкий аромат.
+
+@expand
+/ɪkˈspænd/
+v. B1
+1. расширять(-ся)
+   There is a scheme to expand the company. - Существует план по расширению компании.
+
+@expansion
+/ɪkˈspænʃən/
+n. B2
+1. расширение, растяжение - act of expanding
+   Esperanto is a huge expansion of my horizon. - Эсперанто - это громадное расширение моего горизонта.
+
+@expect
+/ɪkˈspɛkt/
+v. A2
+1. ждать, ожидать
+   I didn't expect it to be so cold here. - Я не ожидал, что здесь так холодно.
+
+@expectation
+/ˌɛkspɛkˈteɪʃən/
+n. B2
+1. ожидание - that which is expected or looked for
+   Did that hotel meet your expectations? - Этот отель оправдал ваши ожидания?
+
+@expected
+/ɪkˈspɛktɪd/
+adj. B2
+1. ожидаемый - anticipated
+   I expected the meeting to last longer. - Я ожидал, что собрание продлится дольше.
+
+@expedite
+/ˈɛkspəˌdaɪt/
+v. C1
+1. ускорять, быстро выполнять - accelerate the progress of
+   We're trying to expedite the process. - Мы пытаемся ускорить процесс.
+
+@expedition
+/ɛkspəˈdɪʃən/
+n. B2
+1. экспедиция - An important enterprise
+   He never returned from that expedition. - Он никогда не вернулся из той экспедиции.
+
+@expense
+/ɪkˈspɛns/
+n. B1
+1. статья расхода - that which is expended, laid out, or consumed
+   Keep a careful record of all expenses. - Аккуратно записывайте все расходы.
+2. трата, расход
+   I have run out of my traveling expenses. - Я истратил все свои отпускные.
+phr. cut down expenses - сократить расходы
+   We're trying to cut down on expenses. - Мы стараемся сократить расходы.
+
+@expensive
+/ɪkˈspɛnsɪv/
+adj. A1
+1. дорогой, дорогостоящий - having a high price or cost
+   I can't afford an expensive apartment. - Я не могу позволить себе дорогую квартиру.
+
+@experience
+/ɪkˈspɪəriəns/
+n. A2
+1. (жизненный) опыт
+   Do you have any experience doing that? - У тебя есть опыт в подобном деле?
+v. B1
+2. испытывать, знать по опыту - observe or undergo
+   You're way more experienced than I am. - Ты гораздо опытнее меня.
+
+@experienced
+/ɪkˈspɪərɪənst/
+adj. B1
+1. опытный, знающий - having experience
+   You're way more experienced than I am. - Ты гораздо опытнее меня.
+
+@experiment
+/ɪkˈspɛrɪmənt/
+n. B1
+1. опыт, эксперимент - test under controlled conditions
+   He explained why the experiment failed. - Он объяснил, почему опыт не удался.
+v. B2
+2. производить опыты - conduct an experiment
+   I'm like that too. I like experimenting. - Я такая же. Люблю экспериментировать.
+
+@expert
+/ˈɛkspɜːt/
+n. A2
+1. знаток, эксперт, специалист - person with extensive knowledge or ability
+   Experts say this isn't always the case. - Эксперты говорят, что это не всегда так.
+adj. B2
+2. опытный, искусный
+   Even expert drivers can make mistakes. - Даже опытные водители могут ошибаться.
+
+@expire
+/ɪkˈspaɪə/
+v. C1
+1. кончаться, истекать (о сроке)
+   This offer expires on August 15, 1999. - Срок действия данного предложения истекает 15 августа 1999 года.
+
+@explain
+/ɪkˈspleɪn/
+v. A2
+1. объяснять, толковать (значение) - make intelligible
+   Are they going to explain them to you? - Они будут вам их объяснять?
+
+@explanation
+/ˌɛkspləˈneɪʃən/
+n. A2
+1. объяснение, разъяснение - the act or process of explaining
+   Are you satisfied with my explanation? - Ты удовлетворён моим объяснением?
+
+@explanatory
+/ɪkˈsplænətri/
+adj. C1
+1. объяснительный - serving as an explanation
+   Is the drawing quite explanatory? - Достаточное ли объяснение даёт рисунок?
+
+@explode
+/ɪkˈspləʊd/
+v. B2
+1. взрывать(ся) - explode
+   The rocket exploded on the launch pad. - Ракета взорвалась на стартовой площадке.
+
+@exploit
+/ˈɛksplɔɪt/
+v. B2
+1. эксплуатировать - use for one’s advantage
+   These people are exploiting you. - Эти люди тебя используют.
+
+@exploitation
+/ˌɛksplɔɪˈteɪʃn/
+n. C1
+1. эксплуатация - act of exploiting
+
+@exploration
+/ˌɛkspləˈreɪʃən/
+n. B1
+1. исследование - act of exploring
+   That's a sort of exploration challenge. - Это, в своём роде, вызов к исследованию.
+
+@explore
+/ɪkˈsplɔː/
+v. A2
+1. исследовать, обследовать, изучать
+   He likes to explore underground caves. - Он любит исследовать подземные пещеры.
+
+@explorer
+/ɛkˈsplɔːrə/
+n. B2
+1. исследователь, геологоразведчик - person who explores
+   The explorers continued their journey. - Исследователи продолжили путешествие.
+
+@explosion
+/ɪkˈspləʊʒən/
+n. B1
+1. взрыв - violent release of energy
+   A lot of people died in the explosion. - От взрыва погибло множество людей.
+
+@explosive
+/ɛkˈspləʊsɪv/
+adj. B2
+1. взрывчатый - with the capability to, or likely to, explode
+   Dynamite is an explosive material. - Динамит - взрывчатое вещество.
+n. B2
+2. взрывчатое вещество - explosive substance
+   No explosives were found. - Взрывчатки обнаружено не было.
+
+@export
+/ˈɛkspɔːt/
+n. B2
+1. экспорт, вывоз - something that is exported
+   The export of weapons was prohibited. - Экспорт оружия был запрещен.
+v. B2
+2. экспортировать, вывозить (товары) - sell (goods) to a foreign country
+   Algeria imports more than it exports. - Алжир импортирует больше, чем экспортирует.
+
+@expose
+/ɪkˈspəʊz/
+v. B1
+1. подвергать (опасности, риску)
+   He deliberately exposed her to danger. - Он сознательно подверг её опасности.
+2. выставлять - reveal
+   Don't expose the tapes to the sun. - Не оставляй ленту на солнце.
+3. разоблачать
+   Your fave just got exposed, sweetie. - Твою любимицу только что разобрали, дорогуша.
+
+@express
+/ɪkˈsprɛs/
+n. A2
+1. срочное (почтовое) отправление
+v. B1
+2. выражать (прямо, ясно) - convey meaning
+   He didn't know how to express himself. - Он не знал, как себя выразить.
+3. ехать экспрессом
+adj. B1
+4. срочный, курьерский - moving or operating quickly
+   An express train from Moscow to Vladivostok takes six days. - Скорый поезд из Москвы во Владивосток идёт шесть суток.
+phr. express train - курьерский поезд, экспресс
+   The express train is an hour faster than the local. - Экспресс поезд быстрее местного на час.
+
+@expression
+/əkˈsprɛʃn/
+n. A2
+1. выражение - action of expressing thoughts
+   Does French have a similar expression? - Во французском есть похожее выражение?
+
+@expressive
+/ɪkˈsprɛsɪv/
+adj. B2
+1. выразительный, многозначительный - effectively conveying feeling
+   They have large, expressive eyes. - У неё большие выразительные глаза.
+
+@exquisite
+/ɪkˈskwɪzɪt/
+adj. B2
+1. изысканный, утончённый - especially fine
+   This is an exquisite little painting. - Это небольшая изысканная картина.
+
+@extant
+/ɛkˈstænt/
+adj. C2
+1. сохранившийся - still in existence
+
+@extend
+/ɛkˈstɛnd/
+v. B1
+1. расширять (дом) - cause to increase in extent
+   She wants to extend the no-smoking area. - Она хочет расширить зону, свободную от курения.
+2. протягивать
+   They extended a rope from tree to tree. - Они протянули верёвку от дерева к дереву.
+3. простирать (-ся), тянуть(ся) - possess a certain extent
+   The ocean extends to the distant horizon. - Океан простирается к далёкому горизонту.
+4. распространять (влияние)
+   His influence extends all over the country. - Его влияние распространяется на всю страну.
+
+@extension
+/ɪkˈstɛnʃən/
+n. B2
+1. расширение, распространение
+   How long an extension cord do you need? - Какой длины удлинитель тебе нужен?
+
+@extensive
+/ɪkˈstɛnsɪv/
+adj. B2
+1. обширный, пространный - wide
+   What an extensive program! - Обширная программа!
+
+@extensively
+/ɪkˈstɛnsɪvli/
+adv. B1
+1. широко
+
+@extent
+/ɪkˈstɛnt/
+n. B1
+1. степень, мера - space
+   I agree with you to a certain extent. - В какой-то степени я с Вами согласен.
+phr. what extent - до какой степени, насколько?
+   To what extent can he be trusted? - Насколько ему можно доверять?
+
+@exterior
+/ɪkˈstɪərɪə/
+n. C1
+1. внешность, наружность, внешняя - The outside part
+
+@external
+/ɪkˈstɜːnəl/
+adj. B2
+1. (чисто) внешний, несущественный - outside of something
+   Save it on the external hard drive. - Сохрани её на внешнем жёстком диске.
+
+@extinct
+/ɪkˈstɪŋkt/
+adj. B1
+1. вымерший - having died out completely
+   The dodo is an already extinct species. - Додо - это уже вымерший вид.
+
+@extinction
+/ɪkˈstɪŋkʃən/
+n. B1
+1. вымирание (рода) - the action of making or becoming extinct
+   This bird is now in danger of extinction. - Эта птица находится сейчас под угрозой вымирания.
+
+@extortion
+/ɪkˈstɔːʃən/
+n. C1
+1. вымогательство
+   This is extortion. - Это вымогательство.
+
+@extra
+/ˈɛkstrə/
+adj. A2
+1. лишний, излишний
+   I have an extra pen I could lend you. - У меня есть лишняя ручка, которую я мог бы вам одолжить.
+adv. A2
+2. особо, особенно - an extraordinary degree
+   Tom is extra careful. - Том особенно аккуратен.
+n. B1
+3. что-л. дополнительное
+   I hope we get paid extra for doing that. - Надеюсь, нам заплатят отдельно за то, что мы это делаем.
+
+@extract
+/ˈɛkstrækt/
+v. B2
+1. вытаскивать, удалять (зуб)
+   Sami had his wisdom teeth extracted. - Сами удалили зубы мудрости.
+2. получать экстракт
+   Add the vanilla extract. - Добавьте экстракт ванили.
+n. B2
+3. выдержка, извлечение (из книги) - portion of a document
+
+@extracurricular
+/ˌɛkstrəkəˈrɪkjʊlə/
+adj. C2
+1. внеклассный, внеурочный
+
+@extraordinarily
+adv. B2
+1. совершенно необычно
+   Tom was extraordinarily handsome. - Том был необычайно красив.
+
+@extraordinary
+/ɪkˈstrɔːdɪnri/
+adj. B1
+1. необычайный, выдающийся - not ordinary
+   Rosa Montero is an extraordinary woman. - Роза Монтеро - экстраординарная женщина.
+
+@extravagance
+/ɪkˈstrævəgəns/
+n. C1
+1. расточительность - excessive expenditure
+
+@extreme
+/ɪkˈstriːm/
+adj. B1
+1. крайний - of a place
+   Aya tends to carry things to extremes. - Ая склонна всё переводить в крайности.
+
+@extremely
+/ɪksˈtriːmli/
+adv. A2
+1. чрезвычайно, крайне, очень - an extreme degree
+   Doing that can be extremely dangerous. - Делать это может быть крайне опасно.
+
+@exuberance
+/ɪgˈzjuːbərəns/
+n. C1
+1. изобилие, избыток, богатство - The quality of being exuberant
+
+@exuberant
+/ɪgˈzuːbərənt/
+adj. C1
+1. бьющий через край, бурный - very high-spirited
+   Tom is exuberant. - Том неудержим.
+
+@exude
+/ɪgˈzjuːd/
+v. C2
+1. выделять(ся) (о поте) - discharge through pores
+
+@exultant
+/ɪgˈzʌltənt/
+adj. B2
+1. ликующий - very happy
+
+@eye
+/ˈaɪ/
+n. A1
+1. глаз, око, зрение - organ
+   Can you change the color of your eyes? - Вы можете изменить цвет своих глаз?
+phr. black eye - подбитый глаз
+   He's got a black eye. What happened? - У него синяк под глазом. Что случилось?
+
+@eyebrow
+/ˈaɪˌbraʊ/
+n. B2
+1. бровь
+   Why does the Mona Lisa have no eyebrows? - Почему у Моны Лизы нет бровей?
+
+@eyelash
+/ˈaɪlæʃ/
+n. B2
+1. ресницы - hair growing on the edge of an eyelid
+   She batted her eyelashes. - Она похлопала ресницами.
+
+@eyelid
+/ˈaɪlɪd/
+n. B2
+1. веко
+   My left eyelid is twitching. - У меня дёргается левое веко.
+
+@eyesight
+/ˈaɪˌsaɪt/
+n. B1
+1. зрение - faculty of sight
+   He lost his eyesight in that accident. - Он потерял зрение в той аварии.

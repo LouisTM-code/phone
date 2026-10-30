@@ -1,0 +1,29 @@
+NAME = apps
+TWO_STAGE = 0
+
+APP_SRCS = main gfx ui icons dict dictfile cards reader book shelf marks notes quiz
+# the party games are a program of their own: NAME=party (party_pc for the PC), built with LOG=0
+ifneq ($(filter party%,$(NAME)),)
+APP_SRCS = party alias roles bomb gfx ui icons
+endif
+
+# temporary debug log (log.h); after changing LOG run make clean
+LOG ?= 1
+ifeq ($(LOG), 1)
+APP_SRCS += log
+EXTRA_CFLAGS += -DAPP_LOG=1 -DATEXIT_MAX=1
+endif
+# the PC build checks what the phone's card allows and counts reads (pccard.c)
+ifeq ($(PCTEST), 1)
+APP_SRCS += pccard
+LFLAGS += $(foreach f,fopen fread malloc calloc realloc free,-Wl,--wrap=$(f))
+endif
+APP_OBJS1 = $(APP_SRCS:%=$(OBJDIR)/app/%.o)
+APP_OBJS2 =
+
+include ../buildinc.make
+
+APP_CFLAGS += -std=c99 -pedantic
+APP_CFLAGS += -I$(SYSDIR)
+
+

@@ -1,0 +1,628 @@
+@machine
+n. A1
+1. машина, механизм, станок - a thing with moving parts that does work
+   The washing machine is broken. - Стиральная машина сломалась.
+
+@mad
+adj. A2
+1. сумасшедший, безумный - mentally ill; very silly
+   You must be mad to swim in winter!
+2. злой, сердитый (на) - very angry
+   Mum was mad at me for coming home late. - Мама злилась на меня за то, что я пришёл поздно.
+3. без ума (от) - liking something very much
+   He is mad about football.
+
+@madam
+n. B1
+1. мадам, госпожа - polite word used to speak to a woman
+   Can I help you, madam?
+
+@magazine
+n. A1
+1. журнал - a thin paper book with news, photos and stories, sold every week or month
+   She was reading a fashion magazine. - Она читала журнал мод.
+
+@magic
+n. A2
+1. магия, волшебство - special power to make strange things happen
+   The witch used magic to turn him into a frog.
+2. фокусы - tricks done to entertain people
+   He does magic at parties.
+adj. A2
+3. волшебный - having special powers
+   a magic ring
+
+@magnificent
+adj. B2
+1. великолепный, величественный - very beautiful or impressive
+   They had a magnificent view of the sea.
+
+@maid
+n. B2
+1. горничная, служанка - a woman servant in a house or hotel
+   The maid brought in the tea.
+
+@mail
+n. A1
+1. почта, письма - letters and packets sent by post
+   Is there any mail for me? - Мне есть почта?
+2. электронная почта - email
+   Check your mail.
+v. B1
+3. отправлять по почте - to send by post or email
+   I'll mail you the photos.
+
+@main
+adj. A1
+1. главный, основной - most important, biggest
+   The main problem is money. - Главная проблема - деньги.
+   the main road
+
+@mainly
+adv. A2
+1. в основном, главным образом - mostly
+   The people here are mainly farmers.
+
+@maintain
+v. B2
+1. поддерживать, сохранять - to keep something at the same level
+   It is hard to maintain good relations with him.
+2. содержать в порядке - to keep a building or machine in good condition
+   The house is well maintained.
+3. утверждать - to say firmly that something is true
+   He maintained that he was innocent.
+
+@major
+adj. A2
+1. главный, крупный, серьёзный - very large or important
+   a major problem; a major city
+n. B2
+2. майор - an army officer
+   Major Smith
+
+@majority
+n. B1
+1. большинство - most of the people or things in a group
+   The majority of students passed the exam.
+
+@make
+v. (made, made) A1
+1. делать, создавать - to produce, build or cook something
+   She made a cake. - Она испекла торт.
+2. заставлять - to force someone to do something
+   He made me wait an hour. - Он заставил меня ждать час.
+3. делать (каким-то) - to cause to be
+   The news made her happy.
+4. зарабатывать - to earn money
+   He makes a lot of money.
+phr. make up - выдумывать; мириться; составлять
+   She made up a story. They argued but made up later.
+phr. make out - разглядеть, разобрать; понять
+phr. make sure - убедиться, проследить
+   Make sure the door is locked.
+
+@male
+adj. B1
+1. мужской, мужского пола - belonging to men or boys, or the sex that cannot have babies
+   a male nurse
+n. B1
+2. мужчина; самец - a man or male animal
+   The male has bright feathers.
+
+@man
+n. (pl. men) A1
+1. мужчина - an adult male person
+   An old man was sitting on the bench. - На скамейке сидел старик.
+2. человек, люди - a person; people in general
+   All men are equal.
+
+@manage
+v. A2
+1. справиться, суметь - to succeed in doing something difficult
+   We managed to finish on time. - Мы сумели закончить вовремя.
+2. руководить, управлять - to be in charge of a business or people
+   She manages a small hotel.
+
+@manager
+n. A2
+1. менеджер, управляющий - a person in charge of a shop, team or company
+   I want to speak to the manager. - Я хочу поговорить с управляющим.
+
+@mankind
+n. B2
+1. человечество - all people
+   the history of mankind
+
+@manner
+n. B1
+1. манера, способ - the way something is done
+   She spoke in a friendly manner.
+2. манеры (мн.) - polite behaviour
+   It is bad manners to talk with your mouth full.
+
+@mansion
+n. B2
+1. особняк - a very large house
+   They live in a mansion.
+
+@many
+det., pron. A1
+1. много, многие - a large number of
+   Many people came to the party. - На вечеринку пришло много людей.
+   How many books do you have?
+
+@map
+n. A1
+1. карта, план - a picture of an area showing roads, rivers, towns
+   Let's look at the map. - Давай посмотрим на карту.
+
+@march
+v. B1
+1. маршировать, шагать - to walk with regular steps, like soldiers
+   The soldiers marched through the town.
+2. решительно идти - to walk quickly and angrily
+   She marched out of the room.
+n. B1
+3. марш, шествие - an organized walk to protest
+   a peace march
+
+@mark
+n. A2
+1. пятно, след - a small spot or line on a surface
+   There is a dirty mark on your shirt.
+2. оценка, балл - a number or letter given for school work
+   She got good marks in maths.
+3. знак - a sign or symbol
+   a question mark
+v. B1
+4. отмечать, помечать - to put a sign on something
+   He marked the place on the map.
+5. проверять, ставить оценки - to check and grade work
+   The teacher is marking our tests.
+
+@market
+n. A1
+1. рынок - a place where people buy and sell things
+   She buys vegetables at the market. - Она покупает овощи на рынке.
+
+@marriage
+n. B1
+1. брак, супружество - the relationship of husband and wife
+   They had a long and happy marriage.
+2. свадьба - a wedding
+
+@married
+adj. A1
+1. женатый, замужем - having a husband or wife
+   Are you married? - Ты женат (замужем)?
+   They got married last year. - Они поженились в прошлом году.
+
+@marry
+v. A2
+1. жениться, выйти замуж - to become someone's husband or wife
+   Will you marry me? - Ты выйдешь за меня замуж?
+2. венчать, женить - to perform the wedding ceremony
+   The priest married them in June.
+
+@marvellous
+adj. B2
+1. чудесный, изумительный - wonderful
+   We had a marvellous time.
+
+@mask
+n. B1
+1. маска - a cover for the face
+   The robber wore a mask.
+
+@mass
+n. B1
+1. масса, куча, множество - a large amount or number
+   a mass of people; masses of food
+2. месса, обедня - a church service in some churches
+   They went to Mass on Sunday.
+adj. B2
+3. массовый - involving many people
+   mass murder
+
+@master
+n. B1
+1. хозяин, господин - a man who has power over servants or animals
+   The dog ran to its master.
+2. мастер - a person very good at something
+   a master of disguise
+v. B2
+3. овладеть, освоить - to learn something completely
+   She mastered French in a year.
+
+@match
+n. A1
+1. матч, игра - a sports competition
+   a football match - футбольный матч
+2. спичка - a small stick that makes fire
+   He lit a match. - Он зажёг спичку.
+v. A2
+3. подходить, сочетаться - to look good together; to be the same
+   Your shoes match your bag.
+
+@mate
+n. B1
+1. приятель, друг - a friend (British, informal)
+   He's out with his mates.
+2. пара, партнёр (у животных) - the sexual partner of an animal
+   Birds sing to attract a mate.
+
+@material
+n. A2
+1. материал, вещество - what things are made of
+   building materials
+2. ткань - cloth
+   The dress is made of soft material.
+3. материал (для книги и т.п.) - information for a book or film
+   He was collecting material for his novel.
+
+@matter
+n. A2
+1. дело, вопрос - a subject or situation
+   It's a private matter. - Это личное дело.
+2. (что-то) не так, в чём дело - a problem
+   What's the matter? - В чём дело? Что случилось?
+v. A2
+3. иметь значение - to be important
+   It doesn't matter. - Это неважно.
+phr. no matter (what/how) - неважно, что бы ни
+   No matter what happens, call me.
+phr. as a matter of fact - на самом деле, вообще-то
+
+@maximum
+adj., n. B1
+1. максимум, максимальный - the largest possible amount
+   a maximum of ten people
+
+@may
+modal v. A2
+1. может быть, возможно - it is possible that
+   It may rain later. - Возможно, позже пойдёт дождь.
+2. можно (разрешение) - to be allowed
+   May I come in? - Можно войти?
+
+@maybe
+adv. A1
+1. может быть, возможно - perhaps
+   Maybe he's right. - Может быть, он прав.
+
+@mayor
+n. B1
+1. мэр - the head of a town
+
+@meadow
+n. B2
+1. луг - a field of grass and flowers
+   Cows were grazing in the meadow.
+
+@meal
+n. A1
+1. еда, приём пищи - breakfast, lunch, dinner, etc.
+   We had a meal together. - Мы вместе поели.
+
+@mean
+v. (meant, meant) A1
+1. значить, означать - to have a meaning
+   What does this word mean? - Что значит это слово?
+2. иметь в виду - to want to say
+   What do you mean? - Что ты имеешь в виду?
+3. намереваться, хотеть - to intend
+   I didn't mean to hurt you. - Я не хотел тебя обидеть.
+adj. B1
+4. злой, подлый; скупой - unkind; not liking to spend money
+   Don't be mean to your sister.
+
+@meaning
+n. A1
+1. значение, смысл - what a word or thing means
+   What is the meaning of this word? - Каково значение этого слова?
+2. смысл (жизни) - purpose, importance
+   His life had lost all meaning.
+
+@means
+n. (pl. means) B1
+1. средство, способ - a way of doing something
+   a means of transport
+2. средства, деньги - money
+   He lived beyond his means.
+phr. by no means - ни в коем случае, вовсе не
+   It is by no means easy.
+phr. by means of - посредством, с помощью
+
+@meantime
+n. B2
+1. тем временем - the time between two events
+   in the meantime - тем временем, пока
+
+@meanwhile
+adv. B1
+1. тем временем, между тем - at the same time; until something else happens
+   Meanwhile, back at home, Mum was cooking.
+
+@measure
+v. B1
+1. измерять - to find the size or amount of something
+   She measured the window.
+n. B2
+2. мера, мероприятие - an action taken to deal with a problem
+   safety measures
+3. мера (количество) - an amount
+   a measure of success
+
+@meat
+n. A1
+1. мясо - the flesh of an animal eaten as food
+   I don't eat meat. - Я не ем мясо.
+
+@medal
+n. B1
+1. медаль - a metal disc given as a prize
+   a gold medal
+
+@media
+n. B1
+1. СМИ, средства массовой информации - TV, radio, newspapers, the Internet
+   The media were interested in the story.
+
+@medical
+adj. A2
+1. медицинский - connected with medicine and doctors
+   He needs medical help.
+
+@medicine
+n. A2
+1. лекарство - something you take when you are ill
+   Take this medicine twice a day. - Принимай это лекарство дважды в день.
+2. медицина - the science of treating illness
+   She is studying medicine.
+
+@medium
+adj. A2
+1. средний - in the middle in size or amount
+   He is of medium height.
+
+@meet
+v. (met, met) A1
+1. встречать(ся) - to come together with someone
+   Let's meet at six. - Давай встретимся в шесть.
+2. знакомиться - to see someone for the first time
+   Nice to meet you. - Приятно познакомиться.
+3. удовлетворять (требованиям) - to be good enough for
+   to meet the needs of children
+
+@meeting
+n. A1
+1. собрание, совещание - an event where people discuss things
+   She is in a meeting. - Она на совещании.
+2. встреча - a time when people meet
+   a chance meeting
+
+@melody
+n. B2
+1. мелодия - a tune
+   a sweet melody
+
+@melt
+v. B1
+1. таять, плавить(ся) - to turn from solid to liquid with heat
+   The snow is melting. - Снег тает.
+2. смягчаться, таять (о чувствах) - to become soft or kind
+   Her heart melted when she saw the baby.
+
+@member
+n. A1
+1. член, участник - a person who belongs to a group
+   a member of the family - член семьи
+
+@memory
+n. A2
+1. память - the ability to remember
+   He has a good memory. - У него хорошая память.
+2. воспоминание - something you remember
+   happy memories of childhood
+
+@mend
+v. B1
+1. чинить, штопать - to repair
+   Can you mend my shoes?
+
+@mental
+adj. B1
+1. умственный, психический - of the mind
+   mental health
+
+@mention
+v. B1
+1. упоминать - to speak about briefly
+   She didn't mention her husband.
+phr. don't mention it - не за что
+n. B1
+2. упоминание - a short remark about something
+   There was no mention of the accident.
+
+@menu
+n. A1
+1. меню - a list of food in a restaurant
+   Can I see the menu, please? - Можно меню, пожалуйста?
+
+@merchant
+n. B2
+1. купец, торговец - a person who buys and sells goods
+   a rich merchant
+
+@mercy
+n. B2
+1. милосердие, пощада - kindness to someone you could punish
+   They showed no mercy to their prisoners.
+phr. at the mercy of - во власти (кого-то/чего-то)
+
+@mere
+adj. B2
+1. всего лишь, простой - only; not more than
+   She was a mere child. - Она была всего лишь ребёнком.
+
+@merely
+adv. B2
+1. лишь, только, просто - only
+   I was merely asking a question.
+
+@merry
+adj. B2
+1. весёлый - happy and cheerful
+   Merry Christmas! - С Рождеством!
+
+@mess
+n. B1
+1. беспорядок, бардак - a dirty or untidy state
+   Your room is a mess! - В твоей комнате бардак!
+2. неприятности, путаница - a difficult situation
+   How did we get into this mess?
+phr. mess up - испортить, напортачить
+   I messed up the exam.
+phr. mess about/around - валять дурака, бездельничать
+
+@message
+n. A1
+1. сообщение, записка - a short piece of information sent to someone
+   Can I leave a message? - Можно оставить сообщение?
+2. смысл, идея - the main idea of a book or film
+   The message of the film is clear.
+
+@metal
+n. A2
+1. металл - a hard material like iron or gold
+   The box was made of metal.
+
+@method
+n. A2
+1. метод, способ - a way of doing something
+   new teaching methods
+
+@metre
+n. A1
+1. метр - a unit of length, 100 cm
+   The room is five metres long.
+
+@middle
+n. A1
+1. середина - the centre; the part between the beginning and the end
+   in the middle of the room - посреди комнаты
+   in the middle of the night - посреди ночи
+adj. A2
+2. средний - in the centre
+   the middle finger
+
+@midnight
+n. A2
+1. полночь - twelve o'clock at night
+   We got home at midnight.
+
+@might
+modal v. A2
+1. может быть, мог бы - it is possible that
+   He might come later. - Возможно, он придёт позже.
+2. (прошедшее от may) - past of may
+   She said she might be late.
+n. C1
+3. мощь, сила - great strength
+   He pushed with all his might.
+
+@mighty
+adj. B2
+1. могучий, мощный - very strong or powerful
+   a mighty river
+
+@mild
+adj. B1
+1. мягкий, тёплый (о погоде) - not very cold
+   a mild winter
+2. лёгкий, слабый - not strong or serious
+   a mild illness; a mild cheese
+
+@mile
+n. A1
+1. миля (1,6 км) - a unit of distance, about 1.6 km
+   We walked for miles.
+
+@military
+adj. B1
+1. военный - connected with soldiers or the army
+   military service
+n. B2
+2. армия, вооружённые силы - the army
+
+@milk
+n. A1
+1. молоко - the white liquid from cows that people drink
+   a glass of milk - стакан молока
+v. B2
+2. доить - to take milk from a cow
+
+@mill
+n. B2
+1. мельница - a building where grain is made into flour
+   an old water mill
+2. фабрика - a factory
+   a cotton mill
+
+@million
+num. A1
+1. миллион - 1,000,000
+   millions of people
+
+@mind
+n. A2
+1. ум, разум, сознание - the part of you that thinks
+   It's all in your mind. - Это всё у тебя в голове.
+2. мнение, намерение - what you think or want
+   I've changed my mind. - Я передумал.
+v. A2
+3. возражать, быть против - to be annoyed by
+   Do you mind if I open the window? - Вы не против, если я открою окно?
+   I don't mind. - Мне всё равно. / Я не против.
+4. присматривать; остерегаться - to take care of; to be careful
+   Mind the step!
+phr. make up your mind - решиться, принять решение
+phr. never mind - ничего, неважно
+phr. keep/bear in mind - иметь в виду, помнить
+
+@mine
+pron. A1
+1. мой, моя, моё, мои - the one that belongs to me
+   This book is mine. - Эта книга моя.
+n. B2
+2. шахта, рудник - a deep hole where people dig for coal, gold, etc.
+   a coal mine
+3. мина - a bomb hidden in the ground or sea
+
+@mineral
+n. B1
+1. минерал, полезное ископаемое - a natural substance from the earth
+   mineral water - минеральная вода
+
+@minimum
+adj., n. B1
+1. минимум, минимальный - the smallest possible amount
+   a minimum of three years
+
+@minister
+n. B1
+1. министр - a person in charge of a government department
+   the Prime Minister - премьер-министр
+2. священник, пастор - a priest in some churches
+
+@minor
+adj. B1
+1. незначительный, мелкий - small, not important
+   a minor problem; minor injuries
+
+@minute
+n. A1
+1. минута - sixty seconds
+   The bus leaves in five minutes. - Автобус уходит через пять минут.
+2. минутка, момент - a very short time
+   Wait a minute! - Подожди минутку!

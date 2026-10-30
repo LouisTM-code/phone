@@ -1,0 +1,2 @@
+# The PDF for the reader tests, fetched by make testdl into dl/books/.
+attention.pdf https://arxiv.org/pdf/1706.03762

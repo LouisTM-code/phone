@@ -1,0 +1,169 @@
+#!/usr/bin/env python3
+"""Extracts glyphs from Linux console fonts (PSF) into C headers.
+
+usage: mkfont.py OUT.h [FONT.psf.gz] [--ascii]
+       mkfont.py --full OUT.h REGULAR.psf.gz BOLD.psf.gz REGULAR.bdf.gz BOLD.bdf.gz
+--full writes the whole 512-glyph fonts for fpdoom/apps (font.h): the regular
+and bold glyphs and the sorted code points with their glyph numbers, and the
+signs of British transcriptions (IPA) after them: those of the full Terminus
+(the BDF fonts of tools/fonts/), the others made from its glyphs or drawn here.
+Otherwise the Cyrillic glyphs only (font_cyr.h):
+Default font: CyrSlav-VGA16, the same VGA style as font_ascii.h (glyphs keep the
+right column empty, which gives the gap between letters).
+--ascii puts U+0020..U+007F before the Cyrillic glyphs (one header for the whole
+font, used by fpdoom/term with CyrSlav-VGA8). Glyphs are 8 pixels wide, one byte
+per row, any height.
+"""
+import gzip
+import re
+import struct
+import sys
+
+DEFAULT_FONT = "/usr/share/consolefonts/CyrSlav-VGA16.psf.gz"
+CHARS = list(range(0x410, 0x450)) + [0x401, 0x451]
+
+
+def load_psf(path, numbers=False):
+    """{code point: glyph rows}, height; with numbers=True {code point: glyph
+    number} and the list of glyphs."""
+    data = gzip.open(path).read() if path.endswith(".gz") else open(path, "rb").read()
+    uni = {}
+    if data[:2] == b"\x36\x04":  # PSF1
+        mode, height = data[2], data[3]
+        count = 512 if mode & 1 else 256
+        glyphs = [data[4 + i * height:4 + (i + 1) * height] for i in range(count)]
+        if not mode & 2:
+            sys.exit(f"{path}: no unicode table")
+        pos = 4 + count * height
+        for i in range(count):
+            while True:
+                (u,) = struct.unpack("<H", data[pos:pos + 2])
+                pos += 2
+                if u == 0xFFFF:
+                    break
+                if u != 0xFFFE:
+                    uni.setdefault(u, i if numbers else glyphs[i])
+    else:  # PSF2
+        magic, _, hsize, flags, count, size, height, width = struct.unpack("<8I", data[:32])
+        if magic != 0x864AB572 or width != 8 or not flags & 1:
+            sys.exit(f"{path}: need an 8-pixel wide PSF2 font with a unicode table")
+        glyphs = [data[hsize + i * size:hsize + (i + 1) * size] for i in range(count)]
+        table = data[hsize + count * size:].split(b"\xff")
+        for i in range(count):
+            for ch in table[i].split(b"\xfe")[0].decode("utf-8", "ignore"):
+                uni.setdefault(ord(ch), i if numbers else glyphs[i])
+    return (uni, glyphs) if numbers else (uni, height)
+
+
+# IPA signs: from the full Terminus, made from its glyphs ("copy", "rot180",
+# "flipv", "mirror" of a character), or drawn (rows 0..15; bold: a pixel wider)
+IPA_BDF = "əɔθʒŋɛ"
+IPA_MADE = {"ɑ": ("copy", "α"), "ɒ": ("rot180", "α"), "ʌ": ("flipv", "v"),
+            "ɜ": ("mirror", "ɛ"), "ˈ": ("copy", "'")}
+IPA_DRAWN = {
+    "ɪ": {5: "..###...", 6: "...#....", 7: "...#....", 8: "...#....", 9: "...#....",
+          10: "...#....", 11: "..###..."},
+    "ʊ": {5: ".##..##.", 6: "..#..#..", 7: ".#....#.", 8: ".#....#.", 9: ".#....#.",
+          10: ".#....#.", 11: "..####.."},
+    "ʃ": {2: "....###.", 3: "...#....", 4: "...#....", 5: "...#....", 6: "...#....",
+          7: "...#....", 8: "...#....", 9: "...#....", 10: "...#....", 11: "...#....",
+          12: "...#....", 13: "...#....", 14: ".###...."},
+    "ː": {6: "..###...", 7: "...#....", 10: "...#....", 11: "..###..."},
+    "ˌ": {12: "...#....", 13: "...#....", 14: "...#...."},
+}
+
+
+def load_bdf(path):
+    """{code point: glyph rows} of an 8x16 BDF font"""
+    text = gzip.open(path, "rt").read() if path.endswith(".gz") else open(path).read()
+    return {int(m.group(1)): bytes(int(x, 16) for x in m.group(2).split())
+            for m in re.finditer(r"ENCODING (\d+)\n.*?BITMAP\n(.*?)ENDCHAR", text, re.S)}
+
+
+def rows_span(g):
+    rows = [i for i, b in enumerate(g) if b]
+    return rows[0], rows[-1]
+
+
+def made(how, g):
+    """the glyph g turned: in place within its rows, so a small letter stays one"""
+    top, bottom = rows_span(g)
+    mid = list(g[top:bottom + 1])
+    if how in ("flipv", "rot180"):
+        mid = mid[::-1]
+    if how in ("mirror", "rot180"):
+        mid = [int(f"{b:08b}"[::-1], 2) for b in mid]
+    return g[:top] + bytes(mid) + g[bottom + 1:]
+
+
+def ipa_glyphs(regular_bdf, bold_bdf):
+    """{code point: (regular rows, bold rows)} of the transcription signs"""
+    reg, bold = load_bdf(regular_bdf), load_bdf(bold_bdf)
+    out = {ord(c): (reg[ord(c)], bold[ord(c)]) for c in IPA_BDF}
+    for c, (how, src) in IPA_MADE.items():
+        out[ord(c)] = (made(how, reg[ord(src)]), made(how, bold[ord(src)]))
+    for c, rows in IPA_DRAWN.items():
+        g = bytes(int(rows.get(i, "........").replace(".", "0").replace("#", "1"), 2) for i in range(16))
+        out[ord(c)] = (g, bytes(b | b >> 1 for b in g))
+    return out
+
+
+def write_full(out, regular, bold, regular_bdf, bold_bdf):
+    uni, glyphs = load_psf(regular, True)
+    buni, bglyphs = load_psf(bold, True)
+    if set(uni) != set(buni):
+        sys.exit(f"{bold}: not the same characters as {regular}")
+    # the bold glyphs in the order of the regular ones
+    bglyphs = {i: bglyphs[buni[c]] for c, i in uni.items()}
+    bglyphs = [bglyphs.get(i, bytes(len(glyphs[0]))) for i in range(len(glyphs))]
+    for c, (g, b) in sorted(ipa_glyphs(regular_bdf, bold_bdf).items()):
+        if c not in uni:
+            uni[c] = len(glyphs)
+            glyphs.append(g)
+            bglyphs.append(b)
+    codes = sorted(c for c in uni if c <= 0xFFFF)
+    names = [p.rsplit("/", 1)[-1] for p in (regular, bold, regular_bdf, bold_bdf)]
+    with open(out, "w") as f:
+        f.write(f"/* generated by tools/mkfont.py --full from {names[0]}, {names[1]}, "
+                f"{names[2]} and {names[3]} */\n")
+        f.write(f"#define FONT_NCODES {len(codes)}\n")
+        for name, gl in (("font_regular", glyphs), ("font_bold", bglyphs)):
+            f.write(f"static const uint8_t {name}[{len(gl)} * FONT_H] = {{\n")
+            for i, g in enumerate(gl):
+                f.write(",".join(f"0x{b:02x}" for b in g) + f", /* {i} */\n")
+            f.write("};\n")
+        f.write("/* sorted code points and their glyphs */\n")
+        f.write("static const uint16_t font_codes[FONT_NCODES] = {\n")
+        for k in range(0, len(codes), 12):
+            f.write(",".join(f"0x{c:04x}" for c in codes[k:k + 12]) + ",\n")
+        f.write("};\nstatic const uint16_t font_glyph[FONT_NCODES] = {\n")
+        for k in range(0, len(codes), 16):
+            f.write(",".join(str(uni[c]) for c in codes[k:k + 16]) + ",\n")
+        f.write("};\n")
+
+
+def main():
+    if sys.argv[1:2] == ["--full"] and len(sys.argv) == 7:
+        write_full(*sys.argv[2:])
+        return
+    args = [a for a in sys.argv[1:] if a != "--ascii"]
+    ascii_too = len(args) < len(sys.argv) - 1
+    if len(args) not in (1, 2):
+        sys.exit(__doc__)
+    font = args[1] if len(args) == 2 else DEFAULT_FONT
+    uni, height = load_psf(font)
+    chars = (list(range(0x20, 0x80)) if ascii_too else []) + CHARS
+    uni.setdefault(0x7f, bytes(height))
+    missing = [hex(c) for c in chars if c not in uni]
+    if missing:
+        sys.exit(f"{font}: missing {', '.join(missing)}")
+    name = font.rsplit("/", 1)[-1]
+    with open(args[0], "w") as f:
+        first = "U+0020..U+007F, " if ascii_too else ""
+        f.write(f"/* 8x{height} glyphs: {first}U+0410..U+044F, U+0401, U+0451 ({name}) */\n")
+        for c in chars:
+            f.write(",".join(f"0x{b:02x}" for b in uni[c]) + f", /* U+{c:x} */\n")
+
+
+if __name__ == "__main__":
+    main()

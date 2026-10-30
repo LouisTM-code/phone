@@ -1,0 +1,17 @@
+# Spy, the place mode: 4 players see their roles in turn, the talk on the clock,
+# the answer, the settings and the rules
+#! app party
+RIGHT 5 shot menu
+5 shot player1
+5 shot role1
+5 5 shot role2
+5 5 shot role3
+5 5 shot role4
+5 shot ready
+5 shot talk
+RSOFT shot confirm
+5 5 shot answer
+RSOFT DOWN 5 shot settings
+5 shot modes
+RSOFT DOWN DOWN 5 shot spies
+DOWN 5 RSOFT DOWN 5 shot rules
