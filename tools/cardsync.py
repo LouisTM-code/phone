@@ -50,6 +50,7 @@ def write_index(root, entries, covers):
                        (COVERS, b"".join(covers))):
         path = os.path.join(root, name)
         if not os.path.exists(path) or open(path, "rb").read() != data:
+            os.makedirs(os.path.dirname(path), exist_ok=True)
             open(path, "wb").write(data)
 
 
